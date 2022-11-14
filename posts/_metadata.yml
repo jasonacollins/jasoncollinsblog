@@ -10,9 +10,9 @@ title-block-banner: true
 comments:
   giscus:
     repo: "jasonacollins/jasoncollinsblog"
-    repo-id: "R_kgDOIIHvAA"
+    repo-id: "R_kgDOIbjYgQ"
     category: "Announcements"
-    category-id: "DIC_kwDOIIHvAM4CShfg"
+    category-id: "DIC_kwDOIbjYgc4CSiuB"
     mapping: "pathname"
     reactions-enabled: false
     loading: lazy
