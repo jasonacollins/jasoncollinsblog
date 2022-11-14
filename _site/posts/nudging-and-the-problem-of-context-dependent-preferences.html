@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Collins">
+<meta name="dcterms.date" content="2018-09-28">
+
+<title>Jason Collins blog - Nudging and the problem of context dependent preferences</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Jason Collins blog - Nudging and the problem of context dependent preferences">
+<meta property="og:description" content="In my recent post on Robert Sugden’s The Community of Advantage: A Behavioural Economist’s Defence of the Market, I noted a couple of papers in which Sugden and Cass Sunstein debated how to make…">
+<meta property="og:site-name" content="Jason Collins blog">
+<meta name="twitter:title" content="Jason Collins blog - Nudging and the problem of context dependent preferences">
+<meta name="twitter:description" content="In my recent post on Robert Sugden’s The Community of Advantage: A Behavioural Economist’s Defence of the Market, I noted a couple of papers in which Sugden and Cass Sunstein debated how to make…">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Jason Collins blog</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html">Archive</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html">Research</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/jasonacollins"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"><i class="bi bi-rss" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Nudging and the problem of context dependent preferences</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Jason Collins </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 28, 2018</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>In my recent post on Robert Sugden’s <a href="../robert-sugdens-the-community-of-advantage-a-behavioural-economists-defence-of-the-market/">The Community of Advantage: A Behavioural Economist’s Defence of the Market</a>, I noted a couple of papers in which Sugden and Cass Sunstein debated how to make people better off “as judged by themselves” if they have context dependent preferences.</p>
+<p>Below is one point and counterpoint that I found useful.</p>
+<p>In a reply to Sugden’s <a href="https://link.springer.com/article/10.1007/s12232-016-0264-1">paper</a>, Cass Sunstein <a href="https://link.springer.com/article/10.1007%2Fs12232-017-0280-9">writes</a>:</p>
+<blockquote class="blockquote">
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li><p>Mary is automatically enrolled in a Bronze Health Care Plan – it is less expensive than Silver and Gold, but it is also less comprehensive in its coverage, and it has a higher deductible. Mary prefers Bronze and has no interest in switching. In a parallel world (a lot like ours, but not quite identical, Wolf 1990), Mary is automatically enrolled in a Gold Health Care Plan – it is more expensive than Silver and Bronze, but it is also more comprehensive in its coverage, and it has a lower deductible. Mary prefers Gold and has no interest in switching.</p></li>
+<li><p>Thomas has a serious illness. The question is whether he should have an operation, which is accompanied with potential benefits and potential risks. Reading about the operation online, Thomas is not sure whether he should go ahead with it. Thomas’ doctor advises him to have the operation, emphasizing how much he has to lose if he does not. He decides to follow the advice. In a parallel world (a lot like ours, but not quite identical), Thomas’s doctor advises him not to have the operation, emphasizing how much he has to lose if he does. He decides to follow the advice.</p></li>
+</ol>
+</blockquote>
+<p>In the latter two cases, Mary and Thomas appear to lack an antecedent preference; what they prefer is an artifact of the default rule (in the case of Mary) or the framing (in the case of Thomas). …</p>
+<p>These are the situations on which I am now focusing: People lack an antecedent preference, and what they like is a product of the nudge. Their preference is constructed by it. After being nudged, they will be happy and possibly grateful. We have also seen that even if people have an antecedent preference, the nudge might change it, so that they will be happy and possibly grateful even if they did not want to be nudged in advance.</p>
+<p>In all of these cases, application of the AJBT [as judged by themselves] criterion is less simple. Choice architects cannot contend that they are merely vindicating choosers’ ex ante preferences. If we look ex post, people do think that they are better off, and in that sense the criterion is met. For use of the AJBT criterion, the challenge is that however Mary and Thomas are nudged, they will agree that they are better off. In my view, there is no escaping at least some kind of welfarist analysis in choosing between the two worlds in the cases of Mary and Thomas. There is a large question about which nudge to choose in such cases (for relevant discussion, see Dolan 2014). Nonetheless, the AJBT criterion remains relevant in the sense that it constrains what choice architects can do, even if it does not specify a unique outcome (as it does in cases in which people have clear ex ante preferences and in which the nudge does not alter them).</p>
+</blockquote>
+<p>Sugden <a href="https://link.springer.com/article/10.1007/s12232-017-0281-8">responds</a>:</p>
+<blockquote class="blockquote">
+<p>In Sunstein’s example, Thomas’s preference between having and not having an operation varies according to whether his attention is directed towards the potential benefits of the operation or towards its potential risks. A choice architect can affect Thomas’s choice by choosing how to present given information about benefits and risks. The problem for the AJBT criterion is that Thomas’s judgement about what makes him better off is itself context-dependent, and so cannot be used to determine the context in which he should choose.</p>
+<p>In response to the question of what the choice architect ought to do in such cases, Sunstein concludes that ‘there is no escaping at least some kind of welfarist analysis’—that is, an analysis that makes ‘direct inquiries into people’s welfare’. In his comment, Sunstein does not say much about how a person’s welfare is defined or assessed, but many of the arguments in <em>Nudge</em> imply that the method of enquiry is to try to reconstruct the (assumedly context-independent) <em>latent</em> preferences that fully informed choosers would reveal in the absence of psychologically induced error. Sunstein seems to endorse this methodology when he says: ‘It is psychologically fine to think that choosers have antecedent preferences, but that because of a lack of information or a behavioural bias, their choices will not satisfy them’. Here I disagree. In the first part of my paper, which summarises a fuller analysis presented by Infante et al.&nbsp;(2016), I argued that it is <em>not</em> psychologically fine to assume that human choices result from interactions between context-independent latent preferences and behavioural biases. I maintain that the concept of latent preference is psychologically ungrounded.</p>
+<p>I have interpreted AJBT, as applied to category (3) cases, as referring to the judgements implicit in choosers’ latent preferences. In his comment, Sunstein offers a different interpretation—that the relevant judgements are implicit in choosers’ actual posterior preferences. Take the case of Thomas and the operation. We are told that, in whichever direction Thomas is nudged, he will be ‘happy’ with his decision, judging himself to be better off than if he had chosen differently. In other words, any nudge that causes Thomas to change his decision can be said to make him better off, <em>as judged by himself</em>. I think Sunstein is going astray here by thinking of nudges as causing changes in preference. Suppose the doctor directs Thomas’s attention towards the benefits of the operation and advises him to have it. Thomas accepts this advice. <em>At the moment of choice</em>, Thomas is thinking about the options in the frame provided by the doctor, and so he thinks he is making the right decision. But suppose that, shortly before he is wheeled into the operating theatre, he looks at some medical website that uses the opposite frame. If his preferences are context-dependent, he may now wish he had chosen differently. Sunstein is not entitled to assume that, after choosers have been nudged, their judgements become context-independent. If the AJBT criterion is to have bite—if, as Sunstein says, it is to ‘<em>discipline the content of paternalistic interventions</em>’—it must adjudicate between the judgements that the chooser makes in different contexts. That is why Thaler and Sunstein need the concept of latent preference—with all its problems.</p>
+</blockquote>
+
+
+
+</main> <!-- /main -->
+<!-- Begin Substack Signup Form -->
+<p align="center" ;="" style="margin-left: 10px; margin-right: 10px; margin-bottom:0">BE NOTIFIED OF NEW POSTS VIA EMAIL</p>
+<p align="center" ;="" style="margin-left: 10px; margin-right: 10px; margin-top:0"><iframe src="https://substack.jasoncollins.blog/embed" width="360" height="90" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>
+<!--End mc_embed_signup-->
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/https:\/\/jasoncollins\.blog/);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="jasonacollins/jasoncollinsblog" data-repo-id="R_kgDOIIHvAA" data-category="Announcements" data-category-id="DIC_kwDOIIHvAM4CShfg" data-mapping="pathname" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">Copyright: CC-BY</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/jasonacollins">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+      </div>
+  </div>
+</footer>
+
+
+
+</body></html>

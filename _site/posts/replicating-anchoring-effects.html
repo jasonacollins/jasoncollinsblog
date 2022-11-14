@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Collins">
+<meta name="dcterms.date" content="2016-05-27">
+
+<title>Jason Collins blog - Replicating anchoring effects</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Jason Collins blog - Replicating anchoring effects">
+<meta property="og:description" content="The classic&nbsp;Ariely, Loewenstein, and Prelec experiment&nbsp;(ungated pdf) ran as follows.">
+<meta property="og:site-name" content="Jason Collins blog">
+<meta name="twitter:title" content="Jason Collins blog - Replicating anchoring effects">
+<meta name="twitter:description" content="The classic&nbsp;Ariely, Loewenstein, and Prelec experiment&nbsp;(ungated pdf) ran as follows.">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Jason Collins blog</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html">Archive</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html">Research</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/jasonacollins"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"><i class="bi bi-rss" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Replicating anchoring effects</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Jason Collins </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 27, 2016</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>The classic&nbsp;<a href="http://qje.oxfordjournals.org/content/118/1/73.short">Ariely, Loewenstein, and Prelec experiment</a>&nbsp;(<a href="http://www.cmu.edu/dietrich/sds/docs/loewenstein/CoherentArbit.pdf">ungated pdf</a>) ran as follows.&nbsp;Students are asked&nbsp;to think of&nbsp;the last two digits of their social security number - essentially a random number - as&nbsp;a dollar price. They are then asked whether they would be willing to buy certain consumer goods for that price or not. Finally, they are asked what is the most they would be willing to pay for each of these goods.</p>
+<p>The&nbsp;result was that those with a higher starting price - that is, a higher last two digits on their social security number - were willing to pay more for the consumer goods. That random number “anchored”&nbsp;how much they were willing to pay.</p>
+<p>Reading David Levine’s <a href="http://www.openbookpublishers.com/product/77">Is Behavioural Economics Doomed?</a> (review to come soon),&nbsp;Levine mentions the following attempted replication:</p>
+<blockquote class="blockquote">
+<p><a href="https://www.aeaweb.org/articles?id=10.1257/mic.4.2.131">On the Robustness of Anchoring Effects&nbsp;in WTP and WTA Experiments</a>&nbsp;(<a href="http://scholar.harvard.edu/files/fudenberg/files/on_the_robustness_of_anchoring.pdf?m=1360041920">ungated pdf</a>)</p>
+<p>Drew Fudenberg, David K. Levine, and Zacharias Maniadis</p>
+<p>We reexamine the effects of the anchoring manipulation of Ariely,&nbsp;Loewenstein, and Prelec (2003) on the evaluation of common market&nbsp;goods and find very weak anchoring effects. We perform the&nbsp;same manipulation on the evaluation of binary lotteries, and find&nbsp;no anchoring effects at all. This suggests limits on the robustness of&nbsp;anchoring effects.</p>
+</blockquote>
+<p>And from the body of the article:</p>
+<blockquote class="blockquote">
+<p>Our first finding is that we are unable to replicate the results of ALP [Ariely, Loewenstein, and Prelec]: we find very&nbsp;weak anchoring effects both with WTP [willingness to pay] and with WTA [willingness to accept]. The Pearson correlation&nbsp;coefficients between the anchor and stated valuation are generally much lower than&nbsp;in ALP, and the magnitudes of the anchoring effects (as measured by the ratio of top&nbsp;to bottom quintile) are smaller. Repeating the ALP procedure for lotteries we do not&nbsp;find any anchoring effects at all.</p>
+<p>Unlike ALP, we carried out laboratory rather than classroom experiments. This&nbsp;necessitated some minor changes—discussed below—from ALP’s procedures. It is&nbsp;conceivable that these changes are responsible for the differences in our findings; if&nbsp;so the robustness of their results is limited.</p>
+<p>…</p>
+<p>Our results do not confirm the very strong anchoring effects found in ALP. They&nbsp;are more in agreement with the results of Simonson and Drolet (2004) and Alevy,&nbsp;Landry, and List (2011). Simonson and Drolet (2004) used the same SSN-based&nbsp;anchor as ALP, and found no anchoring effects on WTA, and moderate anchoring&nbsp;effects on WTP for four common consumer goods. Alevy, Landry, and List (2011)&nbsp;performed a field experiment, eliciting the WTP for peanuts and collectible sports&nbsp;cards, and they found no anchoring effects. Bergman et al.&nbsp;(2010) also used the&nbsp;design of ALP for six common goods, and found anchoring effects, but of smaller&nbsp;magnitude than in ALP.</p>
+<p>Tufano (2010) and Maniadis, Tufano, and List (2011) also failed to confirm the&nbsp;robustness of the magnitude of the anchoring effects of ALP, using hedonic experiences,&nbsp;rather than common goods. Tufano (2010) used the anchoring manipulation&nbsp;to increase the variance in subjects’ WTA for a bad-tasting liquid, but the manipulation&nbsp;had no effect. Notice that this liquid offers a simple (negative) hedonic experience,&nbsp;like the “annoying sounds” used in Experiment 2 of ALP. Maniadis, Tufano,&nbsp;and List (2011) replicated Experiment 2 of ALP and found weaker (and nonsignificant)&nbsp;anchoring effects. Overall our results suggest that anchoring is real—it is&nbsp;hard to reconcile otherwise the fact that in the WTA treatment with goods the ratios&nbsp;between highest and lowest quintile is always bigger than one—but that quantitatively&nbsp;the effect is small. Additionally our data supports the idea that anchoring goes&nbsp;away when bidding on objects with greater familiarity, such as lotteries.</p>
+</blockquote>
+
+
+
+</main> <!-- /main -->
+<!-- Begin Substack Signup Form -->
+<p align="center" ;="" style="margin-left: 10px; margin-right: 10px; margin-bottom:0">BE NOTIFIED OF NEW POSTS VIA EMAIL</p>
+<p align="center" ;="" style="margin-left: 10px; margin-right: 10px; margin-top:0"><iframe src="https://substack.jasoncollins.blog/embed" width="360" height="90" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>
+<!--End mc_embed_signup-->
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/https:\/\/jasoncollins\.blog/);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="jasonacollins/jasoncollinsblog" data-repo-id="R_kgDOIIHvAA" data-category="Announcements" data-category-id="DIC_kwDOIIHvAM4CShfg" data-mapping="pathname" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">Copyright: CC-BY</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/jasonacollins">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+      </div>
+  </div>
+</footer>
+
+
+
+</body></html>

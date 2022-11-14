@@ -1,0 +1,49 @@
+project:
+  type: website
+
+website:
+  title: "Jason Collins blog"
+  site-url: https://jasoncollins.blog
+  description: "Behavioural and data science. Economics. Evolutionary biology."
+  navbar:
+    right:
+      - about.qmd
+      - text: "Archive"
+        file: archive.qmd
+      - research.qmd
+      - icon: twitter
+        href: https://twitter.com/jasonacollins
+      - icon: rss
+        href: index.xml
+  page-footer: 
+    center:
+      - text: "Copyright: CC-BY"
+        href: https://creativecommons.org/licenses/by/4.0/
+      - icon: twitter 
+        href: https://twitter.com/jasonacollins
+  open-graph: true
+  twitter-card: true
+
+format:
+  html:
+    theme: cosmo
+    fontcolor: black
+    fontsize: 20px
+    css: styles.css
+    html-math-method: katex
+    link-external-newwindow: true
+    ink-external-filter: '^(?:http:|https:)\/\/www\.jasoncollins\.blog\/custom'
+    code-fold: true
+    fig-cap-location: top
+editor: source
+
+#filters:
+#    - lightbox
+#lightbox: auto
+
+execute:
+  freeze: true
+  error: true
+  keep-md: false
+  fig-pos: 'H'
+  

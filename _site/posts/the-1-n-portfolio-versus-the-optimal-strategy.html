@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Collins">
+<meta name="dcterms.date" content="2022-01-21">
+
+<title>Jason Collins blog - The 1/N portfolio versus the optimal strategy: Does a simple heuristic outperform?</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Jason Collins blog - The 1/N portfolio versus the optimal strategy: Does a simple heuristic outperform?">
+<meta property="og:description" content="Gerd Gigerenzer is fond of telling a story about Harry Markowitz, modern portfolio design pioneer and winner of the 1990 Nobel Memorial Prize in Economic Sciences.">
+<meta property="og:site-name" content="Jason Collins blog">
+<meta name="twitter:title" content="Jason Collins blog - The 1/N portfolio versus the optimal strategy: Does a simple heuristic outperform?">
+<meta name="twitter:description" content="Gerd Gigerenzer is fond of telling a story about Harry Markowitz, modern portfolio design pioneer and winner of the 1990 Nobel Memorial Prize in Economic Sciences.">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Jason Collins blog</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html">Archive</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html">Research</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/jasonacollins"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"><i class="bi bi-rss" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">The 1/N portfolio versus the optimal strategy: Does a simple heuristic outperform?</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Jason Collins </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 21, 2022</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>Gerd Gigerenzer is fond of telling a story about <a href="https://en.wikipedia.org/wiki/Harry_Markowitz">Harry Markowitz</a>, modern portfolio design pioneer and winner of the 1990 Nobel Memorial Prize in Economic Sciences.</p>
+<p>Here’s one version of the story, from <a href="https://www.jasoncollins.blog/nudging-citizens-to-be-risk-savvy/">Risk Savvy</a>:</p>
+<blockquote class="blockquote">
+<p>Assume you have a chunk of money and want to invest it. You do not want to put all your eggs into one basket and are considering a number of stocks. You want to diversify. But how?</p>
+<p>Harry Markowitz won a Nobel Prize in economics for solving this problem. The solution is known as the mean-variance portfolio. The portfolio maximizes the gain (mean) for a given risk or minimizes the risk (variance) for a given return. Many banks rely on this and similar investment methods and warn customers against relying on their intuitions instead.</p>
+<p>But when Markowitz made his own investments for his retirement, he did not use his Nobel Prize–winning method. Instead, he employed a simple rule of thumb called 1/N:</p>
+<p><em>Allocate your money equally to each of N funds.</em></p>
+<p>Why did he rely on a hunch instead of crunching the numbers? In an interview, Markowitz said he wanted to avoid regrets: “I thought, ‘You know, if the stock market goes way up and I’m not in, I’ll feel stupid. And if it goes way down and I’m in it, I’ll feel stupid.’ So I went 50-50.” He did what many investors do: Make it simple. And 1/N is not only simple, it is the purest form of diversification. (Gigerenzer’s source is an <a href="https://doi.org/10.1002/scin.5591791221">interview of Markowitz by Bruce Bower</a>.)</p>
+<p>How good is this rule of thumb? In a study, it was compared to mean-variance and a dozen other complex investment methods. Seven situations were analyzed, such as investing in ten American industry funds. The mean-variance portfolio made use of ten years of stock data, while 1/N did not need any. What was the result? In six of the seven tests, 1/N scored better than mean-variance in common performance criteria. Moreover, none of the other twelve complex methods was consistently better at predicting the future value of the stocks.</p>
+<p>Does this mean that the Nobel Prize–winning method is a sham? No.&nbsp;It is optimal in an ideal world of known risks, but not necessarily in the uncertain world of the stock market, where so much is unknown. To use such a complex formula requires us to estimate a large number of parameters based on past data. Yet as we have seen, ten years is too short a time to get reliable estimates. Say you invested in fifty funds. How many years of stock data would be needed before the mean-variance method finally does better than 1/N? A computer simulation provides the answer: about five hundred years!</p>
+<p>That means that in the year 2500, investors can turn from the simple rule to the high-level math of the mean-variance model and hope to win. But this holds only if the same stocks—and the stock market—are still around.</p>
+</blockquote>
+<p>It’s a great story about the power of simple heuristics. But if you follow the academic trail behind it, the story gets messier.</p>
+<p>The study that Gigerenzer references is a well-cited <a href="https://doi.org/10.1093/rfs/hhm075">2007 paper by Victor DeMiguel, Lorenzo Garlappi and Raman Uppal</a> (<a href="http://faculty.london.edu/avmiguel/DeMiguel-Garlappi-Uppal-RFS.pdf">pdf</a>). They described a comparison of performance between the 1/N rule and 14 other asset allocation models. These included Markowitz’s famous model and a number of its derivatives. The result across seven empirical datasets was that none of the 14 models consistently outperformed the 1/N rule when tested out-of-sample; that is, tested against new data that hadn’t been used to develop the model.</p>
+<p>But if you follow Gigerenzer’s footnote referencing the DeMiguel and friends study, you also see the following note:</p>
+<blockquote class="blockquote">
+<p>The conditions under which 1/N is superior to optimization methods are still debated; see Kritzman, Page, and Turkington 2010.</p>
+</blockquote>
+<p>So what do <a href="https://doi.org/10.2469/faj.v66.n2.6">Kritzman and friends</a> say?</p>
+<blockquote class="blockquote">
+<p>The ostensible superiority of the 1/N approach arises not from limitations in optimization but, rather, from reliance on rolling short-term samples for estimating expected returns. This approach often yields implausible expectations. By relying on longer-term samples for estimating expected returns or even naively contrived yet plausible assumptions, optimized portfolios outperform equally weighted portfolios out of sample.</p>
+</blockquote>
+<p>The rolling short-term samples referred to relate to DeMiguel and friends’ use of a rolling 60- or 120-month history to determine the input parameters for the optimisation exercise.</p>
+<p>Kritzman and friends argue that the use of this rolling average leads to problems. For example, in February 2009, the 60-month trailing return of the S&amp;P 500 Index was –5.66 percent. The return of a major bond index was around 3 percent. If you took this previous 5-years as your future expectation, the observed stock and bond holdings implies that most people prefer more risk to less risk for the same return. Why would you otherwise hold the riskier stocks if you expected a negative return when a safer positive return was available? As input assumptions for an optimisation exercise, they are implausible. Kritzman and friends state that in such a situation no investor would simply take the recent historial return as their future expectation.</p>
+<p>Kritzman and friends argued that the consequence of these implausible assumptions could be demonstrated by inputting some arbitrarily decided but reasonable sounding expected returns instead of using the recent short-term history. In that case, the superiority of the optimisation approaches re-emerges.</p>
+<p>I have some sympathy for this argument. As Kritzman and friends point out, Markowitz did not intend for a naive extrapolation of past returns to form the basis of expectations for the optimisation exercise. Rolling averages make the exercise mechanical and feasible, reducing the number of decisions by the researchers. But simplifying the exercise in this way has a cost.</p>
+<p>Alas, the story goes further. A quick Google Scholar search of the papers citing Kritzman and friends shows that this has turned into a huge academic debate.</p>
+<p>Here’s a quick taste of some of the other papers that I found. I haven’t read them in detail and this is out of my area of expertise, so assume I haven’t get everything right here:</p>
+<ul>
+<li><p><a href="https://doi.org/10.1016/j.jbankfin.2012.11.020">Behr and friends (2013)</a> (<a href="https://isiarticles.com/bundles/Article/pre/pdf/5812.pdf">pdf</a>) developed a “constrained minimum-variance strategy” that outperformed a 1/N policy across 6 datasets.</p></li>
+<li><p><a href="https://doi.org/10.1016/j.finmar.2013.07.004">Jacobs and friends (2014)</a> (<a href="https://daneshyari.com/article/preview/960996.pdf">pdf</a>) argue that “prominent Markowitz extensions do not outperform several heuristic weighting schemes (1/N heuristic, market value-weighting and GDP-weighting).” While Jacobs and friends extend the range of simple heuristics that are competitive against optimised portfolios, they appear to rely on the same 60-month rolling average to develop input parameters that was criticised by Kritzman and friends.</p></li>
+<li><p><a href="https://doi.org/10.1016/j.frl.2016.12.007">Valeriy Zakamulin (2017)</a> suggested that those studies which find superior performance of optimised portfolios are doing so because of the particular datasets that tend to be used. The “Kenneth French datasets” tend to have a “low volatility effect”, an effect whereby low volatility stocks tend to outperform. The optimisation approaches capitalise on the low volatility effect. I am not convinced that this is a problematic argument. If the optimisation approaches capitalise on an anomaly or established factor premium to outperform, so be it. It suggests there is a way to beat the simple heuristic. But on the other hand, it points to possible alternative heuristics that can capitalise on the anomaly without mean-variance optimisation.</p></li>
+<li><p><a href="https://doi.org/10.1016/j.jbankfin.2018.09.021">Hsu and friends (2018)</a> suggest that nearly all papers claiming a superiority for optimisation approaches suffer from “data snooping”. Data snooping captures publication bias, p-hacking, the garden of forking paths and other phenomena that yield unrepresentative published results. Get rid of “data snooping” and most of the outperformance of optimised methods disappears. This paper is a good reminder that when people claim good “out-of-sample” results, they tell us about the exercise only after they had seen the results themselves. “Out-of-sample” would be far more impressive if that was a future sample.</p></li>
+<li><p><a href="https://doi.org/10.1080/0015198X.2019.1600958">David Allen and friends (2019)</a> find that if investors have “modest” forecasting ability, mean-variance optimisation is superior. I’m somewhat sceptical of the concept that people have forecasting ability in the sense defined. The paper makes a fairly token attempt to make the case that they do. That said, Allen and friends also provide another take-down of the DeMiguel and friends paper, arguing their result is the result of their modelling approach. Loosen some constraints and optimisation outperforms even without forecasting ability. (This paper itself spawned a debate, with <a href="https://doi.org/10.1080/0015198X.2019.1701323">Michaud and friends</a> claiming they omitted certain forms of error, and <a href="https://doi.org/10.1080/0015198X.2019.1703984">Allen and friends responding</a> that they did not and that they use richer, higher-frequency data that many other comparisons.)</p></li>
+</ul>
+<p>As said above, messy. And that is without also exploring the approach to measuring outperformance. I’m not convinced the measures used answer the question at heart. But that’s an issue for another day.</p>
+<p>Absent a deeper dive into these papers, and as someone who has often told the Markowitz story in a similar manner to Gigerenzer - with a reference to DeMiguel and friends paper and all - I am updating the story I tell somewhat:</p>
+<ul>
+<li><p>DeMiguel and friends demonstrated that 1/N performed on par with more complex optimisation approaches under a fairly limited set of assumptions and the result may be a peculiarity of their model. I should stop stating that their model establishes the need for 500-years of data.</p></li>
+<li><p>However, no-one has clearly shown that more complex optimisation methods are better. In particular, “data snooping” brings many of the results claiming outperformance into question.</p></li>
+<li><p>I don’t believe it is possible to definitively settle this debate with historic data. Some future oriented bets would be more informative and could substantially shift my beliefs, but even then it may not be conclusive. You can get a high Sharpe ratio by picking up pennies in front of a steamroller if the period of measurement doesn’t include you getting hit by the steamroller. I am sure I have read (somewhere) Nassim Taleb claiming that high Sharpe ratios are a sign that someone will blow up.</p></li>
+</ul>
+<p>Deep down, I still believe that a 1/N heuristic can be sound even when compared to more sophisticated approaches. This is not a question of getting enough data - as appears implied by Gigerenzer in the quoted passage - but one of of robustness in the face of uncertainty and an unstable future with the potential for structural changes. This belief is buttressed by the broader evidence on the <a href="https://behavioralscientist.org/simple-heuristics-that-make-algorithms-smart/">power of simple heuristics</a>.</p>
+<p>But as a starting point I should be weakening - at least slightly - my belief about the 1/N heuristic given the specific paper I have regularly quoted in support of that claim isn’t as general or robust as I thought it was.</p>
+<p>One factor that constrains that weakening is an observation from this latest perusal of the literature. The 1/N heuristic appears to have a degree of respect. It is often used as the benchmark against which portfolio optimisation techniques are assessed. Most of the papers I found exploring the performance of 1/N were using it as a benchmark rather than genuinely exploring its robustness.</p>
+<p>Finally, with all this said, there remains one issue that looms large over this exercise. If deciding a 1/N strategy, what should N be?</p>
+<p>If there are two bonds and three stocks, does N equal two (stocks and bonds) or five. What of an N of two with crypto- and non-crypto-assets? Should we group domestic and international stocks? What of different sectors?</p>
+<p>Most of the papers mentioned above have relatively sophisticated people picking what comprises N. What of the average investor? How does their portfolio hold up with a 1/N rule?</p>
+<p>In Risk Savvy, Gigerenzer is sensitive to this question of choosing N. He discussed a time when an organisation’s head of investment asked whether his customers might just invest themselves if all they need is a 1/N rule. Gigerenzer’s writes:</p>
+<blockquote class="blockquote">
+<p>I reassured him that there are plenty of open questions, such as how large N should be, what kind of stocks, when to rebalance, and most important, to figure out when and where 1/N is a successful strategy.</p>
+</blockquote>
+<p>That’s not an easy task. But maybe there’s another simple heuristic by which we choose N?</p>
+
+
+
+</main> <!-- /main -->
+<!-- Begin Substack Signup Form -->
+<p align="center" ;="" style="margin-left: 10px; margin-right: 10px; margin-bottom:0">BE NOTIFIED OF NEW POSTS VIA EMAIL</p>
+<p align="center" ;="" style="margin-left: 10px; margin-right: 10px; margin-top:0"><iframe src="https://substack.jasoncollins.blog/embed" width="360" height="90" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>
+<!--End mc_embed_signup-->
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/https:\/\/jasoncollins\.blog/);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="jasonacollins/jasoncollinsblog" data-repo-id="R_kgDOIIHvAA" data-category="Announcements" data-category-id="DIC_kwDOIIHvAM4CShfg" data-mapping="pathname" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">Copyright: CC-BY</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/jasonacollins">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+      </div>
+  </div>
+</footer>
+
+
+
+</body></html>

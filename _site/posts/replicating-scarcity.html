@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Collins">
+<meta name="dcterms.date" content="2022-02-17">
+
+<title>Jason Collins blog - Replicating scarcity</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Jason Collins blog - Replicating scarcity">
+<meta property="og:description" content="In Scarcity: Why having too little means so much, Sendhil Mullainathan and Eldar Shafir tell the following (now famous) story:">
+<meta property="og:site-name" content="Jason Collins blog">
+<meta name="twitter:title" content="Jason Collins blog - Replicating scarcity">
+<meta name="twitter:description" content="In Scarcity: Why having too little means so much, Sendhil Mullainathan and Eldar Shafir tell the following (now famous) story:">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Jason Collins blog</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html">Archive</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html">Research</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/jasonacollins"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"><i class="bi bi-rss" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Replicating scarcity</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Jason Collins </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 17, 2022</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>In <a href="../scarcity-of-time-money-friends-and-bandwidth/"><em>Scarcity: Why having too little means so much</em></a>, Sendhil Mullainathan and Eldar Shafir tell the following (now famous) story:</p>
+<blockquote class="blockquote">
+<p>To see the effect of scarcity on fluid intelligence, we ran some studies with our graduate student, Jiaying Zhao, in which we gave people in a New Jersey mall the Raven’s Progressive Matrices test. First, half the subjects were presented with simple hypothetical scenarios, such as this one:</p>
+<p><em>Imagine that your car has some trouble, which requires a $300 service. Your auto insurance will cover half the cost. You need to decide whether to go ahead and get the car fixed, or take a chance and hope that it lasts for a while longer. How would you go about making such a decision? Financially, would it be an easy or a difficult decision for you to make?</em></p>
+<p>We then followed this question with a series of Raven’s Matrices problems. Using self-reported household income, we divided subjects, by median split, into rich and poor. In this setup we found no statistically significant difference between the rich and poor mallgoers. …</p>
+<p>For the remaining subjects, we ran the same study but with a slight twist. They were given this question instead (with the change shown in bold):</p>
+<p><em>Imagine that your car has some trouble, which requires an <strong>expensive $3,000 service</strong>. Your auto insurance will cover half the cost. You need to decide whether to go ahead and get the car fixed, or take a chance and hope that it lasts for a while longer. How would you go about making such a decision? Financially, would it be an easy or a difficult decision for you to make?</em></p>
+<p>All we have done here is replace the $300 with $3,000. Remarkably, this change affected the two groups differently. …</p>
+<p>… The well-off subjects … did just as well here as if they had seen the easy scenario. The poorer subjects, on the other hand, did significantly worse. A small tickle of scarcity and all of a sudden they looked significantly less intelligent. …</p>
+<p>We have run these studies numerous times, always with the same results. …</p>
+<p>In all the replications, the effects were equally big. …</p>
+<p>… our effects correspond to between 13 and 14 IQ points. By most commonly used descriptive classifications of IQ, 13 points can move you from the category of “average” to one labeled “superior” intelligence. Or, if you move in the other direction, losing 13 points can take you from “average” to a category labeled “borderline deficient.”</p>
+</blockquote>
+<p>I have long considered this finding, drawn from a paper in Science by <a href="https://doi.org/10.1126/science.1238041">Mani and friends (2013)</a> (<a href="https://scholar.harvard.edu/files/sendhil/files/976.full_.pdf">pdf</a>), to be one of the most unreliable findings in the behavioural sciences.</p>
+<p>It fails the <a href="../the-effect-is-too-large-heuristic/">“effect is too large” heuristic</a>. This can’t be anything but a massively biased effect size.</p>
+<p>It relies on a prime. We have all seen how the <a href="https://replicationindex.com/2017/02/02/reconstruction-of-a-train-wreck-how-priming-research-went-of-the-rails/">priming literature has fared</a>.</p>
+<p>And despite the claim “We have run these studies numerous times, always with the same results”, for many years I’ve heard of failed replications and extensions stuffed into file drawers.</p>
+<p>As a result, I’ve been keeping a keen eye on the topic and was excited to see <a href="https://newsroom.haas.berkeley.edu/classified-training-phd-students-to-advance-the-open-science-revolution/">a story about Leif Nelson and Don Moore</a> training PhD students by doing a mass pre-registered replication of the scarcity literature. A great idea.</p>
+<p>The result of that exercise has now been <a href="https://doi.org/10.1073/pnas.2103313118">published in PNAS</a>. The replication materials are available on <a href="https://osf.io/a2e96/">OSF</a>.</p>
+<p>The punchline was that, of the 20 studies, only four generated a significant result. (That raw score of 20% is <a href="https://doi.org/10.1126/science.aac4716">underperforming the replicability of social psychology</a>.) This was despite the replications using 2.5 times the sample size of the original, giving them more power. Six studies had effects in the opposite direction to the original. Effect sizes were also markedly smaller, suggesting the initial experiments were massively underpowered. The following figure illustrates the results.</p>
+<p><img src="img/odonnell-et-al-2021-fig1.jpeg" class="img-fluid"></p>
+<p>Study 4 from Mani and friends was one of the iterations of the New Jersey experiment and, as for most of them, there was no significant effect.</p>
+<p>Summarising their findings, the authors write:</p>
+<blockquote class="blockquote">
+<p>Scarcity is a real and enduring societal problem, yet our results suggest that behavioral scientists have not fully identified the underlying psychology. Although this project has neither the goal nor the capacity to “accept the null” hypothesis for any of these tests, the replications of these 20 studies indicate that within this set, scarcity primes have a minimal influence on cognitive ability, product attitudes, or well being. Nevertheless, feeling poor may influence financial and consumer decisions.</p>
+</blockquote>
+<p>It’s not time to write off the concept of scarcity. A few of the results replicated, at least one them surprisingly so for me (economic insecurity causing physical pain). These were also lab experiments, so shouldn’t necessarily be used to ignore scarcity research from the field.</p>
+<p>But it is time to take a more nuanced view of scarcity. The term captures what I consider to be several different phenomena. Which of these concepts might hold? And where? And it is definitely time to retire the story of a hypothetical car repair dropping a poor person’s IQ by 13 to 14 points.</p>
+<p>On that more nuanced view, I have a rather long post (or possible review article) on scarcity in the works. This replication exercise is another great input. Hopefully my post will see the light of day this year.</p>
+
+
+
+</main> <!-- /main -->
+<!-- Begin Substack Signup Form -->
+<p align="center" ;="" style="margin-left: 10px; margin-right: 10px; margin-bottom:0">BE NOTIFIED OF NEW POSTS VIA EMAIL</p>
+<p align="center" ;="" style="margin-left: 10px; margin-right: 10px; margin-top:0"><iframe src="https://substack.jasoncollins.blog/embed" width="360" height="90" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>
+<!--End mc_embed_signup-->
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/https:\/\/jasoncollins\.blog/);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="jasonacollins/jasoncollinsblog" data-repo-id="R_kgDOIIHvAA" data-category="Announcements" data-category-id="DIC_kwDOIIHvAM4CShfg" data-mapping="pathname" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">Copyright: CC-BY</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/jasonacollins">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+      </div>
+  </div>
+</footer>
+
+
+
+</body></html>

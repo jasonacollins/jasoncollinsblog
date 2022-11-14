@@ -1,0 +1,25 @@
+---
+title: "About"
+image: JC_cropped.jpg
+about:
+  template: solana
+aliases:
+  - /about/
+---
+
+Behavioural and data science. Economics. PhD economics and evolutionary biology.
+
+- [My research](/research/)
+- [My non-academic writing](/writing/)
+- [Media](/media/)
+
+On [Twitter](https://twitter.com/jasonacollins) (checked only occasionally)
+
+On [LinkedIn](https://www.linkedin.com/in/jasonallancollins/) (checked even less often)
+
+For direct contact, email me at `grants_trainee.0` [@] `icloud.com`. (Address regularly refreshed to eliminate spammers.  I don't host guest posts or advertising.)
+
+
+
+<p align="center"; style="margin-left: 10px; margin-right: 10px;">BE NOTIFIED OF NEW POSTS VIA EMAIL
+<iframe src="https://substack.jasoncollins.blog/embed" width="360" height="90" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>
