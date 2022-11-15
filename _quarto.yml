@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Jason Collins blog"
-  site-url: https://jasoncollins.blog
+  site-url: https://www.jasoncollins.blog
   description: "Behavioural and data science. Economics. Evolutionary biology."
   navbar:
     right:
@@ -32,7 +32,7 @@ format:
     css: styles.css
     html-math-method: katex
     link-external-newwindow: true
-    ink-external-filter: '^(?:http:|https:)\/\/www\.jasoncollins\.blog\/custom'
+    link-external-filter: '^(?:http:|https:)\/\/www\.jasoncollins\.blog\/custom'
     code-fold: true
     fig-cap-location: top
 editor: source

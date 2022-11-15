@@ -81,11 +81,11 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="Jason Collins blog - Megastudy scepticism">
 <meta property="og:description" content="In December last year Katherine Milkman and friends published a “megastudy” testing 54 interventions to increase the gym visits of 61,000 experimental participants.">
-<meta property="og:image" content="https://jasoncollins.blog/posts/img/milkman_et_al_2021_figure_1.jpeg">
+<meta property="og:image" content="https://www.jasoncollins.blog/posts/img/milkman_et_al_2021_figure_1.jpeg">
 <meta property="og:site-name" content="Jason Collins blog">
 <meta name="twitter:title" content="Jason Collins blog - Megastudy scepticism">
 <meta name="twitter:description" content="In December last year Katherine Milkman and friends published a “megastudy” testing 54 interventions to increase the gym visits of 61,000 experimental participants.">
-<meta name="twitter:image" content="https://jasoncollins.blog/posts/img/milkman_et_al_2021_figure_1.jpeg">
+<meta name="twitter:image" content="https://www.jasoncollins.blog/posts/img/milkman_et_al_2021_figure_1.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -621,7 +621,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     });
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/jasoncollins\.blog/);
+      var filterRegex = new RegExp(/^(?:http:|https:)\/\/www\.jasoncollins\.blog\/custom/);
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
