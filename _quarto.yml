@@ -32,7 +32,7 @@ format:
     css: styles.css
     html-math-method: katex
     link-external-newwindow: true
-    link-external-filter: '^(?:http:|https:)\/\/www\.jasoncollins\.blog\/custom'
+    link-external-filter: '^(?:http:|https:)\/\/www\.jasoncollins\.blog\/**'
     code-fold: true
     fig-cap-location: top
 editor: source
