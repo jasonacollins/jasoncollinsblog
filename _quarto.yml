@@ -8,8 +8,6 @@ website:
   navbar:
     right:
       - about.qmd
-      - text: "Archive"
-        file: archive.qmd
       - research.qmd
       - subscribe.qmd
       - teaching.qmd
