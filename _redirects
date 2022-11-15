@@ -1,4 +1,5 @@
 /:year/:month/:day/:slug/   /posts/:slug   301
 /:year/:month/:day/:slug   /posts/:slug  301
+/:year/:month/:slug     /posts/:slug  301
 
 /feed   /index.xml   301
