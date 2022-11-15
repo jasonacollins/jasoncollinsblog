@@ -11,6 +11,8 @@ website:
       - text: "Archive"
         file: archive.qmd
       - research.qmd
+      - subscribe.qmd
+      - teaching.qmd
       - icon: twitter
         href: https://twitter.com/jasonacollins
       - icon: rss
