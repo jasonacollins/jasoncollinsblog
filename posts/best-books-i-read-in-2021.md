@@ -44,7 +44,6 @@ I've also included a list of books commenced but abandoned. There are 9 on that 
 - Gillian Tett, *Anthro-Vision: How Anthropology Can Explain Business and Life*
 - Fred Waitzkin, *Searching for Bobby Fisher*
 
-
 *Fiction*
 
 - Christopher Buckley, *Thank You for Smoking*\*
@@ -58,7 +57,6 @@ I've also included a list of books commenced but abandoned. There are 9 on that 
 - Herman Melville, *The Piazza Tales*
 - H.G. Wells, *The Invisible Man*\*
 
-
 *Commenced but abandoned (incomplete list)*
 
 - Karen Armstrong, *A History of God*
@@ -70,7 +68,6 @@ I've also included a list of books commenced but abandoned. There are 9 on that 
 - Nathaniel Hawthorne, *The Scarlet Letter*
 - Will Page, *Tarzan Economics*
 - Jimmy Soni and Rob Goodman, *A Mind at Play: How Claude Shannon Invented the Information Age*
-
 
 *Read to the kids*
 
