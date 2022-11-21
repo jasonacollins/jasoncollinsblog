@@ -13,6 +13,8 @@ All are [CC-BY](https://creativecommons.org/licenses/by/4.0/), so feel free to t
 
 - [Behavioural economics](https://behaviouraleconomics.jasoncollins.blog): A traditional course on the foundations of behavioural economics
 
+- [Behavioural finance](https://behaviouralfinance.jasoncollins.blog)
+
 - [Consumer financial decision making](https://cfdm.jasoncollins.blog)
 
 - [Corporate decision making](https://corporate.jasoncollins.blog)

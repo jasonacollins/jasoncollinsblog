@@ -9,7 +9,7 @@
 <link>https://www.jasoncollins.blog/index.html</link>
 <atom:link href="https://www.jasoncollins.blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Behavioural and data science. Economics. Evolutionary biology.</description>
-<generator>quarto-1.1.251</generator>
+<generator>quarto-1.2.269</generator>
 <lastBuildDate>Thu, 18 Aug 2022 20:30:00 GMT</lastBuildDate>
 <item>
   <title>Why I don’t believe that signs with fatality numbers cause more crashes</title>
@@ -1635,7 +1635,7 @@
 <p>We have <strong>limited attention</strong>. This is likely to reflect the cognitive costs of applying greater attention, cognitive constraints on our ability to process the information, or in some cases a strategy for making better decisions (more on that below).</p>
 <p>As our attention is limited, the task is often to attract it. Simon noted that many designers build systems as through the problem is information scarcity, rather than attention scarcity. Instead, we need systems that excel at filtering information and providing the most important information at the right time.</p>
 <p>Related to our limited attention, we also have <strong>limited memory</strong>.</p>
-<p><strong>Short-term memory</strong> is that capacity for holding information in mind in a readily available state. If someone gave you a phone number that you were to immediately dial, this would involve short-term memory. Short-term memory is constrained. It is often measured through memory span tests, such as asking someone to recall a sequence of digits they have just heard. By that measure, short-term memory can typically hold around 4$1 digits or “chunks”.</p>
+<p><strong>Short-term memory</strong> is that capacity for holding information in mind in a readily available state. If someone gave you a phone number that you were to immediately dial, this would involve short-term memory. Short-term memory is constrained. It is often measured through memory span tests, such as asking someone to recall a sequence of digits they have just heard. By that measure, short-term memory can typically hold around 4$$1 digits or “chunks”.</p>
 <p>Related to (and often considered part of) short-term memory is <strong>working memory</strong>. Working memory involves the manipulation of stored information. Like short-term memory, it is constrained.</p>
 <p><strong>Long-term memory</strong> involves the indefinite storage of knowledge. Our long-term memory is incomplete, is highly selective, and fades with time. Further, it changes over time, and can be changed through the act of recall.</p>
 <p>Constrained long-term memory and recall is a foundation of the availability heuristic. People tend to weight their judgements toward more recent terms or concepts that are readily available in memory. In determining the probability or frequency of an event, the more available events will be assessed as more probable. For example, when asked about the relative frequency of words starting with the letter K compared to those with K as the third letter, people assume relatively more of the former as words starting with K are easier to recall.</p>
@@ -1787,7 +1787,7 @@
 </section>
 <section id="co-holding-debt-and-savings" class="level3">
 <h3 class="anchored" data-anchor-id="co-holding-debt-and-savings">4.1.3 Co-holding debt and savings</h3>
-<p>People often hold both high-cost credit card debt and <em>liquid</em> assets that provide low rates of return. In one UK survey, 12% of households in the sample held an average of $3800 in revolving credit on which they incurred interest charges, while at the same time holding liquid assets that they could use to clear all of this debt (<a href="https://doi.org/10.1016/j.jebo.2014.04.018">Gathergood and Weber (2014)</a>).</p>
+<p>People often hold both high-cost credit card debt and <em>liquid</em> assets that provide low rates of return. In one UK survey, 12% of households in the sample held an average of $$3800 in revolving credit on which they incurred interest charges, while at the same time holding liquid assets that they could use to clear all of this debt (<a href="https://doi.org/10.1016/j.jebo.2014.04.018">Gathergood and Weber (2014)</a>).</p>
 <p>One rational explanation for co-holding is that that some expenses must be paid by cash or direct debit, not credit card. This requirement means that funds must be available in these forms.</p>
 <p>An alternative explanation is that co-holding is a self-control strategy. By reducing the amount of unused credit capacity, it may reduce future spending. (Note the use of mental accounts here.)</p>
 <p>One shortfall with these explanations is that people who hold multiple cards do not minimise costs when using the cards they have. They pay little attention to relative interest rates when choosing which card to use. They don’t repay the card with highest interest rate first.</p>

@@ -3,7 +3,6 @@ title: 'Best books I read in 2021'
 author: "Jason Collins"
 date: 2022-01-06 09:00:00+00:00
 draft: false
-
 aliases:
   - /best-books-i-read-in-2021
 ---
@@ -47,6 +46,7 @@ I've also included a list of books commenced but abandoned. There are 9 on that 
 
 
 *Fiction*
+
 - Christopher Buckley, *Thank You for Smoking*\*
 - Fyodor Dostoyevsky, *Notes from the Underground*
 - Alexandre Dumas, *The Three Musketeers*
@@ -60,6 +60,7 @@ I've also included a list of books commenced but abandoned. There are 9 on that 
 
 
 *Commenced but abandoned (incomplete list)*
+
 - Karen Armstrong, *A History of God*
 - Isaac Asimov, *I Asimov: A Memoir*
 - Jeff Bezos, *Invent & Wander: The Collected Writings of Jeff Bezos*
@@ -72,6 +73,7 @@ I've also included a list of books commenced but abandoned. There are 9 on that 
 
 
 *Read to the kids*
+
 - Carlo Collodi, *Pinocchio*
 - Frances Hodgson Burnett, *The Secret Garden*\*
 - Roald Dahl, *Charlie and the Chocolate Factory*

@@ -36,9 +36,9 @@ format:
     fig-cap-location: top
 editor: source
 
-#filters:
-#    - lightbox
-#lightbox: auto
+filters:
+    - lightbox
+lightbox: auto
 
 execute:
   freeze: true

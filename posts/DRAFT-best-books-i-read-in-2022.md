@@ -3,15 +3,12 @@ title: 'Best books I read in 2022'
 author: "Jason Collins"
 date: 2023-01-XX 09:00:00+00:00
 draft: true
-
 aliases:
   - /best-books-i-read-in-2022
 ---
 The best books I <em>read</em> in 2022 - generally released in other years - were:
 
 - .
-
-It's a short list. There just wasn't much I was inspired by this year. Maybe I'm getting old and grumpy. Perhaps my book selection was not great. What I pick up next is too often dictated by mood rather than a plan.
 
 Below is the full list of books that I read in 2022 (starred if I have read before). The volume of my reading of books cover-to-cover continues to fall year-on-year, with XX total (XX non-fiction, XX fiction). I have read to the kids (48 of them!).
 
@@ -20,12 +17,18 @@ I've also included a list of books commenced but abandoned. There are 9 on that 
 *Non-Fiction*
 
 - Ananyo Bhattacharya, *The Man from the Future: The Visionary Life of John von Neumann*
+- Bryan Caplan, *The Case Against Education*
 - Brian Christian, *The Alignment Problem*
-- David Epstein, *Range: Why Generalists Triumph in a Specialized world*
+- David Epstein, *Range: Why Generalists Triumph in a Specialized World*
+- Oded Galor, *The Journey of Humanity*
 - David Graeber, *Bullshit Jobs*
 - Adam Kay, *This Is Going to Hurt"
-- Micharel Lewis, *Moneyball*\*
+- Michael Lewis, *Moneyball*\*
+- Gary Marcus and Ernest Davis, *Rebooting AI*
+- Tom Mead, *Killers of Eden*\*
+- Haruki Murakami, *What I Talk About When I Talk About Running*\*
 - Carl Rhodes, *Woke Capitalism: How Corporate Morality is Sabotaging Capitalism*
+- Stuart Russell, *Human Compatible*
 - David Sinclair, *Lifespan: Why We Age--And Why We Don't Have to*
 - Richard Thaler, [*The Winner's Curse: Subtitle*]
 - Peter Wohlleben, *The Hidden Life of Trees*
@@ -41,13 +44,21 @@ I've also included a list of books commenced but abandoned. There are 9 on that 
 - Arthur Conan Doyle, *The Valley of Fear*\*
 - Arthur Conan Doyle, *His Last Bow*\*
 - Arthur Conan Doyle, *The Case-Book of Sherlockl Holmes* (Conan Doyle had really given up by these final stories.)
+- Suelette Dreyfus, *Underground*
+- Victor Hugo, *The Hunchback of Notre Dame*\*
+- George RR Martin, *A Game of Thrones*
+- George RR Martin, *A Clash of Kings*
+- George RR Martin, *A Storm of Swords*
 - Neal Stephenson, *Termination Shock*
 
 *Commenced but abandoned*
 - Scott Cunningham, *Causal Inference: The Mixtape*
+- Tiago Forte, *Building a Second Brain*
 - Paul Gilding, *The Great Disruption*
 - Nick Hornby, *About a Boy*
 - Nick Hornby, *High Fidelity*
+- Eric Kaufmann, *White Shift*
+- Haruki Murakami, *Hear the Wind Sing*
 - Marcel Proust, *Swann's Way*
 - M Mitchell Waldrop, *Complexity*
 
@@ -57,6 +68,7 @@ I've also included a list of books commenced but abandoned. There are 9 on that 
 - Lewis Carroll, *Through the Looking-glass*\*
 - Gillian Cross, *The Iliad*
 - Gillian Cross, *The Odyssey*
+- J.K. Rowling, *Harry Potter and the Philosopher's Stone*\*
 - Anna Sewell, *Black Beauty*
 - Lemony Snickett, *The Bad Beginning*
 - Johanna Spyri, *Heidi*
@@ -68,5 +80,6 @@ I've also included a list of books commenced but abandoned. There are 9 on that 
 - Tui T. Sutherland, *Flames of Hope*
 - [Add Geronimo Stilton Volcano of Fire]
 - J.R.R. Tolkein, *The Hobbit*\*
+- J.R.R.Tolkein, *The Fellowship of the Ring*\*
 
 Previous best book lists: [2010](/top-10-books-in-2010/), [2011](/best-books-i-read-in-2011/), [2012](/the-best-books-i-read-in-2012/), [2013](/best-books-i-read-in-2013/), [2014](/best-books-i-read-in-2014/), [2015](/best-books-i-read-in-2015/), [2016](/best-books-i-read-in-2016/), [2017](/best-books-i-read-in-2017/), [2018](/books-i-read-in-2018/), [2019](/best-books-i-read-in-2019/), [2020](/best-books-i-read-in-2020/), [2021](/best-books-i-read-in-2021/)
