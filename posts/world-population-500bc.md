@@ -1,6 +1,6 @@
 ---
 title: World population 500BC
-author: jasonacollins
+author: "Jason Collins"
 date: 2011-01-01 02:00:42+00:00
 draft: no
 aliases:

@@ -1,6 +1,6 @@
 ---
 title: Debating the conjunction fallacy
-author: jasonacollins
+author: "Jason Collins"
 date: 2019-05-09 09:00:57+00:00
 draft: no
 aliases:

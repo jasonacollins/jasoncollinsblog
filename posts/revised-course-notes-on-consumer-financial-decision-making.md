@@ -1,9 +1,8 @@
 ---
 title: 'Revised course notes on Consumer Financial Decision Making'
-author: jasonacollins
+author: "Jason Collins"
 date: 2022-07-04 09:00:00+10:00
 draft: false
-images: [""]
 aliases:
   - /revised-course-notes-on-consumer-financial-decision-making
 ---

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -104,6 +104,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -151,26 +154,30 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html">About</a>
+    <a class="nav-link" href="../about.html">
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../research.html">Research</a>
+    <a class="nav-link" href="../research.html">
+ <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../subscribe.html">Subscribe</a>
+    <a class="nav-link" href="../subscribe.html">
+ <span class="menu-text">Subscribe</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching.html">Teaching</a>
+    <a class="nav-link" href="../teaching.html">
+ <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/jasonacollins"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="../index.xml"><i class="bi bi-rss" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -179,42 +186,41 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Risk and loss aversion in ergodicity economics</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Jason Collins </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">February 18, 2020</p>
-      </div>
-    </div>
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Risk and loss aversion in ergodicity economics</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jason Collins </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 18, 2020</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
 
 <p>In a <a href="https://www.jasoncollins.blog/ergodicity-economics-a-primer/">previous post</a> I posed the following bet:</p>
 <blockquote class="blockquote">
@@ -247,7 +253,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>You can see the tweak from the original bet, with dollar sums rather than percentages. The first flip is effectively identical, but future bets will be additive on that result and always involve the same shift of $50 up or $40 down. In contrast, the earlier bet was multiplicative, in that the bettor’s wealth was multiplied by a common factor. As a result, the multiplicative bet scales up and down with wealth.</p>
 <p>An important feature of this second series of flips is that the system is ergodic. The expected value of each flip is $5 (0.5*$50-0.5*$40=$5). The time-average growth rate is also $5.</p>
 <p>Let’s simulate as we did for multiplicative bets in the <a href="https://www.jasoncollins.blog/ergodicity-economics-a-primer/">ergodicity economics primer post</a>, with 10,000 people starting with $100 and flipping the coin 100 times. The below plot shows the average wealth of the population, together with the paths of the first 20 of the 10,000 people (in red).</p>
-<p><em>Average wealth of population and path of first 20 people</em> <img src="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Ergodic_Figure_1.jpeg" class="img-fluid"></p>
+<p><em>Average wealth of population and path of first 20 people</em> <a href="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Ergodic_Figure_1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Ergodic_Figure_1.jpeg" class="img-fluid"></a></p>
 <p>The individual growth paths cluster on ether side of the population average. After 100 periods, the mean wealth is $593 and the median $600. 86% of the population has gained in wealth. The wealthiest person has $2220, or 0.04% of the total wealth of the population. After 1000 rounds (not plotted here), the mean wealth is $5,095 and the median $5,100. All except one person has gained. The wealthiest person has $11,130, or 0.02% of the total wealth of the population. This alignment between the mean and median wealth, and the relatively equal distribution of wealth, are characteristic of an ergodic system.</p>
 <p>Now for a wrinkle, which can be seen in the plotted figure. Of those first 20 people plotted on the chart, 12(!) had their wealth go into the negative over those 100 periods. An additional two of those first 20 go into the negative over the subsequent 900 periods. This is reflected across the broader population, with 5,439 dropping below zero in those first 100 periods. 5,684 drop below zero across the full 1000.</p>
 <p>To the extent zero wealth is ruinous at the time it occurs (e.g.&nbsp;death, you cannot continue to play), that event is serious. If you only incur the consequences of your final position, the bet is somewhat less likely to result in ruin, but still presents a real threat of catastrophe.</p>
@@ -280,17 +286,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Eighteen experimental subjects (actually 20, but two were excluded from analysis) participated in a series of gambles over two days. On one day they were exposed to a series of additive bets. The other day involved multiplicative bets. The order of the days was switched for some subjects. They were not directly informed of the nature of each day.</p>
 <p>Each day consisted of a passive session, followed by an active session.</p>
 <p>At the beginning of the passive session each experimental subject was endowed with 1000 Danish Krone (approx $150USD). They then watched a series of fractal images, each of which had an effect on their wealth. Their task through the passive session was to learn the effect of each of these fractals on their wealth. Some examples of the images are below:</p>
-<p><em>Example fractal images</em> <img src="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Fractal_examples.jpg" class="img-fluid"></p>
+<p><em>Example fractal images</em> <a href="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Fractal_examples.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Fractal_examples.jpg" class="img-fluid"></a></p>
 <p>There were 9 fractals on each day, each with a unique effect on wealth. For the multiplicative day, the fractals changed wealth by the following factors: 0.447, 0.546. 0.668. 0.818, 1, 1.223, 1.496, 1.830, 2.239. On the additive day, the changes were: -428kr, -321kr, -214kr, -107kr, 0, 107kr, 214kr, 321kr, 428kr. The subjects observed a sequence of 333 fractals in the passive sequence (each fractal would appear 37 times), giving them a good feel for the effect of each fractal on their wealth.</p>
 <p>As the outcome from an equal distribution of these fractals is no growth, each participant ended the 333rd passive fractal with their original wealth of 1000kr. They were then given one additional random fractal to set the level of wealth that they would commence the active session with.</p>
 <p>During the active session, they would be shown two sets of two fractal images, as in Figure 3 below. The left and the right side represent two possible bets, each of which would involve a 50:50 probability of getting one of the two fractals and the effect of that fractal on their wealth. They were asked to choose one of the bets. For example, choosing the left two images would give them a 50:50 chance for each of those two images on the left.</p>
-<p><em>Example choice</em> <img src="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Ergodicity_bet.jpg" class="img-fluid"></p>
+<p><em>Example choice</em> <a href="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Ergodicity_bet.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Ergodicity_bet.jpg" class="img-fluid"></a></p>
 <p>Hulme and friends then analysed these experimental results to determine which model best described the observed decisions.</p>
 <p>The headline finding is well illustrated in the following chart, which provides the posterior probability of the parameter of risk aversion for each experimental subject. The blue distribution is that for the additive day, the red for the multiplicative day.</p>
-<p><em>Posterior probability of the parameter of risk aversion</em> <img src="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Individual_posterior_probability_distributions_for_risk_aversion.jpg" class="img-fluid"></p>
+<p><em>Posterior probability of the parameter of risk aversion</em> <a href="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Individual_posterior_probability_distributions_for_risk_aversion.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Individual_posterior_probability_distributions_for_risk_aversion.jpg" class="img-fluid"></a></p>
 <p>A risk aversion parameter of 0 gives us linear utility. A parameter of 1 is logarithmic utility. On that basis, the time optimal utility of ergodicity economics comes out looking strong. There is a clear change in risk aversion across most participants as they changed between the ergodic and non-ergodic environments.</p>
 <p>Hulme and friends also calculated the posterior probability of each model for each participant, with time optimal (the growth rate maximiser) generally having the stronger probability.</p>
-<p><em>Posterior model probabilities</em> <img src="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Posterior_model_probabilities.jpg" class="img-fluid"></p>
+<p><em>Posterior model probabilities</em> <a href="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Posterior_model_probabilities.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="img/2020-02-18-risk-and-loss-aversion-in-ergodicity-economics/Posterior_model_probabilities.jpg" class="img-fluid"></a></p>
 <p>The authors write:</p>
 <blockquote class="blockquote">
 <p>[T]o approximate time optimal behavior, different dynamics require different ergodicity mappings. Thus, when an agent faces a different dynamic, this should evoke the observation of a different utility function. This was observed, in that all subjects showed substantial changes in their estimated utility functions … Second, in shifting from additive to multiplicative dynamics, agents should become more risk averse. This was also observed in all subjects. Third, the predicted increase in risk aversion should be, in the dimensionless units of relative risk aversion, a step change of +1. The mean step change observed across the group was +1.001 (BCI<sub>95%</sub>[0.829,1.172]). Third, to a first approximation, most (not all) participants modulated their utility functions from ~linear utility under additive dynamics, to ~logarithmic utility under multiplicative dynamics (Fig. 3d). Each of these utility functions are provably optimal for growing wealth under the dynamical setting they adapted to, and in this sense they are reflective of an approximation to time optimality. Finally, Bayesian model comparison revealed strong evidence for the time optimal model compared to both prospect theory and isoelastic utility models, respectively. The latter two models provide no explanation or prediction for how risk preferences should change when gamble dynamics change, and even formally preclude the possibility of maximising the time average growth rate when gamble dynamics do change. Congruent with this explanatory gap, both prospect theory and isoelastic utility models were relatively inadequate in predicting the choices of most participants.</p>
@@ -598,7 +604,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -634,24 +657,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var filterRegex = new RegExp(/https:\/\/www\.jasoncollins\.blog/);
@@ -659,7 +700,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -669,7 +710,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
 });
 </script>
-<script src="https://giscus.app/client.js" data-repo="jasonacollins/jasoncollinsblog" data-repo-id="R_kgDOIbjYgQ" data-category="Announcements" data-category-id="DIC_kwDOIbjYgc4CSiuB" data-mapping="pathname" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
+<script src="https://giscus.app/client.js" data-repo="jasonacollins/jasoncollinsblog" data-repo-id="R_kgDOIbjYgQ" data-category="Announcements" data-category-id="DIC_kwDOIbjYgc4CSiuB" data-mapping="pathname" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 <footer class="footer">
@@ -689,6 +730,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":true,"descPosition":"bottom","openEffect":"zoom"});</script>
 
 
 

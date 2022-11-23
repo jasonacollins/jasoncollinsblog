@@ -19,7 +19,6 @@
 
 
 
-
 <p>In <a href="https://doi.org/10.1126/science.abm3427">a paper in Science</a>, Jonathan Hall and Joshua Madsen proposed that dynamic signs that reported Texas road fatalities - “1669 deaths this year on Texas roads” - caused more accidents and fatalities.</p>
 <p>Recently, a friend mentioned the paper to me. I replied that I had seen the paper but didn’t believe the result. I wasn’t going to ignore the finding, but I would update my beliefs in only the smallest of ways.</p>
 <p>He asked how I’d come to that conclusion. In answering I stated that I had spent half an hour with the paper and supplementary materials over breakfast, clicking through to some of the paper’s references. He then questioned whether I had been too hasty.</p>
@@ -166,7 +165,6 @@
 
 
 
-
 <p>In <a href="../please-not-another-bias-correcting-the-record/">my last post</a> I discussed how I would like to redo my article “<a href="../please-not-another-bias-an-evolutionary-take-on-behavioural-economics/">Please Not Another Bias! An Evolutionary Take on Behavioural Economics</a>”. Apart from the removing the weak experimental evidence that I referenced, I wanted to make a few points more explicitly, such as the need for theory.</p>
 <p>Well, that <a href="https://www.worksinprogress.co/issue/biases-the-wrong-model/">re-write is here</a> in the latest edition of <a href="https://www.worksinprogress.co">Works in Progress</a>.</p>
 <p>Not much has survived from the original except the opening framing and the continued belief that evolutionary theory will play a role in developing that theory. Otherwise, it’s largely new.</p>
@@ -196,7 +194,6 @@
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/please-not-another-bias-correcting-the-record.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -238,7 +235,11 @@
 <p>One of my favourite examples of this comes from <a href="https://doi.org/10.1177/1948550609352807">research by Richard Ronay and Bill von Hippel</a>. They got some young male skateboarders to perform tricks, including a difficult trick that they could complete only half the time. Halfway through filming, a woman rated as highly attractive (corroborated by “many informal comments and phone number requests from the skateboarders”) walked onto the scene. Once she appeared, they took more risks and were less likely to bail a trick half-way through, instead riding all the way through to the crash landing (<a href="http://www.abc.net.au/catalyst/stories/2967720.htm">a story on ABC’s Catalyst demonstrates this effect</a>).</p>
 </blockquote>
 <p>In this experiment there was a small sample of 96 male skateboarders, giving groups of 43 and 53 skateboarders performing ten tricks for the male and female experimenter respectively. There were also have large effect sizes. I wouldn’t claim these effects sizes are impossible using the “<a href="../the-effect-is-too-large-heuristic/">effect is too large heuristic</a>”, but they certainly don’t make me feel comfortable. The figure below gives a sense of the change in behaviour.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/ronay-and-von-hippel-2010-figure-1.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/ronay-and-von-hippel-2010-figure-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/ronay-and-von-hippel-2010-figure-1.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>To understand one point that makes this study particularly interesting, let me turn to Ulrich Schimmack’s work to develop a <a href="https://replicationindex.com">replicability index</a>. By comparing the observed power of a set of studies and the rate at which reported results are significant, Schimmack estimates the rate at which studies will replicate in the form of the <a href="https://replicationindex.com/2016/01/31/a-revised-introduction-to-the-r-index/">R-Index</a>. Schimmack uses the R-Index to compare the replicability of journals, authors and departments.</p>
 <p>The ranking of authors is of relevance here. Bill von Hippel, the second author in this skateboarding paper, was one of those ranked. I’ll use <a href="https://replicationindex.com/2021/05/07/bill-von-hippel-and-ulrich-schimmack-discuss-bills-replicability-index/">von Hippel’s words from a conversation with Schimmack</a>:</p>
 <blockquote class="blockquote">
@@ -265,9 +266,17 @@
 <p>The difference reflects the different traits each are communicating – men are communicating resources and the traits required to accumulate them, women their conscientiousness.</p>
 </blockquote>
 <p><a href="https://doi.org/10.1037/xge0000116">David Shanks and friends</a> ran eight replication experiments, the first five of which were all twists on the experiments reported by Griskevicius and friends that formed the basis of the above excerpt. The result? As you can see in this figure, there’s nothing there.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/Shanks_et_al_2015_Figure_3.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/Shanks_et_al_2015_Figure_3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/img/Shanks_et_al_2015_Figure_3.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>Even more striking is Shanks and friends’ funnel plot of results published on this topic. The black dots represent published results. The white triangles represent the results of the replication experiments.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/Shanks_et_al_2015_Figure_2.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/Shanks_et_al_2015_Figure_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://www.jasoncollins.blog/posts/img/Shanks_et_al_2015_Figure_2.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>It looks like we have a hideous case of publication bias.</p>
 <p>That said, a <a href="https://doi.org/10.1037/xge0000527">subset of the authors whose studies were replicated responded</a>, claiming that that an alternative approach to the meta-analysis suggested there was no evidence of p-hacking, and that the replications had numerous issues. <a href="https://doi.org/10.1037/xge0000597">Shanks and Vadillo responded in turn</a>. I won’t tackle the back-and-forth in detail here, but will say that I believe the conclusion that romantic priming is on shaky grounds holds. Much of the critique of the replications is the often-seen handwaving that the replication methods were not close enough to the originals. But that’s a sign of a flaky phenomena at best, and more likely a sign that the effect doesn’t exist. The critique of the meta-analysis only serves to highlight the gross lack of statistical power across the literature.</p>
 <p>There’s also another body of evidence relevant here. Following the replications and meta-analysis by Shanks and friends, Ulrich Schimmack <a href="https://replicationindex.com/2016/05/21/replicability-report-no-2-do-mating-primes-have-a-replicable-effects-on-behavior/">put a larger set of romantic priming papers through the R-index wringer</a>. Perhaps most damming, a histogram of results showed evidence of severe selection bias and, Schimmack argued, evidence of questionable research practices. The papers also scored low on his R-Index, suggesting a low probability of replication across the whole literature.</p>
@@ -284,7 +293,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p></p><figcaption class="figure-caption">Dunn et al</figcaption><p></p>
-<p><img src="https://www.jasoncollins.blog/posts/img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/dunn-et-al.jpg" class="img-fluid figure-img"></p>
+<p><a href="img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/dunn-et-al.jpg" class="lightbox" title="Dunn et al" data-gallery="quarto-lightbox-gallery-4"><img src="https://www.jasoncollins.blog/posts/img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/dunn-et-al.jpg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 </blockquote>
@@ -302,10 +311,9 @@
 </item>
 <item>
   <title>Revised course notes on Consumer Financial Decision Making</title>
-  <dc:creator>jasonacollins</dc:creator>
+  <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/revised-course-notes-on-consumer-financial-decision-making.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -324,7 +332,6 @@
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/megastudy-scepticism.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -358,7 +365,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p></p><figcaption class="figure-caption">Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions</figcaption><p></p>
-<p><img src="https://www.jasoncollins.blog/posts/img/milkman_et_al_2021_figure_1.jpeg" class="img-fluid figure-img"></p>
+<p><a href="img/milkman_et_al_2021_figure_1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions"><img src="https://www.jasoncollins.blog/posts/img/milkman_et_al_2021_figure_1.jpeg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>Twenty-four of the 53 interventions were found to have a statistically significant effect over the control, increasing visits by between 9% and 27%. That equates to 0.14 to 0.40 extra weekly gym visits over the control average of 1.48 visits per week.</p>
@@ -673,7 +680,6 @@
 
 
 
-
 <p>In a seminar for a team from an investment manager I described how base rates are often neglected when people are grappling with conditional probabilities. My description was somewhat confusing, so the below is a short write-up for the participants.</p>
 <p>–</p>
 <p>Consider the following question scenario.</p>
@@ -701,7 +707,11 @@
 <p>This use of natural frequencies was first proposed by <a href="https://doi.org/10.1016/0010-0277(95)00664-8">Cosmides and Tooby (1996)</a> (<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.131.8290&amp;rep=rep1&amp;type=pdf">pdf</a>). Natural frequencies are derived from observing cases that have been representatively sampled from a population.</p>
 <p>In a <a href="https://journals.lww.com/academicmedicine/Abstract/1998/05000/Using_natural_frequencies_to_improve_diagnostic.24.aspx">paper by Gigerenzer and Ulrich Hoffrage</a>, they report that this change in representation increased the proportion of correct answers among physicians from 10% to 46%.</p>
 <p>There is some evidence (<a href="https://doi.org/10.54870/1551-3440.1329">e.g.</a>) that you can get further gains through a frequency tree representation. Here’s one such tree from <a href="https://doi.org/10.1136/bmj.d6386">Gigerenzer (2011)</a>, which also has the benefit of further highlighting the benefits of the natural frequency approach.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/gigerenzer_2011.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/gigerenzer_2011.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/gigerenzer_2011.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>The numbers at the bottom of the conditional probability tree do not contain the base rate information. You can’t simply compare across them in calculating conditional probabilities. You also need to refer back to the middle layer. Conversely, the natural frequency tree contains all you need in the bottom row.</p>
 <p>Note that we could convert the numbers in the bottom of the conditional probability tree into frequencies: 900 in 1000, 10 in 1000, 90 in 1000 and 910 in 1000. Gigerenzer calls these simple frequencies.</p>
 <p>There are many scenarios where simple frequencies can make a problem more tractable, but they do not solve the computational complexity here. Simple frequencies are just a restatement of the probabilities. In contrast, natural frequencies are joint frequencies, such as the number of people who test positive and who have COVID-19.</p>
@@ -745,7 +755,6 @@
 
 
 
-
 <p>A past regular feature of this blog was “A week of links’. Primarily, it was a useful way to aggregate interesting articles - I often search my blog posts for material (they are a collection of text files on my computer).</p>
 <p>But, the regularity of the feature drove my behaviour: I started looking for links for the post. So, I killed it.</p>
 <p>Now for the partial resurrection, with links posts to be delivered at random intervals to share articles or ideas that are worth a read. Here’s the first.</p>
@@ -777,7 +786,6 @@
 
 
 
-
 <p>In an oft-quoted and cited Nature paper, <a href="https://doi.org/10.1038/nature13977"><em>Business culture and dishonesty in the banking industry</em></a>, Cohn and colleagues argue that the culture in banking weakens and undermines the honesty norm. In the abstract they state:</p>
 <blockquote class="blockquote">
 <p>[W]e show that employees of a large, international bank behave, on average, honestly in a control condition. However, when their professional identity as bank employees is rendered salient, a significant proportion of them become dishonest. … Our results thus suggest that the prevailing business culture in the banking industry weakens and undermines the honesty norm, implying that measures to re-establish an honest culture are very important.</p>
@@ -798,7 +806,11 @@
 <p>So, how did the bankers go? In the control group, 51.6% of coin flips were successful. It’s slightly more than 50%, but within the realms of chance for a group of honest coin flippers. The bankers primed with their professional identity reported 58.2% successful flips, 6.6 percentage points more than the control group. The dishonest bandits.</p>
 <p>But how do we know that this result is particular to bankers? What if we primed other professionals with their profession? What if we took a group with no connection to the banking industry and primed them with banking concepts?</p>
 <p>Cohn and friends answered these questions directly. When they primed a group of non-banking professionals with their professional identity, they reported 3 percentage points <em>fewer</em> successful coin flips than those in a control condition. Students primed with banking concepts also reported fewer successes, around 1.5%. These differences weren’t statistically significant and could have happened by chance.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/2022-03-10-bankers-are-more-honest-than-the-rest-of-us/Cohn_et_al_2014_Figure_3a.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/2022-03-10-bankers-are-more-honest-than-the-rest-of-us/Cohn_et_al_2014_Figure_3a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/2022-03-10-bankers-are-more-honest-than-the-rest-of-us/Cohn_et_al_2014_Figure_3a.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>These experimental outcomes are the centrepiece behind the conclusion that the prevailing culture in banking weakens and undermines the honesty norm for bankers.</p>
 <p>But now let’s go to the supplementary materials and learn a bit more about these non-banking professionals and students.</p>
 <p><strong>An alternative interpretation</strong></p>
@@ -811,7 +823,11 @@
 <p><strong>Replications</strong></p>
 <p>I noted above that I don’t believe this result will replicate, and there are now at least two studies making that argument: one a direct replication, and the other conceptual.</p>
 <p>The direct replication is by <a href="https://doi.org/10.1038/s41586-019-1741-y">Rahwan and friends</a>. They increased the sample size to 768 bankers, plus over 500 non-bankers. The headline is that the result did not replicate in the Asia Pacific or Middle East banker populations used in the study. The two blue bars in the below chart represent the original Cohn and friends study, plus the additional 80 banker sample I referred to above.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/2022-03-10-bankers-are-more-honest-than-the-rest-of-us/Rahwan_et_al_2019_Figure_2a.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/2022-03-10-bankers-are-more-honest-than-the-rest-of-us/Rahwan_et_al_2019_Figure_2a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/img/2022-03-10-bankers-are-more-honest-than-the-rest-of-us/Rahwan_et_al_2019_Figure_2a.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>What is perhaps more interesting than this replication, however, is the response. Cohn and friends were given the opportunity to <a href="https://doi.org/10.1038/s41586-019-1729-7">publish a response</a> to the replications. Given the original submission date by Rahwan and friends of 6 September 2016 and an acceptance date of 26 August 2019, I can only imagine the wrangling that went on behind the scenes.</p>
 <p>Cohn and friends raise several objections to the replication. The main one is that their original study is famous and received wide media coverage. A third of the replication participants reported being aware of the original study. This could affect which banks agreed to participate in the study (most declined) and the behaviour of the participants.</p>
 <p>I give this critique some weight, but don’t feel great about it. The original authors conduct a low sample size study of a noisy phenomena, overhype their result and then complain about a replication because everyone has heard about their overhyped result. It’s as though the publicity creates a shield to replication.</p>
@@ -848,7 +864,6 @@
 
 
 
-
 <p>Over the last few years I have appeared on several podcasts, the most recent being a discussion with <a href="https://twitter.com/p_agnew">Phil Agnew</a> on the Nudge podcast. I am definitely more a writer than a speaker, but if you prefer audio to the written, check out the below.</p>
 <p><a href="https://www.nudgepodcast.com/podcast/episode/31c2d373/75-beware-of-behaviour-science-bs">Nudge podcast - Beware of Behaviour Science BS</a></p>
 <p><a href="https://anchor.fm/42courses/episodes/Jason-Collins---Behavioural-Science--Evolutionary-Biology-epfoqs">42courses - Behavioural Science &amp; Evolutionary Biology</a></p>
@@ -867,7 +882,6 @@
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/the-outsider-to-the-narrow-minded-profession.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -913,7 +927,6 @@
 
 
 
-
 <p>In <a href="../scarcity-of-time-money-friends-and-bandwidth/"><em>Scarcity: Why having too little means so much</em></a>, Sendhil Mullainathan and Eldar Shafir tell the following (now famous) story:</p>
 <blockquote class="blockquote">
 <p>To see the effect of scarcity on fluid intelligence, we ran some studies with our graduate student, Jiaying Zhao, in which we gave people in a New Jersey mall the Raven’s Progressive Matrices test. First, half the subjects were presented with simple hypothetical scenarios, such as this one:</p>
@@ -934,7 +947,11 @@
 <p>As a result, I’ve been keeping a keen eye on the topic and was excited to see <a href="https://newsroom.haas.berkeley.edu/classified-training-phd-students-to-advance-the-open-science-revolution/">a story about Leif Nelson and Don Moore</a> training PhD students by doing a mass pre-registered replication of the scarcity literature. A great idea.</p>
 <p>The result of that exercise has now been <a href="https://doi.org/10.1073/pnas.2103313118">published in PNAS</a>. The replication materials are available on <a href="https://osf.io/a2e96/">OSF</a>.</p>
 <p>The punchline was that, of the 20 studies, only four generated a significant result. (That raw score of 20% is <a href="https://doi.org/10.1126/science.aac4716">underperforming the replicability of social psychology</a>.) This was despite the replications using 2.5 times the sample size of the original, giving them more power. Six studies had effects in the opposite direction to the original. Effect sizes were also markedly smaller, suggesting the initial experiments were massively underpowered. The following figure illustrates the results.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/odonnell-et-al-2021-fig1.jpeg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/odonnell-et-al-2021-fig1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/odonnell-et-al-2021-fig1.jpeg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>Study 4 from Mani and friends was one of the iterations of the New Jersey experiment and, as for most of them, there was no significant effect.</p>
 <p>Summarising their findings, the authors write:</p>
 <blockquote class="blockquote">
@@ -956,7 +973,6 @@
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/how-big-is-the-effect-of-a-nudge.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -995,7 +1011,11 @@
 <p>As hinted above, the meta-analysis included some studies by Brian Wansink. It also included the the “sign at the top” honesty experiments that had previously been <a href="../a-default-of-disbelief/">subject to failed replications</a>, with the paper later retracted for fraud. (Why didn’t the replications make the meta-analysis?) There is a discussion about the inclusion of the retracted paper in the meta-analysis <a href="https://retractionwatch.com/2022/01/09/authors-to-correct-pnas-nudge-paper-that-cites-now-retracted-article-in-the-same-journal/">in Retraction Watch</a>. (And note the positive, constructive engagement by one of the meta-analysis authors.)</p>
 <p>I feel for the authors here. How do you set clear guidelines in your pre-analysis plan that enable you to say: “we’re not trusting anything by this guy, whether the particular study is retracted or not”. I think this comes back to my question above about whether you have to be a bit more flexible or qualitative at this point in time.</p>
 <p>The authors are also far from Robinson Crusoe in having a meta-analysis contaminated by Brian Wansink studies. One <a href="https://doi.org/10.1086/651235">meta-analysis on choice overload</a> that I have referred to many times found an average effect of zero. But look at the plot of the effect sizes and the huge effects that increasing range of choice had in some some studies. And then look at the authors of the three outliers at the bottom….This choice overload meta-analysis suffers the same problems as the paper the subject of this post.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/scheibehenne.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/scheibehenne.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/scheibehenne.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>Another point worth noting is that the meta-analysis authors considered the possibility of publication bias.</p>
 <blockquote class="blockquote">
 <p>Assuming a moderate one-tailed publication bias in the literature attenuated the overall effect size of choice architecture interventions by 26.79% from Cohen’s d = 0.42, 95% CI [0.37, 0.46], and τ<sup>2</sup>=0.20 (SE=0.02) to d=0.31 and τ<sup>2</sup>=0.23. Assuming a severe one-tailed publication bias attenuated the overall effect size even further to d=0.03 and τ<sup>2</sup>=0.34; however, this assumption was only partially supported by the funnel plot.</p>
@@ -1017,7 +1037,6 @@
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/the-academic-experiment.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1050,7 +1069,6 @@
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/a-critical-behavioural-economics-and-behavioural-science-reading-list.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1149,7 +1167,6 @@
 
 
 
-
 <p>Gerd Gigerenzer is fond of telling a story about <a href="https://en.wikipedia.org/wiki/Harry_Markowitz">Harry Markowitz</a>, modern portfolio design pioneer and winner of the 1990 Nobel Memorial Prize in Economic Sciences.</p>
 <p>Here’s one version of the story, from <a href="https://www.jasoncollins.blog/nudging-citizens-to-be-risk-savvy/">Risk Savvy</a>:</p>
 <blockquote class="blockquote">
@@ -1218,7 +1235,6 @@
 
 
 
-
 <p>It was easy to see why many behavioural practitioners loved the idea that you could induce honesty by getting someone to sign a form at the top, not the bottom. It was practical. It was cheap to implement. It involved more than the common “send them a reminder” or “chuck a social norm on it” that comprises much of the applied behavioural science canon. (That said, don’t underestimate reminders.) It provided an unintuitive proposal to improve business outcomes that wasn’t likely to come from any other source.</p>
 <p>The <a href="http://datacolada.org/98">fraudulent data</a> in the <a href="https://doi.org/10.1073/pnas.1209746109">paper that first proposed this idea</a> has attracted a lot of recent attention (plus a <a href="https://doi.org/10.1073/pnas.2115397118">retraction</a>). But apart from the pall cast over the field and Dan Ariely’s work, the exposure of the fraud has also had the unfortunate effect of distracting from what I think is a more important story arising from this study.</p>
 <p>So, for a moment, let’s ignore the fraud and look at the state of play before its exposure.</p>
@@ -1263,7 +1279,6 @@
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/best-books-i-read-in-2021.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1391,7 +1406,6 @@
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/course-notes-on-consumer_financial_decision_making.html</link>
   <description><![CDATA[ 
-
 
 
 
@@ -1643,7 +1657,11 @@
 <p>This phenomena is the reflection effect. When people make a risky choice related to gains, they are risk averse. They prefer a certain option with lower expected utility than the expected utility of the risky choice. When making a choice in the loss domain, they become risk seeking.</p>
 <p>This phenomena might also be thought of as diminishing sensitivity to gains or losses in either direction. This contrasts with expected utility theory where the pain of losses increases as they grow in size.</p>
 <p>The combination of loss aversion and the reflection effect results in the famous value function as in the following diagram:</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/value_function.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/consumer-financial-decision-making/value_function.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/value_function.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 </section>
 <section id="probability-weighting" class="level3">
 <h3 class="anchored" data-anchor-id="probability-weighting">2.3.4 Probability weighting</h3>
@@ -1659,7 +1677,11 @@
 <p>People overweight small probabilities, giving them disproportionately more weight than they deserve. They also underweight large probabilities that fall short of certainty, giving them less weight than is justified. This results in the shifts in scenarios 1 and 4 above generally being received more gratefully than that in scenarios 2 and 3.</p>
 <p>Kahneman (2011) calls the large psychological value of the change from 0 to 5% (or some other small probability) the <em>possibility effect</em>. Very unlikely but possibles outcomes are given more weight than similar increases in probability for events that are already possible. He calls the large psychological value of the change to 100% the <em>certainty effect</em>. We will pay a lot more for certainty than near certainty.</p>
 <p>This pattern of probability weighting can be seen in the following diagram, where the probability <em>p</em> on the x axis is mapped to a new probability weight on the <em>y</em> axis.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/probability_weighting.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/consumer-financial-decision-making/probability_weighting.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/probability_weighting.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p><em>Figure 1, <a href="https://doi.org/10.1007/BF00122574">Tversky and Kahneman (1992)</a></em></p>
 </section>
 <section id="fourfold-pattern-of-risk-attitudes" class="level3">
@@ -1771,9 +1793,17 @@
 <h3 class="anchored" data-anchor-id="observed-low-levels-of-smoothing">3.1.1 Observed low levels of smoothing</h3>
 <p>Despite the economic theory suggesting that people will smooth their incomes over their lifecycle, the observed level of smoothing is low. Consumption responds strongly to both unexpected and predictable changes in income. The marginal propensity to consume within year is typically 50-75%. That is, if someone has an unexpected windfall one year, they will tend to consume 50% to 75% of that windfall within that year, rather than saving it.</p>
 <p>Suppose a patient person anticipates a regular fixed income of $10 a month during their one year of life. In this world there is no inflation or interest paid on borrowing or savings. Further imagine that they received a surprise windfall in August. Someone who perfectly smoothed consumption would spread that surprise over the remaining months of their life.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/smooth_consumption.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/consumer-financial-decision-making/smooth_consumption.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/smooth_consumption.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>What we tend to see instead is this - a large spike in consumption at the time of the surprise, with only some of the windfall smoothed over coming months.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/actual_consumption.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/consumer-financial-decision-making/actual_consumption.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/actual_consumption.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>This lack of smoothing is observed in relation to many major life events. For example, one US study found that when households reach end of unemployment benefits, which in the US have a predictable end date, consumption falls by 13% at that end. Consumption also tends to fall with income at retirement.</p>
 <p>The effect of windfalls on our consumption path depends heavily on whether they relate to liquid assets or not. (A liquid asset is one that can readily be converted to cash. Cash is, of course, highly liquid. A house is illiquid as it takes considerable time and effort to convert.) We blow windfall gains of cash, but not windfalls of less liquid assets. For instance, if there is a large increase in share value, we tend not to spend it. But if a company takeover delivers a cash payment, we will tend to spend it rather than smooth consumption of that payment over our lifetime.</p>
 </section>
@@ -1957,7 +1987,11 @@
 <section id="low-rates-of-stock-market-participation" class="level2">
 <h2 class="anchored" data-anchor-id="low-rates-of-stock-market-participation">6.1 Low rates of stock market participation</h2>
 <p>Australia has one of the highest rates of share market participation in the world (<a href="https://www.asx.com.au/documents/resources/2017-asx-investor-study.pdf">Deloitte Access Economics (2017)</a>). In 2017, 37% of Australian adults held on-exchange investments. This level is a drop from over 50% in the early to mid-2000s, but above the 10% participation in many countries in Europe. Part of the reason for the high levels of Australian ownership is the large public offerings associated with the sale of public assets, including the Commonwealth Bank in 1991, Qantas in 1993 and Telstra in 1997.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/Chart_3.1_ASX_Investor_Study_2017.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/consumer-financial-decision-making/Chart_3.1_ASX_Investor_Study_2017.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/Chart_3.1_ASX_Investor_Study_2017.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>Despite the relatively high level of Australian ownership, there is still a question why barely more than a third of Australians own shares. If the stock market is not correlated with other income sources, there is a benefit of diversification by owning some shares.</p>
 <p>One rational explanation for low participation are costs such as acquiring information or opening a trading account. Even though these costs are small, the small financial wealth of most households means that their level of participation would also be small. However, these costs cannot be the only explanation, as many at the top of the wealth distribution also do not participate.</p>
 <p>There are many behavioural explanations for non-participation. One is disappointment aversion, which is the tendency to make choices in a way that reduces the potential for future expected disappointment (<a href="https://doi.org/10.1016/j.jfineco.2004.03.009">Ang et al (2005)</a>). (Disappointment is closely tied to and often an alternative name for “regret” in the behavioural literature.) Disappointment occurs when an outcome falls short of the person’s reference point, such as the expected utility of the lottery or the certainty equivalent. Someone who is disappointment averse will be less attracted to a gamble that an expected utility maximiser due to that potential disappointment. Stock market participation, obviously, provides an opportunity for disappointment.</p>
@@ -1991,7 +2025,11 @@
 <p>Jason Zweig (2015) <em>The Devil’s Financial Dictionary</em></p>
 </blockquote>
 <p>On average, the more people trade, the worse they perform (<a href="https://doi.org/10.1257/aer.89.5.1279">O’Dean (1999)</a>). This is driven largely, but not solely, by transactions costs (<a href="https://doi.org/10.1111/0022-1082.00226">Barber and O’Dean (2000)</a>).</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/Figure_1_Barber_and_Odean_1999.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/consumer-financial-decision-making/Figure_1_Barber_and_Odean_1999.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/Figure_1_Barber_and_Odean_1999.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>Those who believe they are better than others (overplace) trade more. There is mixed evidence in support of a link between overprecision and over-trading (<a href="https://doi.org/10.1162/003355301556400">Barber and O’Dean (2001)</a>). There is also a difference by gender. Men trade more than women, and suffer a larger trading penalty as a result.</p>
 </section>
 <section id="poor-investment-options" class="level2">
@@ -2147,21 +2185,37 @@
 <p><a href="https://doi.org/10.1111/j.1540-6261.2011.01698.x">Bertrand and Morse (2011)</a> trialled information disclosure in a field experiment in payday lending stores in the United States. They included one of the following three designs on the loan documentation envelopes.</p>
 <p><strong>Dollar information</strong></p>
 <p>One treatment provided the customer with dollar information on accumulated fees over time, compared with same amount on credit card.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/dollar_information.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/consumer-financial-decision-making/dollar_information.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/dollar_information.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>Customers who received this treatment were 5.9 percentage points less likely to borrow in the pay cycle following the intervention (an 11% decline relative to the control group). They also reduced the amount borrowed if they did return by 23%. The success of this intervention suggests an initial lack of understanding of the power of compounding (financial literacy).</p>
 <p><strong>Comparison of annual percentage rates</strong></p>
 <p>Although regulation already required lenders to provide an annualised percentage rate to customers, this treatment involved comparison of the annualised percentage rate of the payday loan with other financial instruments that the customers are likely familiar with.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/APR.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/consumer-financial-decision-making/APR.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/APR.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>Customers who were provided with the annual percentage rate comparisons reduced the amount borrowed for future loans by 16%. (There was no effect on likelihood of taking out a loan.)</p>
 <p><strong>Typical repayment profile</strong></p>
 <p>The third treatment provided information on the typical repayment profile for a customer.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/repayment_profile.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/consumer-financial-decision-making/repayment_profile.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/repayment_profile.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>Customers provided with the typical repayment profile reduced future sums borrowed by 12%. (There was no effect on likelihood of taking out a loan.) This change might be because the information reduced the overoptimism of the borrower as to their future actions and financial situation .</p>
 </section>
 <section id="credit-card-transparency" class="level3">
 <h3 class="anchored" data-anchor-id="credit-card-transparency">8.4.3 Credit card transparency</h3>
 <p>A large nationwide retail bank showed the trade-offs associated with credit cards at the beginning of the sale process <a href="https://www.hbs.edu/faculty/Pages/item.aspx?num=56465">Buell and Choi (2019)</a>. Monthly spending by those who saw the trade-offs was 10% higher, with 20% lower cancellation rates and 10% fewer late payments.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/Buell_and_Choi_2019_Figure_3.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/consumer-financial-decision-making/Buell_and_Choi_2019_Figure_3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/Buell_and_Choi_2019_Figure_3.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>It is not clear exactly how the transparency measure worked, but may be due to both selection effects (people got cards more suited to their needs) or an education effect (they used the card better).</p>
 </section>
 <section id="distributing-the-bonus-saver-account" class="level3">
@@ -2238,7 +2292,11 @@
 <p>Australian superannuation funds are required to provide short product disclosure statements to customers. They are designed to be shorter than historic product disclosure statements and enable people to compare superannuation products across areas such as risk, returns and asset allocation.</p>
 <p><a href="https://doi.org/10.1016/j.jebo.2015.10.020">Bateman and colleagues (2015)</a> examined the effect of the standard information in these documents on consumer choice (using Unisuper templates as a foundation). They found that one third of consumers were not affected by the information provided and the risk information was irrelevant to three quarters.</p>
 <p>The most influential element of the dashboard was the asset allocation pie chart. Customers preferred options where the assets were allocated evenly across the categories. This finding opens the potential for manipulation of choice by changing the asset categories such that allocations appear more even.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/bateman_2016_figure_1.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/consumer-financial-decision-making/bateman_2016_figure_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img src="https://www.jasoncollins.blog/posts/img/consumer-financial-decision-making/bateman_2016_figure_1.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 </section>
 <section id="required-reading-1" class="level3">
 <h3 class="anchored" data-anchor-id="required-reading-1">9.2.2 Required reading</h3>
@@ -2386,7 +2444,6 @@
 
 
 
-
 <p>The best books I <em>read</em> in 2020 - generally released in other years - were:</p>
 <ul>
 <li><p>Albert Camus, <em>The Plague</em></p></li>
@@ -2459,17 +2516,28 @@
 
 
 
-
 <p>Below is the text of my presentation at <a href="https://www.nudgestock.co.uk/">Nudgsestock on 12 June 2020</a>.</p>
 <section id="intro" class="level2">
 <h2 class="anchored" data-anchor-id="intro">Intro</h2>
 <p>Over the past decade or two, behavioural scientists have had a great ride. There have been bestselling books and Nobel Memorial Prizes. Every second government department and corporate has set up a team.</p>
 <p>But recently, the wind seems to have changed. We’re told that <a href="https://www.bloomberg.com/news/articles/2020-01-13/behavioral-economics-latest-bias-seeing-bias-wherever-it-looks">behavioural economics is itself biased</a>.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/kochkodin.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/kochkodin.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/kochkodin.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>“<a href="https://unherd.com/2020/03/dont-trust-the-psychologists-on-coronavirus/">Don’t trust the psychologists on coronavirus</a> - Many of the responses to Covid-19 come from a deeply-flawed discipline”.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/ritchie.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/ritchie.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/ritchie.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p><a href="https://twitter.com/nntaleb/status/1233755916119543809">“Nudgeboy”</a> has become a pejorative.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/taleb.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/taleb.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/taleb.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>I believe this challenge is deserved.</p>
 <p>For too long we have been opining about people’s irrationality - that is, the irrationality of others - and that if only we designed the world more intelligently, people would make better decisions.</p>
 <p>We often make these judgements based on narrow lab experiments that we generalise to the outside world. But as we well know, sometimes those experiments don’t replicate in that narrow lab environment. And even of those that replicate in the lab, many become an ineffective, or even dangerous tool when we try to apply them in the complex outside world.</p>
@@ -2496,7 +2564,11 @@
 <p>Let’s delve into how Gilovich, Vallone and Tversky showed the absence of a hot hand.</p>
 <p>Imagine a person who took ten shots in a basketball game. A ball is a hit, an X is a miss.</p>
 <p>What would count as evidence of a hot hand? What we can do is look at shots following a previous hit. For instance, in this sequence of shots there are 6 occasions where we have a shot following a previous hit. Five of those shots, such as the seventh here, are followed by another hit.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/shots.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/shots.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/shots.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>We can then compare their normal shooting percentage with the proportion of shots they hit if the shot immediately before was a hit. If their hit rate after a hit is higher than their normal shot probability, then we might say they get a hot hand.</p>
 <p>This is effectively how Gilovich, Vallone and Tversky examined the hot hand in coming to their conclusion that it doesn’t exist. They also looked at whether there was a hit or miss after longer streaks of hits or misses, but this captures the basic methodology. It seems sensible.</p>
 <p>But let me take a detour that involves flipping a coin.</p>
@@ -2584,7 +2656,11 @@
 <p>The idea behind probability neglect is that when we consider a small risk, we tend to either ignore the risk or give it too much weight. We give disproportionate weight to the difference between zero and one percent relative to the difference between one and 99 percent probability.</p>
 <p>There’s good evidence from the lab that we suffer from probability neglect - in the same way there is solid lab evidence about our misperceptions of randomness. But once again, the danger emerges when we take this finding and use it to assess the decisions of people in the outside world.</p>
 <p>Here’s a recent example by Nudge author Cass Sunstein that hasn’t aged particularly well: <a href="https://www.bloomberg.com/opinion/articles/2020-02-28/coronavirus-panic-caused-by-probability-neglect">The Cognitive Bias That Makes Us Panic About Coronavirus</a>, with the subtitle: Feeling anxious? Blame “probability neglect.”</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_probability_neglect.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_probability_neglect.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_probability_neglect.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>The opening paragraph of the article reads:</p>
 <blockquote class="blockquote">
 <p>At this stage, no one can specify the magnitude of the threat from the coronavirus. But one thing is clear: A lot of people are more scared than they have any reason to be. They have an exaggerated sense of their own personal risk.</p>
@@ -2594,9 +2670,17 @@
 <p>In fact, even when they are likely wrong - perhaps those panicking are like the broken clock that is right twice a day - we should ask whether there is wisdom in their actions. What if there is an asymmetry in the potential costs and benefits of overreacting versus under-reacting? Is it better to be typically wrong on probability - always assume there is a tiger in the grass - than to be largely right but occasionally experience ruin?</p>
 <p>Sunstein, of course, was not exactly Robinson Crusoe in claiming that we were overreacting in late February. In fact, even now it’s not entirely clear what the appropriate response was for many people, regions or countries.</p>
 <p>But by late March, without skipping a beat, he was noting that <a href="https://www.bloomberg.com/opinion/articles/2020-03-26/coronavirus-lockdowns-look-smart-under-cost-benefit-scrutiny">“This Time the Numbers Show We Can’t Be Too Careful”</a>. No mention of the allegation of a misperception of risk less than four weeks earlier.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_cba.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_cba.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_cba.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>Of course, one of the weaknesses of applied behavioural science is that you can tell a story no matter what the observed behaviour. Six weeks later Sunstein was writing “How to Make Coronavirus Restrictions Easier to Swallow”, giving guidance on how to stop an under-reaction.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_nudge.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_nudge.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_nudge.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>As Sunstein wrote:</p>
 <blockquote class="blockquote">
 <p>To address the coronavirus pandemic, it’s essential to influence human behavior; to promote social distancing, to get people to wear masks, to encourage people to stay home. Many nations have imposed mandates as well. But to enforce the mandates and to promote safer choices as the mandates wind down, people have to be nudged.</p>
@@ -2624,7 +2708,11 @@
 <p>This possible misunderstanding of people’s objectives can also arise simply as a practical issue. Let me give an example which, although not evolutionary, I think about a lot.</p>
 <p>Power companies often want to limit their customers’ electricity demand for environmental reasons, or to reduce peak demand.</p>
 <p>One of the favourite tricks to do this is to provide a comparison of that person or household’s power consumption with their neighbours. People have a desire to conform, and look to cues to inform their decisions. If shown that their power usage is above their neighbours, they tend to reduce their use.</p>
-<p><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/power.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/power.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/power.jpg" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 <p>Source: <a href="https://doi.org/10.1257/app.20170328">Opower, Allcott and Kessler (2019) AEJ: Applied Economics</a></p>
 <p>What is this person or household’s objective? If it were purely financial, success! They have saved on their power bill. Their reduction in use also happens to align with the environmental or peak demand reduction objectives of the nudger.</p>
 <p>Yet is their objective that simple? What if it is, say, happiness or satisfaction in life? What of factors such as their comfort?</p>

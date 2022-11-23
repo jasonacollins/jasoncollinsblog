@@ -5,7 +5,7 @@
 freeze: true
 
 # Enable banner style title blocks
-title-block-banner: true
+title-block-banner: false
 
 comments:
   giscus:
@@ -15,7 +15,7 @@ comments:
     category-id: "DIC_kwDOIbjYgc4CSiuB"
     mapping: "pathname"
     reactions-enabled: false
-    loading: lazy
+#    loading: lazy
     input-position: "bottom"
     theme: "light"
 

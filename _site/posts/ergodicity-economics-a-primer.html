@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -104,6 +104,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -167,26 +170,30 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html">About</a>
+    <a class="nav-link" href="../about.html">
+ <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../research.html">Research</a>
+    <a class="nav-link" href="../research.html">
+ <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../subscribe.html">Subscribe</a>
+    <a class="nav-link" href="../subscribe.html">
+ <span class="menu-text">Subscribe</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching.html">Teaching</a>
+    <a class="nav-link" href="../teaching.html">
+ <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/jasonacollins"><i class="bi bi-twitter" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="../index.xml"><i class="bi bi-rss" role="img">
 </i> 
- </a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -195,42 +202,41 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Ergodicity economics: a primer</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Jason Collins </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">January 22, 2020</p>
-      </div>
-    </div>
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Ergodicity economics: a primer</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jason Collins </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 22, 2020</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
 
 <p>In my previous posts on loss aversion (<a href="https://www.jasoncollins.blog/kahneman-and-tverskys-debatable-loss-aversion-assumption/">here</a>, <a href="https://www.jasoncollins.blog/what-can-we-infer-about-someone-who-rejects-a-5050-bet-to-win-110-or-lose-100-the-rabin-paradox-explored/">here</a> and <a href="https://www.jasoncollins.blog/the-case-against-loss-aversion/">here</a>), I foreshadowed a post on how “ergodicity economics” might shed some light on whether we need loss aversion to explain people’s choices under uncertainty. This was to be that post, but the background material that I drafted is long enough to be a stand alone piece. I’ll turn to the application of ergodicity economics to loss aversion in a future post.</p>
 <p>The below is largely drawn from presentations and papers by <a href="https://ergodicityeconomics.com/">Ole Peters</a> and <a href="http://lml.org.uk/research/economics/">friends</a>, with my own evolutionary take at the end. For a deeper dive, see the <a href="https://ergodicityeconomics.com/lecture-notes/">lecture notes by Peters and Alexander Adamou</a>, or a recent <a href="https://doi.org/10.1038/s41567-019-0732-0">Perspective by Peters in Nature Physics</a>.</p>
@@ -244,7 +250,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Should you take the bet?</p>
 <p>I simulated 10,000 people who each started with $100 and flipped the coin 100 times each. This line in Figure 1 represents the mean wealth of the 10,000 people. It looks good, increasing roughly in accordance with the expected gain, despite some volatility, and finishing at a mean wealth of over $16,000.</p>
 <p><em>Figure 1: Average wealth of population</em><br>
-<img src="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_1.jpeg" class="img-fluid" alt="Figure 1"></p>
+<a href="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure 1"><img src="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_1.jpeg" class="img-fluid" alt="Figure 1"></a></p>
 <p>Yet people regularly decline gambles of this nature. Are they making a mistake?</p>
 <p>One explanation for declining this gamble is risk aversion. A risk averse person will value the expected outcome of a gamble lower than the same sum with certainty.</p>
 <p>Risk aversion can be represented through the concept of utility, where each level of wealth gives subjective value (utility) for the gambler. If people maximise utility instead of the value of a gamble, it is possible that a person would reject the bet.</p>
@@ -254,10 +260,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2 class="anchored" data-anchor-id="the-time-average-growth-rate">3. The time average growth rate</h2>
 <p>For a different perspective, below is the plot for the first 20 of these 10,000 people. Interestingly, only two people do better than break even (represented by the black line at $100). The richest has less than $1,000 at period 100.</p>
 <p><em>Figure 2: Path of first 20 people</em><br>
-<img src="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_2.jpeg" class="img-fluid" alt="Figure 2"></p>
+<a href="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_2.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure 2"><img src="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_2.jpeg" class="img-fluid" alt="Figure 2"></a></p>
 <p>What is happening here? The first plot shows that the average wealth across all 10,000 people is increasing. When we look at the first 20 individuals, their wealth generally declines. Even those that make money make less than the gain in aggregate wealth would suggest.</p>
 <p>To show this more starkly, here is a plot of the first 20 people on a log scale, together with the average wealth for the full population. They are all below average in final wealth.</p>
-<p><em>Figure 3: Plot of first 20 people against average wealth (log scale)</em> <img src="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_3.jpeg" class="img-fluid" alt="Figure 3"></p>
+<p><em>Figure 3: Plot of first 20 people against average wealth (log scale)</em> <a href="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_3.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure 3"><img src="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_3.jpeg" class="img-fluid" alt="Figure 3"></a></p>
 <p>If we examine the full population of 10,000, we see an interesting pattern. The mean wealth is over $16,000, but the median wealth after 100 periods is 51 cents, a loss of over 99% of the initial wealth. 54% of the population ends up with less than $1. 86% finishes with less than the initial wealth of $100. Yet 171 people end up with more than $10,000. The wealthiest person finishes with $117 million, which is over 70% of the total wealth of the population.</p>
 <p>For most people, the series of bets is a disaster. It looks good only on average, propped up by the extreme good luck and massive wealth of a few people. The expected payoff does not match the experience of most people.</p>
 <section id="four-possible-outcomes" class="level3">
@@ -278,9 +284,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>How can we reconcile this expectation of loss when looking at the time average growth with the continued growth of the wealth of some people after 100 periods? It does not seem that everyone is “almost surely” on the path to ruin.</p>
 <p>But they are. If we plot the simulation for, say, 1,000 periods rather than 100, there are few winners. Here’s a plot of the average wealth of the population for 1000 periods (the first 100 being as previously shown), plus a log plot of that same growth (Figures 4 and 5).</p>
 <p><em>Figure 4: Plot of average wealth over 1000 periods</em><br>
-<img src="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_4.jpeg" class="img-fluid" alt="Figure 4"></p>
+<a href="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_4.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure 4"><img src="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_4.jpeg" class="img-fluid" alt="Figure 4"></a></p>
 <p><em>Figure 5: Plot of average wealth over 1000 periods (log plot)</em><br>
-<img src="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_5.jpeg" class="img-fluid" alt="Figure 5"></p>
+<a href="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_5.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Figure 5"><img src="img/2020-01-22-ergodicity-economics-a-primer/Non_ergodic_Figure_5.jpeg" class="img-fluid" alt="Figure 5"></a></p>
 <p>We can see that despite a large peak in wealth around period 400, wealth ultimately plummets. Average wealth at period 1000 is $24, below the starting average of $100, with a median wealth of 1x10<sup>-21</sup> (rounding to the nearest cent, that is zero). The wealthiest person has $242 thousand dollars, with that being 98.5% of the total wealth. If we followed that wealthy person for another 1000 generations, I would expect them to be wiped out too. [I tested that - at 2000 periods the wealthiest person had $4x10<sup>-7</sup>.] Despite the positive expected value, the wealth of the entire population is wiped out.</p>
 </section>
 </section>
@@ -309,10 +315,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>The Kelly bet “almost surely”” leads to higher wealth than any other strategy in the long run.</p>
 <p>If we simulate the above scenarios, but risking only 10% of wealth each round rather than 40% (i.e.&nbsp;heads wealth will increase by 12.5%, tails it will decrease by 10%), what happens? The expected value of the Kelly bet is 0.5*0.125+0.5*-0.1=0.0125 or 1.25% per round. This next figure shows the ensemble average, showing a steady increase.</p>
 <p><em>Figure 6: Average wealth of population applying Kelly criterion (1000 periods)</em><br>
-<img src="img/2020-01-22-ergodicity-economics-a-primer/Kelly_Figure_6.jpeg" class="img-fluid" alt="Figure 6"></p>
+<a href="img/2020-01-22-ergodicity-economics-a-primer/Kelly_Figure_6.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Figure 6"><img src="img/2020-01-22-ergodicity-economics-a-primer/Kelly_Figure_6.jpeg" class="img-fluid" alt="Figure 6"></a></p>
 <p>If we look at the individuals in this population, we can also see that their paths more closely resemble that of the population average. Most still under-perform the mean (the system is still non-ergodic - the time average growth rate is ((1.125*0.9)<sup>0.5</sup>=1.006 or 0.6%), and there is large wealth disparity with the wealthiest person having 36% of the total wealth after 1000 periods (after 100, they have 0.5% of the wealth). Still most people are better off, with 70% and 95% of the population experiencing a gain after 100 and 1000 periods respectively. The median wealth is almost $50,000 after the 1000 periods.</p>
 <p><em>Figure 7: Plot of first 20 people applying Kelly criterion against average wealth (log scale, 1000 periods)</em><br>
-<img src="img/2020-01-22-ergodicity-economics-a-primer/Kelly_Figure_7.jpeg" class="img-fluid" alt="Figure 7"></p>
+<a href="img/2020-01-22-ergodicity-economics-a-primer/Kelly_Figure_7.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Figure 7"><img src="img/2020-01-22-ergodicity-economics-a-primer/Kelly_Figure_7.jpeg" class="img-fluid" alt="Figure 7"></a></p>
 <p>Unfortunately, given our take it or leave it choice we opened with involving 40% of our wealth, we can’t use the Kelly Criterion to optimise the bet size and should refuse the bet.</p>
 <p><em>Update clarifying some comments on this post:</em></p>
 <p>An alternative more general formula for the Kelly criterion that can be used for investment decisions is:</p>
@@ -336,7 +342,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>If, however, each child faces their own coin flip (experiencing, say, idiosyncratic risks), that crash never comes. Instead the risk of those flips is diversified and the growth of the population more closely resembles the ensemble average, even over the very long term.</p>
 <p>Below is a chart of population for a simulation of 100 generations of the accepting population, starting with a population of 10,000. For this simulation I have assumed that at the end of each period, the accepting types will have a number of children equal to the proportional increase in their wealth. For example, if they flip heads, they will have 1.5 children, For tails, they will have 0.6 children. They then die. (The simulation works out largely the same if I make the number of children probabilistic in accord with those numbers.) Each child takes their own flip.</p>
 <p><em>Figure 8: Population of accepting types</em><br>
-<img src="img/2020-01-22-ergodicity-economics-a-primer/Evolution_Figure_8.jpeg" class="img-fluid" alt="Figure 8"></p>
+<a href="img/2020-01-22-ergodicity-economics-a-primer/Evolution_Figure_8.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Figure 8"><img src="img/2020-01-22-ergodicity-economics-a-primer/Evolution_Figure_8.jpeg" class="img-fluid" alt="Figure 8"></a></p>
 <p>This has an expected population growth rate of 5%.</p>
 <p>This evolutionary scenario differs from Kelly criterion in that the accepting types are effectively able to take many independent shares of the bet for a tiny fraction of their inclusive fitness.</p>
 <p>In a <a href="https://doi.org/10.1038/s41567-019-0732-0">Nature Physics paper</a> summarising some of his work, Peters writes:</p>
@@ -578,7 +584,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -614,24 +637,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var filterRegex = new RegExp(/https:\/\/www\.jasoncollins\.blog/);
@@ -639,7 +680,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -649,7 +690,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
 });
 </script>
-<script src="https://giscus.app/client.js" data-repo="jasonacollins/jasoncollinsblog" data-repo-id="R_kgDOIbjYgQ" data-category="Announcements" data-category-id="DIC_kwDOIbjYgc4CSiuB" data-mapping="pathname" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
+<script src="https://giscus.app/client.js" data-repo="jasonacollins/jasoncollinsblog" data-repo-id="R_kgDOIbjYgQ" data-category="Announcements" data-category-id="DIC_kwDOIbjYgc4CSiuB" data-mapping="pathname" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 <footer class="footer">
@@ -669,6 +710,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"loop":true,"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","descPosition":"bottom"});</script>
 
 
 
