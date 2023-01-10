@@ -6,6 +6,8 @@ draft: false
 aliases:
   - /best-books-i-read-in-2022
 ---
+A full list of the books I read in 2022 and my selection of the best.
+
 The best books I <em>read</em> in 2022 - generally released in other years - were:
 
 - Bryan Caplan, *The Case Against Education*: I find the argument compelling and somewhat disheartening.
