@@ -19,6 +19,6 @@ comments:
     input-position: "bottom"
     theme: "light"
 
-format:
-  html:
-    include-after-body: ../subscribe.html
+#format:
+#  html:
+#    include-after-body: ../subscribe.html
