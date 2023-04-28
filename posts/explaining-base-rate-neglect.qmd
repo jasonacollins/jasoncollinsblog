@@ -77,18 +77,25 @@ The result: 20% of outperforming teams are skilled. There is some signal in the 
 Applying Bayes' rule to the COVID diagnosis:
 
 ```{=tex}
-\begin{align}
-\require{mathtools} 
-P(\text{COVID | positive}) &=\dfrac{P(\text{positive | COVID})P(\text{COVID})}{P(\text{positive})} \\\\[12pt]
-&=\dfrac{P(\text{positive | COVID})P(\text{COVID})}{\splitfrac{P(\text{positive | COVID})P(\text{COVID})}{+P(\text{positive | not COVID})P(\text{not COVID})}} \\\\[12pt]
-&=\dfrac{0.9\times0.01}{0.01\times0.9+0.99\times0.09} \\\\[12pt]
-&=0.092\end{align}
+\begin{align*}
+P(\text{COVID | positive}) &=\dfrac{P(\text{positive | COVID})P(\text{COVID})}{P(\text{positive})} \\[12pt]
+&=\dfrac{P(\text{positive | COVID})P(\text{COVID})}{\Bigg(\begin{align*}
+P&(\text{positive | COVID})P(\text{COVID}) \\ &+P(\text{positive | not COVID})P(\text{not COVID})
+\end{align*}\Bigg)} \\[30pt]
+&=\dfrac{0.9\times0.01}{0.01\times0.9+0.99\times0.09} \\[12pt]
+&=0.092
+\end{align*}
 ```
 Applying Bayes' rule to the assessment of skill:
 
 ```{=tex}
-\begin{align}P(\text{skill | outperform}) &=\dfrac{P(\text{outperform | skill})P(\text{skill})}{P(\text{outperform})} \\\\[12pt]
-&=\dfrac{P(\text{outperform | skill})P(\text{skill})}{\splitfrac{P(\text{outperform | skill})P(\text{skill})}{+P(\text{outperform | no skill})P(\text{no skill})}} \\\\[12pt] 
-&=\dfrac{0.9\times0.1}{0.9\times0.1+0.4\times0.9} \\\\[12pt] 
-&=0.2\end{align}
+\begin{align*}
+P(\text{skill | outperform}) &=\dfrac{P(\text{outperform | skill})P(\text{skill})}{P(\text{outperform})} \\[12pt]
+&=\dfrac{P(\text{outperform | skill})P(\text{skill})}{\Bigg(\begin{align*}
+P(&\text{outperform | skill})P(\text{skill}) \\
+&+P(\text{outperform | no skill})P(\text{no skill})
+\end{align*}\Bigg)} \\[30pt] 
+&=\dfrac{0.9\times0.1}{0.9\times0.1+0.4\times0.9} \\[12pt] 
+&=0.2
+\end{align*}
 ```

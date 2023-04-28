@@ -238,17 +238,24 @@ ul.task-list li input[type="checkbox"] {
 <section id="mathematical-appendix" class="level2">
 <h2 class="anchored" data-anchor-id="mathematical-appendix">Mathematical appendix</h2>
 <p>Applying Bayes’ rule to the COVID diagnosis:</p>
-<span class="math display">\begin{align}
-\require{mathtools}
-P(\text{COVID | positive}) &amp;=\dfrac{P(\text{positive | COVID})P(\text{COVID})}{P(\text{positive})} \\\\[12pt]
-&amp;=\dfrac{P(\text{positive | COVID})P(\text{COVID})}{\splitfrac{P(\text{positive | COVID})P(\text{COVID})}{+P(\text{positive | not COVID})P(\text{not COVID})}} \\\\[12pt]
-&amp;=\dfrac{0.9\times0.01}{0.01\times0.9+0.99\times0.09} \\\\[12pt]
-&amp;=0.092\end{align}</span>
+<span class="math display">\begin{align*}
+P(\text{COVID | positive}) &amp;=\dfrac{P(\text{positive | COVID})P(\text{COVID})}{P(\text{positive})} \\[12pt]
+&amp;=\dfrac{P(\text{positive | COVID})P(\text{COVID})}{\Bigg(\begin{align*}
+P&amp;(\text{positive | COVID})P(\text{COVID}) \\ &amp;+P(\text{positive | not COVID})P(\text{not COVID})
+\end{align*}\Bigg)} \\[30pt]
+&amp;=\dfrac{0.9\times0.01}{0.01\times0.9+0.99\times0.09} \\[12pt]
+&amp;=0.092
+\end{align*}</span>
 <p>Applying Bayes’ rule to the assessment of skill:</p>
-<span class="math display">\begin{align}P(\text{skill | outperform}) &amp;=\dfrac{P(\text{outperform | skill})P(\text{skill})}{P(\text{outperform})} \\\\[12pt]
-&amp;=\dfrac{P(\text{outperform | skill})P(\text{skill})}{\splitfrac{P(\text{outperform | skill})P(\text{skill})}{+P(\text{outperform | no skill})P(\text{no skill})}} \\\\[12pt]
-&amp;=\dfrac{0.9\times0.1}{0.9\times0.1+0.4\times0.9} \\\\[12pt]
-&amp;=0.2\end{align}</span>
+<span class="math display">\begin{align*}
+P(\text{skill | outperform}) &amp;=\dfrac{P(\text{outperform | skill})P(\text{skill})}{P(\text{outperform})} \\[12pt]
+&amp;=\dfrac{P(\text{outperform | skill})P(\text{skill})}{\Bigg(\begin{align*}
+P(&amp;\text{outperform | skill})P(\text{skill}) \\
+&amp;+P(\text{outperform | no skill})P(\text{no skill})
+\end{align*}\Bigg)} \\[30pt]
+&amp;=\dfrac{0.9\times0.1}{0.9\times0.1+0.4\times0.9} \\[12pt]
+&amp;=0.2
+\end{align*}</span>
 
 
 </section>
@@ -527,7 +534,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":true,"openEffect":"zoom","closeEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":true});</script>
 
 
 
