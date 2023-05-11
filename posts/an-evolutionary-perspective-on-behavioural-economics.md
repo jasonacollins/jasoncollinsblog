@@ -1,6 +1,5 @@
 ---
 author: "Jason Collins"
-
 date: 2015-03-25 08:00:42+00:00
 draft: false
 link: https://www.jasoncollins.blog/an-evolutionary-perspective-on-behavioural-economics/
