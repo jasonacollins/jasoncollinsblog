@@ -210,28 +210,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <p>Consider the following claim:</p>
 <blockquote class="blockquote">
-<p>We don’t need loss aversion to explain a person’s decision to reject a 50:50 bet to win $110 or lose $100. That just simple risk aversion as in expected utility theory.</p>
+<p>We don’t need loss aversion to explain a person’s decision to reject a 50:50 bet to win $110 or lose $100. That is just risk aversion as in expected utility theory.</p>
 </blockquote>
-<p>Risk aversion is the concept that we prefer certainty to a gamble with the same expected value. For example, a risk averse person would prefer $100 for certain over a 50-50 gamble between $0 and $200, which has an expected value of $100. The higher their risk aversion, the less they would value the 50:50 bet. They would also be willing to reject some positive expected value bets.</p>
-<p>Loss aversion is the concept that losses loom larger than gains. If the loss is weighted more heavily that the gain - it is often said that losses hurt twice as much as gains bring us joy - then this could also explain the decision to reject a 50:50 bet of the type above. Loss aversion is distinct from risk aversion as its full force applies to the first dollar either side of the reference point from which the person is assessing the change (and at which point risk aversion should be negligible).</p>
+<p>Risk aversion is the concept that we prefer certainty to a gamble with the same expected value. For example, a risk-averse person would prefer $100 for certain over a 50-50 gamble between $0 and $200, which has an expected value of $100. The higher their risk aversion, the less they would value the 50:50 bet. They would also be willing to reject some positive expected value bets.</p>
+<p>Loss aversion is the concept that losses loom larger than gains. If the loss is weighted more heavily than the gain - it is often said that losses hurt twice as much as gains bring us joy - then this could also explain the decision to reject a 50:50 bet of the type above. Loss aversion is distinct from risk aversion as its full force applies to the first dollar on either side of the reference point from which the person is assessing the change (and at which point risk aversion should be negligible).</p>
 <p>So, do we need loss aversion to explain the rejection of this bet, or does risk aversion suffice?</p>
 <p>One typical response to the above claim is loosely based on the Rabin Paradox, which comes from a paper published in 2000 by Matthew Rabin:</p>
 <blockquote class="blockquote">
 <p>An expected utility maximiser who rejects this bet is exhibiting a level of risk aversion that would lead them to reject bets that no one in their right mind would reject. It can’t be the case that this is simply risk aversion.</p>
 </blockquote>
-<p>For the remainder of this post I am going to pull apart Rabin’s argument from his justifiably famous paper <a href="https://doi.org/10.1111/1468-0262.00158">Risk Aversion and Expected-Utility Theory: A Calibration Theorem</a> (<a href="http://dklevine.com/archive/refs47667.pdf">pdf</a>). A more more readable version of this argument was also published in 2001 in <a href="https://www.aeaweb.org/articles?id=10.1257/jep.15.1.219">an article by Rabin and Richard Thaler</a>.</p>
+<p>For the remainder of this post I am going to pull apart Rabin’s argument from his justifiably famous paper <a href="https://doi.org/10.1111/1468-0262.00158">Risk Aversion and Expected-Utility Theory: A Calibration Theorem</a> (<a href="http://dklevine.com/archive/refs47667.pdf">pdf</a>). A more readable version of this argument was also published in 2001 in <a href="https://www.aeaweb.org/articles?id=10.1257/jep.15.1.219">an article by Rabin and Richard Thaler</a>.</p>
 <p>To understand Rabin’s point, I have worked through the math in his paper. You can see my mathematical workings in an Appendix at the bottom of this post. There were quite a few minor errors in the paper - and some major errors in the formulas - but I believe I’ve captured the crux of the argument. (I’d be grateful for some second opinions on this).</p>
-<p>I started working through these two articles with an impression that Rabin’s argument was a fatal blow to the idea that expected utility theory accurately describes the rejection of bets such as that above. I would have been comfortable making the above response. However, after playing with the numbers and developing a better understanding of the paper, I would say that the above response is not strictly true. Rabin’s paper makes an important point, but it is far from a fatal blow by itself. (That fatal blow does come, just not solely from here.)</p>
+<p>I started working through these two articles with the impression that Rabin’s argument was a fatal blow to the idea that expected utility theory accurately describes the rejection of bets such as that above. I would have been comfortable making the above response. However, after playing with the numbers and developing a better understanding of the paper, I would say that the above response is not strictly true. Rabin’s paper makes an important point, but it is far from a fatal blow by itself. (That fatal blow does come, just not solely from here.)</p>
 <section id="describing-rabins-argument" class="level2">
 <h2 class="anchored" data-anchor-id="describing-rabins-argument">Describing Rabin’s argument</h2>
 <p>Rabin’s argument starts with a simple bet: suppose you are offered a 50:50 bet to win $110 or lose $100, and you turn it down. Suppose further that you would reject this bet no matter what your wealth (this is an assumption we will turn to in more detail later). What can you infer about your response to other bets?</p>
-<p>This depends on what decision making model you are using.</p>
-<p>For an expected utility maximiser - someone who maximises the probability weighted subjective value of these bets - we can infer that they will turn down any 50:50 bet of losing $1,000 and gaining any amount of money. For example, they would reject a 50:50 bet to lose $1,000, win one billion dollars.</p>
-<p>On its face value, that is ridiculous, and that is the crux of Rabin’s argument. Rejection of the low value bet to win $110 and lose $100 would lead to absurd responses to higher value bets. This leads Rabin to argue that risk aversion or the diminishing value of money has nothing to do with rejection of the low value bets.</p>
+<p>This depends on what decision-making model you are using.</p>
+<p>For an expected utility maximiser - someone who maximises the probability-weighted subjective value of these bets - we can infer that they will turn down any 50:50 bet of losing $1,000 and gaining any amount of money. For example, they would reject a 50:50 bet to lose $1,000, win one billion dollars.</p>
+<p>On its face value, that is ridiculous, and that is the crux of Rabin’s argument. Rejection of the low-value bet to win $110 and lose $100 would lead to absurd responses to higher-value bets. This leads Rabin to argue that risk aversion or the diminishing value of money has nothing to do with the rejection of the low-value bets.</p>
 <p>The intuition behind Rabin’s argument is relatively simple. Suppose we have someone that rejects a 50:50 bet for gain $11, lose $10. They are an expected utility maximiser with a weakly concave utility curve: that is, they are risk neutral or risk averse at all levels of wealth.</p>
 <p>From this, we can infer that they weight the average of each dollar between their current wealth (W) and their wealth if they win the bet (W+11) only 10/11 as much as they weight the average dollar of the last $10 of their current wealth (between W-10 and W). We can also say that they therefore weight their W+11th dollar at most 10/11 as much as their W-10th dollar (relying on the weak concavity here).</p>
 <p>Suppose their wealth is now W+21. We have assumed that they will reject the bet at all levels of wealth, so they will also reject at this wealth. Iterating the previous calculations, we can say that they will weight their W+32nd dollar only 10/11 as much as their W+11th dollar. This means they value their W+32nd dollar only (10/11)<sup>2</sup> as much as their W-10th dollar.</p>
-<p>Keep iterating in this way and you end up with some ridiculous results. You value the 210th dollar above your current wealth only 40% as much as your last current dollar of your wealth [reducing by a constant factor of 10/11 every $21 - (10/11)<sup>10</sup>]. Or you value the 900th dollar above your current wealth at only 2% of your last current dollar [(10/11)<sup>40</sup>]. This is an absurd rate of discounting.</p>
+<p>Keep iterating in this way and you end up with some ridiculous results. You value the 210th dollar above your current wealth only 40% as much as your last current dollar of your wealth [reducing by a constant factor of 10/11 every $21 - (10/11)<sup>10<sup>$]. Or you value the 900th dollar above your current wealth at only 2% of your last current dollar [(10/11)<sup>40</sup>]. This is an absurd rate of discounting.</sup></sup></p>
 <p>Those numbers are from the 2001 Rabin and Thaler paper. In his 2000 paper, Rabin gives figures of 3/20 for the 220th and 1/2000 for the 880th dollar, effectively calculating (10/11)<sup>20</sup> and (10/11)<sup>80</sup>, which is a reduction by a factor of 10/11 every 11 dollars. This degree of discounting could be justified and reflects the equations provided in the Appendix to his paper, but it requires a slightly different intuition than the one relating to the comparison between every 21st dollar. If instead you note that the $11 above a reference point are valued less than the $10 below, you only need iterate up $11 to get another discount of 10/11, as the next $11 is valued at most as much as the previous $10.</p>
 <p>Regardless of whether you use the numbers from the 2000 or 2001 paper, taking this iteration to the extreme, it doesn’t take long for additional money to have effectively zero value. Hence the result, reject the 50:50 win $110, lose $100 and you’ll reject the win any amount, lose $1,000 bet.</p>
 </section>
@@ -254,7 +254,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>For instance, this person will reject a bet of gain $718,190, lose $1,000. Again, this person would be out of their mind.</p>
 <p>You might now ask whether a person with a wealth of $290,000 to $300,000 actually rejects bets of this nature? If not, isn’t this just another unjustifiable assumption designed to generate a ridiculous result?</p>
 <p>It is possible to make this scenario more realistic. Rabin doesn’t mention this in his paper (nor do Rabin and Thaler), but we can generate the same result at much lower levels of wealth. All we need to find is someone who will reject that bet over a range of $10,000, and still have enough wealth to bear the loss - say someone who will reject that bet up to a wealth of $11,000. That person will also reject a win $718,190 lose $1,000 bet.</p>
-<p>Rejection of the win $110, lose $100 bet over that range does not seem as unrealistic, and I could imagine a person with that preference existing. If we empirically tested this, we would also need to examine liquid wealth and cash flow, but the example does provide a sense that we could find some people whose rejection of low value bets would generate absurd results under expected utility maximisation.</p>
+<p>Rejection of the win $110, lose $100 bet over that range does not seem as unrealistic, and I could imagine a person with that preference existing. If we empirically tested this, we would also need to examine liquid wealth and cash flow, but the example does provide a sense that we could find some people whose rejection of low-value bets would generate absurd results under expected utility maximisation.</p>
 </section>
 <section id="the-log-utility-function" class="level2">
 <h2 class="anchored" data-anchor-id="the-log-utility-function">The log utility function</h2>
@@ -269,12 +269,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Most examinations of loss aversion examine symmetric 50:50 bets where the potential gain and the loss are the same. They compare a bet centred around 0 (e.g.&nbsp;gain $100 or lose $100) and a similar bet in a gain frame (e.g.&nbsp;gain $100 or gain $300, or take $200 for certain). If more people reject the first bet than the latter, then this is evidence of loss aversion.</p>
 <p>It makes sense that this is the experimental approach. If the bet is not symmetric, it becomes hard to tease out loss aversion from risk aversion.</p>
 <p>However, there is a pattern in the literature that people often reject risky bets with a positive expected value in the ranges explored by Rabin. We don’t know a lot about their wealth (or liquidity), but Rabin’s illustrative numbers for rejected bets don’t seem completely unrealistic. It’s the range of wealth over which the rejection occurs that is questionable.</p>
-<p>Rather than me floundering around on this point, there are papers that explicitly ask whether we can observe a set of bets for a group of experimental subjects and map a curve to those choices that resembles expected utility.</p>
+<p>Rather than me floundering around on this point, some papers explicitly ask whether we can observe a set of bets for a group of experimental subjects and map a curve to those choices that resembles expected utility.</p>
 <p>For instance, <a href="https://doi.org/10.1257/000282802762024700">Holt and Laury’s 2002 AER paper</a> (<a href="https://econweb.ucsd.edu/~jandreon/Econ264/papers/Holt%20Laury%20AER%202002.pdf">pdf</a>) examined a set of hypothetical and incentivised bets over a range of stakes (finding among other things that hypothetical predictions of their response to incentivised high-stakes bets were not very accurate). They found that if you are flexible about the form of the expected utility function that is used, rejection of small gambles does not result in absurd conclusions on large gambles. The pattern of bets could be made consistent with expected utility, assuming you correctly parameterise the equation. Over subsequent years there was some back and forth on whether this finding was robust [see <a href="https://doi.org/10.1257/0002828054201378">here</a> (<a href="http://pdfs.semanticscholar.org/924d/fb5180d98767b630e3ae468da0c166a0890a.pdf?_ga=2.18923384.1759154274.1571603876-1728413697.1571603876">pdf</a>) and <a href="https://doi.org/10.1257/0002828054201459">here</a> (<a href="http://home.cerge-ei.cz/ortmann/trentocourse/Holt_Laury_Incentive_Effects_AER_2005.pdf">pdf</a>)], but the basic result seemed to hold.</p>
 <p>The utility curve that best matched Holt and Laury’s experimental findings had increasing relative risk aversion, and decreasing absolute risk aversion. By having decreasing absolute risk aversion, the absurd implications of Rabin’s paper are avoided.</p>
-<p>Papers such as this suggest that while Rabin’s paper makes an important point, its underlying assumptions are not consistent with empirical evidence. It is possible to have an expected utility maximiser reject low value bets without generating ridiculous outcomes.</p>
+<p>Papers such as this suggest that while Rabin’s paper makes an important point, its underlying assumptions are not consistent with empirical evidence. It is possible to have an expected utility maximiser reject low-value bets without generating ridiculous outcomes.</p>
 <p>So what can you infer about our bettor who has rejected the win $110, lose $100 bet?</p>
-<p>From the argument above, I would say not much. We could craft a utility function to accommodate this bet without leading to ridiculous consequences. I personally feel this defence is laboured (that’s a subject for another day), but the bet is not in itself fatal to the argument that they are an expected utility maximiser.</p>
+<p>From the argument above, I would say not much. We could craft a utility function to accommodate this bet without leading to ridiculous consequences. I feel this defence is laboured (that’s a subject for another day), but the bet is not in itself fatal to the argument that they are an expected utility maximiser.</p>
 <p>My other posts on loss aversion can be found here:</p>
 <ol type="1">
 <li><a href="https://www.jasoncollins.blog/kahneman-and-tverskys-debatable-loss-aversion-assumption/">Kahneman and Tversky’s debatable loss aversion assumption</a></li>
@@ -289,9 +289,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="the-utility-of-a-gain" class="level3">
 <h3 class="anchored" data-anchor-id="the-utility-of-a-gain">The utility of a gain</h3>
 <p>Let’s suppose someone will reject a 50:50 bet with gain <span class="math inline">g</span> and loss <span class="math inline">l</span> for any level of wealth. What utility will they get from a gain of <span class="math inline">x</span>? Rabin defines an upper bound of the utility of gaining <span class="math inline">x</span> to be:</p>
-<p><span class="math display">U(w+x)-U(w)\leq\sum_{i=0}^{k^{**}(x)}\left(\frac{l}{g}\right)^ir(w)</span></p>
-<p><span class="math display">k^{**}(x)=int\left(\frac{x}{g}\right)</span></p>
-<p><span class="math display">r(w)=U(w)-U(w-l)</span></p>
+<p><span class="math display">
+U(w+x)-U(w)\leq\sum_{i=0}^{k^{**}(x)}\left(\frac{l}{g}\right)^ir(w)
+</span></p>
+<p><span class="math display">
+k^{**}(x)=int\left(\frac{x}{g}\right)
+</span></p>
+<p><span class="math display">
+r(w)=U(w)-U(w-l)
+</span></p>
 <p>This formula effectively breaks down <span class="math inline">x</span> into <span class="math inline">g</span> size components, successively discounting each additional <span class="math inline">g</span> at <span class="math inline">l/g</span> of the previous <span class="math inline">g</span>.</p>
 <p>You need <span class="math inline">k^{**}(x)+1</span> lots of <span class="math inline">g</span> to cover <span class="math inline">x</span>. For instance, if <span class="math inline">x</span> was 32 and we had a 50:50 bet for win $11, lose $10, <span class="math inline">32/11=2</span>. You need 2+1 lots of 11 to fully cover 32. It actually covers a touch more than 32, hence the calculation being for an upper bound.</p>
 <p>In the paper, Rabin defines <span class="math inline">k^{**}(x)=int((x/g)+1)</span> This seems to better capture the required number of <span class="math inline">g</span> to fully cover <span class="math inline">x</span>, but the iterations in the above formula start at <span class="math inline">i=0</span>. The calculations I run below with my version of the formula replicate Rabin’s, supporting the suggestion that the addition of 1 in the paper is an error.</p>
@@ -301,15 +307,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="the-utility-of-a-loss" class="level3">
 <h3 class="anchored" data-anchor-id="the-utility-of-a-loss">The utility of a loss</h3>
 <p>Rabin also gives us a lower bound of the utility of a loss of <span class="math inline">x</span> for this person who will reject a 50:50 bet with gain <span class="math inline">g</span> and loss <span class="math inline">l</span> for any level of wealth:</p>
-<p><span class="math display">U(w)-U(w-x)\geq{2}\sum_{i=1}^{k^{*}(x)}\left(\frac{g}{l}\right)^{i-1}{r(w)}</span></p>
-<p><span class="math display">k^{*}(x)=int\left(\frac{x}{2l}\right)</span></p>
+<p><span class="math display">
+U(w)-U(w-x)\geq{2}\sum_{i=1}^{k^{*}(x)}\left(\frac{g}{l}\right)^{i-1}{r(w)}
+</span></p>
+<p><span class="math display">
+k^{*}(x)=int\left(\frac{x}{2l}\right)
+</span></p>
 <p>The intuition behind <span class="math inline">k^{*}(x)</span> comes from Rabin’s desire to provide a relatively uncomplicated proof for the proposition. Effectively, the utility scales down with each step of <span class="math inline">g</span> by at least <span class="math inline">g/l</span>. Since Rabin wants to express this in terms of losses, he defines <span class="math inline">2l\geq{g}\geq{l}</span>. He can thereby say that utility scales down by at least <span class="math inline">\frac{g}{l}</span> every 2 lots of <span class="math inline">l</span>.</p>
-<p>Othewrwise, the intuition for this loss formula is the same as that for the gain. The summation starts at <span class="math inline">i=1</span> as this formula is providing a lower bound, so does not require the final iteration to fully cover <span class="math inline">x</span>. The formula is also multiplied by 2 as each iteration covers two lots of <span class="math inline">l</span>, whereby r(w) is for a single span of <span class="math inline">l</span>.</p>
+<p>Otherwise, the intuition for this loss formula is the same as that for the gain. The summation starts at <span class="math inline">i=1</span> as this formula is providing a lower bound, so does not require the final iteration to fully cover <span class="math inline">x</span>. The formula is also multiplied by 2 as each iteration covers two lots of <span class="math inline">l</span>, whereby r(w) is for a single span of <span class="math inline">l</span>.</p>
 </section>
 <section id="running-some-numbers" class="level3">
 <h3 class="anchored" data-anchor-id="running-some-numbers">Running some numbers</h3>
 <p>The below code implements the above two formulas as a function, calculating the potential utility gain for a win of <span class="math inline">G</span> or a loss of <span class="math inline">L</span> for a person who rejects a 50:50 bet win <span class="math inline">g</span>, lose <span class="math inline">l</span> at all levels of wealth. It then states whether we know the person will reject a win <span class="math inline">G</span>, lose <span class="math inline">L</span> bet - we can’t state they will accept as we have upper and lower bounds of the utility change from the gain and loss.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>Rabin_bet <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, G, L){</span>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>Rabin_bet <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, G, L){</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  k_2star <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(G<span class="sc">/</span>g)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  k_star <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(L<span class="sc">/</span>(<span class="dv">2</span><span class="sc">*</span>l))</span>
@@ -333,39 +346,56 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Max U from gain ="</span>, U_gain))</span>
 <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Min U from loss ="</span>, U_loss))</span>
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 <p>Take a person who will reject a 50:50 bet to win $110, lose $100. Taking the table from the paper, they would reject a win $1,000,000,000, lose $1,000 bet.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Rabin_bet</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">1000000000</span>, <span class="dv">1000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Rabin_bet</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">1000000000</span>, <span class="dv">1000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
 <pre><code>[1] "REJECT"
 [1] "Max U from gain =11"
 [1] "Min U from loss =12.2102"</code></pre>
+</div>
+</div>
 </section>
 </section>
 <section id="relaxing-the-wealth-assumption" class="level2">
 <h2 class="anchored" data-anchor-id="relaxing-the-wealth-assumption">Relaxing the wealth assumption</h2>
 <p>In the Appendix of his paper, Rabin defines his proof where the bet is rejected over a range of wealth <span class="math inline">w\in(\bar w, \underline{w})</span>. In that case, relative utility for each additional gain of size <span class="math inline">g</span> is <span class="math inline">l/g</span> of the previous <span class="math inline">g</span> until <span class="math inline">\bar w</span>. Beyond that point, each additional gain of <span class="math inline">g</span> gives constant utility until <span class="math inline">x</span> is reached. The formula for the upper bound on the utility gain is:</p>
-<p><span class="math display">U(w+x)-U(w)\leq
-\begin{cases}
-&amp;\sum_{i=0}^{k^{**}(x)}\left(\frac{l}{g}\right)^ir(w) &amp; if&amp;\quad x\leq{\bar w}-w\\\\
-\\\\
-&amp;\sum_{i=0}^{k^{**}(\bar w)}\left(\frac{l}{g}\right)^{i}r(w)+\left[\frac{x-(\bar w-w)}{g}\right]\left(\frac{l}{g}\right)^{k^{**}(\bar w)}r(w) &amp; if&amp;\quad x\geq{\bar w}-w
-\end{cases}</span></p>
+<p><span class="math display">
+U(w+x)-U(w)\leq
+\left\{
+\begin{matrix*}[l]
+\displaystyle \sum_{i=0}^{k^{**}(x)} \left(\frac{l}{g}\right)^ir(w) &amp; \text{if}&amp;\quad x\leq{\bar w}-w\\[18pt]
+\displaystyle\sum_{i=0}^{k^{**}(\bar w)}\left(\frac{l}{g}\right)^{i}r(w)+\left[\frac{x-(\bar w-w)}{g}\right]\left(\frac{l}{g}\right)^{k^{**}(\bar w)}r(w) &amp; \text{if}&amp;\quad x\geq{\bar w}-w
+\end{matrix*}
+\right.
+</span></p>
 <p>The first term of the equation where <span class="math inline">x\geq\bar w-w</span> involves iterated discounting as per the situation where the bet is rejected for all levels of wealth, but here the iteration is only up to wealth <span class="math inline">\bar w</span>. The second term of that equation captures the gain beyond <span class="math inline">\bar w</span> discounted at a constant rate.</p>
 <p>There is an error in Rabin’s formula in the paper. Rather than the term <span class="math inline">(x-(\bar w-w))/g</span> in the second equation, Rabin has it as <span class="math inline">x-\bar w</span>. As for the previous equations, we need to know the number of iterations of the gain, not total dollars, and we need this between <span class="math inline">\bar w</span> and <span class="math inline">w+x</span>.</p>
-<p>When Rabin provides the examples in Table II of the paper, from the numbers he provides I believe he actually uses a formula of the type <span class="math inline">int[(x-(w-\underline w))/g+1]</span>, which reflects a desire to calculate the upper-bound utility across the stretch above <span class="math inline">\bar w</span> in a similar manner to below, although this is not strictly necessary given the discount is constant across this range. I have implemented as per my formula, which means that bets are still rejected <span class="math inline">g</span> higher than for Rabin (which given their scale is not material).</p>
+<p>When Rabin provides the examples in Table II of the paper, from the numbers he provides I believe he uses a formula of the type <span class="math inline">int[(x-(w-\underline w))/g+1]</span>, which reflects a desire to calculate the upper-bound utility across the stretch above <span class="math inline">\bar w</span> in a similar manner to below, although this is not strictly necessary given the discount is constant across this range. I have implemented as per my formula, which means that bets are still rejected <span class="math inline">g</span> higher than for Rabin (which given their scale is not material).</p>
 <p>Similarly, for the loss:</p>
-<!-- & placed in equations where want alignment -->
-<p><span class="math display">U(w)-U(w-x)\geq
-\begin{cases}
-&amp;{2}\sum_{i=1}^{k^{*}(x)}\left(\frac{g}{l}\right)^{i-1}{r(w)} &amp; if&amp;\quad {w-\underline w+2l}\geq{x}\geq{2l}\\\\
-\\\\
-&amp;{2}\sum_{i=1}^{k^{*}(w-\underline w+2l)}\left(\frac{g}{l}\right)^{i-1}{r(w)}+\\\\[6pt]
-&amp;\quad\left[\frac{x-(w-\underline w+l)}{2l}\right]\left(\frac{g}{l}\right)^{k^{*}(w-\underline w+2l)}{r(w)} &amp; if&amp;\quad x\geq{w-\underline w+2l}
-\end{cases}</span></p>
-<p>There is a similar error here, with Rabin using the term <span class="math inline">x-(w-\underline w+l)</span> rather than <span class="math inline">(x-(w-\underline w+l))/2l</span>. We can’t determine how this was implemented by Rabin as his examples do not examine behaviour below a lower bound <span class="math inline">\underline w</span>.</p>
+<p><span class="math display">
+U(w)-U(w-x)\geq
+\left
+\{\begin{matrix*}[l]
+2\displaystyle\sum_{i=1}^{k^{*}(x)}\left(\frac{g}{l}\right)^{i-1}r(w)\quad &amp;\text{if}\quad {w-\underline w+2l}\geq{x}\geq{2l}\\[18pt]
+2\displaystyle\sum_{i=1}^{k^{*}(w-\underline w+2l)}\left(\frac{g}{l}\right)^{i-1}{r(w)}+\\[12pt]
+\displaystyle\qquad\left[\frac{x-(w-\underline w+l)}{2l}\right]\left(\frac{g}{l}\right)^{k^{*}(w-\underline w+2l)}{r(w)} &amp;\text{if}\quad x\geq{w-\underline w+2l}
+\end{matrix*}
+\right.
+</span></p>
+<p>There is a similar error here, with Rabin using the term <span class="math inline">x-(w-\underline w+l)</span> rather than <span class="math inline">(x-(w-\underline w+l))/2l</span>. I can’t determine how this was implemented by Rabin as his examples do not examine behaviour below a lower bound <span class="math inline">\underline w</span>.</p>
 <section id="running-some-more-numbers" class="level3">
 <h3 class="anchored" data-anchor-id="running-some-more-numbers">Running some more numbers</h3>
 <p>The below R code implements the above two formulas as a function, calculating the potential utility gain for a win of <span class="math inline">G</span> or a loss of <span class="math inline">L</span> for a person who rejects a 50:50 bet win <span class="math inline">g</span>, lose <span class="math inline">l</span> at wealth <span class="math inline">w\in(\bar w, \underline{w})</span>. It then states whether we know the person will reject a win <span class="math inline">G</span>, lose <span class="math inline">L</span> bet - as before, we can’t state they will accept as we have upper and lower bounds of the utility change from the gain and loss.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>Rabin_bet_general <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, G, L, w, w_max, w_min){</span>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>Rabin_bet_general <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, G, L, w, w_max, w_min){</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ifelse</span>(</span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    G <span class="sc">&lt;=</span> (w_max<span class="sc">-</span>w),</span>
@@ -410,21 +440,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Max U from gain ="</span>, U_gain))</span>
 <span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Min U from loss ="</span>, U_loss))</span>
 <span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 <p>Imagine someone who turns down the win $110, lose $100 bet with a wealth of $290,000, but who would only reject this bet up to $300,000. They will reject a win $718,190, lose $1000 bet.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Rabin_bet_general</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">718190</span>, <span class="dv">1000</span>, <span class="dv">290000</span>, <span class="dv">300000</span>, <span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Rabin_bet_general</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">718190</span>, <span class="dv">1000</span>, <span class="dv">290000</span>, <span class="dv">300000</span>, <span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
 <pre><code>[1] "REJECT"
 [1] "Max U from gain =12.2098745626936"
 [1] "Min U from loss =12.2102"</code></pre>
+</div>
+</div>
 <p>The nature of Rabin’s calculation means that we can scale this calculation to anywhere on the wealth curve. We need only say that someone who rejects this bet over (roughly) a range of $10,000 plus the size of the potential loss will exhibit the same decisions. For example a person with $10,000 wealth who would reject the bet up to $20,000 wealth would also reject the win $718,190, lose $1000 bet.</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Rabin_bet_general</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">718190</span>, <span class="dv">1000</span>, <span class="dv">10000</span>, <span class="dv">20000</span>, <span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Rabin_bet_general</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">718190</span>, <span class="dv">1000</span>, <span class="dv">10000</span>, <span class="dv">20000</span>, <span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
 <pre><code>[1] "REJECT"
 [1] "Max U from gain =12.2098745626936"
 [1] "Min U from loss =12.2102"</code></pre>
+</div>
+</div>
 </section>
 <section id="comparison-with-log-utility" class="level3">
 <h3 class="anchored" data-anchor-id="comparison-with-log-utility">Comparison with log utility</h3>
-<p>The below is an example with log utility, which is <span class="math inline">U(W)=ln(W)</span>. This function determines whether someone of wealth <span class="math inline">w</span> will reject of accepta 50:50 bet for gain <span class="math inline">g</span> and loss <span class="math inline">l</span>.</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>log_utility <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, w){</span>
+<p>The below is an example with log utility, which is <span class="math inline">U(W)=ln(W)</span>. This function determines whether someone of wealth <span class="math inline">w</span> will reject or accept a 50:50 bet for gain <span class="math inline">g</span> and loss <span class="math inline">l</span>.</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>log_utility <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, w){</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  log_gain <span class="ot">&lt;-</span> <span class="fu">log</span>(w<span class="sc">+</span>g)</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  log_loss <span class="ot">&lt;-</span> <span class="fu">log</span>(w<span class="sc">-</span>l)</span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  EU_bet <span class="ot">&lt;-</span> <span class="fl">0.5</span><span class="sc">*</span>log_gain <span class="sc">+</span> <span class="fl">0.5</span><span class="sc">*</span>log_loss</span>
@@ -441,26 +490,54 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Expected utility of bet = "</span>, EU_bet))</span>
 <span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Utility of current wealth = "</span>, EU_certain))</span>
 <span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 <p>Testing a few numbers, someone with log utility is indifferent about a 50:50 win $110, lose $100 bet at wealth $1100. They would accept for any level of wealth above that level.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log_utility</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">1100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log_utility</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">1100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
 <pre><code>[1] "INDIFFERENT"
 [1] "Expected utility of bet = 7.00306545878646"
 [1] "Utility of current wealth = 7.00306545878646"</code></pre>
+</div>
+</div>
 <p>That same person will always accept a 50:50 win $1100, lose $1000 bet above $11,000 in wealth.</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log_utility</span>(<span class="dv">1100</span>, <span class="dv">1000</span>, <span class="dv">11000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log_utility</span>(<span class="dv">1100</span>, <span class="dv">1000</span>, <span class="dv">11000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
 <pre><code>[1] "ACCEPT"
 [1] "Expected utility of bet = 9.30565055178051"
 [1] "Utility of current wealth = 9.30565055178051"</code></pre>
+</div>
+</div>
 <p>Can we generate any bets that don’t seem quite right? It’s quite hard unless you have a bet that will bring the person to ruin or near ruin. For instance, for a 50:50 bet with a chance to win $1 million, a person with log utility and $100,000 wealth would still accept the bet with a potential loss of $90,900, which brings them to less than 10% of their wealth.</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log_utility</span>(<span class="dv">1000000</span>, <span class="dv">90900</span>, <span class="dv">100000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log_utility</span>(<span class="dv">1000000</span>, <span class="dv">90900</span>, <span class="dv">100000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
 <pre><code>[1] "ACCEPT"
 [1] "Expected utility of bet = 11.5134252151368"
 [1] "Utility of current wealth = 11.5129254649702"</code></pre>
+</div>
+</div>
 <p>The problem with log utility is not the ability to generate ridiculous bets that would be rejected. Rather, it’s that someone with log utility would tend to accept most positive value bets (in fact, they would always take a non-zero share if they could). Only if the bet brings them near ruin (either through size or their lack of wealth) would they turn down the bet.</p>
 <p>The isoelastic utility function - of which log utility is a special case - is a broader class of function that exhibits constant relative risk aversion:</p>
-<p><span class="math display">U(x)=\frac{w^{1-\rho}-1}{1-\rho}</span></p>
+<p><span class="math display">
+U(x)=\frac{w^{1-\rho}-1}{1-\rho}
+</span></p>
 <p>If <span class="math inline">\rho=1</span>, this simplifies to log utility (you need to use L’Hopital’s rule to get this as the fraction is undefined when <span class="math inline">\rho=1</span>.) The higher <span class="math inline">\rho</span>, the higher the level of risk aversion. We implement this function as follows:</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>CRRA_utility <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, w, <span class="at">rho=</span><span class="dv">2</span>){</span>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>CRRA_utility <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, w, <span class="at">rho=</span><span class="dv">2</span>){</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(rho<span class="sc">==</span><span class="dv">1</span>){</span>
 <span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">print</span>(<span class="st">"function undefined"</span>)</span>
@@ -483,19 +560,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Expected utility of bet = "</span>, EU_bet))</span>
 <span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Utility of current wealth = "</span>, EU_certain))</span>
 <span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>If we increase <span class="math inline">\rho</span>, we can increase the proportion of low value bets that are rejected.</p>
+</details>
+</div>
+<p>If we increase <span class="math inline">\rho</span>, we can increase the proportion of low-value bets that are rejected.</p>
 <p>For example, a person with <span class="math inline">\rho=2</span> will reject the 50:50 win $110, lose $100 bet up to a wealth of $2200. The rejection point scales with <span class="math inline">\rho</span>.</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">CRRA_utility</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">2200</span>, <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">CRRA_utility</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">2200</span>, <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
 <pre><code>[1] "INDIFFERENT"
 [1] "Expected utility of bet = 0.999545454545455"
 [1] "Utility of current wealth = 0.999545454545455"</code></pre>
+</div>
+</div>
 <p>For a 50:50 chance to win $1 million at wealth $100,000, the person with <span class="math inline">\rho=2</span> is willing to risk a far smaller loss, and rejects even when the loss is only $48,000, or less than half their wealth (which admittedly is still a fair chunk).</p>
-<div class="sourceCode" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">CRRA_utility</span>(<span class="dv">1000000</span>, <span class="dv">48000</span>, <span class="dv">100000</span>, <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">CRRA_utility</span>(<span class="dv">1000000</span>, <span class="dv">48000</span>, <span class="dv">100000</span>, <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
 <pre><code>[1] "REJECT"
 [1] "Expected utility of bet = 0.99998993006993"
 [1] "Utility of current wealth = 0.99999"</code></pre>
+</div>
+</div>
 <p>Higher values of <span class="math inline">\rho</span> start to become completely unrealistic as utility is almost flat beyond an initial level of wealth.</p>
-<p>It is also possible to have values of <span class="math inline">\rho</span> between 0 (risk neutrality) and 1. These would result in even fewer rejected low value bets than log utility, and fewer rejected bets with highly unbalanced potential gains and losses.</p>
+<p>It is also possible to have values of <span class="math inline">\rho</span> between 0 (risk neutrality) and 1. These would result in even fewer rejected low-value bets than log utility, and fewer rejected bets with highly unbalanced potential gains and losses.</p>
 
 
 </section>
