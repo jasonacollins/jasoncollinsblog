@@ -4,6 +4,7 @@ date: 2018-06-07 09:00:35+00:00
 draft: false
 aliases:
   - /does-a-moral-reminder-decrease-cheating
+  - /the-ten-commandments-effect-bites-the-dust
 title: Does a moral reminder decrease cheating?
 ---
 
