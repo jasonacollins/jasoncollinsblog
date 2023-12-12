@@ -24,6 +24,8 @@ website:
   open-graph: true
   twitter-card: true
 
+csl: apa-no-ampersand.csl
+
 format:
   html:
     theme: cosmo

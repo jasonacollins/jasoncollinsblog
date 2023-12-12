@@ -1,0 +1,74 @@
+---
+title: 'The preregistration halo'
+author: "Jason Collins"
+date: 2024-XX-XX 09:00:00+10:00
+draft: true
+aliases:
+  - /the-preregistration-halo
+bibliography: references.bib
+---
+
+I am a fan of preregistration, the process of registering a research design before collecting data.
+
+Preregistration (if made public) allows us to see the entire body of research on a topic, not just those studies that happened to find a statistically significant result and a willing publisher. They provide a degree of constraint around the research process, making it harder to p-hack or post-hypothesise the way to a significant result.
+
+I would go as far as arguing that preregistration should be a condition of publication of any experiment for which preregistration was feasible.
+
+But, preregistration is no guarantee of good science. In fact, it doesn't even solve many of the real problems. Many preregistrations are only made public when the study is submitted for publication, so we aren't truly seeing all the studies that have been conducted. Preregistration can't rescue weak theory. And many preregistrations are left to wither on the vine: here's a plot of preregistrations submitted to the [American Economic Association's RCT registry](https://www.socialscienceregistry.org), and their subsequent publication status.
+
+```{r message = FALSE}
+library(readr)
+library(ggplot2)
+library(tidyverse)
+
+# load data file, which is a subset of the AEA registry to 1 November 2023, available from https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/8YNXVW
+trials <- read_csv("data/trials-subset-nov-2023.csv")
+
+# set order for charts so completed is first, then abandoned, then other
+trials <- trials %>%
+  rename(
+    intervention_end_date = "Intervention end date",
+    first_registered_on = "First registered on",
+    end_date = "End date"
+    ) %>%
+  mutate(
+    first_registered_year = year(first_registered_on),
+    intervention_end_year = year(intervention_end_date),
+    end_year = year(end_date)
+    ) %>%
+  mutate(Status = ifelse(Status == "abandoned" | Status == "withdrawn", "abandoned_or_withdrawn", Status)) %>%
+  mutate(Status = factor(Status, levels = c("on_going", "abandoned_or_withdrawn", "in_development", "completed")))
+
+# colourblind palette
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
+# plot of status by year of registration
+ggplot(trials, aes(fill=Status, x=first_registered_year)) + 
+  geom_bar(position="fill", stat="count") + 
+  scale_x_continuous(limits = c(2012.5, 2023.5), breaks = seq(2013, 2023)) +
+  scale_fill_manual(values=cbPalette) +
+  scale_y_continuous(labels = scales::percent_format()) +
+  labs(x = "Year of registration", y = "Percentage of trials") +
+  theme_minimal()
+
+```
+
+```{r message = FALSE, warning = FALSE}
+
+# plot of status by reported end year
+ggplot(trials, aes(fill=Status, x=end_year)) + 
+  geom_bar(position="fill", stat="count") + 
+  scale_x_continuous(limits = c(2012.5, 2025.5), breaks = seq(2013, 2025)) + 
+  scale_fill_manual(values=cbPalette) +
+  scale_y_continuous(labels = scales::percent_format()) +
+  labs(x = "Recorded end year", y = "Percentage of trials") +
+  theme_minimal()
+```
+
+The proposed "end date" entered by registrants is likely the best benchmark for when we should see a result, and it seems around half of trials proposed to end between 2014 and 2019 have been marked as completed, and that declines for more recent dates. We get a glimpse of the file drawer, but we're not getting much insight into what is in it.
+
+Eliot Abrams, Jonathan Libgoer and John List @abrams2020 also catalogued some of the issues with the AEA Registry: over 90% of RCTs don't register, only 50% of those that register do so before the intervention begins, and most preregistrations lack detail.
+
+But now to the recent story, via [Jessica Hullman](https://statmodeling.stat.columbia.edu/2023/11/21/of-course-its-preregistered-just-give-me-a-sec/)
+
+John Protzko and friends published
