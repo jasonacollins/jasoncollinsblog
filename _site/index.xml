@@ -10,7 +10,55 @@
 <atom:link href="https://www.jasoncollins.blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Behavioural and data science. Economics. Evolutionary biology.</description>
 <generator>quarto-1.3.433</generator>
-<lastBuildDate>Thu, 02 Nov 2023 09:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 21 Dec 2023 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Behavioral science policy recommendations early in the pandemic were LARGELY CORRECT, if you ignore those that were not</title>
+  <dc:creator>Jason Collins</dc:creator>
+  <link>https://www.jasoncollins.blog/posts/behavioral-science-policy-recommendations-early-in-the-pandemic-were-largely-correct-if-you-ignore-those-that-were-not.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>In late April 2020, a group of behavioural scientists <span class="citation" data-cites="vanbavel2020">(Van Bavel et al., 2020)</span> published a paper in Nature Human Behaviour, “Using social and behavioural science to support COVID-19 pandemic response”. They provided a range of suggestions for policy makers.</p>
+<p>The paper sparked some debates about the readiness of behavioural science to inform the pandemic response. One of these critiques was in an article by <span class="citation" data-cites="ijzerman2020">IJzerman et al. (2020)</span>, which advised caution when applying behavioural science to policy.</p>
+<p>A new article in Nature <span class="citation" data-cites="ruggeri2023">(Ruggeri et al., 2023)</span> has reviewed the policy recommendations in that April 2020 paper. Part of the abstract reads:</p>
+<blockquote class="blockquote">
+<p>In April 2020, an influential paper proposed 19 policy recommendations (‘claims’) detailing how evidence from behavioural science could contribute to efforts to reduce impacts and end the COVID-19 pandemic. Here we assess 747 pandemic-related research articles that empirically investigated those claims. We report the scale of evidence and whether evidence supports them to indicate applicability for policymaking. Two independent teams, involving 72 reviewers, found evidence for 18 of 19 claims, with both teams finding evidence supporting 16 (89%) of those 18 claims.</p>
+</blockquote>
+<p>It’s a tick for that 2020 paper.</p>
+<p>But, I wondered how long it would take for someone to extend this finding about a specific set of claims in ONE paper to a claim that “behavioural science was right!”.</p>
+<p>It didn’t take long. Here’s one statement from the lead author of the Nature paper:</p>
+<p></p><div id="tweet-11382"></div><script>tweet={"url":"https:\/\/twitter.com\/kairuggeri\/status\/1734968618730013093","author_name":"Kai Ruggeri","author_url":"https:\/\/twitter.com\/kairuggeri","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBehavioral science policy recommendations early in the pandemic were LARGELY CORRECT.  Our global collaboration in \u003Ca href=\"https:\/\/twitter.com\/Nature?ref_src=twsrc%5Etfw\"\u003E@Nature\u003C\/a\u003E covers 747 studies with an average sample size over 16,000! Evidence supports 16 of 19 claims, with lessons for science &amp; policy. \u003Ca href=\"https:\/\/t.co\/OzS7njsrzv\"\u003Ehttps:\/\/t.co\/OzS7njsrzv\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/3xoGQHBJFB\"\u003Epic.twitter.com\/3xoGQHBJFB\u003C\/a\u003E\u003C\/p\u003E&mdash; Kai Ruggeri (@kairuggeri) \u003Ca href=\"https:\/\/twitter.com\/kairuggeri\/status\/1734968618730013093?ref_src=twsrc%5Etfw\"\u003EDecember 13, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-11382").innerHTML = tweet["html"];</script><p></p>
+<p>A quick peruse of twitter can find others of a similar vein.</p>
+<p>It takes a relatively short memory to forget that, whatever the merits of this single paper, the behavioural science community was the source of plenty of rubbish.</p>
+<p>Here’s <a href="https://www.bloomberg.com/view/articles/2020-02-28/coronavirus-panic-caused-by-probability-neglect">one classic</a> from a co-author of both the 2020 paper and the Nature review, Cass Sunstein, published on 29 February 2020:</p>
+<blockquote class="blockquote">
+<p>At this stage, no one can specify the magnitude of the threat from the coronavirus. But one thing is clear: A lot of people are more scared than they have any reason to be. They have an exaggerated sense of their own personal risk.</p>
+</blockquote>
+<p>Based on an experiment involving 156 undergraduate students receiving electric shocks, Sunstein suggested people exhibited “probability neglect” in worrying about the coming pandemic.</p>
+<p>Four weeks later <a href="https://www.bloomberg.com/opinion/articles/2020-03-26/coronavirus-lockdowns-look-smart-under-cost-benefit-scrutiny">he was writing</a>: “This Time the Numbers Show We Can’t Be Too Careful”. No acknowledgment that the earlier prognostication might not have been on the mark. He just moved on as if nothing had happened.</p>
+<p>I posted more about these claims <a href="https://www.jasoncollins.blog/posts/the-limits-of-behavioural-science-coronavirus-edition">here</a> and <a href="https://www.jasoncollins.blog/posts/arent-we-smart-fellow-behavioural-scientists">here</a>.</p>
+<p>The Van Bavel et al.&nbsp;article was a good target for review. Praise its sobriety.</p>
+<p>But a review of a single paper is not a foundation for a general claim that the behavioural science community covered itself in glory. That would require a much broader study of what came out of it. That includes thought bubbles from Cass Sunstein and other behavioural scientists on public platforms. It includes outputs of the various behavioural insights teams, many of which were central to government pandemic responses. It includes the broader body of published behavioural science recommendations.</p>
+<p>Such a broad review is a considerable effort. (Reviewing the single paper in such depth was impressive). But it wouldn’t take long to see that a general claim of correctness is overreach. Just look at some of the claims by those authors themselves.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
+<div id="ref-ijzerman2020" class="csl-entry">
+IJzerman, H., Lewis, N. A., Przybylski, A. K., Weinstein, N., DeBruine, L., Ritchie, S. J., Vazire, S., Forscher, P. S., Morey, R. D., Ivory, J. D., and Anvari, F. (2020). Use caution when applying behavioural science to policy. <em>Nature Human Behaviour</em>, <em>4</em>(11), 1092–1094. <a href="https://doi.org/10.1038/s41562-020-00990-w">https://doi.org/10.1038/s41562-020-00990-w</a>
+</div>
+<div id="ref-ruggeri2023" class="csl-entry">
+Ruggeri, K., Stock, F., Haslam, S. A., Capraro, V., Boggio, P., Ellemers, N., Cichocka, A., Douglas, K. M., Rand, D. G., Linden, S. van der, Cikara, M., Finkel, E. J., Druckman, J. N., Wohl, M. J. A., Petty, R. E., Tucker, J. A., Shariff, A., Gelfand, M., Packer, D., … Willer, R. (2023). A synthesis of evidence for policy from behavioural science during COVID-19. <em>Nature</em>, 1–14. <a href="https://doi.org/10.1038/s41586-023-06840-9">https://doi.org/10.1038/s41586-023-06840-9</a>
+</div>
+<div id="ref-vanbavel2020" class="csl-entry">
+Van Bavel, J. J., Baicker, K., Boggio, P. S., Capraro, V., Cichocka, A., Cikara, M., Crockett, M. J., Crum, A. J., Douglas, K. M., Druckman, J. N., Drury, J., Dube, O., Ellemers, N., Finkel, E. J., Fowler, J. H., Gelfand, M., Han, S., Haslam, S. A., Jetten, J., … Willer, R. (2020). Using social and behavioural science to support COVID-19 pandemic response. <em>Nature Human Behaviour</em>, <em>4</em>(5), 460–471. <a href="https://doi.org/10.1038/s41562-020-0884-z">https://doi.org/10.1038/s41562-020-0884-z</a>
+</div>
+</div></section></div> ]]></description>
+  <guid>https://www.jasoncollins.blog/posts/behavioral-science-policy-recommendations-early-in-the-pandemic-were-largely-correct-if-you-ignore-those-that-were-not.html</guid>
+  <pubDate>Thu, 21 Dec 2023 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Do students learn less from experts?</title>
   <dc:creator>Jason Collins</dc:creator>
@@ -50,21 +98,21 @@
 <p>I also poked around in some of the cited and citing literature and didn’t see anything there to support the claim. It might exist - I didn’t search thoroughly - but if something decent existed, I would have expected Grant to use that instead. Here are two of the interesting ones:</p>
 <ul>
 <li><span class="citation" data-cites="carrell2010">Carrell and West (2010)</span> find that “that less experienced and less qualified professors produce students who perform significantly better in the contemporaneous course being taught, whereas more experienced and highly qualified professors produce students who perform better in the follow-on related curriculum.” Somewhat ambiguous, but I’d put more weight on long-term performance and suggest a tick for expertise.</li>
-<li><span class="citation" data-cites="feld2019">Feld, Salamanca, and Zölitz (2019)</span> found that “students are almost as effective as senior instructors”, although “exclusively using them will likely negatively affect student outcomes.” Not a big tick to the benefits of expertise, but also not in line with a story that experts are worse teachers.</li>
+<li><span class="citation" data-cites="feld2019">Feld et al. (2019)</span> found that “students are almost as effective as senior instructors”, although “exclusively using them will likely negatively affect student outcomes.” Not a big tick to the benefits of expertise, but also not in line with a story that experts are worse teachers.</li>
 </ul>
 
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
 <div id="ref-carrell2010" class="csl-entry">
-Carrell, Scott&nbsp;E., and James&nbsp;E. West. 2010. <span>“Does Professor Quality Matter? Evidence from Random Assignment of Students to Professors.”</span> <em>Journal of Political Economy</em> 118 (3): 409–32. <a href="https://doi.org/10.1086/653808">https://doi.org/10.1086/653808</a>.
+Carrell, Scott&nbsp;E., and West, James&nbsp;E. (2010). Does professor quality matter? Evidence from random assignment of students to professors. <em>Journal of Political Economy</em>, <em>118</em>(3), 409–432. <a href="https://doi.org/10.1086/653808">https://doi.org/10.1086/653808</a>
 </div>
 <div id="ref-feld2019" class="csl-entry">
-Feld, Jan, Nicolás Salamanca, and Ulf Zölitz. 2019. <span>“Students Are Almost as Effective as Professors in University Teaching.”</span> <em>Economics of Education Review</em> 73 (December): 101912. <a href="https://doi.org/10.1016/j.econedurev.2019.101912">https://doi.org/10.1016/j.econedurev.2019.101912</a>.
+Feld, J., Salamanca, N., and Zölitz, U. (2019). Students are almost as effective as professors in university teaching. <em>Economics of Education Review</em>, <em>73</em>, 101912. <a href="https://doi.org/10.1016/j.econedurev.2019.101912">https://doi.org/10.1016/j.econedurev.2019.101912</a>
 </div>
 <div id="ref-figlio2015" class="csl-entry">
-Figlio, David N., Morton O. Schapiro, and Kevin B. Soter. 2015. <span>“Are Tenure Track Professors Better Teachers?”</span> <em>Review of Economics and Statistics</em> 97 (4): 715–24. <a href="https://doi.org/10.1162/REST_a_00529">https://doi.org/10.1162/REST_a_00529</a>.
+Figlio, D. N., Schapiro, M. O., and Soter, K. B. (2015). Are Tenure Track Professors Better Teachers? <em>Review of Economics and Statistics</em>, <em>97</em>(4), 715–724. <a href="https://doi.org/10.1162/REST_a_00529">https://doi.org/10.1162/REST_a_00529</a>
 </div>
 </div></section></div> ]]></description>
   <guid>https://www.jasoncollins.blog/posts/do-students-learn-less-from-experts.html</guid>
@@ -115,7 +163,7 @@ Figlio, David N., Morton O. Schapiro, and Kevin B. Soter. 2015. <span>“Are Ten
 <p>[T]he fact that human psychology doesn’t vary much across groups (most people experience loss aversion to a similar degree, and nearly everyone cares about their social image) makes this type of incentive strategy highly scalable. In contrast, the level of financial rewards necessary to incentivize one’s employees will vary widely from person to person, and for some might be unduly high.</p>
 </blockquote>
 <p>I couldn’t locate in the book the reference supporting this claim. And it doesn’t align with any of the studies I might look to on this point. On variation, Joe Henrich and friends <span class="citation" data-cites="henrich2001">(2001)</span> showed substantial variation across societies in trust and reciprocity in economic games. <span class="citation" data-cites="harrison2009">Harrison and Rutström (2009)</span> showed evidence for a mix of “economic” and “behavioural” decision makers in a group of experimental subjects. The whole concern about experiments on WEIRD people is due to the potential for variation across cultures.</p>
-<p>To be honest, I believe that the worry about the generalisability of experiments using WEIRD subjects is overblown (particularly compared to the other dimensions we should be worrying about). The Many Labs 2 project <span class="citation" data-cites="klein2018">(Klein et al. 2018)</span> found little heterogeneity across cultures as to which effects were replicable. But I would expect an equivalent experiment using incentives would similarly replicate across cultures.</p>
+<p>To be honest, I believe that the worry about the generalisability of experiments using WEIRD subjects is overblown (particularly compared to the other dimensions we should be worrying about). The Many Labs 2 project <span class="citation" data-cites="klein2018">(Klein et al., 2018)</span> found little heterogeneity across cultures as to which effects were replicable. But I would expect an equivalent experiment using incentives would similarly replicate across cultures.</p>
 <p>On the power of psychological interventions versus incentives, ideally, we’d want a suite of studies comparing the two directly. List has a couple of studies where the psychological intervention outperforms the incentive. But it’s easy enough to find studies going the other way. Here’s one from <span class="citation" data-cites="dellavigna2018">DellaVigna and Pope (2018)</span>. In their particular (artificial) context, incentives were the more powerful motivator and effort scaled with the incentives. Amusingly, the “experts” predicting the results also underestimated the power of the incentives.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -161,24 +209,24 @@ Figlio, David N., Morton O. Schapiro, and Kevin B. Soter. 2015. <span>“Are Ten
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
 <div id="ref-dellavigna2018" class="csl-entry">
-DellaVigna, Stefano, and Devin Pope. 2018. <span>“What Motivates Effort? Evidence and Expert Forecasts.”</span> <em>The Review of Economic Studies</em> 85 (2): 1029–69. <a href="https://doi.org/10.1093/restud/rdx033">https://doi.org/10.1093/restud/rdx033</a>.
+DellaVigna, S., and Pope, D. (2018). What motivates effort? Evidence and expert forecasts. <em>The Review of Economic Studies</em>, <em>85</em>(2), 1029–1069. <a href="https://doi.org/10.1093/restud/rdx033">https://doi.org/10.1093/restud/rdx033</a>
 </div>
 <div id="ref-genesove2001" class="csl-entry">
-Genesove, David, and Christopher Mayer. 2001. <span>“Loss Aversion and Seller Behavior: Evidence from the Housing Market.”</span> <em>The Quarterly Journal of Economics</em> 116 (4): 1233–60. <a href="https://www.jstor.org/stable/2696458">https://www.jstor.org/stable/2696458</a>.
+Genesove, D., and Mayer, C. (2001). Loss aversion and seller behavior: Evidence from the housing market. <em>The Quarterly Journal of Economics</em>, <em>116</em>(4), 1233–1260. <a href="https://www.jstor.org/stable/2696458">https://www.jstor.org/stable/2696458</a>
 </div>
 <div id="ref-harrison2009" class="csl-entry">
-Harrison, Glenn W., and E. Elisabet Rutström. 2009. <span>“Expected Utility Theory and Prospect Theory: One Wedding and a Decent Funeral.”</span> <em>Experimental Economics</em> 12 (2): 133–58. <a href="https://doi.org/10.1007/s10683-008-9203-7">https://doi.org/10.1007/s10683-008-9203-7</a>.
+Harrison, G. W., and Rutström, E. E. (2009). Expected utility theory and prospect theory: one wedding and a decent funeral. <em>Experimental Economics</em>, <em>12</em>(2), 133–158. <a href="https://doi.org/10.1007/s10683-008-9203-7">https://doi.org/10.1007/s10683-008-9203-7</a>
 </div>
 <div id="ref-henrich2001" class="csl-entry">
-Henrich, Joseph, Robert Boyd, Samuel Bowles, Colin Camerer, Ernst Fehr, Herbert Gintis, and Richard McElreath. 2001. <span>“In Search of Homo Economicus: Behavioral Experiments in 15 Small-Scale Societies.”</span> <em>American Economic Review</em> 91 (2): 73–78. <a href="https://doi.org/10.1257/aer.91.2.73">https://doi.org/10.1257/aer.91.2.73</a>.
+Henrich, J., Boyd, R., Bowles, S., Camerer, C., Fehr, E., Gintis, H., and McElreath, R. (2001). In Search of Homo Economicus: Behavioral Experiments in 15 Small-Scale Societies. <em>American Economic Review</em>, <em>91</em>(2), 73–78. <a href="https://doi.org/10.1257/aer.91.2.73">https://doi.org/10.1257/aer.91.2.73</a>
 </div>
 <div id="ref-klein2018" class="csl-entry">
-Klein, Richard A., Michelangelo Vianello, Fred Hasselman, Byron G. Adams, Reginald B. Adams, Sinan Alper, Mark Aveyard, et al. 2018. <span>“Many Labs 2: Investigating Variation in Replicability Across Samples and Settings.”</span> <em>Advances in Methods and Practices in Psychological Science</em> 1 (4): 443–90. <a href="https://doi.org/10.1177/2515245918810225">https://doi.org/10.1177/2515245918810225</a>.
+Klein, R. A., Vianello, M., Hasselman, F., Adams, B. G., Adams, R. B., Alper, S., Aveyard, M., Axt, J. R., Babalola, M. T., Bahník, Š., Batra, R., Berkics, M., Bernstein, M. J., Berry, D. R., Bialobrzeska, O., Binan, E. D., Bocian, K., Brandt, M. J., Busching, R., … Nosek, B. A. (2018). Many Labs 2: Investigating Variation in Replicability Across Samples and Settings. <em>Advances in Methods and Practices in Psychological Science</em>, <em>1</em>(4), 443–490. <a href="https://doi.org/10.1177/2515245918810225">https://doi.org/10.1177/2515245918810225</a>
 </div>
 <div id="ref-levitt2008" class="csl-entry">
-Levitt, Steven D., and Chad Syverson. 2008. <span>“Market Distortions When Agents Are Better Informed: The Value of Information in Real Estate Transactions.”</span> <em>Review of Economics &amp; Statistics</em> 90 (4): 599–611. <a href="https://doi.org/10.1162/rest.90.4.599">https://doi.org/10.1162/rest.90.4.599</a>.
+Levitt, S. D., and Syverson, C. (2008). Market distortions when agents are better informed: The value of information in real estate transactions. <em>Review of Economics &amp; Statistics</em>, <em>90</em>(4), 599–611. <a href="https://doi.org/10.1162/rest.90.4.599">https://doi.org/10.1162/rest.90.4.599</a>
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
@@ -473,9 +521,9 @@ font-style: inherit;">"Weight"</span>)</span></code></pre></div>
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
 <div id="ref-prelec1998" class="csl-entry">
-Prelec, Drazen. 1998. <span>“The Probability Weighting Function.”</span> <em>Econometrica</em> 66 (3): 497–527. <a href="https://doi.org/10.2307/2998573">https://doi.org/10.2307/2998573</a>.
+Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <em>66</em>(3), 497–527. <a href="https://doi.org/10.2307/2998573">https://doi.org/10.2307/2998573</a>
 </div>
 </div></section></div> ]]></description>
   <guid>https://www.jasoncollins.blog/posts/using-large-language-models-as-academic.html</guid>
@@ -929,7 +977,7 @@ Prelec, Drazen. 1998. <span>“The Probability Weighting Function.”</span> <em
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <figcaption class="figure-caption">Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions</figcaption>
-<p><a href="img/milkman_et_al_2021_figure_1.jpeg" class="lightbox" title="Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/milkman_et_al_2021_figure_1.jpeg" class="img-fluid figure-img"></a></p>
+<p><a href="img/milkman_et_al_2021_figure_1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions"><img src="https://www.jasoncollins.blog/posts/img/milkman_et_al_2021_figure_1.jpeg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>Twenty-four of the 53 interventions were found to have a statistically significant effect over the control, increasing visits by between 9% and 27%. That equates to 0.14 to 0.40 extra weekly gym visits over the control average of 1.48 visits per week.</p>
@@ -1323,7 +1371,7 @@ Prelec, Drazen. 1998. <span>“The Probability Weighting Function.”</span> <em
 <p>Now for the partial resurrection, with links posts to be delivered at random intervals to share articles or ideas that are worth a read. Here’s the first.</p>
 <ol type="1">
 <li><p>Unlearning Economics unloads in a <a href="https://twitter.com/UnlearnEcon/status/1501212969924976646">set of tweets</a> about empirical economics research. I have a draft post on this idea, but this thread hits most my points plus more. In my view, the robustness of some subfields of empirical economics research is on par with early 2000s social psychology research. The problem, however, is that you can’t run a replication of most of this empirical work, meaning it doesn’t suffer the same public fate.</p>
-<p></p></li>
+<p></p><div id="tweet-28948"></div><script>tweet={"url":"https:\/\/twitter.com\/UnlearnEcon\/status\/1501212969924976646","author_name":"Unlearning Economics","author_url":"https:\/\/twitter.com\/UnlearnEcon","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENagging doubts about empirical economics research: a thread of resources for those who are unsure about the so-called empirical revolution, and perhaps quantitative social science in general. (1\/n)\u003C\/p\u003E&mdash; Unlearning Economics (@UnlearnEcon) \u003Ca href=\"https:\/\/twitter.com\/UnlearnEcon\/status\/1501212969924976646?ref_src=twsrc%5Etfw\"\u003EMarch 8, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-28948").innerHTML = tweet["html"];</script><p></p></li>
 <li><p>Behavioural and Brain Sciences has a target article on <a href="https://doi.org/10.1017/S0140525X20001685">The generalizability crisis</a> by Tal Yarkoni (ungated pdf <a href="https://psyarxiv.com/jqw35/">here</a>). Many responses worth reading, including this <a href="https://doi.org/10.1017/S0140525X21000327">one from Gerd Gigerenzer</a> (can’t find an ungated version of the Gigerenzer response to share). Daniel Lakens <a href="http://daniellakens.blogspot.com/2020/01/review-of-generalizability-crisis-by.html">comments</a>.</p></li>
 <li><p>You can now access a <a href="https://avehtari.github.io/ROS-Examples/">free pdf version</a> of Gelman, Hill and Vehtari’s Regression and Other Stories.</p></li>
 <li><p>Holden Karnofsky <a href="https://www.cold-takes.com/reading-books-vs-engaging-with-them/">on reading books</a>. I think about this a lot: for the average book I simply “read”, my recall a few years later is close to nothing. Pair with Andy Matuschak’s <a href="https://andymatuschak.org/books/">Why books don’t work</a>.</p></li>
@@ -1786,53 +1834,6 @@ Prelec, Drazen. 1998. <span>“The Probability Weighting Function.”</span> <em
  ]]></description>
   <guid>https://www.jasoncollins.blog/posts/the-1-n-portfolio-versus-the-optimal-strategy.html</guid>
   <pubDate>Fri, 21 Jan 2022 09:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>A default of disbelief</title>
-  <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/a-default-of-disbelief.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>It was easy to see why many behavioural practitioners loved the idea that you could induce honesty by getting someone to sign a form at the top, not the bottom. It was practical. It was cheap to implement. It involved more than the common “send them a reminder” or “chuck a social norm on it” that comprises much of the applied behavioural science canon. (That said, don’t underestimate reminders.) It provided an unintuitive proposal to improve business outcomes that wasn’t likely to come from any other source.</p>
-<p>The <a href="http://datacolada.org/98">fraudulent data</a> in the <a href="https://doi.org/10.1073/pnas.1209746109">paper that first proposed this idea</a> has attracted a lot of recent attention (plus a <a href="https://doi.org/10.1073/pnas.2115397118">retraction</a>). But apart from the pall cast over the field and Dan Ariely’s work, the exposure of the fraud has also had the unfortunate effect of distracting from what I think is a more important story arising from this study.</p>
-<p>So, for a moment, let’s ignore the fraud and look at the state of play before its exposure.</p>
-<p>In 2012, Lisa Shu and friends published a <a href="https://doi.org/10.1073/pnas.1209746109">paper in PNAS</a> in which they reported that “signing before—rather than after—the opportunity to cheat makes ethics salient when they are needed most and significantly reduces dishonesty.” The paper reported the results of two lab experiments and one field experiment, all pointing in the right direction.</p>
-<p>Here is how the authors reported the field experiment:</p>
-<blockquote class="blockquote">
-<p>Partnering with an automobile insurance company in the southeastern United States, we manipulated the policy review form, which asked customers to report the current odometer mileage of all cars insured by the company. Customers were randomly assigned to one of two forms, both of which required their signature following the statement: “I promise that the information I am providing is true.” Half the customers received the original forms used by the insurance company, where their signature was required at the end of the form; the other half received our treatment forms, where they were required to sign at the beginning. The forms were identical in every other respect. Reporting lower odometer mileage indicated less driving, lower risk of accident occurrence, and therefore lower insurance premiums. …</p>
-<p>… Customers who signed at the beginning on average revealed higher use (M = 26,098.4, SD = 12,253.4) than those who signed at the end [M = 23,670.6, SD = 12,621.4; F(1, 13,485) = 128.63, P &lt; 0.001]. The difference was 2,427.8 miles per car. That is, asking customers to sign at the beginning of the form led to a 10.25% increase in implied miles driven (based on reported odometer readings) over the current practice of asking for a signature at the end.</p>
-</blockquote>
-<p>But then in 2020 came a <a href="https://doi.org/10.1073/pnas.1911695117">new paper in PNAS</a> by Ariella Kristal, Ashley Whillans and the authors of the 2012 paper. The abstract says it all:</p>
-<blockquote class="blockquote">
-<p>In 2012, five of the current authors published a paper in PNAS showing that people are more honest when they are asked to sign a veracity statement at the beginning instead of at the end of a tax or insurance audit form. In a recent investigation, across five related experiments we failed to find an effect of signing at the beginning on dishonesty. Following up on these studies, we conducted one preregistered, high-powered direct replication of experiment 1 of the PNAS paper, in which we failed to replicate the original result. The current paper updates the scientific record by showing that signing at the beginning is unlikely to be a simple solution for increasing honest reporting.</p>
-</blockquote>
-<p>These authors discussed what we should learn from these two papers in an <a href="https://blogs.scientificamerican.com/observations/when-were-wrong-its-our-responsibility-as-scientists-to-say-so/">article in Scientific American</a>. It was pointedly titled “When We’re Wrong, It’s Our Responsibility as Scientists to Say So”.</p>
-<p>The title relates to the point where I depart from their interpretation. They suggest scientists should say when they are wrong. But the question is, what exactly went wrong?</p>
-<p>Here’s the authors’ take:</p>
-<blockquote class="blockquote">
-<p>We also hope that this collaboration serves as a positive example, whereby upon learning that something they had been promoting for nearly a decade may not be true, the original authors confronted the issue directly by running new and more rigorous studies, and the original journal was open to publishing a new peer-reviewed article documenting the correction.</p>
-<p>…</p>
-<p>While we may have lost confidence in the effect of signing first (versus last) being the simple fix that we thought we found, this collaboration has strengthened our belief that psychology, like all good science, is continuously updating and self-correcting and that it is up to all of us to maintain this growing positive trend.</p>
-</blockquote>
-<p>This is underselling the nature of what went wrong and the correction that is required.</p>
-<p>The problem is not simply that a single study about signing a form failed to replicate. The authors are hardly Robinson Crusoe in failing to have their work replicate. This isn’t even the first <a href="../does-a-moral-reminder-decrease-cheating/">failed replication involving Dan Ariely or Nina Mazar on this topic of inducing honesty</a>.</p>
-<p>Rather, the problem is that there is a huge swathe of published literature in the behavioural sciences that, to use Andrew Gelman’s framing, suffers from the <a href="http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf">garden of forking paths</a>, publication bias and the like. It is built on noisy experiments. The PNAS paper is a typical example, not an exception. Much of this literature won’t replicate. And despite this, people are still taking that work as true absent a failed replication.</p>
-<p>So rather than saying they “lost confidence in the effect of signing first”, a better calibrated self-correction would have been to say “we should not have trusted this potentially spurious result absent rigourous replication, and we should be applying similar scepticism to more of the literature.”</p>
-<p>To put it another way, the default position should not be to take all published results in the behavioural science literature as “the record”. Instead, we should be treating many of these published results as exploratory or as untested hypotheses. Start from a position near “unlikely to be true”, and update to a stronger belief in the presence of replications or other supporting evidence.</p>
-<p>Absent that approach, the story repeats. Well-meaning practitioners will continue to pick up ideas from the literature, waste time and effort until (if they are lucky) someone gets around to killing off the original idea in a replication. And as highlighted in the Scientific American article, this is costly:</p>
-<blockquote class="blockquote">
-<p>This matters because governments worldwide have spent considerable money and time trying to put this intervention into practice with limited success. In particular, failed attempts have been reported in several countries, and thousands of dollars were spent when one of us (Whillans) was working with a government in Canada to attempt to change their tax forms.</p>
-</blockquote>
-<p>As a final aside, I’m not as optimistic that behavioural science is continuously updating and self-correcting, at least not yet in a way that matches the scale of the challenge. Responses to failed replications, such as the other failed replication of an intervention designed to induce honesty that <a href="../does-a-moral-reminder-decrease-cheating/">I mentioned above</a>, are typically far more defensive. Then there is the ongoing quantum of the flow of papers with questionable claims. They still outnumber robust replications.</p>
-<p>Maybe the distinguishing point for these “sign at the top” experiments is that at least one incentive pointed in the right direction. By joining the replication effort and applying a less defensive approach to their work, the original authors got the great value of two PNAS papers for the price of one.</p>
-
-
-
- ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/a-default-of-disbelief.html</guid>
-  <pubDate>Thu, 13 Jan 2022 09:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
