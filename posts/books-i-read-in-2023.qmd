@@ -2,7 +2,7 @@
 title: 'Books I read in 2023'
 author: "Jason Collins"
 date: 2024-01-18 14:00:00+10:00
-draft: true
+draft: false
 aliases:
   - /books-i-read-in-2023
 ---
