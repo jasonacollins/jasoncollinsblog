@@ -1,14 +1,14 @@
 ---
 title: 'A bunch of links'
 author: "Jason Collins"
-date: 2023-01-19 13:00:00+10:00
+date: 2024-01-19 15:00:00+10:00
 draft: false
 images: [""]
 aliases:
   - /a-bunch-of-links-2
 ---
 
-A bunch of links:
+Social science a mess, journals no good, the meaningless of the label "misinformation", Flipper Zero, and cleaning up the list of named "biases":
 
 1. [Social science is a mess and it's not getting better](https://fantasticanachronism.com/2020/09/11/whats-wrong-with-social-science-and-how-to-fix-it/). A few years old, but a lot of gold. A few nuggets:
 
