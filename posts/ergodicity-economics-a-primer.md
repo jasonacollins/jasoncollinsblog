@@ -4,7 +4,7 @@ author: "Jason Collins"
 date: 2020-01-22 09:00:00+00:00
 draft: false
 aliases:
-  - /Ergodicity-economics-a-primer
+  - /ergodicity-economics-a-primer
 ---
 
 In my previous posts on loss aversion ([here](https://www.jasoncollins.blog/kahneman-and-tverskys-debatable-loss-aversion-assumption/), [here](https://www.jasoncollins.blog/what-can-we-infer-about-someone-who-rejects-a-5050-bet-to-win-110-or-lose-100-the-rabin-paradox-explored/) and [here](https://www.jasoncollins.blog/the-case-against-loss-aversion/)), I foreshadowed a post on how "ergodicity economics" might shed some light on whether we need loss aversion to explain people's choices under uncertainty. This was to be that post, but the background material that I drafted is long enough to be a stand alone piece. I'll turn to the application of ergodicity economics to loss aversion in a future post.
