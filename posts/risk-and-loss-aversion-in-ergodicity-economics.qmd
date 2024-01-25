@@ -421,10 +421,11 @@ numRange <- function(sim, lower=0, upper=5000, people=10000){
 addSimRange <- numRange(addSim)
 multiSimRange <- numRange(multiSim)
 multiSimRange1 <- numRange(multiSim, lower=1)
+multiSimRange10 <- numRange(multiSim, lower=10)
 
 ```
 
-In the simulations I conducted of the additive passive day, `r round(addSimRange[1], 0)`% of the simulations breach that zero lower bound. `r round(addSimRange[2], 0)`% breach the 5000kr upper bound (some of the same paths that went below zero), leaving only `r round(addSimRange[3], 0)`% of the trials that could be provided to subjects on the passive day. In contrast, passive multiplicative paths could not be excluded for going below zero, despite providing a hair-raising ride. Around `r round(multiSimRange1[2], 0)`% of the passive multiplicative paths that I simulated involve wealth dropping to less than 1kr (a 99.9% loss). Then at the top end, `r round(multiSimRange[2], 0)`% of the passive multiplicative paths went above \$5000kr, leading to their exclusion.
+In the simulations I conducted of the additive passive day, `r round(addSimRange[1], 0)`% of the simulations breach that zero lower bound. `r round(addSimRange[2], 0)`% breach the 5000kr upper bound (some of the same paths that went below zero), leaving only `r round(addSimRange[3], 0)`% of the trials that could be provided to subjects on the passive day. In contrast, passive multiplicative paths could not be excluded for going below zero, despite providing a hair-raising ride. `r round(multiSimRange1[1], 0)`% of the passive multiplicative paths that I simulated involve wealth dropping to less than 1kr (a 99.9% loss). `r round(multiSimRange10[1], 0)`% of the passive multiplicative paths involve wealth dropping to less than 10kr (a 99% loss). Then, at the top end, `r round(multiSimRange[2], 0)`% of the passive multiplicative paths went above \$5000kr, leading to their exclusion.
 
 The result is that the subjects were conditioned on a limited subset of additive paths that excluded the most negative moments (although also the `r round(addSimRange[2], 0)`% highest), and on multiplicative paths that excluded the most positive moments. This is a large asymmetry. Obviously, each person saw only one path, and they might have ended up with that combination anyhow, but the systematic conditioning of subjects with benign passive paths and harrowing multiplicative paths should be considered a potential factor in the response of subjects to those fractals.
 

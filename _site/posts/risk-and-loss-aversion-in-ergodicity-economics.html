@@ -239,7 +239,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <blockquote class="blockquote">
 <p>[E]xpected utility theory as we have presented it above is consistent with growth rate optimisation, provided a suitable pair of dynamic and utility function is used. For multiplicative dynamics, the necessary utility function is the logarithm. That this is the most widely used utility function in both theory and practice is a psychological fluke in the classic mindset; from our perspective it indicates that our brains have evolved to produce growth-optimal decisions in a world governed by multiplicative dynamics, i.e.&nbsp;where entities produce more of themselves.</p>
 </blockquote>
-<p>This effectively means that many of the “puzzles” that expected utility maximisation has been used to solve can also be “solved” by growth-rate optimisation. For instance, insurance or the St Petersberg puzzle provide a challenge for expected wealth optimisation, but are equivalently solved by assuming an expected log utility maximiser or a growth-rate optimiser.</p>
+<p>This parallel means that many of the “puzzles” that expected utility maximisation has been used to solve can also be “solved” by growth-rate optimisation. For instance, insurance or the St Petersberg puzzle provide a challenge for expected wealth optimisation, but are equivalently solved by assuming an expected log utility maximiser or a growth-rate optimiser.</p>
 <p>That these two concepts overlap raises a conundrum. An expected log utility maximiser looks much like a growth-rate maximiser in their behaviour (noting that log utility is only one of many functional forms an expected utility maximiser could theoretically have). If we would expect to see the same decision under both expected log utility and growth-rate maximisation in multiplicative dynamics, how can we differentiate the two?</p>
 <p><strong>Additive dynamics</strong></p>
 <p>Before I answer that question, I am going to detour into the world of additive dynamics. What if I offered you the following bet?</p>
@@ -346,7 +346,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="fig-ergodicity-1" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <figcaption class="figure-caption">Figure&nbsp;1: Average wealth of population and path of first 20 people</figcaption>
-<p><a href="risk-and-loss-aversion-in-ergodicity-economics_files/figure-html/fig-ergodicity-1-1.png" class="lightbox" title="Average wealth of population and path of first 20 people" data-gallery="quarto-lightbox-gallery-1"><img src="risk-and-loss-aversion-in-ergodicity-economics_files/figure-html/fig-ergodicity-1-1.png" class="img-fluid figure-img" width="672"></a></p>
+<p><a href="risk-and-loss-aversion-in-ergodicity-economics_files/figure-html/fig-ergodicity-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Average wealth of population and path of first 20 people"><img src="risk-and-loss-aversion-in-ergodicity-economics_files/figure-html/fig-ergodicity-1-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
 </div>
 </div>
@@ -576,10 +576,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a>addSimRange <span class="ot">&lt;-</span> <span class="fu">numRange</span>(addSim)</span>
 <span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a>multiSimRange <span class="ot">&lt;-</span> <span class="fu">numRange</span>(multiSim)</span>
-<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a>multiSimRange1 <span class="ot">&lt;-</span> <span class="fu">numRange</span>(multiSim, <span class="at">lower=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a>multiSimRange1 <span class="ot">&lt;-</span> <span class="fu">numRange</span>(multiSim, <span class="at">lower=</span><span class="dv">1</span>)</span>
+<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a>multiSimRange10 <span class="ot">&lt;-</span> <span class="fu">numRange</span>(multiSim, <span class="at">lower=</span><span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>In the simulations I conducted of the additive passive day, 90% of the simulations breach that zero lower bound. 26% breach the 5000kr upper bound (some of the same paths that went below zero), leaving only 2% of the trials that could be provided to subjects on the passive day. In contrast, passive multiplicative paths could not be excluded for going below zero, despite providing a hair-raising ride. Around 92% of the passive multiplicative paths that I simulated involve wealth dropping to less than 1kr (a 99.9% loss). Then at the top end, 92% of the passive multiplicative paths went above $5000kr, leading to their exclusion.</p>
+<p>In the simulations I conducted of the additive passive day, 90% of the simulations breach that zero lower bound. 26% breach the 5000kr upper bound (some of the same paths that went below zero), leaving only 2% of the trials that could be provided to subjects on the passive day. In contrast, passive multiplicative paths could not be excluded for going below zero, despite providing a hair-raising ride. 31% of the passive multiplicative paths that I simulated involve wealth dropping to less than 1kr (a 99.9% loss). 60% of the passive multiplicative paths involve wealth dropping to less than 10kr (a 99% loss). Then, at the top end, 92% of the passive multiplicative paths went above $5000kr, leading to their exclusion.</p>
 <p>The result is that the subjects were conditioned on a limited subset of additive paths that excluded the most negative moments (although also the 26% highest), and on multiplicative paths that excluded the most positive moments. This is a large asymmetry. Obviously, each person saw only one path, and they might have ended up with that combination anyhow, but the systematic conditioning of subjects with benign passive paths and harrowing multiplicative paths should be considered a potential factor in the response of subjects to those fractals.</p>
 <p>It could be argued that despite the difference in paths, people are simply learning the effect of the fractals that they bet on. However, I am not convinced that experimental subjects would be unaffected by seeing the potential cumulative effect of these bets.</p>
 <p>As a result, my preliminary view on this experiment is that it provides potential evidence that the dynamics of the environment can influence our model of decision making. However, the experimental results involve behaviour that doesn’t seem to be accounted for by any of the models, and it involves a conditioning process that I’m not completely sold on.</p>
@@ -888,7 +889,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":true,"closeEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":true,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom"});</script>
 
 
 
