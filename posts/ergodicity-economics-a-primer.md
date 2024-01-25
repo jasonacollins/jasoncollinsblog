@@ -32,7 +32,7 @@ One explanation for declining this gamble is risk aversion. A risk averse person
 
 Risk aversion can be represented through the concept of utility, where each level of wealth gives subjective value (utility) for the gambler. If people maximise utility instead of the value of a gamble, it is possible that a person would reject the bet.
 
-For example, one common utility function to represent a risk averse individual is the logarithm of their wealth. If we apply the log utility function to the gamble above, the gambler will reject the offer of the coin flip. \[The maths here is simply that the expected utility of the gamble is 0.5\**ln*(150) + 0.5\**ln*(60)=4.55, which is less than the utility of the sure \$100, *ln*(100)=4.61.\]
+For example, one common utility function to represent a risk averse individual is the logarithm of their wealth. If we apply the log utility function to the gamble above, the gambler will reject the offer of the coin flip. \[The maths here is simply that the expected utility of the gamble is $0.5\times \ln(150) + 0.5\times \ln(60)=4.55$, which is less than the utility of the sure \$100, *ln*(100)=4.61.\]
 
 ## 3. The time average growth rate
 
@@ -314,16 +314,16 @@ Create a function to generate summary statistics.
 ``` r
 summaryStats <- function(sim, period=100){
 
-  meanWealth <- mean(as.matrix(sim$sim[(period+1),2:(sim$params[2,]+1)]))
-  medianWealth <- median(as.matrix(sim$sim[(period+1),2:(sim$params[2,]+1)]))
+  meanW <- mean(as.matrix(sim$sim[(period+1),2:(sim$params[2,]+1)])) # mean wealth
+  medianW <- median(as.matrix(sim$sim[(period+1),2:(sim$params[2,]+1)])) # median wealth
   num99 <- sum(sim$sim[(period+1),2:(sim$params[2,]+1)]<(sim$params[4,]/100)) #number who lost more than 99% of their wealth
   numGain <- sum(sim$sim[(period+1),2:(sim$params[2,]+1)]>sim$params[4,]) #number who gain
   num100 <- sum(sim$sim[(period+1),2:(sim$params[2,]+1)]>(sim$params[4,]*100)) #number who increase their wealth more than 100-fold
   winner <- max(sim$sim[(period+1),2:(sim$params[2,]+1)]) #wealth of wealthiest person
   winnerShare <- winner / sum(sim$sim[(period+1),2:(sim$params[2,]+1)]) #wealth share of wealthiest person
 
-  print(paste0("mean: $", round(meanWealth, 2)))
-  print(paste0("median: $", round(medianWealth, 2)))
+  print(paste0("mean: $", round(meanW, 2)))
+  print(paste0("median: $", round(medianW, 2)))
   print(paste0("number who lost more than 99% of their wealth: ", num99))
   print(paste0("number who gained: ", numGain))
   print(paste0("number who increase their wealth more than 100-fold: ", num100))
