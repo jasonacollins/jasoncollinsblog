@@ -1,28 +1,38 @@
 ---
 title: 'The preregistration halo'
 author: "Jason Collins"
-date: 2024-XX-XX 09:00:00+10:00
-draft: true
+date: 2024-01-26 17:00:00+10:00
+draft: false
 aliases:
   - /the-preregistration-halo
 bibliography: references.bib
 ---
 
-I am a fan of preregistration, the process of registering a research design before collecting data.
+[Preregistration](https://en.wikipedia.org/wiki/Preregistration_(science)) is the registration of a research design before collecting data. I rarely read an experimental paper where preregistration would not have provided some comfort that the reported result was not found via the [garden of forking paths](http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf).
 
-Preregistration (if made public) allows us to see the entire body of research on a topic, not just those studies that happened to find a statistically significant result and a willing publisher. They provide a degree of constraint around the research process, making it harder to p-hack or post-hypothesise the way to a significant result.
+Preregistration (if made public) allows us to see the entire body of research on a topic, not just those studies for which the authors happened to find a statistically significant result and a willing publisher. Preregistration constrains the analysis, making it harder for authors to p-hack or hypothesise their way to a significant result after the experiment (or at least making it transparent that they have done so).
 
-I would go as far as arguing that preregistration should be a condition of publication of any experiment for which preregistration was feasible.
-
-But, preregistration is no guarantee of good science. In fact, it doesn't even solve many of the real problems. Many preregistrations are only made public when the study is submitted for publication, so we aren't truly seeing all the studies that have been conducted. Preregistration can't rescue weak theory. And many preregistrations are left to wither on the vine: here's a plot of preregistrations submitted to the [American Economic Association's RCT registry](https://www.socialscienceregistry.org), and their subsequent publication status.
+But, preregistration is no guarantee of good science. It doesn't solve many of the real problems in science ([for example](https://worksinprogress.co/issue/biases-the-wrong-model/)). Preregistration can't rescue weak theory. Many researchers only make their preregistrations public when they submit for publication. Many remain private. And many preregistrations are left to wither on the vine: here's a plot of the status of preregistrations submitted to the [American Economic Association's RCT registry](https://www.socialscienceregistry.org) through to 1 January 2024.
 
 ```{r message = FALSE}
 library(readr)
 library(ggplot2)
 library(tidyverse)
 
-# load data file, which is a subset of the AEA registry to 1 November 2023, available from https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/8YNXVW
-trials <- read_csv("data/trials-subset-nov-2023.csv")
+# load data file, which is a subset of the AEA registry to 1 January 2024, available from https://doi.org/10.7910/DVN/HPYPGH
+
+# code to create subset from the raw csv file as follows, although not executed as part of this document - raw file too large to maintain on website
+
+# trials <- read_csv("trials.csv")
+
+#remove columns not used in this analysis + RCT_ID
+# trials <- trials %>% 
+#  select(RCT_ID, "First registered on", "Intervention end date", "End date", Status)
+
+#save as cvs named "trials-processed-jan-2024.csv"
+# write_csv(trials, "trials-subset-jan-2024.csv")
+
+trials <- read_csv("data/trials-subset-jan-2024.csv")
 
 # set order for charts so completed is first, then abandoned, then other
 trials <- trials %>%
@@ -61,14 +71,32 @@ ggplot(trials, aes(fill=Status, x=end_year)) +
   scale_x_continuous(limits = c(2012.5, 2025.5), breaks = seq(2013, 2025)) + 
   scale_fill_manual(values=cbPalette) +
   scale_y_continuous(labels = scales::percent_format()) +
-  labs(x = "Recorded end year", y = "Percentage of trials") +
+  labs(x = "End date", y = "Percentage of trials") +
   theme_minimal()
 ```
 
-The proposed "end date" entered by registrants is likely the best benchmark for when we should see a result, and it seems around half of trials proposed to end between 2014 and 2019 have been marked as completed, and that declines for more recent dates. We get a glimpse of the file drawer, but we're not getting much insight into what is in it.
+The proposed "end date" entered by registrants is likely the best benchmark for when we should see a result. Around half of trials proposed to end between 2014 and 2019 have been marked as completed. The completion rate declines in more recent years. The registry gives a glimpse of the file drawer, but we're seeing a non-random selection of what's in it.
 
-Eliot Abrams, Jonathan Libgoer and John List @abrams2020 also catalogued some of the issues with the AEA Registry: over 90% of RCTs don't register, only 50% of those that register do so before the intervention begins, and most preregistrations lack detail.
+Eliot Abrams, Jonathan Libgoer and John List [-@abrams2020] also catalogued some of the issues with the AEA Registry: over 90% of RCTs don't register, only 50% of those that register do so before the intervention begins, and most preregistrations lack detail.
 
-But now to the recent story, via [Jessica Hullman](https://statmodeling.stat.columbia.edu/2023/11/21/of-course-its-preregistered-just-give-me-a-sec/)
+Now to the recent story, via [Jessica Hullman](https://statmodeling.stat.columbia.edu/2023/11/21/of-course-its-preregistered-just-give-me-a-sec/)
 
-John Protzko and friends published
+John Protzko and friends [-@protzko2023] published a paper in Nature Human Behaviour, *High replicability of newly discovered social-behavioural findings is achievable*. Part of the abstract reads:
+
+> This paper reports an investigation by four coordinated laboratories of the prospective replicability of 16 novel experimental findings using rigour-enhancing practices: confirmatory tests, large sample sizes, preregistration and methodological transparency. In contrast to past systematic replication efforts that reported replication rates averaging 50%, replication attempts here produced the expected effects with significance testing (P \< 0.05) in 86% of attempts, slightly exceeding the maximum expected replicability based on observed effect sizes and sample sizes.
+
+In the text they note that they are also preregistered. We have a preregistered analysis of the benefits of preregisteration (or so it seems):
+
+> All confirmatory tests, replications and analyses were preregistered both in the individual studies (Supplementary Information section 3 and Supplementary Table 2) and for this meta-project.
+
+But, as noted in a comment on the paper by Joseph Bak-Coleman and Berna Devezer [-@bak-coleman2023], there are many forking paths in the analysis, particularly around the choice of metrics. Those chosen do not match past practice. "\[P\]reregistration could provide a justification for preferring one metric over another", but a problem arises when we look at the preregistration:
+
+> Although the authors claim “All confirmatory tests, replications and analyses were preregistered”, the analysis on which titular claim depends was not preregistered. There is no mention of examining the relationship between replicability and rigor-improving methods, nor even how replicability would be operationalized despite extensive descriptions of the calculations of other quantities. With nothing indicating this comparison or metric it rests on were planned a priori, it is hard to distinguish the core claim in this paper from selective reporting and hypothesizing after the results are known.
+
+It seems the reviewers didn't bother to check that the analysis matched the pre-registration.
+
+The current state of play has Protzko and friends digging around for a preregistration that might match the analysis that they conducted. An editor's note now appended to the paper reads:
+
+> Editor’s Note: Readers are alerted that this paper is subject to criticisms that are being considered by the editors. The criticisms relate to the preregistration and corresponding reporting of hypotheses, predictions, and analyses. We are investigating the concerns raised and an editorial response will follow the resolution of these issues.
+
+Funnily enough, Protzko and friends provide evidence in support of preregistration. We have an analysis with many forking paths for which a preregistration might have provided some constraint. Unfortunately, this case for preregistration is not the one that they intended.

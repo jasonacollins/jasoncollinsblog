@@ -10,7 +10,408 @@
 <atom:link href="https://www.jasoncollins.blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Behavioural and data science. Economics. Evolutionary biology.</description>
 <generator>quarto-1.3.433</generator>
-<lastBuildDate>Fri, 19 Jan 2024 05:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 26 Jan 2024 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>The preregistration halo</title>
+  <dc:creator>Jason Collins</dc:creator>
+  <link>https://www.jasoncollins.blog/posts/the-preregistration-halo.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><a href="https://en.wikipedia.org/wiki/Preregistration_(science)">Preregistration</a> is the registration of a research design before collecting data. I rarely read an experimental paper where preregistration would not have provided some comfort that the reported result was not found via the <a href="http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf">garden of forking paths</a>.</p>
+<p>Preregistration (if made public) allows us to see the entire body of research on a topic, not just those studies for which the authors happened to find a statistically significant result and a willing publisher. Preregistration constrains the analysis, making it harder for authors to p-hack or hypothesise their way to a significant result after the experiment (or at least making it transparent that they have done so).</p>
+<p>But, preregistration is no guarantee of good science. It doesn’t solve many of the real problems in science (<a href="https://worksinprogress.co/issue/biases-the-wrong-model/">for example</a>). Preregistration can’t rescue weak theory. Many researchers only make their preregistrations public when they submit for publication. Many remain private. And many preregistrations are left to wither on the vine: here’s a plot of the status of preregistrations submitted to the <a href="https://www.socialscienceregistry.org">American Economic Association’s RCT registry</a> through to 1 January 2024.</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(readr)</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(ggplot2)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tidyverse)</span>
+<span id="cb1-4"></span>
+<span id="cb1-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># load data file, which is a subset of the AEA registry to 1 January 2024, available from https://doi.org/10.7910/DVN/HPYPGH</span></span>
+<span id="cb1-6"></span>
+<span id="cb1-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># code to create subset from the raw csv file as follows, although not executed as part of this document - raw file too large to maintain on website</span></span>
+<span id="cb1-8"></span>
+<span id="cb1-9"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># trials &lt;- read_csv("trials.csv")</span></span>
+<span id="cb1-10"></span>
+<span id="cb1-11"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#remove columns not used in this analysis + RCT_ID</span></span>
+<span id="cb1-12"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># trials &lt;- trials %&gt;% </span></span>
+<span id="cb1-13"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#  select(RCT_ID, "First registered on", "Intervention end date", "End date", Status)</span></span>
+<span id="cb1-14"></span>
+<span id="cb1-15"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#save as cvs named "trials-processed-jan-2024.csv"</span></span>
+<span id="cb1-16"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># write_csv(trials, "trials-subset-jan-2024.csv")</span></span>
+<span id="cb1-17"></span>
+<span id="cb1-18">trials <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read_csv</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"data/trials-subset-jan-2024.csv"</span>)</span>
+<span id="cb1-19"></span>
+<span id="cb1-20"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># set order for charts so completed is first, then abandoned, then other</span></span>
+<span id="cb1-21">trials <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> trials <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-22">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rename</span>(</span>
+<span id="cb1-23">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">intervention_end_date =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Intervention end date"</span>,</span>
+<span id="cb1-24">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">first_registered_on =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"First registered on"</span>,</span>
+<span id="cb1-25">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">end_date =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"End date"</span></span>
+<span id="cb1-26">    ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-27">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(</span>
+<span id="cb1-28">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">first_registered_year =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">year</span>(first_registered_on),</span>
+<span id="cb1-29">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">intervention_end_year =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">year</span>(intervention_end_date),</span>
+<span id="cb1-30">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">end_year =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">year</span>(end_date)</span>
+<span id="cb1-31">    ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-32">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Status =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ifelse</span>(Status <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"abandoned"</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|</span> Status <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"withdrawn"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"abandoned_or_withdrawn"</span>, Status)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-33">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Status =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">factor</span>(Status, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">levels =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"on_going"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"abandoned_or_withdrawn"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"in_development"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"completed"</span>)))</span>
+<span id="cb1-34"></span>
+<span id="cb1-35"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># colourblind palette</span></span>
+<span id="cb1-36">cbPalette <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#999999"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#E69F00"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#56B4E9"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#009E73"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#F0E442"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#0072B2"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#D55E00"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#CC79A7"</span>)</span>
+<span id="cb1-37"></span>
+<span id="cb1-38"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># plot of status by year of registration</span></span>
+<span id="cb1-39"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(trials, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill=</span>Status, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x=</span>first_registered_year)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb1-40">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_bar</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">position=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"fill"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">stat=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"count"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb1-41">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_x_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">limits =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2012.5</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2023.5</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">breaks =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">seq</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2013</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2023</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-42">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_fill_manual</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">values=</span>cbPalette) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-43">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_y_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">labels =</span> scales<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">percent_format</span>()) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-44">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Year of registration"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Percentage of trials"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb1-45">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_minimal</span>()</span></code></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="the-preregistration-halo_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/the-preregistration-halo_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># plot of status by reported end year</span></span>
+<span id="cb2-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(trials, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill=</span>Status, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x=</span>end_year)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb2-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_bar</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">position=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"fill"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">stat=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"count"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb2-4">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_x_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">limits =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2012.5</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2025.5</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">breaks =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">seq</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2013</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2025</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb2-5">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_fill_manual</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">values=</span>cbPalette) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_y_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">labels =</span> scales<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">percent_format</span>()) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-7">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"End date"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Percentage of trials"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-8">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_minimal</span>()</span></code></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="the-preregistration-halo_files/figure-html/unnamed-chunk-2-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/the-preregistration-halo_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>The proposed “end date” entered by registrants is likely the best benchmark for when we should see a result. Around half of trials proposed to end between 2014 and 2019 have been marked as completed. The completion rate declines in more recent years. The registry gives a glimpse of the file drawer, but we’re seeing a non-random selection of what’s in it.</p>
+<p>Eliot Abrams, Jonathan Libgoer and John List <span class="citation" data-cites="abrams2020">(2020)</span> also catalogued some of the issues with the AEA Registry: over 90% of RCTs don’t register, only 50% of those that register do so before the intervention begins, and most preregistrations lack detail.</p>
+<p>Now to the recent story, via <a href="https://statmodeling.stat.columbia.edu/2023/11/21/of-course-its-preregistered-just-give-me-a-sec/">Jessica Hullman</a></p>
+<p>John Protzko and friends <span class="citation" data-cites="protzko2023">(2023)</span> published a paper in Nature Human Behaviour, <em>High replicability of newly discovered social-behavioural findings is achievable</em>. Part of the abstract reads:</p>
+<blockquote class="blockquote">
+<p>This paper reports an investigation by four coordinated laboratories of the prospective replicability of 16 novel experimental findings using rigour-enhancing practices: confirmatory tests, large sample sizes, preregistration and methodological transparency. In contrast to past systematic replication efforts that reported replication rates averaging 50%, replication attempts here produced the expected effects with significance testing (P &lt; 0.05) in 86% of attempts, slightly exceeding the maximum expected replicability based on observed effect sizes and sample sizes.</p>
+</blockquote>
+<p>In the text they note that they are also preregistered. We have a preregistered analysis of the benefits of preregisteration (or so it seems):</p>
+<blockquote class="blockquote">
+<p>All confirmatory tests, replications and analyses were preregistered both in the individual studies (Supplementary Information section 3 and Supplementary Table 2) and for this meta-project.</p>
+</blockquote>
+<p>But, as noted in a comment on the paper by Joseph Bak-Coleman and Berna Devezer <span class="citation" data-cites="bak-coleman2023">(2023)</span>, there are many forking paths in the analysis, particularly around the choice of metrics. Those chosen do not match past practice. “[P]reregistration could provide a justification for preferring one metric over another”, but a problem arises when we look at the preregistration:</p>
+<blockquote class="blockquote">
+<p>Although the authors claim “All confirmatory tests, replications and analyses were preregistered”, the analysis on which titular claim depends was not preregistered. There is no mention of examining the relationship between replicability and rigor-improving methods, nor even how replicability would be operationalized despite extensive descriptions of the calculations of other quantities. With nothing indicating this comparison or metric it rests on were planned a priori, it is hard to distinguish the core claim in this paper from selective reporting and hypothesizing after the results are known.</p>
+</blockquote>
+<p>It seems the reviewers didn’t bother to check that the analysis matched the pre-registration.</p>
+<p>The current state of play has Protzko and friends digging around for a preregistration that might match the analysis that they conducted. An editor’s note now appended to the paper reads:</p>
+<blockquote class="blockquote">
+<p>Editor’s Note: Readers are alerted that this paper is subject to criticisms that are being considered by the editors. The criticisms relate to the preregistration and corresponding reporting of hypotheses, predictions, and analyses. We are investigating the concerns raised and an editorial response will follow the resolution of these issues.</p>
+</blockquote>
+<p>Funnily enough, Protzko and friends provide evidence in support of preregistration. We have an analysis with many forking paths for which a preregistration might have provided some constraint. Unfortunately, this case for preregistration is not the one that they intended.</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
+<div id="ref-abrams2020" class="csl-entry">
+Abrams, E., Libgober, J., and List, J. A. (2020). Research registries: Facts, myths, and possible improvements. <em>NBER Working Paper</em>. <a href="https://doi.org/10.3386/w27250">https://doi.org/10.3386/w27250</a>
+</div>
+<div id="ref-bak-coleman2023" class="csl-entry">
+Bak-Coleman, J., and Devezer, B. (2023). <em>Causal claims about scientific rigor require rigorous causal evidence.</em> <a href="https://doi.org/10.31234/osf.io/5u3kj">https://doi.org/10.31234/osf.io/5u3kj</a>
+</div>
+<div id="ref-protzko2023" class="csl-entry">
+Protzko, J., Krosnick, J., Nelson, L., Nosek, B. A., Axt, J., Berent, M., Buttrick, N., DeBell, M., Ebersole, C. R., Lundmark, S., MacInnis, B., O’Donnell, M., Perfecto, H., Pustejovsky, J. E., Roeder, S. S., Walleczek, J., and Schooler, J. W. (2023). High replicability of newly discovered social-behavioural findings is achievable. <em>Nature Human Behaviour</em>, 1–9. <a href="https://doi.org/10.1038/s41562-023-01749-9">https://doi.org/10.1038/s41562-023-01749-9</a>
+</div>
+</div></section></div> ]]></description>
+  <guid>https://www.jasoncollins.blog/posts/the-preregistration-halo.html</guid>
+  <pubDate>Fri, 26 Jan 2024 07:00:00 GMT</pubDate>
+</item>
 <item>
   <title>A bunch of links</title>
   <dc:creator>Jason Collins</dc:creator>
@@ -125,7 +526,7 @@
 <p>It’s a tick for that 2020 paper.</p>
 <p>But, I wondered how long it would take for someone to extend this finding about a specific set of claims in ONE paper to a claim that “behavioural science was right!”.</p>
 <p>It didn’t take long. Here’s one statement from the lead author of the Nature paper:</p>
-<p></p><div id="tweet-96648"></div><script>tweet={"url":"https:\/\/twitter.com\/kairuggeri\/status\/1734968618730013093","author_name":"Kai Ruggeri","author_url":"https:\/\/twitter.com\/kairuggeri","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBehavioral science policy recommendations early in the pandemic were LARGELY CORRECT.  Our global collaboration in \u003Ca href=\"https:\/\/twitter.com\/Nature?ref_src=twsrc%5Etfw\"\u003E@Nature\u003C\/a\u003E covers 747 studies with an average sample size over 16,000! Evidence supports 16 of 19 claims, with lessons for science &amp; policy. \u003Ca href=\"https:\/\/t.co\/OzS7njsrzv\"\u003Ehttps:\/\/t.co\/OzS7njsrzv\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/3xoGQHBJFB\"\u003Epic.twitter.com\/3xoGQHBJFB\u003C\/a\u003E\u003C\/p\u003E&mdash; Kai Ruggeri (@kairuggeri) \u003Ca href=\"https:\/\/twitter.com\/kairuggeri\/status\/1734968618730013093?ref_src=twsrc%5Etfw\"\u003EDecember 13, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-96648").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-18000"></div><script>tweet={"url":"https:\/\/twitter.com\/kairuggeri\/status\/1734968618730013093","author_name":"Kai Ruggeri","author_url":"https:\/\/twitter.com\/kairuggeri","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBehavioral science policy recommendations early in the pandemic were LARGELY CORRECT.  Our global collaboration in \u003Ca href=\"https:\/\/twitter.com\/Nature?ref_src=twsrc%5Etfw\"\u003E@Nature\u003C\/a\u003E covers 747 studies with an average sample size over 16,000! Evidence supports 16 of 19 claims, with lessons for science &amp; policy. \u003Ca href=\"https:\/\/t.co\/OzS7njsrzv\"\u003Ehttps:\/\/t.co\/OzS7njsrzv\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/3xoGQHBJFB\"\u003Epic.twitter.com\/3xoGQHBJFB\u003C\/a\u003E\u003C\/p\u003E&mdash; Kai Ruggeri (@kairuggeri) \u003Ca href=\"https:\/\/twitter.com\/kairuggeri\/status\/1734968618730013093?ref_src=twsrc%5Etfw\"\u003EDecember 13, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-18000").innerHTML = tweet["html"];</script><p></p>
 <p>A quick peruse of twitter can find others of a similar vein.</p>
 <p>It takes a relatively short memory to forget that, whatever the merits of this single paper, the behavioural science community was the source of plenty of rubbish.</p>
 <p>Here’s <a href="https://www.bloomberg.com/view/articles/2020-02-28/coronavirus-panic-caused-by-probability-neglect">one classic</a> from a co-author of both the 2020 paper and the Nature review, Cass Sunstein, published on 29 February 2020:</p>
@@ -1074,7 +1475,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <figcaption class="figure-caption">Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions</figcaption>
-<p><a href="img/milkman_et_al_2021_figure_1.jpeg" class="lightbox" title="Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/milkman_et_al_2021_figure_1.jpeg" class="img-fluid figure-img"></a></p>
+<p><a href="img/milkman_et_al_2021_figure_1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions"><img src="https://www.jasoncollins.blog/posts/img/milkman_et_al_2021_figure_1.jpeg" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 <p>Twenty-four of the 53 interventions were found to have a statistically significant effect over the control, increasing visits by between 9% and 27%. That equates to 0.14 to 0.40 extra weekly gym visits over the control average of 1.48 visits per week.</p>
@@ -1468,7 +1869,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p>Now for the partial resurrection, with links posts to be delivered at random intervals to share articles or ideas that are worth a read. Here’s the first.</p>
 <ol type="1">
 <li><p>Unlearning Economics unloads in a <a href="https://twitter.com/UnlearnEcon/status/1501212969924976646">set of tweets</a> about empirical economics research. I have a draft post on this idea, but this thread hits most my points plus more. In my view, the robustness of some subfields of empirical economics research is on par with early 2000s social psychology research. The problem, however, is that you can’t run a replication of most of this empirical work, meaning it doesn’t suffer the same public fate.</p>
-<p></p><div id="tweet-27579"></div><script>tweet={"url":"https:\/\/twitter.com\/UnlearnEcon\/status\/1501212969924976646","author_name":"Unlearning Economics","author_url":"https:\/\/twitter.com\/UnlearnEcon","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENagging doubts about empirical economics research: a thread of resources for those who are unsure about the so-called empirical revolution, and perhaps quantitative social science in general. (1\/n)\u003C\/p\u003E&mdash; Unlearning Economics (@UnlearnEcon) \u003Ca href=\"https:\/\/twitter.com\/UnlearnEcon\/status\/1501212969924976646?ref_src=twsrc%5Etfw\"\u003EMarch 8, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-27579").innerHTML = tweet["html"];</script><p></p></li>
+<p></p><div id="tweet-31726"></div><script>tweet={"url":"https:\/\/twitter.com\/UnlearnEcon\/status\/1501212969924976646","author_name":"Unlearning Economics","author_url":"https:\/\/twitter.com\/UnlearnEcon","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ENagging doubts about empirical economics research: a thread of resources for those who are unsure about the so-called empirical revolution, and perhaps quantitative social science in general. (1\/n)\u003C\/p\u003E&mdash; Unlearning Economics (@UnlearnEcon) \u003Ca href=\"https:\/\/twitter.com\/UnlearnEcon\/status\/1501212969924976646?ref_src=twsrc%5Etfw\"\u003EMarch 8, 2022\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-31726").innerHTML = tweet["html"];</script><p></p></li>
 <li><p>Behavioural and Brain Sciences has a target article on <a href="https://doi.org/10.1017/S0140525X20001685">The generalizability crisis</a> by Tal Yarkoni (ungated pdf <a href="https://psyarxiv.com/jqw35/">here</a>). Many responses worth reading, including this <a href="https://doi.org/10.1017/S0140525X21000327">one from Gerd Gigerenzer</a> (can’t find an ungated version of the Gigerenzer response to share). Daniel Lakens <a href="http://daniellakens.blogspot.com/2020/01/review-of-generalizability-crisis-by.html">comments</a>.</p></li>
 <li><p>You can now access a <a href="https://avehtari.github.io/ROS-Examples/">free pdf version</a> of Gelman, Hill and Vehtari’s Regression and Other Stories.</p></li>
 <li><p>Holden Karnofsky <a href="https://www.cold-takes.com/reading-books-vs-engaging-with-them/">on reading books</a>. I think about this a lot: for the average book I simply “read”, my recall a few years later is close to nothing. Pair with Andy Matuschak’s <a href="https://andymatuschak.org/books/">Why books don’t work</a>.</p></li>
@@ -1736,38 +2137,6 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
  ]]></description>
   <guid>https://www.jasoncollins.blog/posts/how-big-is-the-effect-of-a-nudge.html</guid>
   <pubDate>Thu, 10 Feb 2022 21:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>The academic experiment</title>
-  <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/the-academic-experiment.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>This week I finally took the plunge and <a href="https://profiles.uts.edu.au/Jason.Collins">joined academia</a>. It’s a possibility that has been lurking over me for close to ten years, although recently I had been of the view that the time had passed.</p>
-<p>As I wound up my PhD in 2014, I nosed around the Australian academic job market. With twins on the way, I was somewhat reluctant to nose further afield, so only applied for two foreign opportunities that were a particularly good fit.</p>
-<p>It is fair to say I didn’t generate much interest. Australian economics departments typically have a preference for new hires from name universities overseas. (I think a global perspective is an OK starting point but that they <a href="https://doi.org/10.1257/jep.28.3.205">err in their balance</a> and don’t capitalise on their potential information advantage.) The Australian PhD is absent the often hellish coursework indoctrination that occurs in most US PhD programs, so is seen as less rigorous. (Several Australian universities including my new home have moved to mimic the US structure over the last decade.) An Australian PhD also isn’t likely to generate connections with the cabal that monopolises the top journals.</p>
-<p>My idiosyncratic PhD topic combining economics with evolutionary biology didn’t help. I thought it was a good PhD (albeit not the one I would write now). My <a href="../phd-thesis-passed/">reviewer feedback</a> was strong and my <a href="https://www.postgraduate.uwa.edu.au/students/funding/prizes/board-of-the-graduate-research-school-deans-list">university agreed</a>. Alas…a dozen or so applications, one interview (thanks UQ!) and that was that. Funnily enough, my job market paper is the one chapter from my PhD that hasn’t been published. I think it’s the most interesting idea in the PhD, but maybe I picked the wrong one. I’d present the idea much differently now - rewrite coming up! - so maybe it will have second legs.</p>
-<p>Rather than the academic path, I’ve since worked in a mix of behavioural and data science roles, and otherwise kept myself amused with this blog and other fora such as <a href="https://behavioralscientist.org/author/jason-collins/">Behavioral Scientist</a>.</p>
-<p>But at the time I was moving on from my attempt to get a foothold in academia, this blog generated a random connection. After a post on a working paper, I received an email from an academic, Lionel Page, suggesting I present to his department at QUT. We ended up writing <a href="https://doi.org/10.1016/j.evolhumbehav.2018.09.001">a follow-up paper</a> together. Then when he started a new <a href="https://www.uts.edu.au/study/find-a-course/graduate-certificate-behavioural-economics">Graduate Certificate in Behavioural Economics</a> at University of Technology Sydney, I agreed to teach a few units as a side-gig from my day job.</p>
-<p>And there arises the opportunity. The Graduate Certificate is now part of a new broader <a href="https://www.uts.edu.au/study/find-a-course/master-behavioural-economics">Masters programme</a>, but Lionel had decided to leave UTS. My teaching and experience made me a logical plug for the gap. Now I’m part of the <a href="https://www.uts.edu.au/about/uts-business-school/economics">Economics Discipline Group</a> at the University of Technology Sydney with a mission to drive the Masters.</p>
-<p>In my ‘sour grapes’ moments over the last few years, I had questioned whether I wanted to join academia. The blog receives several orders of magnitude more readers in the course of a year than my journal articles will ever get. Why would I want to join a game fighting to get material published in arcane places that nobody reads when I can play with ideas, write them up in a way that suits me, and publish them in a forum where there are actual readers? I could even work just a couple of days a week, earn more than an academic salary and use my remaining time as I please.</p>
-<p>A few things tipped me.</p>
-<p>First, the teaching interests me. In the same way that I understand something an order of magnitude more after I’ve blogged it, teaching has the same effect. And I like trying to get people across the line with new ideas.</p>
-<p>The broader challenge of creating a great Masters program is also interesting. As regular readers of this blog would know, I’m critical of a lot of academic and applied behavioural science. How do we create a pipeline of graduates who know the science, can determine what’s bullshit, and who won’t just wave around the latest shiny thing? I deliberately shaped the units I have taught over the last couple of years to give the highs and the lows of behavioural economics. It’s now a case making sure the whole package works.</p>
-<p>Finally, I do have the freedom to pick up interesting external projects. If I could be useful, let me know!</p>
-<p>I’m not planning to play the academic publishing game to maximise impact points or whatever the benchmark is. I’m old and grumpy enough to be willing to travel my own path and that involves exploring interesting ideas in places where people will engage with them. That said, I do have some paper ideas that I think will be successful. There is a role for the sceptical behavioural economics aggregator and critic. I’ve got some thoughts to build on the <a href="../ergodicity-economics-a-primer/">ergodicity posts</a> I’ve written. There are some lingering evolutionary ideas from my earlier research. And I want to get that damned job market paper published!</p>
-<p>The other beneficiary of the academic gig will be this blog. You may have noticed that I have awoken from my pandemic-induced slumber of the last two years and been posting on a weekly basis since the beginning of the year. My plan is that will continue. The blog is a major way I develop my thoughts. I hope you also get something out of it.</p>
-<hr>
-<p>Postscript: I’m halfway through David Epstein’s <em>Range: Why Generalists Triumph in a Specialized World</em>. It’s excellent, almost on par with the fantastic <em>The Sports Gene</em>. A central thread is that you shouldn’t specialise too early. Have a long sampling period. Because of improved match and a bigger toolkit, those who specialise late are often the most successful.</p>
-<p>The book is almost tailor made to equip me to justify my career path. I dropped out of army officer training (there’s a chapter about that very topic!) and out of university three times. I’ve been a lawyer, environmental campaigner, policy adviser in Treasury, environmental consultant, economic consultant, behavioural economist and data scientist. I have five degrees (from nine course starts…I don’t count one of the times as “dropping out”). And now I am on a new venture. Here’s hoping I’m a case study on the payoffs of a very long sampling period.</p>
-
-
-
- ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/the-academic-experiment.html</guid>
-  <pubDate>Fri, 04 Feb 2022 09:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
