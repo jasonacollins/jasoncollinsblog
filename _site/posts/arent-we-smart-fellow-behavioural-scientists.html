@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -51,6 +51,11 @@ ul.task-list li input[type="checkbox"] {
   "panel-placement": "end",
   "type": "overlay",
   "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -59,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -68,22 +74,20 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="Jason Collins blog - Aren’t we smart, fellow behavioural scientists">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/kochkodin.jpg">
-<meta property="og:site-name" content="Jason Collins blog">
+<meta property="og:description" content="Behavioural and data science. Economics. Evolutionary biology.">
+<meta property="og:site_name" content="Jason Collins blog">
 <meta name="twitter:title" content="Jason Collins blog - Aren’t we smart, fellow behavioural scientists">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://www.jasoncollins.blog/posts/img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/kochkodin.jpg">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="Behavioural and data science. Economics. Evolutionary biology.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Jason Collins blog</span>
     </a>
@@ -95,35 +99,35 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../research.html" rel="" target="">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../subscribe.html" rel="" target="">
- <span class="menu-text">Subscribe</span></a>
+    <a class="nav-link" href="../subscribe.html"> 
+<span class="menu-text">Subscribe</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/jasonacollins" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/jasonacollins"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../index.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../index.xml"> <i class="bi bi-rss" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -162,30 +166,20 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <p>Below is the text of my presentation at <a href="https://www.nudgestock.co.uk/">Nudgsestock on 12 June 2020</a>.</p>
 <section id="intro" class="level2">
 <h2 class="anchored" data-anchor-id="intro">Intro</h2>
 <p>Over the past decade or two, behavioural scientists have had a great ride. There have been bestselling books and Nobel Memorial Prizes. Every second government department and corporate has set up a team.</p>
 <p>But recently, the wind seems to have changed. We’re told that <a href="https://www.bloomberg.com/news/articles/2020-01-13/behavioral-economics-latest-bias-seeing-bias-wherever-it-looks">behavioural economics is itself biased</a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/kochkodin.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/kochkodin.jpg" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/kochkodin.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/kochkodin.jpg" class="img-fluid"></a></p>
 <p>“<a href="https://unherd.com/2020/03/dont-trust-the-psychologists-on-coronavirus/">Don’t trust the psychologists on coronavirus</a> - Many of the responses to Covid-19 come from a deeply-flawed discipline”.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/ritchie.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/ritchie.jpg" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/ritchie.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/ritchie.jpg" class="img-fluid"></a></p>
 <p><a href="https://twitter.com/nntaleb/status/1233755916119543809">“Nudgeboy”</a> has become a pejorative.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/taleb.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/taleb.jpg" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/taleb.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/taleb.jpg" class="img-fluid"></a></p>
 <p>I believe this challenge is deserved.</p>
 <p>For too long we have been opining about people’s irrationality - that is, the irrationality of others - and that if only we designed the world more intelligently, people would make better decisions.</p>
 <p>We often make these judgements based on narrow lab experiments that we generalise to the outside world. But as we well know, sometimes those experiments don’t replicate in that narrow lab environment. And even of those that replicate in the lab, many become an ineffective, or even dangerous tool when we try to apply them in the complex outside world.</p>
@@ -212,11 +206,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Let’s delve into how Gilovich, Vallone and Tversky showed the absence of a hot hand.</p>
 <p>Imagine a person who took ten shots in a basketball game. A ball is a hit, an X is a miss.</p>
 <p>What would count as evidence of a hot hand? What we can do is look at shots following a previous hit. For instance, in this sequence of shots there are 6 occasions where we have a shot following a previous hit. Five of those shots, such as the seventh here, are followed by another hit.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/shots.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/shots.jpg" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/shots.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/shots.jpg" class="img-fluid"></a></p>
 <p>We can then compare their normal shooting percentage with the proportion of shots they hit if the shot immediately before was a hit. If their hit rate after a hit is higher than their normal shot probability, then we might say they get a hot hand.</p>
 <p>This is effectively how Gilovich, Vallone and Tversky examined the hot hand in coming to their conclusion that it doesn’t exist. They also looked at whether there was a hit or miss after longer streaks of hits or misses, but this captures the basic methodology. It seems sensible.</p>
 <p>But let me take a detour that involves flipping a coin.</p>
@@ -304,11 +294,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The idea behind probability neglect is that when we consider a small risk, we tend to either ignore the risk or give it too much weight. We give disproportionate weight to the difference between zero and one percent relative to the difference between one and 99 percent probability.</p>
 <p>There’s good evidence from the lab that we suffer from probability neglect - in the same way there is solid lab evidence about our misperceptions of randomness. But once again, the danger emerges when we take this finding and use it to assess the decisions of people in the outside world.</p>
 <p>Here’s a recent example by Nudge author Cass Sunstein that hasn’t aged particularly well: <a href="https://www.bloomberg.com/opinion/articles/2020-02-28/coronavirus-panic-caused-by-probability-neglect">The Cognitive Bias That Makes Us Panic About Coronavirus</a>, with the subtitle: Feeling anxious? Blame “probability neglect.”</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_probability_neglect.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_probability_neglect.jpg" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_probability_neglect.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_probability_neglect.jpg" class="img-fluid"></a></p>
 <p>The opening paragraph of the article reads:</p>
 <blockquote class="blockquote">
 <p>At this stage, no one can specify the magnitude of the threat from the coronavirus. But one thing is clear: A lot of people are more scared than they have any reason to be. They have an exaggerated sense of their own personal risk.</p>
@@ -318,17 +304,9 @@ ul.task-list li input[type="checkbox"] {
 <p>In fact, even when they are likely wrong - perhaps those panicking are like the broken clock that is right twice a day - we should ask whether there is wisdom in their actions. What if there is an asymmetry in the potential costs and benefits of overreacting versus under-reacting? Is it better to be typically wrong on probability - always assume there is a tiger in the grass - than to be largely right but occasionally experience ruin?</p>
 <p>Sunstein, of course, was not exactly Robinson Crusoe in claiming that we were overreacting in late February. In fact, even now it’s not entirely clear what the appropriate response was for many people, regions or countries.</p>
 <p>But by late March, without skipping a beat, he was noting that <a href="https://www.bloomberg.com/opinion/articles/2020-03-26/coronavirus-lockdowns-look-smart-under-cost-benefit-scrutiny">“This Time the Numbers Show We Can’t Be Too Careful”</a>. No mention of the allegation of a misperception of risk less than four weeks earlier.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_cba.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_cba.jpg" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_cba.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_cba.jpg" class="img-fluid"></a></p>
 <p>Of course, one of the weaknesses of applied behavioural science is that you can tell a story no matter what the observed behaviour. Six weeks later Sunstein was writing “How to Make Coronavirus Restrictions Easier to Swallow”, giving guidance on how to stop an under-reaction.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_nudge.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_nudge.jpg" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_nudge.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/sunstein_nudge.jpg" class="img-fluid"></a></p>
 <p>As Sunstein wrote:</p>
 <blockquote class="blockquote">
 <p>To address the coronavirus pandemic, it’s essential to influence human behavior; to promote social distancing, to get people to wear masks, to encourage people to stay home. Many nations have imposed mandates as well. But to enforce the mandates and to promote safer choices as the mandates wind down, people have to be nudged.</p>
@@ -356,11 +334,7 @@ ul.task-list li input[type="checkbox"] {
 <p>This possible misunderstanding of people’s objectives can also arise simply as a practical issue. Let me give an example which, although not evolutionary, I think about a lot.</p>
 <p>Power companies often want to limit their customers’ electricity demand for environmental reasons, or to reduce peak demand.</p>
 <p>One of the favourite tricks to do this is to provide a comparison of that person or household’s power consumption with their neighbours. People have a desire to conform, and look to cues to inform their decisions. If shown that their power usage is above their neighbours, they tend to reduce their use.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/power.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/power.jpg" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/power.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="img/2020-06-12-arent-we-smart-fellow-behavioural-scientists/power.jpg" class="img-fluid"></a></p>
 <p>Source: <a href="https://doi.org/10.1257/app.20170328">Opower, Allcott and Kessler (2019) AEJ: Applied Economics</a></p>
 <p>What is this person or household’s objective? If it were purely financial, success! They have saved on their power bill. Their reduction in use also happens to align with the environmental or peak demand reduction objectives of the nudger.</p>
 <p>Yet is their objective that simple? What if it is, say, happiness or satisfaction in life? What of factors such as their comfort?</p>
@@ -454,10 +428,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.jasoncollins\.blog");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -467,8 +458,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -481,6 +481,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -524,6 +643,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -549,6 +669,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -606,24 +752,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/www\.jasoncollins\.blog");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 <script src="https://giscus.app/client.js" data-repo="jasonacollins/jasoncollinsblog" data-repo-id="R_kgDOIbjYgQ" data-category="Announcements" data-category-id="DIC_kwDOIbjYgc4CSiuB" data-mapping="pathname" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
 </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="light">
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -633,7 +767,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">Copyright: CC-BY</a>
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">
+<p>Copyright: CC-BY</p>
+</a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="https://twitter.com/jasonacollins">
@@ -648,7 +784,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":true,"descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","selector":".lightbox"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
+
 
 
 

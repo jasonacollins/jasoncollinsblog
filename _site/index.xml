@@ -6,39 +6,17 @@
       version="2.0">
 <channel>
 <title>Jason Collins blog</title>
-<link>https://www.jasoncollins.blog/index.html</link>
+<link>https://www.jasoncollins.blog/</link>
 <atom:link href="https://www.jasoncollins.blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Behavioural and data science. Economics. Evolutionary biology.</description>
-<generator>quarto-1.3.433</generator>
-<lastBuildDate>Sat, 27 Jan 2024 05:00:00 GMT</lastBuildDate>
-<item>
-  <title>A bunch of links</title>
-  <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/a-bunch-of-links-3.html</link>
-  <description><![CDATA[ 
-
-
-
-<p>Social science a mess, journals no good, the meaningless of the label “misinformation”, Flipper Zero, and cleaning up the list of named “biases”:</p>
-<ol type="1">
-<li><p>.</p></li>
-<li><p>.</p></li>
-<li><p>.</p></li>
-<li><p>.</p></li>
-<li><p>.</p></li>
-</ol>
-
-
-
- ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/a-bunch-of-links-3.html</guid>
-  <pubDate>Sat, 27 Jan 2024 05:00:00 GMT</pubDate>
-</item>
+<generator>quarto-1.4.550</generator>
+<lastBuildDate>Fri, 26 Jan 2024 07:00:00 GMT</lastBuildDate>
 <item>
   <title>The preregistration halo</title>
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/the-preregistration-halo.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -48,7 +26,7 @@
 <p>If preregistration is made public, we can see all research on a topic. We won’t be limited to just the studies authors get published. Preregistration constrains the analysis by making it harder for authors to p-hack or hypothesise their way to a significant result. Or, at least, it makes it transparent that they have done so.</p>
 <p>But, preregistration is no guarantee of good science. It doesn’t solve many of the real problems in science (<a href="https://worksinprogress.co/issue/biases-the-wrong-model/">for example</a>). Preregistration can’t rescue weak theory. Many preregistrations remain private. Other preregistrations are left to wither on the vine. Here’s a plot of the status of preregistrations submitted to the <a href="https://www.socialscienceregistry.org">American Economic Association’s RCT registry</a>. The data goes up to 1 January 2024.</p>
 <div class="cell">
-<details>
+<details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
@@ -297,7 +275,7 @@ background-color: null;
 font-style: inherit;">theme_minimal</span>()</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
+<div>
 <figure class="figure">
 <p><a href="the-preregistration-halo_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/the-preregistration-halo_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
@@ -305,7 +283,7 @@ font-style: inherit;">theme_minimal</span>()</span></code></pre></div>
 </div>
 </div>
 <div class="cell">
-<details>
+<details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
@@ -391,7 +369,7 @@ background-color: null;
 font-style: inherit;">theme_minimal</span>()</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
+<div>
 <figure class="figure">
 <p><a href="the-preregistration-halo_files/figure-html/unnamed-chunk-2-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/the-preregistration-halo_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
@@ -423,7 +401,7 @@ font-style: inherit;">theme_minimal</span>()</span></code></pre></div>
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
 <div id="ref-abrams2020" class="csl-entry">
 Abrams, E., Libgober, J., and List, J. A. (2020). Research registries: Facts, myths, and possible improvements. <em>NBER Working Paper</em>. <a href="https://doi.org/10.3386/w27250">https://doi.org/10.3386/w27250</a>
 </div>
@@ -442,6 +420,7 @@ Protzko, J., Krosnick, J., Nelson, L., Nosek, B. A., Axt, J., Berent, M., Buttri
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/a-bunch-of-links-2.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -473,6 +452,7 @@ Protzko, J., Krosnick, J., Nelson, L., Nosek, B. A., Axt, J., Berent, M., Buttri
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/books-i-read-in-2023.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -542,6 +522,7 @@ Protzko, J., Krosnick, J., Nelson, L., Nosek, B. A., Axt, J., Berent, M., Buttri
 
 
 
+
 <p>In late April 2020, a group of behavioural scientists <span class="citation" data-cites="vanbavel2020">(Van Bavel et al., 2020)</span> published a paper in Nature Human Behaviour, “Using social and behavioural science to support COVID-19 pandemic response”. They provided a range of suggestions for policy makers.</p>
 <p>The paper sparked some debates about the readiness of behavioural science to inform the pandemic response. One of these critiques was in an article by <span class="citation" data-cites="ijzerman2020">IJzerman et al. (2020)</span>, which advised caution when applying behavioural science to policy.</p>
 <p>A new article in Nature <span class="citation" data-cites="ruggeri2023">(Ruggeri et al., 2023)</span> has reviewed the policy recommendations in that April 2020 paper. Part of the abstract reads:</p>
@@ -551,7 +532,7 @@ Protzko, J., Krosnick, J., Nelson, L., Nosek, B. A., Axt, J., Berent, M., Buttri
 <p>It’s a tick for that 2020 paper.</p>
 <p>But, I wondered how long it would take for someone to extend this finding about a specific set of claims in ONE paper to a claim that “behavioural science was right!”.</p>
 <p>It didn’t take long. Here’s one statement from the lead author of the Nature paper:</p>
-<p></p><div id="tweet-20914"></div><script>tweet={"url":"https:\/\/twitter.com\/kairuggeri\/status\/1734968618730013093","author_name":"Kai Ruggeri","author_url":"https:\/\/twitter.com\/kairuggeri","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBehavioral science policy recommendations early in the pandemic were LARGELY CORRECT.  Our global collaboration in \u003Ca href=\"https:\/\/twitter.com\/Nature?ref_src=twsrc%5Etfw\"\u003E@Nature\u003C\/a\u003E covers 747 studies with an average sample size over 16,000! Evidence supports 16 of 19 claims, with lessons for science &amp; policy. \u003Ca href=\"https:\/\/t.co\/OzS7njsrzv\"\u003Ehttps:\/\/t.co\/OzS7njsrzv\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/3xoGQHBJFB\"\u003Epic.twitter.com\/3xoGQHBJFB\u003C\/a\u003E\u003C\/p\u003E&mdash; Kai Ruggeri (@kairuggeri) \u003Ca href=\"https:\/\/twitter.com\/kairuggeri\/status\/1734968618730013093?ref_src=twsrc%5Etfw\"\u003EDecember 13, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-20914").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-13913"></div><script>tweet={"url":"https:\/\/twitter.com\/kairuggeri\/status\/1734968618730013093","author_name":"Kai Ruggeri","author_url":"https:\/\/twitter.com\/kairuggeri","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBehavioral science policy recommendations early in the pandemic were LARGELY CORRECT.  Our global collaboration in \u003Ca href=\"https:\/\/twitter.com\/Nature?ref_src=twsrc%5Etfw\"\u003E@Nature\u003C\/a\u003E covers 747 studies with an average sample size over 16,000! Evidence supports 16 of 19 claims, with lessons for science &amp; policy. \u003Ca href=\"https:\/\/t.co\/OzS7njsrzv\"\u003Ehttps:\/\/t.co\/OzS7njsrzv\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/3xoGQHBJFB\"\u003Epic.twitter.com\/3xoGQHBJFB\u003C\/a\u003E\u003C\/p\u003E&mdash; Kai Ruggeri (@kairuggeri) \u003Ca href=\"https:\/\/twitter.com\/kairuggeri\/status\/1734968618730013093?ref_src=twsrc%5Etfw\"\u003EDecember 13, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-13913").innerHTML = tweet["html"];</script><p></p>
 <p>A quick peruse of twitter can find others of a similar vein.</p>
 <p>It takes a relatively short memory to forget that, whatever the merits of this single paper, the behavioural science community was the source of plenty of rubbish.</p>
 <p>Here’s <a href="https://www.bloomberg.com/view/articles/2020-02-28/coronavirus-panic-caused-by-probability-neglect">one classic</a> from a co-author of both the 2020 paper and the Nature review, Cass Sunstein, published on 29 February 2020:</p>
@@ -568,7 +549,7 @@ Protzko, J., Krosnick, J., Nelson, L., Nosek, B. A., Axt, J., Berent, M., Buttri
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
 <div id="ref-ijzerman2020" class="csl-entry">
 IJzerman, H., Lewis, N. A., Przybylski, A. K., Weinstein, N., DeBruine, L., Ritchie, S. J., Vazire, S., Forscher, P. S., Morey, R. D., Ivory, J. D., and Anvari, F. (2020). Use caution when applying behavioural science to policy. <em>Nature Human Behaviour</em>, <em>4</em>(11), 1092–1094. <a href="https://doi.org/10.1038/s41562-020-00990-w">https://doi.org/10.1038/s41562-020-00990-w</a>
 </div>
@@ -587,6 +568,7 @@ Van Bavel, J. J., Baicker, K., Boggio, P. S., Capraro, V., Cichocka, A., Cikara,
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/do-students-learn-less-from-experts.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -627,7 +609,7 @@ Van Bavel, J. J., Baicker, K., Boggio, P. S., Capraro, V., Cichocka, A., Cikara,
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
 <div id="ref-carrell2010" class="csl-entry">
 Carrell, Scott&nbsp;E., and West, James&nbsp;E. (2010). Does professor quality matter? Evidence from random assignment of students to professors. <em>Journal of Political Economy</em>, <em>118</em>(3), 409–432. <a href="https://doi.org/10.1086/653808">https://doi.org/10.1086/653808</a>
 </div>
@@ -646,6 +628,7 @@ Figlio, D. N., Schapiro, M. O., and Soter, K. B. (2015). Are Tenure Track Profes
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/john-lists-the-voltage-effect-a-review.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -688,11 +671,7 @@ Figlio, D. N., Schapiro, M. O., and Soter, K. B. (2015). Are Tenure Track Profes
 <p>I couldn’t locate in the book the reference supporting this claim. And it doesn’t align with any of the studies I might look to on this point. On variation, Joe Henrich and friends <span class="citation" data-cites="henrich2001">(2001)</span> showed substantial variation across societies in trust and reciprocity in economic games. <span class="citation" data-cites="harrison2009">Harrison and Rutström (2009)</span> showed evidence for a mix of “economic” and “behavioural” decision makers in a group of experimental subjects. The whole concern about experiments on WEIRD people is due to the potential for variation across cultures.</p>
 <p>To be honest, I believe that the worry about the generalisability of experiments using WEIRD subjects is overblown (particularly compared to the other dimensions we should be worrying about). The Many Labs 2 project <span class="citation" data-cites="klein2018">(Klein et al., 2018)</span> found little heterogeneity across cultures as to which effects were replicable. But I would expect an equivalent experiment using incentives would similarly replicate across cultures.</p>
 <p>On the power of psychological interventions versus incentives, ideally, we’d want a suite of studies comparing the two directly. List has a couple of studies where the psychological intervention outperforms the incentive. But it’s easy enough to find studies going the other way. Here’s one from <span class="citation" data-cites="dellavigna2018">DellaVigna and Pope (2018)</span>. In their particular (artificial) context, incentives were the more powerful motivator and effort scaled with the incentives. Amusingly, the “experts” predicting the results also underestimated the power of the incentives.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/dellavigna-and-pope-2018-figure-5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/dellavigna-and-pope-2018-figure-5.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/dellavigna-and-pope-2018-figure-5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/dellavigna-and-pope-2018-figure-5.png" class="img-fluid"></a></p>
 <p>Putting this together, I’m sure there are cases where a behavioural strategy will outperform a simple monetary incentive. But I don’t buy the general claim about variability or scalability.</p>
 <p>List’s second secret seems a no-brainer, to an economist at least. When calculating costs and benefits, look to the margins. Ask what benefit the last dollar spent gets you. Don’t simply compare total costs and benefits as, even if the total benefits are greater, you could be spending less for greater net benefit.</p>
 <p>The third secret is optimal quitting. Don’t sink more time into the wrong idea. We get stories about PayPal and Twitter emerging from other failing strategies, and List’s own decision to give up on a professional golf career. We get another dose of biases here, including sunk cost bias and ambiguity aversion, but it’s sound advice all the same. The challenge is, as List highlights, determining the optimal point to quit. It’s hard.</p>
@@ -732,7 +711,7 @@ Figlio, D. N., Schapiro, M. O., and Soter, K. B. (2015). Are Tenure Track Profes
 </section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
 <div id="ref-dellavigna2018" class="csl-entry">
 DellaVigna, S., and Pope, D. (2018). What motivates effort? Evidence and expert forecasts. <em>The Review of Economic Studies</em>, <em>85</em>(2), 1029–1069. <a href="https://doi.org/10.1093/restud/rdx033">https://doi.org/10.1093/restud/rdx033</a>
 </div>
@@ -765,6 +744,7 @@ Levitt, S. D., and Syverson, C. (2008). Market distortions when agents are bette
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/using-large-language-models-as-academic.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -965,7 +945,7 @@ font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"Weight"</span>)</span></code></pre></div>
 <div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
+<div>
 <figure class="figure">
 <p><a href="using-large-language-models-as-academic_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/using-large-language-models-as-academic_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
@@ -1044,7 +1024,7 @@ font-style: inherit;">"Weight"</span>)</span></code></pre></div>
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
 <div id="ref-prelec1998" class="csl-entry">
 Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <em>66</em>(3), 497–527. <a href="https://doi.org/10.2307/2998573">https://doi.org/10.2307/2998573</a>
 </div>
@@ -1057,6 +1037,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/best-books-i-read-in-2022.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1161,6 +1142,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 
 
 
+
 <p>In <a href="https://doi.org/10.1126/science.abm3427">a paper in Science</a>, Jonathan Hall and Joshua Madsen proposed that dynamic signs that reported Texas road fatalities - “1669 deaths this year on Texas roads” - caused more accidents and fatalities.</p>
 <p>Recently, a friend mentioned the paper to me. I replied that I had seen the paper but didn’t believe the result. I wasn’t going to ignore the finding, but I would update my beliefs in only the smallest of ways.</p>
 <p>He asked how I’d come to that conclusion. In answering I stated that I had spent half an hour with the paper and supplementary materials over breakfast, clicking through to some of the paper’s references. He then questioned whether I had been too hasty.</p>
@@ -1178,20 +1160,12 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p>Although behavioral interventions are designed to seize attention, little consideration has been given to the costs of doing so. We estimated these costs in the context of a safety campaign that, to encourage safe driving, displays traffic fatality counts on highway dynamic message signs for 1 week each month. We found that crashes increase statewide during campaign weeks, which is inconsistent with any benefits. Furthermore, these effects do not persist beyond campaign weeks. Our results show that behavioral interventions, particularly negatively framed ones, can be too salient, crowding out more important considerations and causing interventions to backfire — with costly consequences.</p>
 </blockquote>
 <p>The paper contains several charts capturing the effect over the year, across years and by distance. The following shows the accident rate over the following 10 kilometres.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/hall-and-madsen-2022-figure-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/hall-and-madsen-2022-figure-1.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/hall-and-madsen-2022-figure-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/hall-and-madsen-2022-figure-1.png" class="img-fluid"></a></p>
 <p>The Research Summary summarised the results as follows, including the following infographic:</p>
 <blockquote class="blockquote">
 <p>We used instrumental variables to recover the effect of displaying a fatality message and document a significant 4.5% increase in the number of crashes over 10 km. The effect of displaying fatality messages is comparable to raising the speed limit by 3 to 5 miles per hour or reducing the number of highway troopers by 6 to 14%. … The social costs of these fatality messages are large: Back-of-the-envelope calculations suggest that this campaign causes an additional 2600 crashes and 16 fatalities per year in Texas alone, with a social cost of $377 million per year.</p>
 </blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/hall-and-madsen-2022-research-summary.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/img/hall-and-madsen-2022-research-summary.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/hall-and-madsen-2022-research-summary.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/img/hall-and-madsen-2022-research-summary.png" class="img-fluid"></a></p>
 </section>
 <section id="the-meta-view" class="level2">
 <h2 class="anchored" data-anchor-id="the-meta-view">The meta-view</h2>
@@ -1257,11 +1231,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p>But when we go from general claims about distraction and arousal to the nature of the effect of the fatality messages themselves - points 3 and 5 - the evidence becomes weaker. For example, there is only one paper in the references of that section quoted above that directly related to driving. That <a href="https://aaafoundation.org/wp-content/uploads/2018/01/MeasuringCognitiveDistractionsReport.pdf">paper by Strayer and friends</a> involved concurrent distractions (e.g.&nbsp;radio on, talking on phone). This is in contrast to the effect of the fatality messages, which is not argued to be due to immediate distraction, but rather via continued distraction in the minds of drivers further down the road.</p>
 <p>One kilometre is 36 seconds at 100km per hour or a minute at 60km per hour. Five kilometres takes between 3 and 5 minutes, and possibly longer if traffic is slow. That is a markedly different phenomenon from a concurrent distraction. If I had to estimate how long this message would stick in most people’s minds, I’d say a few seconds, if it registers at all.</p>
 <p>Later in the paper there are other references on distractions and driving. (The following summary is based on a quick glance, probably less than one minute with each paper. I might have missed something. If I revisit this paper, this is the first place I would dig deeper.) Four references (<a href="https://doi.org/10.1016/j.tra.2019.01.012">1</a>, <a href="https://doi.org/10.1016/j.trf.2018.08.013">2</a>, <a href="https://doi.org/10.1016/j.aap.2020.105479">3</a>, <a href="https://doi.org/10.1016/j.aap.2020.105710">4</a>) relating to signs and billboards were about visual distraction, not ongoing cognitive load. Another referenced paper examines how long it takes to resume a task. The following figure gives a sense of the scale of the delay; the time on the vertical axis is in milliseconds.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/monk-et-al-2004-figure-2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://www.jasoncollins.blog/posts/img/monk-et-al-2004-figure-2.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/monk-et-al-2004-figure-2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://www.jasoncollins.blog/posts/img/monk-et-al-2004-figure-2.png" class="img-fluid"></a></p>
 <p>That leaves one paper to support the argument of an effect of any substantial duration. A <a href="https://doi.org/10.1016/S1369-8478(00)00018-8">study in Finland</a> found that a sign warning of slippery road conditions reduced the mean speed by 1–2 km/h over the following 360-1100m. A sign recommending an 80m distance between cars reduced the number of cars with a short “headway” between them. This Finnish study doesn’t have a great experimental design for ruling out confounds, as it’s a simple before and after study at three sites. But I’m also not convinced that we can extend a finding about behaviour in response to a warning of a slippery road to a claim about the duration of distracting cognitive load coming from a fatality count sign. The warning of a slippery road has a more obvious response.</p>
 <p>Ultimately, there is little in the referenced material that supports the argument that these fatality messages are particularly distracting with an effect that lasts some minutes, except for the effect reported in this paper itself.</p>
 <p>The authors point to a few specifics of the empirical evidence that might support their argument. One is that more accidents occur later in the year when the number of deaths for the year to date is larger. A bigger number leads to a bigger effect. But I’m not convinced that people have sufficient sense of scale for the effect to work like this. Are people so scale sensitive that a message about 1000 people in the second quarter of the year has no effect but 2000 in in the third quarter does? If I were to dig through the behavioural literature on how people respond to scale, most would suggest that we are often scale insensitive.</p>
@@ -1306,6 +1276,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 
 
 
+
 <p>In <a href="../please-not-another-bias-correcting-the-record/">my last post</a> I discussed how I would like to redo my article “<a href="../please-not-another-bias-an-evolutionary-take-on-behavioural-economics/">Please Not Another Bias! An Evolutionary Take on Behavioural Economics</a>”. Apart from the removing the weak experimental evidence that I referenced, I wanted to make a few points more explicitly, such as the need for theory.</p>
 <p>Well, that <a href="https://www.worksinprogress.co/issue/biases-the-wrong-model/">re-write is here</a> in the latest edition of <a href="https://www.worksinprogress.co">Works in Progress</a>.</p>
 <p>Not much has survived from the original except the opening framing and the continued belief that evolutionary theory will play a role in developing that theory. Otherwise, it’s largely new.</p>
@@ -1338,6 +1309,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 
 
 
+
 <p>In 2015 I gave a presentation titled “Please Not Another Bias! An Evolutionary Take on Behavioural Economics” at the Marketing and Science Ideas Exchange (MSIX) conference. I posted my presentation <a href="../please-not-another-bias-an-evolutionary-take-on-behavioural-economics/">on this blog</a>, where it had around 100,000 readers in the first month (a lot for this blog). <a href="https://evonomics.com/please-not-another-bias-the-problem-with-behavioral-economics/">A copy of the post</a> was the most popular post on Evonomics in its first year.</p>
 <p>I still see the post shared, which brings a slight cringe, as its not the article I would write today. I stand by the general argument, but there are several points that I would like to change.</p>
 <p>First, I wrote it for a marketing audience. It would be nice if it were more general.</p>
@@ -1350,8 +1322,8 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p>So, let’s do a quick quiz. Tell me two things about the driver of this Ferrari (I have stolen this example from University of New South Wales&nbsp;evolutionary biologist <a href="http://www.robbrooks.net/">Rob Brooks</a>).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figcaption class="figure-caption">Ferrari</figcaption>
-<p><a href="http://www.smh.com.au/nsw/ferrari-driver-charged-over-sydney-crash-20120119-1q93c.html"><img src="https://www.jasoncollins.blog/posts/img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/ferrari.jpg" class="img-fluid figure-img"></a></p>
+<figcaption>Ferrari</figcaption>
+<p><img src="https://www.jasoncollins.blog/posts/img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/ferrari.jpg" class="img-fluid figure-img"></p>
 </figure>
 </div>
 <p>First, the driver was male.</p>
@@ -1376,11 +1348,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p>One of my favourite examples of this comes from <a href="https://doi.org/10.1177/1948550609352807">research by Richard Ronay and Bill von Hippel</a>. They got some young male skateboarders to perform tricks, including a difficult trick that they could complete only half the time. Halfway through filming, a woman rated as highly attractive (corroborated by “many informal comments and phone number requests from the skateboarders”) walked onto the scene. Once she appeared, they took more risks and were less likely to bail a trick half-way through, instead riding all the way through to the crash landing (<a href="http://www.abc.net.au/catalyst/stories/2967720.htm">a story on ABC’s Catalyst demonstrates this effect</a>).</p>
 </blockquote>
 <p>In this experiment there was a small sample of 96 male skateboarders, giving groups of 43 and 53 skateboarders performing ten tricks for the male and female experimenter respectively. There were also have large effect sizes. I wouldn’t claim these effects sizes are impossible using the “<a href="../the-effect-is-too-large-heuristic/">effect is too large heuristic</a>”, but they certainly don’t make me feel comfortable. The figure below gives a sense of the change in behaviour.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/ronay-and-von-hippel-2010-figure-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/ronay-and-von-hippel-2010-figure-1.jpg" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/ronay-and-von-hippel-2010-figure-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/img/ronay-and-von-hippel-2010-figure-1.jpg" class="img-fluid"></a></p>
 <p>To understand one point that makes this study particularly interesting, let me turn to Ulrich Schimmack’s work to develop a <a href="https://replicationindex.com">replicability index</a>. By comparing the observed power of a set of studies and the rate at which reported results are significant, Schimmack estimates the rate at which studies will replicate in the form of the <a href="https://replicationindex.com/2016/01/31/a-revised-introduction-to-the-r-index/">R-Index</a>. Schimmack uses the R-Index to compare the replicability of journals, authors and departments.</p>
 <p>The ranking of authors is of relevance here. Bill von Hippel, the second author in this skateboarding paper, was one of those ranked. I’ll use <a href="https://replicationindex.com/2021/05/07/bill-von-hippel-and-ulrich-schimmack-discuss-bills-replicability-index/">von Hippel’s words from a conversation with Schimmack</a>:</p>
 <blockquote class="blockquote">
@@ -1407,17 +1375,9 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p>The difference reflects the different traits each are communicating – men are communicating resources and the traits required to accumulate them, women their conscientiousness.</p>
 </blockquote>
 <p><a href="https://doi.org/10.1037/xge0000116">David Shanks and friends</a> ran eight replication experiments, the first five of which were all twists on the experiments reported by Griskevicius and friends that formed the basis of the above excerpt. The result? As you can see in this figure, there’s nothing there.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/Shanks_et_al_2015_Figure_3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/img/Shanks_et_al_2015_Figure_3.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/Shanks_et_al_2015_Figure_3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://www.jasoncollins.blog/posts/img/Shanks_et_al_2015_Figure_3.png" class="img-fluid"></a></p>
 <p>Even more striking is Shanks and friends’ funnel plot of results published on this topic. The black dots represent published results. The white triangles represent the results of the replication experiments.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/Shanks_et_al_2015_Figure_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://www.jasoncollins.blog/posts/img/Shanks_et_al_2015_Figure_2.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/Shanks_et_al_2015_Figure_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://www.jasoncollins.blog/posts/img/Shanks_et_al_2015_Figure_2.png" class="img-fluid"></a></p>
 <p>It looks like we have a hideous case of publication bias.</p>
 <p>That said, a <a href="https://doi.org/10.1037/xge0000527">subset of the authors whose studies were replicated responded</a>, claiming that that an alternative approach to the meta-analysis suggested there was no evidence of p-hacking, and that the replications had numerous issues. <a href="https://doi.org/10.1037/xge0000597">Shanks and Vadillo responded in turn</a>. I won’t tackle the back-and-forth in detail here, but will say that I believe the conclusion that romantic priming is on shaky grounds holds. Much of the critique of the replications is the often-seen handwaving that the replication methods were not close enough to the originals. But that’s a sign of a flaky phenomena at best, and more likely a sign that the effect doesn’t exist. The critique of the meta-analysis only serves to highlight the gross lack of statistical power across the literature.</p>
 <p>There’s also another body of evidence relevant here. Following the replications and meta-analysis by Shanks and friends, Ulrich Schimmack <a href="https://replicationindex.com/2016/05/21/replicability-report-no-2-do-mating-primes-have-a-replicable-effects-on-behavior/">put a larger set of romantic priming papers through the R-index wringer</a>. Perhaps most damming, a histogram of results showed evidence of severe selection bias and, Schimmack argued, evidence of questionable research practices. The papers also scored low on his R-Index, suggesting a low probability of replication across the whole literature.</p>
@@ -1431,12 +1391,18 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <blockquote class="blockquote">
 <p>[I]n <a href="https://doi.org/10.1348/000712609X417319">one study</a> men and women were shown pictures of members of the opposite sex in either a red Ford Fiesta or a silver Bentley. Unfortunately the photos in the paper are provided in black and white – as shown in this slide – but these indicate the types of images the experimental subjects were shown.</p>
 <blockquote class="blockquote">
-<a href="img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/dunn-et-al.jpg" class="lightbox" title="Dunn et al" data-gallery="quarto-lightbox-gallery-4"><img src="https://www.jasoncollins.blog/posts/img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/dunn-et-al.jpg" class="img-fluid" alt="Dunn et al"></a>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption>Dunn et al</figcaption>
+<p><a href="img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/dunn-et-al.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" data-glightbox="description: .lightbox-desc-5" title="Dunn et al"><img src="https://www.jasoncollins.blog/posts/img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/dunn-et-al.jpg" class="img-fluid figure-img" alt="Dunn et al"></a></p>
+</figure>
+</div>
 </blockquote>
 <p>The result – the expensive car made the male more attractive to the females, whereas there was no effect on male perception of the female drivers. The increase in male’s attractiveness was equivalent to around 1 point on a scale of 1 to 10.</p>
 </blockquote>
 <p>I’d give this result a decent chance of replicating, maybe 60%. The proposed mechanism is fairly direct, albeit involving a photo in a lab. There are other similar results. But, I’m not comfortable giving it much weight absent a pre-registered replication.</p>
 <p>Summarising the above, I didn’t reference a single experiment in that speech that I would include today. Not a great result.</p>
+
 
 
 
@@ -1449,6 +1415,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/revised-course-notes-on-consumer-financial-decision-making.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1467,6 +1434,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/megastudy-scepticism.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1499,8 +1467,8 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p>The headline results of all the interventions tested in the megastudy are in Figure 1 below. The intervention with the largest effect size involved incentives for returning to the gym after a missed workout.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<figcaption class="figure-caption">Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions</figcaption>
-<p><a href="img/milkman_et_al_2021_figure_1.jpeg" class="lightbox" title="Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/milkman_et_al_2021_figure_1.jpeg" class="img-fluid figure-img"></a></p>
+<figcaption>Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions</figcaption>
+<p><a href="img/milkman_et_al_2021_figure_1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions"><img src="https://www.jasoncollins.blog/posts/img/milkman_et_al_2021_figure_1.jpeg" class="img-fluid figure-img" alt="Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions"></a></p>
 </figure>
 </div>
 <p>Twenty-four of the 53 interventions were found to have a statistically significant effect over the control, increasing visits by between 9% and 27%. That equates to 0.14 to 0.40 extra weekly gym visits over the control average of 1.48 visits per week.</p>
@@ -1800,6 +1768,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 </ul>
 
 
+
 </section>
 
  ]]></description>
@@ -1812,6 +1781,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/explaining-base-rate-neglect.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1842,11 +1812,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p>This use of natural frequencies was first proposed by <a href="https://doi.org/10.1016/0010-0277(95)00664-8">Cosmides and Tooby (1996)</a> (<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.131.8290&amp;rep=rep1&amp;type=pdf">pdf</a>). Natural frequencies are derived from observing cases that have been representatively sampled from a population.</p>
 <p>In a <a href="https://journals.lww.com/academicmedicine/Abstract/1998/05000/Using_natural_frequencies_to_improve_diagnostic.24.aspx">paper by Gigerenzer and Ulrich Hoffrage</a>, they report that this change in representation increased the proportion of correct answers among physicians from 10% to 46%.</p>
 <p>There is some evidence (<a href="https://doi.org/10.54870/1551-3440.1329">e.g.</a>) that you can get further gains through a frequency tree representation. Here’s one such tree from <a href="https://doi.org/10.1136/bmj.d6386">Gigerenzer (2011)</a>, which also has the benefit of further highlighting the benefits of the natural frequency approach.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/gigerenzer_2011.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/gigerenzer_2011.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/gigerenzer_2011.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/gigerenzer_2011.png" class="img-fluid"></a></p>
 <p>The numbers at the bottom of the conditional probability tree do not contain the base rate information. You can’t simply compare across them in calculating conditional probabilities. You also need to refer back to the middle layer. Conversely, the natural frequency tree contains all you need in the bottom row.</p>
 <p>Note that we could convert the numbers in the bottom of the conditional probability tree into frequencies: 900 in 1000, 10 in 1000, 90 in 1000 and 910 in 1000. Gigerenzer calls these simple frequencies.</p>
 <p>There are many scenarios where simple frequencies can make a problem more tractable, but they do not solve the computational complexity here. Simple frequencies are just a restatement of the probabilities. In contrast, natural frequencies are joint frequencies, such as the number of people who test positive and who have COVID-19.</p>
@@ -1889,12 +1855,13 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 
 
 
+
 <p>A past regular feature of this blog was “A week of links’. Primarily, it was a useful way to aggregate interesting articles - I often search my blog posts for material (they are a collection of text files on my computer).</p>
 <p>But, the regularity of the feature drove my behaviour: I started looking for links for the post. So, I killed it.</p>
 <p>Now for the partial resurrection, with links posts to be delivered at random intervals to share articles or ideas that are worth a read. Here’s the first.</p>
 <ol type="1">
 <li><p>Unlearning Economics unloads in a <a href="https://twitter.com/UnlearnEcon/status/1501212969924976646">set of tweets</a> about empirical economics research. I have a draft post on this idea, but this thread hits most my points plus more. In my view, the robustness of some subfields of empirical economics research is on par with early 2000s social psychology research. The problem, however, is that you can’t run a replication of most of this empirical work, meaning it doesn’t suffer the same public fate.</p>
-<p></p><div id="tweet-55228"></div><script>tweet={"error":"Sorry, you are not authorized to see this status.","request":"\/oembed?url=https:\/\/twitter.com\/UnlearnEcon\/status\/1501212969924976646&align=center"};document.getElementById("tweet-55228").innerHTML = tweet["html"];</script><p></p></li>
+<p></p><div id="tweet-37477"></div><script>tweet={"error":"Sorry, you are not authorized to see this status.","request":"\/oembed?url=https:\/\/twitter.com\/UnlearnEcon\/status\/1501212969924976646&align=center"};document.getElementById("tweet-37477").innerHTML = tweet["html"];</script><p></p></li>
 <li><p>Behavioural and Brain Sciences has a target article on <a href="https://doi.org/10.1017/S0140525X20001685">The generalizability crisis</a> by Tal Yarkoni (ungated pdf <a href="https://psyarxiv.com/jqw35/">here</a>). Many responses worth reading, including this <a href="https://doi.org/10.1017/S0140525X21000327">one from Gerd Gigerenzer</a> (can’t find an ungated version of the Gigerenzer response to share). Daniel Lakens <a href="http://daniellakens.blogspot.com/2020/01/review-of-generalizability-crisis-by.html">comments</a>.</p></li>
 <li><p>You can now access a <a href="https://avehtari.github.io/ROS-Examples/">free pdf version</a> of Gelman, Hill and Vehtari’s Regression and Other Stories.</p></li>
 <li><p>Holden Karnofsky <a href="https://www.cold-takes.com/reading-books-vs-engaging-with-them/">on reading books</a>. I think about this a lot: for the average book I simply “read”, my recall a few years later is close to nothing. Pair with Andy Matuschak’s <a href="https://andymatuschak.org/books/">Why books don’t work</a>.</p></li>
@@ -1920,6 +1887,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 
 
 
+
 <p>In an oft-quoted and cited Nature paper, <a href="https://doi.org/10.1038/nature13977"><em>Business culture and dishonesty in the banking industry</em></a>, Cohn and colleagues argue that the culture in banking weakens and undermines the honesty norm. In the abstract they state:</p>
 <blockquote class="blockquote">
 <p>[W]e show that employees of a large, international bank behave, on average, honestly in a control condition. However, when their professional identity as bank employees is rendered salient, a significant proportion of them become dishonest. … Our results thus suggest that the prevailing business culture in the banking industry weakens and undermines the honesty norm, implying that measures to re-establish an honest culture are very important.</p>
@@ -1940,11 +1908,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p>So, how did the bankers go? In the control group, 51.6% of coin flips were successful. It’s slightly more than 50%, but within the realms of chance for a group of honest coin flippers. The bankers primed with their professional identity reported 58.2% successful flips, 6.6 percentage points more than the control group. The dishonest bandits.</p>
 <p>But how do we know that this result is particular to bankers? What if we primed other professionals with their profession? What if we took a group with no connection to the banking industry and primed them with banking concepts?</p>
 <p>Cohn and friends answered these questions directly. When they primed a group of non-banking professionals with their professional identity, they reported 3 percentage points <em>fewer</em> successful coin flips than those in a control condition. Students primed with banking concepts also reported fewer successes, around 1.5%. These differences weren’t statistically significant and could have happened by chance.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/2022-03-10-bankers-are-more-honest-than-the-rest-of-us/Cohn_et_al_2014_Figure_3a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/2022-03-10-bankers-are-more-honest-than-the-rest-of-us/Cohn_et_al_2014_Figure_3a.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/2022-03-10-bankers-are-more-honest-than-the-rest-of-us/Cohn_et_al_2014_Figure_3a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/2022-03-10-bankers-are-more-honest-than-the-rest-of-us/Cohn_et_al_2014_Figure_3a.png" class="img-fluid"></a></p>
 <p>These experimental outcomes are the centrepiece behind the conclusion that the prevailing culture in banking weakens and undermines the honesty norm for bankers.</p>
 <p>But now let’s go to the supplementary materials and learn a bit more about these non-banking professionals and students.</p>
 <p><strong>An alternative interpretation</strong></p>
@@ -1957,11 +1921,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p><strong>Replications</strong></p>
 <p>I noted above that I don’t believe this result will replicate, and there are now at least two studies making that argument: one a direct replication, and the other conceptual.</p>
 <p>The direct replication is by <a href="https://doi.org/10.1038/s41586-019-1741-y">Rahwan and friends</a>. They increased the sample size to 768 bankers, plus over 500 non-bankers. The headline is that the result did not replicate in the Asia Pacific or Middle East banker populations used in the study. The two blue bars in the below chart represent the original Cohn and friends study, plus the additional 80 banker sample I referred to above.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/2022-03-10-bankers-are-more-honest-than-the-rest-of-us/Rahwan_et_al_2019_Figure_2a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/img/2022-03-10-bankers-are-more-honest-than-the-rest-of-us/Rahwan_et_al_2019_Figure_2a.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/2022-03-10-bankers-are-more-honest-than-the-rest-of-us/Rahwan_et_al_2019_Figure_2a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/img/2022-03-10-bankers-are-more-honest-than-the-rest-of-us/Rahwan_et_al_2019_Figure_2a.png" class="img-fluid"></a></p>
 <p>What is perhaps more interesting than this replication, however, is the response. Cohn and friends were given the opportunity to <a href="https://doi.org/10.1038/s41586-019-1729-7">publish a response</a> to the replications. Given the original submission date by Rahwan and friends of 6 September 2016 and an acceptance date of 26 August 2019, I can only imagine the wrangling that went on behind the scenes.</p>
 <p>Cohn and friends raise several objections to the replication. The main one is that their original study is famous and received wide media coverage. A third of the replication participants reported being aware of the original study. This could affect which banks agreed to participate in the study (most declined) and the behaviour of the participants.</p>
 <p>I give this critique some weight, but don’t feel great about it. The original authors conduct a low sample size study of a noisy phenomena, overhype their result and then complain about a replication because everyone has heard about their overhyped result. It’s as though the publicity creates a shield to replication.</p>
@@ -1997,6 +1957,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 
 
 
+
 <p>Over the last few years I have appeared on several podcasts, the most recent being a discussion with <a href="https://twitter.com/p_agnew">Phil Agnew</a> on the Nudge podcast. I am definitely more a writer than a speaker, but if you prefer audio to the written, check out the below.</p>
 <p><a href="https://www.nudgepodcast.com/podcast/episode/31c2d373/75-beware-of-behaviour-science-bs">Nudge podcast - Beware of Behaviour Science BS</a></p>
 <p><a href="https://anchor.fm/42courses/episodes/Jason-Collins---Behavioural-Science--Evolutionary-Biology-epfoqs">42courses - Behavioural Science &amp; Evolutionary Biology</a></p>
@@ -2015,6 +1976,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/the-outsider-to-the-narrow-minded-profession.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -2060,6 +2022,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 
 
 
+
 <p>In <a href="../scarcity-of-time-money-friends-and-bandwidth/"><em>Scarcity: Why having too little means so much</em></a>, Sendhil Mullainathan and Eldar Shafir tell the following (now famous) story:</p>
 <blockquote class="blockquote">
 <p>To see the effect of scarcity on fluid intelligence, we ran some studies with our graduate student, Jiaying Zhao, in which we gave people in a New Jersey mall the Raven’s Progressive Matrices test. First, half the subjects were presented with simple hypothetical scenarios, such as this one:</p>
@@ -2080,11 +2043,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p>As a result, I’ve been keeping a keen eye on the topic and was excited to see <a href="https://newsroom.haas.berkeley.edu/classified-training-phd-students-to-advance-the-open-science-revolution/">a story about Leif Nelson and Don Moore</a> training PhD students by doing a mass pre-registered replication of the scarcity literature. A great idea.</p>
 <p>The result of that exercise has now been <a href="https://doi.org/10.1073/pnas.2103313118">published in PNAS</a>. The replication materials are available on <a href="https://osf.io/a2e96/">OSF</a>.</p>
 <p>The punchline was that, of the 20 studies, only four generated a significant result. (That raw score of 20% is <a href="https://doi.org/10.1126/science.aac4716">underperforming the replicability of social psychology</a>.) This was despite the replications using 2.5 times the sample size of the original, giving them more power. Six studies had effects in the opposite direction to the original. Effect sizes were also markedly smaller, suggesting the initial experiments were massively underpowered. The following figure illustrates the results.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/odonnell-et-al-2021-fig1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/odonnell-et-al-2021-fig1.jpeg" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+<p><a href="img/odonnell-et-al-2021-fig1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/odonnell-et-al-2021-fig1.jpeg" class="img-fluid"></a></p>
 <p>Study 4 from Mani and friends was one of the iterations of the New Jersey experiment and, as for most of them, there was no significant effect.</p>
 <p>Summarising their findings, the authors write:</p>
 <blockquote class="blockquote">
@@ -2099,6 +2058,66 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
  ]]></description>
   <guid>https://www.jasoncollins.blog/posts/replicating-scarcity.html</guid>
   <pubDate>Thu, 17 Feb 2022 09:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How big is the effect of a nudge?</title>
+  <dc:creator>Jason Collins</dc:creator>
+  <link>https://www.jasoncollins.blog/posts/how-big-is-the-effect-of-a-nudge.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Last month a <a href="https://doi.org/10.1073/pnas.2107346118">new meta-analysis of ‘nudges’</a> by Stephanie Mertens and friends was published, with a headline finding that:</p>
+<blockquote class="blockquote">
+<p>choice architecture interventions overall promote behavior change with a small to medium effect size of Cohen’s d = 0.45 (95% CI [0.39, 0.52]).</p>
+</blockquote>
+<p>The criticism came fast. Andrew Gelman jumped in to “broadcast the problems with this article right away”. He <a href="https://statmodeling.stat.columbia.edu/2022/01/07/pnas-gigo-qrp-wtf-approaching-the-platonic-ideal-of-junk-science/">wrote</a>:</p>
+<blockquote class="blockquote">
+<p>Wha . . .? An effect size of 0.45 is not “small to medium”; it’s huge. Huge as in implausible that these little interventions would shift people, on average, by half a standard deviation. I mean, sure, if the data really show this, then it would be notable — it would be big news—because it’s a huge effect.</p>
+</blockquote>
+<p>I agree with the tenor of this statement, but want to note that some of these interventions are not “little”. I believe some do have “huge” effect sizes, but they’re typically results that are so unsurprising that I’m surprised they made the benchmark for publication.</p>
+<p>Some of the food choice studies in the meta-analysis are like this. The field is tarred by a bunch of Brian Wansink studies that should have been excluded from the meta-analysis, but let me briefly come to the defence of some of the others.</p>
+<p>One of the meta-analysis studies with the largest effect size is a study by <a href="https://doi.org/10.1038/oby.2004.64">Diliberti and friends</a>. They served restaurant customers two sizes of entrée. One entrée was 50% larger than the other. Those served the bigger entrée ate 43% more entrée than those served the smaller one. Most people just ate whatever size entrée they were served. The larger entrée also translated into an increase of calories across the whole meal by 25%. I find this unsurprising (this is no Brian Wansink magic bowl of soup) and a reasonable effect size (although it also wouldn’t surprise me if it were smaller in a larger replication). There are several other studies in the meta-analysis of this nature.</p>
+<p>Diliberti and friends, of course, don’t just stop with the meal. They go on to claim that “These results support the suggestion that large restaurant portions may be contributing to the obesity epidemic.” That’s a stretch - the effect size on obesity may well be zero - but this claim doesn’t undermine the reported effect sizes for the far less ambitious measure of calorie consumption during a meal. This is one of the common features of interventions with large and realistic effect sizes: the measure is close to the intervention. Unfortunately, these are often not the outcomes that someone interested in, say, the policy implications would care about.</p>
+<p>Despite my brief defence of some of the reported effect sizes, I agree with Andrew Gelman that, on net, there are too many studies in the meta-analysis that likely have overestimated effect sizes. As <a href="https://statmodeling.stat.columbia.edu/2022/01/10/the-real-problem-of-that-nudge-meta-analysis-is-not-that-it-include-12-papers-by-noted-fraudsters-its-the-gigo-of-it-all/">he writes</a>:</p>
+<blockquote class="blockquote">
+<p>I’m concerned about selection bias within each of the other 200 or so papers cited in that meta-analysis. This is a literature with selection bias to publish “statistically significant” results, and it’s a literature full of noisy studies. If you have a big standard error and you’re publishing comparisons you find that are statistically significant, then by necessity you’ll be estimating large effects. This point is well known in the science reform literature (for example see the example on pages 17-18 here).</p>
+<p>Do a meta-analysis of 200 studies, many of which are subject to this sort of selection bias, and you’ll end up with a wildly biased and overconfident effect size estimate. It’s just what happens! Garbage in, garbage out.</p>
+</blockquote>
+<p>The headline finding of the meta-analysis also raises an interesting question: is it sensible to report an aggregate effect size involving any study that sits under the banner of “choice architecture” or a “nudge”?</p>
+<p>Take the following two examples as points on a spectrum.</p>
+<p>First, consider Eric Johnson and Dan Goldstein’s famous (and <a href="../does-presuming-you-can-take-a-persons-organs-save-lives/">typically misinterpreted</a>) <a href="https://doi.org/10.1126/science.1091721">study into organ donation defaults</a> (<a href="http://www.dangoldstein.com/papers/DefaultsScience.pdf">pdf</a>). The lab experiment in that paper is used in the meta-analysis (I think an over-estimated effect size), but let’s consider the more famous intervention discussed in that paper.</p>
+<p>In many European countries, people are presumed to consent to organ donation. They are never asked. Depending on the country, they typically need to do something like find and fill out a form to change that presumption. This gives us 99.98% of Austrians who are presumed to consent, versus the 12% who register as organ donors in Germany. Huge effect size via a very rigid mechanism. (Note also here that the outcome measure is registration for organ donation, not organ donation itself. Go downstream and the effect size rapidly dwindles.)</p>
+<p>Now, let’s pick another study in the meta-analysis relating to organ donation, <a href="https://doi.org/10.1186/s13063-018-2855-5">one by Sallis and friends</a> on the use of persuasive messages on organ donation registrations (the link points to the published study, but the numbers in the meta-analysis were pulled from an <a href="https://www.bi.team/publications/applying-behavioural-insights-to-organ-donation/">earlier preliminary report</a>). When registering for their driver’s licence, applicants were shown either a control message or one of a series of “theoretically informed persuasive messages”. The best message substantially outperformed the control, getting about 30% more people to sign up. But that difference was less than 0.1% of people who saw the message. The Cohen’s d: 0.05.</p>
+<p>What is the unifying element between a default “presumed consent” and a web pop-up asking someone to register? It’s only this label of “nudge”. I’m not convinced that averaging the two tells us anything.</p>
+<p>But this brings us to another ambition of the authors:</p>
+<blockquote class="blockquote">
+<p>Previous studies have mostly been restricted to the analysis of a single choice architecture technique or a specific behavioral domain, leaving important questions unanswered, including how effective choice architecture interventions overall are in changing behavior and whether there are systematic differences across choice architecture techniques and behavioral domains that so far may have remained undetected and that may offer new insights into the psychological mechanisms that drive choice architecture interventions.</p>
+</blockquote>
+<p>I like this ambition to compare across domains and techniques, but am unconvinced the field is ready for a quantitative answer of the fashion proposed. There <em>is</em> too much garbage. Some fields are a mess. Comparing the studies is interesting - I’ve already learnt a lot from the paper and associated data - but to declare certain fields having larger effect sizes is premature.</p>
+<p>Also, relating to one of my points above, the choice of outcome also makes a substantial difference. If you’re aiming to change calorie consumption in a meal, you could obtain a big effect. If you’re aiming to reduce obesity, not so much. If you’re looking to increase numbers “consenting” to organ donation, potentially big effect. Trying to change organ donation itself, much harder. Are defaults highly effective in organ donation if they increase the number registered? Or are they weak if they hardly change the number of actual donations?</p>
+<p>What would I have done myself? No idea. But on reflection, I wonder whether a less formal qualitative approach would have been more enlightening. Sure, calculate some of the numbers, but don’t take them too seriously. Pull apart why some are larger than others. Try to understand how study quality and choice of outcome variable might affect reported effects. This meta-analysis provides a useful starting point for that analysis.</p>
+<hr>
+<p>Outside of this question of what the meta-analysis covers, there are a couple of other points worth noting.</p>
+<p>As hinted above, the meta-analysis included some studies by Brian Wansink. It also included the the “sign at the top” honesty experiments that had previously been <a href="../a-default-of-disbelief/">subject to failed replications</a>, with the paper later retracted for fraud. (Why didn’t the replications make the meta-analysis?) There is a discussion about the inclusion of the retracted paper in the meta-analysis <a href="https://retractionwatch.com/2022/01/09/authors-to-correct-pnas-nudge-paper-that-cites-now-retracted-article-in-the-same-journal/">in Retraction Watch</a>. (And note the positive, constructive engagement by one of the meta-analysis authors.)</p>
+<p>I feel for the authors here. How do you set clear guidelines in your pre-analysis plan that enable you to say: “we’re not trusting anything by this guy, whether the particular study is retracted or not”. I think this comes back to my question above about whether you have to be a bit more flexible or qualitative at this point in time.</p>
+<p>The authors are also far from Robinson Crusoe in having a meta-analysis contaminated by Brian Wansink studies. One <a href="https://doi.org/10.1086/651235">meta-analysis on choice overload</a> that I have referred to many times found an average effect of zero. But look at the plot of the effect sizes and the huge effects that increasing range of choice had in some some studies. And then look at the authors of the three outliers at the bottom….This choice overload meta-analysis suffers the same problems as the paper the subject of this post.</p>
+<p><a href="img/scheibehenne.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/scheibehenne.jpg" class="img-fluid"></a></p>
+<p>Another point worth noting is that the meta-analysis authors considered the possibility of publication bias.</p>
+<blockquote class="blockquote">
+<p>Assuming a moderate one-tailed publication bias in the literature attenuated the overall effect size of choice architecture interventions by 26.79% from Cohen’s d = 0.42, 95% CI [0.37, 0.46], and τ<sup>2</sup>=0.20 (SE=0.02) to d=0.31 and τ<sup>2</sup>=0.23. Assuming a severe one-tailed publication bias attenuated the overall effect size even further to d=0.03 and τ<sup>2</sup>=0.34; however, this assumption was only partially supported by the funnel plot.</p>
+</blockquote>
+<p>Assuming the worst, the aggregate effect is pretty small.</p>
+<hr>
+<p>To close with a random story, one of my previous employers announced that they were giving all employees a $300 bonus. But, they weren’t going to just pay it to us. We had to claim it against an expense we had incurred. It could be any expense - our grocery shopping, a celebratory dinner, new shoes, whatever - but you had to go through the painful expense system to claim it. The tight-arse partners were hoping they’d get the goodwill of giving the bonus but save save money if not everyone claims (although given who they were, they might also have been thinking about tax advantages…). A lot of people didn’t claim - from memory around 30% missed out.</p>
+<p>Anyhow, we ran an internal campaign of “behaviourally informed” emails to get more people to claim the bonus. The reminders worked (about a 5 percentage point bump) but none of the different messages distinguished from each other. That’s pretty typical of this type of study - the obvious part works (people tend to benefit from reminders), the more sexy part doesn’t (yet another failure for loss framing). But just think if instead of text messages we had simply changed the default to automatic payment of $300. Simple “nudge”. Huge effect.</p>
+
+
+
+ ]]></description>
+  <guid>https://www.jasoncollins.blog/posts/how-big-is-the-effect-of-a-nudge.html</guid>
+  <pubDate>Thu, 10 Feb 2022 21:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

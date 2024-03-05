@@ -26,6 +26,8 @@ website:
   search:
     limit: 50
 
+lightbox: true
+
 csl: apa-no-ampersand.csl
 
 format:
@@ -39,10 +41,6 @@ format:
     code-fold: true
     fig-cap-location: top
 editor: source
-
-filters:
-    - lightbox
-lightbox: auto
 
 execute:
   freeze: true
