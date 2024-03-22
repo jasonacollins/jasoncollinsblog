@@ -6,7 +6,7 @@ aliases:
 
 # Writing
 
-Apart from this blog and my [academic publications](/research/), I have written for a range of other venues. Below is a selection:
+Apart from this blog and my [academic publications](/research/), I have written for various other venues. Below is a selection:
 
 ### 2022
 
@@ -37,3 +37,7 @@ Apart from this blog and my [academic publications](/research/), I have written 
 ### 2013
 
 “[Sex in the Economy](http://www.australasianscience.com.au/article/issue-july-and-august-2013/sex-economy.html)” Australasian Science Vol. 34, Issue 6 ([pdf](/pdf/Collins_2013_Sex_in_the_economy.pdf/))
+
+
+<p align="center"; style="margin-left: 10px; margin-right: 10px; margin-top: 50px">BE NOTIFIED OF NEW POSTS VIA EMAIL</p>
+<p  align="center"><iframe src="https://substack.jasoncollins.blog/embed" width="360" height="110" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>

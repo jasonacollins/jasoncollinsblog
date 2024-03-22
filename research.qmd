@@ -1,6 +1,5 @@
 ---
 title: "Research"
-date: 2021-01-06 09:00:00+00:00
 aliases:
   - /research/
 ---
@@ -11,9 +10,13 @@ My research and writing tend to revolve around the following themes:
 - How behavioural economics could be better, be that better underlying theory, better research practices or better applied work
 - The use of algorithms to supplant human judgment, particularly using simple heuristics, and how to establish the right human-algorithm mix.
 
-Below is my academic work (largely neglected since 2016, although about to be revived with my return to academia in 2022). For my non-academic writing, see [here](/writing/).
+Below is my academic work (largely neglected between the completion of my PhD in 2015 and my return to academia in 2022). For my non-academic writing, see [here](/writing/).
 
 ## Publications
+
+### 2024
+
+Collins (2024) "Optimally Irrational: The Good Reasons we Behave the Way we Do, by Lionel Page (Cambridge University Press, Cambridge, 2022), pp. 322.", *Economic Record*, https://doi.org/10.1111/1475-4932.12798 ([ungated pdf](https://onlinelibrary.wiley.com/doi/epdf/10.1111/1475-4932.12798?domain=author&token=JTWM353GVEWA566CEE5P))
 
 ### 2019
 
@@ -48,4 +51,4 @@ I completed a PhD at the University of Western Australia. My thesis can be downl
 
 
 <p align="center"; style="margin-left: 10px; margin-right: 10px; margin-top: 50px">BE NOTIFIED OF NEW POSTS VIA EMAIL</p>
-<p  align="center"><iframe src="https://substack.jasoncollins.blog/embed" width="360" height="90" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>
+<p  align="center"><iframe src="https://substack.jasoncollins.blog/embed" width="360" height="110" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>
