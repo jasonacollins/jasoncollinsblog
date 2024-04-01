@@ -70,6 +70,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C50MEPDMZ9"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
+</script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -198,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <figcaption>Value Function</figcaption>
-<p><a href="img/value_function.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Value Function"><img src="img/value_function.jpg" class="img-fluid figure-img" alt="Value Function"></a></p>
+<p><a href="img/value_function.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Value Function"><img src="img/value_function.jpg" class="img-fluid figure-img" alt="Value Function"></a></p>
 </figure>
 </div>
 <p>Through the paper, Kahneman and Tversky describe experiments on each of the certainty effect, reflection effect, and isolation effect. However, as pointed out by Eldad Yechiam in his paper <a href="https://doi.org/10.1007/s00426-018-1013-8">Acceptable losses: the debatable origins of loss aversion</a>, loss aversion is taken as a stylised fact. Yechiam writes:</p>
@@ -694,7 +703,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

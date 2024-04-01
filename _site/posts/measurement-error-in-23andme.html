@@ -70,6 +70,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C50MEPDMZ9"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
+</script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -174,13 +183,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <figcaption>Tom ancestry</figcaption>
-<p><a href="img/tom-ancestry.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Tom ancestry"><img src="img/tom-ancestry.jpg" class="img-fluid figure-img" alt="Tom ancestry"></a></p>
+<p><a href="img/tom-ancestry.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Tom ancestry"><img src="img/tom-ancestry.jpg" class="img-fluid figure-img" alt="Tom ancestry"></a></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <figcaption>Leo ancestry</figcaption>
-<p><a href="img/leo-ancestry.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Leo ancestry"><img src="img/leo-ancestry.jpg" class="img-fluid figure-img" alt="Leo ancestry"></a></p>
+<p><a href="img/leo-ancestry.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Leo ancestry"><img src="img/leo-ancestry.jpg" class="img-fluid figure-img" alt="Leo ancestry"></a></p>
 </figure>
 </div>
 
@@ -626,7 +635,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","openEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
