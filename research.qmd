@@ -38,13 +38,15 @@ Collins, Baer and Weber (2014) “[Economic Growth and Evolution: Parental Prefe
 
 ## Working papers (in progress)
 
-[Population, Technological Progress and the Evolution of Innovative Potential](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2284456) (with Boris Baer and Juerg Weber) ([post](/population-technological-progress-and-the-evolution-of-innovative-potential/))
+Brodeur et al. (2024) [Mass Reproducibility and Replicability: A New Hope](https://econpapers.repec.org/paper/zbwi4rdps/107.htm), I4R Discussion Paper Series #107, Institute for Replication
+
+Collins, Baer and Weber, (2013) [Population, Technological Progress and the Evolution of Innovative Potential](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2284456) (with Boris Baer and Juerg Weber) ([post](/population-technological-progress-and-the-evolution-of-innovative-potential/))
 
 ## Working papers (inactive)
 
 Albrecht, Collins, Gauriot and Wu (2023) "[A Comment on Alesina, Miano and Stancheva (2023)](https://www.rwi-essen.de/i4r-discussion-papers-series-1/a-comment-on-alesina-miano-and-stancheva-23063012)", I4R Discussion Paper Series #40 ([pdf](https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/I4R_Discussion_Paper_Series/040_I4R_Albrecht_Collins_Gauriot_Wu.pdf))
 
-[Evolution, Fertility and the Ageing Population](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2208886) (with Oliver Richards) ([post](/fertility-is-going-to-go-up/))
+Collins and Richards (2013) [Evolution, Fertility and the Ageing Population](https://api.research-repository.uwa.edu.au/ws/portalfiles/portal/104234625/13_02_Evolution_Fertility_and_the_Ageing_Population.pdf) UWA Discussion Papers in Economics 13.02 ([post](/fertility-is-going-to-go-up/))
 
 ## PhD
 
