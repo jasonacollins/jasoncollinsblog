@@ -24,6 +24,6 @@ Links this week:
   3. [A gene for cooperation in response to punishment](http://www.pnas.org/content/early/2013/02/15/1216841110.abstract).
 
 	
-  4. I've uploaded an updated version of [my working paper Conspicuous Consumption, Sexual Selection and Economic Growth](http://ssrn.com/abstract=2111740). There are no earth-shattering changes, but we've simplified the second model and generally sharpened it up.
+  4. I've uploaded an updated version of [my working paper Conspicuous Consumption, Sexual Selection and Economic Growth](https://research-repository.uwa.edu.au/en/publications/sexual-selection-conspicuous-consumption-and-economic-growth-2). There are no earth-shattering changes, but we've simplified the second model and generally sharpened it up.
 
 

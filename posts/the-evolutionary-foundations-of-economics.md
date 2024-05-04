@@ -7,7 +7,7 @@ aliases:
   - /the-evolutionary-foundations-of-economics
 ---
 
-[I posted this paper on SSRN a few months ago](http://ssrn.com/abstract=2599805), but neglected to blog about it - I've written (with my supervisors) a review of the literature incorporating evolutionary theory into economics. The abstract:
+[I released this working paper a few months ago](https://research-repository.uwa.edu.au/en/publications/the-evolutionary-foundations-of-economics), but neglected to blog about it - I've written (with my supervisors) a review of the literature incorporating evolutionary theory into economics. The abstract:
 
 >The Evolutionary Foundations of Economics
 >
