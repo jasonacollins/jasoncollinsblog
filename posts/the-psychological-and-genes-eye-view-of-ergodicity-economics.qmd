@@ -1,0 +1,627 @@
+---
+title: "The psychological and genes' eye view of ergodicity economics"
+author: "Jason Collins"
+date: 2024-07-05 09:00:00+00:00
+draft: true
+aliases:
+  - /the-psychological-and-genes-eye-view-of-ergodicity-economics
+execute: 
+  freeze: auto
+bibliography: references.bib
+---
+
+This post is my plan for a presentation at the Foundation of Utility and Risk Conference. I drew on the material in my previous posts laying out the foundations of ergodicity economics and examining what ergodicity economics states about risk preferences. This may vary from delivery - economics presentations are easily waylaid.
+
+--
+
+## Introduction
+
+At times, I wonder whether what I am presenting to you today is an exercise in shooting fish in a barrel. The claims made by the advocates of "ergodicity economics" are often overblown and extend far beyond what is justified.
+
+But, underneath the bluster, I feel these are interesting fish to shoot. And despite some other attempts to shoot these fish, they still seem to be swimming around. There are a couple of published critiques of ergodicity economics, one by Doctor et al [-@doctor2020] in Nature Physics and one more recent by Matthew Ford and John Kay [-@ford2023] in Econ Journal Watch, but despite these I still feel the central idea in ergodicity economics is interesting. So, I'm going to steelman the case for ergodicity economics, before laying some psychological and evolutionary observations. This work represents the early thinking for an in-progress working paper.
+
+Since I developed the first cut for this presentation, a new experiment in this space has been released, and its distracted me somewhat, so I'm going to distract you with it also. My thinking about this experiment is still in its early stages and I want to focus on its implications if it is true rather than the weaknesses that might undermine the result.
+
+### The bet
+
+So let me start with the classic example. You may have seen this before.
+
+*Suppose you are offered a bet on the flip of a coin. You win 50% of your wealth on heads. You lose 40% of your wealth on tails. Do you take the bet?*
+
+The expected value of the bet is 5 per cent of your wealth. Continue playing for many rounds and your expected wealth is very large.
+
+However, what is the most probable outcome over many repeats of this bet?
+
+This plot is the result of a simulation of 10,000 people, each starting with \$100, playing this bet 100 times. The black line is the average wealth of the population. The red lines are paths of the first 20 people in the simulation.
+
+```{r setup, message=FALSE, warning=FALSE}
+
+# Load the required packages
+
+library(ggplot2)
+library(scales) #use the percent scale later
+library(dplyr) #use the filter function later
+```
+
+```{r function}
+# Create a function for running of the bets.
+
+bet <- function(p, n, t, start=100, gain, loss, ergodic=FALSE, absorbing=FALSE){
+
+  #p is probability of a gain
+  #n is how many people in the simulation
+  #t is the number of coin flips simulated for each person
+  #start is the number of dollars each person starts with
+  #if ergodic=FALSE, gain and loss are the multipliers
+  #if ergodic=TRUE, gain and loss are the dollar amounts
+  #if absorbing=TRUE, zero wealth ends the series of flips for that person
+
+  params <- as.data.frame(c(p, n, t, start, gain, loss, ergodic, absorbing))
+  rownames(params) <- c("p", "n", "t", "start", "gain", "loss", "ergodic", "absorbing")
+  colnames(params) <- "value"
+
+  sim <- matrix(data = NA, nrow = t, ncol = n)
+
+  if(ergodic==FALSE){
+    for (j in 1:n) {
+      x <- start
+      for (i in 1:t) {
+      outcome <- rbinom(n=1, size=1, prob=p)
+      ifelse(outcome==0, x <- x*loss, x <- x*gain)
+      sim[i,j] <- x
+      }
+    }
+  }
+
+ if(ergodic==TRUE){
+    for (j in 1:n) {
+      x <- start 
+      for (i in 1:t) {
+      outcome <- rbinom(n=1, size=1, prob=p)
+      ifelse(outcome==0, x <- x-loss, x <- x+gain)
+      sim[i,j] <- x
+      if(absorbing==TRUE){
+        if(x<0){
+          sim[i:t,j] <- 0
+            break
+        }
+        }
+      }
+    }
+  }
+
+  sim <- rbind(rep(start,n), sim) #placing the starting sum in the first row
+  sim <- cbind(seq(0,t), sim) #number each period
+  sim <- data.frame(sim)
+  colnames(sim) <- c("period", paste0("p", 1:n))
+  sim <- list(params=params, sim=sim)
+  sim
+}
+```
+
+```{r simulation_1}
+# Simulate 10,000 people who accept a series of 1000 50:50 bets to win \$50 or lose \$40 from a starting wealth of \$100.
+
+set.seed(20191215)
+nonErgodic <- bet(p=0.5, n=10000, t=1000, gain=1.5, loss=0.6, ergodic=FALSE)
+```
+
+```{r summary_stats}
+# Create a function to generate summary statistics.
+
+summaryStats <- function(sim, t=100){
+
+  meanW <- mean(as.matrix(sim$sim[(t+1),2:(sim$params[2,]+1)])) # mean wealth
+  medianW <- median(as.matrix(sim$sim[(t+1),2:(sim$params[2,]+1)])) # median wealth
+  num99 <- sum(sim$sim[(t+1),2:(sim$params[2,]+1)]<(sim$params[4,]/100)) #number who lost more than 99% of their wealth
+  per99 <- num99/sim$params[2,]*100 #percentage who lost more than 99% of their wealth
+  numGain <- sum(sim$sim[(t+1),2:(sim$params[2,]+1)]>sim$params[4,]) #number who gain
+  perGain <- numGain/sim$params[2,]*100 #percentage who gain
+  num100 <- sum(sim$sim[(t+1),2:(sim$params[2,]+1)]>(sim$params[4,]*100)) #number who increase their wealth more than 100-fold
+  winner <- max(sim$sim[(t+1),2:(sim$params[2,]+1)]) #wealth of wealthiest person
+  winnerShare <- winner / sum(sim$sim[(t+1),2:(sim$params[2,]+1)]) #wealth share of wealthiest person
+
+  stats <- data.frame(meanW = meanW, medianW = medianW, num99 = num99, per99 = per99, numGain = numGain, perGain = perGain, num100 = num100, winner = winner, winnerShare = winnerShare)
+}
+
+nonErgodicStats <- summaryStats(nonErgodic, 100)
+```
+
+```{r}
+#| fig-cap: Plot of first 20 people against average wealth
+#| label: fig-ergodicity-presentation-1
+
+# Create a function for plotting the average wealth of the population over a set number of periods.
+
+averagePlot <- function(sim, t=100){
+
+  basePlot <- ggplot(sim$sim[c(1:(t+1)),], aes(x=period)) +
+    labs(y = "Average Wealth ($)")
+
+  averagePlot <- basePlot +
+    geom_line(aes(y = rowMeans(sim$sim[c(1:(t+1)),2:(sim$params[2,]+1)])), color = 1, linewidth=1)
+
+  averagePlot
+}
+
+# Create a function for plotting the path of individuals in the population over a set number of flips.
+
+individualPlot <- function(sim, t, people){
+
+  basePlot <- ggplot(sim$sim[c(1:(t+1)),], aes(x=period)) +
+    labs(y = "Wealth ($)")
+
+  for (i in 1:people) {
+    basePlot <- basePlot +
+      geom_line(aes(y = !!sim$sim[c(1:(t+1)),(i+1)]), color = 2)
+  }
+
+basePlot
+
+}
+
+jointPlot <- function(sim, t, subset) {
+  individualPlot(sim, t, subset) +
+    geom_line(aes(y = rowMeans(sim$sim[c(1:(t+1)),2:(sim$params[2,]+1)])), color = 1, linewidth=1)
+}
+
+nonErgodicPlot <- jointPlot(sim=nonErgodic, t=100, subset=20)
+nonErgodicPlot
+
+```
+
+The sudden drop in mean wealth toward the end of the sequence is an interesting feature that I will ignore for the moment. But look at the red lines. At the end of 100 periods, all are below the mean wealth, and only two of the 20 agents have enough wealth that you can discern the lines from the x-axis.
+
+Let us now use a log scale to enable us to see the pattern more clearly.
+
+```{r log_plot}
+#| fig-cap: Plot of first 20 people against average wealth (log scale)
+#| label: fig-ergodicity-presentation-2
+
+# Plot both the average outcome and first twenty people on the same plot.
+
+logJointPlot <- function(sim, t, subset) {
+  individualPlot(sim, t, subset) +
+    geom_line(aes(y = rowMeans(sim$sim[c(1:(t+1)),2:(sim$params[2,]+1)])), color = 1, linewidth=1)+
+    scale_y_log10(breaks = c(0.0001, 0.1, 100, 100000), labels = c("0.0001", "0.1", "100", "100000"))
+}
+
+nonErgodicPlot <- logJointPlot(sim=nonErgodic, t=100, subset=20)
+nonErgodicPlot
+
+```
+
+All 20 of these people are below the mean wealth. Only two are ahead of where they started.
+
+These 20 people are representative of the broader population. Across the 10,000 agents in this simulation, 86 per cent lost money. The mean wealth was over \$16,000, but the median wealth was less than one dollar.
+
+What is the intuition behind this? The black line simply represents the realisation of the expected gain of 5 per flip.
+
+But for the red lines, over the long term, an individual will tend to get around half heads and half tails. As the number of flips goes to infinite, the proportion of heads or tails "[almost surely](https://en.wikipedia.org/wiki/Almost_surely)" converges to 0.5.
+
+This means that each person will tend to get a 50% increase half the time (or 1.5 times the initial wealth), and a 40% decrease half the time (60% of the initial wealth). The time average growth in wealth for an individual is $(1.5\times 0.6)^{0.5} \sim 0.95$, or approximately a 5% decline in wealth each period. Every individual's wealth will tend to decay at that rate. The black line is held up by a very lucky few.
+
+A system where the time average converges to the ensemble average (our population mean) is known as an ergodic system. The system of gambles above is non-ergodic as the time average and the ensemble average diverge.
+
+This leads to the following claim: as we cannot individually experience the ensemble average, it is not what humans consider in their decision making. Instead, people maximise the time average growth rate.
+
+Contrast this with the expected utility approach, where the utility of each outcome is weighted by its probability and summed to give the expected utility. Expected utility theory would be consistent with both accepting and rejecting the bet depending on the particular utility function.
+
+There is an incidental alignment between ergodicity economics and expected utility theory. If a person has log utility - that is, they maximise the probability-weighted logarithm of the possible outcomes - they will maximise the time average growth rate.
+
+### Additive versus multiplicative
+
+## What are the implications of this finding?
+
+The advocates of ergodicity economics have then applied this finding to a range of economics problems.
+
+Peters [-@peters2023] argues that we can think of insurance as a tool to make wealth grow faster rather than as a tool for the risk averse or for piece of mind. Peters and Adamou [-@peters2022] similarly propose a desire to maximise the growth rate as the origin of cooperative behaviour.
+
+\[time preference\]
+
+### The experiment
+
+## An evolutionary analysis
+
+### A basic model
+
+Suppose two types of agents lived in a non-ergodic world.
+
+One type of agent seeks to maximise the time-average growth rate of its number of descendants. This desire to maximise the time-average growth rate is a function of its genotype, and is transmitted to its children.
+
+The other type of agent seeks to maxmise the expected number of offspring. Similarly, this agent's preferences are set genetically.
+
+In the environment in which these agents live, they have a choice of strategy. One strategy is to have a single offspring with certainty. The other strategy is to have
+
+These agents could choose to have either one offspring, or they could take a 50:50 bet buy which they have a 50 per cent of having 0.6 offspring if they lose and . One type always accepted the bet, the other always rejected it. Which would come to dominate the population?
+
+An intuitive reaction to the above examples might be that while the accepting type might have a short-term gain, in the long run they are almost surely going to drive themselves extinct. There are a couple of scenarios where that would be the case.
+
+One is where the children of a particular type were all bound to the same coin flip as their siblings for subsequent bets. Suppose one individual had over 1 million children after 100 periods, comprising around 70% of the population (which is what they would have if we borrowed the above simulations for our evolutionary scenario, with one coin flip per generation). If all had to bet on exactly the same coin flip in period 101 and beyond, they are doomed.
+
+If, however, each child faces their own coin flip (experiencing, say, idiosyncratic risks), that crash never comes. Instead, the risk of those flips is diversified and the growth of the population more closely resembles the ensemble average, even over the very long term.
+
+Below is a chart of population for a simulation of 100 generations of the accepting population, starting with a population of 10,000. For this simulation, I have assumed that at the end of each period, the accepting types will have a number of children equal to the proportional increase in their wealth. For example, if they flip heads, they will have 1.5 children, For tails, they will have 0.6 children. They then die. (The simulation works out largely the same if I make the number of children probabilistic in accord with those numbers.) Each child takes their own flip.
+
+```{r}
+#| fig-cap: Population of accepting types
+#| label: fig-ergodicity-presentation-8
+
+set.seed(20191215)
+evolutionBet <- function(p, n, t, gain, loss){
+
+  #p is probability of a gain
+  #region  is how many people in the simulation
+  #t is the number of generations simulated
+
+  params <- as.data.frame(c(p, n, t, gain, loss))
+  rownames(params) <- c("p", "n", "t", "gain", "loss")
+  colnames(params) <- "value"
+
+  sim <- matrix(data = NA, nrow = t, ncol = 1)
+
+  sim <- rbind(n, sim) #placing the starting population in the first row
+
+  for (i in 1:t) {
+    for (j in 1:round(n)) {
+      outcome <- rbinom(n=1, size=1, prob=p)
+      ifelse(outcome==0, x <- loss, x <- gain)
+      n <- n + (x-1)
+    }
+    n <- round(n)
+    sim[i+1] <- n #"+1" as have starting population in first row
+  }
+
+  sim <- cbind(seq(0,t), sim) #number each period
+  sim <- data.frame(sim, row.names=NULL)
+  colnames(sim) <- c("period", "n")
+  sim <- list(params=params, sim=sim)
+  sim
+}
+
+evolution <- evolutionBet(p=0.5, n=10000, t=100, gain=1.5, loss=0.6) #more than 100 periods can take a very long time, simulation slows markedly as population grows
+
+# Plot the population growth for the evolutionary scenario (Figure 8).
+
+basePlotEvo <- ggplot(evolution$sim[c(1:101),], aes(x=period))
+
+expectationPlotEvo <- basePlotEvo +
+  geom_line(aes(y=n), color = 1, linewidth=1) +
+  labs(y = "Population")
+
+expectationPlotEvo
+```
+
+This has an expected population growth rate of 5%.
+
+This evolutionary scenario differs from the Kelly criterion in that the accepting types are effectively able to take many independent shares of the bet for a tiny fraction of their inclusive fitness.
+
+In a [Nature Physics paper](https://doi.org/10.1038/s41567-019-0732-0) summarising some of his work, Peters writes:
+
+> \[I\]n maximizing the expectation value - an ensemble average over all possible outcomes of the gamble - expected utility theory implicitly assumes that individuals can interact with copies of themselves, effectively in parallel universes (the other members of the ensemble). An expectation value of a non-ergodic observable physically corresponds to pooling and sharing among many entities. That may reflect what happens in a specially designed large collective, but it doesn't reflect the situation of an individual decision-maker.
+
+For a replicating entity that can diversify future bets across many offspring, they can do just this.
+
+There are a lot of wrinkles that could be thrown into this simulation. How many bets does someone have to make before they reproduce and effectively diversify their future? The more bets, the higher the chance of a poor end. There is also the question of whether bets by children would be truly independent (Imagine a highly related tribe).
+
+Now, there is one strong assumption in this simulation that I would like to highlight.
+
+I started this simulation with 10,000 accepting types. This is a sufficient number that at least some were likely to have the very large returns required to balance the. What if I needed to wait for a mutation to produce a type who would accept the bet?
+
+```{r}
+
+#| fig-cap: Population of accepting types with mutation
+#| label: fig-ergodicity-presentation-9
+
+set.seed(20191215)
+
+
+
+```
+
+### Probability matching
+
+This story hinges on one critical assumption: that risk is idiosyncratic. Diversification enables the gene to experience the ensemble average.
+
+Here is an alternative world in which such diversification is not possible. The cartoonish nature of the choice makes the result trivial, but it illustrates the strength of the assumption. It draws upon an example developed by Andrew Lo and XXX and published in the Journal of XXX to explain the evolution of probability matching.
+
+Tribbles live in a region comprising valleys and plateaus. Tribbles reproduce once in their life (producing three offspring asexually) and must choose whether to reproduce in the valley or on the plateau. This is a risky decision, however, as the valleys are affected by floods and the plateaus by drought. Each generation there is a 75 per cent probability of sun, subjecting the plateaus to drought. In such a case, all tribbles born on the plateau perish. The other 25 per cent of the time, it rains, leading to flood in the valleys and the death of those tribbles breeding there.
+
+In the long run, if all tribbles make the same choice, the tribbles will be wiped out by rain or drought. Putting this into the language of ergodicity economics, although breeding in the valley every period has an expected result of $0.7\times  3=2.25$ offspring, with an expected growth rate of 125 per cent per generation, the time average growth rate is zero as the tribbles will, in the long run, almost certainly be wiped out by a flood.
+
+What, then, is the growth maximising breeding strategy? The answer is to breed in the valley 75 per cent of the time and on the plateau 25 per cent of the time. The expected growth rate of this strategy is 25 per cent per generation, but the time average growth rate is also 25 per cent per generation.
+
+We can calculate this optimal growth rate by considering that, over the long term, the tribbles will experience droughts 75 per cent of the time and floods 25 per cent of the time. Setting q as the proportion of tribbles that breed in the valley, the growth rate over the long term is therefore:
+
+$$
+G=c\times q^{0.75}(1-q)^{0.25}\\[12pt]
+$$
+
+To find the $q$ that maximises the growth rate, we take the log of G and calculate the derivative (taking the log is not required but makes the calculation simpler).
+
+$$
+\log(G)=\log(c)+0.75\log(q)+0.25\log(1-q)\\[12pt]
+\\
+\frac{d}{dq}\log(G)=\frac{0.75}{q}-\frac{0.25}{1-q}=0\\[12pt]
+\\
+0.75(1-q)-0.25q=0\\[12pt]
+\\
+q=0.75
+$$
+
+Probability matching in this world maximises the time-average growth rate.
+
+This calculation is, again, the same as log utility.
+
+For someone with log utility as a function of number of offspring:
+
+```{=tex}
+\begin{align*}
+U(x)=0.75\times \log(cq)+0.25\times log(c-cq))\\[12pt]
+\frac{d}{dq}U(x)=0.75\times \frac{c}{cq}-0.25\times \frac{c}{c-cq}=0\\[12pt]
+0.75(1-q)-0.25q=0\\[12pt]
+q=0.75
+\end{align*}
+```
+## Idiosyncratic versus aggregate risk
+
+What I have created is two hypothetical worlds, one making the case for maximising expected value despite being in a multiplicitive world, and another where maximising the time-average growth rate is the optimal strategy. In both cases, the optimal strategy relies on the gene's eye view: in the
+
+This analysis bears some resemblance to the analysis of discount rates by Robson and Samuelson.
+
+## The psychology
+
+### An experiment
+
+Time average growth rate in additive world depends on initial wealth.
+
+Suppose you have wealth of \$100 and are offered \$50 if you win and \$40 if you lose. The time average growth rate of that single bet is a loss of 5 per cent.
+
+If you have \$10000, the time average growth rate is:
+
+$$
+(1.05\times 0.96)^{0.5} \sim 1.008
+$$
+
+```{r}
+
+choice_set <- function(initial_wealth = 100, win_amount = 50, lose_amount = 40, total_flips = 100, utility = "log", absorbing = TRUE){
+
+  # Create data frame with the following columns: flip, wealth, eu_accept, eu_reject, accept
+  decisions <- data.frame(flip = integer(), wealth = numeric(), eu_accept = numeric(), eu_reject = numeric(), eu_state = numeric(), accept = logical())
+
+  # Utility function as "log" or linear", and absorbing or not
+  if (utility == "log") {
+    utility <- function(x) {
+      ifelse(x <= 0, -Inf, log(x))
+      }
+    } else if (utility == "linear" & absorbing == "TRUE"){
+      utility <- function(x) {
+      ifelse(x <= 0, -Inf, x)
+      }
+    } else if (utility == "linear" & absorbing == "FALSE"){
+      utility <- function(x) {
+      x
+      }
+    } else {
+      stop("Utility function must be 'log' or 'linear'")
+      }
+
+  # Utility last decision
+  flip <- as.integer(total_flips)
+  min_wealth <- initial_wealth + (total_flips - 1) * (-lose_amount)
+  max_wealth <- initial_wealth + (total_flips - 1) * win_amount
+  wealth_levels <- seq(min_wealth, max_wealth, by = (win_amount + lose_amount))
+
+  for (i in 1:length(wealth_levels)) {
+
+      w <- wealth_levels[i]
+    
+      # Utility of not betting
+      eu_reject <- utility(w)
+    
+      # Expected utility of betting
+      u_win <- utility(w + win_amount)
+      u_lose <- utility(w - lose_amount)
+    
+      eu_accept <- 0.5 * (u_win + u_lose)
+
+      eu_state <- max(eu_reject, eu_accept)
+
+      accept <- (eu_reject <= eu_accept) & (eu_accept != -Inf)
+
+      decisions <- rbind(decisions, data.frame(flip = flip, wealth = w, eu_accept = eu_accept, eu_reject = eu_reject, eu_state = eu_state, accept = accept))
+  }
+
+  # Dynamic programming for utility of decisions before last
+  for (t in (total_flips-1):1) {
+    min_wealth <- initial_wealth + (t-1) * (-lose_amount)
+    max_wealth <- initial_wealth + (t-1) * win_amount
+    wealth_levels <- seq(min_wealth, max_wealth, by = (win_amount + lose_amount))
+    for (i in 1:length(wealth_levels)) {
+
+      w <- wealth_levels[i]
+    
+      # Utility of not betting
+      eu_reject <- utility(w)
+    
+      # Expected utility of betting
+      win <- decisions[decisions$flip == t+1 & decisions$wealth == w + win_amount, "eu_state"]
+      lose <- decisions[decisions$flip == t+1 & decisions$wealth == w - lose_amount, "eu_state"]
+    
+      eu_accept <- 0.5 * (win + lose)
+
+      eu_state <- max(eu_reject, eu_accept)
+
+      accept <- (eu_reject <= eu_accept) & (eu_accept != -Inf)
+    
+      decisions <- rbind(decisions, data.frame(flip = t, wealth = w, eu_accept = eu_accept, eu_reject = eu_reject, eu_state = eu_state, accept = accept))
+      }
+    }
+  decisions
+}
+
+```
+
+```{r}
+log_decisions <- choice_set(initial_wealth = 110)
+
+# Filter the dataframe for just the first 10 flips
+first_10_flips_df <- log_decisions %>% filter(flip <= 10)
+
+# Create the plot
+ggplot(first_10_flips_df, aes(x = flip, y = wealth, color = as.factor(accept))) +
+  geom_point(alpha = 1) +
+  scale_color_manual(values = c("TRUE" = "green", "FALSE" = "red"),
+                     labels = c("Accepted", "Rejected"),
+                     limits = c("TRUE", "FALSE")) + # Explicitly set limits to include both TRUE and FALSE
+  labs(x = "Flip Number", y = "Wealth", title = "Decisions to Accept or Reject Bet (First 10 Flips)") +
+  theme_minimal() +
+  theme(legend.title = element_blank()) +
+  scale_x_continuous(breaks = 1:10) # Ensure x-axis has integer breaks for flips
+
+```
+
+What if agents could recover from less than zero wealth? This would not change their response to the bet
+
+What would someone with additive utility do? That is, someone who maximises the expected value of their wealth.
+
+```{r}
+
+add_decisions <- choice_set(initial_wealth = 100, utility = "linear")
+
+# Filter the dataframe for just the first 10 flips
+first_10_flips_df <- add_decisions %>% filter(flip <= 10)
+
+# Create the plot
+ggplot(first_10_flips_df, aes(x = flip, y = wealth, color = as.factor(accept))) +
+  geom_point(alpha = 1) +
+  scale_color_manual(values = c("TRUE" = "green", "FALSE" = "red"),
+                     labels = c("Accepted", "Rejected"),
+                     limits = c("TRUE", "FALSE")) + # Explicitly set limits to include both TRUE and FALSE
+  labs(x = "Flip Number", y = "Wealth", title = "Decisions to Accept or Reject Bet (First 10 Flips)") +
+  theme_minimal() +
+  theme(legend.title = element_blank()) +
+  scale_x_continuous(breaks = 1:10) # Ensure x-axis has integer breaks for flips
+
+
+```
+
+What is there are 1000 flips in the additive scenario, giving a long period to ensure a gain?
+
+```{r}
+
+add_decisions <- choice_set(initial_wealth = 100, utility = "linear", total_flips = 250)
+
+# Filter the dataframe for just the first 10 flips
+first_10_flips_df <- add_decisions %>% filter(flip <= 10)
+
+# Create the plot
+ggplot(first_10_flips_df, aes(x = flip, y = wealth, color = as.factor(accept))) +
+  geom_point(alpha = 1) +
+  scale_color_manual(values = c("TRUE" = "green", "FALSE" = "red"),
+                     labels = c("Accepted", "Rejected"),
+                     limits = c("TRUE", "FALSE")) + # Explicitly set limits to include both TRUE and FALSE
+  labs(x = "Flip Number", y = "Wealth", title = "Decisions to Accept or Reject Bet (First 10 Flips)") +
+  theme_minimal() +
+  theme(legend.title = element_blank()) +
+  scale_x_continuous(breaks = 1:10) # Ensure x-axis has integer breaks for flips
+```
+
+```{mermaid}
+
+graph TD
+    A[Start: 100] --> B{Flip 1}
+    B -->|Win| C[150]
+    B -->|Lose| D[60]
+    
+    C --> E{Flip 2}
+    D --> F{Flip 2}
+    
+    E -->|Win| G[200]
+    E -->|Lose| H[110]
+    F -->|Win| I[110]
+    F -->|Lose| J[20]
+    
+    G --> K{Flip 3}
+    H --> L{Flip 3}
+    I --> M{Flip 3}
+    J --> N{Flip 3}
+    
+    K -->|Win| O[250]
+    K -->|Lose| P[160]
+    L -->|Win| Q[160]
+    L -->|Lose| R[70]
+    M -->|Win| S[160]
+    M -->|Lose| T[70]
+    N -->|Win| U[70]
+    N -->|Lose| V[-20]
+    
+    O --> W{Flip 4}
+    P --> X{Flip 4}
+    Q --> Y{Flip 4}
+    R --> Z{Flip 4}
+    S --> AA{Flip 4}
+    T --> AB{Flip 4}
+    U --> AC{Flip 4}
+    V --> AD{Flip 4}
+    
+    W -->|Win| AE[300]
+    W -->|Lose| AF[210]
+    X -->|Win| AG[210]
+    X -->|Lose| AH[120]
+    Y -->|Win| AI[210]
+    Y -->|Lose| AJ[120]
+    Z -->|Win| AK[120]
+    Z -->|Lose| AL[30]
+    AA -->|Win| AM[210]
+    AA -->|Lose| AN[120]
+    AB -->|Win| AO[120]
+    AB -->|Lose| AP[30]
+    AC -->|Win| AQ[120]
+    AC -->|Lose| AR[30]
+    AD -->|Win| AS[30]
+    AD -->|Lose| AT[-60]
+    
+    AE --> AU[...]
+    AF --> AV[...]
+    AG --> AW[...]
+    AH --> AX[...]
+    AI --> AY[...]
+    AJ --> AZ[...]
+    AK --> BA[...]
+    AL --> BB[...]
+    AM --> BC[...]
+    AN --> BD[...]
+    AO --> BE[...]
+    AP --> BF[...]
+    AQ --> BG[...]
+    AR --> BH[...]
+    AS --> BI[...]
+    AT --> BJ[...]
+
+```
+
+## Psychology
+
+### Time horizon in an additive world
+
+I earlier stated that someone with log utility approximates a time-average growth rate maximiser.
+
+If they are additive or multiplicative there is no time - they could equally be simultaneous.
+
+What if they proceed through time, seeing the result of each bet before deciding on the next?
+
+We are introducing a wealth effect.
+
+Chance of ruin - that introduces the need for log utility.
+
+Consider someone who knows that they have an option to accept a sequence of 100 50:50 bets to win .
+
+To the extent that zero is ruinous when reached, preventing taking future bets, they would reject.
+
+What if could take one at a time? This is a different problem, but is solved in a similar way.
+
+## New experiment
+
+Uncertainty more important in the multiplicative condition - if get wrong when wealth high, suffer large consequence -

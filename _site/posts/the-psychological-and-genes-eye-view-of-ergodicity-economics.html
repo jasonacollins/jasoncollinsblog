@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.550">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Collins">
+<meta name="dcterms.date" content="2024-07-05">
+
+<title>Jason Collins blog - The psychological and genes’ eye view of ergodicity economics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C50MEPDMZ9"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
+</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Jason Collins blog - The psychological and genes’ eye view of ergodicity economics">
+<meta property="og:description" content="Behavioural and data science. Economics. Evolutionary biology.">
+<meta property="og:site_name" content="Jason Collins blog">
+<meta name="twitter:title" content="Jason Collins blog - The psychological and genes’ eye view of ergodicity economics">
+<meta name="twitter:description" content="Behavioural and data science. Economics. Evolutionary biology.">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Jason Collins blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../subscribe.html"> 
+<span class="menu-text">Subscribe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/jasonacollins"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The psychological and genes’ eye view of ergodicity economics</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jason Collins </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 5, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This post is my plan for a presentation at the Foundation of Utility and Risk Conference. I drew on the material in my previous posts laying out the foundations of ergodicity economics and examining what ergodicity economics states about risk preferences. This may vary from delivery - economics presentations are easily waylaid.</p>
+<p>–</p>
+<p>At times, I wonder whether what I am presenting to you today is an exercise in shooting fish in a barrel. The claims made by the advocates of “ergodicity economics” are often overblown and extend far beyond what is justified.</p>
+<p>But, underneath the bluster, I feel these are interesting fish to shoot. And despite some other attempts to shoot these fish, they still seem to be swimming around. There are a couple of published critiques of ergodicity economics, one by Doctor et al <span class="citation" data-cites="doctor2020">(<a href="#ref-doctor2020" role="doc-biblioref">2020</a>)</span> in Nature Physics and one more recent by Matthew Ford and John Kay <span class="citation" data-cites="ford2023">(<a href="#ref-ford2023" role="doc-biblioref">2023</a>)</span> in Econ Journal Watch, but despite these I still feel the central idea in ergodicity economics is interesting. So, I’m going to steelman the case for ergodicity economics, before laying some psychological and evolutionary observations. This work represents the early thinking for an in-progress working paper.</p>
+<p>Since I developed the first cut for this presentation, a new experiment in this space has been released, and its distracted me somewhat, so I’m going to distract you with it also. My thinking about this experiment is still in its early stages and I want to focus on its implications if it is true rather than the weaknesses that might undermine the result.</p>
+<p>So let me start with the classic example. You may have seen this before.</p>
+<p><em>Suppose you are offered a bet on the flip of a coin. You win 50% of your wealth on heads. You lose 40% of your wealth on tails. Do you take the bet?</em></p>
+<p>The expected value of the bet is 5 per cent of your wealth. Continue playing for many rounds and your expected wealth is very large.</p>
+<p>However, what is the most probable outcome over many repeats of this bet?</p>
+<p>This plot is the result of a simulation of 10,000 people, each starting with $100, playing this bet 100 times. The black line is the average wealth of the population. The red lines are paths of the first 20 people in the simulation.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the required packages</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(scales) <span class="co">#use the percent scale later</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr) <span class="co">#use the filter function later</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a function for running of the bets.</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>bet <span class="ot">&lt;-</span> <span class="cf">function</span>(p, n, t, <span class="at">start=</span><span class="dv">100</span>, gain, loss, <span class="at">ergodic=</span><span class="cn">FALSE</span>, <span class="at">absorbing=</span><span class="cn">FALSE</span>){</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="co">#p is probability of a gain</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="co">#n is how many people in the simulation</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="co">#t is the number of coin flips simulated for each person</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="co">#start is the number of dollars each person starts with</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="co">#if ergodic=FALSE, gain and loss are the multipliers</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="co">#if ergodic=TRUE, gain and loss are the dollar amounts</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="co">#if absorbing=TRUE, zero wealth ends the series of flips for that person</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  params <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(<span class="fu">c</span>(p, n, t, start, gain, loss, ergodic, absorbing))</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rownames</span>(params) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"p"</span>, <span class="st">"n"</span>, <span class="st">"t"</span>, <span class="st">"start"</span>, <span class="st">"gain"</span>, <span class="st">"loss"</span>, <span class="st">"ergodic"</span>, <span class="st">"absorbing"</span>)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">colnames</span>(params) <span class="ot">&lt;-</span> <span class="st">"value"</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  sim <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="at">data =</span> <span class="cn">NA</span>, <span class="at">nrow =</span> t, <span class="at">ncol =</span> n)</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(ergodic<span class="sc">==</span><span class="cn">FALSE</span>){</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> (j <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span>n) {</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>      x <span class="ot">&lt;-</span> start</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>      <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span>t) {</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>      outcome <span class="ot">&lt;-</span> <span class="fu">rbinom</span>(<span class="at">n=</span><span class="dv">1</span>, <span class="at">size=</span><span class="dv">1</span>, <span class="at">prob=</span>p)</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>      <span class="fu">ifelse</span>(outcome<span class="sc">==</span><span class="dv">0</span>, x <span class="ot">&lt;-</span> x<span class="sc">*</span>loss, x <span class="ot">&lt;-</span> x<span class="sc">*</span>gain)</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>      sim[i,j] <span class="ot">&lt;-</span> x</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a> <span class="cf">if</span>(ergodic<span class="sc">==</span><span class="cn">TRUE</span>){</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> (j <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span>n) {</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>      x <span class="ot">&lt;-</span> start </span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>      <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span>t) {</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>      outcome <span class="ot">&lt;-</span> <span class="fu">rbinom</span>(<span class="at">n=</span><span class="dv">1</span>, <span class="at">size=</span><span class="dv">1</span>, <span class="at">prob=</span>p)</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>      <span class="fu">ifelse</span>(outcome<span class="sc">==</span><span class="dv">0</span>, x <span class="ot">&lt;-</span> x<span class="sc">-</span>loss, x <span class="ot">&lt;-</span> x<span class="sc">+</span>gain)</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>      sim[i,j] <span class="ot">&lt;-</span> x</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span>(absorbing<span class="sc">==</span><span class="cn">TRUE</span>){</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span>(x<span class="sc">&lt;</span><span class="dv">0</span>){</span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>          sim[i<span class="sc">:</span>t,j] <span class="ot">&lt;-</span> <span class="dv">0</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>  sim <span class="ot">&lt;-</span> <span class="fu">rbind</span>(<span class="fu">rep</span>(start,n), sim) <span class="co">#placing the starting sum in the first row</span></span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>  sim <span class="ot">&lt;-</span> <span class="fu">cbind</span>(<span class="fu">seq</span>(<span class="dv">0</span>,t), sim) <span class="co">#number each period</span></span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>  sim <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(sim)</span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">colnames</span>(sim) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"period"</span>, <span class="fu">paste0</span>(<span class="st">"p"</span>, <span class="dv">1</span><span class="sc">:</span>n))</span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>  sim <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">params=</span>params, <span class="at">sim=</span>sim)</span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>  sim</span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate 10,000 people who accept a series of 1000 50:50 bets to win \$50 or lose \$40 from a starting wealth of \$100.</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">20191215</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>nonErgodic <span class="ot">&lt;-</span> <span class="fu">bet</span>(<span class="at">p=</span><span class="fl">0.5</span>, <span class="at">n=</span><span class="dv">10000</span>, <span class="at">t=</span><span class="dv">1000</span>, <span class="at">gain=</span><span class="fl">1.5</span>, <span class="at">loss=</span><span class="fl">0.6</span>, <span class="at">ergodic=</span><span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a function to generate summary statistics.</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>summaryStats <span class="ot">&lt;-</span> <span class="cf">function</span>(sim, <span class="at">t=</span><span class="dv">100</span>){</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  meanW <span class="ot">&lt;-</span> <span class="fu">mean</span>(<span class="fu">as.matrix</span>(sim<span class="sc">$</span>sim[(t<span class="sc">+</span><span class="dv">1</span>),<span class="dv">2</span><span class="sc">:</span>(sim<span class="sc">$</span>params[<span class="dv">2</span>,]<span class="sc">+</span><span class="dv">1</span>)])) <span class="co"># mean wealth</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>  medianW <span class="ot">&lt;-</span> <span class="fu">median</span>(<span class="fu">as.matrix</span>(sim<span class="sc">$</span>sim[(t<span class="sc">+</span><span class="dv">1</span>),<span class="dv">2</span><span class="sc">:</span>(sim<span class="sc">$</span>params[<span class="dv">2</span>,]<span class="sc">+</span><span class="dv">1</span>)])) <span class="co"># median wealth</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  num99 <span class="ot">&lt;-</span> <span class="fu">sum</span>(sim<span class="sc">$</span>sim[(t<span class="sc">+</span><span class="dv">1</span>),<span class="dv">2</span><span class="sc">:</span>(sim<span class="sc">$</span>params[<span class="dv">2</span>,]<span class="sc">+</span><span class="dv">1</span>)]<span class="sc">&lt;</span>(sim<span class="sc">$</span>params[<span class="dv">4</span>,]<span class="sc">/</span><span class="dv">100</span>)) <span class="co">#number who lost more than 99% of their wealth</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>  per99 <span class="ot">&lt;-</span> num99<span class="sc">/</span>sim<span class="sc">$</span>params[<span class="dv">2</span>,]<span class="sc">*</span><span class="dv">100</span> <span class="co">#percentage who lost more than 99% of their wealth</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>  numGain <span class="ot">&lt;-</span> <span class="fu">sum</span>(sim<span class="sc">$</span>sim[(t<span class="sc">+</span><span class="dv">1</span>),<span class="dv">2</span><span class="sc">:</span>(sim<span class="sc">$</span>params[<span class="dv">2</span>,]<span class="sc">+</span><span class="dv">1</span>)]<span class="sc">&gt;</span>sim<span class="sc">$</span>params[<span class="dv">4</span>,]) <span class="co">#number who gain</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  perGain <span class="ot">&lt;-</span> numGain<span class="sc">/</span>sim<span class="sc">$</span>params[<span class="dv">2</span>,]<span class="sc">*</span><span class="dv">100</span> <span class="co">#percentage who gain</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  num100 <span class="ot">&lt;-</span> <span class="fu">sum</span>(sim<span class="sc">$</span>sim[(t<span class="sc">+</span><span class="dv">1</span>),<span class="dv">2</span><span class="sc">:</span>(sim<span class="sc">$</span>params[<span class="dv">2</span>,]<span class="sc">+</span><span class="dv">1</span>)]<span class="sc">&gt;</span>(sim<span class="sc">$</span>params[<span class="dv">4</span>,]<span class="sc">*</span><span class="dv">100</span>)) <span class="co">#number who increase their wealth more than 100-fold</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  winner <span class="ot">&lt;-</span> <span class="fu">max</span>(sim<span class="sc">$</span>sim[(t<span class="sc">+</span><span class="dv">1</span>),<span class="dv">2</span><span class="sc">:</span>(sim<span class="sc">$</span>params[<span class="dv">2</span>,]<span class="sc">+</span><span class="dv">1</span>)]) <span class="co">#wealth of wealthiest person</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  winnerShare <span class="ot">&lt;-</span> winner <span class="sc">/</span> <span class="fu">sum</span>(sim<span class="sc">$</span>sim[(t<span class="sc">+</span><span class="dv">1</span>),<span class="dv">2</span><span class="sc">:</span>(sim<span class="sc">$</span>params[<span class="dv">2</span>,]<span class="sc">+</span><span class="dv">1</span>)]) <span class="co">#wealth share of wealthiest person</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>  stats <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">meanW =</span> meanW, <span class="at">medianW =</span> medianW, <span class="at">num99 =</span> num99, <span class="at">per99 =</span> per99, <span class="at">numGain =</span> numGain, <span class="at">perGain =</span> perGain, <span class="at">num100 =</span> num100, <span class="at">winner =</span> winner, <span class="at">winnerShare =</span> winnerShare)</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>nonErgodicStats <span class="ot">&lt;-</span> <span class="fu">summaryStats</span>(nonErgodic, <span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a function for plotting the average wealth of the population over a set number of periods.</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>averagePlot <span class="ot">&lt;-</span> <span class="cf">function</span>(sim, <span class="at">t=</span><span class="dv">100</span>){</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  basePlot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(sim<span class="sc">$</span>sim[<span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span>(t<span class="sc">+</span><span class="dv">1</span>)),], <span class="fu">aes</span>(<span class="at">x=</span>period)) <span class="sc">+</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Average Wealth ($)"</span>)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  averagePlot <span class="ot">&lt;-</span> basePlot <span class="sc">+</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> <span class="fu">rowMeans</span>(sim<span class="sc">$</span>sim[<span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span>(t<span class="sc">+</span><span class="dv">1</span>)),<span class="dv">2</span><span class="sc">:</span>(sim<span class="sc">$</span>params[<span class="dv">2</span>,]<span class="sc">+</span><span class="dv">1</span>)])), <span class="at">color =</span> <span class="dv">1</span>, <span class="at">linewidth=</span><span class="dv">1</span>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  averagePlot</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a function for plotting the path of individuals in the population over a set number of flips.</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>individualPlot <span class="ot">&lt;-</span> <span class="cf">function</span>(sim, t, people){</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>  basePlot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(sim<span class="sc">$</span>sim[<span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span>(t<span class="sc">+</span><span class="dv">1</span>)),], <span class="fu">aes</span>(<span class="at">x=</span>period)) <span class="sc">+</span></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Wealth ($)"</span>)</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span>people) {</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>    basePlot <span class="ot">&lt;-</span> basePlot <span class="sc">+</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>      <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> <span class="sc">!!</span>sim<span class="sc">$</span>sim[<span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span>(t<span class="sc">+</span><span class="dv">1</span>)),(i<span class="sc">+</span><span class="dv">1</span>)]), <span class="at">color =</span> <span class="dv">2</span>)</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>basePlot</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>jointPlot <span class="ot">&lt;-</span> <span class="cf">function</span>(sim, t, subset) {</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">individualPlot</span>(sim, t, subset) <span class="sc">+</span></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> <span class="fu">rowMeans</span>(sim<span class="sc">$</span>sim[<span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span>(t<span class="sc">+</span><span class="dv">1</span>)),<span class="dv">2</span><span class="sc">:</span>(sim<span class="sc">$</span>params[<span class="dv">2</span>,]<span class="sc">+</span><span class="dv">1</span>)])), <span class="at">color =</span> <span class="dv">1</span>, <span class="at">linewidth=</span><span class="dv">1</span>)</span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>nonErgodicPlot <span class="ot">&lt;-</span> <span class="fu">jointPlot</span>(<span class="at">sim=</span>nonErgodic, <span class="at">t=</span><span class="dv">100</span>, <span class="at">subset=</span><span class="dv">20</span>)</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>nonErgodicPlot</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-ergodicity-presentation-1" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-ergodicity-presentation-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Plot of first 20 people against average wealth
+</figcaption>
+<div aria-describedby="fig-ergodicity-presentation-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-1-1.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1"><img src="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-1-1.png" class="img-fluid figure-img" width="672"></a>
+</div>
+</figure>
+</div>
+</div>
+</div>
+<p>The sudden drop in mean wealth toward the end of the sequence is an interesting feature that I will ignore for the moment. But look at the red lines. At the end of 100 periods, all are below the mean wealth, and only two of the 20 agents have enough wealth that you can discern the lines from the x-axis.</p>
+<p>Let us now use a log scale to enable us to see the pattern more clearly.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot both the average outcome and first twenty people on the same plot.</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>logJointPlot <span class="ot">&lt;-</span> <span class="cf">function</span>(sim, t, subset) {</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">individualPlot</span>(sim, t, subset) <span class="sc">+</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> <span class="fu">rowMeans</span>(sim<span class="sc">$</span>sim[<span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span>(t<span class="sc">+</span><span class="dv">1</span>)),<span class="dv">2</span><span class="sc">:</span>(sim<span class="sc">$</span>params[<span class="dv">2</span>,]<span class="sc">+</span><span class="dv">1</span>)])), <span class="at">color =</span> <span class="dv">1</span>, <span class="at">linewidth=</span><span class="dv">1</span>)<span class="sc">+</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_y_log10</span>(<span class="at">breaks =</span> <span class="fu">c</span>(<span class="fl">0.0001</span>, <span class="fl">0.1</span>, <span class="dv">100</span>, <span class="dv">100000</span>), <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"0.0001"</span>, <span class="st">"0.1"</span>, <span class="st">"100"</span>, <span class="st">"100000"</span>))</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>nonErgodicPlot <span class="ot">&lt;-</span> <span class="fu">logJointPlot</span>(<span class="at">sim=</span>nonErgodic, <span class="at">t=</span><span class="dv">100</span>, <span class="at">subset=</span><span class="dv">20</span>)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>nonErgodicPlot</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-ergodicity-presentation-2" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-ergodicity-presentation-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Plot of first 20 people against average wealth (log scale)
+</figcaption>
+<div aria-describedby="fig-ergodicity-presentation-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-2-1.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2"><img src="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-2-1.png" class="img-fluid figure-img" width="672"></a>
+</div>
+</figure>
+</div>
+</div>
+</div>
+<p>All 20 of these people are below the mean wealth. Only two are ahead of where they started.</p>
+<p>These 20 people are representative of the broader population. Across the 10,000 agents in this simulation, 86 per cent lost money. The mean wealth was over $16,000, but the median wealth was less than one dollar.</p>
+<p>What is the intuition behind this? The black line simply represents the realisation of the expected gain of 5 per flip.</p>
+<p>But for the red lines, over the long term, an individual will tend to get around half heads and half tails. As the number of flips goes to infinite, the proportion of heads or tails “<a href="https://en.wikipedia.org/wiki/Almost_surely">almost surely</a>” converges to 0.5.</p>
+<p>This means that each person will tend to get a 50% increase half the time (or 1.5 times the initial wealth), and a 40% decrease half the time (60% of the initial wealth). The time average growth in wealth for an individual is <span class="math inline">(1.5\times 0.6)^{0.5} \sim 0.95</span>, or approximately a 5% decline in wealth each period. Every individual’s wealth will tend to decay at that rate. The black line is held up by a very lucky few.</p>
+<p>A system where the time average converges to the ensemble average (our population mean) is known as an ergodic system. The system of gambles above is non-ergodic as the time average and the ensemble average diverge.</p>
+<p>This leads to the following claim: as we cannot individually experience the ensemble average, it is not what humans consider in their decision making. Instead, people maximise the time average growth rate.</p>
+<p>Contrast this with the expected utility approach, where the utility of each outcome is weighted by its probability and summed to give the expected utility. Expected utility theory would be consistent with both accepting and rejecting the bet depending on the particular utility function.</p>
+<p>There is an incidental alignment between ergodicity economics and expected utility theory. If a person has log utility - that is, they maximise the probability-weighted logarithm of the possible outcomes - they will maximise the time average growth rate.</p>
+<section id="what-are-the-implications-of-this-finding" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-the-implications-of-this-finding">What are the implications of this finding?</h2>
+<p>The advocates of ergodicity economics have then applied this finding to a range of economics problems.</p>
+<p>Peters and Insurance</p>
+<section id="time-preference-and-preference-reversals" class="level3">
+<h3 class="anchored" data-anchor-id="time-preference-and-preference-reversals">Time preference and preference reversals</h3>
+<p>The classic normative model for time preference in</p>
+<p>The failure of this model to account for the particularly high rates of discounting and preference reversals led to the development of descriptive models such as the quasi-hyperbolic discounting model (ref Laibson).</p>
+<p>Preference reversals</p>
+</section>
+<section id="overweighting-of-small" class="level3">
+<h3 class="anchored" data-anchor-id="overweighting-of-small">Overweighting of small</h3>
+<p>Several explanations for experimental phenomena have also been offered under the banner of ergodocity economics, although they do not always rely on the maximisation of the growth rate.</p>
+<p>Overweighting of small probabilities (the preference curve)</p>
+</section>
+</section>
+<section id="an-evolutionary-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="an-evolutionary-analysis">An evolutionary analysis</h2>
+<section id="a-basic-model" class="level3">
+<h3 class="anchored" data-anchor-id="a-basic-model">A basic model</h3>
+<p>Suppose two types of agents lived in a non-ergodic world.</p>
+<p>One type of agent seeks to maximise the time-average growth rate of its number of descendants. This desire to maximise the time-average growth rate is a function of its genotype, and is transmitted to its children.</p>
+<p>The other type of agent seeks to maxmise the expected number of offspring. Similarly, this agent’s preferences are set genetically.</p>
+<p>In the environment in which these agents live, they have a choice of strategy. One strategy is to have a single offspring with certainty. The other strategy is to have</p>
+<p>These agents could choose to have either one offspring, or they could take a 50:50 bet buy which they have a 50 per cent of having 0.6 offspring if they lose and . One type always accepted the bet, the other always rejected it. Which would come to dominate the population?</p>
+<p>An intuitive reaction to the above examples might be that while the accepting type might have a short-term gain, in the long run they are almost surely going to drive themselves extinct. There are a couple of scenarios where that would be the case.</p>
+<p>One is where the children of a particular type were all bound to the same coin flip as their siblings for subsequent bets. Suppose one individual had over 1 million children after 100 periods, comprising around 70% of the population (which is what they would have if we borrowed the above simulations for our evolutionary scenario, with one coin flip per generation). If all had to bet on exactly the same coin flip in period 101 and beyond, they are doomed.</p>
+<p>If, however, each child faces their own coin flip (experiencing, say, idiosyncratic risks), that crash never comes. Instead, the risk of those flips is diversified and the growth of the population more closely resembles the ensemble average, even over the very long term.</p>
+<p>Below is a chart of population for a simulation of 100 generations of the accepting population, starting with a population of 10,000. For this simulation, I have assumed that at the end of each period, the accepting types will have a number of children equal to the proportional increase in their wealth. For example, if they flip heads, they will have 1.5 children, For tails, they will have 0.6 children. They then die. (The simulation works out largely the same if I make the number of children probabilistic in accord with those numbers.) Each child takes their own flip.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">20191215</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>evolutionBet <span class="ot">&lt;-</span> <span class="cf">function</span>(p, n, t, gain, loss){</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="co">#p is probability of a gain</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="co">#region  is how many people in the simulation</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="co">#t is the number of generations simulated</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>  params <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(<span class="fu">c</span>(p, n, t, gain, loss))</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rownames</span>(params) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"p"</span>, <span class="st">"n"</span>, <span class="st">"t"</span>, <span class="st">"gain"</span>, <span class="st">"loss"</span>)</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">colnames</span>(params) <span class="ot">&lt;-</span> <span class="st">"value"</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>  sim <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="at">data =</span> <span class="cn">NA</span>, <span class="at">nrow =</span> t, <span class="at">ncol =</span> <span class="dv">1</span>)</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>  sim <span class="ot">&lt;-</span> <span class="fu">rbind</span>(n, sim) <span class="co">#placing the starting population in the first row</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span>t) {</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> (j <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">round</span>(n)) {</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>      outcome <span class="ot">&lt;-</span> <span class="fu">rbinom</span>(<span class="at">n=</span><span class="dv">1</span>, <span class="at">size=</span><span class="dv">1</span>, <span class="at">prob=</span>p)</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>      <span class="fu">ifelse</span>(outcome<span class="sc">==</span><span class="dv">0</span>, x <span class="ot">&lt;-</span> loss, x <span class="ot">&lt;-</span> gain)</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>      n <span class="ot">&lt;-</span> n <span class="sc">+</span> (x<span class="dv">-1</span>)</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>    n <span class="ot">&lt;-</span> <span class="fu">round</span>(n)</span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>    sim[i<span class="sc">+</span><span class="dv">1</span>] <span class="ot">&lt;-</span> n <span class="co">#"+1" as have starting population in first row</span></span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a>  sim <span class="ot">&lt;-</span> <span class="fu">cbind</span>(<span class="fu">seq</span>(<span class="dv">0</span>,t), sim) <span class="co">#number each period</span></span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>  sim <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(sim, <span class="at">row.names=</span><span class="cn">NULL</span>)</span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">colnames</span>(sim) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"period"</span>, <span class="st">"n"</span>)</span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>  sim <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">params=</span>params, <span class="at">sim=</span>sim)</span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>  sim</span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>evolution <span class="ot">&lt;-</span> <span class="fu">evolutionBet</span>(<span class="at">p=</span><span class="fl">0.5</span>, <span class="at">n=</span><span class="dv">10000</span>, <span class="at">t=</span><span class="dv">100</span>, <span class="at">gain=</span><span class="fl">1.5</span>, <span class="at">loss=</span><span class="fl">0.6</span>) <span class="co">#more than 100 periods can take a very long time, simulation slows markedly as population grows</span></span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-35"><a href="#cb7-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the population growth for the evolutionary scenario (Figure 8).</span></span>
+<span id="cb7-36"><a href="#cb7-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a>basePlotEvo <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(evolution<span class="sc">$</span>sim[<span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">101</span>),], <span class="fu">aes</span>(<span class="at">x=</span>period))</span>
+<span id="cb7-38"><a href="#cb7-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-39"><a href="#cb7-39" aria-hidden="true" tabindex="-1"></a>expectationPlotEvo <span class="ot">&lt;-</span> basePlotEvo <span class="sc">+</span></span>
+<span id="cb7-40"><a href="#cb7-40" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y=</span>n), <span class="at">color =</span> <span class="dv">1</span>, <span class="at">linewidth=</span><span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb7-41"><a href="#cb7-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Population"</span>)</span>
+<span id="cb7-42"><a href="#cb7-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-43"><a href="#cb7-43" aria-hidden="true" tabindex="-1"></a>expectationPlotEvo</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div id="fig-ergodicity-presentation-8" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-ergodicity-presentation-8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Population of accepting types
+</figcaption>
+<div aria-describedby="fig-ergodicity-presentation-8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-8-1.png" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3"><img src="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-8-1.png" class="img-fluid figure-img" width="672"></a>
+</div>
+</figure>
+</div>
+</div>
+</div>
+<p>This has an expected population growth rate of 5%.</p>
+<p>This evolutionary scenario differs from the Kelly criterion in that the accepting types are effectively able to take many independent shares of the bet for a tiny fraction of their inclusive fitness.</p>
+<p>In a <a href="https://doi.org/10.1038/s41567-019-0732-0">Nature Physics paper</a> summarising some of his work, Peters writes:</p>
+<blockquote class="blockquote">
+<p>[I]n maximizing the expectation value - an ensemble average over all possible outcomes of the gamble - expected utility theory implicitly assumes that individuals can interact with copies of themselves, effectively in parallel universes (the other members of the ensemble). An expectation value of a non-ergodic observable physically corresponds to pooling and sharing among many entities. That may reflect what happens in a specially designed large collective, but it doesn’t reflect the situation of an individual decision-maker.</p>
+</blockquote>
+<p>For a replicating entity that can diversify future bets across many offspring, they can do just this.</p>
+<p>There are a lot of wrinkles that could be thrown into this simulation. How many bets does someone have to make before they reproduce and effectively diversify their future? The more bets, the higher the chance of a poor end. There is also the question of whether bets by children would be truly independent (Imagine a highly related tribe).</p>
+<p>Now, there is one strong assumption in this simulation that I would like to highlight.</p>
+<p>I started this simulation with 10,000 accepting types. This is a sufficient number that at least some were likely to have the very large returns required to balance the. What if I needed to wait for a mutation to produce a type who would accept the bet?</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| fig-cap: Population of accepting types with mutation</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-ergodicity-presentation-9</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">20191215</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="probability-matching" class="level3">
+<h3 class="anchored" data-anchor-id="probability-matching">Probability matching</h3>
+<p>This story hinges on one critical assumption: that risk is idiosyncratic. Diversification enables the gene to experience the ensemble average.</p>
+<p>Here is an alternative world in which such diversification is not possible. The cartoonish nature of the choice makes the result trivial, but it illustrates the strength of the assumption. It draws upon an example developed by Andrew Lo and XXX and published in the Journal of XXX to explain the evolution of probability matching.</p>
+<p>Tribbles live in a region comprising valleys and plateaus. Tribbles reproduce once in their life (producing three offspring asexually) and must choose whether to reproduce in the valley or on the plateau. This is a risky decision, however, as the valleys are affected by floods and the plateaus by drought. Each generation there is a 75 per cent probability of sun, subjecting the plateaus to drought. In such a case, all tribbles born on the plateau perish. The other 25 per cent of the time, it rains, leading to flood in the valleys and the death of those tribbles breeding there.</p>
+<p>In the long run, if all tribbles make the same choice, the tribbles will be wiped out by rain or drought. Putting this into the language of ergodicity economics, although breeding in the valley every period has an expected result of <span class="math inline">0.7\times  3=2.25</span> offspring, with an expected growth rate of 125 per cent per generation, the time average growth rate is zero as the tribbles will, in the long run, almost certainly be wiped out by a flood.</p>
+<p>What, then, is the growth maximising breeding strategy? The answer is to breed in the valley 75 per cent of the time and on the plateau 25 per cent of the time. The expected growth rate of this strategy is 25 per cent per generation, but the time average growth rate is also 25 per cent per generation.</p>
+<p>We can calculate this optimal growth rate by considering that, over the long term, the tribbles will experience droughts 75 per cent of the time and floods 25 per cent of the time. Setting q as the proportion of tribbles that breed in the valley, the growth rate over the long term is therefore:</p>
+<p><span class="math display">
+G=c\times q^{0.75}(1-q)^{0.25}\\[12pt]
+</span></p>
+<p>To find the <span class="math inline">q</span> that maximises the growth rate, we take the log of G and calculate the derivative (taking the log is not required but makes the calculation simpler).</p>
+<p><span class="math display">
+\log(G)=\log(c)+0.75\log(q)+0.25\log(1-q)\\[12pt]
+\\
+\frac{d}{dq}\log(G)=\frac{0.75}{q}-\frac{0.25}{1-q}=0\\[12pt]
+\\
+0.75(1-q)-0.25q=0\\[12pt]
+\\
+q=0.75
+</span></p>
+<p>Probability matching in this world maximises the time-average growth rate.</p>
+<p>This calculation is, again, the same as log utility.</p>
+<p>For someone with log utility as a function of number of offspring:</p>
+<span class="math display">\begin{align*}
+U(x)=0.75\times \log(cq)+0.25\times log(c-cq))\\[12pt]
+\frac{d}{dq}U(x)=0.75\times \frac{c}{cq}-0.25\times \frac{c}{c-cq}=0\\[12pt]
+0.75(1-q)-0.25q=0\\[12pt]
+q=0.75
+\end{align*}</span>
+</section>
+</section>
+<section id="idiosyncratic-versus-aggregate-risk" class="level2">
+<h2 class="anchored" data-anchor-id="idiosyncratic-versus-aggregate-risk">Idiosyncratic versus aggregate risk</h2>
+<p>What I have created is two hypothetical worlds, one making the case for maximising expected value despite being in a multiplicitive world, and another where maximising the time-average growth rate is the optimal strategy. In both cases, the optimal strategy relies on the gene’s eye view: in the</p>
+<p>This analysis bears some resemblance to the analysis of discount rates by Robson and Samuelson.</p>
+</section>
+<section id="the-psychology" class="level2">
+<h2 class="anchored" data-anchor-id="the-psychology">The psychology</h2>
+<section id="an-experiment" class="level3">
+<h3 class="anchored" data-anchor-id="an-experiment">An experiment</h3>
+<p>Time average growth rate in additive world depends on initial wealth.</p>
+<p>Suppose you have wealth of $100 and are offered $50 if you win and $40 if you lose. The time average growth rate of that single bet is a loss of 5 per cent.</p>
+<p>If you have $10000, the time average growth rate is:</p>
+<p><span class="math display">
+(1.05\times 0.96)^{0.5} \sim 1.008
+</span></p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>choice_set <span class="ot">&lt;-</span> <span class="cf">function</span>(<span class="at">initial_wealth =</span> <span class="dv">100</span>, <span class="at">win_amount =</span> <span class="dv">50</span>, <span class="at">lose_amount =</span> <span class="dv">40</span>, <span class="at">total_flips =</span> <span class="dv">100</span>, <span class="at">utility =</span> <span class="st">"log"</span>, <span class="at">absorbing =</span> <span class="cn">TRUE</span>){</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Create data frame with the following columns: flip, wealth, eu_accept, eu_reject, accept</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  decisions <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">flip =</span> <span class="fu">integer</span>(), <span class="at">wealth =</span> <span class="fu">numeric</span>(), <span class="at">eu_accept =</span> <span class="fu">numeric</span>(), <span class="at">eu_reject =</span> <span class="fu">numeric</span>(), <span class="at">eu_state =</span> <span class="fu">numeric</span>(), <span class="at">accept =</span> <span class="fu">logical</span>())</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Utility function as "log" or linear", and absorbing or not</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (utility <span class="sc">==</span> <span class="st">"log"</span>) {</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    utility <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>      <span class="fu">ifelse</span>(x <span class="sc">&lt;=</span> <span class="dv">0</span>, <span class="sc">-</span><span class="cn">Inf</span>, <span class="fu">log</span>(x))</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> <span class="cf">if</span> (utility <span class="sc">==</span> <span class="st">"linear"</span> <span class="sc">&amp;</span> absorbing <span class="sc">==</span> <span class="st">"TRUE"</span>){</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>      utility <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>      <span class="fu">ifelse</span>(x <span class="sc">&lt;=</span> <span class="dv">0</span>, <span class="sc">-</span><span class="cn">Inf</span>, x)</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> <span class="cf">if</span> (utility <span class="sc">==</span> <span class="st">"linear"</span> <span class="sc">&amp;</span> absorbing <span class="sc">==</span> <span class="st">"FALSE"</span>){</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>      utility <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>      x</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> {</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>      <span class="fu">stop</span>(<span class="st">"Utility function must be 'log' or 'linear'"</span>)</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Utility last decision</span></span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>  flip <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(total_flips)</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>  min_wealth <span class="ot">&lt;-</span> initial_wealth <span class="sc">+</span> (total_flips <span class="sc">-</span> <span class="dv">1</span>) <span class="sc">*</span> (<span class="sc">-</span>lose_amount)</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>  max_wealth <span class="ot">&lt;-</span> initial_wealth <span class="sc">+</span> (total_flips <span class="sc">-</span> <span class="dv">1</span>) <span class="sc">*</span> win_amount</span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a>  wealth_levels <span class="ot">&lt;-</span> <span class="fu">seq</span>(min_wealth, max_wealth, <span class="at">by =</span> (win_amount <span class="sc">+</span> lose_amount))</span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(wealth_levels)) {</span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a>      w <span class="ot">&lt;-</span> wealth_levels[i]</span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Utility of not betting</span></span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a>      eu_reject <span class="ot">&lt;-</span> <span class="fu">utility</span>(w)</span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Expected utility of betting</span></span>
+<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a>      u_win <span class="ot">&lt;-</span> <span class="fu">utility</span>(w <span class="sc">+</span> win_amount)</span>
+<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a>      u_lose <span class="ot">&lt;-</span> <span class="fu">utility</span>(w <span class="sc">-</span> lose_amount)</span>
+<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a>      eu_accept <span class="ot">&lt;-</span> <span class="fl">0.5</span> <span class="sc">*</span> (u_win <span class="sc">+</span> u_lose)</span>
+<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-42"><a href="#cb9-42" aria-hidden="true" tabindex="-1"></a>      eu_state <span class="ot">&lt;-</span> <span class="fu">max</span>(eu_reject, eu_accept)</span>
+<span id="cb9-43"><a href="#cb9-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-44"><a href="#cb9-44" aria-hidden="true" tabindex="-1"></a>      accept <span class="ot">&lt;-</span> (eu_reject <span class="sc">&lt;=</span> eu_accept) <span class="sc">&amp;</span> (eu_accept <span class="sc">!=</span> <span class="sc">-</span><span class="cn">Inf</span>)</span>
+<span id="cb9-45"><a href="#cb9-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-46"><a href="#cb9-46" aria-hidden="true" tabindex="-1"></a>      decisions <span class="ot">&lt;-</span> <span class="fu">rbind</span>(decisions, <span class="fu">data.frame</span>(<span class="at">flip =</span> flip, <span class="at">wealth =</span> w, <span class="at">eu_accept =</span> eu_accept, <span class="at">eu_reject =</span> eu_reject, <span class="at">eu_state =</span> eu_state, <span class="at">accept =</span> accept))</span>
+<span id="cb9-47"><a href="#cb9-47" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb9-48"><a href="#cb9-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-49"><a href="#cb9-49" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Dynamic programming for utility of decisions before last</span></span>
+<span id="cb9-50"><a href="#cb9-50" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> (t <span class="cf">in</span> (total_flips<span class="dv">-1</span>)<span class="sc">:</span><span class="dv">1</span>) {</span>
+<span id="cb9-51"><a href="#cb9-51" aria-hidden="true" tabindex="-1"></a>    min_wealth <span class="ot">&lt;-</span> initial_wealth <span class="sc">+</span> (t<span class="dv">-1</span>) <span class="sc">*</span> (<span class="sc">-</span>lose_amount)</span>
+<span id="cb9-52"><a href="#cb9-52" aria-hidden="true" tabindex="-1"></a>    max_wealth <span class="ot">&lt;-</span> initial_wealth <span class="sc">+</span> (t<span class="dv">-1</span>) <span class="sc">*</span> win_amount</span>
+<span id="cb9-53"><a href="#cb9-53" aria-hidden="true" tabindex="-1"></a>    wealth_levels <span class="ot">&lt;-</span> <span class="fu">seq</span>(min_wealth, max_wealth, <span class="at">by =</span> (win_amount <span class="sc">+</span> lose_amount))</span>
+<span id="cb9-54"><a href="#cb9-54" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="fu">length</span>(wealth_levels)) {</span>
+<span id="cb9-55"><a href="#cb9-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-56"><a href="#cb9-56" aria-hidden="true" tabindex="-1"></a>      w <span class="ot">&lt;-</span> wealth_levels[i]</span>
+<span id="cb9-57"><a href="#cb9-57" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-58"><a href="#cb9-58" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Utility of not betting</span></span>
+<span id="cb9-59"><a href="#cb9-59" aria-hidden="true" tabindex="-1"></a>      eu_reject <span class="ot">&lt;-</span> <span class="fu">utility</span>(w)</span>
+<span id="cb9-60"><a href="#cb9-60" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-61"><a href="#cb9-61" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Expected utility of betting</span></span>
+<span id="cb9-62"><a href="#cb9-62" aria-hidden="true" tabindex="-1"></a>      win <span class="ot">&lt;-</span> decisions[decisions<span class="sc">$</span>flip <span class="sc">==</span> t<span class="sc">+</span><span class="dv">1</span> <span class="sc">&amp;</span> decisions<span class="sc">$</span>wealth <span class="sc">==</span> w <span class="sc">+</span> win_amount, <span class="st">"eu_state"</span>]</span>
+<span id="cb9-63"><a href="#cb9-63" aria-hidden="true" tabindex="-1"></a>      lose <span class="ot">&lt;-</span> decisions[decisions<span class="sc">$</span>flip <span class="sc">==</span> t<span class="sc">+</span><span class="dv">1</span> <span class="sc">&amp;</span> decisions<span class="sc">$</span>wealth <span class="sc">==</span> w <span class="sc">-</span> lose_amount, <span class="st">"eu_state"</span>]</span>
+<span id="cb9-64"><a href="#cb9-64" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-65"><a href="#cb9-65" aria-hidden="true" tabindex="-1"></a>      eu_accept <span class="ot">&lt;-</span> <span class="fl">0.5</span> <span class="sc">*</span> (win <span class="sc">+</span> lose)</span>
+<span id="cb9-66"><a href="#cb9-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-67"><a href="#cb9-67" aria-hidden="true" tabindex="-1"></a>      eu_state <span class="ot">&lt;-</span> <span class="fu">max</span>(eu_reject, eu_accept)</span>
+<span id="cb9-68"><a href="#cb9-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-69"><a href="#cb9-69" aria-hidden="true" tabindex="-1"></a>      accept <span class="ot">&lt;-</span> (eu_reject <span class="sc">&lt;=</span> eu_accept) <span class="sc">&amp;</span> (eu_accept <span class="sc">!=</span> <span class="sc">-</span><span class="cn">Inf</span>)</span>
+<span id="cb9-70"><a href="#cb9-70" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-71"><a href="#cb9-71" aria-hidden="true" tabindex="-1"></a>      decisions <span class="ot">&lt;-</span> <span class="fu">rbind</span>(decisions, <span class="fu">data.frame</span>(<span class="at">flip =</span> t, <span class="at">wealth =</span> w, <span class="at">eu_accept =</span> eu_accept, <span class="at">eu_reject =</span> eu_reject, <span class="at">eu_state =</span> eu_state, <span class="at">accept =</span> accept))</span>
+<span id="cb9-72"><a href="#cb9-72" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb9-73"><a href="#cb9-73" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb9-74"><a href="#cb9-74" aria-hidden="true" tabindex="-1"></a>  decisions</span>
+<span id="cb9-75"><a href="#cb9-75" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>log_decisions <span class="ot">&lt;-</span> <span class="fu">choice_set</span>(<span class="at">initial_wealth =</span> <span class="dv">110</span>)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter the dataframe for just the first 10 flips</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>first_10_flips_df <span class="ot">&lt;-</span> log_decisions <span class="sc">%&gt;%</span> <span class="fu">filter</span>(flip <span class="sc">&lt;=</span> <span class="dv">10</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the plot</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(first_10_flips_df, <span class="fu">aes</span>(<span class="at">x =</span> flip, <span class="at">y =</span> wealth, <span class="at">color =</span> <span class="fu">as.factor</span>(accept))) <span class="sc">+</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"TRUE"</span> <span class="ot">=</span> <span class="st">"green"</span>, <span class="st">"FALSE"</span> <span class="ot">=</span> <span class="st">"red"</span>),</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>                     <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Accepted"</span>, <span class="st">"Rejected"</span>),</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>                     <span class="at">limits =</span> <span class="fu">c</span>(<span class="st">"TRUE"</span>, <span class="st">"FALSE"</span>)) <span class="sc">+</span> <span class="co"># Explicitly set limits to include both TRUE and FALSE</span></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Flip Number"</span>, <span class="at">y =</span> <span class="st">"Wealth"</span>, <span class="at">title =</span> <span class="st">"Decisions to Accept or Reject Bet (First 10 Flips)"</span>) <span class="sc">+</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.title =</span> <span class="fu">element_blank</span>()) <span class="sc">+</span></span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>) <span class="co"># Ensure x-axis has integer breaks for flips</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/unnamed-chunk-5-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>What if agents could recover from less than zero wealth? This would not change their response to the bet</p>
+<p>What would someone with additive utility do? That is, someone who maximises the expected value of their wealth.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>add_decisions <span class="ot">&lt;-</span> <span class="fu">choice_set</span>(<span class="at">initial_wealth =</span> <span class="dv">100</span>, <span class="at">utility =</span> <span class="st">"linear"</span>)</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter the dataframe for just the first 10 flips</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>first_10_flips_df <span class="ot">&lt;-</span> add_decisions <span class="sc">%&gt;%</span> <span class="fu">filter</span>(flip <span class="sc">&lt;=</span> <span class="dv">10</span>)</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the plot</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(first_10_flips_df, <span class="fu">aes</span>(<span class="at">x =</span> flip, <span class="at">y =</span> wealth, <span class="at">color =</span> <span class="fu">as.factor</span>(accept))) <span class="sc">+</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"TRUE"</span> <span class="ot">=</span> <span class="st">"green"</span>, <span class="st">"FALSE"</span> <span class="ot">=</span> <span class="st">"red"</span>),</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>                     <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Accepted"</span>, <span class="st">"Rejected"</span>),</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>                     <span class="at">limits =</span> <span class="fu">c</span>(<span class="st">"TRUE"</span>, <span class="st">"FALSE"</span>)) <span class="sc">+</span> <span class="co"># Explicitly set limits to include both TRUE and FALSE</span></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Flip Number"</span>, <span class="at">y =</span> <span class="st">"Wealth"</span>, <span class="at">title =</span> <span class="st">"Decisions to Accept or Reject Bet (First 10 Flips)"</span>) <span class="sc">+</span></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.title =</span> <span class="fu">element_blank</span>()) <span class="sc">+</span></span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>) <span class="co"># Ensure x-axis has integer breaks for flips</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/unnamed-chunk-6-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>What is there are 1000 flips in the additive scenario, giving a long period to ensure a gain?</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>add_decisions <span class="ot">&lt;-</span> <span class="fu">choice_set</span>(<span class="at">initial_wealth =</span> <span class="dv">100</span>, <span class="at">utility =</span> <span class="st">"linear"</span>, <span class="at">total_flips =</span> <span class="dv">250</span>)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter the dataframe for just the first 10 flips</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>first_10_flips_df <span class="ot">&lt;-</span> add_decisions <span class="sc">%&gt;%</span> <span class="fu">filter</span>(flip <span class="sc">&lt;=</span> <span class="dv">10</span>)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the plot</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(first_10_flips_df, <span class="fu">aes</span>(<span class="at">x =</span> flip, <span class="at">y =</span> wealth, <span class="at">color =</span> <span class="fu">as.factor</span>(accept))) <span class="sc">+</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"TRUE"</span> <span class="ot">=</span> <span class="st">"green"</span>, <span class="st">"FALSE"</span> <span class="ot">=</span> <span class="st">"red"</span>),</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>                     <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"Accepted"</span>, <span class="st">"Rejected"</span>),</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>                     <span class="at">limits =</span> <span class="fu">c</span>(<span class="st">"TRUE"</span>, <span class="st">"FALSE"</span>)) <span class="sc">+</span> <span class="co"># Explicitly set limits to include both TRUE and FALSE</span></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Flip Number"</span>, <span class="at">y =</span> <span class="st">"Wealth"</span>, <span class="at">title =</span> <span class="st">"Decisions to Accept or Reject Bet (First 10 Flips)"</span>) <span class="sc">+</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.title =</span> <span class="fu">element_blank</span>()) <span class="sc">+</span></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>) <span class="co"># Ensure x-axis has integer breaks for flips</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/unnamed-chunk-7-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph TD
+    A[Start: 100] --&gt; B{Flip 1}
+    B --&gt;|Win| C[150]
+    B --&gt;|Lose| D[60]
+    
+    C --&gt; E{Flip 2}
+    D --&gt; F{Flip 2}
+    
+    E --&gt;|Win| G[200]
+    E --&gt;|Lose| H[110]
+    F --&gt;|Win| I[110]
+    F --&gt;|Lose| J[20]
+    
+    G --&gt; K{Flip 3}
+    H --&gt; L{Flip 3}
+    I --&gt; M{Flip 3}
+    J --&gt; N{Flip 3}
+    
+    K --&gt;|Win| O[250]
+    K --&gt;|Lose| P[160]
+    L --&gt;|Win| Q[160]
+    L --&gt;|Lose| R[70]
+    M --&gt;|Win| S[160]
+    M --&gt;|Lose| T[70]
+    N --&gt;|Win| U[70]
+    N --&gt;|Lose| V[-20]
+    
+    O --&gt; W{Flip 4}
+    P --&gt; X{Flip 4}
+    Q --&gt; Y{Flip 4}
+    R --&gt; Z{Flip 4}
+    S --&gt; AA{Flip 4}
+    T --&gt; AB{Flip 4}
+    U --&gt; AC{Flip 4}
+    V --&gt; AD{Flip 4}
+    
+    W --&gt;|Win| AE[300]
+    W --&gt;|Lose| AF[210]
+    X --&gt;|Win| AG[210]
+    X --&gt;|Lose| AH[120]
+    Y --&gt;|Win| AI[210]
+    Y --&gt;|Lose| AJ[120]
+    Z --&gt;|Win| AK[120]
+    Z --&gt;|Lose| AL[30]
+    AA --&gt;|Win| AM[210]
+    AA --&gt;|Lose| AN[120]
+    AB --&gt;|Win| AO[120]
+    AB --&gt;|Lose| AP[30]
+    AC --&gt;|Win| AQ[120]
+    AC --&gt;|Lose| AR[30]
+    AD --&gt;|Win| AS[30]
+    AD --&gt;|Lose| AT[-60]
+    
+    AE --&gt; AU[...]
+    AF --&gt; AV[...]
+    AG --&gt; AW[...]
+    AH --&gt; AX[...]
+    AI --&gt; AY[...]
+    AJ --&gt; AZ[...]
+    AK --&gt; BA[...]
+    AL --&gt; BB[...]
+    AM --&gt; BC[...]
+    AN --&gt; BD[...]
+    AO --&gt; BE[...]
+    AP --&gt; BF[...]
+    AQ --&gt; BG[...]
+    AR --&gt; BH[...]
+    AS --&gt; BI[...]
+    AT --&gt; BJ[...]
+
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="psychology" class="level2">
+<h2 class="anchored" data-anchor-id="psychology">Psychology</h2>
+<section id="time-horizon-in-an-additive-world" class="level3">
+<h3 class="anchored" data-anchor-id="time-horizon-in-an-additive-world">Time horizon in an additive world</h3>
+<p>I earlier stated that someone with log utility approximates a time-average growth rate maximiser.</p>
+<p>If they are additive or multiplicative there is no time - they could equally be simultaneous.</p>
+<p>What if they proceed through time, seeing the result of each bet before deciding on the next?</p>
+<p>We are introducing a wealth effect.</p>
+<p>Chance of ruin - that introduces the need for log utility.</p>
+<p>Consider someone who knows that they have an option to accept a sequence of 100 50:50 bets to win .</p>
+<p>To the extent that zero is ruinous when reached, preventing taking future bets, they would reject.</p>
+<p>What if could take one at a time? This is a different problem, but is solved in a similar way.</p>
+</section>
+</section>
+<section id="new-experiment" class="level2">
+<h2 class="anchored" data-anchor-id="new-experiment">New experiment</h2>
+<p>Uncertainty more important in the multiplicative condition - if get wrong when wealth high, suffer large consequence -</p>
+
+
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Figure&nbsp;1: Plot of first 20 people against average wealth</span>
+<span class="glightbox-desc lightbox-desc-2">Figure&nbsp;2: Plot of first 20 people against average wealth (log scale)</span>
+<span class="glightbox-desc lightbox-desc-3">Figure&nbsp;3: Population of accepting types</span>
+</div>
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-doctor2020" class="csl-entry" role="listitem">
+Doctor, J. N., Wakker, P. P., and Wang, T. V. (2020). Economists<span>’</span> views on the ergodicity problem. <em>Nature Physics</em>, <em>16</em>(12), 1168–1168. <a href="https://doi.org/10.1038/s41567-020-01106-x">https://doi.org/10.1038/s41567-020-01106-x</a>
+</div>
+<div id="ref-ford2023" class="csl-entry" role="listitem">
+Ford, M. C., and Kay, J. A. (2023). The Limitations of Growth- Optimal Approaches to Decision Making Under Uncertainty. <em>Econ Journal Watch</em>, <em>20</em>(2), 314–334. <a href="https://econjwatch.org/articles/the-limitations-of-growth-optimal-approaches-to-decision-making">https://econjwatch.org/articles/the-limitations-of-growth-optimal-approaches-to-decision-making</a>
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.jasoncollins\.blog");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="jasonacollins/jasoncollinsblog" data-repo-id="R_kgDOIbjYgQ" data-category="Announcements" data-category-id="DIC_kwDOIbjYgc4CSiuB" data-mapping="pathname" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="bottom" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="light">
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">
+<p>Copyright: CC-BY</p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/jasonacollins">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
+
+
+
+
+</body></html>
