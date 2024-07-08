@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Jason Collins">
-<meta name="dcterms.date" content="2024-06-28">
+<meta name="dcterms.date" content="2024-07-15">
 
-<title>Jason Collins blog - Using large language models as an academic June 2024 edition</title>
+<title>Jason Collins blog - Using generative AI as an academic - June 2024 edition</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -179,10 +179,10 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Jason Collins blog - Using large language models as an academic June 2024 edition">
+<meta property="og:title" content="Jason Collins blog - Using generative AI as an academic - June 2024 edition">
 <meta property="og:description" content="Behavioural and data science. Economics. Evolutionary biology.">
 <meta property="og:site_name" content="Jason Collins blog">
-<meta name="twitter:title" content="Jason Collins blog - Using large language models as an academic June 2024 edition">
+<meta name="twitter:title" content="Jason Collins blog - Using generative AI as an academic - June 2024 edition">
 <meta name="twitter:description" content="Behavioural and data science. Economics. Evolutionary biology.">
 <meta name="twitter:card" content="summary">
 </head>
@@ -247,7 +247,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Using large language models as an academic June 2024 edition</h1>
+<h1 class="title">Using generative AI as an academic - June 2024 edition</h1>
 </div>
 
 
@@ -264,7 +264,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 28, 2024</p>
+      <p class="date">July 15, 2024</p>
     </div>
   </div>
   
@@ -276,98 +276,49 @@ window.Quarto = {
 </header>
 
 
-<p>I first wrote a version of this post in April 2023. This is the latest.</p>
+<p>I first wrote <a href="ADD_LINK">a version of this post in April 2023</a>. A lot has changed since then, in both the tools and how I use them.</p>
 <section id="my-toolkit" class="level2">
 <h2 class="anchored" data-anchor-id="my-toolkit">My toolkit</h2>
-<p>I use multiple tools, switching between them for tasks and comparing their responses.</p>
-<p>As an academic, I gain free access to <a href="https://github.com/features/copilot">Github Copilot</a>. (It’s only $10 a month otherwise.) CoPilot is badged as “your coding companion”, providing code suggestions in coding environments. But while badged this way, CoPilot also provides text suggestions more broadly.</p>
-<p>CoPilot gives me access to whatever language models Microsoft is running behind it. I assume this is currently GPT-4, and I would say the performance of CoPilot has continued to incrementally improve.</p>
-<p>To access CoPilot, I write markdown documents in <a href="https://code.visualstudio.com">Visual Studio Code</a>. Since I started blogging (12 years now!) I have always written in markdown (and at the moment a particular flavour of markdown, <a href="https://quarto.org">Quarto</a>). Before the emergence of CoPilot, I also used <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> and other text editors that support markdown. But with CoPilot not available in RStudio, I’m almost exclusively in Visual Studio Code now. For those who want more specific guidance on how to set this up, I’ve added that at the bottom of this post.</p>
-<p>I also work with <a href="https://chat.openai.com/">ChatGPT</a> open in a browser. If CoPilot isn’t giving me what I want, ChatGPT often will. If I can frame my requirement as a standalone question, ChatGPT tends to do a better job. But when working on a document, CoPilot’s suggestions are normally better (unless I paste the whole document into ChatGPT).</p>
-<p>I’ve tried Bing, but find it harder work to get what I want unless I have a question for which I want references.</p>
+<p>I use multiple tools, switching between them for tasks and getting multiple responses. I want to gain a sense of the frontier.</p>
+<p>As an academic, I gain free access to <a href="https://github.com/features/copilot">Github Copilot</a>. (It’s $10 a month otherwise. Students can also get free access.) CoPilot provides code suggestions in coding environments. But while badged this way, CoPilot also provides text suggestions more broadly. To access CoPilot, I write markdown documents in <a href="https://code.visualstudio.com">Visual Studio Code</a> or <a href="https://posit.co/download/rstudio-desktop/">RStudio</a>. (For those who want more specific guidance on how to set this up, I’ve added that at the bottom of this post.)</p>
+<p>If you use CoPilot in Visual Studio Code you also gain access to Copilot Chat. CoPilot Chat allows you to ask questions about snippets of code and errors. It’s fantastic and much faster than the old Google search for solutions. If asking about errors, it will often propose solutions. As a result, if I’m writing code afresh, I tend to use Visual Studio Code. I’m in RStudio more often when I’m writing posts such as this.</p>
+<p>I also work with <a href="https://chat.openai.com/">ChatGPT Plus</a> and <a href="https://www.anthropic.com/claude">Claude Pro</a> open in a browser. I subscribe to the Pro/Plus version of both: it is worth it for the superior tools. As you’ll see from the below, I use them all the time.</p>
+<p>I run some other large language models locally on my computer using <a href="https://ollama.com/">Ollama</a>. I do this more to get a feel for them than for the current utility. Most of my recent experimentation has been with <a href="https://ollama.com/library/llama3">Llama 3</a>. I use these models either via the command line or using the [CoPilot chat plugin](ADD_LINK) in <a href="ADD_LINK">Obsidian</a>.</p>
+<p>I also subscribe to <a href="ADD_LINK">Eleven</a> for it’s AI voice capabilities. More on that below.</p>
+<p>Across these tools, I’m paying around \$60USD a month.</p>
+<p>I’ve experimented with other tools, but they haven’t yet formed a large part of my workflow. I don’t use Bing much, except occassionally for images if ChatGPT isn’t giving me what I want. I like that it gives me four images for every prompt. I experimented with Google Gemini, but haven’t found reason for it to supplant the Claude plus ChatGPT combination. I revisit it every month or two to whether I should add it to the mix.</p>
+</section>
+<section id="thinking-efficiency-gain-uncertain" class="level2">
+<h2 class="anchored" data-anchor-id="thinking-efficiency-gain-uncertain">Thinking (efficiency gain: uncertain)</h2>
+<p>I am increasingly using Claude and ChatGPT as an interactive <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">rubber duck</a>. When thinking through something new, I’ll often state my thoughts and ask for comment. I’ll often ask them to explain a concept to me, then I will ask follow up questions. Sometimes I’ll do this in chat mode [WHAT IS IT CALLED] when I am walking. I know that I’m not getting 100% accurate information, but I wouldn’t talking with a friend either.</p>
+<p>Similarly, after reading an article and forming my own views on its message, strengths and weaknesses, I’ll ask Claude or ChatGPT their views. I find this can be hit and miss, but on net worth doing. Sometimes the description is spot on and the critiques hit points I haven’t thought of.</p>
+<p>When I’m having trouble getting a sentence or paragraph right, I’ll often hand it over and ask for 10 possible rewrites. I’ll almost never take a rewrite as provided, but it often gives me a word or turn of phrases that does the job.</p>
+<p>Finally, if I have a technical question, I’ll ask before googling. It’s faster.</p>
 </section>
 <section id="coding-efficiency-gain-10x" class="level2">
 <h2 class="anchored" data-anchor-id="coding-efficiency-gain-10x">Coding (efficiency gain: 10x)</h2>
-<p>Despite spending a lot of time in R, I am a crap coder. The simplest errors have me crawling Stack Overflow for hours. I struggle to build a structure when looking at a blank screen.</p>
-<p>My typical approach now is to write a comment, let CoPilot do the first cut and then tweak the code until it is in shape.</p>
-<p>That tweaking isn’t manual tweaking either.</p>
-<p>If there is an error or problem that I can’t resolve, I’ll simply write:</p>
-<blockquote class="blockquote">
-<p>The above code generates the error “PASTE ERROR”. I fix it by …</p>
-</blockquote>
-<p>And a solution appears. Sometimes I’ll also paste the code and the error into ChatGPT and ask for code that does not have that error.</p>
-<p>If the code looks overly complicated, a request to simplify often yields good results. (I’ve been asking ChatGPT to review some of my old code recently. I’m a bit embarrassed at how much more efficiently I could have written it.)</p>
-<p>Here are two recent coding applications that I was particularly excited about.</p>
-<section id="creating-diagrams" class="level3">
-<h3 class="anchored" data-anchor-id="creating-diagrams">Creating diagrams</h3>
-<p>In my lecture notes, I use <a href="https://ggplot2.tidyverse.org">ggplot</a> to produce nice-looking graphs. (I’m slowly replacing old PowerPoint diagrams that still litter the notes).</p>
-<p>Recently I wanted to generate a chart showing a <a href="https://behaviouraleconomics.jasoncollins.blog/prospect-theory/probability-weighting">probability weighting function</a> from prospect theory.</p>
-<p>I created an R code block and typed a comment:</p>
-<blockquote class="blockquote">
-<p>#Plot of probability weighting function using ggplot2</p>
-</blockquote>
-<p>Here’s the result with the diagram rendered below:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Plot of probability weighting function using ggplot2</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Define probability weighting function</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>prob_weight <span class="ot">&lt;-</span> <span class="cf">function</span>(p, alpha){</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">exp</span>(<span class="sc">-</span>(<span class="sc">-</span><span class="fu">log</span>(p))<span class="sc">^</span>alpha)</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">#Create data frame of probabilities and weights</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>prob <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="fl">0.001</span>)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>prob_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">prob =</span> prob, <span class="at">weight =</span> <span class="fu">prob_weight</span>(prob, <span class="fl">0.6</span>))</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">#Plot</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(prob_df, <span class="fu">aes</span>(<span class="at">x =</span> prob, <span class="at">y =</span> weight)) <span class="sc">+</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Add labels</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Probability"</span>, <span class="at">y =</span> <span class="st">"Weight"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><a href="using-large-language-models-as-academic-june-2024-edition_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="using-large-language-models-as-academic-june-2024-edition_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></a></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Exactly what I wanted. When I implemented this in the notes, all I did was tweaked the style and added a 45-degree line.</p>
-<p>CoPilot’s offering uses Prelec’s <span class="citation" data-cites="prelec1998">(<a href="#ref-prelec1998" role="doc-biblioref">1998</a>)</span> probability weighting function. Whether it picked that up from earlier text or just gave the most common function for probability weighting, I don’t know, but it’s what I would have used if doing it manually.</p>
-<p>CoPilot didn’t offer this full chunk of code at once. Each comment was offered, then the piece of code after it, one after the other. But the only work I did was writing the first comment and pressing tab several times as each succeeding comment or chunk of code was suggested. (CoPilot has certainly increased the level of comments in my code too.)</p>
-<p>One thing I have noted is that CoPilot uses all of the text in the document in giving it’s suggestions. In writing this post I wasn’t able to replicate what I did when writing the lecture notes. I got better results in the lecture notes themselves. A few paragraphs about probability weighting before I ask for the code generates much better results than asking for the chart straight up.</p>
+<p>Despite spending a lot of time in R, I am a crap coder. The simplest errors had me crawling Stack Overflow for hours. I struggle to build a structure when looking at a blank screen.</p>
+<p>My typical approach now is to write a comment and let CoPilot do the first cut of the code. I will then tweak the code until it is in shape. That tweaking isn’t manual tweaking either. If there is an error or problem that I can’t resolve, I’ll use CoPilot Chat to get a solution.</p>
+<p>CoPilot is also great in helping me understand someone else’s code. I’ll highlight sections and ask for the chat to explain what it does. Often, I’ll paste poorly documented code into Claude or ChatGPT and ask it to write comments. Further, If the code looks overly complicated, a request to simplify often yields good results. (I’ve been asking ChatGPT to review some of my old code recently. I’m a bit embarrassed at how much more efficiently I could have written it.)</p>
+<p>One large benefit has come from cross-language translation. Last year I wanted to reproduce the results in in Berkeley Dietvorst’s <a href="https://doi.org/10.1037/xge0000033">Algorithm aversion: People erroneously avoid algorithms after seeing them err</a>. Data and the code for analysis was <a href="ADD LINK">available on ResearchBox</a>. The problem was that the code was in Stata, I have no desire to learn Stata. So, I pasted the code into ChatGPT and asked for a conversion to R. What I received was 90% of the way there. Initially, there was an error, but pasting the error into ChatGPT gave me the solution first shot. I then tweaked a couple of the variable manipulations and specified that some of the t-tests were paired t-tests. That was it. In less than 10 minutes I had code that was reproducing exactly the results from Study 1. I’ve now done this translation dozens of times when examining and reproducing studies by others.</p>
+<p>I’m increasingly asking ChatGPT and Claude to provide me fully working programs. For example, I am building a website with underlying database and predictive model for predicting AFL games. (I wanted to experiment with how far I could go with these tools.) I obtained a web interface and underlying code to access the database from Claude. I used ChatGPT for the first version of the predictive model. I’ll post a link here when it is working as desired.</p>
 </section>
-<section id="converting-code-across-languages" class="level3">
-<h3 class="anchored" data-anchor-id="converting-code-across-languages">Converting code across languages</h3>
-<p>My second example relates to a proposed reproduction of the results in Berkeley Dietvorst’s <a href="https://doi.org/10.1037/xge0000033">Algorithm aversion: People erroneously avoid algorithms after seeing them err</a>. Data and the code for analysis was <a href="ADD LINK">available on ResearchBox</a>.</p>
-<p>The problem was that the code was in Stata, I don’t have Stata, and I have no desire to learn Stata. So, I pasted the code into ChatGPT and asked for a conversion to R. What I received was 90% of the way there. Initially, there was an error, but ChatGPT solved the error first shot. I then had to tweak a couple of the variable manipulations and specify that some of the t-tests were paired t-tests, and that was it. In less than 10 minutes I had code that was reproducing exactly the results from Study 1.</p>
-</section>
-</section>
-<section id="reviewing-papers-and-documents" class="level2">
-<h2 class="anchored" data-anchor-id="reviewing-papers-and-documents">Reviewing papers and documents</h2>
-<section id="ai-voiced-lectures" class="level3">
-<h3 class="anchored" data-anchor-id="ai-voiced-lectures">AI-voiced lectures</h3>
-<p>When I wrote my last post, AI-voiced lectures the future. It’s not a core part of my subject delivery.</p>
-<p>In my first year teaching the undergraduate behavioural economics subject in 2023, the subject was structured as two hours of live (but online) lectures and one hour of tutorials (either online or in-person). Both lectures and the online tutorial were recorded, so students could watch at another time. The net result was limited attendance, and most students didn’t watch the videos either.</p>
-<p>Last year I decided to move the subject out of the 1950s and make it a combination of some <a href="https://www.youtube.com/@jasonacollins">short pre-recorded videos</a>, interactive online seminars and tutorials. This approach backfired. The students didn’t watch the videos and didn’t want to interact (as I decribe in my review of Bryan Caplan’s The Case Against Education).</p>
-<p>To produce the videos I wrote scripts, which also form the <a href="https://behaviouraleconomics.jasoncollins.blog">subject notes</a>. I read the notes accompanied by slides. I’m a hopeless off-the-cuff speaker, so for anything that’s going to be recorded and treated as a long-term asset, I’m scripting.</p>
-<p>There are three pain points in this exercise. First, I speak too fast (even when I think I’m speaking slow) and I enunciate many words poorly. Second, recording takes a lot of time. I rarely get a two to five-minute video in a single take. Third, if I want to tweak the recording, I need to either re-record solid chunks of text or fiddle around with video edits.</p>
-<p>So, why not get an artificial voice to do the speaking?</p>
-<p>I experimented with <a href="https://murf.ai">Murf.ai</a>, <a href="https://speechify.com">Speechify</a>, <a href="https://play.ht/">play.ht</a> and <a href="https://beta.elevenlabs.io">Eleven</a>. Eleven has comfortably the most realistic voices but doesn’t yet appear to have an easy way to create video using slides. If they introduce that, I’m fully on board. Murf.ai allows me to pair slides and text to create videos, but the voices still sound a bit robotic. But with the ability to pace their speech, Murf.ai is already a better option than me. And they’ll only get better.</p>
-<p>The production process is then easy. Upload the text (although I do have to write out the equations in the course notes in text). Upload the slides and match to the text. Click play and the new video is generated.</p>
-<p>With a setup such as this, if I want to tweak parts of the videos, I can simply edit the written text and generate a new version. Adding or editing slides is also simple as they are uploaded and matched to the new text. I’m also able to run much sharper slide changes as I can time exactly the transitions.</p>
-<p>An interesting question about the artificial voice-over is how the university (and students) will take it. Do they see it as a lazy option? (When I taught at the University of Sydney in 2020 during the early stages of the pandemic, you weren’t allowed to use pre-recorded videos from one semester in a later semester. Someone hated the idea that the academics might not be working hard enough …) If I were able to clone my voice, this could become a mute issue. play.ht and Eleven have the ability to “clone” your voice, but neither can handle non-American accents. The rhythm of my cloned voice (maybe my natural rhythm) also seemed a bit clunky.</p>
-<p>I think the artificial voice-over is a great option. Academics should be investing in developing high-quality assets that can be re-used rather than bumbling along with low-quality off-the-cuff lectures. They can then invest their time in the other parts of teaching: the in-person seminars and tutorials where students can get the personalised bit of their education.</p>
-<p>This approach does point to a challenge for higher education providers. Once you’ve got high-quality recorded material for basic courses, why would you want them generated by each lecturer in each university? Someone could produce an amazing Behavioural Economics 101 (I want the Dave Malan <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">CS50</a> version of this), other lecturers can subscribe to the service and they can now focus on those human bits (not that most students want that…).</p>
-<p>I’ve also started looking at options to create an AI avatar - either based on videos/photos of me or a random AI avatar - for some parts of the videos. I’m leaving that one for the moment but can see myself revisiting in the next year.</p>
-</section>
+<section id="ai-voiced-lectures-efficiency-gain-10-quality-gain-20" class="level2">
+<h2 class="anchored" data-anchor-id="ai-voiced-lectures-efficiency-gain-10-quality-gain-20">AI-voiced lectures (efficiency gain: 10%; quality gain: 20%)</h2>
+<p>Last year I decided to base my undergraduate behavioural economics subject around <a href="https://www.youtube.com/@jasonacollins">short pre-recorded videos</a>, interactive online seminars and tutorials. To produce the videos I wrote scripts, which also form the <a href="https://behaviouraleconomics.jasoncollins.blog">subject notes</a>. I read the notes accompanied by slides.</p>
+<p>There are three pain points in this exercise. First, I speak too fast (even when I think I’m speaking slow) and I enunciate many words poorly. Second, recording takes a lot of time. I rarely get a two to five-minute video in a single take that I’m happy with. Third, if I want to tweak the recording, I need to either re-record solid chunks of text or fiddle around with video edits.</p>
+<p>So, why not get an artificial voice to do the speaking? When I wrote my last post, AI-voiced lectures were the future. It’s now a core part of my subject delivery.</p>
+<p>I experimented with <a href="https://murf.ai">Murf.ai</a>, <a href="https://speechify.com">Speechify</a>, <a href="https://play.ht/">play.ht</a> and <a href="https://beta.elevenlabs.io">Eleven</a>. Initially I used Murf.ai to make some videos, as it allowed me to pair slides and text easily. I could also integrate with Google Slides. However, the voices sound a bit robotic, so I currently use Eleven, even though all I get is an audio file. Eleven has fantastic voices. Even a hint of AI-voicing gets a negative reaction from students, so voice quality needs to be my primary criterion. If the Murf.ai voices improve and Eleven doesn’t develop video integration, I may shift back.</p>
+<p>The production process is easy. I paste the text into an Eleven project chapter and render the voice. Typically, the pacing won’t be quite right, so I’ll add some commas and dashes to create some pauses. I then export the voice file and combine it with images in Final Cut Pro. I can normally create a five to 10 minute video from text and slides in less than a hour.</p>
+<p>The fantastic part is that if I want to update a section, or change a sentence, I update the script in Eleven, re-render the relevant sentences, load a new voice file into the Final Cut Pro project and tweak the slide timings (if the voice edits require it). It’s fast, simple and gives me a consistently high-quality video.</p>
+<p>Eleven has the ability to “clone” your voice. I tried a quick clone on play.ht, but it gave me an American accent. On Eleven, you can get a professional clone of a voice by uploading three or more hours of audio. I did that, and it sounds just like me, even with the Australian accent. Unfortunately, it comes with my faults, particularly speaking too fast. Eleven doesn’t have an option to slow down the speaking outside of putting a mountain of dashes through the text. So, for now, I’m using one of their off-the-shelf Australian voices.</p>
+<p>Here are two samples, an off-the-shelf voice and a section with me speaking.</p>
+<p>I’ve also started looking at options to create an AI avatar based on videos or photos of me for some parts of the videos. I’m leaving that one for the moment but can see myself revisiting in the next year.</p>
 </section>
 <section id="writing-lecture-notes-efficiency-gain-10-to-30" class="level2">
 <h2 class="anchored" data-anchor-id="writing-lecture-notes-efficiency-gain-10-to-30">Writing lecture notes (efficiency gain: 10 to 30%)</h2>
-<p>I don’t find CoPilot particularly useful if I’m writing something original such as a blog post. In writing this post I wouldn’t say CoPilot has increased my efficiency at all (outside of helping me create the examples). I sometimes accepted suggestions from CoPilot, but the need to filter through the various suggestions resulted in negligible efficiency gain.</p>
-<p>But for lecture notes, which are more mechanical, there are some clear gains. The notes for my undergraduate behavioural economics subject (which you can access <a href="https://behaviouraleconomics.jasoncollins.blog">here</a>) were produced with CoPilot.</p>
+<p>I don’t find CoPilot useful if I’m writing something original such as a blog post. I used to receive suggestions as I type, but more often now I turn CoPilot off if when writing. The distraction in filtering suggestions is too costly and I am worried about getting dragged in random directions.</p>
+<p>But for lecture notes, which are more mechanical, there are some clear gains. The notes for my undergraduate behavioural economics subject (which you can access <a href="https://behaviouraleconomics.jasoncollins.blog">here</a>) were produced with CoPilot assistance.</p>
 <p>Here are a few instances where CoPilot has been useful.</p>
 <p>Often the notes include a statement of a concept followed by a step-by-step example or illustration. The gain comes when you’re writing those steps.</p>
 <p>For example, in a section about decision making under risk, I might write:</p>
@@ -384,24 +335,24 @@ window.Quarto = {
 <blockquote class="blockquote">
 <p>First, we calculate the expected utility of each option. The expected utility of the bet is:</p>
 </blockquote>
-<div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{=tex}</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="in">\begin{aligned}</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="in">EU(\text{bet}) &amp;= 0.5 \times u(100) + 0.5 \times u(-50) \\</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="in">&amp;= 0.5 \times \text{ln}(100) + 0.5 \times \text{ln}(50) \\</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="in">&amp;= 4.259</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="in">\end{aligned}</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{=tex}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="in">\begin{aligned}</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="in">EU(\text{bet}) &amp;= 0.5 \times u(100) + 0.5 \times u(-50) \\</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="in">&amp;= 0.5 \times \text{ln}(100) + 0.5 \times \text{ln}(50) \\</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="in">&amp;= 4.259</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="in">\end{aligned}</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <blockquote class="blockquote">
 <p>The expected utility of not taking the bet is:</p>
 </blockquote>
-<div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="in">```{=tex}</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="in">\begin{aligned}</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="in">EU(\text{no bet}) &amp;= U(100) \\</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="in">&amp;= \text{ln}(100) \\</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="in">&amp;= 4.605</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="in">\end{aligned}</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="in">```{=tex}</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="in">\begin{aligned}</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="in">EU(\text{no bet}) &amp;= U(100) \\</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="in">&amp;= \text{ln}(100) \\</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="in">&amp;= 4.605</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="in">\end{aligned}</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <blockquote class="blockquote">
 <p>As the expected utility of the bet is less than the expected utility of not taking the bet, Bill will not accept the bet.</p>
 </blockquote>
@@ -411,8 +362,44 @@ EU(\text{bet}) &amp;= 0.5 \times u(100) + 0.5 \times u(-50) \\
 &amp;= 0.5 \times \text{ln}(100) + 0.5 \times \text{ln}(50) \\
 &amp;= 4.259
 \end{aligned}</span>
-<p>I might beef this up with a better explanation, or paste the question into ChatGPT direct, where I tend to get more detailed answers. GPT-4 also tends to be better at math. (CoPilot has done OK here - the logs are correct! Maybe more evidence of improvement in CoPilot, although the answer still needs tweaking.)</p>
+<p>I might beef this up with a better explanation, or paste the question into ChatGPT direct, where I tend to get more detailed answers. CoPilot has done OK with the math here - the logs are correct!</p>
 <p>CoPilot is also great when I’m doing repetitive tasks such as describing the elements of an equation or diagram. Start describing the first element and it might give you the rest. And if you write a point followed by “Conversely, …”, CoPilot is often on the money.</p>
+<p>I also use CoPilot with <a href="https://ggplot2.tidyverse.org">ggplot</a> to produce graphs for the notes. When I wanted to generate a chart showing a <a href="https://behaviouraleconomics.jasoncollins.blog/prospect-theory/probability-weighting">probability weighting function</a> from prospect theory, I created an R code block and typed a comment:</p>
+<blockquote class="blockquote">
+<p>#Plot of probability weighting function using ggplot2</p>
+</blockquote>
+<p>Here’s the result that ChatGPT produced with the diagram rendered below:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Plot of probability weighting function using ggplot2</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Define probability weighting function</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>prob_weight <span class="ot">&lt;-</span> <span class="cf">function</span>(p, alpha){</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">exp</span>(<span class="sc">-</span>(<span class="sc">-</span><span class="fu">log</span>(p))<span class="sc">^</span>alpha)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co">#Create data frame of probabilities and weights</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>prob <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="fl">0.001</span>)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>prob_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">prob =</span> prob, <span class="at">weight =</span> <span class="fu">prob_weight</span>(prob, <span class="fl">0.6</span>))</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co">#Plot</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(prob_df, <span class="fu">aes</span>(<span class="at">x =</span> prob, <span class="at">y =</span> weight)) <span class="sc">+</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Add labels</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Probability"</span>, <span class="at">y =</span> <span class="st">"Weight"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="using-generative-AI-as-academic-june-2024-edition_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="using-generative-AI-as-academic-june-2024-edition_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Exactly what I wanted. When I implemented this in the notes, all I did was tweak the style and add a 45-degree line.</p>
+<p>CoPilot’s offering uses Prelec’s <span class="citation" data-cites="prelec1998">(<a href="#ref-prelec1998" role="doc-biblioref">1998</a>)</span> probability weighting function. Whether it picked that up from earlier text in my notes or just gave the most common function for probability weighting, I don’t know, but it’s what I would have used if doing it manually.</p>
+<p>CoPilot didn’t offer this full chunk of code at once. Each comment was offered, then the piece of code after it, one after the other. But the only work I did was writing the first comment and pressing tab several times as each succeeding comment or chunk of code was suggested. (CoPilot has certainly increased the level of comments in my code too.)</p>
+<p>One thing I have noted is that CoPilot uses all of the text in the document in giving its suggestions. In writing this post I wasn’t able to replicate what I did when writing the lecture notes. I got better results in the lecture notes themselves. A few paragraphs about probability weighting before I ask for the code generates much better results than asking for the chart straight up.</p>
 </section>
 <section id="generating-quiz-questions-efficiency-gain-3x" class="level2">
 <h2 class="anchored" data-anchor-id="generating-quiz-questions-efficiency-gain-3x">Generating quiz questions (efficiency gain: 3x)</h2>
@@ -430,7 +417,7 @@ EU(\text{bet}) &amp;= 0.5 \times u(100) + 0.5 \times u(-50) \\
 <p>If I think there is a positive benefit to the task, or it’s for public consumption, I’ll be more proactive first up. I will write a rough draft first, not caring much about the writing but making sure the concepts I want to include are there. It might be in dot points. Then I’ll ask ChatGPT for a version that is “clearer”, “simpler” or “better written” or “for a ten-year-old”. I often find this process works best in two stages. The “clearer” version often uses the same words as me, but structures them better. Then I ask ChatGPT to write it again, but instructing it to “forget about the original text.” I’ve been pleasantly surprised at how good some of those second versions are.</p>
 </section>
 <section id="slide-filler-efficiency-gain-2x" class="level2">
-<h2 class="anchored" data-anchor-id="slide-filler-efficiency-gain-2x">Slide filler (efficiency gain 2x)</h2>
+<h2 class="anchored" data-anchor-id="slide-filler-efficiency-gain-2x">Slide filler (efficiency gain: 2x)</h2>
 <p>I’m not a big fan of pointless eye candy in slide decks. But if you’re doing pre-recorded material (see below) and you don’t want your mug on the screen, you sometimes need some filler. In that case, I head straight to <a href="https://labs.openai.com">DALL-E</a>. I’ve adopted a theme for my lecture slides - black and white line drawings - so I ask for a black and white line drawing of something related to what I am talking about.</p>
 <p>This is much quicker than hunting for images with open usage rights.</p>
 <p>Compared to ChatGPT, DALL-E seems pretty lame. It still struggles with concepts such as “on” or “ten” or “without writing”. Sometimes I’ll give up on a more complex concept (a deck of cards on a table) and go for something simpler (a deck of cards). I’m looking forward to GPT-4 sitting behind an image generator.</p>
@@ -438,22 +425,25 @@ EU(\text{bet}) &amp;= 0.5 \times u(100) + 0.5 \times u(-50) \\
 </section>
 <section id="whats-next" class="level2">
 <h2 class="anchored" data-anchor-id="whats-next">What’s next?</h2>
-<section id="chat-integrated-with-copilot-and-other-microsoft-tools" class="level3">
-<h3 class="anchored" data-anchor-id="chat-integrated-with-copilot-and-other-microsoft-tools">Chat integrated with CoPilot (and other Microsoft tools)</h3>
-<p>At the moment I have multiple streams of access to these tools. I’m looking forward to chat appearing in Copilot - I’m on the waiting list to access - which will remove the need for the separate browser with ChatGPT.</p>
-<p>GPT-4 is also coming to other Microsoft tools soon. If I don’t have to exit PowerPoint to get my images, that’s an extra efficiency.</p>
+<section id="copilot-integration-with-microsoft-tools" class="level3">
+<h3 class="anchored" data-anchor-id="copilot-integration-with-microsoft-tools">CoPilot integration with Microsoft tools</h3>
+<p>At the moment I have multiple streams of access to these tools. I’m looking forward to getting CoPilot in the core Microsoft tools: the university is trialling this at the moment. If I don’t have to exit PowerPoint to get my images, that’s an extra efficiency.</p>
+</section>
+<section id="please-apple" class="level3">
+<h3 class="anchored" data-anchor-id="please-apple">Please Apple …</h3>
 <p>I’m largely in the Mac ecosystem, but Apple seems absolutely crap in the world of assistants/chat. (“Hey Siri, tell me this most basic fact about the world.” “I’ve sent some irrelevant web results to your iPhone…..”) If at some point these tools become tied to Microsoft hardware or Windows, I’m moving.</p>
 <p>(I exited the Google ecosystem when I had trouble sharing a file from Google Drive because it breached the terms of service. It was a document that included the words “vaccination” and “scepticism”, although if you see the <a href="https://www.jasoncollins.blog/posts/megastudy-scepticism">resulting post</a>, you can see the Google algorithm was pretty crude. At that point I opted for what I hope is a bit more privacy and jettisoned Google…)</p>
 </section>
 </section>
 <section id="getting-going-with-github-copilot" class="level2">
 <h2 class="anchored" data-anchor-id="getting-going-with-github-copilot">Getting going with Github Copilot</h2>
-<p>The below gives the basic steps to achieve my setup.</p>
-<p>If you are an academic, you can sign up for (free) academic access to CoPilot at <a href="https://education.github.com/discount_requests/application">this link</a>. If you’re not an academic or student, sign up for $10 a month as described <a href="https://docs.github.com/en/billing/managing-billing-for-github-copilot/managing-your-github-copilot-subscription-for-your-personal-account">here</a>. You’ll need a Github account to do this. I think the $10 a month is worth it, but the free ChatGPT will give you most of these gains with a bit more work.</p>
+<p>The below gives the basic steps to access GitHub CoPilot.</p>
+<p>If you are an academic, you can sign up for (free) academic access to CoPilot at <a href="https://education.github.com/discount_requests/application">this link</a>. If you’re not an academic or student, sign up for $10 a month as described <a href="https://docs.github.com/en/billing/managing-billing-for-github-copilot/managing-your-github-copilot-subscription-for-your-personal-account">here</a>. You’ll need a Github account to do this. The $10 a month is worth it.</p>
 <p>Visual Studio Code is available <a href="https://code.visualstudio.com">here</a>. (I use the Mac version.) Download and install.</p>
-<p>Install the Github CoPilot extension into Visual Studio Code (or the Github CoPilot Nightly extension if you want access to features earlier). Instructions on installing the extension are <a href="https://docs.github.com/en/copilot/quickstart#installing-the-github-copilot-extension-for-visual-studio-code">here</a>. On installation you’ll be prompted to login to GitHub to gain access to authorise CoPilot.</p>
+<p>Install the Github CoPilot extension into Visual Studio Code. Instructions on installing the extension are <a href="https://docs.github.com/en/copilot/quickstart#installing-the-github-copilot-extension-for-visual-studio-code">here</a>. On installation you’ll be prompted to login to GitHub to gain access to authorise CoPilot.</p>
 <p>Once you have done that, using CoPilot is easy. You simply type. As you type, you will be given suggestions.</p>
-<p>I write in markdown (or as noted above, a flavour of markdown called <a href="https://quarto.org">Quarto</a>). It allows me to include <span class="math inline">\LaTeX</span> math and R computations within any document (as I have in this post). If you’re an academic stuck in the <span class="math inline">\LaTeX</span> ecosystem, you can also write in Visual Studio Code wholly in <span class="math inline">\LaTeX</span>. (Although I say jettison that dinosaur and use <span class="math inline">\LaTeX</span> math in a markdown document - that ability to add computations is worth it, and the readability and experience so much easier.) You can also just wait until GPT-4 appears in Word. I expect that’s not too far away.</p>
+<p>The setup in RStudio is even easier. Download RStudio from here. Under Tools/Global Options is a CoPilot menu item. Enable CoPilot there. You will be asked to enter your GitHub login details to get it running.</p>
+<p>I write in markdown (and at the moment, a flavour of markdown called <a href="https://quarto.org">Quarto</a>). It allows me to include <span class="math inline">\LaTeX</span> math and R computations within any document (as I have in this post). If you’re an academic stuck in the <span class="math inline">\LaTeX</span> ecosystem, you can also write in Visual Studio Code wholly in <span class="math inline">\LaTeX</span>. (Although I say jettison that dinosaur and use <span class="math inline">\LaTeX</span> math in a markdown document - that ability to add computations is worth it, and the readability and experience so much easier.) You can also just get CoPilot in Word. I’m looking forward to my university moving beyond the experimental stage and giving us access. (I took a one-month free trial of Microsoft CoPilot on the home computer, but didn’t find the time to give it a proper go.)</p>
 
 
 
@@ -899,7 +889,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"openEffect":"zoom","selector":".lightbox","descPosition":"bottom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

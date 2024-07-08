@@ -1,8 +1,8 @@
 ---
 title: "The psychological and genes' eye view of ergodicity economics"
 author: "Jason Collins"
-date: 2024-07-05 09:00:00+00:00
-draft: true
+date: 2024-07-08 20:00:00+10:00
+draft: false
 aliases:
   - /the-psychological-and-genes-eye-view-of-ergodicity-economics
 execute: 
@@ -10,29 +10,29 @@ execute:
 bibliography: references.bib
 ---
 
-This post is my plan for a presentation at the [Foundation of Utility and Risk Conference](https://www.furconference.org/fur-2024/). I drew on the material in my previous posts laying out the [foundations of ergodicity economics](https://www.jasoncollins.blog/posts/ergodicity-economics-a-primer) and examining [what ergodicity economics states about risk preferences](https://www.jasoncollins.blog/posts/risk-and-loss-aversion-in-ergodicity-economics). This may vary from delivery - economics presentations are easily waylaid. Given it's to a technical audience, there are a few moments that might lose the lay reader.
+This post was my plan for a presentation at the [Foundation of Utility and Risk Conference](https://www.furconference.org/fur-2024/). I drew on my previous posts laying out the [foundations of ergodicity economics](https://www.jasoncollins.blog/posts/ergodicity-economics-a-primer) and examining [what ergodicity economics states about risk preferences](https://www.jasoncollins.blog/posts/risk-and-loss-aversion-in-ergodicity-economics). This varied somewhat from delivery (I'm easily waylaid and skipped a couple of sections). Given it's to a technical audience, there are a few moments that might lose the lay reader.
 
 --
 
 ## Introduction
 
-At times, I wonder whether what I am presenting to you today is an exercise in shooting fish in a barrel. The claims made by the advocates of "ergodicity economics" are often overblown and extend far beyond what is justified.
+This presentation started with a blog post. Around five years ago when I was ensconced in the corporate world, I wrote a couple of posts on an idea called ergodicity economics. A random physicist, [Ole Peters](https://x.com/ole_b_peters), was riling people up on twitter about how economists were doing it wrong, how expected utility theory was fatally flawed, how you don't need to introduce psychology to explain human decisions under risk, and how all the anomalies in behavioural economics could be reconciled with his new theory.
 
-But, underneath the bluster, I feel these are interesting fish to shoot. And despite some other attempts to shoot these fish, they still seem to be swimming around. There are a couple of published critiques of ergodicity economics, one by Doctor et al [-@doctor2020] in Nature Physics and one more recent by Matthew Ford and John Kay [-@ford2023] in Econ Journal Watch. Despite these, I still feel the central idea in ergodicity economics is interesting. So, I'm going to give a flat description of the case for ergodicity economics, before laying some psychological and evolutionary observations.
+There were plenty of people countering the stronger statements, but I thought that by writing a post or two I could understand the idea better myself. So I ignored the hyperbole and tried to give a fair hearing to the underlying idea. Since I had some background in evolutionary biology, I also tried to view it from an evolutionary lens.
 
-Since I developed the first cut of this presentation, a working paper describing a new experiment has been released, so I'm going to throw that into the mix at the expense of some of my own work, as the experiment is a signal that there might something interesting here. My thinking about this experiment is still in its early stages and I want to focus on its implications if it is true rather than the weaknesses that might undermine the result.
+In the spirit of those original posts, I am going to avoid today's presentation from becoming an exercise in attacking the most outlandish statements. There are a couple of published critiques of ergodicity economics, one by Jason Doctor et al [-@doctor2020] in Nature Physics and one more recent by Matthew Ford and John Kay [-@ford2023] in Econ Journal Watch that do a good job of addressing the claims about economics and expected utility theory. Instead, I'm going to give a flat description of ergodicity economics, before laying out some psychological and evolutionary observations.
 
 ### The bet
 
-So let me start with the classic example. You may have seen this before.
+So let me start with the classic example used to illustrate what ergodicity economics is about. You may have seen this before.
 
 > Suppose you are offered a series of 100 bets on the flip of a coin. You win 50% of your wealth on heads. You lose 40% of your wealth on tails. Do you take the bet?
 
-The expected value of the bet is 5 per cent of your wealth each flip. Continue playing for many rounds and your expected wealth is very large.
+The expected value of the bet is 5% of your wealth each flip. Continue playing for many rounds and your expected wealth is very large.
 
 However, what is the most probable outcome over many repeats of this bet?
 
-This plot is the result of a simulation of 10,000 people, each starting with \$100, playing this bet 100 times. The black line is the average wealth of the population. The red lines are paths of the first 20 people in the simulation.
+This plot is the result of a simulation of 10,000 people, each starting with \$100, experiencing the 100 flips. The black line is the average wealth of the population. The red lines are paths of the first 20 people in the simulation.
 
 ```{r setup, message=FALSE, warning=FALSE}
 #| code-summary: "Setup code"
@@ -107,9 +107,59 @@ bet <- function(p, n, t, start=100, gain, loss, ergodic=FALSE, absorbing=FALSE){
 
 # Simulate 10,000 people who accept a series of 1000 50:50 bets to win \$50 or lose \$40 from a starting wealth of \$100.
 
-set.seed(20191215)
+set.seed(20240705)
 nonErgodic <- bet(p=0.5, n=10000, t=1000, gain=1.5, loss=0.6, ergodic=FALSE)
 ```
+
+```{r plot_first_20}
+#| fig-cap: Plot of first 20 people against average wealth
+#| label: fig-ergodicity-presentation-1
+#| code-summary: "Code for plot"
+
+# Function to plot individual paths and average wealth over a set number of periods.
+plotWealth <- function(sim, t = 100, people = NULL) {
+  basePlot <- ggplot(sim$sim[1:(t+1),], aes(x = period)) +
+    labs(y = "Wealth ($)")
+
+  # Add lines for individual paths if specified
+  if (!is.null(people)) {
+    for (i in 1:people) {
+      basePlot <- basePlot +
+        geom_line(aes(y = !!sim$sim[c(1:(t+1)), i+1]), color = "red")
+    }
+  }
+
+  # Add line for average wealth
+  basePlot <- basePlot +
+    geom_line(aes(y = rowMeans(sim$sim[1:(t+1), 2:(sim$params[2,]+1)])), color = "black", linewidth = 1)
+  
+  basePlot
+}
+
+# Generate the plot with individual paths and average wealth
+nonErgodicPlot <- plotWealth(sim = nonErgodic, t = 100, people = 20)
+nonErgodicPlot
+
+```
+
+The sudden drop in mean wealth toward the end of the sequence is an interesting feature that I will ignore for the moment. But look at the red lines. At the end of 100 periods, all are below the mean wealth, and only one of the 20 agents has enough wealth at the end that you can discern the line from the x-axis.
+
+Let us now use a log scale to enable us to see the pattern more clearly.
+
+```{r log_plot}
+#| fig-cap: Plot of first 20 people against average wealth (log scale)
+#| label: fig-ergodicity-presentation-2
+#| code-summary: "Code for log plot"
+
+# Plot both the average outcome and first twenty people on the same plot.
+
+logNonErgodicPlot <- plotWealth(sim=nonErgodic, t=100, people=20)+
+    scale_y_log10(breaks = c(0.0001, 0.1, 100, 100000), labels = c("0.0001", "0.1", "100", "100000"))
+logNonErgodicPlot
+
+```
+
+All 20 of these people are below the mean wealth. Only one is ahead of where they started.
 
 ```{r summary_stats}
 #| code-summary: "Code to create function to generate summary statistics"
@@ -139,7 +189,7 @@ summaryStats <- function(sim, t = 100) {
   
   # Wealth and wealth share of the wealthiest person
   max_wealth <- max(wealth_data)
-  max_wealth_share <- max_wealth / sum(wealth_data)
+  perc_max_wealth_share <- max_wealth / sum(wealth_data) * 100
   
   # Combine all statistics into a data frame
   stats <- data.frame(
@@ -151,7 +201,7 @@ summaryStats <- function(sim, t = 100) {
     perc_gain = perc_gain,
     num_increased_100 = num_increased_100,
     max_wealth = max_wealth,
-    max_wealth_share = max_wealth_share
+    perc_max_wealth_share = perc_max_wealth_share
   )
   
   return(stats)
@@ -161,89 +211,21 @@ summaryStats <- function(sim, t = 100) {
 nonErgodicStats <- summaryStats(nonErgodic, 100)
 ```
 
-```{r plot_first_20}
-#| fig-cap: Plot of first 20 people against average wealth
-#| label: fig-ergodicity-presentation-1
-#| code-summary: "Code for plot"
-
-# Create a function for plotting the average wealth of the population over a set number of periods.
-
-averagePlot <- function(sim, t=100){
-
-  basePlot <- ggplot(sim$sim[c(1:(t+1)),], aes(x=period)) +
-    labs(y = "Average Wealth ($)")
-
-  averagePlot <- basePlot +
-    geom_line(aes(y = rowMeans(sim$sim[c(1:(t+1)),2:(sim$params[2,]+1)])), color = 1, linewidth=1)
-
-  averagePlot
-}
-
-# Create a function for plotting the path of individuals in the population over a set number of flips.
-
-individualPlot <- function(sim, t, people){
-
-  basePlot <- ggplot(sim$sim[c(1:(t+1)),], aes(x=period)) +
-    labs(y = "Wealth ($)")
-
-  for (i in 1:people) {
-    basePlot <- basePlot +
-      geom_line(aes(y = !!sim$sim[c(1:(t+1)),(i+1)]), color = 2)
-  }
-
-basePlot
-
-}
-
-jointPlot <- function(sim, t, subset) {
-  individualPlot(sim, t, subset) +
-    geom_line(aes(y = rowMeans(sim$sim[c(1:(t+1)),2:(sim$params[2,]+1)])), color = 1, linewidth=1)
-}
-
-nonErgodicPlot <- jointPlot(sim=nonErgodic, t=100, subset=20)
-nonErgodicPlot
-
-```
-
-The sudden drop in mean wealth toward the end of the sequence is an interesting feature that I will ignore for the moment. But look at the red lines. At the end of 100 periods, all are below the mean wealth, and only two of the 20 agents have enough wealth that you can discern the lines from the x-axis.
-
-Let us now use a log scale to enable us to see the pattern more clearly.
-
-```{r log_plot}
-#| fig-cap: Plot of first 20 people against average wealth (log scale)
-#| label: fig-ergodicity-presentation-2
-#| code-summary: "Code for plot"
-
-# Plot both the average outcome and first twenty people on the same plot.
-
-logJointPlot <- function(sim, t, subset) {
-  individualPlot(sim, t, subset) +
-    geom_line(aes(y = rowMeans(sim$sim[c(1:(t+1)),2:(sim$params[2,]+1)])), color = 1, linewidth=1)+
-    scale_y_log10(breaks = c(0.0001, 0.1, 100, 100000), labels = c("0.0001", "0.1", "100", "100000"))
-}
-
-nonErgodicPlot <- logJointPlot(sim=nonErgodic, t=100, subset=20)
-nonErgodicPlot
-
-```
-
-All 20 of these people are below the mean wealth. Only two are ahead of where they started.
-
-These 20 people are representative of the broader population. Across the 10,000 agents in this simulation, 86 per cent lost money. The mean wealth was over \$16,000, but the median wealth was less than one dollar.
+These 20 people are representative of the broader population. Across the 10,000 agents in this simulation, `r round(100-nonErgodicStats$perc_gain, 0)` per cent lost money. The mean wealth was \$`r format(round(nonErgodicStats$mean_wealth, 0), scientific = FALSE)`, but the median wealth was \$`r round(nonErgodicStats$median_wealth, 2)`.
 
 What is the intuition behind this?
 
-The black line simply represents the realisation of the expected gain of 5% per flip.
+The black line reflects the expected gain of 5% per flip.
 
 But for the red lines, over the long term, an individual will tend to get around half heads and half tails. As the number of flips goes to infinite, the proportion of heads or tails "[almost surely](https://en.wikipedia.org/wiki/Almost_surely)" converges to 0.5. This means that each person will tend to get a 50% increase half the time (or 1.5 times the initial wealth), and a 40% decrease half the time (60% of the initial wealth). The time average growth in wealth for an individual is $(1.5\times 0.6)^{0.5} \sim 0.95$, or approximately a 5% decline in wealth each period. Every individual's wealth will tend to decay at that rate. The black line is held up by a very lucky few.
 
-A system where the time average converges to the ensemble average (our population mean) is known as an ergodic system. The system of gambles above is non-ergodic as the time average and the ensemble average diverge. (I'll ignore the finer debates about whether this problem even involves ergodicity to the side.)
+A system where the time average converges to the ensemble average (our population mean) is known as an ergodic system. The sequence of gambles I have just shown you is non-ergodic as the time average and the ensemble average diverge. (I'll ignore the finer debates about whether this problem even involves ergodicity to the side.)
 
-This leads to the following claim: as we cannot individually experience the ensemble average, the ensemble average is not what humans consider in their decision making. Instead, people maximise the time average growth rate. For this bet, as the time average growth rate is negative, an ergodicity economics agent would reject the bet.
+This leads to the following claim: as we cannot individually experience the ensemble average, the ensemble average is not what humans consider in their decision making. Instead, people maximise the time average growth rate of wealth. For this bet, as the time average growth rate is negative, an ergodicity economics agent would reject the bet.
 
 Contrast this with the expected utility approach, where the utility of each outcome is weighted by its probability and summed to give the expected utility. Expected utility theory would be consistent with both accepting and rejecting the bet depending on the particular utility function.
 
-There is an incidental alignment between ergodicity economics and expected utility theory. If a person has log utility - that is, they maximise the probability-weighted logarithm of the possible outcomes - they will maximise the time average growth rate.
+There is, however, an incidental alignment between ergodicity economics and expected utility theory. If a person has log utility - that is, they maximise the probability-weighted logarithm of the possible outcomes - they will maximise the time average growth rate.
 
 ### Additive versus multiplicative
 
@@ -257,14 +239,14 @@ You can see the tweak from the original bet, with dollar sums rather than percen
 
 This second series of flips is ergodic. The expected value of each flip is \$5 ($0.5\times \$50-0.5\times \$40=\$5$). The time-average growth rate is also \$5.
 
-Let's simulate as we did for multiplicative bets, with 10,000 people starting with \$100 and flipping the coin 100 times. The below plot shows the average wealth of the population, together with the paths of the first 20 of the 10,000 people (in red).
+Let's simulate as we did for multiplicative bets, with 10,000 people starting with \$100 and flipping the coin 100 times. This plot shows the average wealth of the population, together with the paths of the first 20 of the 10,000 people (in red).
 
 ```{r simulate_ergodic}
 #| code-summary: "Code to simulate ergodic environment"
 
 # Simulate 10,000 people who accept a series of 1000 50:50 bets to win \$50 or lose \$40 from a starting wealth of \$100.
 
-set.seed(20200203)
+set.seed(20240705)
 ergodic <- bet(p=0.5, n=10000, t=100, gain=50, loss=40, ergodic=TRUE, absorbing=FALSE)
 ```
 
@@ -275,7 +257,7 @@ ergodic <- bet(p=0.5, n=10000, t=100, gain=50, loss=40, ergodic=TRUE, absorbing=
 
 # Plot both the average outcome and first twenty people on the same plot.
 
-ergodicPlot <- jointPlot(sim=ergodic, t=100, subset=20)
+ergodicPlot <- plotWealth(sim=ergodic, t=100, people=20)
 ergodicPlot
 ```
 
@@ -327,90 +309,92 @@ The growth-rate maximiser would accept the bet if they didn't fear ruin. The tim
 
 ### The ergodicity economics hypothesis
 
-This brings us to the core hypotheses that has come from the ergodicity economics crowd.
+This brings us to the core hypotheses in ergodicity economics.
 
 First, people act to maximise the time-average growth rate of their wealth.
 
-Second, the optimal action to maximise the time-average growth rate varies between multiplicative and additive environments. In multiplicative environments, people have effectively log utility. In additive environments, they are risk neutral.
+Second, the optimal action to maximise the time-average growth rate varies between multiplicative and additive environments. In multiplicative environments, people have log utility. In additive environments, they are risk neutral.
 
-## What are the implications of this finding?
+### What are the implications of this finding?
 
 The advocates of ergodicity economics have applied this claim to a range of economics problems.
 
-@peters2023 argues that we can think of insurance as a tool to make wealth grow faster rather than as a tool for the risk averse or for piece of mind. This plot shows the outcomes for agents facing a 5% probability of a loss of 95% of their wealth each period. Uninsured agents experience ruinous path over time. Those who insure at a cost experience a slower decline.
+@peters2023 argues that we can think of insurance as a tool to make wealth grow faster rather than as protection for the risk averse. This plot shows the outcomes for agents facing a 5% probability of a loss of 95% of their wealth each period. Uninsured agents experience ruinous path over time, losing far more than would be implied by the expected value. Those who insure at a cost experience a slower decline.
 
 As an aside, I do find these numbers quite comical: 2500 periods with a 5% probability of loss, leading to an expected value of around $10^{-70}$ times the initial wealth even under the insured scenario. The expected-value optimisers, even if they stated with every atom in the universe, would be left with a fraction of an atom by the end.
 
-![](img/the-psychological-and-genes-eye-view-of-ergodicity-economics/peters-2023-figure-3.png)
+![](img/the-psychological-and-genes-eye-view-of-ergodicity-economics/peters-2023-figure-3.png){width="60%"}
 
-@peters2022 similarly propose a desire to maximise the growth rate as the origin of cooperative behaviour. Here, the green trajectories are the selfish agents, the blue line the cooperators.
+@peters2022 similarly propose a desire to maximise the growth rate as the origin of cooperative behaviour. Here, the green trajectories are the selfish agents, the blue line the cooperators. In some ways, this is just the insurance problem reframed.
 
-![](img/the-psychological-and-genes-eye-view-of-ergodicity-economics/peters-and-adamou-2022-figure-2.png)
+![](img/the-psychological-and-genes-eye-view-of-ergodicity-economics/peters-and-adamou-2022-figure-2.png){width="60%"}
 
-One of the more interesting example concerns time preference. @adamou2021 attempt to use growth rate maximisation as an explanation for exponential discounting, hyperbolic discounting and preference reversals, depending on the particular wealth dynamic.
+One of the more interesting examples concerns time preference. @adamou2021 use growth rate maximisation as an explanation for exponential discounting, hyperbolic discounting and preference reversals, depending on the particular wealth dynamic.
 
-This image captures a situation where an agent is in an additive world where they have a choice between a smaller sooner and a larger later pay-off. This agent seeks to maximise the growth rate of their wealth. From the perspective of $t_0$ the larger later pay-off provides a higher growth rate, which is equal to the slope of the line extended to the top of that pay-off. By the third frame, as the agent moves closer to the smaller, sooner pay-off, the higher growth rate now comes from that early pay-off. They have reversed their preference.
+I won't cover all the scenarios, but this image captures a situation where an agent in an additive world has a choice between a smaller sooner and a larger later pay-off. This agent seeks to maximise the growth rate of their wealth. From the perspective of $t_0$ the larger later pay-off provides a higher growth rate, which is equal to the slope of the line extended to the top of that pay-off. By the third frame, as the agent moves closer to the smaller, sooner pay-off, the higher growth rate now comes from that early pay-off. They have reversed their preference.
 
 ![](img/the-psychological-and-genes-eye-view-of-ergodicity-economics/adamou-et-al-2021-figure-3.png)
 
-It is when seeing ideas such as this that the claims that this is a "psychology free" approach made by the main purveyors of ergodicity economics seem slightly ridiculous. The agent must have quite severe myopia to be unable to see their upcoming preference reversal, or to realise the foregone larger opportunity on the other side of that smaller sooner payment.
+It is when seeing ideas such as this that the suggestion that ergodicity economics is a "psychology free" seem slightly ridiculous. The agent must be myopic to be unable to see their upcoming preference reversal, or to realise the foregone larger opportunity on the other side of that smaller sooner payment.
 
-### The experiment
+## The experiment
 
-But rather than going down that rabbit-hole, I want to present an experimental result. This is an updated version of an older experiment, with a pre-print describing this experiment being released at the end of May.
+But rather than going down that rabbit-hole, I want to present an experimental result. In 2019, a working paper was released examining whether shifting between an additive and multiplicative environment would change risk preferences. One of my blog posts was on that working paper. The paper was ultimately published in 2021 in PLOS Computational Biology [@meder2021].
 
-The experiment is by @skjold and involves a group of experimental participants who were asked to make a series of bets in either an additive or multiplicative environment. Participants were randomised to either the additive or multiplicative environment, before having a session in the other.
+That first experiment was subject to many criticisms, including by me, so @skjold designed a new experiment. A pre-print describing the results from this experiment was released at the end of May. Some of the criticisms have been addressed in this new experiment, and the result is interesting.
 
-At the beginning of each session, the participants were trained on a set of images of fractals, each of which had a specific effect on their endowment: multiplication by some fraction in the multiplicative session, or addition or subtraction of some fraction in the additive session. They were then tested on whether they had learnt the ordering of the fractals, with the subset of participants with low learning excluded from the analysis.
+Experimental participants were randomised to an additive or multiplicative environment where they were asked to make a series of bets. After making the bets in one environment, they were crossed over to the other.
+
+At the beginning of the additive and multiplicative session, participants were trained on a set of fractal images, each of which had a specific effect on their endowment: multiplication by some fraction in the multiplicative session, or addition or subtraction of some sum in the additive session. Participants were then tested on whether they had learnt the ordering of the fractals, with the subset of participants with low learning excluded from the analysis. This image shows the training procedure, which essentially comprises exposure to the fractal and then an update to their wealth.
 
 ![](img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-1.png)
 
-This use of fractals is one of the confounding factors that could influence the results: we have introduced ambiguity into the subsequent decisions, but I'm going to ignore that for now.
+This use of fractals instead of numbers is one of the confounding factors that could influence the results: we have introduced ambiguity into the subsequent decisions. It was one of my critiques of the original experiment, but I clearly wasn't very persuasive. Anyhow, let's ignore that for now.
 
-Participants then proceeded to their decision task, where they had to choose between lotteries, each of which is represented by two of the fractal images. Over a sequence of 160 decisions, they would be shown the lotteries, make their choice, be shown the outcome of the lottery, then see the effect of the outcome on their wealth.
+Participants then proceeded to their decision task, where they had to choose between gambles, each of which is represented by two of the fractal images. Over a sequence of 160 decisions, they would be shown the gambles, make their choice, be shown the outcome of the gamble, then see the effect of the outcome on their wealth.
 
 ![](img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-4.png)
 
-Participants were incentivised by being paid their relative proportion of points compared to a rolling window of 10 participants. Another exhibit in the "why do we make incentives so complicated" collection and another confound to the experimental result. By rewarding on proportional access to a pool, they have introduced diminishing gains and a cap on winnings. But again, I'll ignore that for today.
+You can watch a video of the training and decision task below. (I didn't show this video in the presentation.)
 
-So, to the result. The research team modelled participants as having an isoelastic utility function (a reasonably strong assumption), with the parameter $\eta$ calculated by Bayesian cognitive modeling.
+{{<video https://www.youtube.com/watch?v=uLGA4Ym-OYA>}}
+
+Participants were incentivised by being paid their relative proportion of points compared to a rolling window of 10 participants. Another exhibit of "why do we make experimental incentives so complicated" and another confound to the experimental result. By rewarding on proportional access to a pool, they have introduced diminishing gains and a cap on winnings. But again, I'll ignore that for today.
+
+So, to the result. The research team modelled participants as having an isoelastic utility function (a reasonably strong assumption), with the parameter $\eta$ calculated by Bayesian cognitive modelling.
 
 $$
 f_{\eta}(x)=\begin{cases}
-\frac{x^{1-\eta} - 1}{1-\eta} & \text{if } \eta \neq 1 \\
+\frac{x^{1-\eta} - 1}{1-\eta} & \text{if } \eta \neq 1 \\[6pt]
 \ln(x) & \text{if } \eta = 1
 \end{cases}
 $$
 
 What would we predict the value of $\eta$ to be in this experiment? Expected utility theory is quiet on the precise value. The ergodicity economics approach, however, gives us a prediction. First, $\eta$ will be one in the multiplicative condition, as log utility maximises the growth rate. Second, $\eta$ will be zero in the additive condition. The growth rate is maximised in an additive environment by risk neutral behaviour.
 
-This chart shows the result. For the additive scenario, participants were close to risk neutral: the aggregate estimate of $\eta$ was slightly above zero at about 0.1. For the multiplicative condition, although there was a wider distribution of values, the central estimate of $\eta$ was almost exactly one.
+This chart shows the result. Thin lines represent individual participants. The thick lines represent the aggregate. For the additive scenario, participants were close to risk neutral: the aggregate estimate of $\eta$ was 0.1. For the multiplicative condition, although there was a wider distribution of values, the central estimate of $\eta$ was one.
 
 ![](img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-7c.png)
 
-Despite the many things I don't like about this experiment - I have only hinted at a couple - this is a strong result. Absent the confounds, I'm not sure what else could cause this result.
+Despite the elements of this experiment that I would do differently - I have only hinted at a couple - this is a strong result.
 
-### The psychology
+If the ergodocity economics hypotheis is correct, it is worth thinking about what this means psychologically.
 
-However, it's worth thinking about what this means psychologically.
+When modelling the utility function, the researchers took the value of $x$ to be the participant's experimental wealth at the time the participant makes their decision. It is the initial endowment, plus or minus the results of the previous bets. $x$ does not include outside wealth.
 
-When modelling the utility function, the researchers took the value of $x$ in this experiment to be the experimental endowment at the time the agent makes their decision. It is the initial endowment, plus or minus the results of the previous bets. $x$ does not include outside wealth.
+But if this use of $x$ is an accurate characterisation of the decision making process of the agents, it suggests a form of narrow bracketing or a degree of myopia. Agents are maximising the growth rate *within* the experiment, not more generally. We need to introduce some psychology to explain this. (This phenomenon is common across lab experiments involving risky decisions.)
 
-But if this use of $x$ is an accurate characterisation of the decision making process of the agents, it suggests a narrow form of mental accounting or a degree of myopia. Agents are maximising the growth rate *within* the experiment, not more generally. We need to introduce some psychology to explain this.
-
-Similarly, this experiment is part of a broader environment with either multiplicative or additive characteristics. Experimental participants can take their payment from the experiment and invest it or take some other action. Maximising the growth rate in the additive condition by maximising expected value may not maximise the total growth raate if the world outside the experiment is multiplicative.
+Similarly, this experiment is part of a broader environment with either multiplicative or additive characteristics. Experimental participants can take their payment from the experiment and invest it. Maximising the growth rate in the additive condition by maximising expected value may not maximise the total growth rate if the world outside the experiment is multiplicative.
 
 ## An evolutionary analysis
 
-Now, via a rather long and winding path, I want to turn to an evolutionary analysis of ergodicity economics. There is a large literature in the evolution of preferences, not to mention the evolutionary biology literature itself, that is relevant to an analysis of growth rate maximisation. Since the concepts are already there, I'm going to lean on them, but turn them to my own purpose.
+Now, via a rather long and winding path, I want to turn to a couple of evolutionary observations about ergodicity economics. There is a large literature in the evolution of preferences, not to mention in the evolutionary biology literature itself, that is relevant to an analysis of growth rate maximisation. Since the concepts are already there, I'm going to lean on them and turn them to my own purpose.
 
-The first evolutionary angle concerns what happens when we take a gene's eye view. And to assist me in making this point, let me show a quote.
-
-Possibly the highest profile ergodicity economics publication was a [Nature Physics paper](https://doi.org/10.1038/s41567-019-0732-0) in which Ole Peters summarises his work. In one paragraph Peters writes:
+The first evolutionary angle concerns what happens when we take a gene's eye view. And to assist me in making this point, let me show a quote from a Nature Physics paper in which Ole Peters [-@peters2019] summarises his work:
 
 > \[I\]n maximizing the expectation value - an ensemble average over all possible outcomes of the gamble - expected utility theory implicitly assumes that individuals can interact with copies of themselves, effectively in parallel universes (the other members of the ensemble). An expectation value of a non-ergodic observable physically corresponds to pooling and sharing among many entities. That may reflect what happens in a specially designed large collective, but it doesn't reflect the situation of an individual decision-maker.
 
-Ignoring the fact that this mis-characterises expected utility theory, this idea of interacting with copies of themselves is what happens at the level of genes. By the presence of multiple copies of a gene, the gene can experience the ensemble average. The following basic model and simulation illustrates.
+Ignoring the fact that Peters mis-characterises expected utility theory, this idea of interacting with copies of themselves is what happens at the level of genes. By the presence of multiple copies of a gene across individuals, the gene can experience the ensemble average. The following toy model and simulation illustrates.
 
 ### A toy model
 
@@ -428,58 +412,47 @@ Given this setup, the type that maximises the expected number of offspring alway
 
 The time-average growth rate maximiser population stays constant. One offspring to each asexual parent.
 
-Below is a chart of the population of the accepting type for a simulation of 100 generations, starting with a population of 10,000.
+This is a chart of the population of the accepting type for a simulation of 100 generations, starting with a population of 10,000.
 
 ```{r evolutionary_simulation}
 #| code-summary: "Code for evolutionary simulation"
 
-set.seed(20191215)
+set.seed(20240705)
 
 # create function to round probabilistically - important when small numbers involved
 probabilistic_round <- function(x) {
-  lower <- floor(x)
-  upper <- ceiling(x)
-  prob_upper <- x - lower
-  if (runif(1) < prob_upper) {
-    return(upper)
+  if (runif(1) < x - floor(x)) {
+    ceiling(x)
   } else {
-    return(lower)
+    floor(x)
   }
 }
 
-evolutionBet <- function(p, n, t, gain, loss){
-
+# Function to simulate evolution betting
+evolutionBet <- function(p, n, t, gain, loss) {
+  
   #p is probability of a gain
   #region  is how many people in the simulation
   #t is the number of generations simulated
-
-  params <- as.data.frame(c(p, n, t, gain, loss))
+  
+  params <- data.frame(value = c(p, n, t, gain, loss))
   rownames(params) <- c("p", "n", "t", "gain", "loss")
-  colnames(params) <- "value"
 
-  sim <- matrix(data = NA, nrow = t, ncol = 1)
-
-  sim <- rbind(n, sim) #placing the starting population in the first row
+  sim <- numeric(t + 1)
+  sim[1] <- n # Start population
 
   for (i in 1:t) {
     for (j in 1:round(n)) {
-      outcome <- rbinom(n=1, size=1, prob=p)
-      ifelse(outcome==0, x <- loss, x <- gain)
-      n <- n + (x-1)
+      outcome <- rbinom(1, 1, p)
+      n <- n + (ifelse(outcome == 1, gain, loss) - 1)
     }
     n <- probabilistic_round(n)
-    sim[i+1] <- n #"+1" as have starting population in first row
-    # if n = 0, break
-    if(n == 0){
-      break
-    }
+    sim[i + 1] <- n
+    if (n == 0) break
   }
 
-  sim <- cbind(seq(0,t), sim) #number each period
-  sim <- data.frame(sim, row.names=NULL)
-  colnames(sim) <- c("period", "n")
-  sim <- list(params=params, sim=sim)
-  sim
+  sim <- data.frame(period = 0:t, n = sim)
+  list(params = params, sim = sim)
 }
 
 evolution <- evolutionBet(p=0.5, n=10000, t=100, gain=1.5, loss=0.6) #more than 100 periods can take a very long time, simulation slows markedly as population grows
@@ -502,32 +475,28 @@ expectationPlotEvo
 
 You can see that they have a population growth rate of close to 5%.
 
-Why don't they experience the decline we saw in earlier simulations of this bet? Because their copies experience the full ensemble of outcomes. Returning to part of the the quote from Peters:
+Why don't they experience the decline we saw in earlier simulations of this bet? Because their copies experience the full ensemble of outcomes.
 
-> An expectation value of a non-ergodic observable physically corresponds to pooling and sharing among many entities. That may reflect what happens in a specially designed large collective, but it doesn't reflect the situation of an individual decision-maker.
-
-So here we have a toy model that shows that time-average growth rate maximisation may not be the optimal strategy in a non-ergodic multiplicative environment.
+So here we have a toy model that shows that time-average growth rate maximisation may not be the optimal strategy in a multiplicative environment. The constant population of time-average growth rate maximisers is swamped by the spreading population of the expected value maximisers.
 
 This behaviour could also emerge where it did not previously exist. The simulation I just showed you had 10,000 agents with expected value maximising behaviour to start. What if we had a population of time-average growth rate optimisers, and a single expected value maximiser emerged?
 
-This plot shows ten simulations of the growth in expected value maximisers from a single positive mutation. For seven of them, the mutation appears and disappears. Three see growth into a substantial population.
+I simulated 10,000 instances of a single individual developing the mutation. This plot shows the population of the first ten mutants. For five of them, the mutation appears and disappears. For the other five, however, they grow into a substantial population.It only takes a few agents with this mutation to effectively diversify the results.
 
-```{r mutation, warning=FALSE}
-#| fig-cap: Population of accepting types with mutation
-#| label: fig-ergodicity-presentation-9
-#| code-summary: "Code for evolutionary plot with mutation"
+```{r mutation_simulation, warning=FALSE}
+#| code-summary: "Code for evolutionary simulation"
 
 # run 9 simulations with 1 accepting type to start
 
-set.seed(20191215)
+set.seed(20240705)
 
-mutations <- 10
+mutations <- 10000
 
 for (i in 1:mutations) {
   assign(paste0("evolution_", i), evolutionBet(p=0.5, n=1, t=100, gain=1.5, loss=0.6))
 }
 
-# Plot the simulations
+# Create a data frame for each simulation and store in a list
 data_frames <- list()
 
 for (i in 1:mutations) {
@@ -543,9 +512,22 @@ for (i in 1:mutations) {
 
 # Combine all data frames into one
 combined_data <- do.call(rbind, data_frames)
+```
 
-# Plot all lines
-mutationPlotEvo <- ggplot(combined_data, aes(x=period, y=n, color=factor(i))) +
+```{r mutation_count}
+#| code-summary: "Code to count mutation spread"
+
+# Count the number of simulations where the mutation spread (where n > 1 when i = 100)
+mutation_count <- sum(combined_data[combined_data$period == 100,]$n > 1, na.rm = TRUE)
+```
+
+```{r mutation_plot, warning=FALSE}
+#| fig-cap: Population of accepting types with mutation
+#| label: fig-ergodicity-presentation-9
+#| code-summary: "Code for evolutionary plot with mutation"
+
+# Plot first 10 lines
+mutationPlotEvo <- ggplot(combined_data[combined_data$i >= 1 & combined_data$i <= 10,], aes(x=period, y=n, color=factor(i))) +
   geom_line() +
   labs(y = "Population") +
   #remove legend
@@ -555,97 +537,139 @@ mutationPlotEvo <- ggplot(combined_data, aes(x=period, y=n, color=factor(i))) +
 mutationPlotEvo
 ```
 
-This plot shows the first 35 periods, so you can see the dynamic for those where the mutation did not spread.
+If we zoom into the first 35 periods, you can see the dynamic for those where the mutation did not spread.
 
-```{r mutation_plot_35, warning=FALSE}
-#| fig-cap: Population of accepting types with mutation (first 35 periods)
+```{r mutation_plot_30, warning=FALSE}
+#| fig-cap: Population of accepting types with mutation (first 30 periods for first 10 agents)
 #| label: fig-ergodicity-presentation-10
-#| code-summary: "Code for evolutionary plot with mutation (first 35 periods)"
-# Plot first 35 periods only
+#| code-summary: "Code for evolutionary plot with mutation (first 30 periods)"
 
-mutationPlotEvo35 <- ggplot(combined_data, aes(x=period, y=n, color=factor(i))) +
+# Plot first 35 periods only
+mutationPlotEvo30 <- ggplot(combined_data[combined_data$i >= 1 & combined_data$i <= 10,], aes(x=period, y=n, color=factor(i))) +
   geom_line() +
   labs(y = "Population") +
-  xlim(0, 35) +
+  xlim(0, 30) +
   ylim(0, 35) +
   #remove legend
   theme(legend.position = "none")
 
-mutationPlotEvo35
+mutationPlotEvo30
 
 ```
 
-It only takes a few agents with this mutation to effectively diversify across the two outcomes each generation.
+This is a slightly rosier picture than occurs across the full 10,000 simulations, where the mutation did not spread `r round(100 - mutation_count/10000*100, 0)`% of the time.
 
-That's two illustrations that time-average growth optimisation may not be the optimal strategy, but it hinges on one critical assumption: that risk is idiosyncratic. Diversification enables the gene to experience the ensemble average. What if such diversification is not possible?
+These illustrations suggest that time-average growth optimisation may not be the optimal strategy, but it hinges on one critical assumption: that risk is idiosyncratic. Diversification enables the gene to experience the ensemble average. What if such diversification is not possible?
 
-In that case, we are effectively back to the world that I showed you at the beginning. Almost all those who accept the bet will decline in frequency. An extraordinarily lucky individual might be able to hold the frequency up, as is the case here.
+In that case, we are effectively back to the world that I showed you at the beginning. You could consider each line to represent an individual and their children, with their children all bound to the same bet. In almost all cases, this leads to a decline in frequency. An extraordinarily lucky few might boom through many rolls of the dice, but that is a rare chance.
 
-But note this decline toward the end of the 100 periods. This can occur as a small number of individuals have all the wealth - in fact, one individual has 70% of the wealth at the end of 100 periods - and they cannot diversify their risk. A few unlucky coin flips and they are gone.
+Further, recall decline toward the end of the 100 periods. This occurred as a small number of genetic lines comprise most of the population - in fact, one single line of the original 10,000 comprises `r round(nonErgodicStats$perc_max_wealth_share, 0)`% of the population at the end of 100 periods - and they cannot diversify their risk. A few unlucky coin flips and they are gone.
 
-The result is that, over a long enough time horizon, everyone is wiped out. Here's the same simulation plotted through 1000 iterations. By the end, everyone who takes the bet is wiped out.
+The result is that, over a long enough time horizon, *everyone* is wiped out. There is no longer a lucky few. Here's the same simulation plotted through 1000 iterations, over evolutionary time, in both linear and log scales.
 
-```{r non_ergodic_plot_200}
+```{r non_ergodic_plot_1000}
+#| fig-cap: Population of accepting types over 1000 periods
+#| label: fig-ergodicity-presentation-11
+#| code-summary: "Code for evolutionary plot over 1000 periods"
 
-nonErgodicPlot <- jointPlot(sim=nonErgodic, t=1000, subset=20)
+nonErgodicPlot <- plotWealth(sim=nonErgodic, t=1000, people=20)
 nonErgodicPlot
 
 ```
 
-The result is that with aggregate risk, the time-average growth rate maximiser can be the optimal strategy. Think a weather event that affects all members of a tribe or family.
+```{r non_ergodic_log_plot_1000}
+#| fig-cap: Population of accepting types over 1000 periods (log scale)
+#| label: fig-ergodicity-presentation-12
+#| code-summary: "Code for evolutionary plot over 1000 periods (log scale)"
+
+logNonErgodicPlot <- nonErgodicPlot+
+    scale_y_log10(breaks = c(0.0001, 0.1, 100, 100000), labels = c("0.0001", "0.1", "100", "100000"))
+logNonErgodicPlot
+
+```
+
+The result is that with aggregate risk, time-average growth rate maximisation can be the optimal strategy.
 
 ### Probability matching
 
 To explore this in more detail, I'm going to turn to another example that has a rich history in the biology literature.
 
-The particular example I am going to pock is a bit cartoonish, and comes from a paper by Thomas Brennan and Andrew Lo and published in The Quarterly Journal of Finance to explain the evolution of probability matching. You can find other earlier examples in the literature, such as @cooper1982 in The Journal of Theoretical Biology.
+The particular example I am going to pick is a bit cartoonish, and comes from Andrew Lo's [Adaptive Markets](ADD_LINK). This in turn draws on a more technical paper by Thomas Brennan and Lo [-@brennan2011] published in The Quarterly Journal of Finance to explain the evolution of probability matching. You can find other earlier examples in the literature, such as by @cooper1982 in The Journal of Theoretical Biology.
 
-The example concerns an animal called the tribble. Tribbles live in a region comprising valleys and plateaus. Tribbles reproduce once in their life (producing three offspring asexually) and must choose whether to reproduce in the valley or on the plateau. This is a risky decision, however, as the valleys are affected by floods and the plateaus by drought. Each generation there is a 75 per cent probability of sun, subjecting the plateaus to drought. In such a case, the tribbles born on the plateau perish. The other 25 per cent of the time, it rains, leading to flood in the valleys and the death of those tribbles breeding there.
+The example concerns an animal called the tribble. For amusement, I chucked an earlier draft of this presentation into ChatGPT and asked it to illustrate it. Most of what it produced was unusable, but I've kept a couple of images for which I thought it did a good job.
 
-In the long run, if all tribbles make the same choice, the tribbles will be wiped out by rain or drought. Putting this into the language of ergodicity economics, although breeding in the valley every period has an expected result of $0.75\times  3$ offspring, with an expected growth rate of 125 per cent per generation, the time average growth rate is zero as the tribbles will, in the long run, almost certainly be wiped out by a flood.
+Tribbles live in a region comprising valleys and plateaus. Tribbles reproduce once in their life (producing three offspring asexually) and must choose whether to reproduce in the valley or on the plateau. This is a risky decision, however, as the valleys are affected by floods and the plateaus by drought.
 
-What, then, is the growth maximising breeding strategy? The answer is to breed in the valley 75 per cent of the time and on the plateau 25 per cent of the time. The expected growth rate of this strategy is 25 per cent per generation, but the time average growth rate is also 25 per cent per generation.
+![](img/the-psychological-and-genes-eye-view-of-ergodicity-economics/tribbles.webp){width="512"}
 
-We can calculate this optimal growth rate by considering that, over the long term, the tribbles will experience droughts 75 per cent of the time and floods 25 per cent of the time. Setting q as the proportion of tribbles that breed in the valley, the growth rate over the long term is therefore:
+Each generation there is a 75 per cent probability of sun. In such a case, the tribbles born on the plateau perish. The other 25 per cent of the time, it rains, leading to flood in the valleys and the death of those tribbles breeding there.
 
-$$
-G=3\times q^{0.75}(1-q)^{0.25}\\[12pt]
-$$
+::: {layout-ncol="2"}
+![](img/the-psychological-and-genes-eye-view-of-ergodicity-economics/flood.webp)
 
-To find the $q$ that maximises the growth rate, we take the log of G and calculate the derivative (taking the log is not required but makes the calculation simpler).
+![](img/the-psychological-and-genes-eye-view-of-ergodicity-economics/drought.webp)
+:::
 
-$$
-\log(G)=\log(3)+0.75\log(q)+0.25\log(1-q)\\[12pt]
-\\
-\frac{d}{dq}\log(G)=\frac{0.75}{q}-\frac{0.25}{1-q}=0\\[12pt]
-\\
-0.75(1-q)-0.25q=0\\[12pt]
-\\
-q=0.75
-$$
+What, then, is the growth maximising breeding strategy?
 
-Probability matching in this world maximises the time-average growth rate.
+Let's set $q$ as the proportion of tribbles that breed in the valley. If we maximise the expected number of offspring, tribbles would breed in the valley 100 per cent of the time. That is, $q=1$, leading to an an expected $0.75\times 3=2.25$ offspring.
 
-This calculation is, again, the same as log utility.
+However, in the long run, if all tribbles make this choice, the tribbles will be wiped out. Over the long term, the tribbles will experience droughts 75 per cent of the time and floods 25 per cent of the time. Putting this into the language of ergodicity economics, the time average growth rate is zero.
 
-If we maximise log utility as a function of number of offspring, we get the same value of $q$.
+To find the $q$ that maximises the growth rate, we take the log of G and calculate the derivative. The solution is to breed in the valley 75 per cent of the time and on the plateau 25 per cent of the time.
 
 ```{=tex}
 \begin{align*}
-U(x)=0.75\times \log(3q)+0.25\times log(3-3q))\\[12pt]
-\frac{d}{dq}U(x)=0.75\times \frac{3}{3q}-0.25\times \frac{3}{3-3q}=0\\[12pt]
-0.75(1-q)-0.25q=0\\[12pt]
-q=0.75
+G&=3\times q^{0.75}(1-q)^{0.25}\\[6pt]
+\\
+\log(G)&=\log(3)+0.75\log(q)+0.25\log(1-q)\\[6pt]
+\\
+\frac{d}{dq}\log(G)&=\frac{0.75}{q}-\frac{0.25}{1-q}=0\\[6pt]
+\\
+q&=0.75
 \end{align*}
 ```
-So, here we have a world where maximising the time-average growth rate is the optimal solution - here, achieved via probability matching.
 
-Altruism problem - Robson and Samuelson (Grafen)
+Probability matching in this world maximises the time-average growth rate.
 
-Paul Glimcher - all to do with the probability structure of the environment
+This result is the same if we approach this from the perspective of log utility. If we maximise log utility as a function of number of offspring, we get the same value of $q$.
+
+```{=tex}
+\begin{align*}
+U(n)&=0.75\times \log(3q)+0.25\times log(3-3q))\\[6pt]
+\\
+\frac{d}{dq}U(n)&=0.75\times \frac{3}{3q}-0.25\times \frac{3}{3-3q}=0\\[6pt]
+\\
+q&=0.75
+\end{align*}
+```
+
+Here we have a world where maximising the time-average growth rate is the optimal solution. In this case, it is achieved via probability matching.
+
+There is one feature of this scenario that might seem off. Probability matching maximises the growth rate for the species. But which individuals are heading off to the plateau where 75% of the time they are going to be fried? If this an altruistic act for the benefit of the species? Why not head down to the cool valley where they, as an individual, is more likely to survive?
+
+The answer was provided by @grafen1999. Suppose we have a large population of size $N$. If an agent heads to the valley, the expected fraction of the population comprising their offspring ($\pi$) will be:
+
+$$
+\pi(\text{valley})\approx\frac{0.75}{qN}=\frac{1}{N}
+$$
+
+If they stay to fry on the plateau, their offspring will comprise a similar fraction of the smaller remaining population:
+
+$$
+\pi(\text{plateau})\approx\frac{0.25}{(1-q)N}=\frac{1}{N}
+$$
+
+Fitness is a relative measure. At equilibrium $q$, each option delivers the same fitness.
 
 ### Idiosyncratic versus aggregate risk
 
-What I have created is two hypothetical worlds, one making the case for maximising expected value despite being in a multiplicitive world, and another where maximising the time-average growth rate is the optimal strategy. In both cases, the optimal strategy relies on the gene's eye view: in the
+I have created two hypothetical worlds, one making the case for maximising expected value despite being in a multiplicative world, and another where maximising the time-average growth rate is the optimal strategy. In both cases, the optimal strategy relies on the gene's eye view. The variation comes from the probability structure of the environment.
 
-This analysis bears some resemblance to the analysis of discount rates by Robson and Samuelson.
+I am hardly the first to propose this. I'm drawing on a rich history of research into the evolution of geometric growth rate maximisation in the biological literature. This in turn has been used by economic researchers such as @robson2011 in the analysis of the evolution of preferences.
+
+But, I like to think that this ergodicity economics exercise provides a nice opportunity to tie multiple threads together to provide a different perspective.
+
+What's next? I've been building a set of simulations examining mixed environments. What if the probabilistic structure of the environment is a mix of multiplicative and additive bets? You could think of the additive phase of the experiment I described earlier as comprising an few additive gambles in a multiplicative world. What if the environment switches between additive and multiplicative?
+
+There isn't a simple closed form solution to this problem. If you have a mix of additive and multiplicative bets, or even a non-constant multiplicative growth rate, an "ergodic observable" cannot easily be created. At present, it is best examined via simulation.
