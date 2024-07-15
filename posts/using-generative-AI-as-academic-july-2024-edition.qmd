@@ -2,7 +2,7 @@
 title: 'Using generative AI as an academic - July 2024 edition'
 author: "Jason Collins"
 date: 2024-07-15 19:00:00+10:00
-draft: true
+draft: false
 aliases:
   - /using-generative-AI-as-an-academic-july-2024-edition
 toc: true
