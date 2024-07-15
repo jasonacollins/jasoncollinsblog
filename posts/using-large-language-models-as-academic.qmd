@@ -152,7 +152,7 @@ One thing I have noted is that CoPilot uses all of the text in the document in g
 
 ### Converting code across languages
 
-My second example relates to a proposed reproduction of the results in Berkeley Dietvorst's [Algorithm aversion: People erroneously avoid algorithms after seeing them err](https://doi.org/10.1037/xge0000033). Data and the code for analysis was [available on ResearchBox](ADD%20LINK).
+My second example relates to a proposed reproduction of the results in Berkeley Dietvorst's [Algorithm aversion: People erroneously avoid algorithms after seeing them err](https://doi.org/10.1037/xge0000033). Data and the code for analysis was [available on ResearchBox](https://researchbox.org/379&PEER_REVIEW_passcode=MOQTEQ).
 
 The problem was that the code was in Stata, I don't have Stata, and I have no desire to learn Stata. So, I pasted the code into ChatGPT and asked for a conversion to R. What I received was 90% of the way there. Initially there was an error, but ChatGPT solved the error first shot. I then had to tweak a couple of the variable manipulations and specify that some of the t-tests were paired t-tests, and that was it. In less than 10 minutes I had code that was reproducing exactly the results from Study 1.
 
