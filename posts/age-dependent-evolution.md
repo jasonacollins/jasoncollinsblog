@@ -7,7 +7,6 @@ link: https://www.jasoncollins.blog/age-dependent-evolution/
 aliases:
   - /age-dependent-evolution
 title: Age-dependent evolution
-wordpress_id: 4017
 ---
 
 At the [Consilience Conference earlier this year](https://www.jasoncollins.blog/consilience-conference-afterthoughts/) I bumped into evolutionary biologist Michael Rose, whose research interests include examining ageing through the lens of evolutionary theory. In our brief conversation, Rose mentioned that he had laid out much of his thinking on the topic in [55 Theses](http://55theses.org), where Rose describes how to use the insights of evolutionary biology to improve your health.

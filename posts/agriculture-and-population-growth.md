@@ -7,7 +7,6 @@ link: https://www.jasoncollins.blog/agriculture-and-population-growth/
 aliases:
   - /agriculture-and-population-growth
 title: Agriculture and population growth
-wordpress_id: 4071
 ---
 
 Over the last few months, I have heard the phrase “agriculture creates excess population” or other words to that effect from several sources. The latest is at Evolvify, where [Andrew references Richard Manning](http://evolvify.com/agriculture-creates-excess-population/) and writes:

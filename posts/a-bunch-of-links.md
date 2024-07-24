@@ -3,10 +3,7 @@ title: 'A bunch of links'
 author: "Jason Collins"
 date: 2022-03-17 09:00:00+00:00
 draft: false
-
 images: [""]
-aliases:
-  - /a-bunch-of-links
 ---
 A past regular feature of this blog was "A week of links'. Primarily, it was a useful way to aggregate interesting articles - I often search my blog posts for material (they are a collection of text files on my computer).
 

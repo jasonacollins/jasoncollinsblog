@@ -7,7 +7,6 @@ link: https://www.jasoncollins.blog/absolute-improvement/
 aliases:
   - /absolute-improvement
 title: Absolute improvement
-wordpress_id: 2370
 ---
 
 Fernando Teson [writes](http://bleedingheartlibertarians.com/2012/01/on-inequality/):

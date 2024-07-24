@@ -1,10 +1,8 @@
 ---
+title: A week of links
 author: "Jason Collins"
 date: 2014-10-10 08:43:10+00:00
 draft: false
-aliases:
-  - /a-week-of-links-71
-title: A week of links
 ---
 
 Links this week:

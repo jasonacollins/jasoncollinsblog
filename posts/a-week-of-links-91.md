@@ -1,13 +1,8 @@
 ---
+title: A week of links
 author: "Jason Collins"
-
 date: 2015-02-27 08:00:06+00:00
 draft: false
-link: https://www.jasoncollins.blog/a-week-of-links-91/
-aliases:
-  - /a-week-of-links-91
-title: A week of links
-wordpress_id: 20883
 ---
 
 Links this week:

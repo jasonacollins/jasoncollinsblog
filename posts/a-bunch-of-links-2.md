@@ -4,8 +4,6 @@ author: "Jason Collins"
 date: 2024-01-19 15:00:00+10:00
 draft: false
 images: [""]
-aliases:
-  - /a-bunch-of-links-2
 ---
 
 Social science a mess, journals no good, the meaningless of the label "misinformation", Flipper Zero, and cleaning up the list of named "biases":

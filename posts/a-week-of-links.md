@@ -1,13 +1,9 @@
 ---
+title: A week of links
 author: "Jason Collins"
-
 date: 2013-01-25 12:33:02+00:00
 draft: false
-link: https://www.jasoncollins.blog/a-week-of-links/
-aliases:
-  - /a-week-of-links
-title: A week of links
-wordpress_id: 5116
+
 ---
 
 This week we have paleo for dogs, irrational consumers and the question of what is the right size:

@@ -1,13 +1,8 @@
 ---
+title: A week of links
 author: "Jason Collins"
-
 date: 2013-05-31 12:44:46+00:00
 draft: false
-link: https://www.jasoncollins.blog/a-week-of-links-19/
-aliases:
-  - /a-week-of-links-19
-title: A week of links
-wordpress_id: 6286
 ---
 
 Links this week:

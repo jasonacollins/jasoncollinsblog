@@ -1,13 +1,8 @@
 ---
+title: A week of links
 author: "Jason Collins"
-
 date: 2013-12-15 13:13:10+00:00
 draft: false
-link: https://www.jasoncollins.blog/a-week-of-links-43/
-aliases:
-  - /a-week-of-links-43
-title: A week of links
-wordpress_id: 13271
 ---
 
 Links this week:

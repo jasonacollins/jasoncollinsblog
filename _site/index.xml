@@ -9,8 +9,56 @@
 <link>https://www.jasoncollins.blog/</link>
 <atom:link href="https://www.jasoncollins.blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Behavioural and data science. Economics. Evolutionary biology.</description>
-<generator>quarto-1.4.550</generator>
-<lastBuildDate>Mon, 15 Jul 2024 09:00:00 GMT</lastBuildDate>
+<generator>quarto-1.5.55</generator>
+<lastBuildDate>Wed, 24 Jul 2024 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Humans 1, Chimps 0: Correcting the Record</title>
+  <dc:creator>Jason Collins</dc:creator>
+  <link>https://www.jasoncollins.blog/posts/humans-1-chimps-0-correcting-the-record.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>In 2012, I wrote a post titled <a href="https://www.jasoncollins.blog/posts/chimps-1-humans-0">Chimps 1, Humans 0</a> after seeing videos of a chimp named Ayumu. Ayumu could recall the location of numbers, in order, flashed briefly on a screen. Ayumu’s performance far exceeded my feeble attempts. See the below videos to get a sense of the task.</p>
+<p><strong>The human</strong></p>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/RnJTwKMCvqM" width="600" height="450" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p><strong>Ayumu</strong></p>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/iT0abyAIyY8" width="600" height="450" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>This performance, documented by <span class="citation" data-cites="inoue2007">Inoue and Matsuzawa (2007)</span> in Current Biology, was used to assert that chimps have superior working memory to humans. The claim has spread widely, as a brief search on Twitter and Google shows.</p>
+<p>When I wrote that post, I didn’t know that this conclusion was already without basis. Here’s Peter Cook and Margaret Wilson <span class="citation" data-cites="cook2010">(2010a)</span> in Science:</p>
+<blockquote class="blockquote">
+<p>Ayumu received extensive practice on the task; the humans to whom he was compared received none. At least one subsequent study (2) shows that, with even very moderate practice, humans can match Ayumu’s performance.</p>
+<p>In spite of this basic methodological error, the claim of superior spatial working memory in chimpanzees has been widely and uncritically repeated in the popular and scientific media. Propagation of this incorrect idea distracts from more fruitful explorations of chimpanzee memory and undermines ongoing research into human and primate evolution.</p>
+</blockquote>
+<p>The paper referenced at (2) was by <span class="citation" data-cites="silberberg2009">Silberberg and Kearns (2009)</span>, who found that trained people could match Ayumu’s performance. <span class="citation" data-cites="cook2010a">Cook and Wilson (2010b)</span> subsequently trained two university students to a level superior to the chimpanzee. A more recent literature review by <span class="citation" data-cites="read2022">Read et al. (2022)</span> suggested that chimp working memory matches that of 4 to 5-year-old humans. However, at around two digits (plus or minus one), chimp working memory falls short of adult human performance. (Read et al.&nbsp;also question whether this task is even a test of working memory.)</p>
+<p>Putting it together, the initial claim of superior working memory doesn’t hold up. Ayumu’s performance is impressive at first sight, but that’s about it.</p>
+<p>*Someone brought this to my attention back in November (that’s the date on my note to blog this), but I can’t remember who!</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-cook2010" class="csl-entry">
+Cook, P., and Wilson, M. (2010a). In practice, chimp memory study flawed. <em>Science</em>, <em>328</em>(5983), 1228–1228. <a href="https://doi.org/10.1126/science.328.5983.1228-c">https://doi.org/10.1126/science.328.5983.1228-c</a>
+</div>
+<div id="ref-cook2010a" class="csl-entry">
+Cook, P., and Wilson, M. (2010b). Do young chimpanzees have extraordinary working memory? <em>Psychonomic Bulletin &amp; Review</em>, <em>17</em>(4), 599–600. <a href="https://doi.org/10.3758/pbr.17.4.599">https://doi.org/10.3758/pbr.17.4.599</a>
+</div>
+<div id="ref-inoue2007" class="csl-entry">
+Inoue, S., and Matsuzawa, T. (2007). Working memory of numerals in chimpanzees. <em>Current Biology</em>, <em>17</em>(23), R1004–R1005. <a href="https://doi.org/10.1016/j.cub.2007.10.027">https://doi.org/10.1016/j.cub.2007.10.027</a>
+</div>
+<div id="ref-read2022" class="csl-entry">
+Read, D. W., Manrique, H. M., and Walker, M. J. (2022). On the working memory of humans and great apes: Strikingly similar or remarkably different? <em>Neuroscience &amp; Biobehavioral Reviews</em>, <em>134</em>, 104496. <a href="https://doi.org/10.1016/j.neubiorev.2021.12.019">https://doi.org/10.1016/j.neubiorev.2021.12.019</a>
+</div>
+<div id="ref-silberberg2009" class="csl-entry">
+Silberberg, A., and Kearns, D. (2009). Memory for the order of briefly presented numerals in humans as a function of practice. <em>Animal Cognition</em>, <em>12</em>(2), 405–407. <a href="https://doi.org/10.1007/s10071-008-0206-8">https://doi.org/10.1007/s10071-008-0206-8</a>
+</div>
+</div></section></div> ]]></description>
+  <guid>https://www.jasoncollins.blog/posts/humans-1-chimps-0-correcting-the-record.html</guid>
+  <pubDate>Wed, 24 Jul 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://www.jasoncollins.blog/posts/img/ayumu.png" medium="image" type="image/png" height="98" width="144"/>
+</item>
 <item>
   <title>Using generative AI as an academic - July 2024 edition</title>
   <dc:creator>Jason Collins</dc:creator>
@@ -162,6 +210,7 @@ font-style: inherit;">#Define probability weighting function</span></span>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(p, alpha){</span>
 <span id="cb3-6">  <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -369,6 +418,7 @@ font-style: inherit;"># Create a function for running of the bets.</span></span>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(p, n, t, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">start=</span><span class="dv" style="color: #AD0000;
@@ -459,6 +509,7 @@ font-style: inherit;">ncol =</span> n)</span>
 <span id="cb2-18"></span>
 <span id="cb2-19">  <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span>(ergodic<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">==</span><span class="cn" style="color: #8f5902;
@@ -466,8 +517,10 @@ background-color: null;
 font-style: inherit;">FALSE</span>){</span>
 <span id="cb2-20">    <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">for</span> (j <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
@@ -478,8 +531,10 @@ background-color: null;
 font-style: inherit;">&lt;-</span> start</span>
 <span id="cb2-22">      <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">for</span> (i <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
@@ -524,6 +579,7 @@ font-style: inherit;">&lt;-</span> x</span>
 <span id="cb2-29"></span>
 <span id="cb2-30"> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span>(ergodic<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">==</span><span class="cn" style="color: #8f5902;
@@ -531,8 +587,10 @@ background-color: null;
 font-style: inherit;">TRUE</span>){</span>
 <span id="cb2-31">    <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">for</span> (j <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
@@ -543,8 +601,10 @@ background-color: null;
 font-style: inherit;">&lt;-</span> start </span>
 <span id="cb2-33">      <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">for</span> (i <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
@@ -585,6 +645,7 @@ background-color: null;
 font-style: inherit;">&lt;-</span> x</span>
 <span id="cb2-37">      <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span>(absorbing<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">==</span><span class="cn" style="color: #8f5902;
@@ -592,6 +653,7 @@ background-color: null;
 font-style: inherit;">TRUE</span>){</span>
 <span id="cb2-38">        <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span>(x<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;</span><span class="dv" style="color: #AD0000;
@@ -606,6 +668,7 @@ background-color: null;
 font-style: inherit;">0</span></span>
 <span id="cb2-40">            <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">break</span></span>
 <span id="cb2-41">        }</span>
 <span id="cb2-42">        }</span>
@@ -721,6 +784,7 @@ font-style: inherit;"># Function to plot individual paths and average wealth ove
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(sim, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">t =</span> <span class="dv" style="color: #AD0000;
@@ -764,6 +828,7 @@ background-color: null;
 font-style: inherit;"># Add lines for individual paths if specified</span></span>
 <span id="cb4-7">  <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span> (<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">!</span><span class="fu" style="color: #4758AB;
@@ -771,8 +836,10 @@ background-color: null;
 font-style: inherit;">is.null</span>(people)) {</span>
 <span id="cb4-8">    <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">for</span> (i <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
@@ -887,13 +954,13 @@ font-style: inherit;">20</span>)</span>
 <span id="cb4-23">nonErgodicPlot</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="fig-ergodicity-presentation-1" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ergodicity-presentation-1" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-ergodicity-presentation-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Plot of first 20 people against average wealth
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-1-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: Plot of first 20 people against average wealth"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-1-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -955,13 +1022,13 @@ font-style: inherit;">"100000"</span>))</span>
 <span id="cb5-5">logNonErgodicPlot</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="fig-ergodicity-presentation-2" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ergodicity-presentation-2" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-ergodicity-presentation-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2: Plot of first 20 people against average wealth (log scale)
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-2-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-2-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-2-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;2: Plot of first 20 people against average wealth (log scale)"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-2-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -978,6 +1045,7 @@ font-style: inherit;"># Create a function to generate summary statistics.</span>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(sim, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">t =</span> <span class="dv" style="color: #AD0000;
@@ -1271,13 +1339,13 @@ font-style: inherit;">20</span>)</span>
 <span id="cb8-4">ergodicPlot</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="fig-ergodicity-presentation-3" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ergodicity-presentation-3" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-ergodicity-presentation-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3: Average wealth of population and path of first 20 people
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-3-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-glightbox="description: .lightbox-desc-3"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-3-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-3-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;3: Average wealth of population and path of first 20 people"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-3-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -1315,6 +1383,7 @@ font-style: inherit;"># Determine how many people (in the first people out of n)
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(sim, t, <span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;">subset=</span><span class="dv" style="color: #AD0000;
@@ -1328,6 +1397,7 @@ font-style: inherit;">#subset</span></span>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span>(subset<span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">==</span><span class="dv" style="color: #AD0000;
@@ -1362,6 +1432,7 @@ background-color: null;
 font-style: inherit;">1</span>)]</span>
 <span id="cb10-8">  } <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">else</span> {</span>
 <span id="cb10-9">    sim<span class="sc" style="color: #5E5E5E;
 background-color: null;
@@ -1395,6 +1466,7 @@ font-style: inherit;">sum</span>(<span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">sapply</span>(data, <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(x) <span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">all</span>(x<span class="sc" style="color: #5E5E5E;
@@ -1543,9 +1615,11 @@ font-style: inherit;"># create function to round probabilistically - important w
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(x) {</span>
 <span id="cb11-5">  <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span> (<span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">runif</span>(<span class="dv" style="color: #AD0000;
@@ -1562,6 +1636,7 @@ background-color: null;
 font-style: inherit;">ceiling</span>(x)</span>
 <span id="cb11-7">  } <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">else</span> {</span>
 <span id="cb11-8">    <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -1576,6 +1651,7 @@ font-style: inherit;"># Function to simulate evolution betting</span></span>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(p, n, t, gain, loss) {</span>
 <span id="cb11-14">  </span>
 <span id="cb11-15">  <span class="co" style="color: #5E5E5E;
@@ -1634,8 +1710,10 @@ font-style: inherit;"># Start population</span></span>
 <span id="cb11-24"></span>
 <span id="cb11-25">  <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">for</span> (i <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
@@ -1643,8 +1721,10 @@ background-color: null;
 font-style: inherit;">:</span>t) {</span>
 <span id="cb11-26">    <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">for</span> (j <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
@@ -1691,12 +1771,14 @@ background-color: null;
 font-style: inherit;">&lt;-</span> n</span>
 <span id="cb11-32">    <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span> (n <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>) <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">break</span></span>
 <span id="cb11-33">  }</span>
 <span id="cb11-34"></span>
@@ -1811,13 +1893,13 @@ font-style: inherit;">"Population"</span>)</span>
 <span id="cb12-9">expectationPlotEvo</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="fig-ergodicity-presentation-8" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ergodicity-presentation-8" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-ergodicity-presentation-8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;4: Population of accepting types
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-8-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" data-glightbox="description: .lightbox-desc-10"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-8-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-8-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Figure&nbsp;4: Population of accepting types"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-8-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -1849,8 +1931,10 @@ font-style: inherit;">10000</span></span>
 <span id="cb13-6"></span>
 <span id="cb13-7"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">for</span> (i <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
@@ -1898,8 +1982,10 @@ font-style: inherit;">list</span>()</span>
 <span id="cb13-13"></span>
 <span id="cb13-14"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">for</span> (i <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">in</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
@@ -2048,13 +2134,13 @@ font-style: inherit;">"none"</span>)</span>
 <span id="cb15-9">mutationPlotEvo</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="fig-ergodicity-presentation-9" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ergodicity-presentation-9" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-ergodicity-presentation-9-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;5: Population of accepting types with mutation
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-9-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-9-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" data-glightbox="description: .lightbox-desc-11"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-9-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-9-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Figure&nbsp;5: Population of accepting types with mutation"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-9-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -2144,13 +2230,13 @@ font-style: inherit;">"none"</span>)</span>
 <span id="cb16-10">mutationPlotEvo30</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="fig-ergodicity-presentation-10" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ergodicity-presentation-10" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-ergodicity-presentation-10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;6: Population of accepting types with mutation (first 30 periods for first 10 agents)
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-10-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" data-glightbox="description: .lightbox-desc-12"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-10-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-10-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Figure&nbsp;6: Population of accepting types with mutation (first 30 periods for first 10 agents)"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-10-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -2182,13 +2268,13 @@ font-style: inherit;">20</span>)</span>
 <span id="cb17-2">nonErgodicPlot</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="fig-ergodicity-presentation-11" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ergodicity-presentation-11" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-ergodicity-presentation-11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;7: Population of accepting types over 1000 periods
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-11-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13" data-glightbox="description: .lightbox-desc-13"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-11-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-11-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="Figure&nbsp;7: Population of accepting types over 1000 periods"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-11-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -2232,13 +2318,13 @@ font-style: inherit;">"100000"</span>))</span>
 <span id="cb18-3">logNonErgodicPlot</span></code></pre></div>
 </details>
 <div class="cell-output-display">
-<div id="fig-ergodicity-presentation-12" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-ergodicity-presentation-12" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-fig" id="fig-ergodicity-presentation-12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;8: Population of accepting types over 1000 periods (log scale)
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-12-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14" data-glightbox="description: .lightbox-desc-14"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-12-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-12-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="Figure&nbsp;8: Population of accepting types over 1000 periods (log scale)"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-12-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -2290,7 +2376,6 @@ Figure&nbsp;8: Population of accepting types over 1000 periods (log scale)
 <p>But, I like to think that this ergodicity economics exercise provides a nice opportunity to tie multiple threads together to provide a different perspective.</p>
 <p>What’s next? I’ve been building a set of simulations examining mixed environments. What if the probabilistic structure of the environment is a mix of multiplicative and additive bets? You could think of the additive phase of the experiment I described earlier as comprising an few additive gambles in a multiplicative world. What if the environment switches between additive and multiplicative?</p>
 <p>There isn’t a simple closed form solution to this problem. If you have a mix of additive and multiplicative bets, or even a non-constant multiplicative growth rate, an “ergodic observable” cannot easily be created. At present, it is best examined via simulation.</p>
-
 
 
 
@@ -3094,7 +3179,7 @@ Protzko, J., Krosnick, J., Nelson, L., Nosek, B. A., Axt, J., Berent, M., Buttri
 <p>It’s a tick for that 2020 paper.</p>
 <p>But, I wondered how long it would take for someone to extend this finding about a specific set of claims in ONE paper to a claim that “behavioural science was right!”.</p>
 <p>It didn’t take long. Here’s one statement from the lead author of the Nature paper:</p>
-<p></p><div id="tweet-28840"></div><script>tweet={"url":"https:\/\/twitter.com\/kairuggeri\/status\/1734968618730013093","author_name":"Kai Ruggeri","author_url":"https:\/\/twitter.com\/kairuggeri","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBehavioral science policy recommendations early in the pandemic were LARGELY CORRECT.  Our global collaboration in \u003Ca href=\"https:\/\/twitter.com\/Nature?ref_src=twsrc%5Etfw\"\u003E@Nature\u003C\/a\u003E covers 747 studies with an average sample size over 16,000! Evidence supports 16 of 19 claims, with lessons for science &amp; policy. \u003Ca href=\"https:\/\/t.co\/OzS7njsrzv\"\u003Ehttps:\/\/t.co\/OzS7njsrzv\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/3xoGQHBJFB\"\u003Epic.twitter.com\/3xoGQHBJFB\u003C\/a\u003E\u003C\/p\u003E&mdash; Kai Ruggeri (@kairuggeri) \u003Ca href=\"https:\/\/twitter.com\/kairuggeri\/status\/1734968618730013093?ref_src=twsrc%5Etfw\"\u003EDecember 13, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-28840").innerHTML = tweet["html"];</script><p></p>
+<p></p><div id="tweet-82432"></div><script>tweet={"url":"https:\/\/twitter.com\/kairuggeri\/status\/1734968618730013093","author_name":"Kai Ruggeri","author_url":"https:\/\/twitter.com\/kairuggeri","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EBehavioral science policy recommendations early in the pandemic were LARGELY CORRECT.  Our global collaboration in \u003Ca href=\"https:\/\/twitter.com\/Nature?ref_src=twsrc%5Etfw\"\u003E@Nature\u003C\/a\u003E covers 747 studies with an average sample size over 16,000! Evidence supports 16 of 19 claims, with lessons for science &amp; policy. \u003Ca href=\"https:\/\/t.co\/OzS7njsrzv\"\u003Ehttps:\/\/t.co\/OzS7njsrzv\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/3xoGQHBJFB\"\u003Epic.twitter.com\/3xoGQHBJFB\u003C\/a\u003E\u003C\/p\u003E&mdash; Kai Ruggeri (@kairuggeri) \u003Ca href=\"https:\/\/twitter.com\/kairuggeri\/status\/1734968618730013093?ref_src=twsrc%5Etfw\"\u003EDecember 13, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-82432").innerHTML = tweet["html"];</script><p></p>
 <p>A quick peruse of twitter can find others of a similar vein.</p>
 <p>It takes a relatively short memory to forget that, whatever the merits of this single paper, the behavioural science community was the source of plenty of rubbish.</p>
 <p>Here’s <a href="https://www.bloomberg.com/view/articles/2020-02-28/coronavirus-panic-caused-by-probability-neglect">one classic</a> from a co-author of both the 2020 paper and the Nature review, Cass Sunstein, published on 29 February 2020:</p>
@@ -3430,6 +3515,7 @@ font-style: inherit;">#Define probability weighting function</span></span>
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(p, alpha){</span>
 <span id="cb3-6">  <span class="fu" style="color: #4758AB;
 background-color: null;
@@ -3956,7 +4042,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <figcaption>Dunn et al</figcaption>
-<p><a href="img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/dunn-et-al.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-5" data-gallery="quarto-lightbox-gallery-5" title="Dunn et al"><img src="https://www.jasoncollins.blog/posts/img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/dunn-et-al.jpg" class="img-fluid figure-img" alt="Dunn et al"></a></p>
+<p><a href="img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/dunn-et-al.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Dunn et al"><img src="https://www.jasoncollins.blog/posts/img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/dunn-et-al.jpg" class="img-fluid figure-img" alt="Dunn et al"></a></p>
 </figure>
 </div>
 </blockquote>
@@ -3964,7 +4050,6 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 </blockquote>
 <p>I’d give this result a decent chance of replicating, maybe 60%. The proposed mechanism is fairly direct, albeit involving a photo in a lab. There are other similar results. But, I’m not comfortable giving it much weight absent a pre-registered replication.</p>
 <p>Summarising the above, I didn’t reference a single experiment in that speech that I would include today. Not a great result.</p>
-
 
 
 
@@ -4030,7 +4115,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <figcaption>Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions</figcaption>
-<p><a href="img/milkman_et_al_2021_figure_1.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions"><img src="https://www.jasoncollins.blog/posts/img/milkman_et_al_2021_figure_1.jpeg" class="img-fluid figure-img" alt="Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions"></a></p>
+<p><a href="img/milkman_et_al_2021_figure_1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions"><img src="https://www.jasoncollins.blog/posts/img/milkman_et_al_2021_figure_1.jpeg" class="img-fluid figure-img" alt="Figure 1: Measured versus predicted changes in weekly gym visits induced by interventions"></a></p>
 </figure>
 </div>
 <p>Twenty-four of the 53 interventions were found to have a statistically significant effect over the control, increasing visits by between 9% and 27%. That equates to 0.14 to 0.40 extra weekly gym visits over the control average of 1.48 visits per week.</p>
@@ -4056,7 +4141,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p>The largest effect of any intervention was an increase of 0.4 gym visits. The sample size enables differentiation from the control for 24 of the interventions, but when you have 53 interventions jammed into that range of 0.4 you aren’t going to be able to distinguish many of them from each other. As a result, only 13 of the 53 interventions were statistically distinguished from any interventions beyond the control. Even the best performing intervention could be distinguished from less than half of the other interventions.</p>
 <p>You can see one cost of this low power when you examine the pre-registered analysis plans. One plan <a href="https://osf.io/cthm5/?view_only=ea1b0ba75fc84d4b838614ed9feebb2a">considered the effect of social norms</a>. The communicated norms including variations in the level of exercise and the trend. I gave a couple of examples of the social norm interventions in the description of the experiment above. Table 1 shows the four social norm interventions and the average effect size (in additional gym visits) of each.</p>
 <p><em>Table 1: Exercise social norms (included 6 text message reminders)</em></p>
-<table class="table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
 <th style="text-align: left;">Intervention</th>
@@ -4100,7 +4185,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p>But outside of power, a larger challenge with the predictions is that the experimental design did not enable useful comparisons by observers making predictions. The result is many that predictions are nonsense.</p>
 <p>To tease this out, let’s look at a couple of sets of predictions. Table 2 lists the social norm interventions described above with additional columns for the predictions by practitioners, professors, lay people and the pooled group.</p>
 <p><em>Table 2: Exercise social norm effect sizes and predictions</em></p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 16%">
 <col style="width: 16%">
@@ -4159,7 +4244,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p>The reason is that none of the participants were asked to compare intervention “20. Low” with intervention “53. High”. No participant was asked to compare more than two of the four social norm interventions (a total of 9 observers had that opportunity). The consequence is that there was little opportunity for observers to calibrate their responses based on their knowledge of empirical phenomena.</p>
 <p>We see a similar pattern in collection of five interventions in Table 3 below in which incentives were offered (all interventions named “Rigidity Rewarded” in Figure 1). In these interventions, incentives of Amazon points were paid for either attending a planned or unplanned gym session. The interventions are in order of effect size from largest to smallest (the numbers being where they rank in the 54 interventions).</p>
 <p><em>Table 3: Rigidity rewarded incentives</em></p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 14%">
 <col style="width: 14%">
@@ -4330,7 +4415,6 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 </ul>
 
 
-
 </section>
 
  ]]></description>
@@ -4423,7 +4507,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
 <p>Now for the partial resurrection, with links posts to be delivered at random intervals to share articles or ideas that are worth a read. Here’s the first.</p>
 <ol type="1">
 <li><p>Unlearning Economics unloads in a <a href="https://twitter.com/UnlearnEcon/status/1501212969924976646">set of tweets</a> about empirical economics research. I have a draft post on this idea, but this thread hits most my points plus more. In my view, the robustness of some subfields of empirical economics research is on par with early 2000s social psychology research. The problem, however, is that you can’t run a replication of most of this empirical work, meaning it doesn’t suffer the same public fate.</p>
-<p></p><div id="tweet-16581"></div><script>tweet=<!DOCTYPE html>
+<p></p><div id="tweet-46166"></div><script>tweet=<!DOCTYPE html>
 <html lang="en" class="dog">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -4469,7 +4553,7 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
   </body>
   <script src="https://abs.twimg.com/errors/404-8651f633fd193e0b546010676a4fac06.js"></script>
 
-;document.getElementById("tweet-16581").innerHTML = tweet["html"];<p></p></li>
+;document.getElementById("tweet-46166").innerHTML = tweet["html"];<p></p></li>
 <li><p>Behavioural and Brain Sciences has a target article on <a href="https://doi.org/10.1017/S0140525X20001685">The generalizability crisis</a> by Tal Yarkoni (ungated pdf <a href="https://psyarxiv.com/jqw35/">here</a>). Many responses worth reading, including this <a href="https://doi.org/10.1017/S0140525X21000327">one from Gerd Gigerenzer</a> (can’t find an ungated version of the Gigerenzer response to share). Daniel Lakens <a href="http://daniellakens.blogspot.com/2020/01/review-of-generalizability-crisis-by.html">comments</a>.</p></li>
 <li><p>You can now access a <a href="https://avehtari.github.io/ROS-Examples/">free pdf version</a> of Gelman, Hill and Vehtari’s Regression and Other Stories.</p></li>
 <li><p>Holden Karnofsky <a href="https://www.cold-takes.com/reading-books-vs-engaging-with-them/">on reading books</a>. I think about this a lot: for the average book I simply “read”, my recall a few years later is close to nothing. Pair with Andy Matuschak’s <a href="https://andymatuschak.org/books/">Why books don’t work</a>.</p></li>
@@ -4556,28 +4640,6 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
  ]]></description>
   <guid>https://www.jasoncollins.blog/posts/bankers-are-more-honest-than-the-rest-of-us.html</guid>
   <pubDate>Thu, 10 Mar 2022 09:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>My podcast appearances</title>
-  <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/my-podcast-appearances.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Over the last few years I have appeared on several podcasts, the most recent being a discussion with <a href="https://twitter.com/p_agnew">Phil Agnew</a> on the Nudge podcast. I am definitely more a writer than a speaker, but if you prefer audio to the written, check out the below.</p>
-<p><a href="https://www.nudgepodcast.com/podcast/episode/31c2d373/75-beware-of-behaviour-science-bs">Nudge podcast - Beware of Behaviour Science BS</a></p>
-<p><a href="https://anchor.fm/42courses/episodes/Jason-Collins---Behavioural-Science--Evolutionary-Biology-epfoqs">42courses - Behavioural Science &amp; Evolutionary Biology</a></p>
-<p><a href="https://toddnief.com/jason-collins-interview/">Todd Nief - Loss Aversion and Ergodicity Economics</a>: This was a long and pretty technical conversation on the back of a <a href="../ergodicity-economics-a-primer/">primer I wrote on ergodicity economics</a>. Todd’s audience spans crossfit, death metal and the rationalist community. He assured me that my collection of early Sepultura records from my youth classifies as proto-death metal, so I managed to have some connection to all three.</p>
-<p><a href="https://www.behaviorist.biz/bspodcast/jason-collins">A Bunch of BS - Knowing Our Limits, Expanding Our Knowledge</a></p>
-<p><a href="http://rationallyspeakingpodcast.org/219-a-skeptical-take-on-behavioral-economics-jason-collins/">Rationally Speaking with Julia Galef - A skeptical take on behavioral economics</a>: I wrote a <a href="../me-on-rationally-speaking-plus-some-additional-thoughts/">post afterward offering some additional thoughts</a>. (Rationally Speaking is one of the few podcasts for which I listen to at least the beginning of every episode.)</p>
-
-
-
- ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/my-podcast-appearances.html</guid>
-  <pubDate>Thu, 03 Mar 2022 09:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

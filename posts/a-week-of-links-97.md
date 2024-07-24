@@ -3,8 +3,6 @@ title: A week of links
 author: "Jason Collins"
 date: 2015-04-10 11:33:37+00:00
 draft: false
-aliases:
-  - /a-week-of-links-97
 ---
 
 Links this week:

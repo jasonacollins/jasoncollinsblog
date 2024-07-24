@@ -1,0 +1,32 @@
+---
+title: 'Humans 1, Chimps 0: Correcting the Record'
+author: "Jason Collins"
+date: 2024-07-25 08:00:00+10:00
+draft: false
+image: "img/ayumu.png"
+bibliography: references.bib
+---
+
+In 2012, I wrote a post titled [Chimps 1, Humans 0](https://www.jasoncollins.blog/posts/chimps-1-humans-0) after seeing videos of a chimp named Ayumu. Ayumu could recall the location of numbers, in order, flashed briefly on a screen. Ayumu's performance far exceeded my feeble attempts. See the below videos to get a sense of the task.
+
+**The human**
+
+{{< video https://youtu.be/RnJTwKMCvqM width="600" height="450" >}}
+
+**Ayumu**
+
+{{< video https://youtu.be/iT0abyAIyY8 width="600" height="450" >}}
+
+This performance, documented by @inoue2007 in Current Biology, was used to assert that chimps have superior working memory to humans. The claim has spread widely, as a brief search on Twitter and Google shows.
+
+When I wrote that post, I didn't know that this conclusion was already without basis. Here's Peter Cook and Margaret Wilson [-@cook2010] in Science:
+
+> Ayumu received extensive practice on the task; the humans to whom he was compared received none. At least one subsequent study (2) shows that, with even very moderate practice, humans can match Ayumu's performance.
+>
+> In spite of this basic methodological error, the claim of superior spatial working memory in chimpanzees has been widely and uncritically repeated in the popular and scientific media. Propagation of this incorrect idea distracts from more fruitful explorations of chimpanzee memory and undermines ongoing research into human and primate evolution.
+
+The paper referenced at (2) was by @silberberg2009, who found that trained people could match Ayumu's performance. @cook2010a subsequently trained two university students to a level superior to the chimpanzee. A more recent literature review by @read2022 suggested that chimp working memory matches that of 4 to 5-year-old humans. However, at around two digits (plus or minus one), chimp working memory falls short of adult human performance. (Read et al. also question whether this task is even a test of working memory.)
+
+Putting it together, the initial claim of superior working memory doesn't hold up. Ayumu's performance is impressive at first sight, but that's about it.
+
+\*Someone brought this to my attention back in November (that's the date on my note to blog this), but I can't remember who!
