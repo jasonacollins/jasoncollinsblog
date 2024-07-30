@@ -7,19 +7,19 @@ toc: false
 bibliography: references.bib
 ---
 
-I wrote this post based on notes for a presentation that I didn't end up giving. Rather than let those notes sit on the shelf, I decided to share here.
+I wrote this post based on notes for a presentation that I didn't end up giving. Rather than let those notes sit on the shelf, I decided to share them here.
 
----
+------------------------------------------------------------------------
 
 In the first half of 2023, [A manifesto for applying behavioural science](https://doi.org/10.1038/s41562-023-01555-3) was published in Nature Human Behaviour. Written by the head of the North American arm of the Behavioural Insights Team, Michael Hallsworth, the manifesto "looks at the challenges facing the field and sets out ten proposals to address them."
 
-The Behavioural Insights Team also published a [longer version](https://www.bi.team/wp-content/uploads/2023/04/BIT_Manifesto.pdf) of the manifesto, plus a [summary document](). I commented on a draft of this long-form manifesto, so have a small insight into it's development.
+The Behavioural Insights Team also published a [longer version](https://www.bi.team/wp-content/uploads/2023/04/BIT_Manifesto.pdf) of the manifesto, plus a [summary document](https://www.bi.team/wp-content/uploads/2023/03/Manifesto-Summary.pdf). I commented on a draft of the long-form manifesto, so have a small insight into its development.
 
-Rather than address the document as a whole - I must admit I am always going to be sceptical of proposals for direction from up high - I am going to examine three of Michael's proposals:
+Rather than address the document as a whole - I must admit I sceptical of proposals for direction from up high - I am going to examine three of Michael's proposals:
 
-  - See the system: 
-  - No view from nowhere: 
-  - Data science for equity
+-   See the system
+-   No view from nowhere
+-   Data science for equity
 
 ## See the system
 
@@ -31,31 +31,27 @@ Putting this section into my own words, much of the public policy territory in w
 
 With this approach, we might be able to identify leverage points, model the collective implications of people's decision making strategies, make system-level changes, and understand the impact of multiple policies.
 
-Michael gives an example of the UK tax on sugared drinks. This tax was implemented in tiers, with higher levels of sugar content hit with higher taxes. [CHECK LAST SENTENCE AND EDIT FOR CLARITY] Rather than directly persuading consumers to consume less sugar, this approach altered the incentives presented to manufacturers, making it attractive to reformulate their products. Market pressure reduced the sugar content of the drinks on the shelf. 
+Michael gives an example of the UK tax on sugared drinks. This tax was implemented in tiers, with higher levels of sugar content hit with higher taxes. \[CHECK LAST SENTENCE AND EDIT FOR CLARITY\] Rather than directly persuading consumers to consume less sugar, this approach altered the incentives presented to manufacturers, making it attractive to reformulate their products. Market pressure reduced the sugar content of the drinks on the shelf.
 
 Before digging into the proposal and example, I want to distinguish two related concepts, chaos and complexity. Both involve the study of non-linear dynamics.
 
-**Chaos** is a concept with the longer history. [DEFINE] A famous example concerns Edward Lorenz's replication some of the results of his weather simulations. He took the numbers from a certain point in a previous run, re-entered them and started the simulation. He found that these simulations diverged wildly from the previous runs.
+**Chaos** is a concept with a longer history. Chaos concerns the study of dynamic systems that are sensitive to the initial starting conditions.
 
-When he examined the results, he realised he was taking numbers from simulations to six decimal places. Beyond six decimal places there was variation. These very slight changes in initial conditions led to large divergences over time.
+A famous example concerns Edward Lorenz's replication of some of the results of his weather simulations. He took the numbers from a certain point in a previous run, re-entered them and started the simulation. He found that these simulations diverged wildly from the previous runs. When he examined the results, he realised he was taking numbers from simulations to six decimal places. Beyond six decimal places, there was variation. These very slight changes in initial conditions led to large divergences over time.
 
-Chaos suggests there is an inherent limit in ability to predict weather even seemingly insignificant short term variations from the model will cascade into larger differences. This idea is typically referred to as the butterfly effect; a butterfly flapping its wings in the Amazon causing a tornado in Florida. While possibly a far-fetched in example, recall Lorenz's simulations were going askew at the sixth decimal point.
+Chaos suggests there is an inherent limit in our ability to predict weather as seemingly insignificant short-term variations from the model will cascade into larger differences. This idea is typically referred to as the butterfly effect; a butterfly flapping its wings in the Amazon causing a tornado in Florida. While possibly a far-fetched example, recall Lorenz's simulations were going askew at the sixth decimal point.
 
-Chaos can emerge in very simple systems. Lorenz's weather simulation was based on just 12 equations. The policy environment we are in has many more moving parts.
+Chaos can emerge in very simple systems. Lorenz's weather simulation was based on just 12 equations. Robert May [-@may1976] famously showed that a single deterministic equation can generate dynamics can generate what almost looks like random noise. Within that equation, by adjusting a single parameter 'a', May was able to generate anything from
 
-**Complexity** also relates to non-linear systems, and some people consider it to relate to a subset of chaos theory. In non-linear systems, order can emerge at a higher level that's not easily seen as the sum of the lower parts.
+**Complexity** also relates to non-linear systems, and some people consider complexity science a subset of chaos theory. In non-linear systems, order can emerge at a higher level that's not easily seen as the sum of the lower parts. Complexity theory is the study of these systems. Complex *adaptive* systems are a type of complex system with agents who learn and adapt in the changing environment, adding an additional complication to the study of the dynamical system.
 
-A classic example of this is the 
-
-- e.g. the fox and rabbit simulation has a single equilibrium for some settings (is very stable), multiple equilibria for others and chaotic behaviour for yet others.
-
-What does this mean for policy?
+What does embracing complexity this mean for applied behavioural science?
 
 I see two possibilities
 
 The first, suggested in the manifesto, is that we can identify leverage points to get large change. Imagine you could control R in a population of foxes and rabbits to get your desired population dynamics.
 
-A related economic concept is setting a price. The sugar tax is one example. Similarly, if trying to regulate carbon emissions, you could identify all the different sources and set specific regulations around them, or you could simply set a carbon price. When Australia had a carbon tax for a few years between 20XX and 20XX, the reductions in carbon emissions matched the theory nicely. [Insight from Hayek]
+A related economic concept is setting a price. The sugar tax is one example. Similarly, if trying to regulate carbon emissions, you could identify all the different sources and set specific regulations around them, or you could simply set a carbon price. When Australia had a carbon tax for a few years between 20XX and 20XX, the reductions in carbon emissions matched the theory nicely. \[Insight from Hayek\]
 
 The second possibility from taking complexity seriously is that some features of the policy environment will be inherently unpredictable.
 
@@ -63,17 +59,17 @@ To discuss this, let's dig into that example of the sugar tax more deeply. A tax
 
 Is this complexity or just second order effects?
 
-But what of the longer term evidence. Obesity in the UK has continued to go up. The pandemic didn't help, but it was going up before that. A study in PLOS medicine from early 2023 year desperately tried to find something - maybe benefit for year 6 girls (but fatter year 6 boys). [check later updates snowdon]
+But what of the longer term evidence. Obesity in the UK has continued to go up. The pandemic didn't help, but it was going up before that. A study in PLOS medicine from early 2023 year desperately tried to find something - maybe benefit for year 6 girls (but fatter year 6 boys). \[check later updates snowdon\]
 
-So despite the second order effect of reformulation of soft drinks, for the measure of interest, there was no measurable effect. And what of other measures?  Over 300 million pounds a year out of people's pockets. What of the distribution of that cost? What of equity? (More on equity below.)
+So despite the second order effect of reformulation of soft drinks, for the measure of interest, there was no measurable effect. And what of other measures? Over 300 million pounds a year out of people's pockets. What of the distribution of that cost? What of equity? (More on equity below.)
 
-A similar example comes from work to install insulation in housing. [BIT report on work - helping people clear attics]
+A similar example comes from work to install insulation in housing. \[BIT report on work - helping people clear attics\]
 
 Research last year showing that gas use rebounds to the previous level within a few years.
 
 Again, these might just be though about as second-order effects, but here we have seemingly simple interventions going awry.
 
-There are also traces of complexity in the policy process itself. Perhaps this most starkly comes out in analysis by Stefan Della Vigna and Elizabeth Linos of the many trials conducted by the Behavioural Insights Team in North America. The North American team pre-registered all of their trials - full credit to them - and then allowed a couple of academics. The first paper from this was published in Econometrica, demonstrated that although the effects of 'nudges' in the field were smaller than those in academic publications, they were real and would in many cases pass a cost-benefit test. The second paper, however, is somewhat depressing. There was no link between 
+There are also traces of complexity in the policy process itself. Perhaps this most starkly comes out in analysis by Stefan Della Vigna and Elizabeth Linos of the many trials conducted by the Behavioural Insights Team in North America. The North American team pre-registered all of their trials - full credit to them - and then allowed a couple of academics. The first paper from this was published in Econometrica, demonstrated that although the effects of 'nudges' in the field were smaller than those in academic publications, they were real and would in many cases pass a cost-benefit test. The second paper, however, is somewhat depressing. There was no link between
 
 So the question I have is, should we also take a message of greater humility from this? (Humility is one of the principles in the manifesto - but this comes from a different foundation.) If we are working in a complex system, should we be more modest in our goals?
 
@@ -97,41 +93,29 @@ Interesting, little direct testing of the homogeneity of the assumptions.
 
 Suppose of was to ask a set of behavioural science practitioners the following questions (excuse their Australian flavour - I'm sure you can come up with version for whatever country you wish):
 
-- Who voted "No" in the referendum to amend the constitution to give a "Voice" to indigenous Australians? (At one stage, the presentation outlined in this post was scheduled for the weekend before this referendum.)
-- Who voted Liberal at the last Federal election? (The Australian conservative party.)
-- Who believes there are only two sexes?
-- Should there be a sugar tax in Australia?
-- Should certain cohorts of youths be banned from ever being allowed to smoke (as has been proposed in NZ and the UK)?
+-   Who voted "No" in the referendum to amend the constitution to give a "Voice" to indigenous Australians? (At one stage, the presentation outlined in this post was scheduled for the weekend before this referendum.)
+-   Who voted Liberal at the last Federal election? (The Australian conservative party.)
+-   Who believes there are only two sexes?
+-   Should there be a sugar tax in Australia?
+-   Should certain cohorts of youths be banned from ever being allowed to smoke (as has been proposed in NZ and the UK)?
 
-The answers to these questions are largely homogeneous. And that is largely reflected in the types of projects that applied behavioural practitioners work on. Equity. Diversity. Climate. Rarely on productivity. Economic growth. 
+The answers to these questions are largely homogeneous. And that is largely reflected in the types of projects that applied behavioural practitioners work on. Equity. Diversity. Climate. Rarely on productivity. Economic growth.
 
-We work on sugar taxes in soft drink, when a large flat white has more calories than a can of coke. 
-- most of our projects look like they are out of a university campus
+We work on sugar taxes in soft drink, when a large flat white has more calories than a can of coke. - most of our projects look like they are out of a university campus
 
 WE WORK ON THE PROBLEM "HOW CAN WE GET MORE MEN TO TAKE PATERNITY LEAVE TO CLOSE THE GENDER WAGE GAP" RATHER THAN 'WHAT IS THE OPTIMAL LEVEL OF PATERNITY LEAVE AND HOW CAN WE SUPPORT IT'
 
-What projects do we work on?
-- Much evidence that people in retirement state they wish they had saved more. Plenty of work on this area.
-- Most adults wish
-  - 1. they had had more children
-  - 2. they had had them earlier
+What projects do we work on? - Much evidence that people in retirement state they wish they had saved more. Plenty of work on this area. - Most adults wish - 1. they had had more children - 2. they had had them earlier
 
 Is there a project to help people to overcome this shortcoming, "as judged by themselves"?
 
-[get evidence - inject this into complex adaptive systems
- - if don't know what we're working toward - what are we doing?]
+\[get evidence - inject this into complex adaptive systems - if don't know what we're working toward - what are we doing?\]
 
+What of cognitive diversity in itself? - diversity of IQ - personality traits
 
-What of cognitive diversity in itself?
-- diversity of IQ
-- personality traits
+Here's an interesting question about second-order effects - think of all the other programs we have - focused on gender equity, retirement savings, education, etc - how do they affect this other goal? - the easy and probably correct idea is that we have no idea - and it is unlikely that in this complex system that we could predict in advance with any specificity.
 
-
-Here's an interesting question about second-order effects - think of all the other programs we have - focused on gender equity, retirement savings, education, etc - how do they affect this other goal?
-- the easy and probably correct idea is that we have no idea - and it is unlikely that in this complex system that we could predict in advance with any specificity.
-
-Libertarian paternalism - regulation removed and replaced by behavioural design?
-- where is the push to move to a voluntary superannuation system in Australia - let people have their money if they want it, with a behaviourally designed system to support their savings?
+Libertarian paternalism - regulation removed and replaced by behavioural design? - where is the push to move to a voluntary superannuation system in Australia - let people have their money if they want it, with a behaviourally designed system to support their savings?
 
 ## Data Science for Equity
 
@@ -147,34 +131,31 @@ Think of all the things behavioural science could be achieving: productivity, ha
 
 Equity is an interesting idea in the abstract, but what does it imply when it hits the road
 
-- What does it imply for the choice of problems?
-- What does it imply for the choice of interventions?
-- Identify inequity, then act
-- Removing advanced maths classes for those who are advanced (let's ignore the evidence ...)
-- Men die earlier, more likely to be homeless, and are imprisoned more
+-   What does it imply for the choice of problems?
+-   What does it imply for the choice of interventions?
+-   Identify inequity, then act
+-   Removing advanced maths classes for those who are advanced (let's ignore the evidence ...)
+-   Men die earlier, more likely to be homeless, and are imprisoned more
 
 Why data science? Why not behavioural science for equity?
 
-What are the trade-offs?
-- When you name one possible objective but no others, the question is what trade-offs you might consider.
+What are the trade-offs? - When you name one possible objective but no others, the question is what trade-offs you might consider.
 
-Cartoon version:
-- you discover that abolishing advanced math classes reduces the gap between indigenous and non-indigenous students, largely by reducing the performance of the top cohort. Is this the equity you want to achieve?
+Cartoon version: - you discover that abolishing advanced math classes reduces the gap between indigenous and non-indigenous students, largely by reducing the performance of the top cohort. Is this the equity you want to achieve?
 
 If you only happy working on problems that lift the bottom, is it now data science for Pareto improvement?
 
 (another example of equity - abolishing math classes exacerbates inequality as ...)
 
-- equity in what dimensions - here's one I think about a lot of as a university lecturer:
+-   equity in what dimensions - here's one I think about a lot of as a university lecturer:
 
-Many students shouldn't be at university. They drop out, leave having lost several years of earning potential or more appropriate training, plus a nice student debt. They end up with lower wealth/income than via the alternative path. This increases inequality. 
-  - But flip side is that if you applied, say, a stricter filter to university entry, you will make more of the other error - reduce university completion by these students
-    - so increase inequality in university completion
+Many students shouldn't be at university. They drop out, leave having lost several years of earning potential or more appropriate training, plus a nice student debt. They end up with lower wealth/income than via the alternative path. This increases inequality. - But flip side is that if you applied, say, a stricter filter to university entry, you will make more of the other error - reduce university completion by these students - so increase inequality in university completion
 
-- what is the dimension that we care about?
+-   what is the dimension that we care about?
 
-- this comes back to the objective
-  - is a goal of equity trying to make us all the same (slight blank slatist foundation)
-  - or trying to bring out the best in us in our own way
+-   this comes back to the objective
 
-- Hopefully this last point highlighting that "equity" is a very specific view. If you take a weak reading, it's pointless. A strong reading implies tradeoffs.
+    -   is a goal of equity trying to make us all the same (slight blank slatist foundation)
+    -   or trying to bring out the best in us in our own way
+
+-   Hopefully this last point highlighting that "equity" is a very specific view. If you take a weak reading, it's pointless. A strong reading implies tradeoffs.

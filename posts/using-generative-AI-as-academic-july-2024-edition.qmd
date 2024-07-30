@@ -6,6 +6,9 @@ draft: false
 image: "img/gen-AI.webp"
 toc: true
 bibliography: references.bib
+resources:
+  - img/ElevenLabs_2024-07-15T09_03_10_Charlie_pre_s50_sb75_m1.mp3
+  - img/ElevenLabs_JC.mp3
 ---
 
 I first wrote [a version of this post in April 2023](https://www.jasoncollins.blog/posts/using-large-language-models-as-academic). A lot has changed since then in both the tools and how I use them.

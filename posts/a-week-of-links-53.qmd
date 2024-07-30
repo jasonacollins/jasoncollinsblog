@@ -30,4 +30,4 @@ Links this week:
 
 And Kelly Slater's winning "Wave of the Winter":
 
-{{< video youtube=http://youtu.be/5bYqqqLdEF8&start=77  >}}
+{{< video https://youtu.be/5bYqqqLdEF8?feature=shared&t=77 >}}
