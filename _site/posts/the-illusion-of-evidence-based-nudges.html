@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Jason Collins">
-<meta name="dcterms.date" content="2013-07-04">
+<meta name="dcterms.date" content="2024-08-01">
 
-<title>Economic growth and evolution: Parental preference for quality and quantity of offspring – Jason Collins blog</title>
+<title>The illusion of evidence-based nudges – Jason Collins blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -82,12 +102,18 @@ gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Economic growth and evolution: Parental preference for quality and quantity of offspring – Jason Collins blog">
+<meta property="og:title" content="The illusion of evidence-based nudges – Jason Collins blog">
 <meta property="og:description" content="Behavioural and data science. Economics. Evolutionary biology.">
+<meta property="og:image" content="https://www.jasoncollins.blog/posts/img/dellavigna-et-al-2024-fig-3.png">
 <meta property="og:site_name" content="Jason Collins blog">
-<meta name="twitter:title" content="Economic growth and evolution: Parental preference for quality and quantity of offspring – Jason Collins blog">
+<meta property="og:image:height" content="1594">
+<meta property="og:image:width" content="1864">
+<meta name="twitter:title" content="The illusion of evidence-based nudges – Jason Collins blog">
 <meta name="twitter:description" content="Behavioural and data science. Economics. Evolutionary biology.">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.jasoncollins.blog/posts/img/dellavigna-et-al-2024-fig-3.png">
+<meta name="twitter:image-height" content="1594">
+<meta name="twitter:image-width" content="1864">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -150,7 +176,7 @@ gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Economic growth and evolution: Parental preference for quality and quantity of offspring</h1>
+<h1 class="title">The illusion of evidence-based nudges</h1>
 </div>
 
 
@@ -167,7 +193,7 @@ gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 4, 2013</p>
+      <p class="date">August 1, 2024</p>
     </div>
   </div>
   
@@ -179,57 +205,25 @@ gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
 </header>
 
 
-<p>My first publication,&nbsp;<a href="http://doi.org/10.1017/S1365100513000163">Economic Growth and Evolution: Parental Preference for Quality and Quantity of Offspring</a>, has just been released electronically in Macroeconomic Dynamics (<a href="../pdf/Collins_et_al_2013_Economic_growth_and_evolution_parental_preference_for_quality_and_quantity_of_offspring.pdf">ungated pdf here</a>). With my co-authors Boris Baer and Juerg Weber, we simulate and extend Oded Galor and Omer Moav’s seminal paper <a href="http://qje.oxfordjournals.org/content/117/4/1133.short">Natural Selection and the Origin of Economic Growth</a> (<a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=246300">ungated working paper version here</a>)_, _the first paper that models an evolutionary trigger to the Industrial Revolution.</p>
-<p>Galor and Moav’s model has two types of people in the population, each with a genetically inherited preference for quality or quantity of children. The quality-preferring genotype wants their children to have higher human capital, so they invest more in their education, while the quantity-preferring genotype is more interested in raw numbers.</p>
-<p>During the long Malthusian era in which both genotypes struggle to earn enough to subsist (i.e.&nbsp;during the thousands of years leading up the Industrial Revolution), the quality-preferring genotype has a fitness advantage. As a quality-preferring genotype is of higher quality, they earn more income. This higher income is more than enough to cover education expenses, so they are also able to have more children than the quantity-preferring genotypes.</p>
-<p>This fitness advantage leads the quality-preferring genotype to increase in prevalence. As this occurs, the increasing average level of education in the population drives technological progress. This in turn increases the incentive to invest in education, creating a feedback loop between technology and education.</p>
-<p>Eventually, the rate of technological progress gets high enough to induce the quantity-preferring genotypes to invest in education also. When this happens, the average level of education jumps, boosting technological progress and causing the Industrial Revolution.</p>
-<p>During this process, the population growth rate changes. Up to the time of the Industrial Revolution, population growth increases with technological progress, meaning that per capita income remains at the Malthusian level. However, when the level of technology leaps with the Industrial Revolution, the level of education becomes so high that population growth drops dramatically. A demographic transition occurs.</p>
-<p>At the time of this transition, the relative fitness of the different types changes. After the Industrial Revolution, the quality-preferring genotypes invest so much into education that they have lower fertility than the quantity-preferring genotypes. The quality-preferring genotypes reduce in prevalence, their fitness advantage erased.</p>
-<p>Galor and Moav worked through the dynamics of the model using phase diagrams. It is not particularly easy or intuitive to see the processes working together in their paper, so the first step in our paper is to simulate the model. This demonstrates the model’s feasibility, as well as showing the dynamics in a form that is easier to comprehend visually. In the chart below, you can see the dramatic jump in technological progress around generation 45 of the simulation, with per capita income growth also jumping at that time. Meanwhile, population growth drops to zero.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<figcaption>Figure 3</figcaption>
-<p><a href="img/2013-07-04-economic-growth-and-evolution-parental-preference-for-quality-and-quantity-of-offspring/figure-3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure 3"><img src="img/2013-07-04-economic-growth-and-evolution-parental-preference-for-quality-and-quantity-of-offspring/figure-3.jpg" class="img-fluid figure-img" alt="Figure 3"></a></p>
-</figure>
-</div>
-<p>This second chart shows the change population composition. The quality-preferring genotype (genotype a) steadily increases in prevalence through to the Industrial Revolution, peaking at just under five per cent of the population. After the transition, it declines due to its lower fitness.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<figcaption>Figure 7</figcaption>
-<p><a href="img/2013-07-04-economic-growth-and-evolution-parental-preference-for-quality-and-quantity-of-offspring/figure-7.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure 7"><img src="img/2013-07-04-economic-growth-and-evolution-parental-preference-for-quality-and-quantity-of-offspring/figure-7.jpg" class="img-fluid figure-img" alt="Figure 7"></a></p>
-</figure>
-</div>
-<p>This change in selection pressure has an interesting implication. While natural selection is the trigger of the Industrial Revolution, the population composition before and after the transition is the same. There is no difference in population composition between developed and undeveloped countries. The only time there is a difference in population composition is during the transition, when the quality-preferring genotypes peak in prevalence. In some ways, the natural selection occurring in Galor and Moav’s model is a sideshow to the main event, the quality-quantity trade-off. In a similar model by <a href="http://www.jstor.org/stable/117309">Galor and Weil</a>, a scale effect triggers the Industrial Revolution - that is, the concept that more people leads to more ideas, so technological progress increases with population growth.</p>
-<p>That highlights the point where I am not convinced that the model describes what actually occurred. As far as human evolution relates to economic growth, I expect that inherent quality is at least (if not more) important than the quality-quantity trade-off. The Industrial Revolution was possible because higher quality (in an economic sense) people were selected for in the lead-up (with that lead up encompassing thousands of years). Further, for a man of low resources, his larger problem is convincing a woman to mate with him, not deciding on the right quantity-quantity mix.</p>
-<p>The other thing that I should note is that, like most economic models, Galor and Moav’s model includes consumption with no clear evolutionary rationale (an issue I have discussed in <a href="../2011/04/consumption-and-fitness/">an earlier post</a>). Why do people in the model consume more than subsistence? If some people chose to focus all excess consumption into raising children they would come to dominate the population. This might be justified as being something to which the population has not yet adapted, but that explanation does not satisfy me.</p>
-<p>Having made these quibbles, the model is still an impressive feat. It would not have been an easy task to create a model with technological progress, population and per capita income all following a path that resembles the last few thousand years of economic growth.</p>
-<p>In our paper, we extend Galor and Moav’s model by considering the entry of people into the population that have a low preference for child quality - i.e.&nbsp;they weight child quantity more highly. Entry could be through migration or mutation. We show that if people with a low enough preference for quality enter the population, their higher fitness in the modern growth state can drive the economy back into Malthusian conditions.</p>
-<p>We simulated a version of the model which had present in the initial population a genotype with a very low preference for educating their children. This strongly quantity-preferring genotype has a similar fitness to other genotypes that do not educate in the Malthusian state, and declines in prevalence while the quality-preferring genotype increases.</p>
-<p>Once the economy takes off into the modern growth state, the strongly quantity-preferring genotype has the highest fitness as it dedicates the lowest proportion of its resources to educating its children. The strongly quantity-preferring genotype increases in prevalence until, eventually, the average level of education in the population plummets, undermining technological progress. The world returns to a Malthusian state, with high population growth eroding the income benefits of all earlier technological progress.</p>
-<p>The following chart shows the rate of growth of population, technological progress and income per person. The first 70 generations look like the base model simulation shown above. However, after that point, technological progress plummets to zero. For the next 150 or so generations, population growth is positive, which can occur as per person income is above subsistence. Eventually, population growth drives income down to subsistence levels and population growth ceases.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<figcaption>Figure 8</figcaption>
-<p><a href="img/2013-07-04-economic-growth-and-evolution-parental-preference-for-quality-and-quantity-of-offspring/figure-8.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure 8"><img src="img/2013-07-04-economic-growth-and-evolution-parental-preference-for-quality-and-quantity-of-offspring/figure-8.jpg" class="img-fluid figure-img" alt="Figure 8"></a></p>
-</figure>
-</div>
-<p>In the next figure, you can see that the strongly quantity-preferring genotype, genotype <em>c</em>, grows from being a negligible part of the population to over 90 per cent prevalence. It is this change in population composition that drives the return to Malthusian conditions (you can also see the small peak in quality-preferring types around generation 45 that kicks off the Industrial Revolution). The strongly quantity-preferring genotypes educate their children far less than the other genotypes, depressing technological progress.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<figcaption>Figure 12</figcaption>
-<p><a href="img/2013-07-04-economic-growth-and-evolution-parental-preference-for-quality-and-quantity-of-offspring/figure-12.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure 12"><img src="img/2013-07-04-economic-growth-and-evolution-parental-preference-for-quality-and-quantity-of-offspring/figure-12.jpg" class="img-fluid figure-img" alt="Figure 12"></a></p>
-</figure>
-</div>
-<p>There is no escape from the returned Malthusian conditions. The quality-preferring genotype will have a fitness advantage in this new Malthusian state and will increase in prevalence. But although that increase in prevalence caused a take-off in economic growth the first time, this time there is no take-off. The strongly quantity-preferring types, which now dominate the population, cannot be induced to educate their children. They simply breed faster to take advantage of any technological progress spurred by the small part of the population that is educating their children.</p>
-<p>This regression to Malthusian conditions could also be achieved by introducing the strongly quantity-preferring genotype into the simulation at other points in time, which might be representative of global migration. If it occurs after the Industrial Revolution, the timing of the return to Malthusian conditions will occur later. Short of restricting the range of potential quality-quantity preferences, there is no way to avoid the return to Malthusian conditions in this version of model. The strongly quantity-preferring genotypes will always have a fitness advantage when income is above subsistence and their population growth will drive income back down to subsistence levels.</p>
-<p>One possible way to prevent a return to the Malthusian state is if there is also a scale effect in the population, whereby more people results in more ideas. This would give a basis for continuing growth after the take-off in population in the lead up to the transition. However, this scale effect must not be dependent on the level of education in the population, as that will still decline to zero. Further, if there is a scale effect, it raises the question of why the evolutionary trigger is required at all.</p>
-<p>There are, of course, a few possible interpretations of the result that the economy returns to Malthusian conditions. The model or assumptions may be wrong. Humans may only have quality-quantity preferences in the growth promoting range. Or if we take Galor and Moav’s model seriously, modern levels of economic growth may be transient.</p>
-<p>*I constructed this post out of two old posts I wrote when this work was first released as a working paper. The original posts with associated comments are <a href="https://www.jasoncollins.blog/natural-selection-and-the-collapse-of-economic-growth/">here</a> and <a href="https://www.jasoncollins.blog/natural-selection-and-the-collapse-of-economic-growth/">here</a>. The R code for simulating the model&nbsp;can be downloaded from <a href="https://github.com/jasonacollins/quantity_and_quality">here</a>.</p>
+<p>From a recent Journal of Political Economy paper by Stefano DellaVigna, Woojin Kim and Elizabeth Linos <span class="citation" data-cites="dellavigna2024">(<a href="#ref-dellavigna2024" role="doc-biblioref">2024</a>)</span>:</p>
+<blockquote class="blockquote">
+<p>We study 30 US cities that ran 73 RCTs with a national nudge unit. Cities adopt a nudge treatment into their communications in 27% of the cases. We find that the strength of the evidence and key city features do not strongly predict adoption; instead, the largest predictor is whether the RCT was implemented using preexisting communication, as opposed to new communication.</p>
+</blockquote>
+<p>A nudge with a negative result is almost as likely to be implemented as a positive result.</p>
+<blockquote class="blockquote">
+<p>There is no difference in adoption for results with negative point estimates (25% adoption), results with positive but not statistically significant estimates (25%), and estimates that are positive and statistically significant (30%). The likelihood of adoption increases with effect size (measured in percentage points), from 17% in the bottom third to 38% in the top third, though this difference is not statistically significant at conventional levels.</p>
+</blockquote>
+<p>My cynical take is that running trials with nudge units is cool. Despite more than a decade of nudge unit stories, behavioural insights is still a “shiny new thing” and are a way to say “we’re doing science” The hard work of implementing or scaling an intervention simply isn’t as sexy.</p>
+<p><a href="img/dellavigna-et-al-2024-fig-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img/dellavigna-et-al-2024-fig-3.png" class="img-fluid"></a></p>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-dellavigna2024" class="csl-entry" role="listitem">
+DellaVigna, S., Kim, W., and Linos, E. (2024). Bottlenecks for evidence adoption. <em>Journal of Political Economy</em>, 000–000. <a href="https://doi.org/10.1086/729447">https://doi.org/10.1086/729447</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -685,7 +679,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
