@@ -2,9 +2,7 @@
 title: 'A default of disbelief'
 author: "Jason Collins"
 date: 2022-01-13 09:00:00+00:00
-lastmod: 2022-01-13 09:00:00+00:00
 draft: false
-
 aliases:
   - /a-default-of-disbelief
 ---
@@ -46,7 +44,7 @@ Rather, the problem is that there is a huge swathe of published literature in th
 
 So rather than saying they "lost confidence in the effect of signing first", a better calibrated self-correction would have been to say "we should not have trusted this potentially spurious result absent rigourous replication, and we should be applying similar scepticism to more of the literature."
 
-To put it another way, the default position should not be to take all published results in the behavioural science literature as "the record". Instead, we should be treating many of these published results as exploratory or as untested hypotheses. Start from a position near "unlikely to be true", and update to a stronger belief in the presence of replications or other supporting evidence.
+To put it another way, the default position should not be to take all published results in the behavioural science literature as "the record". Instead, we should treat many of these published results as exploratory or untested hypotheses. Start from a position near "unlikely to be true", and update to a stronger belief in the presence of replications or other supporting evidence.
 
 Absent that approach, the story repeats. Well-meaning practitioners will continue to pick up ideas from the literature, waste time and effort until (if they are lucky) someone gets around to killing off the original idea in a replication. And as highlighted in the Scientific American article, this is costly:
 
