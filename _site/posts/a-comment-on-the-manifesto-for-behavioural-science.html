@@ -61,6 +61,9 @@ div.csl-indent {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -101,10 +104,12 @@ gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="A comment on the manifesto for behavioural science – Jason Collins blog">
 <meta property="og:description" content="Behavioural and data science. Economics. Evolutionary biology.">
+<meta property="og:image" content="https://www.jasoncollins.blog/posts/img/manifesto-figure-1.webp">
 <meta property="og:site_name" content="Jason Collins blog">
 <meta name="twitter:title" content="A comment on the manifesto for behavioural science – Jason Collins blog">
 <meta name="twitter:description" content="Behavioural and data science. Economics. Evolutionary biology.">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.jasoncollins.blog/posts/img/manifesto-figure-1.webp">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -199,6 +204,12 @@ gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
 <p>I wrote this post based on notes for a proposed “lunch and learn” session. Illness got in the way, so rather than let those notes sit on the shelf, I’ve cleaned them up to share here. Many points were intended to be (provocative) conversation prompts rather than statements, so a few parts are light on evidence or end with a question.</p>
 <hr>
 <p>In the first half of 2023, <a href="https://doi.org/10.1038/s41562-023-01555-3">A manifesto for applying behavioural science</a> was published in Nature Human Behaviour. Written by the head of the North American arm of the Behavioural Insights Team, Michael Hallsworth, the manifesto “looks at the challenges facing the field and sets out ten proposals to address them.”</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption>Hallsworth (2023) Figure 1</figcaption>
+<p><a href="img/manifesto-figure-1.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Hallsworth (2023) Figure 1"><img src="img/manifesto-figure-1.webp" class="img-fluid figure-img" style="width:80.0%" alt="Hallsworth (2023) Figure 1"></a></p>
+</figure>
+</div>
 <p>The Behavioural Insights Team also published a <a href="https://www.bi.team/wp-content/uploads/2023/04/BIT_Manifesto.pdf">longer version</a> of the manifesto, plus a <a href="https://www.bi.team/wp-content/uploads/2023/03/Manifesto-Summary.pdf">summary document</a>. Hallsworth gave me the opportunity to comment on a draft of the long-form manifesto, so I have a small insight into its development.</p>
 <p>Rather than address the document as a whole - I must admit I am sceptical of manifestos for direction from up high - I am going to discuss three of Hallsworth’s proposals:</p>
 <ul>
@@ -759,6 +770,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

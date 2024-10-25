@@ -4,6 +4,7 @@ author: "Jason Collins"
 date: 2024-10-25 09:00:00+10:00
 draft: false
 toc: false
+image: "img/manifesto-figure-1.webp"
 bibliography: references.bib
 ---
 
@@ -12,6 +13,8 @@ I wrote this post based on notes for a proposed "lunch and learn" session. Illne
 ------------------------------------------------------------------------
 
 In the first half of 2023, [A manifesto for applying behavioural science](https://doi.org/10.1038/s41562-023-01555-3) was published in Nature Human Behaviour. Written by the head of the North American arm of the Behavioural Insights Team, Michael Hallsworth, the manifesto "looks at the challenges facing the field and sets out ten proposals to address them."
+
+![Hallsworth (2023) Figure 1](img/manifesto-figure-1.webp){width=80%}
 
 The Behavioural Insights Team also published a [longer version](https://www.bi.team/wp-content/uploads/2023/04/BIT_Manifesto.pdf) of the manifesto, plus a [summary document](https://www.bi.team/wp-content/uploads/2023/03/Manifesto-Summary.pdf). Hallsworth gave me the opportunity to comment on a draft of the long-form manifesto, so I have a small insight into its development.
 
