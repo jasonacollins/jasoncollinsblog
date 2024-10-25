@@ -16,7 +16,7 @@ Below is my academic work (largely neglected between the completion of my PhD in
 
 ### 2024
 
-Collins (2024) "Optimally Irrational: The Good Reasons we Behave the Way we Do, by Lionel Page (Cambridge University Press, Cambridge, 2022), pp. 322.", *Economic Record*, https://doi.org/10.1111/1475-4932.12798 ([ungated pdf](https://onlinelibrary.wiley.com/share/author/2YPJ72W7RCXXTFND37AT?target=10.1111/1475-4932.12798); [preprint pdf](https://osf.io/preprints/osf/yz9uk))
+Collins (2024) "[Optimally Irrational: The Good Reasons we Behave the Way we Do, by Lionel Page (Cambridge University Press, Cambridge, 2022), pp. 322.](https://doi.org/10.1111/1475-4932.12798)", *Economic Record*, 100(329), 271-274 ([ungated pdf](https://onlinelibrary.wiley.com/share/author/2YPJ72W7RCXXTFND37AT?target=10.1111/1475-4932.12798); [preprint pdf](https://osf.io/preprints/osf/yz9uk))
 
 ### 2019
 
@@ -45,6 +45,8 @@ Collins, Baer and Weber, (2013) [Population, Technological Progress and the Evol
 ## Working papers (inactive)
 
 Albrecht, Collins, Gauriot and Wu (2023) "[A Comment on Alesina, Miano and Stancheva (2023)](https://www.rwi-essen.de/i4r-discussion-papers-series-1/a-comment-on-alesina-miano-and-stancheva-23063012)", I4R Discussion Paper Series #40 ([pdf](https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/I4R_Discussion_Paper_Series/040_I4R_Albrecht_Collins_Gauriot_Wu.pdf))
+
+Collins, Denham, Du and Waller (2024) "[A Comment on “Influence Motives in Social Signaling: Evidence from COVID-19 Vaccinations in Germany](https://www.econstor.eu/handle/10419/301428)” I$R Discussion Paper Series #139) ([pdf](https://www.econstor.eu/bitstream/10419/301428/1/I4R-DP139.pdf))
 
 Collins and Richards (2013) [Evolution, Fertility and the Ageing Population](https://api.research-repository.uwa.edu.au/ws/portalfiles/portal/104234625/13_02_Evolution_Fertility_and_the_Ageing_Population.pdf) UWA Discussion Papers in Economics 13.02 ([post](/fertility-is-going-to-go-up/))
 
