@@ -3,6 +3,7 @@ title: 'The human benchmark is typically unimpressive'
 author: "Jason Collins"
 date: 2024-10-28 09:00:00+10:00
 draft: false
+image: "img/ayers-et-al-2023-figure.png"
 bibliography: references.bib
 ---
 
