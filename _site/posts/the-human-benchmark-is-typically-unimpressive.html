@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Jason Collins">
-<meta name="dcterms.date" content="2012-02-22">
+<meta name="dcterms.date" content="2024-10-28">
 
-<title>Parental income and SAT scores – Jason Collins blog</title>
+<title>The human benchmark is typically unimpressive – Jason Collins blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -82,10 +102,10 @@ gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Parental income and SAT scores – Jason Collins blog">
+<meta property="og:title" content="The human benchmark is typically unimpressive – Jason Collins blog">
 <meta property="og:description" content="Behavioural and data science. Economics. Evolutionary biology.">
 <meta property="og:site_name" content="Jason Collins blog">
-<meta name="twitter:title" content="Parental income and SAT scores – Jason Collins blog">
+<meta name="twitter:title" content="The human benchmark is typically unimpressive – Jason Collins blog">
 <meta name="twitter:description" content="Behavioural and data science. Economics. Evolutionary biology.">
 <meta name="twitter:card" content="summary">
 </head>
@@ -150,7 +170,7 @@ gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Parental income and SAT scores</h1>
+<h1 class="title">The human benchmark is typically unimpressive</h1>
 </div>
 
 
@@ -167,7 +187,7 @@ gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 22, 2012</p>
+      <p class="date">October 28, 2024</p>
     </div>
   </div>
   
@@ -179,17 +199,47 @@ gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
 </header>
 
 
-<p>To make his point that socioeconomic status is a major driver of educational outcomes, <a href="http://www.danpink.com/archives/2012/02/how-to-predict-a-students-sat-score-look-at-the-parents-tax-return">Dan Pink</a> made the following chart. SAT scores are on the vertical axis, and family incomes on the horizontal axis.</p>
-<p><a href="https://www.danpink.com/wp-content/uploads/2012/02/SAT-chart-e1329608605220.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.danpink.com/wp-content/uploads/2012/02/SAT-chart-e1329608605220.jpg" class="img-fluid"></a></p>
-<p>Sidestepping questions of what this correlation actually means, is there any plausible scenario that would result in a different relationship?</p>
-<p>If we assume, as many are using the chart to assert, that parental income “buys” higher SAT scores, then we will see SAT scores rising with income. The same result would be expected if those at the bottom of the socioeconomic scale receive poor educations.</p>
-<p>However, if we assumed the world was a perfect meritocracy and everyone had the same opportunities, we only need mild assumptions about correlations between parent and child talent and personality to get the same result. Those correlations could be through genetic or cultural transmission. If children resemble their parents in any way, and income and SAT scores reflect those underlying dispositions, we will see a positive relationship.</p>
-<p>The only way we would see no relationship between parental income and SAT scores would be if there was zero correlation between parent and child traits, and we lived in a perfect meritocracy. I don’t believe that anyone can substantiate either of those claims. The question is one of degree.</p>
-<p>So, in some senses, the chart does not tell us anything, and I am surprised that anyone might have expected any other result.</p>
+<p>If you ever read a claim of an AI outperforming a human, dig into the performance data to check out the human benchmark. The mediocrity of the human is often more salient than the competence of the AI. The AI has an easy job.</p>
+<p>Here’s an example from a paper by Ayers and friends <span class="citation" data-cites="ayers2023">(<a href="#ref-ayers2023" role="doc-biblioref">2023</a>)</span>. They sampled 195 question and response exchanges on Reddit’s <a href="https://www.reddit.com/r/AskDocs">r/AskDocs</a> and entered those same questions into ChatGPT 3.5. Responses by the Reddit physicians and ChatGPT were then independently rated for quality and empathy.</p>
+<p>ChatGPT responses were rated as higher quality, with 78% of ChatGPT responses rated as good or very good quality. 22% of physician responses had that rating. Similarly, 45% of ChatGPT responses were rated empathetic or very empathetic, compared to 5% for the physicians.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption>Distribution of Average Quality and Empathy Ratings for Chatbot and Physician Responses to Patient Questions</figcaption>
+<p><a href="img/ayers-et-al-2023-figure.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Distribution of Average Quality and Empathy Ratings for Chatbot and Physician Responses to Patient Questions"><img src="img/ayers-et-al-2023-figure.png" class="img-fluid figure-img" alt="Distribution of Average Quality and Empathy Ratings for Chatbot and Physician Responses to Patient Questions"></a></p>
+</figure>
+</div>
+<p>I <a href="https://doi.org/10.7910/DVN/BZARC3">downloaded the csv file</a> of the responses. The most striking feature was the brevity and curtness of the humans (52 words average compared to 211 for ChatGPT). Here are a few of the human responses.</p>
+<p>A friend’s uninsured mother needs a liver transplant. What should she do?</p>
+<blockquote class="blockquote">
+<p>Its not just a work around the insurance, she will need lifelong expensive meds after surgery as well. Why does she not have insurance?</p>
+</blockquote>
+<p>Should they be worried about arm pain when they sneeze?</p>
+<blockquote class="blockquote">
+<p>The answer simply is no..</p>
+</blockquote>
+<p>Are they crazy for thinking they have pancreatic or some other cancer given a list of symptoms?</p>
+<blockquote class="blockquote">
+<p>Why do you think you have pancreatic cancer?</p>
+</blockquote>
+<p>Where can someone from a family of anti-vaxers get information on vaccines?</p>
+<blockquote class="blockquote">
+<p>See your general practitioner. They’ll understand and will sort you out bro.</p>
+</blockquote>
+<p>Does smelly poop and less frequent bowel movements indicate cancer?</p>
+<blockquote class="blockquote">
+<p>This does not sound like cancer. I would advise stop googling.</p>
+</blockquote>
+<p>In contrast, ChatGPT gave long, involved answers that inevitably began with a statement of concern for the medical condition. “I’m sorry to hear about your friend’s mom.” Funnily enough, that verbosity annoys me the most in using LLMs. One person’s verbosity is another’s empathy.</p>
+<p>I don’t mean the above to be read as a criticism of AI performance. (This is ChatGPT 3.5 after all!) But there’s an interesting contrast between performance benchmarking and discussions of the role of AI. In benchmarking exercises, we use actual human performance as the standard. But when discussing whether AI should replace or augment human decisions, we often compare AI to an idealised human. We have a mental image of a high-quality physician with excellent bedside manner, not the distribution of skills and empathy we actually have. Scrutinising the performance data for some of these benchmarking exercises is a good reminder that AI doesn’t always have to be great to be better.</p>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-ayers2023" class="csl-entry" role="listitem">
+Ayers, J. W., Poliak, A., Dredze, M., Leas, E. C., Zhu, Z., … Smith, D. M. (2023). Comparing physician and artificial intelligence chatbot responses to patient questions posted to a public social media forum. <em>JAMA Internal Medicine</em>, <em>183</em>(6), 589–596. <a href="https://doi.org/10.1001/jamainternmed.2023.1838">https://doi.org/10.1001/jamainternmed.2023.1838</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -645,7 +695,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
