@@ -27,9 +27,9 @@ For those who want to capture what I say, at 7pm tonight (AEST) the script of wh
 
 **Story one -- the Florida effect**
 
-[John Bargh and friends](http://psycnet.apa.org/?&fa=main.doiLanding&doi=10.1037/0022-3514.71.2.230) asked two groups of 30 psychology students to rearrange scrambled words into a sentence that made sense. Students in each of these groups were randomly assigned into one of two conditions. Some students received scrambled sentences with words that relate to elderly stereotypes, such as *worried, Florida, old, lonely, grey, wrinkle*, and so on. The other students were given sentences with non-age-specific words.
+[John Bargh and friends](https://doi.org/10.1037/0022-3514.71.2.230) asked two groups of 30 psychology students to rearrange scrambled words into a sentence that made sense. Students in each of these groups were randomly assigned into one of two conditions. Some students received scrambled sentences with words that relate to elderly stereotypes, such as *worried, Florida, old, lonely, grey, wrinkle*, and so on. The other students were given sentences with non-age-specific words.
 
-![Bargh et al](img/2016-05-11-bad-behavioural-science-failures-bias-and-fairy-tales/bargh-et-al.jpg)
+![Bargh et al (1996)](img/2016-05-11-bad-behavioural-science-failures-bias-and-fairy-tales/bargh-et-al.jpg){width=60%}
 
 After completing this exercise the participants were debriefed and thanked. They then exited the laboratory by walking down a corridor.
 
@@ -37,15 +37,15 @@ Now for the punch line. The experimenters timed the participants as they walked 
 
 Except......the study doesn't seem to replicate. In 2012 [a paper was published in PLOS One](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0029081) where Stephen Doyen and friends used a laser timer to time how long people took to walk down the corridor after rearranging their scrambled sentences. The presence of the elderly words did not change their walking speed (unless the experimenters knew about the treatment - but that's another story). There's another failed replication on [PsychFileDrawer](http://www.psychfiledrawer.org/replication.php?attempt=MTU%3D).
 
-What was most striking about this failed replication -- apart from putting a big question mark next to the result - was the way the [lead researcher John Bargh attacked the PLOS One paper](http://www.psychologytoday.com/blog/the-natural-unconscious/201203/nothing-in-their-heads) in a post on his Psychology Today blog (his blog post appears to have been deleted, but you can see a description of the content [in Ed Yong's article](http://blogs.discovermagazine.com/notrocketscience/2012/03/10/failed-replication-bargh-psychology-study-doyen/)). Apart from calling the post "Nothing in their heads" and describing the researchers as incompetent, he desperately tried to differentiate the results - such as by arguing there were differences in methodology (which in some cases did not actually exist) - and by suggesting that the replication team used too many primes.
+What was most striking about this failed replication -- apart from putting a big question mark next to the result - was the way the [lead researcher John Bargh attacked the PLOS One paper](https://osf.io/73a5f) in a post on his Psychology Today blog (his blog post appears to have been deleted, but you can see a description of the content [in Ed Yong's article](https://www.nationalgeographic.com/science/article/failed-replication-bargh-psychology-study-doyen)). Apart from calling the post "Nothing in their heads" and describing the researchers as incompetent, he desperately tried to differentiate the results - such as by arguing there were differences in methodology (which in some cases did not actually exist) - and by suggesting that the replication team used too many primes.
 
 I don't want to pick on this particular study alone (although I'm happy to pick on the reaction). After all, failure to replicate is not proof that the effect does not exist. But failure to replicate is a systematic problem in the behavioural sciences (in fact, many sciences). [A study by Brian Nosek and friends published in Science](http://science.sciencemag.org/content/349/6251/aac4716) examined 100 cognitive and social psychology studies published in several major psychology journals. They subjectively rated 39% of the studies they attempted to replicate as having replicated. Only 25% of social psychology studies in that study met that mark. The size of the effect in these studies was also around half of that in the originals - as shown in this plot of original versus replication effect sizes. The Florida effect is just the tip of the iceberg.
 
-![Nosek et al (2015)](img/2016-05-11-bad-behavioural-science-failures-bias-and-fairy-tales/nosek-et-al.jpg)
+![Nosek et al (2015)](img/2016-05-11-bad-behavioural-science-failures-bias-and-fairy-tales/nosek-et-al.jpg){width=80%}
 
 Priming studies seem to be particularly problematic. Another priming area in trouble is "money priming", where exposure to images of money or the concept of money make people less willing to help others or more likely to endorse a free market economy. As an example, [one set of replications](http://www.ncbi.nlm.nih.gov/pubmed/26214168) of the effect of money primes on political views by Rohrer and friends - as shown in these four charts - found no effect ([ungated pdf](http://uweb.cas.usf.edu/~drohrer/pdfs/Rohrer_et_al_2015JEPG.pdf)). Analysis of the broader literature on money priming suggests, among other things, [massive publication bias](http://psycnet.apa.org/journals/xge/145/5/655.html).
 
-![Rohrer et al](img/2016-05-11-bad-behavioural-science-failures-bias-and-fairy-tales/rohrer-et-al.jpg)
+![Rohrer et al (2015)](img/2016-05-11-bad-behavioural-science-failures-bias-and-fairy-tales/rohrer-et-al.jpg)
 
 As a non-priming example, those of you who have read Daniel Kahneman's [Thinking, Fast and Slow](https://www.jasoncollins.blog/kahnemans-thinking-fast-and-slow/) or Malcolm Gladwell's David and Goliath might recall a study by [Adam Alter and friends](https://doi.org/10.1037/0096-3445.136.4.569). In that study, 40 students were exposed to two versions of the cognitive reflection task. One of the typical questions in the cognitive reflection task is the following classic:
 
@@ -53,9 +53,9 @@ As a non-priming example, those of you who have read Daniel Kahneman's [Thinking
 
 The two versions differed in that one used small light grey font that made the questions hard to read. Those exposed to the harder to read questions achieved higher scores.
 
-![](img/2016-05-11-bad-behavioural-science-failures-bias-and-fairy-tales/meyer-et-al-2015.jpg)
-
 It all sounds very cool. Slowing people down made them do better. But while the original study with 40 subjects found a large effect, [replications involving thousands of people found nothing](http://psycnet.apa.org/journals/xge/144/2/e16/) (Terry Burnham discusses this paper in more detail [here](http://www.terryburnham.com/2015/04/a-trick-for-higher-sat-scores.html)). As you can see in the chart, the positive result is a small sample outlier.
+
+![Meyer et al. (2015)](img/2016-05-11-bad-behavioural-science-failures-bias-and-fairy-tales/meyer-et-al-2015.jpg){width=70%}
 
 Then there is [ego depletion](https://www.jasoncollins.blog/failure-to-replicate-ego-depletion-edition/) - the idea that we have a fixed stock of willpower that becomes depleted through use. If we have to use our willpower in one setting, we're more likely to crumble later on as our ego is depleted.
 
