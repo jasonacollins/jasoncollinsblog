@@ -10,7 +10,52 @@
 <atom:link href="https://www.jasoncollins.blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Behavioural and data science. Economics. Evolutionary biology.</description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Wed, 13 Nov 2024 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 05 Dec 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Human-AI collaboration: it is better when the human is asleep at the wheel</title>
+  <dc:creator>Jason Collins</dc:creator>
+  <link>https://www.jasoncollins.blog/posts/human-ai-collaboration-it-is-better-when-the-human-is-asleep-at-the-wheel.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>In his book Co-Intelligence: Living and Working with AI, <a href="https://www.oneusefulthing.org/">Ethan Mollick</a> describes an experiment by Fabrizio Dell’Acqua:</p>
+<blockquote class="blockquote">
+<p>In a different paper, Fabrizio Dell’Acqua shows why relying too much on AI can backfire. He found that recruiters who used high-quality AI became lazy, careless, and less skilled in their own judgment. They missed out on some brilliant applicants and made worse decisions than recruiters who used low-quality AI or no AI at all.</p>
+<p>He hired 181 professional recruiters and gave them a tricky task: to evaluate 44 job applications based on their math ability. The data came from an international test of adult skills, so the math scores were not obvious from the résumés. Recruiters were given different levels of AI assistance: some had good or bad AI support, and some had none. He measured how accurate, how fast, how hardworking, and how confident they were.</p>
+<p>Recruiters with higher-quality AI were worse than recruiters with lower-quality AI. They spent less time and effort on each résumé, and blindly followed the AI recommendations. They also did not improve over time. On the other hand, recruiters with lower-quality AI were more alert, more critical, and more independent. They improved their interaction with the AI and their own skills. Dell’Acqua developed a mathematical model to explain the trade-off between AI quality and human effort. When the AI is very good, humans have no reason to work hard and pay attention. They let the AI take over instead of using it as a tool, which can hurt human learning, skill development, and productivity. He called this “falling asleep at the wheel.”</p>
+</blockquote>
+<p>What are the costs of falling asleep at the wheel? We can get a better sense from the as yet <a href="https://www.dropbox.com/scl/fi/c5jdi146erky69csa8gha/Falling_Asleep_at_the_Wheel.pdf?rlkey=ss4vh6bsgzf52xiba8ffx0onc&amp;e=1&amp;st=s0ppis9g&amp;dl=0">unpublished working paper</a>. (I expect it will be published somewhere reasonably prestigious before too long.)</p>
+<p>The “bad AI” had an accuracy of 75%. The “good AI” had an accuracy of 85%. What was the accuracy of the recruiters? My reading of Table 4 of the paper is that, without any AI support, the recruiters had 72.3% accuracy. With the bad AI that was 75.4%, and with good AI was 74.4%. So on the raw outcome, about the same across all three treatments.</p>
+<p>But think about what we could achieve if we just eliminated the recruiters. The recruiters with the bad AI add nothing. Their deviations from the AI recommendations are a wash. The recruiters with the good AI intervene enough to degrade the performance from 85% to 74%. If anything, the recruiters with the bad AI aren’t asleep enough! If they didn’t do a thing, they’d get 85% accuracy. Instead of thinking about getting recruiters to pay attention, we should remove them from simple prediction tasks like this.</p>
+<p>The underperformance of human-AI combinations is a common theme across the literature on statistical versus human prediction. Combine a human with a good algorithm and you will improve the human’s performance. However, their performance will still be below the level of the algorithm alone. (I’ve written in <a href="https://behavioralscientist.org/dont-touch-computer/">Behavioural Scientist</a> on this previously.)</p>
+<p>Before moving on, I should point out that the measure of decision quality highlighted in the preregistration was not the decision to interview the candidate, but rather a measure of confidence. (I can’t check this as the pre-registration is embargoed.) For each decision, recruiters were asked to rate their confidence on a 1 to 5 scale. Using this confidence measure, the recruiters with the bad AI performed significantly better than those with the good AI (scraping under the 0.05 threshold once some additional controls are added). I can’t confirm from the paper whether the good AI model would outperform on this measure - or even whether it generates measures of confidence - but I’d be very surprised if a model wouldn’t outperform.</p>
+<section id="understanding-ai-quality" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-ai-quality">Understanding AI quality</h2>
+<p>Having said the above, it’s unclear what is driving the headline result and whether it would replicate. The recruiters were given one of the following descriptions. For the good AI:</p>
+<blockquote class="blockquote">
+<p>The AI tool that will support you has been performing very well in prior analysis and we have been very pleased with the candidates selected. However, it made a few mistakes for candidates that were close calls.</p>
+<p>We reviewed the algorithm’s recommendations using performance data, and we found that the vast majority of AI’s recommendations about whether to interview a candidate or not were correct (about 85% of cases).</p>
+</blockquote>
+<p>Those who were given the bad AI read:</p>
+<blockquote class="blockquote">
+<p>The AI tool that will support you has been performing well in prior analysis and we have been pleased with the candidates selected. However, it made some mistakes for candidates that were close calls.</p>
+<p>We reviewed the algorithm’s recommendations using performance data, and we found that the large majority of AI’s recommendations about whether to interview a candidate or not were correct (about 75% of cases).</p>
+</blockquote>
+<p>The differences are performed “very well” versus “well”, “very pleased” versus “pleased”, making “a few” versus “some” mistakes, “vast majority” versus “large majority”, and “85%” versus “75%”.</p>
+<p>Which change or changes are driving the effect? We can’t tell. I lean toward the accuracy numbers having no effect. People tend not to react differently to numbers in those ranges. The words might be doing something, but which ones? The framing of the mistakes? How pleased the developers are?</p>
+<p>Further, is the problem identified in the experiment giving people a good AI or if it is describing it poorly? We could easily have used the bad AI description for the good AI (except the number, which I predict has no effect). Would we see an effect if we gave the bad AI description (except for the number) for the good AI? If not, we’ve solved the asleep at the wheel problem!</p>
+<p>I’d love to see a replication of this experiment, mixing the combinations of words to understand better what people are hooking into. My hunch is that the differences in accuracy wouldn’t replicate. This paper has some of the classic signs: a weak treatment and a p-value scraping under 0.05. (I’m more optimistic about time and effort.)</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://www.jasoncollins.blog/posts/human-ai-collaboration-it-is-better-when-the-human-is-asleep-at-the-wheel.html</guid>
+  <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://www.jasoncollins.blog/posts/img/asleep-at-the-wheel.webp" medium="image" type="image/webp"/>
+</item>
 <item>
   <title>What we learn when we test everything</title>
   <dc:creator>Jason Collins</dc:creator>
@@ -3048,6 +3093,14 @@ Zahavi, A. (1975). Mate selection<span></span>a selection for a handicap. <em>Jo
   <pubDate>Fri, 19 Apr 2024 02:00:00 GMT</pubDate>
 </item>
 <item>
+  <title></title>
+  <dc:creator>Jason Collins</dc:creator>
+  <link>https://www.jasoncollins.blog/posts/a-bunch-of-links-3.html</link>
+  <description><![CDATA[ undefined ]]></description>
+  <guid>https://www.jasoncollins.blog/posts/a-bunch-of-links-3.html</guid>
+  <pubDate>Sat, 27 Jan 2024 05:00:00 GMT</pubDate>
+</item>
+<item>
   <title>The preregistration halo</title>
   <dc:creator>Jason Collins</dc:creator>
   <link>https://www.jasoncollins.blog/posts/the-preregistration-halo.html</link>
@@ -4307,147 +4360,6 @@ Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <e
  ]]></description>
   <guid>https://www.jasoncollins.blog/posts/why-i-dont-believe-that-signs-with-fatality-numbers-cause-more-crashes.html</guid>
   <pubDate>Thu, 18 Aug 2022 20:30:00 GMT</pubDate>
-</item>
-<item>
-  <title>Please not another bias: Take two</title>
-  <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/please-not-another-bias-take-two.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>In <a href="../please-not-another-bias-correcting-the-record/">my last post</a> I discussed how I would like to redo my article “<a href="../please-not-another-bias-an-evolutionary-take-on-behavioural-economics/">Please Not Another Bias! An Evolutionary Take on Behavioural Economics</a>”. Apart from the removing the weak experimental evidence that I referenced, I wanted to make a few points more explicitly, such as the need for theory.</p>
-<p>Well, that <a href="https://www.worksinprogress.co/issue/biases-the-wrong-model/">re-write is here</a> in the latest edition of <a href="https://www.worksinprogress.co">Works in Progress</a>.</p>
-<p>Not much has survived from the original except the opening framing and the continued belief that evolutionary theory will play a role in developing that theory. Otherwise, it’s largely new.</p>
-<p>Writing this article has me half-convinced that I should create the academic version - or at least the version addressing all the “what about X?” that I have heard or anticipate. I also want to sketch more of a picture about what the theory might look like (as in contribute to addressing the problem rather than just complaining about it).</p>
-<p>In the meantime, here are a few other academic pieces worth reading that make the case for more theory in behavioural economics or the behavioural sciences:</p>
-<ul>
-<li>Michael Muthukrishna and Joe Henrich’s <a href="https://doi.org/10.1038/s41562-018-0522-1">A problem in theory</a> (<a href="https://michael.muthukrishna.com/wp-content/uploads/2019/02/Muthukrishna-A-problem-in-theory.pdf">pdf</a>): In addition to arguing for more theory, they nominate dual-inheritance theory as one general theoretical framework that could do the job.</li>
-<li>Gigi Foster’s <a href="https://sabeconomics.org/wordpress/wp-content/uploads/JBEP-2-1-11.pdf">Towards a living theoretical spine for (behavioural) economics</a>: To highlight one paragraph as to why there has been little progress on theory:</li>
-</ul>
-<blockquote class="blockquote">
-<p>Economists today are incentivized to care about publishing in journals that have high citation counts and otherwise- measured “impact”, meaning in large part journals that are popular in the circle of economists. This system of incentives creates both a clique of self-referencing scholars and a very strong personal incentive for anyone outside that group to become a member of it if he wishes to gain status as an economist. To become a member of the clique of present-day economic theorists, in particular, requires that one have a great deal of expertise in mathematical techniques and a bank of knowledge about how to build mathematical models that is very difficult to acquire except through a heavy investment in apprenticeship. Once such an investment is made, the investor’s continued career depends upon the very system that originally challenged him, and the cycle begins again, with renewed commitment by the existing clique of theorists to the standard model of choice. It is in part from this socially-mediated situation – ironically or not, one that itself is rarely modelled in economics –that the inertia of our model of individual decision-making arises.</p>
-</blockquote>
-<ul>
-<li>Andreas Ortmann’s <a href="https://doi.org/10.4337/9781788974462.00013">On the foundations of behavioural and experimental economics</a> (<a href="https://deliverypdf.ssrn.com/delivery.php?ID=199020086001027022121011113121124099104015006077091033071072022106071085067003069103097114000125006036111066127065071127071125062015046052031093100127019004071096048075035099084089119071087068000101080108076007082086006099120105101116125103070095097&amp;EXT=pdf&amp;INDEX=TRUE">pdf of draft</a>): Ortmann contrasts the theory of economics and the lack of theory in psychology, pinning the struggles in behavioural economics on the sourcing of new insight from the “untheorized mess” that is psychology.</li>
-</ul>
-<p>Otherwise, I haven’t had a chance to read the rest of the new Works in Progress issue yet. But the couple of articles I have read are great. Saloni Dattani’s <a href="https://www.worksinprogress.co/issue/real-peer-review/">discussion of peer review</a> felt very relevant. I’ve just kicked off <a href="../the-academic-experiment/">the academic phase of my career</a> and am spending a lot of time wondering about how to engage with the publishing game. What’s the best way to put my work out there (actually have it read), get good feedback, play a useful role in giving feedback to others and not get fired? The answer to those questions does not involve playing the traditional publishing game.</p>
-<p>I’m not a sailor, but Stewart Brand’s <a href="https://www.worksinprogress.co/issue/the-maintenance-race/">The Maintenance Race</a> was also good.</p>
-
-
-
- ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/please-not-another-bias-take-two.html</guid>
-  <pubDate>Thu, 28 Jul 2022 05:30:00 GMT</pubDate>
-</item>
-<item>
-  <title>Please not another bias: correcting the record</title>
-  <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/please-not-another-bias-correcting-the-record.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>In 2015 I gave a presentation titled “Please Not Another Bias! An Evolutionary Take on Behavioural Economics” at the Marketing and Science Ideas Exchange (MSIX) conference. I posted my presentation <a href="../please-not-another-bias-an-evolutionary-take-on-behavioural-economics/">on this blog</a>, where it had around 100,000 readers in the first month (a lot for this blog). <a href="https://evonomics.com/please-not-another-bias-the-problem-with-behavioral-economics/">A copy of the post</a> was the most popular post on Evonomics in its first year.</p>
-<p>I still see the post shared, which brings a slight cringe, as its not the article I would write today. I stand by the general argument, but there are several points that I would like to change.</p>
-<p>First, I wrote it for a marketing audience. It would be nice if it were more general.</p>
-<p>Second, I believe the case for better theory in place of lists of biases has only grown, so I would like to make that case more explicitly.</p>
-<p>Third, while I still believe evolutionary biology should be part of the development of better theories of human decision making - and any theory must be consistent with evolutionary theory - I’m also of the belief that a more eclectic selection of disciplines could contribute hypotheses.</p>
-<p>Fourth, and the reason for this post, is that much of the experimental evidence I quoted should be considered shaky at best. When I developed the presentation the replication crisis was just warming up. There had been some high-profile failed replications, but the Open Science Collaboration’s first article <a href="https://doi.org/10.1126/science.aac4716">Estimating the reproducibility of psychological science</a> was still a month away. I was certainly naive about the foundations I was building on.</p>
-<p>For the remainder of this post I walk through some of my claims and the experimental evidence to support them (not strictly in the order I discussed them then). Which would I trust today? In summary, while I still believe many of the underlying hypotheses, I don’t trust any of the experimental results sufficiently to reference them in a re-write today.</p>
-<p>I opened with a broad claim:</p>
-<blockquote class="blockquote">
-<p>So, let’s do a quick quiz. Tell me two things about the driver of this Ferrari (I have stolen this example from University of New South Wales&nbsp;evolutionary biologist <a href="http://www.robbrooks.net/">Rob Brooks</a>).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<figcaption>Ferrari</figcaption>
-<p><img src="https://www.jasoncollins.blog/posts/img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/ferrari.jpg" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<p>First, the driver was male.</p>
-<p>Second, the driver is likely young (in this case, 25).</p>
-</blockquote>
-<p>I”ll back this being a robust phenomena, but we don’t exactly need a body of science to make that prediction.</p>
-<p>I then supported that point with some storytelling about the different motivations of men and women:</p>
-<blockquote class="blockquote">
-<p>So why is this the case?</p>
-<p>Females – and in biology, this is in part how females are defined – produce a large immobile egg. Males produce a smaller gamete – sperm. The egg is the scarce resource. Women are born with a million or so eggs, but they release only one or so a month. Men produce 1,500 sperm a second. Each man in this room will produce enough sperm during this talk to fertilise every egg the women in this room will ever produce.</p>
-<p>Then there is what happens when a sperm and an egg are joined. The woman spends nine months carrying the baby – and is unable to reproduce during that time. She then provides the majority of infant care. Men are less constrained by any such barriers.</p>
-<p>…</p>
-<p>Then, for a few men, the rewards are vast.</p>
-<p>As one example, <a href="https://doi.org/10.1086/367774">approximately 16 million men in central Asia carry the same Y chromosome</a> – the Y chromosome is passed from down the male lineage from father to son. This chromosome originated in Mongolia around 1000 AD with around 8 per cent of the men in the region carrying it (0.5% of the world’s male population) – they all trace their male lineage back to the same man.</p>
-<p>One possibility is that this chromosome was so successful as it was carried by Genghis Khan and his close relatives. …</p>
-<p>No woman could ever have that level of success – but for men, the evolutionary rewards to success can be vast.</p>
-<p>This brings us back to our Ferrari driver. As a male, the risk-reward calculation in evolutionary terms is quite different from women. Men face a higher probability of evolutionary oblivion, and small chance of an evolutionary extravaganza. It makes sense to take risks that may lead to inordinate evolutionary success – or at least to avoid evolutionary oblivion.</p>
-</blockquote>
-<p>There’s nothing I would say is incorrect here, and it leads to a question of whether we need to build sex more explicitly into models of human behaviour. (Probably not the zeitgeist right now.) But when I then try to add some science<img src="https://latex.codecogs.com/png.latex?%5E%7B%5Ctext%7BTM%7D%7D"> to my case, things become shaky.</p>
-<p>Here’s the first study I would no longer reference (which also happened to be the subject of <a href="../its-a-risky-business-attracting-a-mate/">my first post on this blog</a> over a decade ago):</p>
-<blockquote class="blockquote">
-<p>One of my favourite examples of this comes from <a href="https://doi.org/10.1177/1948550609352807">research by Richard Ronay and Bill von Hippel</a>. They got some young male skateboarders to perform tricks, including a difficult trick that they could complete only half the time. Halfway through filming, a woman rated as highly attractive (corroborated by “many informal comments and phone number requests from the skateboarders”) walked onto the scene. Once she appeared, they took more risks and were less likely to bail a trick half-way through, instead riding all the way through to the crash landing (<a href="http://www.abc.net.au/catalyst/stories/2967720.htm">a story on ABC’s Catalyst demonstrates this effect</a>).</p>
-</blockquote>
-<p>In this experiment there was a small sample of 96 male skateboarders, giving groups of 43 and 53 skateboarders performing ten tricks for the male and female experimenter respectively. There were also have large effect sizes. I wouldn’t claim these effects sizes are impossible using the “<a href="../the-effect-is-too-large-heuristic/">effect is too large heuristic</a>”, but they certainly don’t make me feel comfortable. The figure below gives a sense of the change in behaviour.</p>
-<p><a href="img/ronay-and-von-hippel-2010-figure-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/img/ronay-and-von-hippel-2010-figure-1.jpg" class="img-fluid"></a></p>
-<p>To understand one point that makes this study particularly interesting, let me turn to Ulrich Schimmack’s work to develop a <a href="https://replicationindex.com">replicability index</a>. By comparing the observed power of a set of studies and the rate at which reported results are significant, Schimmack estimates the rate at which studies will replicate in the form of the <a href="https://replicationindex.com/2016/01/31/a-revised-introduction-to-the-r-index/">R-Index</a>. Schimmack uses the R-Index to compare the replicability of journals, authors and departments.</p>
-<p>The ranking of authors is of relevance here. Bill von Hippel, the second author in this skateboarding paper, was one of those ranked. I’ll use <a href="https://replicationindex.com/2021/05/07/bill-von-hippel-and-ulrich-schimmack-discuss-bills-replicability-index/">von Hippel’s words from a conversation with Schimmack</a>:</p>
-<blockquote class="blockquote">
-<p>But your work was made much more personally relevant on January 19, when you wrote a blog on “Personalized p-values for social/personality psychologists.”</p>
-<p>Initially, I was curious if I would be on the list, hoping you had taken the time to evaluate my work so that I could see how I was doing. Your list was ordered from the highest replicability to lowest, so when I hadn’t seen my name by the half-way point, my curiosity changed to trepidation. Alas, there I was – sitting very near the bottom of your list with one of the lowest replicability indices of all the social psychologist’s you evaluated.</p>
-</blockquote>
-<p>On the <a href="https://replicationindex.com/2021/01/19/personalized-p-values/">ranking table as at 5 July 2022</a>, von Hippel is ranked 416 out of 426.</p>
-<p>Among the numbers Schimmack generated was the significance threshold we would have to use if we wanted to reduce the false discovery rate for an author’s work below 0.05. (That is the rate at which significant results are false.) For von Hippel, that number is 0.001. He also calculated the expected discovery rate based on the power of the studies (for von Hippel, 12%), which can be compared against the observed discovery rate (for von Hippel, 65%). (I think these precise numbers should be taken with a grain of salt - there are a lot of implicit assumptions in their calculation - but the gross difference is indicative of a problem.) An observed discovery rate materially higher than the expected discovery rate is a sign of publication bias or something going askew in the lab.</p>
-<p>In this light, I feel I have to place a heavy discount on the skateboarding paper. There’s nothing special about it that should lead us to give it more credence than the broader body of von Hippel’s work.</p>
-<p>Before going to the next study, I should note that the reason I am highlighting von Hippel is because he took the criticism seriously and sought to understand what he could do better. That conversation with Shimmack excerpted above was part of the process. He then ran a replication of one of the studies he was more confident in as a test of Schimmack’s arguments, and lo and behold, <a href="https://replicationindex.com/2021/06/20/bill-von-hippel-r-index-part2/">it failed to replicate</a>. Good on von Hippel for taking this on.</p>
-<p>Back to my talk, unfortunately it only gets worse from here. If I had to bet which experiment would have the best (albeit limited) chance of replicating, it would be Ronay and von Hippel’s.</p>
-<p>One of those less reliable studies is a classic. In some ways it kick-started the body of research that I’m about to pull apart.</p>
-<blockquote class="blockquote">
-<p>In <a href="https://doi.org/10.1098/rsbl.2003.0134">an experiment by Margo Wilson and Martin Daly</a> – two of the pioneers of evolutionary psychology, and I recommend you read their book Homicide if you haven’t – they exposed men and women to either pictures of attractive faces or pictures of cars before undergoing tests of their degree of present bias.</p>
-<p>The men who had seen the attractive faces became more severe discounters than those who had seen the cars. They became focused on the present – the mating opportunity.&nbsp; The women did not become increasingly severe discounters in this experiment – although there may be a smaller effect that the experiment did not have the power to detect.</p>
-<p>So here, what might be called a very strong present bias has a degree of rationality to it in that the objective of the participants is mating. Obviously, they didn’t have a chance to mate with these pictures – so there we have the issue of mismatch – but you can see the evolutionary foundation of their decision. If they did manage to capitalise on that moment and manage to mate, their evolutionary future is set.</p>
-</blockquote>
-<p>There might be something to the hypothesis underlying this experiment but if you wanted a study to have all the hallmarks of one that won’t replicate, this is it. The men who rated “hot” women had a significant increase in discount rate. But, there were only 21 of them. This study simply comes from an era where sample sizes were so small that the experiments couldn’t be expected to find a realistic effect size even if they existed. Then throw into the mix the fact that this is effectively a priming study - and we’ve all seen how that’s fared the last decade - and absent a large replication I think we can redeuce the weight of this experiment to zero.</p>
-<p>Before moving onto the body of research that Wilson and Daly inspired, I do want to note that priming lies at the heart of the problem with many of these evolutionary studies. I suspect many of the hypothesised effects exist in the wild. People behave differently around highly attractive potential partners. But to do a nice, cheap, easy lab experiment you need to use a weak prime to generate the phenomena, and that weak prime is the weak link in the chain. (This is why I have less slightly less scepticism about the skateboarding example - the experimental subjects weren’t just reading about an attractive lab assistant.)</p>
-<p>Daly and Wilson’s experiment seems highly unlikely to replicate. The next one didn’t. I wrote:</p>
-<blockquote class="blockquote">
-<p><a href="https://doi.org/10.1037/0022-3514.93.1.85">Take a group of men</a> and show them pictures of attractive women and then ask them what they will do with their money. The mating prime makes men more likely to engage in conspicuous consumption or conspicuous charitable donation, but has no effect on inconspicuous consumption.</p>
-<p>Women can also be affected by mating primes, although in that particular experiment their change in behaviour in response to pictures of attractive men was an desired increase in volunteering in a public way (but no increase in private benevolence).</p>
-<p>The difference reflects the different traits each are communicating – men are communicating resources and the traits required to accumulate them, women their conscientiousness.</p>
-</blockquote>
-<p><a href="https://doi.org/10.1037/xge0000116">David Shanks and friends</a> ran eight replication experiments, the first five of which were all twists on the experiments reported by Griskevicius and friends that formed the basis of the above excerpt. The result? As you can see in this figure, there’s nothing there.</p>
-<p><a href="img/Shanks_et_al_2015_Figure_3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://www.jasoncollins.blog/posts/img/Shanks_et_al_2015_Figure_3.png" class="img-fluid"></a></p>
-<p>Even more striking is Shanks and friends’ funnel plot of results published on this topic. The black dots represent published results. The white triangles represent the results of the replication experiments.</p>
-<p><a href="img/Shanks_et_al_2015_Figure_2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://www.jasoncollins.blog/posts/img/Shanks_et_al_2015_Figure_2.png" class="img-fluid"></a></p>
-<p>It looks like we have a hideous case of publication bias.</p>
-<p>That said, a <a href="https://doi.org/10.1037/xge0000527">subset of the authors whose studies were replicated responded</a>, claiming that that an alternative approach to the meta-analysis suggested there was no evidence of p-hacking, and that the replications had numerous issues. <a href="https://doi.org/10.1037/xge0000597">Shanks and Vadillo responded in turn</a>. I won’t tackle the back-and-forth in detail here, but will say that I believe the conclusion that romantic priming is on shaky grounds holds. Much of the critique of the replications is the often-seen handwaving that the replication methods were not close enough to the originals. But that’s a sign of a flaky phenomena at best, and more likely a sign that the effect doesn’t exist. The critique of the meta-analysis only serves to highlight the gross lack of statistical power across the literature.</p>
-<p>There’s also another body of evidence relevant here. Following the replications and meta-analysis by Shanks and friends, Ulrich Schimmack <a href="https://replicationindex.com/2016/05/21/replicability-report-no-2-do-mating-primes-have-a-replicable-effects-on-behavior/">put a larger set of romantic priming papers through the R-index wringer</a>. Perhaps most damming, a histogram of results showed evidence of severe selection bias and, Schimmack argued, evidence of questionable research practices. The papers also scored low on his R-Index, suggesting a low probability of replication across the whole literature.</p>
-<p>Now onto the next paper referenced in my talk:</p>
-<blockquote class="blockquote">
-<p>… <a href="https://doi.org/10.1509/jmkr.46.3.384">show one group of people</a> the movie The Shining, the other half a romantic movie starring Ethan Hawke. Then manipulate the ads they see during the movies to either accentuate the uniqueness of the product, or its popularity.</p>
-<p>Those watching The Shining are more likely to prefer popular products – safety in numbers as their danger avoidance personality is triggered. For those watching the romantic movie, they wanted unique products so that they would stand out from the crowd. Their mating motives have been triggered. You effectively get a change in preferences based on which movie they are watching and which self is answering the questions about the products. The effectiveness of social proof varied with context.</p>
-</blockquote>
-<p>Given everything I’ve said about similar studies above, I can’t give this one much weight. There’s actually two subtle effects that need to work here. First there is a fear/romantic response sought to be generated by the movie (or in a second experiment, a story). The “popular” or “unique” products were then actually the same thing, but advertised slightly differently. For example, in experiment 1a the popular product was a museum with a tagline of “Visited by over a Million People Each Year” whereas the unique product was the same museum with the tagline “Stand Out from the Crowd”. So the experiment is relying on both the initial prime and then a response to these subtle changes in messaging for effectively the same product. Not likely.</p>
-<p>And now for the final study:</p>
-<blockquote class="blockquote">
-<p>[I]n <a href="https://doi.org/10.1348/000712609X417319">one study</a> men and women were shown pictures of members of the opposite sex in either a red Ford Fiesta or a silver Bentley. Unfortunately the photos in the paper are provided in black and white – as shown in this slide – but these indicate the types of images the experimental subjects were shown.</p>
-<blockquote class="blockquote">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<figcaption>Dunn et al</figcaption>
-<p><a href="img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/dunn-et-al.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Dunn et al"><img src="https://www.jasoncollins.blog/posts/img/2015-07-30-please-not-another-bias-an-evolutionary-take-on-behavioural-economics/dunn-et-al.jpg" class="img-fluid figure-img" alt="Dunn et al"></a></p>
-</figure>
-</div>
-</blockquote>
-<p>The result – the expensive car made the male more attractive to the females, whereas there was no effect on male perception of the female drivers. The increase in male’s attractiveness was equivalent to around 1 point on a scale of 1 to 10.</p>
-</blockquote>
-<p>I’d give this result a decent chance of replicating, maybe 60%. The proposed mechanism is fairly direct, albeit involving a photo in a lab. There are other similar results. But, I’m not comfortable giving it much weight absent a pre-registered replication.</p>
-<p>Summarising the above, I didn’t reference a single experiment in that speech that I would include today. Not a great result.</p>
-
-
-
- ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/please-not-another-bias-correcting-the-record.html</guid>
-  <pubDate>Sun, 10 Jul 2022 23:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
