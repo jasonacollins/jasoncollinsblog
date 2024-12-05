@@ -1,5 +1,5 @@
 ---
-title: 'Human-AI collaboration: it is better when the human is asleep at the wheel'
+title: 'Human-AI collaboration: is it better when the human is asleep at the wheel?'
 author: "Jason Collins"
 date: 2024-12-05 11:00:00+11:00
 draft: false
