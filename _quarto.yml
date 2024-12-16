@@ -11,16 +11,12 @@ website:
       - research.qmd
       - subscribe.qmd
       - teaching.qmd
-      - icon: twitter
-        href: https://twitter.com/jasonacollins
       - icon: rss
         href: index.xml
   page-footer: 
     center:
       - text: "Copyright: CC-BY"
         href: https://creativecommons.org/licenses/by/4.0/
-      - icon: twitter 
-        href: https://twitter.com/jasonacollins
   open-graph: true
   twitter-card: true
   search:
