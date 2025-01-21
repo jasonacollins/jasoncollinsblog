@@ -5,6 +5,7 @@ date: 2019-11-14 09:00:00+00:00
 draft: false
 aliases:
   - /the-next-decade-of-behavioural-science-a-call-for-intellectual-diversity
+  - /the-next-decade-of-behavioural-science
 ---
 
 [Behavioral Scientist](https://behavioralscientist.org) put out the call to share hopes, fears, predictions and warnings about the next decade of behavioral science. Here's my contribution:
