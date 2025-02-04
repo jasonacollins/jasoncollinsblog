@@ -29,7 +29,9 @@ csl: apa-no-ampersand.csl
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - custom.scss
     fontcolor: black
     fontsize: 18px
     css: styles.css
@@ -37,6 +39,8 @@ format:
     link-external-newwindow: true
     code-fold: true
     fig-cap-location: top
+    grid:
+      body-width: 600px
 editor: source
 
 execute:
