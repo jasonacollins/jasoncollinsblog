@@ -8,7 +8,7 @@ aliases:
   - /a-critical-behavioural-economics-and-behavioural-science-reading-list
 ---
 
-This reading list is a balance to the one-dimensional view in many popular books, TED talks, conferences, academic press releases and consultancy sales pitches. For those who feel they have a good understanding of the literature after reading [Thinking Fast and Slow](/re-reading-kahnemans-thinking-fast-and-slow/), [Predictably Irrational](/arielys-predictably-irrational/) and [Nudge](/thaler-and-sunsteins-nudge/), this is for you. \[In the time since I drafted the first version of this list in 2017, it's fair to say that the balance has swung a bit.\]
+This reading list is a balance to the one-dimensional view in many popular books, TED talks, conferences, academic press releases and consultancy sales pitches. For those who feel they have a good understanding of the literature after reading [Thinking Fast and Slow](/posts/re-reading-kahnemans-thinking-fast-and-slow/), [Predictably Irrational](/posts/arielys-predictably-irrational/) and [Nudge](/posts/thaler-and-sunsteins-nudge/), this is for you. \[In the time since I drafted the first version of this list in 2017, it's fair to say that the balance has swung a bit.\]
 
 The purpose of this reading list is not to imply that all behavioural economics or behavioural science is bunk (it's not). That said, I did not design the list to be balanced; you can combine this list with plenty of reading lists from elsewhere for that.
 
@@ -16,29 +16,29 @@ Please let me know if there are any other books or articles I should add, or if 
 
 ## 1. Books
 
-Gerd Gigerenzer, Peter Todd and the ABC Research Group, [Simple Heuristics That Make Us Smart](/simple-heuristics-that-make-us-smart/): Simple heuristics can be both fast and accurate, particularly when we assess real-life performance rather than conformity with the principles of rationality.
+Gerd Gigerenzer, Peter Todd and the ABC Research Group, [Simple Heuristics That Make Us Smart](/posts/simple-heuristics-that-make-us-smart/): Simple heuristics can be both fast and accurate, particularly when we assess real-life performance rather than conformity with the principles of rationality.
 
-Doug Kenrick and Vlad Griskevicius, [The Rational Animal: How Evolution Made Us Smarter Than We Think](/kenrick-and-griskeviciuss-the-rational-animal/): A good introduction to the idea that evolutionary psychology could add a lot of value to behavioural economics, but has the occasional straw man discussion of economics and a heavy reliance on priming research (and you will see below how that is panning out).
+Doug Kenrick and Vlad Griskevicius, [The Rational Animal: How Evolution Made Us Smarter Than We Think](/posts/kenrick-and-griskeviciuss-the-rational-animal/): A good introduction to the idea that evolutionary psychology could add a lot of value to behavioural economics, but has the occasional straw man discussion of economics and a heavy reliance on priming research (and you will see below how that is panning out).
 
-David Levine, [Is Behavioural Economics Doomed?](/levines-is-behavioural-economics-doomed/): A good but slightly frustrating read. I agree with Levine's central argument that rationality is underweighted, but the book is littered with straw man arguments.
+David Levine, [Is Behavioural Economics Doomed?](/posts/levines-is-behavioural-economics-doomed/): A good but slightly frustrating read. I agree with Levine's central argument that rationality is underweighted, but the book is littered with straw man arguments.
 
 Lionel Page, *Optimally irrational: The Good Reasons We Behave the Way We Do*: We should invest more in understanding *why* people behave the way they do.
 
 Mario J. Rizzo and Glen Whitman, *Escaping Paternalism: Rationality, Behavioral Economics, and Public Policy*: An excellent critique of the traditional behavioural economists' arguments for paternalism.
 
-Phil Rosenzweig, [Left Brain, Right Stuff: How Leaders Make Winning Decisions](/rosenzweigs-left-brain-right-stuff-how-leaders-make-winning-decisions/): An entertaining examination of how behavioural economics findings hold up for real world decision-making.
+Phil Rosenzweig, [Left Brain, Right Stuff: How Leaders Make Winning Decisions](/posts/rosenzweigs-left-brain-right-stuff-how-leaders-make-winning-decisions/): An entertaining examination of how behavioural economics findings hold up for real world decision-making.
 
-Gilles Saint-Paul, [The Tyranny of Utility: Behavioral Social Science and the Rise of Paternalism](/saint-pauls-the-tyranny-of-utility-behavioral-social-science-and-the-rise-of-paternalism/): Sometimes hard to share Saint-Paul's anger, but some important underlying points.
+Gilles Saint-Paul, [The Tyranny of Utility: Behavioral Social Science and the Rise of Paternalism](/posts/saint-pauls-the-tyranny-of-utility-behavioral-social-science-and-the-rise-of-paternalism/): Sometimes hard to share Saint-Paul's anger, but some important underlying points.
 
 Hugo Mercier, *Not Born Yesterday: The Science of Who We Trust and What We Believe*: A strong argument that we are not gullible and easily manipulated, but rather skeptical and rational in the way we filter information.
 
-Robert Sugden's [The Community of Advantage: A Behavioural Economist's Defence of the Market](/robert-sugdens-the-community-of-advantage-a-behavioural-economists-defence-of-the-market/): A well balanced critique from someone who has worked in the field for decades.
+Robert Sugden's [The Community of Advantage: A Behavioural Economist's Defence of the Market](/posts/robert-sugdens-the-community-of-advantage-a-behavioural-economists-defence-of-the-market/): A well balanced critique from someone who has worked in the field for decades.
 
 ## 2. General and methodological critiques
 
 **Applied behavioural economics:** In [The death of behavioral economics](https://www.thebehavioralscientist.com/articles/the-death-of-behavioral-economics), Jason Hreha argues that applied behavioural economics is on the way out. Scott Alexander [responds](https://astralcodexten.substack.com/p/on-hreha-on-behavioral-economics).
 
-**Are we biased?:** Gerd Gigerenzer debates Daniel Kahneman and Amos Tversky. [Gigerenzer tees off](https://doi.org/10.1080/14792779143000033) ([pdf](http://library.mpib-berlin.mpg.de/ft/gg/gg_how_1991.pdf)). [Kahneman and Tversky respond](http://doi.org/10.1037/0033-295X.103.3.582) ([pdf](http://matt.colorado.edu/teaching/highcog/fall8/kt96.pdf) - this pdf also includes a rejoinder to Gigerenzer's later piece). [Gigerenzer returns](http://doi.org/10.1037/0033-295X.103.3.592) ([pdf](http://library.mpib-berlin.mpg.de/ft/gg/gg_on%20narrow_1996.pdf)). I'm a fan of a lot of Gigerenzer's work, but his strength has never been the direct attack. Kahneman and Tversky get the better of this exchange. My post [here](/gigerenzer-versus-kahneman-and-tversky-the-1996-face-off/).
+**Are we biased?:** Gerd Gigerenzer debates Daniel Kahneman and Amos Tversky. [Gigerenzer tees off](https://doi.org/10.1080/14792779143000033) ([pdf](http://library.mpib-berlin.mpg.de/ft/gg/gg_how_1991.pdf)). [Kahneman and Tversky respond](http://doi.org/10.1037/0033-295X.103.3.582) ([pdf](http://matt.colorado.edu/teaching/highcog/fall8/kt96.pdf) - this pdf also includes a rejoinder to Gigerenzer's later piece). [Gigerenzer returns](http://doi.org/10.1037/0033-295X.103.3.592) ([pdf](http://library.mpib-berlin.mpg.de/ft/gg/gg_on%20narrow_1996.pdf)). I'm a fan of a lot of Gigerenzer's work, but his strength has never been the direct attack. Kahneman and Tversky get the better of this exchange. My post [here](/posts/gigerenzer-versus-kahneman-and-tversky-the-1996-face-off/).
 
 **As-if models**: Nathan Berg and Gerd Gigerenzer note that [behavioral economics is neoclassical economics in disguise](https://www.jstor.org/stable/23723790?seq=1#page_scan_tab_contents) ([pdf of working paper](https://mpra.ub.uni-muenchen.de/26586/1/MPRA_paper_26586.pdf)). They write that "'As-if' arguments are frequently put forward in behavioral economics to justify 'psychological' models that add new parameters to fit decision outcome data rather than specifying more realistic or empirically supported psychological processes that genuinely explain these data." Includes a critique of prospect theory's lack of realism as a decision-making process.
 
