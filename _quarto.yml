@@ -4,7 +4,7 @@ project:
 website:
   title: "Jason Collins blog"
   site-url: https://www.jasoncollins.blog
-  description: "Behavioural and data science. Economics. Evolutionary biology."
+  description: "Behavioural economics, data science and artificial intelligence."
   navbar:
     right:
       - about.qmd

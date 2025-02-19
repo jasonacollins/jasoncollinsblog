@@ -1,7 +1,7 @@
 ---
 title: A critical behavioural economics and behavioural science reading list
 author: "Jason Collins"
-date: 2025-01-19 13:00:00+11:00
+date: 2025-02-19 13:00:00+11:00
 draft: false
 toc: true
 aliases:
@@ -127,13 +127,13 @@ Robert Sugden's [The Community of Advantage: A Behavioural Economist's Defence o
 
 **Prospect theory:** The [prospect theory model](https://behaviouraleconomics.jasoncollins.blog/prospect-theory/prospect-theory), the centrepiece of behavioural economics, has us as loss averse and risk seeking when facing losses, and risk averse when considering gains. Ryan Oprea proposes that most of the evidence underlying theories of risk, such as prospect theory, actually reflect [*mistakes* under complexity](https://doi.org/10.1257/aer.20221227).
 
-**Safety signs kill motorists**: [Hall and Madsen proposed](https://doi.org/10.1126/science.abm3427) that dynamic signs that reported Texas road fatalities - “1669 deaths this year on Texas roads” - caused more accidents and fatalities. I argue that we [shouldn't take too much](/why-i-dont-believe-that-signs-with-fatality-numbers-cause-more-crashes/) from this single paper.
+**Safety signs kill motorists**: [Hall and Madsen proposed](https://doi.org/10.1126/science.abm3427) that dynamic signs that reported Texas road fatalities - “1669 deaths this year on Texas roads” - caused more accidents and fatalities. I argue that we [shouldn't take too much](/posts/why-i-dont-believe-that-signs-with-fatality-numbers-cause-more-crashes/) from this single paper.
 
 **Scarcity:** [My review of the book](/posts/scarcity-of-time-money-friends-and-bandwidth/). [Reanalysis](https://doi.org/10.1126/science.1246680) of the [original scarcity paper](http://doi.org/10.1126/science.1238041) ([pdf](https://scholar.harvard.edu/files/sendhil/files/976.full_.pdf)) without dichotomising income eliminated the effect. The original authors managed to [resurrect the effect](https://doi.org/10.1126/science.1246799) ([pdf](https://pdfs.semanticscholar.org/7fd6/f9c439607455381c40c9129f8e9773b083a1.pdf)) by combining the data from three experiments, but once you are at this point, you have well and truly entered the [garden of forking paths](http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf). Leandro Carvalho and friends [found that](https://doi.org/10.1257/aer.20140481) "participants surveyed before and after payday performed similarly on a number of cognitive function tasks." Then, in a [replication of scarcity papers](https://doi.org/10.1073/pnas.2103313118) by O'Donnell and friends: "Of the 20 studies that were significant in the original, four of our replication efforts yielded significant results."
 
 **Signing at the top, part I:** Lisa Shu and friends [report in PNAS](https://doi.org/10.1073/pnas.1209746109) that "signing before---rather than after---the opportunity to cheat makes ethics salient when they are needed most and significantly reduces dishonesty." Ariella Kristal, Ashley Whillans and the authors of the original paper [report a failed replication](https://doi.org/10.1073/pnas.1911695117). A [discussion of what this means in Scientific American](https://blogs.scientificamerican.com/observations/when-were-wrong-its-our-responsibility-as-scientists-to-say-so/). That, of course, is only the beginning of the story (see the fraud story below).
 
-## 3. Fraud and misconduct
+## 4. Fraud and misconduct
 
 **The Cornell Food and Brand Lab's catalogue of eating biases (led by Brian Wansink):** [Jesse Singal catalogues the events](http://nymag.com/scienceofus/2017/02/cornells-food-and-brand-lab-has-a-major-problem.html). [Stephanie Lee's reviews emails from the lab](https://www.buzzfeed.com/stephaniemlee/brian-wansink-cornell-p-hacking?utm_term=.ve4mg8wPr#.djJEANbMe). [Corrections](http://steamtraen.blogspot.com/2018/02/the-latest-cornell-food-and-brand-lab.html) and [retractions](http://retractiondatabase.org/RetractionSearch.aspx#?auth%3dWansink%252c%2bBrian) are flowing. It's fair to say that we shouldn't place any weight on results out of that lab. (Although somewhat amazingly, [Wansink's experiment](https://doi.org/10.1038/oby.2005.12) with a bottomless soup bowl [replicated](https://doi.org/10.1037/xge0001503)! I  didn't believe the original experiment ever existed - and am still doubtful that it did.)
 
@@ -143,7 +143,7 @@ Robert Sugden's [The Community of Advantage: A Behavioural Economist's Defence o
 
 **Signing at the top, part II:** The field trial data from the signing at the top study (noted above) [was completely made up](https://datacolada.org/98). This led to the paper being [retracted](https://doi.org/10.1073/pnas.2115397118) and an investigation into Ariely (that ultimately reached [no adverse findings](https://danariely.com/wp-content/uploads/2024/04/ArielyEndofIStatment.pdf)). That, of course, was only one of two frauds in this paper. The other, also [uncovered by the Data Colada team](https://datacolada.org/109), was that the data in experiment 1 had been manipulated. Absent the manipulation, there was no effect. 
 
-## 4. Applications of behavioural economics (and nudging)
+## 5. Applications of behavioural economics (and nudging)
 
 **Government failure I:** In [Homo economicus or homo paleas?](http://johnhcochrane.blogspot.com.au/2015/05/homo-economicus-or-homo-paleas.html), John Cochrane states that "The case for the free market is not that each individual's choices are perfect. The case for the free market is long and sorry experience that government bureaucracies are pretty awful at making choices for people." Noah Smith [responds](http://www.bloombergview.com/articles/2015-06-01/a-dose-of-psychology-does-economics-field-some-good).
 
@@ -167,7 +167,7 @@ Robert Sugden's [The Community of Advantage: A Behavioural Economist's Defence o
 
 **Policy failure IV:** In a Behavioural and Brain Sciences target article, George Loewenstein and Nick Chater [argue](https://doi.org/10.1017/S0140525X23002091) that focussing on interventions at the individual level is inadvertently preventing systemic change. There are many [responses](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/where-next-for-behavioral-public-policy/C1122FBA28BAC79981D42F2875E2B5F5#related-commentaries), but I'll highlight those by [Michael Hallsworth](https://doi.org/10.1017/S0140525X23000924), [David Gal and Derek Rucker](https://doi.org/10.1017/S0140525X23000912), [Cass Sunstein](https://doi.org/10.1017/S0140525X23001097), [Richard Thaler](https://doi.org/10.1017/S0140525X23000973) and [Ralph Hertwig](https://doi.org/10.1017/S0140525X23000936).
 
-## 5. If you want some background
+## 6. If you want some background
 
 I know this list is of critiques, but here are a few books I would recommend if you want a basic background.
 
