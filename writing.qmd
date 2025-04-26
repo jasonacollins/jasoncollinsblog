@@ -38,8 +38,8 @@ Apart from this blog and my [academic publications](/research/), I have written 
 
 ### 2013
 
-“[Sex in the Economy](https://www.proquest.com/docview/1374604177?sourcetype=Magazines)” Australasian Science Vol. 34, Issue 6 ([pdf](pdfs/Collins_2013_Sex_in_the_economy.pdf/))
+“[Sex in the Economy](https://www.proquest.com/docview/1374604177?sourcetype=Magazines)” Australasian Science Vol. 34, Issue 6 ([pdf](pdfs/Collins_2013_Sex_in_the_economy.pdf))
 
 
 <p align="center"; style="margin-left: 10px; margin-right: 10px; margin-top: 50px">BE NOTIFIED OF NEW POSTS VIA EMAIL</p>
-<p  align="center"><iframe src="https://substack.jasoncollins.blog/embed" width="360" height="110" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>
+<p  align="center"><iframe src="https://newsletter.jasoncollins.blog/embed" width="360" height="110" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>
