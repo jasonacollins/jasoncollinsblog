@@ -5,9 +5,11 @@ date: 2016-05-10 09:00:17+00:00
 draft: false
 aliases:
   - /evolutionary-biology-in-economics-a-review
+resources:
+  - /pdfs/Collins_et_al_2016_Evolutionary_Biology_in_Economics_A_Review.pdf
 ---
 
-I've just had a new article published in the Economic Record - [Evolutionary Biology in Economics: A Review](https://doi.org/10.1111/1475-4932.12260) ([pdf](/pdf/Collins_et_al_2016_Evolutionary_Biology_in_Economics_A_Review.pdf)).
+I've just had a new article published in the Economic Record - [Evolutionary Biology in Economics: A Review](https://doi.org/10.1111/1475-4932.12260) ([pdf](/pdfs/Collins_et_al_2016_Evolutionary_Biology_in_Economics_A_Review.pdf)).
 
 >**Evolutionary Biology in Economics: A Review**
 >

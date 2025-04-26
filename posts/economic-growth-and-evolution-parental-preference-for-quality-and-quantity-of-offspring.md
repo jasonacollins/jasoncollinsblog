@@ -1,14 +1,15 @@
 ---
 title: 'Economic growth and evolution: Parental preference for quality and quantity of offspring'
 author: "Jason Collins"
-
 date: 2013-07-04 12:02:17+00:00
 draft: false
 aliases:
   - /economic-growth-and-evolution-parental-preference-for-quality-and-quantity-of-offspring
+resources:
+  - /pdfs/Collins_et_al_2013_Economic_growth_and_evolution_parental_preference_for_quality_and_quantity_of_offspring.pdf
 ---
 
-My first publication, [Economic Growth and Evolution: Parental Preference for Quality and Quantity of Offspring](http://doi.org/10.1017/S1365100513000163), has just been released electronically in Macroeconomic Dynamics ([ungated pdf here](/pdf/Collins_et_al_2013_Economic_growth_and_evolution_parental_preference_for_quality_and_quantity_of_offspring.pdf)). With my co-authors Boris Baer and Juerg Weber, we simulate and extend Oded Galor and Omer Moav's seminal paper [Natural Selection and the Origin of Economic Growth](http://qje.oxfordjournals.org/content/117/4/1133.short) ([ungated working paper version here](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=246300))_, _the first paper that models an evolutionary trigger to the Industrial Revolution.
+My first publication, [Economic Growth and Evolution: Parental Preference for Quality and Quantity of Offspring](https://doi.org/10.1017/S1365100513000163), has just been released electronically in Macroeconomic Dynamics ([pdf](/pdfs/Collins_et_al_2013_Economic_growth_and_evolution_parental_preference_for_quality_and_quantity_of_offspring.pdf)). With my co-authors Boris Baer and Juerg Weber, we simulate and extend Oded Galor and Omer Moav's seminal paper [Natural Selection and the Origin of Economic Growth](https://doi.org/10.1162/003355302320935007) ([ungated working paper version here](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=246300)), the first paper that models an evolutionary trigger to the Industrial Revolution.
 
 Galor and Moav's model has two types of people in the population, each with a genetically inherited preference for quality or quantity of children. The quality-preferring genotype wants their children to have higher human capital, so they invest more in their education, while the quantity-preferring genotype is more interested in raw numbers.
 
@@ -60,4 +61,4 @@ One possible way to prevent a return to the Malthusian state is if there is also
 
 There are, of course, a few possible interpretations of the result that the economy returns to Malthusian conditions. The model or assumptions may be wrong. Humans may only have quality-quantity preferences in the growth promoting range. Or if we take Galor and Moav's model seriously, modern levels of economic growth may be transient.
 
-*I constructed this post out of two old posts I wrote when this work was first released as a working paper. The original posts with associated comments are [here](https://www.jasoncollins.blog/natural-selection-and-the-collapse-of-economic-growth/) and [here](https://www.jasoncollins.blog/natural-selection-and-the-collapse-of-economic-growth/). The R code for simulating the model can be downloaded from [here](https://github.com/jasonacollins/quantity_and_quality).
+*I constructed this post out of two old posts I wrote when this work was first released as a working paper. The original posts with associated comments are [here](natural-selection-and-economic-growth) and [here](natural-selection-and-the-collapse-of-economic-growth). The R code for simulating the model can be downloaded from [here](https://github.com/jasonacollins/quantity_and_quality).

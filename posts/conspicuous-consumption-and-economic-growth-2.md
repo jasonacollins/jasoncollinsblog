@@ -5,9 +5,11 @@ date: 2015-05-26 09:00:23+00:00
 draft: false
 aliases:
   - /conspicuous-consumption-and-economic-growth-2
+resources:
+  -/pdfs/Collins_et_al_2015_Sexual_Selection_Conspicuous_Consumption_and_Economic_Growth.pdf
 ---
 
-A paper of mine has just been published in the Journal of Bioeconomics - [Sexual selection, conspicuous consumption and economic growth](http://link.springer.com/article/10.1007%2Fs10818-015-9200-9) ([pdf](/pdf/Collins_et_al_2015_Sexual_Selection_Conspicuous_Consumption_and_Economic_Growth.pdf)).
+A paper of mine has just been published in the Journal of Bioeconomics - [Sexual selection, conspicuous consumption and economic growth](http://link.springer.com/article/10.1007%2Fs10818-015-9200-9) ([pdf](/pdfs/Collins_et_al_2015_Sexual_Selection_Conspicuous_Consumption_and_Economic_Growth.pdf)).
 
 [I posted about this article](https://www.jasoncollins.blog/sexual-selection-conspicuous-consumption-and-economic-growth/) when the working paper was first released, and that post still does a good job of explaining the motivation behind the paper. In that post I wrote:
 
