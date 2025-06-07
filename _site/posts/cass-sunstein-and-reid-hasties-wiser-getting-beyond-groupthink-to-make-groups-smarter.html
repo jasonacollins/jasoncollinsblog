@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.23">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Collins">
+<meta name="dcterms.date" content="2018-03-28">
+
+<title>Cass Sunstein and Reid Hastie’s Wiser: Getting Beyond Groupthink to Make Groups Smarter – Jason Collins blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ac706bccb5107cfdbcdabb2cff0da72d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C50MEPDMZ9"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
+</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Cass Sunstein and Reid Hastie’s Wiser: Getting Beyond Groupthink to Make Groups Smarter – Jason Collins blog">
+<meta property="og:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta property="og:site_name" content="Jason Collins blog">
+<meta name="twitter:title" content="Cass Sunstein and Reid Hastie’s Wiser: Getting Beyond Groupthink to Make Groups Smarter – Jason Collins blog">
+<meta name="twitter:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Jason Collins blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../subscribe.html"> 
+<span class="menu-text">Subscribe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cass Sunstein and Reid Hastie’s Wiser: Getting Beyond Groupthink to Make Groups Smarter</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jason Collins </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 28, 2018</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Cass Sunstein and Reid Hastie’s <em>Wiser: Getting Beyond Groupthink to Make Groups Smarter</em> is not an exciting read. However, it is a good catalogue of group decision-making research (leading to this post to also be somewhat of a catalogue) and worth reading for an overview.</p>
+<p>The book’s theme is that group decisions are often better than individual decisions, but that groups have weaknesses that can impair outcomes. Much of the analysis of failures in group decision-making follows a similar theme to the research into individual judgement and decision-making, in that the research has generated a long list of “biases” that groups are subject to. Most of the book, however, focuses on getting better decisions, and a lot of these (thankfully) don’t rest on identification of particular biases.</p>
+<section id="two-types-of-groups" class="level2">
+<h2 class="anchored" data-anchor-id="two-types-of-groups">Two types of groups</h2>
+<p>Sunstein and Hastie look at two types of groups - statistical and deliberating groups.</p>
+<p>In a statistical group, members give their inputs individually. Those inputs are then aggregated. Think voting (which works well as long as the majority is right).</p>
+<p>There is no shortage of material about the wisdom of statistical groups. The story of Francis Galton, where he had people <a href="https://en.m.wikipedia.org/wiki/Francis_Galton#Variance_and_standard_deviation">estimate the weight of an ox</a>, is a classic example. The average of the individual predictions was right on the mark.</p>
+<p>In deliberating groups, individuals provide input during deliberations. Those inputs can affect and be affected by the inputs of other group members. People aim to influence others. People might change their minds.</p>
+<p>Even if most members of a group have the wrong answer or belief, you can picture a scenario where reason and discussion allow the right answer emerge. That is sometimes the case, but the evidence is that deliberating groups&nbsp;do not necessarily converge on the truth.</p>
+<p>In one experiment, people answered questions individually before answering those same questions in groups. If the majority of the group knew the correct answer to a problem, the group’s decision was correct 79% of the time. (It’s impressive that the incorrect minority were able to derail the group 21% of the time.) If the majority of the group answered a question incorrectly when answering individually, the group converged on the right answer only 44% of the time. The result of this dynamic was that the average group decision was better, but only marginally so, than the average individual (66% versus 62%).</p>
+<p>As a result, it may be easier to simple elicit people’s individual views and average them (or combine in some other novel way) than go through the effort of the group discussion. A statistical group may be a more efficient solution.</p>
+</section>
+<section id="why-deliberating-groups-go-wrong-or-right" class="level2">
+<h2 class="anchored" data-anchor-id="why-deliberating-groups-go-wrong-or-right">Why deliberating groups go wrong (or right)</h2>
+<p>Why do we get results such as this? Sunstein and Hastie describe plenty of problems that can derail deliberating groups. Group decisions can be poor due to both the rational conduct of group members and because of their “biases”. Here are a few problems that can occur for “rational” reasons:</p>
+<ul>
+<li><p>Informational signals: It is sensible to take into account what others have said in a group deliberation. If you know Jane is knowledgeable and has good judgment, hearing that she supports a project is evidence that can affect your support. But if she is wrong, she can derail the group. Seeing other people make errors can also provide “social proof” to an error.</p></li>
+<li><p>Self-censorship: People tend not to give information contradicting their preferred outcome. In one study of over 500 mock jury trials, the experimenters never once observed someone giving information in this circumstance.</p></li>
+<li><p>Reputational cascades: People might know what is right (or what they think is right), but they go along with the group or certain members of the group due to concern for their reputation or standing.</p></li>
+</ul>
+<p>Then there are the “irrational” (a lot of these points are based on single studies, so take with a grain of salt):</p>
+<ul>
+<li><p>Deliberating groups are more likely to escalate commitment to a failing course of action. They are also more susceptible to the sunk cost fallacy, the consideration of past costs that should be irrelevant to the decision about future action</p></li>
+<li><p>Groups can amplify the representativeness heuristic, where we judge probability based on resemblance or similarity</p></li>
+<li><p>People in deliberating groups have more unrealistic “overconfidence” (looking at the abstract of the paper cited for this point - I can’t access the full paper - I think they are talking about <a href="https://www.jasoncollins.blog/overconfident-about-overconfidence/">over-precision</a>)</p></li>
+<li><p>Groups are more vulnerable to framing effects, varying their decision based on how a choice is framed (although looking at the paper Sunstein and Hastie cite, it states that there is little consistency between studies)</p></li>
+<li><p>Group deliberation can make both groups and the individuals in those groups more extreme</p></li>
+<li><p>Shared information has a disproportionate effect on group members. If information is distributed so that key material is unshared (held by only a few group members), this can cause deliberating groups to perform worse.</p></li>
+</ul>
+<p>That said, deliberating groups can temper some biases:</p>
+<ul>
+<li><p>Groups tend to rely less on the availability heuristic - a heuristic by which we judge probability by how easily examples readily come to mind. The heuristic is tempered possibly because the group members have different memories. Across the group the available memories may be somewhat more realistic. That said, groups can be subject to availability cascades. An idea held by one person can spread through the group, eventually producing a widespread belief.</p></li>
+<li><p>Groups have a lower tendency to anchor, the over-reliance on the first piece of information with which they are presented (even if it is irrelevant to the decision at hand)</p></li>
+<li><p>Groups tend to have reduced hindsight bias, possibly because not everyone revises their views in the same way</p></li>
+<li><p>Groups tend to have reduced egocentric biases, the belief that others think like you. A group typically has a wider set of tastes to draw on, so you are more likely to have someone point out that your tastes are not shared.</p></li>
+</ul>
+</section>
+<section id="improving-deliberation" class="level2">
+<h2 class="anchored" data-anchor-id="improving-deliberation">Improving deliberation</h2>
+<p>The most interesting part of the book is when Sunstein and Hastie turn to their tactics to improve group decision. There are two groups of tactics: those designed to improve deliberation, and alternative decision-making methods. A common threads to these is diversity, although this is “not necessarily along demographic lines, but in terms of ideas and perspectives.”</p>
+<p>They list eight ways to avoid problems in deliberating groups: (1) inquisitive and self-silencing leaders; (2) “priming” critical thinking (although we have seen <a href="https://replicationindex.wordpress.com/2017/02/02/reconstruction-of-a-train-wreck-how-priming-research-went-of-the-rails/">how the priming literature is holding up</a>); (3) rewarding group success (incentives are important, particularly to counter self-censorship and reputational cascades); (4) role assignment; (5) perspective changing; (6) devil’s advocates; (7) red teams; and (8) the Delphi method. A few are worth mentioning.</p>
+<p>Role assignment involves giving people discrete roles, such as labelling someone as an “expert”. The purpose is to bring out unshared information by making it clear that the individual expert has a role to play.</p>
+<p>Devil’s advocacy involves appointing some group members to deliberately advocate against the group’s inclinations. Sunstein and Hastie suggest that the research behind devil’s advocates is mixed. There is some evidence that devil’s advocacy can be helpful and can enhance group performance. But it requires genuine dissent. If the dissent is insincere (which is often the case if the role is assigned), people discount the dissent accordingly. The advocate also has little to gain by zealously challenging the dominant view. This means it may be better for groups to encourage real dissent.</p>
+<p>Sunstein and Hastie are more optimistic about red teaming, the creation of a team tasked with criticising or defeating the preferred solution or plan. I can see how they might be occasionally useful, such as in mock trials, but it wasn’t clear where their optimism came from as they provided little evidence in support.</p>
+<p>One option I find useful is the Delphi method. You ask people to state their opinions anonymously and independently before deliberation. These opinions are then made available to others. It is effectively a secret ballot plus reasons, and provides a basis for hidden information to emerge without reputational or informational cascades. Several rounds of this process can be held as the group converges on a solution. It’s a great way to flush out doubts and dissent.</p>
+</section>
+<section id="better-decisions-without-deliberation" class="level2">
+<h2 class="anchored" data-anchor-id="better-decisions-without-deliberation">Better decisions without deliberation</h2>
+<p>Much of the book is dedicated to methods to arrive at good decisions outside of, rather than within, the deliberation process. These include design thinking (as a way of eliciting as much information and as many ideas as possible), cost-benefit analysis, asking the public (public comment or consultation), tournaments, prediction markets, and harnessing experts. Some of these are effectively statistical groups with different models for combining inputs.</p>
+<p>Unsurprisingly given Sunstein’s background, the authors are positive on cost benefit analysis. Having seen some cost-benefit sausages being made for government decision-making, I don’t quite share the same optimism, but can see the benefits in the right place.</p>
+<p>Sunstein and Hastie are also boosters of use of tournaments. The dispersion of competitors leads to independence in inputs. Their winner take all nature incentivises divergent strategies. They can promote elite performance at the top of competitor’s capabilities.</p>
+<p>A question not addressed in the book is to what extent tournaments can be scaled and be a widely used solution. There is a waste of resources inherent in tournaments - the input of the losing teams. A <a href="https://www.kaggle.com/">Kaggle</a> competition uses a massive amount of data science capability, far more than the “prize”. At the moment, many candidates are happy to input this effort as there are other benefits, such as reputation. Could it be the standard way of doing things? In the case of government tournaments, they would want to pick the projects of most value to avoid over-stretching the resource.</p>
+<p>As a tournament example, Sunstein and Hastie were underwhelmed by the <a href="https://www.jasoncollins.blog/tetlock-and-gardners-superforecasting-the-art-and-science-of-prediction/">IARPA prediction tournament</a>, where teams competed to predict political and economic events. They felt that the winning solution from the Good Judgement Project was more focused on reducing noise and bias, rather than developing game changing methods that increase signal (tough crowd). (See my post on <a href="https://www.jasoncollins.blog/tetlock-and-gardners-superforecasting-the-art-and-science-of-prediction/">Superforecasting</a>&nbsp;for more on that tournament.) Maybe the new <a href="https://www.hybridforecasting.com/">hybrid forecasting tournament</a> might be more to their liking.</p>
+<p>The final technique I’ll note is effective harnessing of experts. This could be using experts who use statistics to develop accurate predictions or make decisions (often in turn drawing on other sources). It could involve identifying fields where expert knowledge is genuine (as identified in the work of <a href="https://en.wikipedia.org/wiki/Gary_A._Klein">Gary Klein</a>). When doing this, however, it is often best to look at statistical groups of experts, rather than to chase a single expert. The average of experts is likely the best prediction. And there is no need to weight for an expert’s confidence in developing that average - it has no correlation with their accuracy.</p>
+<hr>
+<p>Postscript 1: Sunstein and Hastie explore the question of collective intelligence (the “c factor”). That deserves to be the subject of another post.</p>
+<p>Postscript 2: Sunstein and Hastie talk of “eureka” problems, where the right answer is clear to all once announced. Groups are good at these. They give the “trivial” example of “Why are manhole covers round?” Because “if they were almost any other shape, a loose cover could shift orientation and fall through the hole, potentially causing damage and injuries.” Is that really the logic behind their design? Or is this just a benefit? (I ask not just because most manhole covers in Australia are square or rectangular, and I have never seen a cover fall through the hole.) This example is famous as being used in Microsoft job interviews, but it is a question more focused on making the interviewer feel clever than actually predicting, say, good job performance.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.jasoncollins\.blog");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="light">
+<script>
+function loadGiscusWhenReady() {
+  // Function to get the theme based on body class
+  const getTheme = () => {
+    const baseTheme = document.getElementById('giscus-base-theme').value;
+    const altTheme = document.getElementById('giscus-alt-theme').value;
+    return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+  };
+  // Create the Giscus script and add it to the desired location
+  const loadGiscus = () => {
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "jasonacollins/jasoncollinsblog";
+    script.dataset.repoId = "R_kgDOIbjYgQ";
+    script.dataset.category = "Announcements";
+    script.dataset.categoryId = "DIC_kwDOIbjYgc4CSiuB";
+    script.dataset.mapping = "pathname";
+    script.dataset.reactionsEnabled = "0";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "bottom";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  };
+  // MutationObserver to detect when the 'quarto-light' or 'quarto-dark' class is added to the body
+  const observer = new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+      if (mutation.type === "attributes" && mutation.attributeName === "class") {
+        if (document.body.classList.contains('quarto-light') || document.body.classList.contains('quarto-dark')) {
+          loadGiscus();
+          observer.disconnect(); // Stop observing once Giscus is loaded
+          break;
+        }
+      }
+    }
+  });
+  // Start observing the body for class attribute changes
+  observer.observe(document.body, {
+    attributes: true,
+    attributeFilter: ["class"],
+  });
+}
+loadGiscusWhenReady();
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">
+<p>Copyright: CC-BY</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

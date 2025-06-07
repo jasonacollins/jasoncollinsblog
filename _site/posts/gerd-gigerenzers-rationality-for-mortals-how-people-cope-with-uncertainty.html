@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.23">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Collins">
+<meta name="dcterms.date" content="2018-08-15">
+
+<title>Gerd Gigerenzer’s Rationality for Mortals: How People Cope with Uncertainty – Jason Collins blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ac706bccb5107cfdbcdabb2cff0da72d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C50MEPDMZ9"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
+</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Gerd Gigerenzer’s Rationality for Mortals: How People Cope with Uncertainty – Jason Collins blog">
+<meta property="og:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta property="og:site_name" content="Jason Collins blog">
+<meta name="twitter:title" content="Gerd Gigerenzer’s Rationality for Mortals: How People Cope with Uncertainty – Jason Collins blog">
+<meta name="twitter:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Jason Collins blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../subscribe.html"> 
+<span class="menu-text">Subscribe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Gerd Gigerenzer’s Rationality for Mortals: How People Cope with Uncertainty</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jason Collins </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 15, 2018</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Gerd Gigerenzer’s collection of essays <em>Rationality for Mortals: How People Cope with Uncertainty</em> covers most of Gigerenzer’s typical turf: ecological rationality, heuristics that make us smart, understanding risk and so on.</p>
+<p>Below are observations on three of the more interesting essays: the first on different approaches to decision making, the second on the power of simple heuristics, and the third on how biologists treat decision making.</p>
+<p><strong>Four ways to analyse decision making</strong></p>
+<p>In the first essay, Gigerenzer provides four approaches to decision making – unbounded rationality, optimisation under constraints, cognitive illusions (heuristics and biases) and ecological rationality.</p>
+<p><strong><em>1.&nbsp;Unbounded&nbsp;rationality</em></strong></p>
+<p>Unbounded rationality is the territory of neoclassical economics. Omniscient and omnipotent people optimise. They are omniscient in that they can see the future – or at least live in a world of risk where they can assign probabilities. They are omnipotent in that they have all the calculating power they need to make perfect decisions. With that foresight and power, they make optimal decisions.</p>
+<p>Possibly the most important point about this model is that it is not designed to describe precisely how people make decisions, but rather to predict behaviour. And in many dimensions, it does&nbsp;quite well.</p>
+<p><strong><em>2. Optimisation under constraints</em></strong></p>
+<p>Under this approach, people are no longer omniscient. They need to search for information. As Gigerenzer points out, however, this attempt to inject realism creates another problem. Optimisation with constraints can be&nbsp;even harder to solve than optimisation with unbounded rationality. As a result, the cognitive&nbsp;power required is even greater.</p>
+<p>Gigerenzer is adamant that optimisation under constraints&nbsp;is not bounded rationality – and if we use Herbert Simon’s definition of the term, I would agree – but analysis of this type commonly attracts the “boundedly rational” label.</p>
+<p><strong><em>3. Cognitive illusions – logical irrationality</em></strong></p>
+<p>The next category is the approach in much of behavioural science and behavioural economics. It&nbsp;is often labelled as the “heuristics and biases” program. This program looks to understand the processes under which people make judgments, and in many cases, seeks to show errors of judgment or cognitive illusions.</p>
+<p>Gigerenzer picks two main shortcomings of this approach. First, although the program successfully shows failures of logic, it does not look at the underlying norms.&nbsp;Second, it tends not to produce testable theories of heuristics. As Gigerenzer states, “mere verbal labels for heuristics can be used post hoc to “explain” almost everything.”</p>
+<p>An example is analysis of overconfidence bias. People are asked a question such as “Which city is farther north – New York or Rome?”, and asked to give their confidence that their answer is correct.&nbsp;When participants are 100 per cent certain of the answer, less than 100 per cent tend to be correct. That&nbsp;pattern of apparent overconfidence continues through lower probabilities.</p>
+<p>There are several critiques of this analysis, but one of the common suggestions&nbsp;is that people are presented with questions that are unrepresentative of a typical sample. People typically use alternative cues to answer a question such as the above. In the case of latitude, temperature is a plausible cue. The overconfidence bias occurs&nbsp;because the selected cities are a biased sample where the cue fails more often than expected. If the cities&nbsp;are randomly sampled from the real world, the overconfidence disappears.&nbsp;The net result is that what appears to be a bias may be better explained by the nature of the environment in which the decision is made. (Kahneman and Tversky <a href="http://matt.colorado.edu/teaching/highcog/fall8/kt96.pdf">contest this point</a>, suggesting that even when you take a representative sample, the problem remains.)</p>
+<p><strong><em>4. Ecological rationality</em></strong></p>
+<p>Ecological rationality departs from the heuristics and biases program by examining the relationship between mind and environment, rather than the mind and logic. Human behaviour is shaped by scissors with two blades – the cognitive capabilities of the actor, and the environment. You cannot understand human behaviour without understanding both the capabilities of the decision maker and the environment in which those capabilities&nbsp;are exercised. Gigerenzer would apply the bounded rationality label to this work.</p>
+<p>There are three goals to the ecological rationality program. The first is to understand the adaptive toolbox – the heuristics of the decision maker and their building blocks. The second is to understand the environmental structures in which different heuristics are successful. The third is to use this analysis to improve decision making through designing better heuristics or changing the environment. This can only be done once you understand the adaptive toolbox and the environments in which different tools are successful.</p>
+<p>Gigerenzer provides a neat example of how the ecological rationality departs from the&nbsp;heuristics and biases program in its&nbsp;analysis of a problem – in this case, optimal asset allocation. Harry Markowitz, who received a Nobel Memorial Prize in Economics for his work on optimal asset allocation, did not use&nbsp;the results of his analysis in his own investing. Instead, he invested his money using the 1/N rule – spread your assets equally across N assets.</p>
+<p>The heuristics and biases program might look at this behaviour and note Markowitz&nbsp;is not following the optimal behaviour determined by himself. He is making important decisions without using all the available information. Perhaps it is due to cognitive limitations?</p>
+<p>As Gigerenzer notes, optimisation is not always the best solution. Where the problem is computationally intractable or the optimisation solution lacks robustness due to estimation errors, heuristics may outperform. In the case of asset allocation, Gigerenzer notes work showing that 500 years of data would have been required for Markowitz’s optimisation rule to outperform&nbsp;his practice of 1/N. In a world of uncertainty, it can be beneficial to leave information on the table. Markowitz was using a simple heuristic for an important decision, but rightfully so as it is superior for the environment in which he is making the decision.</p>
+<p><strong>Simple heuristics make us smart</strong></p>
+<p>Gerd Gigerenzer is a strong advocate of the idea that simple heuristics can make us smart. We don’t need complex models of the world to make good decisions.</p>
+<p>The classic example is the gaze heuristic. Rather than solving a complex equation to catch a ball, which&nbsp;requires us to know the ball’s speed and trajectory and the effect of the wind, a catcher can simply run to keep the ball at a constant angle in the air, leading them to the point where it will land.</p>
+<p>Gigerenzer’s faith in heuristics&nbsp;is often taken to be based on the idea that people have limited processing capacity and are unable to solve the complex optimisation problems that would be needed&nbsp;in the absence of these rules. However, Gigerenzer points out this is perhaps the weakest argument for heuristics:</p>
+<blockquote class="blockquote">
+[W]e will start off by mentioning the weakest reason. With simple heuristics we can be more confident that our brains are capable of performing the necessary calculations. The weakness of this argument is that it is hard to judge what complexity of calculation or memory a brain might achieve. At the lower levels of processing, some human capabilities apparently involve calculations that seem surprisingly difficult (e.g., Bayesian estimation in a sensorimotor context: Körding &amp; Wolpert, 2004). So if we can perform these calculations at that level in the hierarchy (abilities), why should we not be able to evolve similar complex strategies to replace simple heuristics?
+</blockquote>
+<p>Rather, the advantage of heuristics lies in their low information requirements, their speed and, importantly, their accuracy:</p>
+<blockquote class="blockquote">
+One answer is that simple heuristics often need access to&nbsp;less information (i.e.&nbsp;they are frugal) and can thus make a decision faster, at least if information search is external. Another answer – and a more important argument for simple heuristics – is the high accuracy they exhibit in our simulations. This accuracy may be because of, not just in spite of, their simplicity. In particular, because they have few parameters they avoid overfitting data in a learning sample and, consequently, generalize better across other samples. The extra parameters of more complex models often fit the noise rather than the signal. Of course, we are not saying that all simple heuristics are good; only some simple heuristics will perform well in any given environment.
+</blockquote>
+<p>As the last sentence indicates, Gigerenzer is careful not to make any claims that heuristics generally outperform. A statement that a heuristic is “good” is ill-conceived without considering the environment in which it will be used. This is the major departure of Gigerenzer’s ecological rationality from the&nbsp;standard approach in the behavioural sciences,&nbsp;where&nbsp;the&nbsp;failure of a heuristic to perform in an environment is taken as evidence of bias or irrationality.</p>
+<p>Once you have noted what heuristic is being used in what environment, you can have&nbsp;more predictive power than in a well-solved optimisation model. For example. an optimisation model to catch a ball will simply predict that the catcher will be at the place and time where the ball lands. Once you understand that they use the gaze heuristic to catch the ball, you can also predict the path that they will take to get to the ball – including that they won’t simply run in a straight line to catch it. If a baseball or cricket coach took the optimisation model too seriously, they would tell the catcher that they are running inefficiently by not going straight to where it will land. Instructions telling them to run is a straight line&nbsp;will likely make their performance worse.</p>
+<p><strong>Biologists and decision making</strong></p>
+<p>Biologists are usually among the first to tell me that economists rely on unrealistic assumptions about human decision making. They laugh at the idea that people&nbsp;are rational optimisers who care only about maximising consumption.</p>
+<p>But the funny thing is, biologists often do the same. Biologists tend to treat their subjects as optimisers.</p>
+<p>Gigerenzer has a great chapter considering how biologists treat&nbsp;decision making, and in particular, to what extent biologists&nbsp;consider that animals&nbsp;use simple decision-making tools such as heuristics. Gigerenzer&nbsp;provides a few examples where biologists have examined heuristics, but much of the chapter asks whether biologists are missing something with their typical approach.</p>
+<p>As a start, Gigerenzer notes that biologists are seeking to make predictions rather than accurate descriptions of decision making. However, Gigerenzer questions whether this “gambit” is successful.</p>
+<blockquote class="blockquote">
+Behavioral ecologists do believe that animals are using simple rules of thumb that achieve only an approximation of the optimal policy, but most often rules of thumb are not their interest. Nevertheless, it could be that the limitations of such rules of thumb would often constrain behavior enough to interfere with the fit with predictions. The optimality modeler’s gambit is that evolved rules of thumb can mimic optimal behavior well enough not to disrupt the fit by much, so that they can be left as a black box. It turns out that the power of natural selection is such that the gambit usually works to the level of accuracy that satisfies behavioral ecologists. Given that their models are often deliberately schematic, behavioral ecologists are usually satisfied that they understand the selective value of a behavior if they successfully predict merely the rough qualitative form of the policy or of the resultant patterns of behavior.
+</blockquote>
+<p>You could write a similar paragraph about economists. If you were to give the people in an&nbsp;economic model objectives shaped by evolution, it would be almost the same.</p>
+<p>But Gigerenzer has another issue with the optimisation approach in biology. As for most analysis of human decision making, “missing from biology is the idea that simple heuristics may be superior to more complex methods, not just a necessary evil because of the simplicity of animal nervous systems.” Gigerenzer writes:</p>
+<blockquote class="blockquote">
+<p>There are a number of situations where the optimal solution to a real-world problem cannot be determined. One problem is computational intractability, such as the notorious traveling salesman problem (Lawler et al., 1985). Another problem is if there are multiple criteria to optimize and we do not know the appropriate way to convert them into a common currency (such as fitness). Thirdly, in many real-world problems it is impossible to put probabilities on the various possible outcomes or even to recognize what all those outcomes might be. Think about optimizing the choice of a partner who will bear you many children; it is uncertain what partners are available, whether each one would be faithful, how long each will live, etc. This is true about many animal decisions too, of course, and biologists do not imagine their animals even attempting such optimality calculations.</p>
+<p>…</p>
+Instead the behavioral ecologist’s solution is to find optima in deliberately simplified model environments. We note that this introduces much scope for misunderstanding, inconsistency, and loose thinking over whether “optimal policy” refers to a claim of optimality in the real world or just in a model. Calculating the optima even in the simplified model environments may still be beyond the capabilities of an animal, but the hope is that the optimal policy that emerges from the calculations may be generated instead, to a lesser level of accuracy, by a rule that is simple enough for an animal to follow. The animal might be hardwired with such a rule following its evolution through natural selection, or the animal might learn it through trial and error. There remains an interesting logical gap in the procedure: There is no guarantee that optimal solutions to simplified model environments will be good solutions to the original complex environments. The biologist might reply that often this does turn out to be the case; otherwise natural selection would not have allowed the good fit between the predictions and observations. Success with this approach undoubtedly depends on the modeler’s skill in simplifying the environment in a way that fairly represents the information available to the animal.
+</blockquote>
+<p>Again, Gigerenzer could equally be writing about economics. I think we should be thankful, however, that biologists don’t take their results&nbsp;and develop policy prescriptions on how to get the animals to behave in ways we believe they should.</p>
+<p>One interesting question&nbsp;Gigerenzer asks&nbsp;is whether humans and animals use similar heuristics.&nbsp;Consideration of this question might uncover evidence of&nbsp;the parallel evolution of heuristics in other lineages facing similar environmental structures, or even indicate a common evolutionary history. This could form part of the evidence as to whether these human heuristics are evolved adaptations.</p>
+<p>But are animals more likely to use heuristics than humans? Gigerenzer suggests the answer is not clear:</p>
+<blockquote class="blockquote">
+It is tempting to propose that since other animals have simpler brains than humans they are more likely to use simple heuristics. But a contrary argument is that humans are much more generalist than most animals and that animals may be able to devote more cognitive resources to tasks of particular importance. For instance, the memory capabilities of small food-storing birds seem astounding by the standards of how we expect ourselves to perform at the same task. Some better-examined biological examples suggest unexpected complexity. For instance, pigeons seem able to use a surprising diversity of methods to navigate, especially considering that they are not long-distance migrants. The greater specialism of other animals may also mean that the environments they deal with are more predictable and thus that the robustness of simple heuristics may not be such as advantage.
+</blockquote>
+<p>Another interesting question is whether animals are also predisposed to the “biases” of humans. Is it possible that&nbsp;“animals in their natural environments do not commit various fallacies because they do not need to generalize their rules of thumb to novel circumstances.” The equivalent&nbsp;for humans is mismatch theory, which proposes that a lot of modern behaviour (and likely the “biases” we exhibit) is&nbsp;due to a mismatch between the environment in which our decision making tools evolved and the environments we exercise them in today.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.jasoncollins\.blog");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="light">
+<script>
+function loadGiscusWhenReady() {
+  // Function to get the theme based on body class
+  const getTheme = () => {
+    const baseTheme = document.getElementById('giscus-base-theme').value;
+    const altTheme = document.getElementById('giscus-alt-theme').value;
+    return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+  };
+  // Create the Giscus script and add it to the desired location
+  const loadGiscus = () => {
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "jasonacollins/jasoncollinsblog";
+    script.dataset.repoId = "R_kgDOIbjYgQ";
+    script.dataset.category = "Announcements";
+    script.dataset.categoryId = "DIC_kwDOIbjYgc4CSiuB";
+    script.dataset.mapping = "pathname";
+    script.dataset.reactionsEnabled = "0";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "bottom";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  };
+  // MutationObserver to detect when the 'quarto-light' or 'quarto-dark' class is added to the body
+  const observer = new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+      if (mutation.type === "attributes" && mutation.attributeName === "class") {
+        if (document.body.classList.contains('quarto-light') || document.body.classList.contains('quarto-dark')) {
+          loadGiscus();
+          observer.disconnect(); // Stop observing once Giscus is loaded
+          break;
+        }
+      }
+    }
+  });
+  // Start observing the body for class attribute changes
+  observer.observe(document.body, {
+    attributes: true,
+    attributeFilter: ["class"],
+  });
+}
+loadGiscusWhenReady();
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">
+<p>Copyright: CC-BY</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

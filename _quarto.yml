@@ -1,0 +1,51 @@
+project:
+  type: website
+
+website:
+  title: "Jason Collins blog"
+  site-url: https://www.jasoncollins.blog
+  description: "Behavioural economics, data science and artificial intelligence."
+  navbar:
+    right:
+      - about.qmd
+      - research.qmd
+      - subscribe.qmd
+      - teaching.qmd
+      - icon: rss
+        href: index.xml
+  page-footer: 
+    center:
+      - text: "Copyright: CC-BY"
+        href: https://creativecommons.org/licenses/by/4.0/
+  open-graph: true
+  twitter-card: true
+  search:
+    limit: 50
+  google-analytics: "G-C50MEPDMZ9"
+
+lightbox: true
+
+csl: apa-no-ampersand.csl
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    fontcolor: black
+    fontsize: 18px
+    css: styles.css
+    html-math-method: katex
+    link-external-newwindow: true
+    code-fold: true
+    fig-cap-location: top
+    grid:
+      body-width: 600px
+editor: source
+
+execute:
+  freeze: true
+  error: true
+  keep-md: false
+  fig-pos: 'H'
+  

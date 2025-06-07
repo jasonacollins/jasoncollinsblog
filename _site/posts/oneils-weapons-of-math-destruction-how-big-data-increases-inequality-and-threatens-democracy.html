@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.23">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Collins">
+<meta name="dcterms.date" content="2017-08-22">
+
+<title>Cathy O’Neil’s Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy – Jason Collins blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ac706bccb5107cfdbcdabb2cff0da72d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C50MEPDMZ9"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
+</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Cathy O’Neil’s Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy – Jason Collins blog">
+<meta property="og:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta property="og:site_name" content="Jason Collins blog">
+<meta name="twitter:title" content="Cathy O’Neil’s Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy – Jason Collins blog">
+<meta name="twitter:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Jason Collins blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../subscribe.html"> 
+<span class="menu-text">Subscribe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cathy O’Neil’s Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jason Collins </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 22, 2017</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>In her interesting&nbsp;<em>Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</em>, Cathy O’Neil defines Weapons of Math Destruction based on three criteria - opacity, unfairness and scale.</p>
+<p>Opacity makes it hard to assess the fairness of mathematical models (I’ll use the term algorithms through most of this post), and it facilitates (or might even be a key component of) an algorithm’s effectiveness if it relies on naive subjects. “These bonds have been rated by maths geniuses - buy them.” Unfairness relates to whether the algorithm operates in the interest of the modelled subject. Scale is not just that algorithms can affect large numbers of people. Scale can also lead to the establishment of norms that do not allow anyone to escape the operation of the algorithm.</p>
+<p>These three factors are common across most of the problematic algorithms O’Neil discusses, and she makes a strong and persuasive case that many algorithms could be developed or used better. But the way she combines many of her points, together with her politics, often makes it unclear what exactly the problem is or what potential solutions could (should) be.</p>
+<p>A distinction that might have made this clearer (or at least that I found useful) is between algorithms that don’t do what the developer intends, algorithms working as intended but that have poor consequences for those on the wrong side of their application, and algorithms that have unintended consequences once released into the wild. The first is botched math, the second is math done well to the detriment of others, while the third is good or bad math with naive application.</p>
+<p>For this post I am going to break O’Neil’s case into these three categories.</p>
+<p><strong>Math done poorly</strong></p>
+<p>When it comes to the botched math, O’Neil is at her best. Her tale of teacher scoring algorithms in Washington DC is a case where the model is not helping anyone. Teachers were scored based on the deviations of student test scores from those predicted by models of the students. The bottom 2% to 5% of teachers were fired. But the combination of modelled target student scores and small classrooms made the scoring of teachers little better than random. There was almost no correlation in a teacher’s scores from one year to the next.</p>
+<p>Her critique of the way many models are developed is also important. Are we checking the model is working, rather than just assuming that the teachers we fired are the right ones? She contrasts the effort typically spent testing a recidivism model (for use in determining prison sentences) to the way Amazon learns about its customers. Amazon doesn’t simply develop a single “recidivism score” equivalent and take that as determinative. Instead they continue to test and learn as much as they can about their interactions with customers to make the best models they can.</p>
+<p>The solutions to the botched math are simpler (at least in theory) than many of the other problems she highlights. The teacher scoring models simply require someone with competence to consider what it is they might want to care about and measure, and if it can be done, work out whether it can be done in a statistically meaningful way. If it can’t, so be it. The willingness to concede that they can’t develop a meaningful model is important if that is the case, particularly if it is designed to inform high-stakes decisions. Similarly, recidivism scoring algorithms should be subject to constant scrutiny.</p>
+<p>But this raises the question of how you assess an algorithm. What is the appropriate benchmark? Perfection? Or the system it is replacing? At times O’Neil places a heavy focus on the errors of the algorithm, with little focus on the errors of the alternative - the humans it replaced. Many of O’Neil’s stories involve false positives, leading to a focus on the obvious algorithm errors, with the algorithm’s greater accuracy and the human errors unseen. A better approach might be to simply compare alternative approaches and see which is better, rather than having the human as the default. Once the superior alternative is selected, we also need to remain cognisant that the best option still might not be very good.</p>
+<p>As O’Neil argues, some of the poor models would also be less harmful if they were transparent. People could pull the models apart and see whether they were working as intended. A still cleaner version might be to just release the data and let people navigate it themselves (e.g.&nbsp;education data), although this is not without problems. Whatever is the most salient way of sorting and ranking will become the new defacto model. If we don’t do it ourselves, someone will take that data and give us the ranking we crave.</p>
+<p><strong>Math done well (for the user anyhow)</strong></p>
+<p>When comes to math done well, O’Neil’s three limbs of the WMD definition - opacity, unfairness and scale - are a good description of the problems she sees. O’Neil’s critique is usually not so much about the maths, but the unfair use of the models for purposes such as targeting of the poor (think predatory advertising by private colleges or payday lenders) or treating workers as cogs in the machine through the use of scheduling software.</p>
+<p>In these cases, it is common that the person being modelled does not even know about the model (opacity). And if they could see the model, it may be hard to understand what characteristics are driving the outcome (although this is not so different to the opacity of human decision-making). The outcome then determines how we are treated, the ads we see, the prices we see, and so on.</p>
+<p>One of O’Neil’s major concerns about fairness is that the models discriminate. She suggests they discriminate against the poor, African-Americans and those with mental illness. This is generally not through a direct intention to discriminate against these groups, although O’Neil gives the example of a medical school algorithm rejecting applicants based on birthplace due to biased training data. Rather, the models use proxies for the variables of interest, and those proxies also happen to correlate with certain group features.</p>
+<p>This points to the tension in the use of many of these algorithms. Their very purpose is to discriminate. They are developed to identify the features that, say, employers or lenders want. Given there is almost always a correlation between those features and some groups, you will inevitably “discriminate” against them.</p>
+<p>So what is appropriate discrimination? O’Neil objects to tarring someone with group features. If you live in a certain postcode, is it fair to be categorised with everyone else in that postcode? Possibly not. But if you have an IQ that is judged likely to result in poor job performance or creditworthiness based on the past performance of other people with that IQ, is that acceptable? What of having a degree?</p>
+<p>The use of features such as postcodes, IQ or degrees come from the need to identify proxies for the traits people want to identify, such as whether they will pay back the loan or deliver good work performance. Each proxy varies in the strength of prediction, so the obvious solution seems to be to get more data and better proxies. Which of these is going to give us the best prediction of what we actually care about?</p>
+<p>But O’Neil often balks at this step. She tells the story of a chap who can’t get minimum wage job due to his results on a five-factor model personality test, despite his “near perfect SAT”. The scale of the use of this test means he runs into this barrier with most employers. When O’Neil points out that personality is only one-third as predictive as cognitive tests, she doesn’t make the argument that employers should be allowed to use cognitive tests. She even suggests that employers are rightfully barred from using IQ tests in recruitment (as per a 1971 Supreme Court case). But absent the cognitive tests, do employers simply turn to the next best thing?</p>
+<p>Similarly, when O’Neil complains about the use of “e-scores” (proxies for credit scores) in domains where entities are not legally allowed to use credit scores to discriminate, she complains that they are using a “sloppy substitute”. But again she does not complain about the ban on using the more direct measures.</p>
+<p>There are also two sides to the use of these proxies. While the use of the proxies may result in some people being denied a job or a loan, it may allow someone else to get that job or loan, or to pay a better price, when a cruder measure might have seen that person being rejected.</p>
+<p>O’Neil gives the example of ZestFinance, a payday lender that typically charges 60% lower than the industry standard. ZestFinance does this by finding every proxy for creditworthiness it can, picking out proxies such as correct use of capitalisation on the application form, and whether the applicant read the terms and conditions. O’Neil complains about those who are accepted for a loan but have to pay higher fees because of, say, poor spelling. This is something the poor and uneducated are more likely to incur. But her focus is on one type of outcome, those with more expensive loans (although probably still cheaper than from other payday lenders), leaving those people receiving the cheapest loans unseen. Should we deny this class of people the access to the cheaper finance these algorithms allow?</p>
+<p>One interesting case in the book concerns the pricing of car insurance. An insurer wants to know who is the better driver, so they develop algorithms to price the risk appropriately. Credit scores are predictive of driving performance, so those with worse credit scores end up paying more for this.</p>
+<p>But insurers also want to price discriminate to the extent that they can. That is, they want to charge each individual the highest price they will tolerate. Price discrimination can be positive for the poor. Price discrimination allows many airlines to offer cheap seats in the back of the plane when the business crowd insists on paying extra for a few inches of leg room. I benefited from the academic pricing of software for years, and we regularly see discounted pricing for students and seniors. But price discrimination can also allow the uninformed, lazy and those without options to be stripped of a few extra dollars. In the case of the insurer pricing algorithms, they are designed to price discriminate in addition to price the policy based on risk.</p>
+<p>It turns out that credit score is not just predictive of driving performance, but also of buyer response to price changes. The resultant insurance pricing is an interaction of these two dimensions. O’Neil gives an example from Florida, where adults with clean driving records but poor credit scores paid $1,552 more (on average) than drivers with excellent credit but a drunk driving conviction, although it is unclear how much of this reflects risk and how much price discrimination.</p>
+<p><strong>Naive math</strong></p>
+<p>One of O’Neil’s examples of a what I will call naive math are those algorithms that create a self-reinforcing feedback loop. The model does what it is supposed to do - say, predict an event - but once used in a system, the model’s classification of a certain cohort becomes self-fulfilling or self-reinforcing.</p>
+<p>For example, if longer prison sentences make someone more likely to offend on their release, any indicator that results in longer sentences will in effect become more strongly correlated with re-offending. Even if the model is updated to disentangle this problem, allowing the effect of the longer sentences to be isolated, the person who received a longer sentence is doomed the next time they are scored.</p>
+<p>In a sense, the model does exactly what it should, predicting who will re-offend or not, and there is ample evidence that they do better than humans. But the application of the model does more than simply predicting recidivism. It might ultimately affirm itself.</p>
+<p>Another example of a feedback loop is a person flagged as a poor credit risk. As they can’t get access to cheap credit, they then go to an expensive payday lender and ultimately run into trouble. That trouble is flagged in the credit scoring system, making it even harder for them to access financial services. If the algorithm made an error in the first instance - the person was actually a good credit risk - that person might then become a poor risk because the model effectively pushed them into more expensive products.</p>
+<p>The solutions to these feedback loops are difficult. On the one hand, vigilant investigation and updating the models will help ameliorate the problems. O’Neil persuasively argues that we don’t do this enough. Entities such as ZestFinance that use a richer set of data can also break the cycle for some people.</p>
+<p>But it is hard to solve the case for individual mis-classification. Any model will have false positives and false negatives. The model development process can only try to limit them, often with a trade-off between the two.</p>
+<p>In assessing this problem we also need to focus on the alternative. Before these algorithms were developed, people would be denied credit, parole and jobs for all sorts of whimsical decisions on the part of the human decision makers. Those decisions would then result in feedback loops as their failures are reflected in future outcomes. The algorithms might be imperfect, but can be an improvement.</p>
+<p>This is where O’Neil’s scale point becomes interesting. In a world of diverse credit scoring mechanisms, a good credit risk who is falsely identified as a poor risk under one measure might by accurately classified under another. The false positive is not universal, allowing them to shop around for the right deal. But if every credit provider uses the same scoring system, someone could be universally barred. The pre-algorithm world, for all its flaws, possibly provided more opportunities for someone to find the place where they are not incorrectly classified.</p>
+<p>A final point on naive models (although O’Neil has more) is that models reflect goals and ideology. Sometimes this is uncontroversial - we want to keep dangerous criminals off the street. Sometimes this is more complicated - what risk of false positives are we willing to tolerate in keeping those criminals off the street? In many ways the influence of O’Neil’s politics on her critique provide the case in support of this point.</p>
+<p><strong>Solutions</strong></p>
+<p>Before reading the book, I listened to O’Neil on an <a href="http://www.econtalk.org/archives/2016/10/cathy_oneil_on_1.html">Econtalk episode with Russ Roberts</a>. There she makes the point that where we run into flawed algorithms, we shouldn’t always be going back to the old way of doing things (she made that comment in the context of judges). We should be making the algorithms better.</p>
+<p>That angle was generally absent from the book. O’Neil takes the occasional moment to acknowledge that many algorithms are not disrupting perfect decision-making systems, but are replacing biased judges, bank managers who favoured their friends, and unstructured job interviews with no predictive power. But through the book she seems quite willing to rip those gains down in the name of fairness.</p>
+<p>More explicitly, O’Neil asks whether we should sacrifice efficiency for fairness. For instance, should we leave some data out? In many cases we already do this, by not including factors such as race. But should this extend to factors such as who someone knows, their job or their credit score.</p>
+<p>O’Neil’s choice of factors in this instance is telling. She asks whether someone’s connections, job or credit score should be used in a recidivism model, and suggests no as they would be inadmissible in court. But this is a misunderstanding of the court process. Those factors are inadmissible in determining guilt or innocence, but form a central part of sentencing decisions. Look at the use of referees or stories about someone’s tough upbringing. So is O’Neil’s complaint about the algorithm, or the way we dispense criminal justice in general? This reflects a feeling I had many times in the book that O’Neil’s concerns are much deeper than the effect of algorithms and extend to the nature of the systems themselves.</p>
+<p>Possibly the point on which I disagree with O’Neil most is her suggestion that human decision-making has a benefit in that it can evolve and adapt. In contrast, a biased algorithm does not adapt until someone fixes it. The simple question I ask is where is the evidence of human adaptation? You just need to look at all the programs to eliminate workplace bias with no evidence of effectiveness for a taste of how hard it is to deliberately change people. We continue to be prone to seeing spurious correlations, and making inconsistent and unreliable decisions. For many human decisions there is simply no feedback loop as to whether we made the right decision. How will a human lender ever know they rejected a good credit risk?</p>
+<p>While automated systems are stuck until someone fixes them, someone can fix them. And that is often what happens. Recently several people forwarded to me an article on the inability of some facial recognition systems to recognise non-Caucasian faces. But beyond the point that humans also have this problem (yes, “<a href="https://en.m.wikipedia.org/wiki/Cross-race_effect">they all look alike</a>”), the problem with facial recognition algorithms has been identified and, even though it is a tough problem, there are major efforts to fix it. (Considering some of the major customers of this technology are police and security services, there is an obvious interest in solving it.) In the meantime, those of us raised in a largely homogeneous population are stuck with our cross-racial face blindness.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.jasoncollins\.blog");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="light">
+<script>
+function loadGiscusWhenReady() {
+  // Function to get the theme based on body class
+  const getTheme = () => {
+    const baseTheme = document.getElementById('giscus-base-theme').value;
+    const altTheme = document.getElementById('giscus-alt-theme').value;
+    return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+  };
+  // Create the Giscus script and add it to the desired location
+  const loadGiscus = () => {
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "jasonacollins/jasoncollinsblog";
+    script.dataset.repoId = "R_kgDOIbjYgQ";
+    script.dataset.category = "Announcements";
+    script.dataset.categoryId = "DIC_kwDOIbjYgc4CSiuB";
+    script.dataset.mapping = "pathname";
+    script.dataset.reactionsEnabled = "0";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "bottom";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  };
+  // MutationObserver to detect when the 'quarto-light' or 'quarto-dark' class is added to the body
+  const observer = new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+      if (mutation.type === "attributes" && mutation.attributeName === "class") {
+        if (document.body.classList.contains('quarto-light') || document.body.classList.contains('quarto-dark')) {
+          loadGiscus();
+          observer.disconnect(); // Stop observing once Giscus is loaded
+          break;
+        }
+      }
+    }
+  });
+  // Start observing the body for class attribute changes
+  observer.observe(document.body, {
+    attributes: true,
+    attributeFilter: ["class"],
+  });
+}
+loadGiscusWhenReady();
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">
+<p>Copyright: CC-BY</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

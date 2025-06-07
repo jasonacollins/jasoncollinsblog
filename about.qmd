@@ -1,0 +1,21 @@
+---
+title: "About"
+about:
+  template: trestles
+aliases:
+  - /about/
+---
+
+Behavioural and data science. Economics. PhD economics and evolutionary biology.
+
+- [My research](/research/)
+- [My non-academic writing](/writing/)
+- [Media](/media/)
+- [My work profile](https://profiles.uts.edu.au/Jason.Collins)
+
+For direct contact, email me at `smaller_tracer_0b` [@] `icloud.com`. (Address regularly refreshed to eliminate spammers.  I don't host guest posts or advertising.)
+
+
+
+<p align="center"; style="margin-left: 10px; margin-right: 10px;">BE NOTIFIED OF NEW POSTS VIA EMAIL
+<iframe src="https://newsletter.jasoncollins.blog/embed" width="360" height="110" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>

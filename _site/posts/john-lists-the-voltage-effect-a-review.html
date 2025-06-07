@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.23">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Collins">
+<meta name="dcterms.date" content="2023-07-05">
+
+<title>John List’s The Voltage Effect: A review – Jason Collins blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ac706bccb5107cfdbcdabb2cff0da72d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C50MEPDMZ9"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
+</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="John List’s The Voltage Effect: A review – Jason Collins blog">
+<meta property="og:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta property="og:image" content="https://www.jasoncollins.blog/posts/img/dellavigna-and-pope-2018-figure-5.png">
+<meta property="og:site_name" content="Jason Collins blog">
+<meta property="og:image:height" content="1448">
+<meta property="og:image:width" content="1570">
+<meta name="twitter:title" content="John List’s The Voltage Effect: A review – Jason Collins blog">
+<meta name="twitter:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta name="twitter:image" content="https://www.jasoncollins.blog/posts/img/dellavigna-and-pope-2018-figure-5.png">
+<meta name="twitter:image-height" content="1448">
+<meta name="twitter:image-width" content="1570">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Jason Collins blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../subscribe.html"> 
+<span class="menu-text">Subscribe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">John List’s The Voltage Effect: A review</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jason Collins </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 5, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Over a decade ago when I started reading the behavioural economics literature, John List quickly became one of my favourite academics. Whenever I read an interview with List he always seemed to ask great, critical questions. He was rarely happy taking others’ assumptions as given. I saw him as someone who, on hearing “in my experience….”, would be the first to say “Should we run an experiment?”.</p>
+<p>My impression of List has somewhat changed in the last year. His <a href="https://twitter.com/Econ_4_Everyone">Twitter posts</a> seem more focused on promotion than shooting down weak ideas. There goes my image of List as a cynic! But I also suppose that’s the angle you need to take when you are pushing a new book.</p>
+<p>That book is <em>The Voltage Effect: How to Make Good Ideas Great and Great Ideas Scale</em>.</p>
+<p>The term Voltage Effect comes from the literature on implementation science. The “electric” potential of what appears to be a promising intervention will often dissipate when rolled out into the real world. In List’s case, this “voltage drop” occurs between the initial pilot of an economic intervention and the full-scale rollout of the intervention. Why are those rollouts so often disappointing despite the initial promise?</p>
+<p>List seems the right person to answer that question. List pioneered the use of field experiments in economics. He was the Chief Economist for Uber, then Lyft and now Walmart. (I believe the Walmart role post-dates this book.) He has a rare catalogue of field trials and implementation experience.</p>
+<p>But rather than being the author of this book, I would rather see List in another role. I’d love to read a review of this book by ….. John List.</p>
+<p>Why?</p>
+<p>In the book’s first half, List describes five problems that can cause voltage drops. In the second half, he gives four “secrets” to high-voltage scaling. I agreed with most of his high-level points in the first half and saw some potential in those in the second.</p>
+<p>But the problem is that these points aren’t drawn from experiments themselves. They come from List’s experience.</p>
+<p>John List’s forte is that he runs experiments to see if things are true. Throughout the book, List has stories where someone makes a claim, and List responds, “Let’s run an experiment”. But when he tries to talk about what works at the level above the experiment - the book’s theme - we have to listen to John List say, “Well, in my experience …”. I respect List’s experience but kept thinking, “Maybe that’s true, but I’m not convinced … could we run an experiment?”.</p>
+<section id="the-five-problems-that-cause-voltage-drops" class="level2">
+<h2 class="anchored" data-anchor-id="the-five-problems-that-cause-voltage-drops">The five problems that cause voltage drops</h2>
+<p>List’s five barriers to scaling all make sense. Watch out for false positives. Know your audience. Make sure the ingredients to your implementation can scale. Consider spillovers. And understand what scaling will cost.</p>
+<p>On the first barrier, List notes that many ideas might seem promising during trials. But the statistical frameworks that we use can lead to false positives. Don’t be afraid to use a second trial or staged implementation to check that the first trial wasn’t a fluke. You should seek <em>independent</em> replication of your own work. And consider the incentives of those who are pushing any particular idea.</p>
+<p>I agree with this advice, although perhaps with a different emphasis. List doesn’t give much ink to the replication crisis or mention that the behavioural science literature is littered with false positives. Some of the literature you’re using as inspiration is likely rubbish. List does recognise scientific misconduct - telling the story of Brian Wansink - but doesn’t hint at how untrustworthy much of the literature is, even in the absence of fraud.</p>
+<p>I am also sceptical of List’s reasons why false positives can cause such problems. One reason he gives is confirmation bias, which prevents us from seeing evidence that might challenge our assumptions. He even gives us an evolutionary spin:</p>
+<blockquote class="blockquote">
+<p>This tendency might appear counter to our own interests, but in the context of our species’s long-ago Darwinian history, confirmation bias makes perfect sense. Our brain evolved to reduce uncertainty and streamline our responses. For our ancestors, a shadow might have meant a predator, so if they assumed it was one and started running, this assumption could have saved their lives. If they stopped to gather more information and really think about it, they might have ended up as dinner.</p>
+</blockquote>
+<p>I’m not sure what is being described in that paragraph is confirmation bias. But more notably, we seem to have entered “drop a bias” territory: see a behaviour and tell a post-fact story about what bias is supposedly causing this problem. List tells us about the bandwagon effect, where we jump on board with others, effectively leaving the selection of ideas to a few people rather than the collective group. We hear about sunk cost bias. List even shoehorns the winner’s curse into the story, a phenomenon in common-value auctions (an auction where the auctioned good has the same value to everyone) whereby the winner tends to overpay. The winner will tend to have the most optimistic estimate of the value of the good - and if you’ve got a higher estimate than everyone else, there’s a decent chance you’ve overestimated. How does this apply to scaling false positives? After reading the section several times, I’m not sure.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>And where’s the experimental evidence that these biases are driving the problem? At this point, List’s stories feel loose.</p>
+<p>List’s second barrier to scaling relates to” knowing your audience”. This is essentially a story of heterogeneity in your sample and the population in which the intervention will be rolled out. How broadly will your intervention work when you move from your trial sample to full-scale implementation? This includes a perspective across time: your current and future audience might differ. Sound advice.</p>
+<p>The third barrier is whether all the elements of the intervention can scale. Is the pilot representative of the circumstances at scale? For example, if your educational intervention pilot involves all of the good teachers, it likely won’t work when it scales and the weaker teachers become involved. If you are monitoring compliance in the pilot - that is, the experimenters are watching - failure to monitor during the rollout may result in a substantial voltage drop. I have seen this myself, where the deck was stacked in the pilot.</p>
+<p>To illustrate this point, List tells the story of the restaurant chain Jamie’s Italian. Initially, the key to the restaurants was the simple ingredients and recipes, easily replicable at a larger scale. Brand and fame can also scale. But later on the unscalable part of the operation - Jamie Oliver himself - became stretched, and the whole enterprise came down.</p>
+<p>I understand why people include stories like this in pop science books. I use examples like this myself. But this involves going out on a limb, ascribing causes to events that aren’t backed by a robust analysis of causation. We’re telling stories.</p>
+<p>List’s story involves the new managing director of the enterprise being described as “woefully unqualified”. But what’s the metric for “unqualified” beyond the post-fact assessment based on the chain’s failure? Is this just the (negative) halo of the outcome being extended to those involved? (There’s me dropping a bias…) I’ll return to this point of storytelling in a bit.</p>
+<p>The fourth barrier is the presence of spillovers. List has a nice story from Uber to illustrate. An initial trial of giving $5 coupons to a group of Uber riders was a success: the riders used Uber more, with the increased earnings more than offsetting the cost of the coupons. However, when rolled out at scale, the earnings increase did not materialise. The spike in demand caused by the coupons caused an increase in fares and wait times, which reduced demand.</p>
+<p>The final barrier concerns the ultimate cost of scaling. Sometimes expected economies of scale don’t materialise. There simply might not be enough of what you need at a reasonable cost: for example, what is the cost of hiring enough “good” teachers to implement at scale?</p>
+</section>
+<section id="the-four-secrets-to-scaling" class="level2">
+<h2 class="anchored" data-anchor-id="the-four-secrets-to-scaling">The four secrets to scaling</h2>
+<p>From the barriers List then moves to the secrets to success. I was more ambivalent toward the four secrets, but they still have some wisdom.</p>
+<p>The first is having incentives that scale. This isn’t just about the size of the incentives, but considering how they can be made more powerful (e.g.&nbsp;by using loss aversion) and whether non-monetary incentives such as social norms can be leveraged. Most of this is relatively uncontroversial material. It is, after all, the reason why there has been some success in applied behavioural economics. But the following claim stood out:</p>
+<blockquote class="blockquote">
+<p>[T]he fact that human psychology doesn’t vary much across groups (most people experience loss aversion to a similar degree, and nearly everyone cares about their social image) makes this type of incentive strategy highly scalable. In contrast, the level of financial rewards necessary to incentivize one’s employees will vary widely from person to person, and for some might be unduly high.</p>
+</blockquote>
+<p>I couldn’t locate in the book the reference supporting this claim. And it doesn’t align with any of the studies I might look to on this point. On variation, Joe Henrich and friends <span class="citation" data-cites="henrich2001">(<a href="#ref-henrich2001" role="doc-biblioref">2001</a>)</span> showed substantial variation across societies in trust and reciprocity in economic games. <span class="citation" data-cites="harrison2009">Harrison and Rutström (<a href="#ref-harrison2009" role="doc-biblioref">2009</a>)</span> showed evidence for a mix of “economic” and “behavioural” decision makers in a group of experimental subjects. The whole concern about experiments on WEIRD people is due to the potential for variation across cultures.</p>
+<p>To be honest, I believe that the worry about the generalisability of experiments using WEIRD subjects is overblown (particularly compared to the other dimensions we should be worrying about). The Many Labs 2 project <span class="citation" data-cites="klein2018">(<a href="#ref-klein2018" role="doc-biblioref">Klein et al., 2018</a>)</span> found little heterogeneity across cultures as to which effects were replicable. But I would expect an equivalent experiment using incentives would similarly replicate across cultures.</p>
+<p>On the power of psychological interventions versus incentives, ideally, we’d want a suite of studies comparing the two directly. List has a couple of studies where the psychological intervention outperforms the incentive. But it’s easy enough to find studies going the other way. Here’s one from <span class="citation" data-cites="dellavigna2018">DellaVigna and Pope (<a href="#ref-dellavigna2018" role="doc-biblioref">2018</a>)</span>. In their particular (artificial) context, incentives were the more powerful motivator and effort scaled with the incentives. Amusingly, the “experts” predicting the results also underestimated the power of the incentives.</p>
+<p><a href="img/dellavigna-and-pope-2018-figure-5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img/dellavigna-and-pope-2018-figure-5.png" class="img-fluid"></a></p>
+<p>Putting this together, I’m sure there are cases where a behavioural strategy will outperform a simple monetary incentive. But I don’t buy the general claim about variability or scalability.</p>
+<p>List’s second secret seems a no-brainer, to an economist at least. When calculating costs and benefits, look to the margins. Ask what benefit the last dollar spent gets you. Don’t simply compare total costs and benefits as, even if the total benefits are greater, you could be spending less for greater net benefit.</p>
+<p>The third secret is optimal quitting. Don’t sink more time into the wrong idea. We get stories about PayPal and Twitter emerging from other failing strategies, and List’s own decision to give up on a professional golf career. We get another dose of biases here, including sunk cost bias and ambiguity aversion, but it’s sound advice all the same. The challenge is, as List highlights, determining the optimal point to quit. It’s hard.</p>
+<p>The chapter on the fourth and final secret, the need to scale culture, opens with the story of two Brazilian villages, Cabuçu and Santo Estêvão.</p>
+<p>Cabuçu is a small fishing community in which the men fish in groups of three to eight. This teamwork is needed to manage the boats on the choppy Atlantic waters, set the nets and pull in the large fish. A single fisherman would fail.</p>
+<p>Santo Estêvão sits inland of Cabuçu on the Paraguaçu rover. The villagers from Santo Estêvão catch small fish alone on the calm waters.</p>
+<p>List and colleagues ran games in the two villages to test whether their style of fishing, shaped by the environment each found themselves in, was reflected in their level of trust and cooperation. They found that the villagers from Cabuçu proposed more equal offers in the <a href="https://en.wikipedia.org/wiki/Ultimatum_game">Ultimatum game</a>, contributed more in <a href="https://en.wikipedia.org/wiki/Public_goods_game">public goods games</a> and invested more in the <a href="https://en.wikipedia.org/wiki/Dictator_game#Variants">trust game</a> (and sent back more). They also donated more to charity. The habit of cooperation in their work flowed over into other domains.</p>
+<p>List leverages this story into one of scaling up workplace cultures. How the organisation works will affect the values underlying that organisation.</p>
+<p>This leads to the case of Uber and Travis Kalanick. The story, in a nutshell, was a series of scandals in early 2017 - claims of sexism and sexual harassment, a lawsuit by Waymo alleging the theft of trade secrets, a video of Kalanick berating an Uber driver who challenged him on driver compensation, and most damaging, the revelation of software designed to evade law enforcement and regulators - ultimately led to Kalanick resigning as CEO.</p>
+<p>List pins this series of scandals on Uber’s culture. Kalanick believed in a “meritocracy” where the best ideas should win. For those ideas to emerge, Uber required a combative culture. However, as Uber scaled that combative culture no longer did. Rather than surfacing the best ideas, ideas succeeded based on who was the loudest or the best internal politician. When the best ideas and people ceased to rise to the top, staff lost trust in leadership and the behaviour of staff shifted.</p>
+<p>Ultimately, when Kalanick exited, he conceded these flaws. Kalanick wrote:</p>
+<blockquote class="blockquote">
+<p>I favored logic over empathy, when sometimes it’s more important to show you care than to prove you’re right, … I focused on getting the right individuals to build Uber, without doing enough to ensure we’re building the right kind of teams.</p>
+</blockquote>
+<p>and</p>
+<blockquote class="blockquote">
+<p>Ultimately, we lost track of what our purpose is all about—people. We forgot to put people first and as we grew, we left behind too many of the inspiring employees we work with and too many of the amazing partners who serve our cities …. Growth is something to celebrate, but without the appropriate checks and balances can lead to serious mistakes. At scale, our mistakes have a much greater impact—on our teams, customers and the communities we serve. That’s why small company approaches must change when you scale. I succeeded by acting small, but failed in being bigger.</p>
+</blockquote>
+<p>This might all be right, but I find it amusing hearing a story about how the founder of a company, personally worth over $4b, stuffed up in creating their (as of the day of writing this paragraph) $87b market cap company by having the wrong culture. I am sure Kalanick could have done better, but I’m also sure he could have done worse. (Lyft, the company to which List moved after Uber, has a market cap of $3.8b.) Would a more toned-down Kalanick have been able to build Uber? Could someone with the personality to drive the smaller company simply transition as required? And is it even optimal to do so?</p>
+<p>There’s a lot of “halo effect” storytelling going on here - problems emerge, must have been the culture, a disaster waiting to happen. And yet by the measurable outcome, arguably the number one measure for a company, Uber is a massive success for Kalanick. It reminds me of those criticizing the range of choice on Amazon as paralysing consumers with excessive choice. And what would happen if you tried to get the fisherman of Santo Estêvão to work in teams? Maybe they’d cooperate more in economic games, but would they do better at feeding their families?</p>
+</section>
+<section id="concluding-note" class="level2">
+<h2 class="anchored" data-anchor-id="concluding-note">Concluding note</h2>
+<p>As is typically the case for posts on this blog, most of the above is picking at the seams. But there is a lot to like in the book and some good advice. Thinking about each of the barriers and secrets should improve the experiments you run and how they scale. I’m just not sure all of the stories List tells are true.</p>
+</section>
+<section id="other-thoughts-lying-around" class="level2">
+<h2 class="anchored" data-anchor-id="other-thoughts-lying-around">Other thoughts lying around</h2>
+<ul>
+<li><p>In his discussion of confirmation bias as a reason why false positives can cause such problems, List states “Because we have limited brainpower to process all of this, we use mental shortcuts to make quick, often gut-level decisions. One such mental shortcut is to essentially filter out or ignore the information that is inconsistent with our expectations or assumptions.” That second sentence is almost the opposite of perceptual control theory / predictive processing, which is based on the idea that our brain responds to differences from our expectations.</p></li>
+<li><p>List states: “If that suggestion sounds outrageous, consider an explosive study conducted by researchers at Johns Hopkins Medicine in 2016, which estimated that more than 250,000 Americans die each year from medical errors, making such errors the third-leading cause of death behind heart disease and cancer!” This stat is rubbish and there are a pile of academic and other papers pulling it apart. Here’s <a href="https://www.mcgill.ca/oss/article/critical-thinking-health/medical-error-not-third-leading-cause-death">one</a></p></li>
+<li><p>List writes: “Kahneman and Tversky demonstrated that as a result of this human tendency, we make all sorts of harebrained decisions. For instance, when housing prices fall after a boom, sellers attempt to avoid the inevitable loss by setting a higher asking price—often higher than their home’s current value—and in turn the property sits on the market for a longer period of time than it otherwise might.” <span class="citation" data-cites="genesove2001">Genesove and Mayer (<a href="#ref-genesove2001" role="doc-biblioref">2001</a>)</span>, who I assume is the source of List’s claim, also found that those people receive a higher sale price. Sounds sensible rather than harebrained to me, particularly when other evidence suggests people sell too fast (such as <span class="citation" data-cites="levitt2008">Levitt and Syverson (<a href="#ref-levitt2008" role="doc-biblioref">2008</a>)</span>).</p></li>
+<li><p>List jumps on the diversity bandwagon: “I mean diversity in all senses: race, sex, age, ethnicity, religion, class background, sexual orientation, gender identity, neurotype, and other characteristics. Diversity in people’s backgrounds equates to cognitive diversity when they are together, which produces not just greater innovation but also greater resilience.” List wants all these types of diversity to achieve “cognitive diversity”, but doesn’t mention cognitive diversity itself. We could measure it! And as usual, you seldom see “political views” on the list. Among the many disciplines and groups I have worked with (law, economics, data science, regulators, policy advisers, environmental campaigners), the behavioural scientists and behavioural economists would be the most cognitively uniform group.</p></li>
+</ul>
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-dellavigna2018" class="csl-entry" role="listitem">
+DellaVigna, S., and Pope, D. (2018). What motivates effort? Evidence and expert forecasts. <em>The Review of Economic Studies</em>, <em>85</em>(2), 1029–1069. <a href="https://doi.org/10.1093/restud/rdx033">https://doi.org/10.1093/restud/rdx033</a>
+</div>
+<div id="ref-genesove2001" class="csl-entry" role="listitem">
+Genesove, D., and Mayer, C. (2001). Loss aversion and seller behavior: Evidence from the housing market. <em>The Quarterly Journal of Economics</em>, <em>116</em>(4), 1233–1260. <a href="https://www.jstor.org/stable/2696458">https://www.jstor.org/stable/2696458</a>
+</div>
+<div id="ref-harrison2009" class="csl-entry" role="listitem">
+Harrison, G. W., and Rutström, E. E. (2009). Expected utility theory and prospect theory: one wedding and a decent funeral. <em>Experimental Economics</em>, <em>12</em>(2), 133–158. <a href="https://doi.org/10.1007/s10683-008-9203-7">https://doi.org/10.1007/s10683-008-9203-7</a>
+</div>
+<div id="ref-henrich2001" class="csl-entry" role="listitem">
+Henrich, J., Boyd, R., Bowles, S., Camerer, C., Fehr, E., … McElreath, R. (2001). In Search of Homo Economicus: Behavioral Experiments in 15 Small-Scale Societies. <em>American Economic Review</em>, <em>91</em>(2), 73–78. <a href="https://doi.org/10.1257/aer.91.2.73">https://doi.org/10.1257/aer.91.2.73</a>
+</div>
+<div id="ref-klein2018" class="csl-entry" role="listitem">
+Klein, R. A., Vianello, M., Hasselman, F., Adams, B. G., Adams, R. B., … Nosek, B. A. (2018). Many Labs 2: Investigating Variation in Replicability Across Samples and Settings. <em>Advances in Methods and Practices in Psychological Science</em>, <em>1</em>(4), 443–490. <a href="https://doi.org/10.1177/2515245918810225">https://doi.org/10.1177/2515245918810225</a>
+</div>
+<div id="ref-levitt2008" class="csl-entry" role="listitem">
+Levitt, S. D., and Syverson, C. (2008). Market distortions when agents are better informed: The value of information in real estate transactions. <em>Review of Economics &amp; Statistics</em>, <em>90</em>(4), 599–611. <a href="https://doi.org/10.1162/rest.90.4.599">https://doi.org/10.1162/rest.90.4.599</a>
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>A related point might be that if you are running many comparisons, the most promising will likely have an exaggerated effect size, but there are simple statistical methods (that I expect people like List would be using) to correct for this.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.jasoncollins\.blog");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="light">
+<script>
+function loadGiscusWhenReady() {
+  // Function to get the theme based on body class
+  const getTheme = () => {
+    const baseTheme = document.getElementById('giscus-base-theme').value;
+    const altTheme = document.getElementById('giscus-alt-theme').value;
+    return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+  };
+  // Create the Giscus script and add it to the desired location
+  const loadGiscus = () => {
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "jasonacollins/jasoncollinsblog";
+    script.dataset.repoId = "R_kgDOIbjYgQ";
+    script.dataset.category = "Announcements";
+    script.dataset.categoryId = "DIC_kwDOIbjYgc4CSiuB";
+    script.dataset.mapping = "pathname";
+    script.dataset.reactionsEnabled = "0";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "bottom";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  };
+  // MutationObserver to detect when the 'quarto-light' or 'quarto-dark' class is added to the body
+  const observer = new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+      if (mutation.type === "attributes" && mutation.attributeName === "class") {
+        if (document.body.classList.contains('quarto-light') || document.body.classList.contains('quarto-dark')) {
+          loadGiscus();
+          observer.disconnect(); // Stop observing once Giscus is loaded
+          break;
+        }
+      }
+    }
+  });
+  // Start observing the body for class attribute changes
+  observer.observe(document.body, {
+    attributes: true,
+    attributeFilter: ["class"],
+  });
+}
+loadGiscusWhenReady();
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">
+<p>Copyright: CC-BY</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

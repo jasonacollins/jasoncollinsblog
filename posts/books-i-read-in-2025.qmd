@@ -1,0 +1,33 @@
+---
+title: 'Books I read in 2025'
+author: "Jason Collins"
+date: 2026-01-01 17:00:00+10:00
+draft: true
+---
+
+The books I enjoyed the most in 2025, although all were published in different years:
+
+- .
+
+Below is the list of books I read in 2025 (with a star if I have read them before). My volume of my reading of books cover-to-cover has XX from 2024, with XX total (XX non-fiction, XX fiction).
+
+*Non-Fiction*
+
+- Orin Bar-Gill, *Seduction by Contract*
+- Omri Ben-Shahar and Carl Schneider, *More than you wanted to know: The failure of mandated disclosure*
+- David Chalmers, *Reality+*
+- Emanuel Derman, *My Life as a Quant*
+- Michael Hallsworth and Elspeth Kirkman, *Behavioral Insights*
+- Walter Isaacson, *Steve Jobs*
+- Ben Shneiderman, *Human-Centred AI*
+- Eric Siegel, *The AI Playbook: Mastering the Rare Art of Machine Learning Deployment*
+
+*Fiction*
+
+- Frank Herbert, *Dune*
+- Luke Rhinehart, *The Dice Man*
+- Neil Stephenson, *Seveneves*
+- Dark materials series
+
+
+Previous annual book lists: [2010](/posts/top-10-books-in-2010/), [2011](/posts/best-books-i-read-in-2011/), [2012](/posts/the-best-books-i-read-in-2012/), [2013](/posts/best-books-i-read-in-2013/), [2014](/posts/best-books-i-read-in-2014/), [2015](/posts/best-books-i-read-in-2015/), [2016](/posts/best-books-i-read-in-2016/), [2017](/posts/best-books-i-read-in-2017/), [2018](/posts/books-i-read-in-2018/), [2019](/posts/best-books-i-read-in-2019/), [2020](/posts/best-books-i-read-in-2020/), [2021](/posts/best-books-i-read-in-2021/), [2022](/posts/best-books-i-read-in-2022/), [2023](/posts/books-i-read-in-2023/), [2024](/posts/books-i-read-in-2024/)

@@ -1,0 +1,45 @@
+---
+title: "Writing"
+aliases:
+  - /writing/
+resources:
+  - pdfs/Collins_2013_Sex_in_the_economy.pdf
+---
+
+# Writing
+
+Apart from this blog and my [academic publications](/research/), I have written for various other venues. Below is a selection:
+
+### 2022
+
+"[We don’t have a hundred biases, we have the wrong model](https://www.worksinprogress.co/issue/biases-the-wrong-model/)", Works in progress
+
+### 2019
+
+“[Principles for the Application of Human Intelligence](https://behavioralscientist.org/principles-for-the-application-of-human-intelligence/)”, Behavioral Scientist. Discussed in [The Guardian](https://www.theguardian.com/commentisfree/2019/dec/14/err-is-human-why-fear-machines-made-to-err-less-algorithmic-bias).
+
+### 2018
+
+“[Simple heuristics that make algorithms smart](https://behavioralscientist.org/simple-heuristics-that-make-algorithms-smart/)”, Behavioral Scientist
+
+“[When Everything Looks Like a Nail: Building Better “Behavioral Economics” Teams](https://behavioralscientist.org/when-everything-looks-like-a-nail-building-better-behavioral-economics-teams/)”, Behavioral Scientist
+
+### 2017
+
+“[What to do when algorithms rule](https://behavioralscientist.org/what-to-do-when-algorithms-rule/)”, Behavioral Scientist
+
+“[Rationalizing the “irrational](https://behavioralscientist.org/rationalizing-the-irrational/)”, Behavioral Scientist
+
+“[Don’t touch the computer](https://behavioralscientist.org/dont-touch-computer/)”, Behavioral Scientist
+
+### 2015
+
+"[It's time to end the demographic pessimism](https://www.abc.net.au/news/2015-03-06/collins-its-time-to-end-the-demographic-pessimism/6284804)", The Drum, ABC
+
+### 2013
+
+“[Sex in the Economy](https://www.proquest.com/docview/1374604177?sourcetype=Magazines)” Australasian Science Vol. 34, Issue 6 ([pdf](pdfs/Collins_2013_Sex_in_the_economy.pdf))
+
+
+<p align="center"; style="margin-left: 10px; margin-right: 10px; margin-top: 50px">BE NOTIFIED OF NEW POSTS VIA EMAIL</p>
+<p  align="center"><iframe src="https://newsletter.jasoncollins.blog/embed" width="360" height="110" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>

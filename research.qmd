@@ -1,0 +1,66 @@
+---
+title: "Research"
+aliases:
+  - /research/
+resources:
+  - pdfs/Baer_et_al_2019_Sperm_use_economy_of_honeybee_Apis_mellifera_queens.pdf
+  - pdfs/Collins_and_Page_2019_The_heritability_of_fertility_makes_world_population_stabilization_unlikely_in_the_foreseeable_future.pdf
+  - pdfs/Collins_et_al_2013_Economic_growth_and_evolution_parental_preference_for_quality_and_quantity_of_offspring.pdf
+  - pdfs/Collins_et_al_2015_Sexual_Selection_Conspicuous_Consumption_and_Economic_Growth.pdf
+  - pdfs/Collins_et_al_2016_Evolutionary_Biology_in_Economics_A_Review.pdf
+---
+
+My research and writing tend to revolve around the following themes:
+
+- The intersection of economics and evolutionary biology (comprising most of the papers below)
+- How behavioural economics could be better, be that better underlying theory, better research practices or better applied work
+- The use of algorithms to supplant human judgment, particularly using simple heuristics, and how to establish the right human-algorithm mix.
+
+Below is my academic work (largely neglected between the completion of my PhD in 2015 and my return to academia in 2022). For my non-academic writing, see [here](/writing/).
+
+## Publications
+
+### 2024
+
+Collins (2024) "[Optimally Irrational: The Good Reasons we Behave the Way we Do, by Lionel Page (Cambridge University Press, Cambridge, 2022), pp. 322.](https://doi.org/10.1111/1475-4932.12798)", *Economic Record*, 100(329), 271-274 ([ungated pdf](https://onlinelibrary.wiley.com/share/author/2YPJ72W7RCXXTFND37AT?target=10.1111/1475-4932.12798); [preprint pdf](https://osf.io/preprints/osf/yz9uk))
+
+### 2019
+
+Collins and Page (2019) "[The heritability of fertility makes world population stabilization unlikely in the foreseeable future](https://doi.org/10.1016/j.evolhumbehav.2018.09.001)" *Evolution & Human Behavior* 40(1), 105-111 ([pdf](pdfs/Collins_and_Page_2019_The_heritability_of_fertility_makes_world_population_stabilization_unlikely_in_the_foreseeable_future.pdf)) ([post](/an-evolutionary-projection-of-global-fertility-and-population-my-new-paper-with-lionel-page-in-evolution-human-behavior/)). Discussion at [Forbes](https://www.forbes.com/sites/ebauer/2018/11/08/will-fertility-rebound-new-study-says-yes) and [Institute for Family Studies](https://ifstudies.org/blog/will-evolution-undo-the-demographic-transition).
+
+### 2016
+
+Baer, Collins, Maalaps and den Boer (2016) "[Sperm use economy of honeybee (Apis mellifera) queens](https://doi.org/10.1002/ece3.2075)" (2016) *Ecology and Evolution* 6(9), 2877-2885 ([pdf](pdfs/Baer_et_al_2019_Sperm_use_economy_of_honeybee_Apis_mellifera_queens.pdf)) ([post](/my-first-biology-publication/))
+
+Collins, Baer and Weber (2016) "[Economics in Evolutionary Biology: A Review](https://doi.org/10.1111/1475-4932.12260)" (2016) *Economic Record* 92(297), 291-312 ([pdf](pdfs/Collins_et_al_2016_Evolutionary_Biology_in_Economics_A_Review.pdf)) ([post](/evolutionary-biology-in-economics-a-review/))
+
+### 2015
+
+Collins, Baer and Weber (2015) "[Sexual Selection, Conspicuous Consumption and Economic Growth](https://doi.org/10.1007/s10818-015-9200-9)" (2015) *Journal of Bioeconomics* 17(2), 189-206 ([pdf](pdfs/Collins_et_al_2015_Sexual_Selection_Conspicuous_Consumption_and_Economic_Growth.pdf)) ([post](/conspicuous-consumption-and-economic-growth-2/)). Discussion in [The Times](http://www.thetimes.co.uk/tto/science/article4453305.ece), [The Daily Mail](http://www.dailymail.co.uk/sciencetech/article-3100584/Peacocking-males-splash-cash-impress-women-help-boost-economy-Study-finds-link-sexual-selection-economic-growth.html), [The Huffington Post](http://www.huffingtonpost.com/rob-brooks/sexual-signalling-powers-_b_1845337.html), [The Conversation](https://theconversation.com/sexual-signalling-powers-the-economy-8780/), [Stumbling and Mumbling](http://stumblingandmumbling.typepad.com/stumbling_and_mumbling/2012/10/sex-growth.html), and in [The Wall Street Journal](http://online.wsj.com/article/SB10001424127887323551004578116903873762428.html) (Matt Ridley). And Paul Frijters has prepared a critique of an earlier version, which you can find [here](/critique-of-conspicuous-consumption-and-economic-growth/).
+
+### 2014
+
+Collins, Baer and Weber (2014) “[Economic Growth and Evolution: Parental Preferences for Quality and Quantity of Offspring](https://doi.org/10.1017/S1365100513000163)” (2014) Macroeconomic Dynamics 18, 1773-1796 ([pdf](pdfs/Collins_et_al_2013_Economic_growth_and_evolution_parental_preference_for_quality_and_quantity_of_offspring.pdf)) ([post](/economic-growth-and-evolution-parental-preference-for-quality-and-quantity-of-offspring/))
+
+## Working papers (in progress)
+
+Brodeur et al. (2024) [Mass Reproducibility and Replicability: A New Hope](https://econpapers.repec.org/paper/zbwi4rdps/107.htm), I4R Discussion Paper Series #107, Institute for Replication
+
+Collins, Baer and Weber, (2013) [Population, Technological Progress and the Evolution of Innovative Potential](https://research-repository.uwa.edu.au/en/publications/population-technological-progress-and-the-evolution-of-innovative) (with Boris Baer and Juerg Weber) ([post](/population-technological-progress-and-the-evolution-of-innovative-potential/))
+
+## Working papers (inactive)
+
+Collins, Denham, Du and Waller (2024) "[A Comment on “Influence Motives in Social Signaling: Evidence from COVID-19 Vaccinations in Germany](https://www.econstor.eu/handle/10419/301428)” I4R Discussion Paper Series #139) ([pdf](https://www.econstor.eu/bitstream/10419/301428/1/I4R-DP139.pdf))
+
+Albrecht, Collins, Gauriot and Wu (2023) "[A Comment on Alesina, Miano and Stancheva (2023)](https://www.rwi-essen.de/i4r-discussion-papers-series-1/a-comment-on-alesina-miano-and-stancheva-23063012)", I4R Discussion Paper Series #40 ([pdf](https://www.rwi-essen.de/fileadmin/user_upload/RWI/Publikationen/I4R_Discussion_Paper_Series/040_I4R_Albrecht_Collins_Gauriot_Wu.pdf))
+
+Collins and Richards (2013) [Evolution, Fertility and the Ageing Population](https://api.research-repository.uwa.edu.au/ws/portalfiles/portal/104234625/13_02_Evolution_Fertility_and_the_Ageing_Population.pdf) UWA Discussion Papers in Economics 13.02 ([post](/fertility-is-going-to-go-up/))
+
+## PhD
+
+I completed a PhD at the University of Western Australia. My thesis can be downloaded [here](https://research-repository.uwa.edu.au/en/publications/essays-on-human-evolution-and-economic-growth), although most of the chapters that make up the thesis were published and are listed above. You can access the examiner reports [here](/phd-thesis-passed/).
+
+
+
+<p align="center"; style="margin-left: 10px; margin-right: 10px; margin-top: 50px">BE NOTIFIED OF NEW POSTS VIA EMAIL</p>
+<p  align="center"><iframe src="https://newsletter.jasoncollins.blog/embed" width="360" height="110" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>

@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.23">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Collins">
+<meta name="dcterms.date" content="2014-12-29">
+
+<title>Complexity and the Art of Public Policy – Jason Collins blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ac706bccb5107cfdbcdabb2cff0da72d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C50MEPDMZ9"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
+</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Complexity and the Art of Public Policy – Jason Collins blog">
+<meta property="og:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta property="og:site_name" content="Jason Collins blog">
+<meta name="twitter:title" content="Complexity and the Art of Public Policy – Jason Collins blog">
+<meta name="twitter:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Jason Collins blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../subscribe.html"> 
+<span class="menu-text">Subscribe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Complexity and the Art of Public Policy</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jason Collins </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 29, 2014</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>The basis of David Colander and Roland Kupers’s book&nbsp;<em>Complexity and the Art of Public Policy: Solving Society’s Problems from the Bottom Up</em>&nbsp;is that the economy is a complex system and it should be examined through a complexity frame.</p>
+<p>A complex system comprises many parts that interact in a nonlinear manner. You can’t simply add the parts. While you might expect this would lead to chaos, emergent behaviour in complex systems can lead&nbsp;to what appears to be an order state. Outcomes in complex systems are inherently hard to predict.&nbsp;Small changes in initial conditions can have massive effects on outcomes. Any tweak to the system can cascade through the system in a myriad of ways. Determining the web of interactions with precision is impossible,&nbsp;so&nbsp;despite the abundance of&nbsp;experts making economic arguments as though they know what they’re doing, they usually&nbsp;don’t.</p>
+<p>The complexity frame does away with a lot of the assumptions built into policy analysis, including:</p>
+<blockquote class="blockquote">
+<p>It doesn’t assume people are hyper rational; it doesn’t assume system dynamics are linear; it doesn’t assume tastes are unaffected by process; it doesn’t assume government can control; it doesn’t assume the competitive market can somehow exist independently of government and other social natural systems; it doesn’t assume the institutional structure is fixed. Through what it doesn’t assume, the complexity policy frame changes the nature of the policy discussion.</p>
+</blockquote>
+<p>In general, I am a fan of this&nbsp;argument. It leads to a more humble approach to policy. And&nbsp;despite the suggestion that prediction is hard in such systems, complexity science does provide some insight.</p>
+<blockquote class="blockquote">
+<p>We are not suggesting that society should resign itself to a fatalistic relativist position by concluding that since everything is complicated; you just have to fall back to your subjective judgment. That’s not what we mean. We advocate setting the bar substantially higher, with the idea of educated common sense. Educated common sense involves an awareness of the limitations of our knowledge that is inherent in the complexity frame. A central argument of this book is that with complexity now being several decades old as a discipline (and much older as a sensibility), policy that ignores this frame fails the educated common sense standard.</p>
+</blockquote>
+<p>Importantly, the complexity frame&nbsp;provides a new perspective on government. Rather than the question being one of government versus markets, both top-down government solutions and bottom-up market solutions are seen as having evolved from the bottom up. The government solution is an element of the system, not outside it, with government a (crude) bottom-up solution to previous problems.</p>
+<p>On that basis, the proper role of government is&nbsp;not to implement the government’s will, but rather the people’s will through governmental institutions built to solve collective action problems and provide the institutional environment for people to solve problems themselves. People can solve their problems in the right environment. Colander and Kupers write:</p>
+<blockquote class="blockquote">
+<p>[The complexity approach to policy]&nbsp;assumes that individuals are smart and adaptive, and if responsibility is given to them, they will use it to avoid problems for themselves and to design institutions that achieve the goals they want. But they will do so only if they are given the chance and only in the appropriate institutional environment. To “be given a chance” means that government does not “solve” the problem prematurely. In that view the complexity approach to policy is similar to the market fundamentalist view. But it differs from the market fundamentalist position in two crucial ways: First, it sees individuals as concerned with much more than material welfare, their aspirations extending to broader social welfare improvements. Second, while the market fundamentalist position assumes that the market will enable an optimal solution, the complexity frame recognizes that there may well be lock-ins, emergent collective effects, or market failures that need to be willfully overcome via collective action to allow the economy to move to a more desirable basin of attraction.</p>
+</blockquote>
+<p>Although I broadly agree, you can see the caricature of the ‘market fundamentalist” creeping in - the implication&nbsp;that ’market fundamentalists’ believe people only care about material welfare. A degree of caricature is present through much of the book. However, the second point is important. Emergent outcomes may not necessarily be optimal, although in the right institutional environment they often are.</p>
+<p>One example where a successful institutional structure was established concerns&nbsp;an intersection in&nbsp;the town of Drachten in the Netherlands. This intersection&nbsp;has no traffic lights, no sidewalks, no stop signs and no traffic directions from police. The result is slightly faster traffic flow and fewer accidents.&nbsp;The appropriate institutional environment was one in which users were mixed and took care in their approach to the intersection, but were free to use judgment as to how to approach it.</p>
+<p>Despite being distinguished from the market fundamentalist view, there is a laissez-faire bent to the complexity&nbsp;approach - although as Colander and Kupers explain, their use of “laissez-faire” better matches its historical origins than some current uses. Colander and Kupers also suggest that greater direct government intervention reduces the&nbsp;success of the system getting the bottom-up “ecostructure” right.</p>
+<p>Having said I am a fan of a complexity approach, the way Colander and Kupers make their case is repetitive. They spend the first two-thirds of the book&nbsp;placing the complexity frame between the opposing viewpoints of free markets and government control, and suggest that a complexity approach can rise above politics as it assumes neither government or free markets are superior (Eric Beinhocker tries the same trick in <a href="https://www.jasoncollins.blog/beinhockers-the-origin-of-wealth/">The Origin of Wealth</a>). This claim is&nbsp;somewhat naïve, and I expect that adoption of&nbsp;the complexity frame will simply add a new tool to the old battle (as used by Paul Ormerod in <a href="https://www.jasoncollins.blog/ormerods-why-most-things-fail/">Why Most Things Fail</a>).&nbsp;The authors also spend a lot of time contrasting the complexity frame with&nbsp;what they call the standard policy frame - also somewhat repetitive - although I do suspect this is ultimately the greatest contribution that will come from complexity science.</p>
+<p>One important piece of the complexity frame is norms. Norms are strong shapers of behaviour and outcomes. Turning back to the&nbsp;traffic example in Drachten, norms around watching out for pedestrians and the appropriate way to drive through a mixed use space&nbsp;are likely important. Trust is also an essential enabler.&nbsp;An influx of foreign drivers with different norms and values could result in the experiment breaking down. As an example of different norms,&nbsp;Colander and Kupers note that traffic merging varies between Germany and the Netherlands, meaning that road&nbsp;design might need to vary between two apparently similar cultures.</p>
+<p>A further twist to the complexity frame is the assumption&nbsp;that norms and culture are not constant, and tastes are not necessarily well formed. The&nbsp;activities that people undertake can feedback on&nbsp;their wants and shape them as a person. The complexity frame shows that what the collective wants as its taste and norms and what is has as its tastes and norms can differ, and “both society and individuals can know that some of the tastes and norms they have are not the tastes and norms they want”.</p>
+<p>This mismatch leads Colander and Kupers to advocate what they call norms policy. Rather than small changes in environment to affect people’s choices (the territory of behavioural economics and ‘nudges’), they propose supernudges - institutional changes that change and feed back on people’s tastes and norms.&nbsp;The&nbsp;policy discussion should be on how tastes evolve, change and can be influenced.</p>
+<p>Their advocacy of norms policy has a starting assumption that tastes are arbitrary, which gives a degree of freedom in changing them. However,&nbsp;that starting point seems to have the same problem&nbsp;as the approach they critique, unsubstantiated assumptions. An evolutionary understanding of human behaviour might suggest some norms are rather robust.</p>
+<p>Continuing on, they argue that as&nbsp;norms&nbsp;can be influenced by government action, government should&nbsp;tweak the environment so pro-social norms emerge. &nbsp;One example they provide is that government should try to influence the tastes and norms relating to the materialistic nature of society. They suggest that&nbsp;“many would agree that in today’s Western societies material welfare is given more prevalence than most people would like” and that there is nothing normal about conspicuous consumption as a&nbsp;norm. However, as above,&nbsp;expensive signalling and status desires seem very much part of human nature.</p>
+<p>A specific example&nbsp;relates to climate change. Colander and Kupers&nbsp;argue that if&nbsp;people have climate friendly tastes, there is little cost to dealing with the problem of climate change (I’m not sure that argument strictly holds - if I have BMW friendly tastes, there may still be a substantial cost of acquiring one). As a result, government should encourage tastes less likely to create global warming than other tastes.</p>
+<p>To give a practical example, they point to <a href="http://www.globalclimateforum.org/fileadmin/ecf-documents/publications/reports/A_New_Growth_Path_for_Europe_-_Synthesis_Report.pdf">a publication co-authored by Kupers</a> that suggests climate change is an economic opportunity, and that&nbsp;bigger emission reduction targets can result in&nbsp;more investment growth and employment in Europe. They do state that they&nbsp;don’t know if will work, but they applaud it as useful experiment. But how would you ever know it worked in a complex system? And what are the costs of failure? Further, parts of the&nbsp;report&nbsp;look like standard economics junk, complete with estimates of GDP in 2020 to the nearest billion dollars.</p>
+<p>Beyond this climate change example, norms policy hits me as problematic&nbsp;for two reasons. First,&nbsp;it&nbsp;smacks of naïvety about the nature of government (as does their suggestion that government could provide a positive role model). What tastes and norms would government like us to have (beyond voting for incumbents)? But more importantly, given that tastes and norms are part of a complex system, what confidence could government have that their actions would influence people in the right way? And how might those norms play out? Materialistic norms might just be the type of norms that allow many of our other non-materialistic preferences to be realised.</p>
+<p>More broadly, they&nbsp;discuss&nbsp;the need to get the ecostructure right for positive norms or solutions to emerge. They consider this to&nbsp;be the area&nbsp;where the biggest gains from a complexity frame will be found.</p>
+<p>One suggestion is facilitating the development of&nbsp;for-benefit firms, sparing social entrepreneurs from being&nbsp;shoehorned&nbsp;into the not-for-profit or profit categories. To the extent there are barriers from people forming firms&nbsp;with social objectives, it may be a useful idea. But once again, their starting position - that only for-benefit institutions can optimise overall welfare - appears somewhat strong. As a result, they worry about people using new forms of for-benefit institutions to benefit themselves, not society (is the for benefit label just a marketing tool?), which seems a misplaced concern.</p>
+<p>Having said that, as they do for many of their suggestions, they&nbsp;acknowledge that for-benefit structures might not&nbsp;achieve positive outcomes. This is matched with their general (welcome) call for experimentation - although experimentation in a complex system is&nbsp;difficult.</p>
+<p>For many&nbsp;&nbsp;of the policy implications presented by Colander and Kupers, I was unclear how they related to the complexity frame. At times it felt as though they were attempting to claim any interesting idea as relating to complexity, be that prediction markets or prizes for innovation (see the notes at the bottom of this post for some&nbsp;examples). They even praise&nbsp;economists’ aim&nbsp;to find&nbsp;“the ideal instrumental variable and more generally torturing the data to make it tell a story,”&nbsp;despite the linearity embedded in most of these models. Complexity theory would suggest most of these results are useless.</p>
+<p>Then there is also the occasional bashing of the standard policy model straw man. They claim that the standard policy model results in&nbsp;people thinking of government policy by default in terms of GDP, ignoring the mass of policy concerning equity or capability. They suggest resilience plays no part in the standard frame, ignoring the massive prudential regulatory apparatus applied to the banking system. They also provide an&nbsp;example of a massive investment in the Netherlands in constructing a water wall. People changed behaviour and moved into the protected areas, which makes cost of failure even higher - an event they suggest the standard policy frame ignores. But this is exactly what the standard frame would predict - change incentives, change behaviour.</p>
+<p>Colander and Kupers&nbsp;also praise the emergence of behavioural economics, although they do criticise attempts to put these findings into the standard policy model.&nbsp;Their willingness to jump on the behavioural economics bandwagon does highlight one of the shortcomings of their approach - their failure to adopt an even deeper understanding of human behaviour as provided by evolutionary theory. It would provide a better framework on which to build their understanding of norms.</p>
+<p>Overall, Complexity and the Art of Public Policy is a good book. However,&nbsp;the last third of the book did not convince me&nbsp;that complexity theory arms us with many new policy tools. A complexity frame punches holes in many of our methods of analysis and the policy options we put on the table using standard economic frameworks. But the very nature of complex systems makes it&nbsp;a challenge to propose options that we can claim with any confidence to have positive effect. Roland and Kupers have ventured into that area - which I am grateful for. I was glad to read a complexity book with an attempt to give some policy relevance without yet another description of the El Farol Bar problem. But the particular examples they provided leave me of the view that the strongest contribution of complexity theory will be to tell us when our standard economic policy tools will work, and when they won’t. That’s no small accomplishment, but in a world where we need to “do something”, it’s not an easy sell.</p>
+<hr>
+<p>As&nbsp;I didn’t want to fill this review with minor complaints (as has been my bad habit recently), below are some additional notes that I took as I read the book.</p>
+<p>Through&nbsp;the last third of the book I found myself constantly marking proposed applications of the complexity frame that did not seem to have much to do with complexity:</p>
+<ul>
+<li><p>Colander and Kupers&nbsp;point to a 90 per cent reduction in plastic bag use in Ireland following introduction of a small tax as a discontinuity or tipping point, but in the presence of easy substitutes, it is not&nbsp;hard to&nbsp;explain in a standard economic framework.</p></li>
+<li><p>They put granting prizes in the complexity frame, but why? It appears to involve standard incentives.</p></li>
+<li><p>Prediction markets are placed complexity frame, but can also be accommodated in the standard policy frame. And why doesn’t the complexity frame suggest that sometimes the prediction markets&nbsp;will fail?</p></li>
+<li><p>They propose charging fees for quasi-public goods where beneficiaries can be identified. Economics 101.</p></li>
+<li><p>Their discussion&nbsp;of&nbsp;single payer versus competitive market in healthcare looks a lot like a standard policy debate. They state that the complexity framework shows the current setup is not ideal (does any?) and point to problems separating the buyer and payer (as standard as you might get).</p></li>
+<li><p>They point to shorter duration copyright being better, and suggest that extensions to keep Mickey Mouse under copyright might be considered OK under the standard policy frame. It seems ridiculous under all frames to me.</p></li>
+<li><p>They propose&nbsp;leasing government resources to fund social goods, rather than privatising. But what does the complexity frame show about this that a standard policy frame does not?</p></li>
+<li><p>They propose&nbsp;charging for patents and copyright, pointing out that while it reduces financial incentives, people innovate for&nbsp;other motivations too. An interesting idea, but why is this a complexity frame? And on the merits, can you imagine the complexity of copyright law if government directly had its fingers in that pie? You would have the mess of copyright minus the incentive it is designed to provide.</p></li>
+</ul>
+<p>On behavioural economics, they&nbsp;suggest the behavioural economists’ argument of less than perfect rationality undermines the traditional economic framework and all policy conclusions that flow from it. They also&nbsp;suggest that&nbsp;you can’t simply shoehorn behavioural economics into the standard economic model as it rests on different assumptions. This claim is a bit too strong - Vernon Smith’s experiments in markets suggest this.&nbsp;Their willingness to adopt the findings of behavioural economics is also an interesting fit with their belief&nbsp;that people are smart and adaptive, which they suggest is a precondition for the emergence of bottom-up solutions.</p>
+<p>An evolutionary framework could&nbsp;inform some of their analysis of the existence of path dependency and lock-in of income. Contrast their&nbsp;suggestion that changing the ecostructure could change distribution of income with the <a href="https://www.jasoncollins.blog/the-genetic-basis-of-social-mobility/">work of Gregory Clark</a>&nbsp;showing the failure of policy changes to affect&nbsp;social mobility.&nbsp;Path dependency in the&nbsp;income of children might simply&nbsp;reflect the&nbsp;existence of the same underlying (genetic) factors.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.jasoncollins\.blog");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="light">
+<script>
+function loadGiscusWhenReady() {
+  // Function to get the theme based on body class
+  const getTheme = () => {
+    const baseTheme = document.getElementById('giscus-base-theme').value;
+    const altTheme = document.getElementById('giscus-alt-theme').value;
+    return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+  };
+  // Create the Giscus script and add it to the desired location
+  const loadGiscus = () => {
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "jasonacollins/jasoncollinsblog";
+    script.dataset.repoId = "R_kgDOIbjYgQ";
+    script.dataset.category = "Announcements";
+    script.dataset.categoryId = "DIC_kwDOIbjYgc4CSiuB";
+    script.dataset.mapping = "pathname";
+    script.dataset.reactionsEnabled = "0";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "bottom";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  };
+  // MutationObserver to detect when the 'quarto-light' or 'quarto-dark' class is added to the body
+  const observer = new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+      if (mutation.type === "attributes" && mutation.attributeName === "class") {
+        if (document.body.classList.contains('quarto-light') || document.body.classList.contains('quarto-dark')) {
+          loadGiscus();
+          observer.disconnect(); // Stop observing once Giscus is loaded
+          break;
+        }
+      }
+    }
+  });
+  // Start observing the body for class attribute changes
+  observer.observe(document.body, {
+    attributes: true,
+    attributeFilter: ["class"],
+  });
+}
+loadGiscusWhenReady();
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">
+<p>Copyright: CC-BY</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

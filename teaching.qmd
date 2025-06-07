@@ -1,0 +1,19 @@
+---
+title: "Teaching"
+aliases:
+  - /teaching/
+---
+
+Below are links to course notes for subjects I have taught over the last couple of years.
+
+All are works in progress and regularly revised during teaching periods.
+
+All are [CC-BY](https://creativecommons.org/licenses/by/4.0/), so feel free to take and use with attribution as you see fit.
+
+- [Behavioural economics](https://behaviouraleconomics.jasoncollins.blog): A traditional course on the foundations of behavioural economics. Supporting videos can be found [here](https://www.youtube.com/@jasonacollins).
+
+- [Behavioural finance](https://behaviouralfinance.jasoncollins.blog)
+
+- [Consumer financial decision making](https://cfdm.jasoncollins.blog)
+
+- [Corporate decision making](https://corporate.jasoncollins.blog)

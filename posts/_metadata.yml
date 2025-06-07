@@ -1,0 +1,24 @@
+# options specified here will apply to all posts in this folder
+
+# freeze computational output
+# (see https://quarto.org/docs/projects/code-execution.html#freeze)
+freeze: true
+
+# Enable banner style title blocks
+title-block-banner: false
+
+comments:
+  giscus:
+    repo: "jasonacollins/jasoncollinsblog"
+    repo-id: "R_kgDOIbjYgQ"
+    category: "Announcements"
+    category-id: "DIC_kwDOIbjYgc4CSiuB"
+    mapping: "pathname"
+    reactions-enabled: false
+#    loading: lazy
+    input-position: "bottom"
+    theme: "light"
+
+#format:
+#  html:
+#    include-after-body: ../subscribe.html

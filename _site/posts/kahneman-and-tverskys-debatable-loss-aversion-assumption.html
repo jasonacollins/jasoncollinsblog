@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.23">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Collins">
+<meta name="dcterms.date" content="2019-09-10">
+
+<title>Kahneman and Tversky’s “debatable” loss aversion assumption – Jason Collins blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ac706bccb5107cfdbcdabb2cff0da72d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C50MEPDMZ9"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
+</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Kahneman and Tversky’s “debatable” loss aversion assumption – Jason Collins blog">
+<meta property="og:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta property="og:image" content="https://www.jasoncollins.blog/posts/img/value_function.jpg">
+<meta property="og:site_name" content="Jason Collins blog">
+<meta property="og:image:alt" content="Value Function">
+<meta name="twitter:title" content="Kahneman and Tversky’s “debatable” loss aversion assumption – Jason Collins blog">
+<meta name="twitter:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta name="twitter:image" content="https://www.jasoncollins.blog/posts/img/value_function.jpg">
+<meta name="twitter:image:alt" content="Value Function">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Jason Collins blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../subscribe.html"> 
+<span class="menu-text">Subscribe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Kahneman and Tversky’s “debatable” loss aversion assumption</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jason Collins </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 10, 2019</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Loss aversion is the idea that losses loom larger than gains. It is one of the foundational concepts in the judgment and decision making literature. In <a href="https://www.jasoncollins.blog/re-reading-kahnemans-thinking-fast-and-slow/">Thinking, Fast and Slow</a>, Daniel Kahneman wrote “The concept of loss aversion is certainly the most significant contribution of psychology to behavioral economics.”</p>
+<p>Yet, over the last couple of years several critiques have emerged that question the foundations of loss aversion and whether loss aversion is a phenomena at all.</p>
+<p>One is an article by Eldad Yechiam, titled <a href="https://doi.org/10.1007/s00426-018-1013-8">Acceptable losses: the debatable origins of loss aversion</a> (<a href="https://ie.technion.ac.il/~yeldad/Y2018.pdf">pdf</a>). Framed in one case as a <a href="https://twitter.com/DegenRolf/status/985864400664973312">spread of the replication crisis</a> to loss aversion, the abstract reads as follows:</p>
+<blockquote class="blockquote">
+<p>It is often claimed that negative events carry a larger weight than positive events. Loss aversion is the manifestation of this argument in monetary outcomes. In this review, we examine early studies of the utility function of gains and losses, and in particular the original evidence for loss aversion reported by Kahneman and Tversky (Econometrica 47:263–291, 1979). We suggest that loss aversion proponents have over-interpreted these findings. Specifically, the early studies of utility functions have shown that while very large losses are overweighted, smaller losses are often not. In addition, the findings of some of these studies have been systematically misrepresented to reflect loss aversion, though they did not find it. These findings shed light both on the inability of modern studies to reproduce loss aversion as well as a second literature arguing strongly for it.</p>
+</blockquote>
+<p>A second, <a href="https://doi.org/10.1002/jcpy.1047">The Loss of Loss Aversion: Will It Loom Larger Than Its Gain</a> (<a href="https://statmodeling.stat.columbia.edu/wp-content/uploads/2018/06/Loss-of-Loss-Aversion.pdf">pdf</a>), by David Gal and Derek Rucker, attacks the concept of loss aversion more generally (supposedly the “<a href="https://twitter.com/DegenRolf/status/985945827511357440?s=20">death knell</a>”):</p>
+<blockquote class="blockquote">
+<p>Loss aversion, the principle that losses loom larger than gains, is among the most widely accepted ideas in the social sciences. The first part of this article introduces and discusses the construct of loss aversion. The second part of this article reviews evidence in support of loss aversion. The upshot of this review is that current evidence does not support that losses, on balance, tend to be any more impactful than gains. The third part of this article aims to address the question of why acceptance of loss aversion as a general principle remains pervasive and persistent among social scientists, including consumer psychologists, despite evidence to the contrary. This analysis aims to connect the persistence of a belief in loss aversion to more general ideas about belief acceptance and persistence in science. The final part of the article discusses how a more contextualized perspective of the relative impact of losses versus gains can open new areas of inquiry that are squarely in the domain of consumer psychology.</p>
+</blockquote>
+<p>A third strain of criticism relates to the concept of ergodicity. Put forward by <a href="https://ergodicityeconomics.com">Ole Peters</a>, the basic claim is that people are not maximising the expected value of a series of gambles, but rather the time average. If people maximise the latter, not the former as many approaches assume, you don’t need risk or loss aversion to explain the decisions. (I’ll leave explaining what exactly this means to a later post.)</p>
+<p>I’m as sceptical and cynical about the some of the findings in the behavioural sciences as most (here’s my <a href="https://www.jasoncollins.blog/a-critical-behavioural-economics-and-behavioural-science-reading-list/">critical behavioural economics and behavioural science reading list</a>), but I’m not sure I am fully on board with these arguments, particularly the stronger statements of Gal and Rucker. This post is the first of a few rummaging through these critiques to make sense of the debate, starting with Yechiam’s paper on the foundations of loss aversion in prospect theory.</p>
+<section id="acceptable-losses-the-debatable-origins-of-loss-aversion" class="level2">
+<h2 class="anchored" data-anchor-id="acceptable-losses-the-debatable-origins-of-loss-aversion">Acceptable losses: the debatable origins of loss aversion</h2>
+<p>One of the most cited papers in the social sciences is Daniel Kahneman and Amos Tversky’s 1979 paper <a href="https://doi.org/10.2307/1914185">Prospect Theory: An Analysis of Decision under Risk</a> (<a href="http://www.its.caltech.edu/~camerer/Ec101/ProspectTheory.pdf">pdf</a>). Prospect theory is intended to be a descriptive model of how people make decisions under risk, and an alternative to expected utility theory.</p>
+<p>Under expected utility theory, people assign a utility value to each possible outcome of a lottery or gamble, with that outcome typically relating to a final level of wealth. The expected utility for a decision under risk is simply the probability weighted sum of these utilities. The utility of a 50% chance of $0 and a 50% chance of $200 is simply the sum of 50% of the utility of each of $0 and $200.</p>
+<p>When utility is assumed to increase at a decreasing rate with each additional dollar of additional wealth - as is typically the case - it leads to risk averse behaviour, with a certain sum preferred to a gamble with an equivalent expected value. For example, a risk averse person would prefer $100 for certain that the 50-50 gamble for $0 or $200.</p>
+<p>In their 1979 paper, Kahneman and Tversky described a number of departures from expected utility theory. These included:</p>
+<ul>
+<li><p>The certainty effect: People overweight outcomes that are considered certain, relative to outcomes which are merely probable.</p></li>
+<li><p>The reflection effect: Relative to a reference point, people are risk averse when considering gains, but risk seeking when facing losses.</p></li>
+<li><p>The isolation effect: People focus on the elements that differ between options rather than those components that are shared.</p></li>
+<li><p>Loss aversion: Losses loom larger than gains - relative to a reference point, a loss is more painful than a gain of the same magnitude.</p></li>
+</ul>
+<p>Loss aversion and the reflection effect result in the following famous diagram of how people weight losses and gains under prospect theory. Loss aversion leads to a kink in the utility curve at the reference point. The curve is steeper below the reference point than above. The reflection effect results in the curve being concave above the reference point, and convex below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<figcaption>Value Function</figcaption>
+<p><a href="img/value_function.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Value Function"><img src="img/value_function.jpg" class="img-fluid figure-img" alt="Value Function"></a></p>
+</figure>
+</div>
+<p>Through the paper, Kahneman and Tversky describe experiments on each of the certainty effect, reflection effect, and isolation effect. However, as pointed out by Eldad Yechiam in his paper <a href="https://doi.org/10.1007/s00426-018-1013-8">Acceptable losses: the debatable origins of loss aversion</a>, loss aversion is taken as a stylised fact. Yechiam writes:</p>
+<blockquote class="blockquote">
+<p>[I]n their 1979 paper, Kahneman and Tversky (1979) strongly argued for loss aversion, even though, at the time, they had not reported any experiments to support it. By indicating that this was a robust finding in earlier research, Kahneman and Tversky (1979) were able to rely upon it as a stylized fact. They begin their discussion on losses by stating that “a salient characteristic of attitudes to changes in welfare is that losses loom larger than gains” (p.&nbsp;279), which suggests that this stylized fact is based on earlier findings. They then follow with the (much cited) sentence that “the aggravation that one experiences in losing a sum of money appears to be greater than the pleasure associated with gaining the same amount [17]” (p.&nbsp;279). Most people who cite this sentence do so without the end quote of Galenter and Pliner (1974). Galenter and Pliner (1974) are, therefore, the first empirical study used to support the notion of loss aversion.</p>
+</blockquote>
+<p>So what did Galenter and Pliner find? Yechiam writes:</p>
+<blockquote class="blockquote">
+<p>Summing up their findings, Galenter and Pliner (1974) reported as follows: “We now turn to the question of the possible asymmetry of the positive and negative limbs of the utility function. On the basis of intuition and anecdote, one would expect the negative limb of the utility function to decrease more sharply than the positive limb increases… what we have observed if anything is an asymmetry of much less magnitude than would have been expected … the curvature of the function does not change in going from positive to negative” (p.&nbsp;75).</p>
+<p>Thus, our search for the historical foundations of loss aversion turns into a dead end on this particular branch: Galenter and Pliner (1974) did not observe such an asymmetry; and their study was quoted erroneously.</p>
+</blockquote>
+<p>Effectively, the primary reference for the claim that we are loss averse does not support it.</p>
+<p>So what other sources did Kahneman and Tversky rely on? Yechiam continues:</p>
+<blockquote class="blockquote">
+<p>They argue that “the main properties ascribed to the value function have been observed in a detailed analysis of von Neumann–Morgenstern utility functions for changes of wealth [14].” (p.&nbsp;281). The citation refers to Fishburn and Kochenberger’s forthcoming paper (at the time; published 1979). Fishburn and Kochenberger’s (1979) study reviews data of five other papers (Grayson, 1960; Green, 1963; Swalm, 1966; Halter &amp; Dean, 1971; Barnes &amp; Reinmuth, 1976) also cited by Kahneman and Tversky (1979). Summing up all of these findings, Kahneman and Tversky (1979) argue that “with a single exception, utility functions were considerably steeper for losses than for gains.” (p.&nbsp;281). The “single exception” refers to a single participant who was reported not to show loss aversion, while the remaining one apparently did.</p>
+</blockquote>
+<p>These five studies all involved very small samples, involving a total of 30 subjects.</p>
+<p>Yechiam walks through three of the studies. On Swalm (1966):</p>
+<blockquote class="blockquote">
+<p>The results of the 13 individuals examined by Swalm … appear at the first glance to be consistent with an asymmetric utility function implying overweighting of losses compared to gains (i.e., loss aversion). Notice, however, that amounts are in the thousands, such that the smallest amount used was set above $1000 and typically above $5000, because it was derived from the participant’s “planning horizon”. Moreover, for more than half of the participants, the utility curve near the origin …, which spans the two smallest gains and two smallest losses for each person, was linear. This deviates from the notion of loss aversion which implies that asymmetries should also be observed for small amounts as well.</p>
+</blockquote>
+<p>This point reflects an argument that Yechiam and other have made in several papers (including <a href="http://www.decisionsciencenews.com/sjdm/journal.sjdm.org/12/12712/jdm12712.pdf">here</a> and <a href="https://doi.org/10.1037/a0029383">here</a>) that loss aversion is only apparent in high-stakes gambles. When the stakes are low, loss aversion does not appear.</p>
+<p>On Grayson (1960):</p>
+<blockquote class="blockquote">
+<p>A similar pattern is observed in Grayson’s utility functions … The amounts used were also extreme high, with only one or two points below the $50,000 range. For the points above $100,000, the pattern seems to show a clear asymmetry between gains and losses consistent with loss aversion. However, for 2/9 participants …, the utility curve for the points below 100,000 does not indicate loss aversion, and for 2/9 additional participants no loss aversion is observed for the few points below $50,000. Thus, it appears that in Grayson (1960) and Swalm (1966), almost all participants behaved as if they gave extreme losses more weight than corresponding gains, yet about half of them did not exhibit a similar asymmetry for the lower losses (e.g., below $50,000 in Grayson, 1960).</p>
+</blockquote>
+<p>Again, loss aversion is stronger for extreme losses.</p>
+<p>On Green (1963):</p>
+<blockquote class="blockquote">
+<p>… Green (1963) did not examine any losses, making any interpretation concerning loss aversion in this study speculative as it rests on the authors’ subjective impression.</p>
+</blockquote>
+<p>The results from Swalm (1966), Grayson (1960) and Green (1963) covers 26 of the 30 participants aggregated by Fishburn and Kochenberger. Halter and Dean (1971) and Barnes and Reinmuth (1976) only involved two participants each.</p>
+<p>So what of other studies that were available to Kahneman and Tversky at the time?</p>
+<blockquote class="blockquote">
+<p>In 1955, Davidson, Siegel, and Suppes conducted an experiment in which participants were presented with heads or tails bets which they could accept or refuse. …</p>
+<p>… Outcomes were in cents and ran up to a gain or loss of 50 cents. The results of 15 participants showed that utility curves for gains and losses were symmetric …, with a loss/ gain utility ratio of 1.1 (far below than the 2.25 estimated by Tversky and Kahneman, 1992). The authors also re-analyzed an earlier data set by Mosteller and Nogee (1951) involving bets for amounts ranging from − 30 to 30 cents, and it too showed utility curves that were symmetric for gains and losses.</p>
+<p>Lichtenstein (1965) similarly used incentivized bets and small amounts. … Lichtenstein (1965) argued that “The preference for low V [variance] bets indicates that the utility curve for money is not symmetric in its extreme ranges; that is, that large losses appear larger than large wins.” (p.&nbsp;168). Thus, Lichtenstein (1965) interpreted her findings not as a general aversion to losses (which would include small losses and gains), but only as a tendency to overweight large losses relative to large gains.</p>
+<p>… Slovic and Lichtenstein (1968) developed a regression-based approach to examine whether the participants’ willingness to pay (WTP) for a certain lottery is predicted more strongly by the size of its gains or the size of its losses. Their results showed that size of losses predicted WTP more than sizes of gains. … Moreover, in a follow-up study, Slovic (1969) found a reverse effect in hypothetical lotteries: Choices were better predicted by the gain amount than the loss amount. In the same study, he found no difference for incentivized lotteries in this respect.</p>
+<p>Similar findings of no apparent loss aversion were observed in studies that used probabilities that are learned from experience (Katz, 1963; Katz, 1964; Myers &amp; Suydam, 1964).</p>
+</blockquote>
+<p>In sum, the evidence for loss aversion at the time of the publication of prospect theory was relatively weak and limited to high-stakes gambles.</p>
+<p>As Yechiam notes, Kahneman and Tversky only turned their attention to specifically investigating loss aversion in 1992 - and even there it tended to involve large amounts.</p>
+<blockquote class="blockquote">
+<p>Only in 1992 did Tversky and Kahneman (1992) and Redelmeier and Tversky (1992) start to empirically investigate loss aversion, and when they did, they used either very large amounts (Redelmeier &amp; Tversky, 1992) or the so-called “list method” in which one chooses between lotteries with changing amounts up until choices switch from one alternative to the other (Tversky &amp; Kahneman, 1992). This usage of high amounts would come to characterize most of the literature later arguing for loss aversion (e.g., Redelmeier &amp; Tversky, 1992; Abdellaoui et al., 2007; Rabin &amp; Weizsäcker, 2009) as would be the usage of decisions that are not incentivized (i.e., hypothetical; as discussed below).</p>
+</blockquote>
+<p>I’ll examine the post-1979 evidence in more detail in a future post, but in the interim will note this observation from Yechiam on the more recent experiments.</p>
+<blockquote class="blockquote">
+<p>In a review of the literature, Yechiam and Hochman (2013a) have shown that modern studies of loss aversion seem to be binomially distributed into those who used small or moderate amounts (up to $100) and large amounts (above $500). The former typically find no loss aversion, while the latter do. For example, Yechiam and Hochman (2013a) reviewed 11 studies using decisions from description (i.e., where participants are given exact information regarding the probability of gaining and losing money). From these studies, seven did not find loss aversion and all of them used loss/gain amounts of up to $100. Four did find loss aversion, and three of them used very high amounts (above $500 and typically higher). Thus, the usage of high amounts to produce loss aversion is maintained in modern studies.</p>
+</blockquote>
+<p>The presence of loss aversion for only large stakes gambles raises some interesting questions. In particular, are we actually observing the effect of “minimal requirements”, whereby a loss would push them below some minimum threshold for, say, survival or other basic necessities? (Or at least a heuristic that operates with that intent?) This is a distinct concept from loss aversion as presented in prospect theory.</p>
+<p>Finally - and a minor point on the claim that Yechiam’s paper was the beginning of the spread of the replication crisis to loss aversion - there is of course no direct experiment on loss aversion in the initial prospect theory paper to be replicated. A <a href="https://osf.io/esxc4/">recent replication</a> of the experiments in the 1979 paper had positive results (excepting some mixed results concerning the reflection effect). Replication of the 1979 paper doesn’t, however, resolve provide any evidence on the replicability of loss aversion itself, nor the appropriate interpretation of the experiments.</p>
+<p>On that point, in my next post on the topic I’ll turn to some of the alternative explanations for what appears to be loss aversion, particularly the claims of Gal and Rucker that losses do not loom larger than gains.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.jasoncollins\.blog");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="light">
+<script>
+function loadGiscusWhenReady() {
+  // Function to get the theme based on body class
+  const getTheme = () => {
+    const baseTheme = document.getElementById('giscus-base-theme').value;
+    const altTheme = document.getElementById('giscus-alt-theme').value;
+    return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+  };
+  // Create the Giscus script and add it to the desired location
+  const loadGiscus = () => {
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "jasonacollins/jasoncollinsblog";
+    script.dataset.repoId = "R_kgDOIbjYgQ";
+    script.dataset.category = "Announcements";
+    script.dataset.categoryId = "DIC_kwDOIbjYgc4CSiuB";
+    script.dataset.mapping = "pathname";
+    script.dataset.reactionsEnabled = "0";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "bottom";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  };
+  // MutationObserver to detect when the 'quarto-light' or 'quarto-dark' class is added to the body
+  const observer = new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+      if (mutation.type === "attributes" && mutation.attributeName === "class") {
+        if (document.body.classList.contains('quarto-light') || document.body.classList.contains('quarto-dark')) {
+          loadGiscus();
+          observer.disconnect(); // Stop observing once Giscus is loaded
+          break;
+        }
+      }
+    }
+  });
+  // Start observing the body for class attribute changes
+  observer.observe(document.body, {
+    attributes: true,
+    attributeFilter: ["class"],
+  });
+}
+loadGiscusWhenReady();
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">
+<p>Copyright: CC-BY</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

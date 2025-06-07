@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.23">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Collins">
+<meta name="dcterms.date" content="2024-07-15">
+
+<title>Using generative AI as an academic - July 2024 edition – Jason Collins blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ac706bccb5107cfdbcdabb2cff0da72d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C50MEPDMZ9"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
+</script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Using generative AI as an academic - July 2024 edition – Jason Collins blog">
+<meta property="og:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta property="og:image" content="https://www.jasoncollins.blog/posts/img/gen-AI.webp">
+<meta property="og:site_name" content="Jason Collins blog">
+<meta name="twitter:title" content="Using generative AI as an academic - July 2024 edition – Jason Collins blog">
+<meta name="twitter:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta name="twitter:image" content="https://www.jasoncollins.blog/posts/img/gen-AI.webp">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Jason Collins blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../subscribe.html"> 
+<span class="menu-text">Subscribe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#my-toolkit" id="toc-my-toolkit" class="nav-link active" data-scroll-target="#my-toolkit">My toolkit</a></li>
+  <li><a href="#thinking" id="toc-thinking" class="nav-link" data-scroll-target="#thinking">Thinking</a></li>
+  <li><a href="#coding-and-data-analysis" id="toc-coding-and-data-analysis" class="nav-link" data-scroll-target="#coding-and-data-analysis">Coding and data analysis</a>
+  <ul class="collapse">
+  <li><a href="#data-exploration" id="toc-data-exploration" class="nav-link" data-scroll-target="#data-exploration">Data exploration</a></li>
+  <li><a href="#extracting-pdf-data" id="toc-extracting-pdf-data" class="nav-link" data-scroll-target="#extracting-pdf-data">Extracting pdf data</a></li>
+  </ul></li>
+  <li><a href="#writing" id="toc-writing" class="nav-link" data-scroll-target="#writing">Writing</a>
+  <ul class="collapse">
+  <li><a href="#lecture-notes" id="toc-lecture-notes" class="nav-link" data-scroll-target="#lecture-notes">Lecture notes</a></li>
+  <li><a href="#writing-organisational-fluff" id="toc-writing-organisational-fluff" class="nav-link" data-scroll-target="#writing-organisational-fluff">Writing organisational fluff</a></li>
+  <li><a href="#generating-quiz-questions" id="toc-generating-quiz-questions" class="nav-link" data-scroll-target="#generating-quiz-questions">Generating quiz questions</a></li>
+  </ul></li>
+  <li><a href="#ai-voiced-lectures" id="toc-ai-voiced-lectures" class="nav-link" data-scroll-target="#ai-voiced-lectures">AI-voiced lectures</a></li>
+  <li><a href="#accessing-github-copilot" id="toc-accessing-github-copilot" class="nav-link" data-scroll-target="#accessing-github-copilot">Accessing GitHub CoPilot</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Using generative AI as an academic - July 2024 edition</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jason Collins </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 15, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>I first wrote <a href="https://www.jasoncollins.blog/posts/using-large-language-models-as-academic">a version of this post in April 2023</a>. A lot has changed since then in both the tools and how I use them.</p>
+<p>As was the case then, if you want a sense of the frontier, others such as <a href="https://www.oneusefulthing.org/">Ethan Mollick</a> will give you a better flavour. But if you’re after some practical examples, you might find this useful.</p>
+<section id="my-toolkit" class="level2">
+<h2 class="anchored" data-anchor-id="my-toolkit">My toolkit</h2>
+<p>I use multiple tools, switching between them depending on the task and comparing the responses. I want to gain a sense of the frontier.</p>
+<p>As an academic, I gain free access to <a href="https://github.com/features/copilot">Github Copilot</a>. (Students can also get free access.) CoPilot provides code suggestions in coding environments. But while badged this way, CoPilot also provides text suggestions more broadly. To access CoPilot, I write markdown documents in <a href="https://code.visualstudio.com">Visual Studio Code</a> or <a href="https://posit.co/download/rstudio-desktop/">RStudio</a>. (For those who want more specific guidance on how to set this up, I’ve added that at the bottom of this post.) If you use CoPilot in Visual Studio Code you also gain access to <a href="https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide">Copilot Chat</a>.</p>
+<p>I also work with <a href="https://chat.openai.com/">ChatGPT Plus</a> and <a href="https://www.anthropic.com/claude">Claude Pro</a> open in a browser. I subscribe to the Pro/Plus version of both: it is worth it for the superior tools. As you’ll see from the below, I use them all the time, although more recently I lean toward Claude.</p>
+<p>I run some other large language models locally on my computer using <a href="https://ollama.com/">Ollama</a>. I do this more to get a feel for them than for current utility. Most of my recent experimentation has been with <a href="https://ollama.com/library/llama3">Llama 3</a>. I use these models via the command line or the <a href="https://github.com/logancyang/obsidian-copilot">CoPilot plugin</a> in <a href="https://obsidian.md/">Obsidian</a>.</p>
+<p>I also subscribe to <a href="https://elevenlabs.io/">ElevenLabs</a> for its voice-generation capabilities. More on that below.</p>
+<p>I’ve experimented with other tools, but they haven’t yet formed a large part of my workflow. I don’t use Bing much, except for images if ChatGPT isn’t giving me what I want. I like that it gives four images for every prompt. I experimented with Google Gemini but haven’t found a reason for it to supplant the Claude plus ChatGPT combination. I revisit it every month or two to see whether I should add it to the mix.</p>
+</section>
+<section id="thinking" class="level2">
+<h2 class="anchored" data-anchor-id="thinking">Thinking</h2>
+<ul>
+<li>Efficiency gain: uncertain</li>
+</ul>
+<p>I am increasingly using Claude and ChatGPT as interactive <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">rubber ducks</a>. When thinking through something new, I’ll often state my thoughts and ask for comments. I’ll often ask them to explain a concept to me, then I will ask follow-up questions. Sometimes I’ll do this in ChatGPT with voice mode when I am walking. I know that I’m not getting 100% accurate information, but I wouldn’t talking to a friend either.</p>
+<p>Similarly, after reading an article and forming my own views on its message, strengths and weaknesses, I’ll ask Claude or ChatGPT their views. I find this can be hit and miss, but on net worth doing. Sometimes the description is spot on, and the critiques hit points I haven’t thought of.</p>
+<p>Finally, if I have a technical question, I’ll ask before googling. It’s faster and, I would say, more accurate than the top Google hits.</p>
+</section>
+<section id="coding-and-data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="coding-and-data-analysis">Coding and data analysis</h2>
+<ul>
+<li>Efficiency gain: 10x</li>
+<li>Quality gain: 50%</li>
+</ul>
+<p>Despite spending a lot of time in R, I am a crap coder. As a result, my typical approach is to write a comment and let CoPilot do the first cut of the code. I will then tweak the code until it is in shape. That tweaking isn’t manual tweaking either. If there is an error or problem that I can’t resolve, I’ll use CoPilot Chat to get a solution. Chat will usually provide code solving the problem.</p>
+<p>CoPilot is also great in helping me understand someone else’s code. I’ll highlight sections and ask CoPilot Chat to explain what it does. Often, I’ll paste poorly documented code into Claude or ChatGPT and ask it to write comments. Further, If the code looks overly complicated, a request to simplify often yields good results. (I’ve been asking ChatGPT to review some of my old code recently. I’m a bit embarrassed at how much more efficiently I could have written it.)</p>
+<p>One large benefit has come from cross-language translation. Last year I wanted to reproduce the results in Berkeley Dietvorst’s <a href="https://doi.org/10.1037/xge0000033">Algorithm aversion: People erroneously avoid algorithms after seeing them err</a>. Data and the code for analysis were <a href="https://researchbox.org/379&amp;PEER_REVIEW_passcode=MOQTEQ">available on ResearchBox</a>. The problem was that the code was in Stata, and I have no desire to learn Stata.</p>
+<p>I pasted the Stata code into ChatGPT and asked for a conversion to R. What I received was 90% of the way there. Initially, there was an error, but pasting the error into ChatGPT gave me the solution first shot. I then tweaked a couple of the variable manipulations and specified that some of the t-tests were paired t-tests. That was it. In less than 10 minutes I had code that reproduced exactly the results from Study 1. I’ve now done this translation dozens of times when examining and reproducing studies by others.</p>
+<p>I’m increasingly asking ChatGPT and Claude to provide me with working programs. For example, I am building a website with an underlying database and model for predicting AFL games. (I wanted to experiment with how far I could go with these tools.) I obtained a web interface and underlying code from Claude to access the database. I used ChatGPT for the first version of the predictive model. I’m now playing with the details, but the core is there. I wouldn’t even attempt it without these tools.</p>
+<section id="data-exploration" class="level3">
+<h3 class="anchored" data-anchor-id="data-exploration">Data exploration</h3>
+<ul>
+<li>Efficiency gain: 2x</li>
+</ul>
+<p>Any time I am about to work with new data, confidentiality permitting, I’ll give the data to ChatGPT and ask about it. I’ll start generally: “tell me about this file”. Then I’ll work down to the details and ask for basic visualisations and analysis. Finally, I’ll export the Python code (or ask for an R version of the code).</p>
+<p>Ever since the <a href="https://datacolada.org/98">Dan Ariely car insurance data fraud</a>, which is obvious from a simple plot, I’ve made it a habit of looking at the data before jumping into analysis (which I didn’t do as often as I should have in the past). It’s surprising how often I find that something is not quite right or as expected. Having ChatGPT on hand makes this first step quick and easy.</p>
+</section>
+<section id="extracting-pdf-data" class="level3">
+<h3 class="anchored" data-anchor-id="extracting-pdf-data">Extracting pdf data</h3>
+<ul>
+<li>Efficiency gain: 10x</li>
+</ul>
+<p>This is a small one in that I don’t need to do that often, but it’s a massive time saver. If there is a large table in a PDF, I ask ChatGPT to output it as a CSV. Recently, I had data spread across half a dozen PDFs in poorly formatted tables. I used ChatGPT to combine and arrange the data. I check the accuracy as I don’t fully trust ChatGPT, but the accuracy is typically great, saving me a lot of time.</p>
+</section>
+</section>
+<section id="writing" class="level2">
+<h2 class="anchored" data-anchor-id="writing">Writing</h2>
+<ul>
+<li>Efficiency gain: 20%</li>
+<li>Quality gain: 10%</li>
+</ul>
+<p>When I first started using GitHub CoPilot, I would have it on whenever I was writing. I would receive suggestions as I typed. Today, I generally turn it off when writing a first draft. The distraction in filtering suggestions was too costly, and I was worried about getting dragged in random directions.</p>
+<p>However, I use Claude and ChatGPT a lot to improve my writing. When I’m having trouble getting a sentence or paragraph right, I’ll often hand it over and ask for 10 possible rewrites. Similarly, I will ask for simpler, shorter or more conversational text. I’ll rarely take a rewrite as provided, but it often gives me a word or turn of phrase that does the job.</p>
+<section id="lecture-notes" class="level3">
+<h3 class="anchored" data-anchor-id="lecture-notes">Lecture notes</h3>
+<p>For more mechanical lecture notes, there are some clear gains. The notes for my undergraduate behavioural economics subject (which you can access <a href="https://behaviouraleconomics.jasoncollins.blog">here</a>) were produced with CoPilot assistance.</p>
+<p>Here are a few instances where CoPilot has been useful.</p>
+<p>Often the notes include a statement of a concept followed by a step-by-step example or illustration. The gain comes when you’re writing those steps.</p>
+<p>For example, in a section about decision making under risk, I might write:</p>
+<blockquote class="blockquote">
+<p>Bill is a risk-averse agent with utility function <span class="math inline">u(x)=\text{ln}(x)</span> and wealth of $100. He is offered a 50:50 bet to win $100, lose $50.</p>
+<p>Will Bill accept the bet?</p>
+</blockquote>
+<p>If I write the first couple of words of the answer “First, we calculate…”, CoPilot is away.</p>
+<blockquote class="blockquote">
+<p>First, we calculate the expected utility of each option. The expected utility of the bet is:</p>
+</blockquote>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{=tex}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="in">\begin{aligned}</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="in">EU(\text{bet}) &amp;= 0.5 \times u(100) + 0.5 \times u(-50) \\</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="in">&amp;= 0.5 \times \text{ln}(100) + 0.5 \times \text{ln}(50) \\</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="in">&amp;= 4.259</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="in">\end{aligned}</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<blockquote class="blockquote">
+<p>The expected utility of not taking the bet is:</p>
+</blockquote>
+<div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="in">```{=tex}</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="in">\begin{aligned}</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="in">EU(\text{no bet}) &amp;= U(100) \\</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="in">&amp;= \text{ln}(100) \\</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="in">&amp;= 4.605</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="in">\end{aligned}</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<blockquote class="blockquote">
+<p>As the expected utility of the bet is less than the expected utility of not taking the bet, Bill will not accept the bet.</p>
+</blockquote>
+<p>Not bad for a few seconds of work. For those unfamiliar with the mathematical notation, this is <span class="math inline">\LaTeX</span>, which renders into nice equations like this.</p>
+<span class="math display">\begin{aligned}
+EU(\text{bet}) &amp;= 0.5 \times u(100) + 0.5 \times u(-50) \\
+&amp;= 0.5 \times \text{ln}(100) + 0.5 \times \text{ln}(50) \\
+&amp;= 4.259
+\end{aligned}</span>
+<p>I might beef this up with a better explanation, or paste the question into ChatGPT directly, where I tend to get more detailed answers. CoPilot has done OK with the math here - the logs are correct!</p>
+<p>CoPilot is also great when I’m doing repetitive tasks such as describing the elements of an equation or diagram. Start describing the first element and it might give you the rest. And if you write a point followed by “Conversely, …”, CoPilot is often on the money.</p>
+<p>I also use CoPilot with <a href="https://ggplot2.tidyverse.org">ggplot</a> to produce graphs for the notes. When I wanted to generate a chart showing a <a href="https://behaviouraleconomics.jasoncollins.blog/prospect-theory/probability-weighting">probability weighting function</a> from prospect theory, I created an R code block and typed a comment:</p>
+<blockquote class="blockquote">
+<p>#Plot of probability weighting function using ggplot2</p>
+</blockquote>
+<p>Here’s the result that ChatGPT produced with the diagram rendered below:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Plot of probability weighting function using ggplot2</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Define probability weighting function</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>prob_weight <span class="ot">&lt;-</span> <span class="cf">function</span>(p, alpha){</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">exp</span>(<span class="sc">-</span>(<span class="sc">-</span><span class="fu">log</span>(p))<span class="sc">^</span>alpha)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co">#Create data frame of probabilities and weights</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>prob <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">1</span>, <span class="fl">0.001</span>)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>prob_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">prob =</span> prob, <span class="at">weight =</span> <span class="fu">prob_weight</span>(prob, <span class="fl">0.6</span>))</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co">#Plot</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(prob_df, <span class="fu">aes</span>(<span class="at">x =</span> prob, <span class="at">y =</span> weight)) <span class="sc">+</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Add labels</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Probability"</span>, <span class="at">y =</span> <span class="st">"Weight"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="using-generative-AI-as-academic-july-2024-edition_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="using-generative-AI-as-academic-july-2024-edition_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Exactly what I wanted. When I implemented this in the notes, I only tweaked the style and added a 45-degree line.</p>
+<p>CoPilot’s offering uses Prelec’s <span class="citation" data-cites="prelec1998">(<a href="#ref-prelec1998" role="doc-biblioref">1998</a>)</span> probability weighting function. Whether it picked that up from earlier text in my notes or just gave the most common function for probability weighting, I don’t know, but it’s what I would have used if doing it manually. However, in writing this post I wasn’t able to replicate what I did when writing the lecture notes. I got better results in the lecture notes themselves. A few paragraphs about probability weighting before I ask for the code generated better results than asking for the chart straight up.</p>
+<p>CoPilot didn’t offer this full chunk of code at once. Each comment was offered, then the piece of code after it, one after the other. But the only work I did was writing the first comment and pressing tab several times as each succeeding comment or chunk of code was suggested. (CoPilot has certainly increased the level of comments in my code too.)</p>
+</section>
+<section id="writing-organisational-fluff" class="level3">
+<h3 class="anchored" data-anchor-id="writing-organisational-fluff">Writing organisational fluff</h3>
+<p>Work in any decent-sized modern organisation and you will have to write some level of fluff to satisfy the higher-ups, clients, government requirements and the like. I am hopeless at those tasks. I have to invest heavily to make fluff sound decent.</p>
+<p>My approach to these exercises depends on the degree of pointlessness.</p>
+<p>If the task relates to a process that will have zero impact on what anyone will do, I simply give the task to ChatGPT, let it do the first cut and then tweak as required. One or two sentences of guidance often get you 80% of the way there.</p>
+<p>If I think there is a positive benefit to the task, or it’s for public consumption, I’ll be more proactive first up. I will write a rough draft, not caring much about the writing but making sure the concepts I want to include are there. It might be in dot points. Then I’ll ask ChatGPT for a version that is “clearer”, “simpler” or “better written” or “for a ten-year-old”.</p>
+<p>Recently, I needed to describe how a program met a set of quality criteria. I uploaded some documents describing the program and a pdf that contained the criteria (in a table). I then asked Claude to provide me with short paragraphs describing how the program met the criteria. Some mild tweaking and I was there.</p>
+</section>
+<section id="generating-quiz-questions" class="level3">
+<h3 class="anchored" data-anchor-id="generating-quiz-questions">Generating quiz questions</h3>
+<ul>
+<li>Efficiency gain: 3x</li>
+</ul>
+<p>One of the best ways to learn is to be tested. As a result, I offer students in my undergraduate subject a series of practice quizzes that they can work through.</p>
+<p>It’s hard work to generate questions in bulk, and I struggle to generate plausible-sounding but incorrect answers to multiple-choice questions. I now ask ChatGPT to generate them. I upload my subject notes and ask that they be used as the basis of the questions. In the prompts, I vary in the specificity of the questions. “Give me 20 multiple choice questions testing the concept of loss aversion.” “Give me 20 multiple choice questions testing prospect theory.” Out of each batch, only a few will be suitable. But by tweaking my instruction by, say, describing the level of the students (undergraduate) or more explicitly defining the concept, it doesn’t take long to get 10 or so good questions.</p>
+<p>I have also used ChatGPT to generate question ideas for assessable quizzes and exams. That exam is a closed-book AI-invigilated exam, so is less vulnerable to someone simply feeding the questions back to ChatGPT. One helpful approach was to upload some previous exams plus my subject notes and ask for new exam questions at the same level of difficulty or on the same concepts.</p>
+</section>
+</section>
+<section id="ai-voiced-lectures" class="level2">
+<h2 class="anchored" data-anchor-id="ai-voiced-lectures">AI-voiced lectures</h2>
+<ul>
+<li>Efficiency gain: 10%</li>
+<li>Quality gain: 50%</li>
+</ul>
+<p>Last year I decided to base my undergraduate behavioural economics subject around <a href="https://www.youtube.com/@jasonacollins">short pre-recorded videos</a>, interactive online seminars and tutorials. To produce the videos I wrote scripts, which also form the <a href="https://behaviouraleconomics.jasoncollins.blog">subject notes</a>. I read the notes accompanied by slides.</p>
+<p>There are three pain points in this exercise. First, I speak too fast (even when I think I’m speaking slow) and I enunciate many words poorly. Second, recording takes a lot of time. I rarely get a two to five-minute video in a single take that I’m happy with. Third, if I want to tweak the recording, I need to either re-record solid chunks of text or fiddle around with video edits.</p>
+<p>So, why not get an artificial voice to do the speaking? When I wrote my last post, AI-voiced lectures were the future. It’s now a core part of my subject delivery.</p>
+<p>I experimented with <a href="https://murf.ai">Murf.ai</a>, <a href="https://speechify.com">Speechify</a>, <a href="https://play.ht/">play.ht</a> and <a href="https://beta.elevenlabs.io">ElevenLabs</a>. Initially I used Murf.ai to make some videos, as it allowed me to pair slides and text easily. I could also integrate with Google Slides. However, the voices sound a bit robotic, so I currently use ElevenLabs, even though all I get is an audio file. ElevenLabs has fantastic voices. Even a hint of AI voicing gets a negative reaction from students, so voice quality needs to be my primary criterion. If the Murf.ai voices improve and Eleven doesn’t develop video integration, I may shift back.</p>
+<p>The production process is easy. I paste the text into an ElevenLabs project chapter and render the voice. Typically, the pacing won’t be quite right, so I’ll add some commas and dashes to create some pauses. I then export the voice file and combine it with images in Final Cut Pro. I can normally create a five to 10 minute video from text and slides in less than a hour.</p>
+<p>The fantastic part is that if I want to update a section or change a sentence, I update the script in ElevenLabs, re-render the relevant sentences, load a new voice file into the Final Cut Pro project and tweak the slide timings (if the voice edits require it). It’s fast, simple and gives me a consistently high-quality video.</p>
+<p>ElevenLabs can “clone” your voice. I tried a quick clone on play.ht, but it gave me an American accent. On ElevenLabs, you can get a professional clone of a voice by uploading three or more hours of audio. I did that, and it sounds just like me, even with the Australian accent. Unfortunately, it comes with my faults, particularly speaking too fast. ElevenLabs doesn’t have an option to slow down the speaking outside of putting a mountain of dashes through the text. It also reflects the quality of my home recording setup and sounds a bit echoey. So, for now, I’m using one of their off-the-shelf Australian voices.</p>
+<p>Here are two samples of the above paragraph, an off-the-shelf Australian voice and my “cloned” voice.</p>
+<audio controls="" src="img/ElevenLabs_2024-07-15T09_03_10_Charlie_pre_s50_sb75_m1.mp3">
+</audio>
+<audio controls="" src="img/ElevenLabs_JC.mp3">
+</audio>
+<p>I’ve also started looking at options to create an AI avatar based on videos or photos of me for some parts of the videos. I’m leaving that one for the moment but can see myself revisiting it in the next year.</p>
+</section>
+<section id="accessing-github-copilot" class="level2">
+<h2 class="anchored" data-anchor-id="accessing-github-copilot">Accessing GitHub CoPilot</h2>
+<p>The below gives the basic steps to access GitHub CoPilot.</p>
+<p>If you are an academic, you can sign up for (free) academic access to CoPilot at <a href="https://education.github.com/discount_requests/application">this link</a>. If you’re not an academic or student, sign up for a free trial as described <a href="https://docs.github.com/en/billing/managing-billing-for-github-copilot/managing-your-github-copilot-subscription-for-your-personal-account">here</a>. You’ll need a Github account to do this. The $10 a month is worth it.</p>
+<p>Visual Studio Code is available <a href="https://code.visualstudio.com">here</a>. (I use the Mac version.) Download and install.</p>
+<p>Install the Github CoPilot extension into Visual Studio Code. Instructions on installing the extension are <a href="https://docs.github.com/en/copilot/quickstart#installing-the-github-copilot-extension-for-visual-studio-code">here</a>. On installation you’ll be prompted to login to GitHub to gain access to authorise CoPilot.</p>
+<p>Once you have done that, using CoPilot is easy. You simply type. As you type, you will be given suggestions.</p>
+<p>The setup in RStudio is even easier. Download RStudio from <a href="https://posit.co/download/rstudio-desktop/">here</a>. Under Tools/Global Options is a CoPilot menu item. Enable CoPilot there. You will be asked to enter your GitHub login details to get it running.</p>
+<p>I write in markdown (and at the moment, a flavour of markdown called <a href="https://quarto.org">Quarto</a>). It allows me to include <span class="math inline">\LaTeX</span> math and R computations within any document (as I have in this post). If you’re an academic stuck in the <span class="math inline">\LaTeX</span> ecosystem, you can also write in Visual Studio Code wholly in <span class="math inline">\LaTeX</span>. You can also just get CoPilot in Word. I’m looking forward to my university moving beyond the experimental stage and giving us access. (I took a one-month free trial of Microsoft CoPilot on the home computer, but didn’t find the time to give it a proper go.)</p>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-prelec1998" class="csl-entry" role="listitem">
+Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <em>66</em>(3), 497–527. <a href="https://doi.org/10.2307/2998573">https://doi.org/10.2307/2998573</a>
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.jasoncollins\.blog");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="light">
+<script>
+function loadGiscusWhenReady() {
+  // Function to get the theme based on body class
+  const getTheme = () => {
+    const baseTheme = document.getElementById('giscus-base-theme').value;
+    const altTheme = document.getElementById('giscus-alt-theme').value;
+    return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+  };
+  // Create the Giscus script and add it to the desired location
+  const loadGiscus = () => {
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "jasonacollins/jasoncollinsblog";
+    script.dataset.repoId = "R_kgDOIbjYgQ";
+    script.dataset.category = "Announcements";
+    script.dataset.categoryId = "DIC_kwDOIbjYgc4CSiuB";
+    script.dataset.mapping = "pathname";
+    script.dataset.reactionsEnabled = "0";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "bottom";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  };
+  // MutationObserver to detect when the 'quarto-light' or 'quarto-dark' class is added to the body
+  const observer = new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+      if (mutation.type === "attributes" && mutation.attributeName === "class") {
+        if (document.body.classList.contains('quarto-light') || document.body.classList.contains('quarto-dark')) {
+          loadGiscus();
+          observer.disconnect(); // Stop observing once Giscus is loaded
+          break;
+        }
+      }
+    }
+  });
+  // Start observing the body for class attribute changes
+  observer.observe(document.body, {
+    attributes: true,
+    attributeFilter: ["class"],
+  });
+}
+loadGiscusWhenReady();
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">
+<p>Copyright: CC-BY</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

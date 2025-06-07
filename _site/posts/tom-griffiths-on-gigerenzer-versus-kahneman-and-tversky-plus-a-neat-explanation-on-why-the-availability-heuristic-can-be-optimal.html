@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.23">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Collins">
+<meta name="dcterms.date" content="2018-07-18">
+
+<title>Tom Griffiths on Gigerenzer versus Kahneman and Tversky. Plus a neat explanation on why the availability heuristic can be optimal – Jason Collins blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ac706bccb5107cfdbcdabb2cff0da72d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C50MEPDMZ9"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
+</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Tom Griffiths on Gigerenzer versus Kahneman and Tversky. Plus a neat explanation on why the availability heuristic can be optimal – Jason Collins blog">
+<meta property="og:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta property="og:site_name" content="Jason Collins blog">
+<meta name="twitter:title" content="Tom Griffiths on Gigerenzer versus Kahneman and Tversky. Plus a neat explanation on why the availability heuristic can be optimal – Jason Collins blog">
+<meta name="twitter:description" content="Behavioural economics, data science and artificial intelligence.">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Jason Collins blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../subscribe.html"> 
+<span class="menu-text">Subscribe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Tom Griffiths on Gigerenzer versus Kahneman and Tversky. Plus a neat explanation on why the availability heuristic can be optimal</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jason Collins </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 18, 2018</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>From an <a href="http://rationallyspeakingpodcast.org/show/rs-154-tom-griffiths-on-why-your-brain-might-be-rational-aft.html">interview of Tom Griffiths</a> by Julia Galef on the generally excellent <a href="http://rationallyspeakingpodcast.org">Rationally Speaking</a> podcast (transcript <a href="http://static1.1.sqspcdn.com/static/f/468275/26898144/1457285505177/rs154transcript.pdf?token=kF%2FNCx3kE%2Bi67Itjd753Ac%2BRwIU%3D">here</a>):</p>
+<blockquote class="blockquote">
+<p><strong>Julia:</strong> There’s this ongoing debate in the heuristics and biases field and related fields. I’ll simplify here, but between, on the one hand, the traditional Kahneman and Tversky model of biases as the ways that human reasoning deviates from ideal reasoning, systematic mistakes that we make, and then on the other side of the debate are people, like for example Gigerenzer, who argue, “No, no, no, the human brain isn’t really biased. We’re not really irrational. These are actually optimal solutions to the problems that the brain evolved to face and to problems that we have limited time and processing power to deal with, so it’s not really appropriate to call the brain irrational, it’s just optimized for particular problems and under particular constraints.”</p>
+<p>It sounds like your research is pointing towards the second of those positions, but I guess it’s not clear to me what the tension actually is with Kahneman and Tversky in what you’ve said so far.</p>
+<p><strong>Tom:</strong> Importantly, I think, we were using pieces of both of those ideas. I don’t think there’s necessarily a significant tension with the Kahneman and Tversky perspective.</p>
+<p>Here’s one way of characterizing this. Gigerenzer’s argument has focused on one particular idea which comes from statistics, which is called the bias‐variance trade off. The basic idea of this principle is that you don’t necessarily want to use the most complex model when you’re trying to solve a problem. You don’t necessarily want to use the most complex algorithm.</p>
+<p>If you’re trying to build a predictive model, including more predictors into the model can be something which makes the model actually worse, provided you are doing something like trying to minimize the errors that you’re making in accounting for the data that you’ve seen so far. The problem is that, as your model gets more complicated, it can overfit the data. It can end up producing predictions which are driven by noise that appears in the data that you’re seeing, because it’s got such a greater expressive capacity.</p>
+<p>The idea is, by having a simpler model, you’re not going to get into that problem of ending up doing a good job of modeling the noise, and as a consequence you’re going to end up making better predictions and potentially doing a better job of solving those problems.</p>
+<p>Gigerenzer’s argument is that some of these heuristics, which you can think about as strategies that end up being perhaps simpler than other kinds of cognitive strategies you can engage in, they’re going to work better than a more complex strategy ‐‐ precisely because of the bias‐variance trade off, precisely because they take us in that direction of minimizing the amount that we’re going to be overfitting the data.</p>
+<p>The reason why it’s called the bias‐variance trade off is that, as you go in that direction, you add bias to your model. You’re going to be able to do a less good job of fitting data sets in general, but you’re reducing variance ‐‐ you’re reducing the amount which the answers you’re going to get are going to vary around depending on the particular data that you see. Those two things are things that are both bad for making predictions, and so the idea is you want to find the point which is the right trade off between those two kinds of errors.</p>
+<p><strong>…</strong></p>
+<p>What’s interesting about that is that you basically get this one explanatory dimension where it says making things simpler is going to be good, but it doesn’t necessarily explain why you get all the way to the very, very simple kinds of strategies that Gigerenzer tends to advocate. Because basically what the bias‐ variance trade off tells you is that you don’t want to use the most complex thing, but you probably also don’t want to use the simplest thing. You actually want to use something which is somewhere in between, and that might end up being more complex than perhaps the simpler sorts of strategies that Gigerenzer has identified, things that, say, rely on just using a single predictor when you’re trying to make a decision.</p>
+<p>Kahneman and Tversky, on the other hand, emphasized heuristics as basically a means of dealing with cognitive effort, or the way that I think about it is computational effort. Doing probabilistic reasoning is something which, as a computational problem, is really hard. It’s Bayesian inference… It falls into the categories of problems which are things that we don’t have efficient algorithms to get computers to do, so it’s no surprise that they’d be things that would be challenging for people as well. The idea is, maybe people can follow some simpler strategies that are reducing the cognitive effort they need to use to solve problems.</p>
+<p>Gigerenzer argued against that. He argued against people being, I think the way he characterized it was being “lazy,” and said instead, “No, we’re doing a good job with solving these problems.”</p>
+I think the position that I have is that I think both of those perspectives are important and they’re going to be important for explaining different aspects of the heuristics that we end up using. If you add in this third factor of cognitive effort, that’s something which does maybe push you a little bit further in terms of going in the direction of simplicity, but it’s also something that we can use to explain other kinds of heuristics.
+</blockquote>
+<p>Griffiths later provides a great explanation of why the availability heuristic can be a good decision-making tool:</p>
+<blockquote class="blockquote">
+<p><strong>Tom: </strong>The basic idea behind availability is that if I ask you to judge the probability of something, to make a decision which depends on probabilities of outcomes, and then you do that by basically using those outcomes which come to mind most easily.</p>
+<p>An example of this is, say, if you’re going to make a decision as to whether you should go snorkeling on holiday. You might end up thinking not just about the colorful fish you’re going to see, but also about the possibility of shark attacks. Or, if you’re going to go on a plane flight, you’ll probably end up thinking about terrorists more than you should. These are things which are very salient to us and jump out at us, and so as a consequence we end up overestimating their probabilities when we’re trying to make decisions.</p>
+<p>What Falk did was look at this question from the perspective of trying to think about a computational solution to the problem of calculating an expected utility. If you’re acting rationally, what you should be doing when you’re trying to make a decision as to whether you want to do something or not, is to work out what’s the probabilities of all of the different outcomes that could happen? What’s the utility that you assign to those outcomes? And then average together those utilities weighted by their probabilities. Then that gives you the value of that particular option.</p>
+<p>That’s obviously a really computationally demanding thing, particularly for the kinds of problems that we face as human beings where there could be many possible outcomes, and so on and so on.</p>
+<p>A reasonable way that you could try and solve that problem instead is by sampling, by generating some sample of outcomes and then evaluating utilities of those outcomes and then adding those up.</p>
+<p>Then you have this question, which is, well, what distribution should you be sampling those outcomes from? I think the immediate intuitive response is to say, “Well, you should just generate those outcomes with the probability that they occur in the world. You should just generate an unbiased sample.” Indeed, if you do that, you’ll get an unbiased estimate of the expected utility.</p>
+<p>The problem with that is that if you are in a situation where there are some outcomes that are extreme outcomes ‐‐ that, say, occur with relatively lower probability, which is I think the sort of context that we often face in the sorts of decisions that we make as humans ‐‐ then that strategy is going to not work very well. Because there’s a chance that you don’t generate those extreme outcomes, because you’re sampling from this distribution, and those things might have relatively low chance of happening.</p>
+<p>…</p>
+<p>The answer is, in order to deal with that problem, you probably want to generate from a different distribution. And we can ask, what’s the best distribution to generate from, from the perspective of minimizing the variance in the estimates? Because in this case it’s the variance which really kills you, it’s the variability across those different samples. The answer is: Add a little bit of bias. It’s the bias‐variance trade off again. You generate from a biased distribution, that results in a biased estimate.</p>
+<p>The optimal distribution to generate from, from the perspective of minimizing variance, is the distribution where the probability of generating an outcome is proportional to the probability of that outcome occurring in the world, multiplied by the absolute value of its utility.</p>
+Basically, the idea is that you want to generate from a distribution where those extreme events that are either extremely good or extremely bad are given greater weight ‐‐ and that’s exactly what we end up doing when we’re answering questions using those available examples. Because the things that we tend to focus on, and the things that we tend to store in our memory, are those things which really have extreme utilities.
+</blockquote>
+<p>Can we make the availability heuristic work better for us?</p>
+<blockquote class="blockquote">
+<p>I think the other idea is that, to the extent that we’ve already adopted these algorithms and these end up being strategies that we end up using, you can also ask the question of how we might structure our environments in ways that we end up doing a better job of solving the problems we want to solve, because we’ve changed the nature of the inputs to those algorithms. If intervening on the algorithms themselves is difficult, intervening on our environments might be easier, and might be the kind of thing that makes us able to do a better job of making these sorts of inferences.</p>
+<p>To return to your example of shark attacks and so on, I think you could expect that there’s even more bias than the optimal amount of bias in availability‐based decisions because what’s available to us has changed. One of the things that’s happened is you can hear about shark attacks on the news, and you can see plane crashes and you can see all of these different kinds of things. The statistics of the environment that we operate in are also just completely messed up with respect to what’s relevant for making our own decisions.</p>
+So a basic recommendation that would come out of that is, if this is the way that your mind tends to work, try and put yourself in an environment where you get exposed to the right kind of statistics. I think the way you were characterizing that was in terms of you find out what the facts are on shark attacks and so on.
+</blockquote>
+<p>Listen to the <a href="http://rationallyspeakingpodcast.org/show/rs-154-tom-griffiths-on-why-your-brain-might-be-rational-aft.html">full</a><a href="http://rationallyspeakingpodcast.org/show/rs-154-tom-griffiths-on-why-your-brain-might-be-rational-aft.html">episode</a> - or in fact, much of the <a href="http://rationallyspeakingpodcast.org">Rationally Speaking</a> back catalogue. I’m still only partway through, but recommend the interviews with <a href="http://rationallyspeakingpodcast.org/show/rs123-daniel-lakens-on-p-hacking-and-other-problems-in-psych.html">Daniel Lakens</a> on p-hacking, <a href="http://rationallyspeakingpodcast.org/show/rs142-paul-bloom-on-the-case-against-empathy.html">Paul Bloom</a> on empathy, <a href="http://rationallyspeakingpodcast.org/show/rs144-bryan-caplan-on-does-parenting-matter.html">Bryan Caplan</a> on parenting, <a href="http://rationallyspeakingpodcast.org/show/rs145-phil-tetlock-on-superforecasting-the-art-and-science-o.html">Phil Tetlock</a> on forecasting,&nbsp;<a href="http://rationallyspeakingpodcast.org/show/rs-161-tom-griffiths-and-brian-christian-on-algorithms-to-li.html">Tom Griffiths’s reappearance</a> with his Algorithms to Live By co-author, Brian Christian, and <a href="http://rationallyspeakingpodcast.org/show/rs-168-don-moore-on-overconfidence.html">Don Moore</a> on overconfidence. Julia Galef is a great interviewer - I like the sceptical manner in which she probes her guests and digs into the points she wants to understand.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.jasoncollins\.blog");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="light">
+<script>
+function loadGiscusWhenReady() {
+  // Function to get the theme based on body class
+  const getTheme = () => {
+    const baseTheme = document.getElementById('giscus-base-theme').value;
+    const altTheme = document.getElementById('giscus-alt-theme').value;
+    return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+  };
+  // Create the Giscus script and add it to the desired location
+  const loadGiscus = () => {
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "jasonacollins/jasoncollinsblog";
+    script.dataset.repoId = "R_kgDOIbjYgQ";
+    script.dataset.category = "Announcements";
+    script.dataset.categoryId = "DIC_kwDOIbjYgc4CSiuB";
+    script.dataset.mapping = "pathname";
+    script.dataset.reactionsEnabled = "0";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "bottom";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  };
+  // MutationObserver to detect when the 'quarto-light' or 'quarto-dark' class is added to the body
+  const observer = new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+      if (mutation.type === "attributes" && mutation.attributeName === "class") {
+        if (document.body.classList.contains('quarto-light') || document.body.classList.contains('quarto-dark')) {
+          loadGiscus();
+          observer.disconnect(); // Stop observing once Giscus is loaded
+          break;
+        }
+      }
+    }
+  });
+  // Start observing the body for class attribute changes
+  observer.observe(document.body, {
+    attributes: true,
+    attributeFilter: ["class"],
+  });
+}
+loadGiscusWhenReady();
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">
+<p>Copyright: CC-BY</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
