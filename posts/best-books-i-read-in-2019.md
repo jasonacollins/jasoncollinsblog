@@ -91,4 +91,4 @@ Below is the full list of books that I read in 2019 (with links where reviewed a
 - J.K. Rowling, _Harry Potter and the Deathly Hallows_
 - Tim Winton, _Breath_
 
-Previous lists: [2010](/top-10-books-in-2010/), [2011](/best-books-i-read-in-2011/), [2012](/the-best-books-i-read-in-2012/), [2013](/best-books-i-read-in-2013/), [2014](/best-books-i-read-in-2014/), [2015](/best-books-i-read-in-2015/), [2016](/best-books-i-read-in-2016/), [2017](/best-books-i-read-in-2017/), [2018](/books-i-read-in-2018/)
+Previous lists: [2010](/top-10-books-in-2010.md), [2011](/best-books-i-read-in-2011.md), [2012](/the-best-books-i-read-in-2012.md), [2013](/best-books-i-read-in-2013.md), [2014](/best-books-i-read-in-2014.md), [2015](/best-books-i-read-in-2015.md), [2016](/best-books-i-read-in-2016.md), [2017](/best-books-i-read-in-2017.md), [2018](/books-i-read-in-2018.md)

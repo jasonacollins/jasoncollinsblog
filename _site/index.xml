@@ -10,7 +10,55 @@
 <atom:link href="https://www.jasoncollins.blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Behavioural economics, data science and artificial intelligence.</description>
 <generator>quarto-1.7.23</generator>
-<lastBuildDate>Tue, 27 May 2025 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 11 Jun 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Why I don’t trust most human-AI interaction experimental research</title>
+  <dc:creator>Jason Collins</dc:creator>
+  <link>https://www.jasoncollins.blog/posts/why-i-dont-trust-most-human-ai-interaction-experimental-research.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Experimental psychology research before the mid-2010s was a mess. The field was littered with papers with weak to non-existent theoretical foundations. Experimental data was unavailable. (The statement “data is available on request” is <a href="https://osf.io/preprints/psyarxiv/jbu9r_v1">somewhat of a joke</a>.) The experiments involved small samples and barely significant p-values. File drawers were overflowing with the carcasses of experiments that didn’t quite get the result hoped for. The <a href="https://sites.stat.columbia.edu/gelman/research/unpublished/p_hacking.pdf">forking paths</a> in the data analysis allowed multiple shots at goal.</p>
+<p>Those poor practices were most starkly revealed with the publication of the Open Science Collaboration’s <a href="https://doi.org/10.1126/science.aac4716">review</a> of the replicability of psychological science. 36% of psychology papers replicated. The stream of failed replications continues.</p>
+<p>Today, however, things look better, at least methodologically. Pre-registration and open experimental materials and data are becoming common, if not required. Many journals and reviewers take these elements as table stakes for publication. Registered reports are now an option. Theory is still often weak and those file drawers remain full, but at least the presence of preregistration repositories gives us a sense of what is in them. PNAS and other tabloids continue to be PNAS, but don’t hope for miracles.</p>
+<p>Psychology was, of course, not the only field to suffer a replication crisis and shift practices. Experimental economics has improved, despite coming through the crisis less tarnished than psychology. Many fields and the associated journals have adopted open science practices. If an experimental field hasn’t adjusted its practices in the last decade you need to question what is going on.</p>
+<p>Which brings me to my experience in the human-AI and human-computer interaction literature. This literature largely concerns how we get better decisions or actions when people interact with AI, algorithms and other automated decision rules. How do we get people to use beneficial AI? How do we get “complementary performance”, where the performance of the human-AI combination is better than the human or AI by themselves? How do we help calibrate user trust in AI tools?</p>
+<p>I’ve been writing and thinking about the topic for close to a decade now. My first article in Behavioural Scientist (<a href="https://behavioralscientist.org/dont-touch-computer/">Don’t Touch The Computer</a>) argued that often we should take the human out of the loop. In the last year or so I’ve been working on how to use AI in improving financial decision making. I’ve read 100s of experimental papers in the field looking for ideas and evidence.</p>
+<p>What I have seen is depressing. I hoped to find a field that had learned from psychology’s mistakes. Instead I found a field operating as if the replication crisis never happened. Weak theory. Negligible pre-registration. Forking paths. Underpowered experiments. The data is unavailable. (Less than 10% of papers I have read have data openly available in a repository.) Typically, there isn’t even a statement that data is available on request. The experimental materials are often well described in the paper - many human-AI interaction papers have quite novel models and software interfaces - but the detail isn’t sufficient for you to construct the models or software yourself. And this isn’t an old problem. These are papers from the last decade, some even from this year. There are exceptions and a few great papers, but I can’t see any trend in the right direction.</p>
+<p>I’m always looking for new ideas for practical application. And a first step in that process is replication. Unfortunately, absent open data and experimental materials, we can’t reproduce or replicate the experiment. And when you look at the weak theory and forking paths in the analysis, it’s hard to give the result sufficient credence to the idea to test it in a lab or field context.</p>
+<p>I’ve emailed a lot of authors asking for the experimental data and materials. In around 20% of cases, I’ve received an email in less than 24 hours with the materials, plus an offer to help if they could be useful. These are typically academics in economics, management and business schools who I suppose come from a culture where practices have changed. However, in most cases I simply haven’t received a response. Computer science and human-computer interaction researchers: it’s crickets.</p>
+<p>Part of me wants to be understanding. They’re busy. Is it worth their taking their time to respond to a random from Australia who has written three sentences along the lines of “I like your paper/idea and am keen to replicate in a financial services context, can you share your data and materials”?</p>
+<p>But on the other hand, they’ve gone to the effort to publish the paper (typically in a conference proceeding) and they want us to take their idea seriously. (Actually, maybe that’s not what they want. They just want the publication on their record and have moved on.) Unless their materials are a shambles, it should be minimal effort to share them. (If they don’t have it in a state to share, that’s another robustness flag.) The data is also of minimal sensitivity, involving bespoke abstract tasks in the lab. Post it to a public repository and you’re done with my and every following request.</p>
+<p>There isn’t much encouragement for data sharing from the major publishing forums either. Here’s the data sharing policy of some of the conferences in human-AI interaction, the venues for many of the papers I have read:</p>
+<blockquote class="blockquote">
+<p><a href="https://chi2025.acm.org/for-authors/papers/">CHI conference on Human Factors in Computing Systems</a>: “Reproducibility: Where relevant, authors are strongly encouraged to provide supplementary materials to support practices around research reproducibility as much as possible. Please refer to the requirements for supplementary materials below.” They indicate how seriously they take it when the supplementary materials section is headed “Step 2. Prepare Supplementary Materials (Optional)”.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><a href="https://neurips.cc/public/guides/CodeSubmissionPolicy">Conference on Neural Information Processing Systems (NeurIPS)</a>: “If any of the main contributions of your paper depends on an&nbsp;experimental result, you are strongly encouraged to submit code that produces this result. If you are using a&nbsp;new dataset, you are also encouraged to submit the dataset.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><a href="https://iui.acm.org/2025/call_for_papers.html">ACM Conference on Intelligent User Interfaces</a>: “Submitting supplemental material (e.g.&nbsp;questionnaires, demo videos of applications, data sheets) is optional but encouraged.”</p>
+</blockquote>
+<p>After a fair bit of digging, I did find the following <a href="https://www.acm.org/publications/policies/digital-artifacts">ACM policy</a> - it’s buried enough I expect most paper submitters wouldn’t even read it:</p>
+<blockquote class="blockquote">
+<p>Submission and Publication of Digital Artifacts as Supplemental Material</p>
+<p>ACM does not require, but strongly recommends, that authors of ACM published Works provide access to the artifacts used to conduct research reported on in their published Works.</p>
+</blockquote>
+<p>I can tell from the lack of data for most experimental papers that this optionality is used by authors. Welcome to 2010.</p>
+<p>So, is there a coming replication crisis for human-computer interaction?</p>
+<p>Unfortunately, I don’t think so. When you need a bespoke machine learning algorithm or software interface, the replication simply isn’t going to happen. Although most psychology papers aren’t replicated, enough can be replicated at low cost to enable a view of the robustness of the field. I fear too many human-AI interaction papers exceed that cost threshold.</p>
+<p>What I expect instead is filtering by practitioners. Many of the readers of the human-AI interaction literature, like me, are after practical solutions. Practitioners are going to filter the good from the bad, as what doesn’t work won’t get used. The A-B testing culture in AI and design teams allows that. I see the same thing in applied behavioural science (those few external readers of the psychology literature). There are a bunch of ideas that the applied community recognises as ineffective, despite there being no “failed” replication of the original experiment. We’d simply moved on. The “sign at the top” experiment was already dead among practitioners before the <a href="../posts/a-default-of-disbelief.html">failed replications and fraud emerged</a>.</p>
+<p>In the longer term, I hope some decent practices will eventually filter into the field and we can simply forget about the current body of research. There are a few computer science academics that have open sourced their experimental setups on GitHub (thank you!) and made data available. Surely someone is paying attention and giving greater weight to their work. I am. There are also some platforms built for others to use, although there doesn’t seem to be much of a culture of using them yet. (Here’s <a href="https://github.com/gagb/caja">one</a> developed by Gagan Bansal and friends, as described in <a href="https://doi.org/10.1609/hcomp.v7i1.5285">this paper</a>.)</p>
+<p>In the meantime, I’m taking what I read with a grain of salt. A while ago I posted that we should approach the psychology literature with a “<a href="../posts/a-default-of-disbelief.html">default of disbelief</a>”. If you see an interesting experimental result indicating a new phenomena or result, update your beliefs in only the mildest way. Don’t trust it until you see concordant results from independent pre-registered replications. I’m reading the human-AI interaction literature in the same way.</p>
+
+
+
+ ]]></description>
+  <guid>https://www.jasoncollins.blog/posts/why-i-dont-trust-most-human-ai-interaction-experimental-research.html</guid>
+  <pubDate>Wed, 11 Jun 2025 23:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Economists’ Genetic Blindspot: The Data We’re Not Collecting</title>
   <dc:creator>Jason Collins</dc:creator>
@@ -300,7 +348,7 @@
 <li>Walter Tevis, <em>The Queen’s Gambit</em> *</li>
 <li>Kurt Vonnnegut, <em>Player Piano</em></li>
 </ul>
-<p>Previous annual book lists: <a href="../posts/top-10-books-in-2010/">2010</a>, <a href="../posts/best-books-i-read-in-2011/">2011</a>, <a href="../posts/the-best-books-i-read-in-2012/">2012</a>, <a href="../posts/best-books-i-read-in-2013/">2013</a>, <a href="../posts/best-books-i-read-in-2014/">2014</a>, <a href="../posts/best-books-i-read-in-2015/">2015</a>, <a href="../posts/best-books-i-read-in-2016/">2016</a>, <a href="../posts/best-books-i-read-in-2017/">2017</a>, <a href="../posts/books-i-read-in-2018/">2018</a>, <a href="../posts/best-books-i-read-in-2019/">2019</a>, <a href="../posts/best-books-i-read-in-2020/">2020</a>, <a href="../posts/best-books-i-read-in-2021/">2021</a>, <a href="../posts/best-books-i-read-in-2022/">2022</a>, <a href="../posts/books-i-read-in-2023/">2023</a></p>
+<p>Previous annual book lists: <a href="../posts/top-10-books-in-2010.html">2010</a>, <a href="../posts/best-books-i-read-in-2011.html">2011</a>, <a href="../posts/the-best-books-i-read-in-2012.html">2012</a>, <a href="../posts/best-books-i-read-in-2013.html">2013</a>, <a href="../posts/best-books-i-read-in-2014.html">2014</a>, <a href="../posts/best-books-i-read-in-2015.html">2015</a>, <a href="../posts/best-books-i-read-in-2016.html">2016</a>, <a href="../posts/best-books-i-read-in-2017.html">2017</a>, <a href="../posts/books-i-read-in-2018.html">2018</a>, <a href="../posts/best-books-i-read-in-2019.html">2019</a>, <a href="../posts/best-books-i-read-in-2020.html">2020</a>, <a href="../posts/best-books-i-read-in-2021.html">2021</a>, <a href="../posts/best-books-i-read-in-2022.html">2022</a>, <a href="../posts/books-i-read-in-2023.html">2023</a></p>
 
 
 
@@ -3881,7 +3929,7 @@ Protzko, J., Krosnick, J., Nelson, L., Nosek, B. A., Axt, J., … Schooler, J. W
 <li>JRR Tolkein, <em>The Two Towers</em>*</li>
 <li>JRR Tolkein, <em>The Return of the King</em>*</li>
 </ul>
-<p>Previous annual book lists: <a href="../posts/top-10-books-in-2010/">2010</a>, <a href="../posts/best-books-i-read-in-2011/">2011</a>, <a href="../posts/the-best-books-i-read-in-2012/">2012</a>, <a href="../posts/best-books-i-read-in-2013/">2013</a>, <a href="../posts/best-books-i-read-in-2014/">2014</a>, <a href="../posts/best-books-i-read-in-2015/">2015</a>, <a href="../posts/best-books-i-read-in-2016/">2016</a>, <a href="../posts/best-books-i-read-in-2017/">2017</a>, <a href="../posts/books-i-read-in-2018/">2018</a>, <a href="../posts/best-books-i-read-in-2019/">2019</a>, <a href="../posts/best-books-i-read-in-2020/">2020</a>, <a href="../posts/best-books-i-read-in-2021/">2021</a>, <a href="../posts/best-books-i-read-in-2022/">2022</a></p>
+<p>Previous annual book lists: <a href="../posts/top-10-books-in-2010.html">2010</a>, <a href="../posts/best-books-i-read-in-2011.html">2011</a>, <a href="../posts/the-best-books-i-read-in-2012.html">2012</a>, <a href="../posts/best-books-i-read-in-2013.html">2013</a>, <a href="../posts/best-books-i-read-in-2014.html">2014</a>, <a href="../posts/best-books-i-read-in-2015.html">2015</a>, <a href="../posts/best-books-i-read-in-2016.html">2016</a>, <a href="../posts/best-books-i-read-in-2017.html">2017</a>, <a href="../posts/books-i-read-in-2018.html">2018</a>, <a href="../posts/best-books-i-read-in-2019.html">2019</a>, <a href="../posts/best-books-i-read-in-2020.html">2020</a>, <a href="../posts/best-books-i-read-in-2021.html">2021</a>, <a href="../posts/best-books-i-read-in-2022.html">2022</a></p>
 
 
 
@@ -4116,300 +4164,6 @@ Levitt, S. D., and Syverson, C. (2008). Market distortions when agents are bette
 </section></div> ]]></description>
   <guid>https://www.jasoncollins.blog/posts/john-lists-the-voltage-effect-a-review.html</guid>
   <pubDate>Tue, 04 Jul 2023 23:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Using large language models as an academic</title>
-  <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/using-large-language-models-as-academic.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This post started as a draft email to my colleagues about how I was using large language models in my work to achieve some fairly large efficiency gains. I realised that this was easier to send as a blog post. And why not share more broadly?</p>
-<p>I am a long way from the frontier in how I am using these tools. If you want to see the frontier, go read <a href="https://www.oneusefulthing.org/">Ethan Mollick</a> among others. But I would estimate I’m using these tools more than 95% of academics, so hopefully there is something in there for many of you.</p>
-<section id="my-toolkit" class="level2">
-<h2 class="anchored" data-anchor-id="my-toolkit">My toolkit</h2>
-<p>As an academic, I gain free access to <a href="https://github.com/features/copilot">Github Copilot</a>. (It’s only $10 a month otherwise.) CoPilot is badged as “your coding companion”, providing code suggestions in coding environments. But while badged this way, CoPilot also provides text suggestions more broadly, and that is how I largely use it.</p>
-<p>CoPilot gives me access to whatever language models Microsoft is running behind it. I’m not sure if <a href="https://openai.com/product/gpt-4">GPT-4</a> is available through CoPilot yet, but I would say performance on CoPilot has improved over the six months I have been using it.</p>
-<p>To access CoPilot, I write markdown documents in <a href="https://code.visualstudio.com">Visual Studio Code</a>. Since I started blogging (12 years now!) I have always written in markdown (and at the moment a particular flavour of markdown, <a href="https://quarto.org">Quarto</a>). Before the emergence of CoPilot, I also used <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> and other text editors that support markdown. But with CoPilot not available in RStudio, I’m almost exclusively in Visual Studio Code now. For those who want more specific guidance on how to set this up, I’ve added that at the bottom of this post.</p>
-<p>I also work with <a href="https://chat.openai.com/">ChatGPT</a> open in a browser. If CoPilot isn’t giving me what I want, ChatGPT often will. If I can frame my requirement as a standalone question, ChatGPT tends to do a better job. But when working on a document, CoPilot’s suggestions are normally better (unless I paste the whole document into ChatGPT).</p>
-<p>I’ve tried Bing, but find it harder work to get what I want unless I have a question for which I want references.</p>
-</section>
-<section id="writing-lecture-notes-efficiency-gain-10-to-30" class="level2">
-<h2 class="anchored" data-anchor-id="writing-lecture-notes-efficiency-gain-10-to-30">Writing lecture notes (efficiency gain: 10 to 30%)</h2>
-<p>I don’t find CoPilot particularly useful if I’m writing something original such as a blog post. In writing this post I wouldn’t say CoPilot has increased my efficiency at all (outside of helping me create the examples). I sometimes accepted suggestions from CoPilot, but the need to filter through the various suggestions resulted in negligible efficiency gain.</p>
-<p>But for lecture notes, which are more mechanical, there are some clear gains. The notes for my undergraduate behavioural economics subject (which you can access <a href="https://behaviouraleconomics.jasoncollins.blog">here</a>) were produced with CoPilot.</p>
-<p>Here are a few instances where CoPilot has been useful.</p>
-<p>Often the notes include a statement of a concept followed by a step-by-step example or illustration. The gain comes when you’re writing those steps.</p>
-<p>For example, in a section about decision making under risk, I might write:</p>
-<blockquote class="blockquote">
-<p>Bill is a risk-averse agent with utility function <img src="https://latex.codecogs.com/png.latex?u(x)=%5Ctext%7Bln%7D(x)"> and wealth of $100. He is offered a 50:50 bet to win $100, lose $50.</p>
-<p>Will Bill accept the bet?</p>
-</blockquote>
-<p>CoPilot will sometimes write something like:</p>
-<blockquote class="blockquote">
-<p>Can someone please help me answer the following question: “Will Bill accept the bet?”</p>
-</blockquote>
-<p>There must be a lot of study cheat sites forming part of the training data.</p>
-<p>But if CoPilot does that, simply write the first couple of words of the answer “First, we calculate…” and then CoPilot is away.</p>
-<blockquote class="blockquote">
-<p>First, we calculate the expected utility of each option. The expected utility of the bet is:</p>
-</blockquote>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">```{=tex}</span></span>
-<span id="cb1-2"><span class="in" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">\begin{aligned}</span></span>
-<span id="cb1-3"><span class="in" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">EU(\text{bet}) &amp;= 0.5 \times u(100) + 0.5 \times u(-50) \\</span></span>
-<span id="cb1-4"><span class="in" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&amp;= 0.5 \times \text{ln}(100) + 0.5 \times \text{ln}(50) \\</span></span>
-<span id="cb1-5"><span class="in" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&amp;= 4.259</span></span>
-<span id="cb1-6"><span class="in" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">\end{aligned}</span></span>
-<span id="cb1-7"><span class="in" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">```</span></span></code></pre></div>
-<blockquote class="blockquote">
-<p>The expected utility of not taking the bet is:</p>
-</blockquote>
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"></span>
-<span id="cb2-2"><span class="in" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">```{=tex}</span></span>
-<span id="cb2-3"><span class="in" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">\begin{aligned}</span></span>
-<span id="cb2-4"><span class="in" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">EU(\text{no bet}) &amp;= U(100) \\</span></span>
-<span id="cb2-5"><span class="in" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&amp;= \text{ln}(100) \\</span></span>
-<span id="cb2-6"><span class="in" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">&amp;= 4.605</span></span>
-<span id="cb2-7"><span class="in" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">\end{aligned}</span></span>
-<span id="cb2-8"><span class="in" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">```</span></span></code></pre></div>
-<blockquote class="blockquote">
-<p>As the expected utility of the bet is less than the expected utility of not taking the bet, Bill will not accept the bet.</p>
-</blockquote>
-<p>Not bad for a few seconds of work. For those unfamiliar with the mathematical notation, this is <img src="https://latex.codecogs.com/png.latex?%5CLaTeX">, which renders into nice equations like this.</p>
-<img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Baligned%7D%0AEU(%5Ctext%7Bbet%7D)%20&amp;=%200.5%20%5Ctimes%20u(100)%20+%200.5%20%5Ctimes%20u(-50)%20%5C%5C%0A&amp;=%200.5%20%5Ctimes%20%5Ctext%7Bln%7D(100)%20+%200.5%20%5Ctimes%20%5Ctext%7Bln%7D(50)%20%5C%5C%0A&amp;=%204.259%0A%5Cend%7Baligned%7D">
-<p>I might beef this up with a better explanation, or paste the question into ChatGPT direct, where I tend to get more detailed answers. GPT-4 also tends to be better at math. (CoPilot has done OK here - the logs are correct! Maybe more evidence of improvement in CoPilot, although the answer still needs tweaking.)</p>
-<p>CoPilot is also great when I’m doing repetitive tasks such as describing the elements of an equation or diagram. Start describing the first element and it might give you the rest. And if you write a point followed by “Conversely, …”, CoPilot is often on the money.</p>
-</section>
-<section id="coding-efficiency-gain-10x" class="level2">
-<h2 class="anchored" data-anchor-id="coding-efficiency-gain-10x">Coding (efficiency gain: 10x)</h2>
-<p>Despite spending a lot of time in R, I am a crap coder. The simplest errors have me crawling Stack Overflow for hours. I struggle to build a structure when looking at a blank screen.</p>
-<p>My typical approach now is to write a comment, let CoPilot do the first cut and then tweak the code until it is in shape.</p>
-<p>That tweaking isn’t manual tweaking either.</p>
-<p>If there is an error or problem that I can’t resolve, I’ll simply write:</p>
-<blockquote class="blockquote">
-<p>The above code generates the error “PASTE ERROR”. I fix it by …</p>
-</blockquote>
-<p>And a solution appears. Sometimes I’ll also paste the code and the error into ChatGPT and ask for code that does not have that error.</p>
-<p>If the code looks overly complicated, a request to simplify often yields good results. (I’ve been asking ChatGPT to review some of my old code recently. I’m a bit embarrassed at how much more efficiently I could have written it.)</p>
-<p>Here are two recent coding applications that I was particularly excited about.</p>
-<section id="creating-diagrams" class="level3">
-<h3 class="anchored" data-anchor-id="creating-diagrams">Creating diagrams</h3>
-<p>In my lecture notes, I use <a href="https://ggplot2.tidyverse.org">ggplot</a> to produce nice-looking graphs. (I’m slowly replacing old PowerPoint diagrams that still litter the notes).</p>
-<p>Recently I wanted to generate a chart showing a <a href="https://behaviouraleconomics.jasoncollins.blog/prospect-theory/probability-weighting">probability weighting function</a> from prospect theory.</p>
-<p>I created an R code block and typed a comment:</p>
-<blockquote class="blockquote">
-<p>#Plot of probability weighting function using ggplot2</p>
-</blockquote>
-<p>Here’s the result with the diagram rendered below:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#Plot of probability weighting function using ggplot2</span></span>
-<span id="cb3-2"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">library</span>(ggplot2)</span>
-<span id="cb3-3"></span>
-<span id="cb3-4"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#Define probability weighting function</span></span>
-<span id="cb3-5">prob_weight <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
-background-color: null;
-font-weight: bold;
-font-style: inherit;">function</span>(p, alpha){</span>
-<span id="cb3-6">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">exp</span>(<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span>(<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">log</span>(p))<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">^</span>alpha)</span>
-<span id="cb3-7">}</span>
-<span id="cb3-8"></span>
-<span id="cb3-9"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#Create data frame of probabilities and weights</span></span>
-<span id="cb3-10">prob <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">seq</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.001</span>)</span>
-<span id="cb3-11">prob_df <span class="ot" style="color: #003B4F;
-background-color: null;
-font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">data.frame</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">prob =</span> prob, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">weight =</span> <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">prob_weight</span>(prob, <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0.6</span>))</span>
-<span id="cb3-12"></span>
-<span id="cb3-13"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#Plot</span></span>
-<span id="cb3-14"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">ggplot</span>(prob_df, <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">x =</span> prob, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">y =</span> weight)) <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span id="cb3-15">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">geom_line</span>() <span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">+</span></span>
-<span id="cb3-16"></span>
-<span id="cb3-17">  <span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#Add labels</span></span>
-<span id="cb3-18">  <span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Probability"</span>, <span class="at" style="color: #657422;
-background-color: null;
-font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Weight"</span>)</span></code></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><a href="using-large-language-models-as-academic_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/using-large-language-models-as-academic_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></a></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Exactly what I wanted. When I implemented this in the notes, all I did was tweaked the style and added a 45-degree line.</p>
-<p>CoPilot’s offering uses Prelec’s <span class="citation" data-cites="prelec1998">(1998)</span> probability weighting function. Whether it picked that up from earlier text or just gave the most common function for probability weighting, I don’t know, but it’s what I would have used if doing it manually.</p>
-<p>CoPilot didn’t offer this full chunk of code at once. Each comment was offered, then the piece of code after it, one after the other. But the only work I did was writing the first comment and pressing tab several times as each succeeding comment or chunk of code was suggested. (CoPilot has certainly increased the level of comments in my code too.)</p>
-<p>One thing I have noted is that CoPilot uses all of the text in the document in giving it’s suggestions. In writing this post I wasn’t able to replicate what I did when writing the lecture notes. I got better results in the lecture notes themselves. A few paragraphs about probability weighting before I ask for the code generates much better results than asking for the chart straight up.</p>
-</section>
-<section id="converting-code-across-languages" class="level3">
-<h3 class="anchored" data-anchor-id="converting-code-across-languages">Converting code across languages</h3>
-<p>My second example relates to a proposed reproduction of the results in Berkeley Dietvorst’s <a href="https://doi.org/10.1037/xge0000033">Algorithm aversion: People erroneously avoid algorithms after seeing them err</a>. Data and the code for analysis was <a href="ADD LINK">available on ResearchBox</a>.</p>
-<p>The problem was that the code was in Stata, I don’t have Stata, and I have no desire to learn Stata. So, I pasted the code into ChatGPT and asked for a conversion to R. What I received was 90% of the way there. Initially there was an error, but ChatGPT solved the error first shot. I then had to tweak a couple of the variable manipulations and specify that some of the t-tests were paired t-tests, and that was it. In less than 10 minutes I had code that was reproducing exactly the results from Study 1.</p>
-</section>
-</section>
-<section id="generating-quiz-questions-efficiency-gain-3x" class="level2">
-<h2 class="anchored" data-anchor-id="generating-quiz-questions-efficiency-gain-3x">Generating quiz questions (efficiency gain: 3x)</h2>
-<p>One of the best ways to learn is to be tested. As a result, I offer students in my undergraduate subject a series of practice quizzes that they can work through. In the first class I tell the students about the effectiveness of spaced repetition as a learning technique. They can then use the practice quiz questions on an intermittent basis to test whether they have learnt core concepts. (When I find the bandwidth, I plan to implement those quiz questions in <a href="https://withorbit.com">Orbit</a> or something similar, and place them through the <a href="https://behaviouraleconomics.jasoncollins.blog">online notes</a>.)</p>
-<p>Some questions are easy to generate: definitions and the like. But it’s hard work to generate questions in bulk and I struggle to generate plausible-sounding but incorrect answers to multiple-choice questions.</p>
-<p>I now ask ChatGPT to generate them. In the prompts, I vary in the specificity of the questions. “Give me 20 multiple choice questions testing the concept of loss aversion.” “Give me 20 multiple choice questions testing prospect theory.” And so on. Out of each batch of 20, only a few will be suitable. There might be no correct answer or two correct answers, or ChatGPT might confuse concepts. But by tweaking my instruction by, say, describing the level of the students (undergraduate) or more explicitly defining the concept, it doesn’t take long to get 10 or so good questions.</p>
-<p>I haven’t used ChatGPT to generate assessable quiz questions yet, but I’m planning to use it for the upcoming final exam. That exam is a closed-book AI-invigilated exam, so is less vulnerable to someone simply feeding the questions back to ChatGPT. One idea I’m tempted to try is to feed it some previous year’s exams and ask for new exams on the same concepts.</p>
-</section>
-<section id="writing-organisational-fluff-efficiency-gain-2x" class="level2">
-<h2 class="anchored" data-anchor-id="writing-organisational-fluff-efficiency-gain-2x">Writing organisational fluff (efficiency gain: 2x)</h2>
-<p>Work in any decent-sized modern organisation and you will have to write some level of fluff to satisfy the higher-ups, clients, government requirements and the like.</p>
-<p>I am hopeless at those tasks. I have to invest heavily to make fluff sound decent.</p>
-<p>My approach to these exercises depends on the degree of pointlessness.</p>
-<p>If the task relates to a process that will have zero impact on what anyone will do, I simply give the task to ChatGPT, let it do the first cut and then tweak as required. One or two sentences of guidance often gets you 80% of the way there.</p>
-<p>If I think there is a positive benefit to the task, or it’s for public consumption, I’ll be more proactive first up. I will write a rough draft first, not caring much about the writing but making sure the concepts I want to include are there. It might be in dot points. Then I’ll ask ChatGPT for a version that is “clearer”, “simpler” or “better written” or “for a ten-year-old”. I often find this process works best in two stages. The “clearer” version often uses the same words as me, but structures them better. Then I ask ChatGPT to write it again, but instructing it to “forget about the original text.” I’ve been pleasantly surprised at how good some of those second versions are.</p>
-</section>
-<section id="slide-filler-efficiency-gain-2x" class="level2">
-<h2 class="anchored" data-anchor-id="slide-filler-efficiency-gain-2x">Slide filler (efficiency gain 2x)</h2>
-<p>I’m not a big fan of pointless eye candy in slide decks. But if you’re doing pre-recorded material (see below) and you don’t want your mug on the screen, you sometimes need some filler. In that case, I head straight to <a href="https://labs.openai.com">DALL-E</a>. I’ve adopted a theme for my lecture slides - black and white line drawings - so I ask for a black and white line drawing of something related to what I am talking about.</p>
-<p>This is much quicker than hunting for images with open usage rights.</p>
-<p>Compared to ChatGPT, DALL-E seems pretty lame. It still struggles with concepts such as “on” or “ten” or “without writing”. Sometimes I’ll give up on a more complex concept (a deck of cards on a table) and go for something simpler (a deck of cards). I’m looking forward to GPT-4 sitting behind an image generator.</p>
-<p>I’ve also tried <a href="https://stablediffusionweb.com/">Stable Diffusion</a> but found it was much harder work to get something I can use.</p>
-</section>
-<section id="whats-next" class="level2">
-<h2 class="anchored" data-anchor-id="whats-next">What’s next?</h2>
-<section id="ai-voiced-lectures" class="level3">
-<h3 class="anchored" data-anchor-id="ai-voiced-lectures">AI-voiced lectures</h3>
-<p>My next frontier is artificial voice generation for my pre-recorded lectures.</p>
-<p>Last year - my first year taking the undergraduate behavioural economics subject - the subject was structured as two hours of live (but online) lectures and one hour of tutorials (either online or in-person). Both lectures and the online tutorial were recorded, so students could watch at another time. The net result was limited attendance - and most students didn’t watch the videos either.</p>
-<p>This year I thought I’d move the subject out of the 1950s and make it a combination of some <a href="https://www.youtube.com/@jasonacollins">short pre-recorded videos</a>, interactive online seminars and tutorials. This approach has backfired - the students don’t watch the videos and don’t want to interact - but that’s a story for another post, perhaps in combination with my review of Bryan Caplan’s The Case Against Education.</p>
-<p>To produce the videos I’ve written scripts, which also form the <a href="https://behaviouraleconomics.jasoncollins.blog">subject notes</a>. I read that accompanied by slides. I’m a hopeless off-the-cuff speaker, so for anything that’s going to be recorded and treated as a long-term asset, I’m scripting.</p>
-<p>There are three pain points in this exercise. First, I speak too fast (even when I think I’m speaking slow) and I enunciate many words poorly. Second, recording takes a lot of time. I rarely get a two to five-minute video in a single take. Third, if I want to tweak the recording, I need to either re-record solid chunks of text or fiddle around with video edits.</p>
-<p>So, why not get an artificial voice to do the speaking?</p>
-<p>I’ve been experimenting with <a href="https://murf.ai">Murf.ai</a>, <a href="https://speechify.com">Speechify</a>, <a href="https://play.ht/">play.ht</a> and <a href="https://beta.elevenlabs.io">Eleven</a>. Eleven has comfortably the most realistic voices but doesn’t yet appear to have an easy way to create video using slides. If they introduce that, I’m fully on board. Murf.ai allows me to pair slides and text to create videos, but the voices still sound a bit robotic. But with the ability to pace their speech, Murf.ai is already a better option than me. And they’ll only get better.</p>
-<p>The production process is then easy. Upload the text (although I do have to write out the equations in the course notes in text). Upload the slides and match to the text. Click play and the new video is generated.</p>
-<p>With a setup such as this, if I want to tweak parts of the videos, I can simply edit the written text and generate a new version. Adding or editing slides is also simple as they are uploaded and matched to the new text. I’m also able to run much sharper slide changes as I can time exactly the transitions.</p>
-<p>An interesting question about the artificial voice-over is how the university (and students) will take it. Do they see it as a lazy option? (When I taught at the University of Sydney in 2020 during the early stages of the pandemic, you weren’t allowed to use pre-recorded videos from one semester in a later semester. Someone hated the idea that the academics might not be working hard enough …) If I were able to clone my voice, this could become a mute issue. play.ht and Eleven have the ability to “clone” your voice, but neither can handle non-American accents. The rhythm of my cloned voice (maybe my natural rhythm) also seemed a bit clunky.</p>
-<p>I think the artificial voice-over is a great option. Academics should be investing in developing high-quality assets that can be re-used rather than bumbling along with low-quality off-the-cuff lectures. They can then invest their time in the other parts of teaching: the in-person seminars and tutorials where students can get the personalised bit of their education.</p>
-<p>This approach does point to a challenge for higher education providers. Once you’ve got high-quality recorded material for basic courses, why would you want them generated by each lecturer in each university? Someone could produce an amazing Behavioural Economics 101 (I want the Dave Malan <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">CS50</a> version of this), other lecturers can subscribe to the service and they can now focus on those human bits (not that most students want that…).</p>
-<p>I’ve also started looking at options to create an AI avatar - either based on videos/photos of me or a random AI avatar - for some parts of the videos. I’m leaving that one for the moment but can see myself revisiting in the next year.</p>
-</section>
-<section id="chat-integrated-with-copilot-and-other-microsoft-tools" class="level3">
-<h3 class="anchored" data-anchor-id="chat-integrated-with-copilot-and-other-microsoft-tools">Chat integrated with CoPilot (and other Microsoft tools)</h3>
-<p>At the moment I have multiple streams of access to these tools. I’m looking forward to chat appearing in Copilot - I’m on the waiting list to access - which will remove the need for the separate browser with ChatGPT.</p>
-<p>GPT-4 is also coming to other Microsoft tools soon. If I don’t have to exit PowerPoint to get my images, that’s an extra efficiency.</p>
-<p>I’m largely in the Mac ecosystem, but Apple seems absolutely crap in the world of assistants/chat. (“Hey Siri, tell me this most basic fact about the world.” “I’ve sent some irrelevant web results to your iPhone…..”) If at some point these tools become tied to Microsoft hardware or Windows, I’m moving.</p>
-<p>(I exited the Google ecosystem when I had trouble sharing a file from Google Drive because it breached the terms of service. It was a document that included the words “vaccination” and “scepticism”, although if you see the <a href="https://www.jasoncollins.blog/posts/megastudy-scepticism">resulting post</a>, you can see the Google algorithm was pretty crude. At that point I opted for what I hope is a bit more privacy and jettisoned Google…)</p>
-</section>
-</section>
-<section id="getting-going-with-github-copilot" class="level2">
-<h2 class="anchored" data-anchor-id="getting-going-with-github-copilot">Getting going with Github Copilot</h2>
-<p>The below gives the basic steps to achieve my setup.</p>
-<p>If you are an academic, you can sign up for (free) academic access to CoPilot at <a href="https://education.github.com/discount_requests/application">this link</a>. If you’re not an academic or student, sign up for $10 a month as described <a href="https://docs.github.com/en/billing/managing-billing-for-github-copilot/managing-your-github-copilot-subscription-for-your-personal-account">here</a>. You’ll need a Github account to do this. I think the $10 a month is worth it, but the free ChatGPT will give you most of these gains with a bit more work.</p>
-<p>Visual Studio Code is available <a href="https://code.visualstudio.com">here</a>. (I use the Mac version.) Download and install.</p>
-<p>Install the Github CoPilot extension into Visual Studio Code (or the Github CoPilot Nightly extension if you want access to features earlier). Instructions on installing the extension are <a href="https://docs.github.com/en/copilot/quickstart#installing-the-github-copilot-extension-for-visual-studio-code">here</a>. On installation you’ll be prompted to login to GitHub to gain access to authorise CoPilot.</p>
-<p>Once you have done that, using CoPilot is easy. You simply type. As you type, you will be given suggestions.</p>
-<p>I write in markdown (or as noted above, a flavour of markdown called <a href="https://quarto.org">Quarto</a>). It allows me to include <img src="https://latex.codecogs.com/png.latex?%5CLaTeX"> math and R computations within any document (as I have in this post). If you’re an academic stuck in the <img src="https://latex.codecogs.com/png.latex?%5CLaTeX"> ecosystem, you can also write in Visual Studio Code wholly in <img src="https://latex.codecogs.com/png.latex?%5CLaTeX">. (Although I say jettison that dinosaur and use <img src="https://latex.codecogs.com/png.latex?%5CLaTeX"> math in a markdown document - that ability to add computations is worth it, and the readability and experience so much easier.) You can also just wait until GPT-4 appears in Word. I expect that’s not too far away.</p>
-
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
-<div id="ref-prelec1998" class="csl-entry">
-Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <em>66</em>(3), 497–527. <a href="https://doi.org/10.2307/2998573">https://doi.org/10.2307/2998573</a>
-</div>
-</div></section></div> ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/using-large-language-models-as-academic.html</guid>
-  <pubDate>Thu, 27 Apr 2023 23:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
