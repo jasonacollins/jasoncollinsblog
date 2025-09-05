@@ -1,11 +1,8 @@
 ---
 title: A flood of new genetic variation
 author: "Jason Collins"
-
 date: 2012-12-07 08:14:54+00:00
 draft: false
-aliases:
-  - /a-flood-of-new-genetic-variation
 ---
 
 A [new Nature paper by Fu and colleagues](http://www.nature.com/nature/journal/vaop/ncurrent/full/nature11690.html) has been the subject of a few good write-ups. First, [from Brandon Keim](http://www.wired.com/wiredscience/2012/11/recent-human-evolution-2/) at Wired:

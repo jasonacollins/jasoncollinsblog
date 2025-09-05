@@ -3,8 +3,6 @@ title: A critique of behavioural economics from 1988
 author: "Jason Collins"
 date: 2012-06-03 12:37:57+00:00
 draft: false
-aliases:
-  - /a-critique-of-behavioura-economics-from-1988
 ---
 
 In the closing section to Robert Frank’s [Passions Within Reason: The Strategic Role of the Emotions](/franks-passions-within-reason/), Frank writes of the failure of critics of the self-interest model of human action to gain traction in their critique.

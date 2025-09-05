@@ -3,8 +3,6 @@ title: A New Useless Class?
 author: "Jason Collins"
 date: 2018-09-12 09:00:51+00:00
 draft: false
-aliases:
-  - /a-new-useless-class
 ---
 
 [Yuval Noah Harari writes](https://www.theatlantic.com/magazine/archive/2018/10/yuval-noah-harari-technology-tyranny/568330/):

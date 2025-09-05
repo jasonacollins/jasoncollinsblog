@@ -3,8 +3,6 @@ title: A problem in the world or a problem in the model
 author: "Jason Collins"
 date: 2018-12-07 08:00:56+00:00
 draft: false
-aliases:
-  - /a-problem-in-the-world-or-a-problem-in-the-model
 ---
 
 In reviewing Michael Lewis's [The Undoing Project](https://www.jasoncollins.blog/michael-lewiss-the-undoing-project-a-friendship-that-changed-the-world/), [John Kay writes](https://www.johnkay.com/2017/01/20/review-undoing-project-michael-lewis/):

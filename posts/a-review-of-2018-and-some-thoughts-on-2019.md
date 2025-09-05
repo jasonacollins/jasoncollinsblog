@@ -3,8 +3,6 @@ title: A review of 2018 and some thoughts on 2019
 author: "Jason Collins"
 date: 2019-01-14 08:00:09+00:00
 draft: false
-aliases:
-  - /a-review-of-2018-and-some-thoughts-on-2019
 ---
 
 As a record largely for myself, below are some notes in review of 2018 and a few thoughts about 2019.

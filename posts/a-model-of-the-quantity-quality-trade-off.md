@@ -1,13 +1,8 @@
 ---
+title: A model of the quantity-quality trade-off
 author: "Jason Collins"
-
 date: 2013-02-05 13:30:58+00:00
 draft: false
-link: https://www.jasoncollins.blog/a-model-of-the-quantity-quality-trade-off/
-aliases:
-  - /a-model-of-the-quantity-quality-trade-off
-title: A model of the quantity-quality trade-off
-wordpress_id: 5228
 ---
 
 Following [my last post](https://www.jasoncollins.blog/there-is-no-quantity-quality-trade-off/) suggesting that there was no quality-quantity trade-off in modern societies (at least to an extent that mattered), I wanted to point to a nice model that makes this argument. The interesting thing about the model is that the purpose of the authors in developing it was not primarily to make that point.

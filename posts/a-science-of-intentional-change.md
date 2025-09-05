@@ -1,13 +1,8 @@
 ---
+title: A science of intentional change
 author: "Jason Collins"
-
 date: 2013-05-22 12:39:22+00:00
 draft: false
-link: https://www.jasoncollins.blog/a-science-of-intentional-change/
-aliases:
-  - /a-science-of-intentional-change
-title: A science of intentional change
-wordpress_id: 6237
 ---
 
 If nothing else, David Sloan Wilson is ambitious. He's been pushing the multilevel selection wheelbarrow with not much support for close to forty years (although support seems to be growing in some circles). And over the last couple of years, he's been increasingly promoting the idea of a evolution-centred "science of intentional change" that will allow us to change our behavioural and cultural practices. And as a simple step on the way there, all we have to do is conceptually unify the behavioural sciences.

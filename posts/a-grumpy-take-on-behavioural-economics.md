@@ -3,8 +3,6 @@ title: A grumpy take on behavioural economics
 author: "Jason Collins"
 date: 2015-06-30 09:00:08+00:00
 draft: false
-aliases:
-  - /a-grumpy-take-on-behavioural-economics
 ---
 
 I missed this when it was first posted, but J[ohn Cochrane has posted a great rant](http://johnhcochrane.blogspot.com.au/2015/05/homo-economicus-or-homo-paleas.html) (not that I agree with it all) in response to a couple of articles on Richard Thaler's new book *Misbehaving: The Making of Behavioral Economics* (HT: [Diane Coyle](http://www.enlightenmenteconomics.com/blog/index.php/2015/06/economists-behaving-badly/)).
