@@ -32,7 +32,9 @@ Gilles Saint-Paul, [The Tyranny of Utility: Behavioral Social Science and the Ri
 
 Hugo Mercier, *Not Born Yesterday: The Science of Who We Trust and What We Believe*: A strong argument that we are not gullible and easily manipulated, but rather skeptical and rational in the way we filter information.
 
-Robert Sugden's [The Community of Advantage: A Behavioural Economist's Defence of the Market](/posts/robert-sugdens-the-community-of-advantage-a-behavioural-economists-defence-of-the-market/): A well balanced critique from someone who has worked in the field for decades.
+Robert Sugden, [The Community of Advantage: A Behavioural Economist's Defence of the Market](/posts/robert-sugdens-the-community-of-advantage-a-behavioural-economists-defence-of-the-market/): A well balanced critique from someone who has worked in the field for decades.
+
+Mark D. White, *The Manipulation of Choice: Ethics, Libertarianism and Paternalism*: Some great chapters on what policy makers can know about people's preferences, but for misses the mark is his critique on what behavioural economics can bundle under the "preferences" label.
 
 ## 2. General and methodological critiques
 

@@ -6,7 +6,7 @@ draft: true
 bibliography: references.bib
 ---
 
-If you want a reliable gimmick to demonstrate human "irrationality", ask half of your audience the following question:
+Want to demonstrate human "irrationality"? Ask half of your audience the following question:
 
 > Was Elvis older or younger than age 45 when he died?
 
@@ -18,53 +18,110 @@ Then ask both groups:
 
 > How old was Elvis when he died?
 
-Those asked if Elvis was older or younger than age 45 tend to estimate a lower age than those asked if he was older or younger than age 85.
+Those asked if Elvis was older or younger than age 45 tend to estimate a lower age than those asked about age 85.
 
-This is an illustration of the "anchoring and adjustment" heuristic. When people are estimating a quantity, they often start from an initial value (the anchor) and adjust from that anchor to yield a final answer. The heuristic can lead to bias where we use weak anchors or insufficiently adjust from the anchor.
+This is an illustration of the "anchoring and adjustment" heuristic. When people estimate a quantity, they often start from an initial value (the anchor) and adjust from that anchor to get a final answer. The heuristic can be biased where we use weak anchors or insufficiently adjust from the anchor.
 
-@tversky1974 illustrated weak anchors in an experiment where they spun a wheel with numbers on it before asking people whether the proportion of African countries who were members of the United Nations was above or below that number (this experiment was in the 1970s). They were then asked for a numerical estimate. Those who had a higher number on the wheel estimated a higher proportion. The randomness of the anchor was a nice experimental feature. In my Elvis example above, the respondent might assume I have chosen the number (45 or 85) for a reason. There might be information in that number. There is no such information in the spinning of the wheel.
+One famous experiment on anchors was by @tversky1974. They spun a wheel with numbers on it before asking people whether the proportion of African countries who were members of the United Nations was above or below that number (this experiment was in the 1970s). The participants were then asked for a numerical estimate. The higher the number on the wheel, the higher the estimate. The randomness of the anchor was a nice experimental feature. In my Elvis example above, the respondent might assume I chose the number (45 or 85) for a reason. There might be information in that number. There is no such information in the spinning of the wheel.
 
 Insufficient adjustment from the anchor can be thought of as the other side of the coin to using an irrelevant anchor. If there is any trace of an irrelevant anchor in your answer, you haven't adjusted enough. However, many anchors we use are sensible - we just don't adjust enough for our particular case.
 
-Although anchoring is often called a "bias", it is better to think of it as a heuristic that can backfire depending on the task environment. If you're considering making an offer for a four-bedroom house, it's not a bad strategy to start with the sale price of the neighbouring 3-bedroom house then adjust for the extra bedroom and any other differences between the two. @griffiths2015 argued that anchoring and adjustment can be "resource-rational", where taking into account the computational cost makes anchoring and adjustment an optimal estimation strategy.
+Although anchoring is often called a "bias", it is better to think of anchoring as a heuristic that can backfire in some task environments. If you're considering making an offer for a four-bedroom house, it's not a bad strategy to start with the sale price of the neighbouring three-bedroom house. Adjust for the extra bedroom and any other differences between the two. @griffiths2015 argued that anchoring and adjustment can be "resource-rational", as accounting for the computational cost makes anchoring and adjustment an optimal estimation strategy.
 
 Which brings me to the question of anchoring to artificial intelligence (AI) advice.
 
-A central challenge in human-AI interaction is calibrating the user's trust in the AI system. When should a user trust the AI? When should they deviate from the AI recommendation? The typical finding is that complementary performance - the human-AI combination outperforming the human or AI alone - is hard to achieve. The most common result is the AI boosting human performance, but not to the level of the AI alone. Deviations from the AI advice are more likely to degrade than improve performance.
+A challenge in human-AI interaction is calibrating the user's trust in the AI system. When should a user trust the AI? When should they deviate from the AI recommendation? Most experimental evidence suggests we don't calibrate well. Complementary performance - the human-AI combination outperforming the human or AI alone - is hard to achieve. The most common result is the AI boosting human performance, but not to the level of the AI alone. Deviations from the AI advice are more likely to degrade than improve performance.
 
 @rastogi2022 proposed that one obstacle to complementary performance is "anchoring bias". People do not explore the alternative hypotheses once the AI decision has provided an anchor.
 
-Before exploring whether this is "anchoring bias", let me describe the experiments.
+Before exploring whether this is "anchoring bias", let me describe the @rastogi2022 experiments.
 
 ## Experiment 1
 
-A group of Amazon Mechanical Turk workers were asked to predict whether a student, given their characteristics, past performance and demographics, would pass or fail a class. In making their prediction, participants were provided with an AI model recommendation. The authors trained the AI - a logistic regression model - on a \[student performance dataset\](<https://archive.ics.uci.edu/dataset/320/student+performance>).
+The authors asked a group of Amazon Mechanical Turk workers to predict whether a student would pass or fail a class. The data, drawn from a [student performance dataset](https://archive.ics.uci.edu/dataset/320/student+performance), included student characteristics, past performance and demographics. The workers were also provided with an AI model (logistic regression) recommendation based on the 10 most important student features (e.g. mother’s and father’s education, hours spent studying weekly).
 
-Before
-
-This is where it gets interesting. The authors write:
+Before the main task, the authors asked participants to give estimates for 15 training examples. Their training instructions were described by the authors as follows:
 
 > To induce anchoring bias, the participant was informed at the start of the training section that the AI model was 85% accurate (we carefully chose the training trials to ensure that the AI was indeed 85% accurate over these trials), while the model’s actual accuracy is 70.8% over the entire training set and 66.5% over the test set. Since our goal is to induce anchoring bias and the training time is short, we stated a high AI accuracy.
 
-This is typical of many experiments I have read in the human-computer interaction literature. The authors are selective in the results they report and the absence of publicly available data means that the best you can do is speculate on the underlying phenomena.
+After each training estimate, they were shown the correct answer and the estimate made by the AI.
 
-The authors state that they achieve complementary performance, but I don't see it.
+Effectively, participants are told the AI is 85% accurate and then see performance through the training set that aligns with that accuracy. Though you could frame this as "not a lie" - although we're not provided with the exact wording to make that judgment - the participants are deliberately deceived. I have another post in the pipeline on deception in human-AI experiments (surprisingly common) and a little more to say below, but to say someone is biased because they accounted for information designed to deceive them is a little rich.
+
+The test section then involved 36 trials. The AI accuracy in these trials was even lower than the 66% measured in testing as for eight trials the AI prediction was "flipped", giving a prediction task accuracy of 58%. If the workers "anchored" to those eight flipped trials, their performance would be even worse.
+
+The primary hypothesis tested in Experiment 1 is whether anchoring is reduced if the workers were given more time to make their prediction. Workers were given 10, 15, 20 or 25 seconds to make their prediction. If they were less likely to follow the erroneous prediction in those flipped trials, that would be evidence of reduced anchoring.
+
+The results of first look, as presented in the following figure, supports the hypothesis. Workers with 25 seconds were more likely to deviate from the incorrect recommendation. This might be thought of as being in line with @griffiths2015, in that more resources enable more calculation and adjustment.
+
+![](img/is-following-ai-advice-anchoring/rastogi-et-al-2022-fig-2a.png)
+
+(I also suspect there is an error in this chart. The average disagreement for the non-probe trials is unbelievably low.)
+
+The one reported statistical test stating that time alleviates anchoring bias for those trials. There is no p-value reported, but based on the reported confidence intervals, it only just scrapes into statistical significance.
+
+(To get on my high horse about pre-registration here, I can think of a lot of ways to test the effect of time on anchoring. A linear regression on a bootstrapped 5000 re-samples isn't the first one that would come to mind. Why this choice? What of other options? )
+
+What we're not provided with is broader accuracy data or tests of anchoring beyond the Figure. We can see that more transparently in the data from Experiment 2, and it suggests that reducing "anchoring bias" on incorrect recommendations may not be without trade-offs.
+
+(Both this selective reporting - like the lack of pre-registration - is typical of many experiments I have read in the human-computer interaction literature. The authors report limited results and the absence of publicly available data means that the best you can do is speculate on the robustness of the tests. Given we don't even get accuracy data, we don't get much chance to check other angles either.)
 
 Measuring "adjustment" is also quite difficult here, as there is only one type of adjustment - disagreeing with the AI recommendation. Is this anchoring and adjustment - or is it assume the AI is right unless there is clear evidence to the contrary?
 
+## Experiment 2
+
+In experiment 2, the authors test a broader set of interventions to reduce "anchoring bias". They also report richer data (in the form of a richer chart), so we're able to see a little more of the dynamic.
+
+This experiment used the same task as Experiment 1, except the AI model was trained excluding the second, third and fourth most relevant features for the prediction (hours spent studying  weekly, hours spent going out with friends weekly, enrolment in extra educational support). This gave the workers three features that the AI did not have access to, creating potential for complementary performance via the information asymmetry.
+
+The authors don't state the accuracy of this degraded AI, but the workers are again told at the start of their training that the AI has 85% accuracy. However, the accuracy of the degraded AI on the sample for the participants' main task was around 60%.
+
+Workers were then places in the following conditions.
+
+- **Human only**: Workers provide their prediction without an AI prediction. They are given 25 seconds for each prediction
+- **Constant time**: Workers provide their prediction with the help of the AI prediction, with 18 second per prediction.  
+- **Random time**: AI assistance with the time allocation randomly set to either 10 seconds or 25 seconds each trial.  
+- **Confidence-based time**: AI assistance with 10 or 25 seconds depending of AI confidence (low confidence = more time).  
+- **Confidence-based time with explanation**: As for confidence-based time but the AI confidence is explicitly provided (“low” or “high”).
+
+Each of these conditions aligns with a hypothesis that they might reduce anchoring.
+
+The results are summarised in these two figures (it takes a while to get your head around what they're saying, I'll highlight the most important bits below).
+
+![](img/is-following-ai-advice-anchoring/rastogi-et-al-2022-fig-4.png)
+
+The authors discuss a number of these results, of which perhaps the most interesting is the central hypothesis, H2, that:
+
+> Anchoring bias has a negative effect on human-AI collaborative decision-making accuracy when AI is incorrect.
+
+The authors note that the human only group has higher accuracy than all of the AI groups on instances where the AI is incorrect. They take this as evidence in support of H2. But is "anchoring bias" leading to this negative effect?
+
+To not have lower accuracy when the AI is incorrect than the human only condition, workers in the AI conditions would need to completely ignore the AI for those incorrect recommendations. The anchor is completely removed. But is that reasonable when the authors have informed the workers that the AI is 85% accurate - not to mention that is confirmed by their training experience? Labelling the giving of any weight to a piece of information - information that should have some weight - "anchoring bias" seems a stretch.
+
+We could also propose an alternative hypothesis:
+
+> Anchoring bias has a positive effect on human-AI collaborative decision-making accuracy when AI is correct.
+
+Again, for this not to be true, we would need the person to completely ignore the AI. And unsurprisingly, eyeballing the figure, it is true. The AI conditions all markedly outperform the human-only group on estimates where the AI recommendation is correct.
+
+There's actually an interesting pattern across all the conditions. Whenever you decrease the probability of following an incorrect AI recommendation, you also decrease the probability of following a correct recommendation. The result is that performance across all conditions is largely the same.
+
+The authors state that they achieve complementary knowledge, but we don't get complementary performance.
+
+
 ## Is this anchoring?
 
-For it to be anchoring, we need some model of P(accuracy less than 85% \| experimenter told us accuracy 85% + D) that updates over time. They call it an anchor. I call it another prior. If I was in an economics experiment, my prior that the accuracy is actually 85% would be quite high.
+Part of me is reluctant to even use the word "anchoring" in this situation. Is any use of information for a particular decision, when that information degrades the decision "anchoring"? It seems to extending the definition of the word anchoring to mean accounting for any information. For it to be anchoring, we need some model of P(accuracy less than 85% \| experimenter told us accuracy 85% + D) that updates over time. They call it an anchor. I call it another prior. If I was in an economics experiment, my prior that the accuracy is actually 85% would be quite high.
 
 If one of my kids tells me they've got a normal coin and flip two heads, I'm updating only marginally from my very strong prior. What is the level of trust of experimental participants in experimenters? (One reason deception is frowned upon in economics is because it degrades trust in experimenters, leading to an additional variable you need to account for in your analysis.)
 
 ## The problem is more often insufficient anchoring
 
-By deliberately giving
+By deliberately giving a degraded model, we end up with a situation 
 
-Almost every experiment finds that people adjust too much! Here's some data from @dietvorst2018. People were more likely to use an algorithm if they could adjust it. That led to higher performance, largely because of this greater likelihood of selecting the model.
+Experiments typically find that people adjust too much! Here's some data from @dietvorst2018. People were more likely to use an algorithm if they could adjust it. That led to higher performance, largely because of this greater likelihood of selecting the model.
 
-![@dietvorst2018 Figure 2b](img/dietvorst-et-al-2018-fig-2b.png){width="400"}
+![@dietvorst2018 Figure 2b](img/is-following-ai-advice-anchoring/dietvorst-et-al-2018-fig-2b.png){width="400"}
 
 But how does the performance of those who selected the model compare to the model itself. Here is a chart I have generated from the experimental data provided in the [supplementary materials](https://pubsonline.informs.org/doi/suppl/10.1287/mnsc.2016.2643/suppl_file/mnsc.2016.2643-sm-data.zip). (And again noting that business schools are [far ahead of the human-computer interaction crowd](why-i-dont-trust-most-human-ai-interaction-experimental-research.qmd) when it comes to best practice data sharing.)
 
@@ -171,6 +228,11 @@ p <- ggplot(plot_data, aes(x = ConditionLabel, y = AAE, fill = ErrorType)) +
 print(p)
 ```
 
+This is a typical finding. Here's a plot of a meta-analysis by @vaccaro2024. Across 370 effect sizes from 106 studies, human-AI combinations more typically underperformed the best of the human or AI than outperformed.
+
+![](img/is-following-ai-advice-anchoring/vaccaro-et-al-2024-fig-1a.png){width="600"}
+
+If the AI actually had accuracy of 85% as the experimental participants were informed, I suspect we would be talking about a different problem: insufficient anchoring. Anchoring and overadjustment. 
 
 GRAVEYARD
 

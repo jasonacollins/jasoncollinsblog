@@ -3,8 +3,6 @@ title: Bias in the World Bank
 author: "Jason Collins"
 date: 2016-07-25 09:00:57+00:00
 draft: false
-aliases:
-  - /bias-in-the-world-bank
 ---
 
 Last year's [World Development Report 2015: Mind, Society and Behaviour](http://elibrary.worldbank.org/doi/book/10.1596/978-1-4648-0342-0) from the World Bank documents many of what seem to be successful behavioural interventions. Many of the interventions are quite interesting and build a case that a behavioural approach can add something to development economics.

@@ -1,5 +1,5 @@
 ---
-title: 'Best books I read in 2022'
+title: 'Books I read in 2022'
 author: "Jason Collins"
 date: 2023-01-10 09:00:00+10:00
 draft: false
