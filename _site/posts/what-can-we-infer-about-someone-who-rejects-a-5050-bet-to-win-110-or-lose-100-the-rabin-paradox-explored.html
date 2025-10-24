@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.23">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -69,14 +69,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ac706bccb5107cfdbcdabb2cff0da72d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-9be722aa83fbcc428616ae682c30a50a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -141,7 +142,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -173,6 +174,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Jason Collins blog</span>
     </a>
@@ -364,7 +367,7 @@ k^{*}(x)=int\left(\frac{x}{2l}\right)
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>Rabin_bet <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, G, L){</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>Rabin_bet <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, G, L){</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  k_2star <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(G<span class="sc">/</span>g)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  k_star <span class="ot">&lt;-</span> <span class="fu">as.integer</span>(L<span class="sc">/</span>(<span class="dv">2</span><span class="sc">*</span>l))</span>
@@ -387,14 +390,14 @@ k^{*}(x)=int\left(\frac{x}{2l}\right)
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>         )</span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Max U from gain ="</span>, U_gain))</span>
 <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Min U from loss ="</span>, U_loss))</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <p>Take a person who will reject a 50:50 bet to win $110, lose $100. Taking the table from the paper, they would reject a win $1,000,000,000, lose $1,000 bet.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Rabin_bet</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">1000000000</span>, <span class="dv">1000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Rabin_bet</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">1000000000</span>, <span class="dv">1000</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "REJECT"
@@ -437,7 +440,7 @@ U(w)-U(w-x)\geq
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>Rabin_bet_general <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, G, L, w, w_max, w_min){</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>Rabin_bet_general <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, G, L, w, w_max, w_min){</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ifelse</span>(</span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    G <span class="sc">&lt;=</span> (w_max<span class="sc">-</span>w),</span>
@@ -481,14 +484,14 @@ U(w)-U(w-x)\geq
 <span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a>         )</span>
 <span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Max U from gain ="</span>, U_gain))</span>
 <span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Min U from loss ="</span>, U_loss))</span>
-<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <p>Imagine someone who turns down the win $110, lose $100 bet with a wealth of $290,000, but who would only reject this bet up to $300,000. They will reject a win $718,190, lose $1000 bet.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Rabin_bet_general</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">718190</span>, <span class="dv">1000</span>, <span class="dv">290000</span>, <span class="dv">300000</span>, <span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Rabin_bet_general</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">718190</span>, <span class="dv">1000</span>, <span class="dv">290000</span>, <span class="dv">300000</span>, <span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "REJECT"
@@ -500,7 +503,7 @@ U(w)-U(w-x)\geq
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Rabin_bet_general</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">718190</span>, <span class="dv">1000</span>, <span class="dv">10000</span>, <span class="dv">20000</span>, <span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Rabin_bet_general</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">718190</span>, <span class="dv">1000</span>, <span class="dv">10000</span>, <span class="dv">20000</span>, <span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "REJECT"
@@ -515,7 +518,7 @@ U(w)-U(w-x)\geq
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>log_utility <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, w){</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>log_utility <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, w){</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  log_gain <span class="ot">&lt;-</span> <span class="fu">log</span>(w<span class="sc">+</span>g)</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  log_loss <span class="ot">&lt;-</span> <span class="fu">log</span>(w<span class="sc">-</span>l)</span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  EU_bet <span class="ot">&lt;-</span> <span class="fl">0.5</span><span class="sc">*</span>log_gain <span class="sc">+</span> <span class="fl">0.5</span><span class="sc">*</span>log_loss</span>
@@ -531,14 +534,14 @@ U(w)-U(w-x)\geq
 <span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Expected utility of bet = "</span>, EU_bet))</span>
 <span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Utility of current wealth = "</span>, EU_certain))</span>
-<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <p>Testing a few numbers, someone with log utility is indifferent about a 50:50 win $110, lose $100 bet at wealth $1100. They would accept for any level of wealth above that level.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log_utility</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">1100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log_utility</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">1100</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "INDIFFERENT"
@@ -550,7 +553,7 @@ U(w)-U(w-x)\geq
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log_utility</span>(<span class="dv">1100</span>, <span class="dv">1000</span>, <span class="dv">11000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log_utility</span>(<span class="dv">1100</span>, <span class="dv">1000</span>, <span class="dv">11000</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "ACCEPT"
@@ -562,7 +565,7 @@ U(w)-U(w-x)\geq
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log_utility</span>(<span class="dv">1000000</span>, <span class="dv">90900</span>, <span class="dv">100000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">log_utility</span>(<span class="dv">1000000</span>, <span class="dv">90900</span>, <span class="dv">100000</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "ACCEPT"
@@ -579,7 +582,7 @@ U(x)=\frac{w^{1-\rho}-1}{1-\rho}
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>CRRA_utility <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, w, <span class="at">rho=</span><span class="dv">2</span>){</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>CRRA_utility <span class="ot">&lt;-</span> <span class="cf">function</span>(g, l, w, <span class="at">rho=</span><span class="dv">2</span>){</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(rho<span class="sc">==</span><span class="dv">1</span>){</span>
 <span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">print</span>(<span class="st">"function undefined"</span>)</span>
@@ -601,7 +604,7 @@ U(x)=\frac{w^{1-\rho}-1}{1-\rho}
 <span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>  </span>
 <span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Expected utility of bet = "</span>, EU_bet))</span>
 <span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="fu">paste0</span>(<span class="st">"Utility of current wealth = "</span>, EU_certain))</span>
-<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <p>If we increase <span class="math inline">\rho</span>, we can increase the proportion of low-value bets that are rejected.</p>
@@ -609,7 +612,7 @@ U(x)=\frac{w^{1-\rho}-1}{1-\rho}
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">CRRA_utility</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">2200</span>, <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">CRRA_utility</span>(<span class="dv">110</span>, <span class="dv">100</span>, <span class="dv">2200</span>, <span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "INDIFFERENT"
@@ -621,7 +624,7 @@ U(x)=\frac{w^{1-\rho}-1}{1-\rho}
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">CRRA_utility</span>(<span class="dv">1000000</span>, <span class="dv">48000</span>, <span class="dv">100000</span>, <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">CRRA_utility</span>(<span class="dv">1000000</span>, <span class="dv">48000</span>, <span class="dv">100000</span>, <span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "REJECT"
@@ -688,13 +691,14 @@ U(x)=\frac{w^{1-\rho}-1}{1-\rho}
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -1044,15 +1048,13 @@ U(x)=\frac{w^{1-\rho}-1}{1-\rho}
 <input type="hidden" id="giscus-base-theme" value="light">
 <input type="hidden" id="giscus-alt-theme" value="light">
 <script>
-function loadGiscusWhenReady() {
-  // Function to get the theme based on body class
-  const getTheme = () => {
-    const baseTheme = document.getElementById('giscus-base-theme').value;
-    const altTheme = document.getElementById('giscus-alt-theme').value;
-    return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
-  };
-  // Create the Giscus script and add it to the desired location
-  const loadGiscus = () => {
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
     const script = document.createElement("script");
     script.src = "https://giscus.app/client.js";
     script.async = true;
@@ -1069,26 +1071,8 @@ function loadGiscusWhenReady() {
     script.crossOrigin = "anonymous";
     // Append the script to the desired div instead of at the end of the body
     document.getElementById("quarto-content").appendChild(script);
-  };
-  // MutationObserver to detect when the 'quarto-light' or 'quarto-dark' class is added to the body
-  const observer = new MutationObserver((mutations) => {
-    for (const mutation of mutations) {
-      if (mutation.type === "attributes" && mutation.attributeName === "class") {
-        if (document.body.classList.contains('quarto-light') || document.body.classList.contains('quarto-dark')) {
-          loadGiscus();
-          observer.disconnect(); // Stop observing once Giscus is loaded
-          break;
-        }
-      }
-    }
-  });
-  // Start observing the body for class attribute changes
-  observer.observe(document.body, {
-    attributes: true,
-    attributeFilter: ["class"],
-  });
-}
-loadGiscusWhenReady();
+  }
+  loadGiscus();
 </script>
 </div> <!-- /content -->
 <footer class="footer">

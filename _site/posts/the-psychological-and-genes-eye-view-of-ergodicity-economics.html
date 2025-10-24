@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.23">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -89,14 +89,15 @@ div.csl-indent {
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-226bd0f977fa82dfae4534cac220d79a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ac706bccb5107cfdbcdabb2cff0da72d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-9be722aa83fbcc428616ae682c30a50a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -164,7 +165,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -202,6 +203,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Jason Collins blog</span>
     </a>
@@ -298,17 +301,17 @@ window.Quarto = {
 <div class="cell">
 <details class="code-fold">
 <summary>Setup code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the required packages</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the required packages</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(scales) <span class="co">#use the percent scale later</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr) <span class="co">#use the filter function later</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr) <span class="co">#use the filter function later</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <div class="cell">
 <details class="code-fold">
 <summary>Code for bet function</summary>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a function for running of the bets.</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a function for running of the bets.</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>bet <span class="ot">&lt;-</span> <span class="cf">function</span>(p, n, t, <span class="at">start=</span><span class="dv">100</span>, gain, loss, <span class="at">ergodic=</span><span class="cn">FALSE</span>, <span class="at">absorbing=</span><span class="cn">FALSE</span>){</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -360,22 +363,22 @@ window.Quarto = {
 <span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">colnames</span>(sim) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"period"</span>, <span class="fu">paste0</span>(<span class="st">"p"</span>, <span class="dv">1</span><span class="sc">:</span>n))</span>
 <span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>  sim <span class="ot">&lt;-</span> <span class="fu">list</span>(<span class="at">params=</span>params, <span class="at">sim=</span>sim)</span>
 <span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>  sim</span>
-<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <div class="cell">
 <details class="code-fold">
 <summary>Code to run simulation</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate 10,000 people who accept a series of 1000 50:50 bets to win \$50 or lose \$40 from a starting wealth of \$100.</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate 10,000 people who accept a series of 1000 50:50 bets to win \$50 or lose \$40 from a starting wealth of \$100.</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">20240705</span>)</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>nonErgodic <span class="ot">&lt;-</span> <span class="fu">bet</span>(<span class="at">p=</span><span class="fl">0.5</span>, <span class="at">n=</span><span class="dv">10000</span>, <span class="at">t=</span><span class="dv">1000</span>, <span class="at">gain=</span><span class="fl">1.5</span>, <span class="at">loss=</span><span class="fl">0.6</span>, <span class="at">ergodic=</span><span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>nonErgodic <span class="ot">&lt;-</span> <span class="fu">bet</span>(<span class="at">p=</span><span class="fl">0.5</span>, <span class="at">n=</span><span class="dv">10000</span>, <span class="at">t=</span><span class="dv">1000</span>, <span class="at">gain=</span><span class="fl">1.5</span>, <span class="at">loss=</span><span class="fl">0.6</span>, <span class="at">ergodic=</span><span class="cn">FALSE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <div class="cell">
 <details class="code-fold">
 <summary>Code for plot</summary>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Function to plot individual paths and average wealth over a set number of periods.</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Function to plot individual paths and average wealth over a set number of periods.</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>plotWealth <span class="ot">&lt;-</span> <span class="cf">function</span>(sim, <span class="at">t =</span> <span class="dv">100</span>, <span class="at">people =</span> <span class="cn">NULL</span>) {</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  basePlot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(sim<span class="sc">$</span>sim[<span class="dv">1</span><span class="sc">:</span>(t<span class="sc">+</span><span class="dv">1</span>),], <span class="fu">aes</span>(<span class="at">x =</span> period)) <span class="sc">+</span></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Wealth ($)"</span>)</span>
@@ -397,7 +400,7 @@ window.Quarto = {
 <span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate the plot with individual paths and average wealth</span></span>
 <span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>nonErgodicPlot <span class="ot">&lt;-</span> <span class="fu">plotWealth</span>(<span class="at">sim =</span> nonErgodic, <span class="at">t =</span> <span class="dv">100</span>, <span class="at">people =</span> <span class="dv">20</span>)</span>
-<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>nonErgodicPlot</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>nonErgodicPlot</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div id="fig-ergodicity-presentation-1" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -417,11 +420,11 @@ Figure&nbsp;1: Plot of first 20 people against average wealth
 <div class="cell">
 <details class="code-fold">
 <summary>Code for log plot</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot both the average outcome and first twenty people on the same plot.</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot both the average outcome and first twenty people on the same plot.</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>logNonErgodicPlot <span class="ot">&lt;-</span> <span class="fu">plotWealth</span>(<span class="at">sim=</span>nonErgodic, <span class="at">t=</span><span class="dv">100</span>, <span class="at">people=</span><span class="dv">20</span>)<span class="sc">+</span></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_y_log10</span>(<span class="at">breaks =</span> <span class="fu">c</span>(<span class="fl">0.0001</span>, <span class="fl">0.1</span>, <span class="dv">100</span>, <span class="dv">100000</span>), <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"0.0001"</span>, <span class="st">"0.1"</span>, <span class="st">"100"</span>, <span class="st">"100000"</span>))</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>logNonErgodicPlot</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>logNonErgodicPlot</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div id="fig-ergodicity-presentation-2" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -440,7 +443,7 @@ Figure&nbsp;2: Plot of first 20 people against average wealth (log scale)
 <div class="cell">
 <details class="code-fold">
 <summary>Code to create function to generate summary statistics</summary>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a function to generate summary statistics.</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a function to generate summary statistics.</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>summaryStats <span class="ot">&lt;-</span> <span class="cf">function</span>(sim, <span class="at">t =</span> <span class="dv">100</span>) {</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  </span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Extract the wealth data for the specified time</span></span>
@@ -484,7 +487,7 @@ Figure&nbsp;2: Plot of first 20 people against average wealth (log scale)
 <span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a>}</span>
 <span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a>nonErgodicStats <span class="ot">&lt;-</span> <span class="fu">summaryStats</span>(nonErgodic, <span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a>nonErgodicStats <span class="ot">&lt;-</span> <span class="fu">summaryStats</span>(nonErgodic, <span class="dv">100</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <p>These 20 people are representative of the broader population. Across the 10,000 agents in this simulation, 86 per cent lost money. The mean wealth was $22303, but the median wealth was $0.52.</p>
@@ -509,19 +512,19 @@ Figure&nbsp;2: Plot of first 20 people against average wealth (log scale)
 <div class="cell">
 <details class="code-fold">
 <summary>Code to simulate ergodic environment</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate 10,000 people who accept a series of 1000 50:50 bets to win \$50 or lose \$40 from a starting wealth of \$100.</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate 10,000 people who accept a series of 1000 50:50 bets to win \$50 or lose \$40 from a starting wealth of \$100.</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">20240705</span>)</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>ergodic <span class="ot">&lt;-</span> <span class="fu">bet</span>(<span class="at">p=</span><span class="fl">0.5</span>, <span class="at">n=</span><span class="dv">10000</span>, <span class="at">t=</span><span class="dv">100</span>, <span class="at">gain=</span><span class="dv">50</span>, <span class="at">loss=</span><span class="dv">40</span>, <span class="at">ergodic=</span><span class="cn">TRUE</span>, <span class="at">absorbing=</span><span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>ergodic <span class="ot">&lt;-</span> <span class="fu">bet</span>(<span class="at">p=</span><span class="fl">0.5</span>, <span class="at">n=</span><span class="dv">10000</span>, <span class="at">t=</span><span class="dv">100</span>, <span class="at">gain=</span><span class="dv">50</span>, <span class="at">loss=</span><span class="dv">40</span>, <span class="at">ergodic=</span><span class="cn">TRUE</span>, <span class="at">absorbing=</span><span class="cn">FALSE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <div class="cell">
 <details class="code-fold">
 <summary>Code to plot ergodic simulation</summary>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot both the average outcome and first twenty people on the same plot.</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot both the average outcome and first twenty people on the same plot.</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>ergodicPlot <span class="ot">&lt;-</span> <span class="fu">plotWealth</span>(<span class="at">sim=</span>ergodic, <span class="at">t=</span><span class="dv">100</span>, <span class="at">people=</span><span class="dv">20</span>)</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>ergodicPlot</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>ergodicPlot</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div id="fig-ergodicity-presentation-3" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -539,16 +542,16 @@ Figure&nbsp;3: Average wealth of population and path of first 20 people
 <div class="cell">
 <details class="code-fold">
 <summary>Code to generate ergodic summary statistics</summary>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate summary statistics for the population and wealthiest person after 100 and 1000 flips}</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate summary statistics for the population and wealthiest person after 100 and 1000 flips}</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>summaryErgodic100 <span class="ot">&lt;-</span> <span class="fu">summaryStats</span>(<span class="at">sim=</span>ergodic, <span class="at">t=</span><span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>summaryErgodic100 <span class="ot">&lt;-</span> <span class="fu">summaryStats</span>(<span class="at">sim=</span>ergodic, <span class="at">t=</span><span class="dv">100</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <p>The individual growth paths cluster on either side of the population average. After 100 flips, the mean wealth is $602 and the median $600. 87% of the population has gained in wealth. This alignment between the mean and median wealth, and the relatively equal distribution of wealth, are characteristic of an ergodic system.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code to calculate number with zero wealth</summary>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Determine how many people (in the first people out of n) experienced zero wealth or less during the simulation.</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Determine how many people (in the first people out of n) experienced zero wealth or less during the simulation.</span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>numZero <span class="ot">&lt;-</span> <span class="cf">function</span>(sim, t, <span class="at">subset=</span><span class="dv">0</span>){</span>
 <span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -568,7 +571,7 @@ Figure&nbsp;3: Average wealth of population and path of first 20 people
 <span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a>numZeroTwenty100 <span class="ot">&lt;-</span> <span class="fu">numZero</span>(<span class="at">sim=</span>ergodic, <span class="at">t=</span><span class="dv">100</span>, <span class="at">subset=</span><span class="dv">20</span>)</span>
 <span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>numZeroTwenty1000 <span class="ot">&lt;-</span> <span class="fu">numZero</span>(<span class="at">sim=</span>ergodic, <span class="at">t=</span><span class="dv">1000</span>, <span class="at">subset=</span><span class="dv">20</span>)</span>
 <span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>numZero100 <span class="ot">&lt;-</span> <span class="fu">numZero</span>(<span class="at">sim=</span>ergodic, <span class="at">t=</span><span class="dv">100</span>)</span>
-<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>numZero1000 <span class="ot">&lt;-</span> <span class="fu">numZero</span>(<span class="at">sim=</span>ergodic, <span class="at">t=</span><span class="dv">1000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>numZero1000 <span class="ot">&lt;-</span> <span class="fu">numZero</span>(<span class="at">sim=</span>ergodic, <span class="at">t=</span><span class="dv">1000</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <p>Now for a wrinkle, which we can see in the plotted figure. Of those first 20 people plotted on the chart, 11(!) had their wealth go into the negative over those 100 periods. We see the same phenomenon across the broader population, with 5433 dropping below zero in those first 100 periods.</p>
@@ -646,7 +649,7 @@ f_{\eta}(x)=\begin{cases}
 <div class="cell">
 <details class="code-fold">
 <summary>Code for evolutionary simulation</summary>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">20240705</span>)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">20240705</span>)</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># create function to round probabilistically - important when small numbers involved</span></span>
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>probabilistic_round <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
@@ -684,13 +687,13 @@ f_{\eta}(x)=\begin{cases}
 <span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">list</span>(<span class="at">params =</span> params, <span class="at">sim =</span> sim)</span>
 <span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a>}</span>
 <span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a>evolution <span class="ot">&lt;-</span> <span class="fu">evolutionBet</span>(<span class="at">p=</span><span class="fl">0.5</span>, <span class="at">n=</span><span class="dv">10000</span>, <span class="at">t=</span><span class="dv">100</span>, <span class="at">gain=</span><span class="fl">1.5</span>, <span class="at">loss=</span><span class="fl">0.6</span>) <span class="co">#more than 100 periods can take a very long time, simulation slows markedly as population grows</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a>evolution <span class="ot">&lt;-</span> <span class="fu">evolutionBet</span>(<span class="at">p=</span><span class="fl">0.5</span>, <span class="at">n=</span><span class="dv">10000</span>, <span class="at">t=</span><span class="dv">100</span>, <span class="at">gain=</span><span class="fl">1.5</span>, <span class="at">loss=</span><span class="fl">0.6</span>) <span class="co">#more than 100 periods can take a very long time, simulation slows markedly as population grows</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <div class="cell">
 <details class="code-fold">
 <summary>Code for evolutionary plot</summary>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the population growth for the evolutionary scenario (Figure 8).</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the population growth for the evolutionary scenario (Figure 8).</span></span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>basePlotEvo <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(evolution<span class="sc">$</span>sim[<span class="fu">c</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">101</span>),], <span class="fu">aes</span>(<span class="at">x=</span>period))</span>
 <span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -698,7 +701,7 @@ f_{\eta}(x)=\begin{cases}
 <span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y=</span>n), <span class="at">color =</span> <span class="dv">1</span>, <span class="at">linewidth=</span><span class="dv">1</span>) <span class="sc">+</span></span>
 <span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Population"</span>)</span>
 <span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>expectationPlotEvo</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>expectationPlotEvo</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div id="fig-ergodicity-presentation-8" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -721,7 +724,7 @@ Figure&nbsp;4: Population of accepting types
 <div class="cell">
 <details class="code-fold">
 <summary>Code for evolutionary simulation</summary>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># run 9 simulations with 1 accepting type to start</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># run 9 simulations with 1 accepting type to start</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">20240705</span>)</span>
 <span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -746,20 +749,20 @@ Figure&nbsp;4: Population of accepting types
 <span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>}</span>
 <span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine all data frames into one</span></span>
-<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>combined_data <span class="ot">&lt;-</span> <span class="fu">do.call</span>(rbind, data_frames)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>combined_data <span class="ot">&lt;-</span> <span class="fu">do.call</span>(rbind, data_frames)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <div class="cell">
 <details class="code-fold">
 <summary>Code to count mutation spread</summary>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Count the number of simulations where the mutation spread (where n &gt; 1 when i = 100)</span></span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>mutation_count <span class="ot">&lt;-</span> <span class="fu">sum</span>(combined_data[combined_data<span class="sc">$</span>period <span class="sc">==</span> <span class="dv">100</span>,]<span class="sc">$</span>n <span class="sc">&gt;</span> <span class="dv">1</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Count the number of simulations where the mutation spread (where n &gt; 1 when i = 100)</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>mutation_count <span class="ot">&lt;-</span> <span class="fu">sum</span>(combined_data[combined_data<span class="sc">$</span>period <span class="sc">==</span> <span class="dv">100</span>,]<span class="sc">$</span>n <span class="sc">&gt;</span> <span class="dv">1</span>, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 <div class="cell">
 <details class="code-fold">
 <summary>Code for evolutionary plot with mutation</summary>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot first 10 lines</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot first 10 lines</span></span>
 <span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>mutationPlotEvo <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(combined_data[combined_data<span class="sc">$</span>i <span class="sc">&gt;=</span> <span class="dv">1</span> <span class="sc">&amp;</span> combined_data<span class="sc">$</span>i <span class="sc">&lt;=</span> <span class="dv">10</span>,], <span class="fu">aes</span>(<span class="at">x=</span>period, <span class="at">y=</span>n, <span class="at">color=</span><span class="fu">factor</span>(i))) <span class="sc">+</span></span>
 <span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
 <span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Population"</span>) <span class="sc">+</span></span>
@@ -767,7 +770,7 @@ Figure&nbsp;4: Population of accepting types
 <span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>)</span>
 <span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>mutationPlotEvo</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>mutationPlotEvo</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div id="fig-ergodicity-presentation-9" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -786,7 +789,7 @@ Figure&nbsp;5: Population of accepting types with mutation
 <div class="cell">
 <details class="code-fold">
 <summary>Code for evolutionary plot with mutation (first 30 periods)</summary>
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot first 35 periods only</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot first 35 periods only</span></span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>mutationPlotEvo30 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(combined_data[combined_data<span class="sc">$</span>i <span class="sc">&gt;=</span> <span class="dv">1</span> <span class="sc">&amp;</span> combined_data<span class="sc">$</span>i <span class="sc">&lt;=</span> <span class="dv">10</span>,], <span class="fu">aes</span>(<span class="at">x=</span>period, <span class="at">y=</span>n, <span class="at">color=</span><span class="fu">factor</span>(i))) <span class="sc">+</span></span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
 <span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Population"</span>) <span class="sc">+</span></span>
@@ -795,7 +798,7 @@ Figure&nbsp;5: Population of accepting types with mutation
 <span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>  <span class="co">#remove legend</span></span>
 <span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>)</span>
 <span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>mutationPlotEvo30</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>mutationPlotEvo30</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div id="fig-ergodicity-presentation-10" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -818,8 +821,8 @@ Figure&nbsp;6: Population of accepting types with mutation (first 30 periods for
 <div class="cell">
 <details class="code-fold">
 <summary>Code for evolutionary plot over 1000 periods</summary>
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>nonErgodicPlot <span class="ot">&lt;-</span> <span class="fu">plotWealth</span>(<span class="at">sim=</span>nonErgodic, <span class="at">t=</span><span class="dv">1000</span>, <span class="at">people=</span><span class="dv">20</span>)</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>nonErgodicPlot</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>nonErgodicPlot <span class="ot">&lt;-</span> <span class="fu">plotWealth</span>(<span class="at">sim=</span>nonErgodic, <span class="at">t=</span><span class="dv">1000</span>, <span class="at">people=</span><span class="dv">20</span>)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>nonErgodicPlot</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div id="fig-ergodicity-presentation-11" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -837,9 +840,9 @@ Figure&nbsp;7: Population of accepting types over 1000 periods
 <div class="cell">
 <details class="code-fold">
 <summary>Code for evolutionary plot over 1000 periods (log scale)</summary>
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>logNonErgodicPlot <span class="ot">&lt;-</span> nonErgodicPlot<span class="sc">+</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>logNonErgodicPlot <span class="ot">&lt;-</span> nonErgodicPlot<span class="sc">+</span></span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_y_log10</span>(<span class="at">breaks =</span> <span class="fu">c</span>(<span class="fl">0.0001</span>, <span class="fl">0.1</span>, <span class="dv">100</span>, <span class="dv">100000</span>), <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">"0.0001"</span>, <span class="st">"0.1"</span>, <span class="st">"100"</span>, <span class="st">"100000"</span>))</span>
-<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>logNonErgodicPlot</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>logNonErgodicPlot</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output-display">
 <div id="fig-ergodicity-presentation-12" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -1010,13 +1013,14 @@ Skjold, B., Steinkamp, S., Connaughton, C., Hulme, O. J., and Peters, O. (2024).
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -1366,15 +1370,13 @@ Skjold, B., Steinkamp, S., Connaughton, C., Hulme, O. J., and Peters, O. (2024).
 <input type="hidden" id="giscus-base-theme" value="light">
 <input type="hidden" id="giscus-alt-theme" value="light">
 <script>
-function loadGiscusWhenReady() {
-  // Function to get the theme based on body class
-  const getTheme = () => {
-    const baseTheme = document.getElementById('giscus-base-theme').value;
-    const altTheme = document.getElementById('giscus-alt-theme').value;
-    return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
-  };
-  // Create the Giscus script and add it to the desired location
-  const loadGiscus = () => {
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
     const script = document.createElement("script");
     script.src = "https://giscus.app/client.js";
     script.async = true;
@@ -1391,26 +1393,8 @@ function loadGiscusWhenReady() {
     script.crossOrigin = "anonymous";
     // Append the script to the desired div instead of at the end of the body
     document.getElementById("quarto-content").appendChild(script);
-  };
-  // MutationObserver to detect when the 'quarto-light' or 'quarto-dark' class is added to the body
-  const observer = new MutationObserver((mutations) => {
-    for (const mutation of mutations) {
-      if (mutation.type === "attributes" && mutation.attributeName === "class") {
-        if (document.body.classList.contains('quarto-light') || document.body.classList.contains('quarto-dark')) {
-          loadGiscus();
-          observer.disconnect(); // Stop observing once Giscus is loaded
-          break;
-        }
-      }
-    }
-  });
-  // Start observing the body for class attribute changes
-  observer.observe(document.body, {
-    attributes: true,
-    attributeFilter: ["class"],
-  });
-}
-loadGiscusWhenReady();
+  }
+  loadGiscus();
 </script>
 </div> <!-- /content -->
 <footer class="footer">
