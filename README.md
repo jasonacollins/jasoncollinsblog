@@ -6,7 +6,7 @@ A Quarto-based blog covering behavioural economics, data science, and artificial
 
 ### Prerequisites
 
-- [Quarto](https://quarto.org/docs/get-started/) (version 1.7+)
+- [Quarto](https://quarto.org/docs/get-started/) (version 1.8+)
 - R (for posts with computational content)
 
 ### Development
