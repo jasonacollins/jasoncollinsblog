@@ -1,5 +1,10 @@
 project:
   type: website
+  render:
+    - "*.md"
+    - "*.qmd"
+    - "!AGENTS.md"
+    - "!CLAUDE.md"
 
 website:
   title: "Jason Collins blog"

@@ -44,7 +44,9 @@ This is critical to understand:
 
 ### Post Structure
 
-Posts are `.qmd` files in `posts/` directory. Typical structure:
+Posts are in the `posts/` directory. Use `.md` files by default, only use `.qmd` if the post requires R computations.
+
+Typical structure:
 
 ```yaml
 ---
@@ -86,8 +88,8 @@ Common chunk options used in this blog:
 
 ### Creating a New Post
 
-1. Create `posts/your-post-name.qmd` with frontmatter
-2. Write content with optional R chunks
+1. Create `posts/your-post-name.md` with frontmatter (use `.qmd` only if R computations needed)
+2. Write content (with optional R chunks if using `.qmd`)
 3. Run `quarto preview` to see live updates
 4. When ready, `quarto render` to finalize
 
