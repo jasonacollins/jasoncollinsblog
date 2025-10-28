@@ -1,17 +1,18 @@
 ---
-title: "The problem with measuring AI workslop"
+title: "Is there an AI workslop problem?"
 author: "Jason Collins"
 date: 2025-10-29 09:00:00+11:00
 draft: true
+image: "img/workslop.png"
 ---
 
 The debate over whether large language models are transformative or overhyped occasionally produces real-world data.  These inevitably arrive with eye-catching headlines (e.g. [MIT report: 95% of generative AI pilots at companies are failing](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/)) built on shaky methodology (based on 52 structured interviews at conferences, analysis of 300+ public AI initiatives and surveys with 153 leaders). There's something to be learned here, but the headline isn't it.
 
 The latest example is a Harvard Business Review article [AI-Generated "Workslop" is Destroying Productivity](https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity). Workslop is "AI generated work content that masquerades as good work, but lacks the substance to meaningfully advance a given task".
 
-The authors offer some striking numbers. Forty percent of survey respondents had received workslop in the last month. Fifteen percent of the work they receive is workslop. Add in the nearly two hours each respondent spends dealing it and you get $186 per employee per month, or $9 million annually for a 10,000 worker organisation. (That 10% of respondents said receiving workslop made them think of their colleagues as _more_ creative, capable, reliable, trustworthy and intelligent also suggests some survey respondent slop.)
+The authors offer some striking numbers. Forty percent of survey respondents had received workslop in the last month. Fifteen percent of the work they receive is workslop. Add in the nearly two hours each respondent spends dealing it and you get $186 per employee per month, or $9 million annually for a 10,000 worker organisation. (That 10% of respondents said receiving workslop made colleagues seem _more_ creative, capable, reliable, trustworthy and intelligent also suggests some survey respondent slop.)
 
-So how did they reach these conclusions? The survey (available [online](https://stanforduniversity.qualtrics.com/jfe/form/SV_4Mjwa0jWw2Pu3TE) when I wrote this) drew responses from 1,150 US-based full-time employees who self-selected into completing the survey
+So how did they reach these conclusions? The survey (available [online](https://stanforduniversity.qualtrics.com/jfe/form/SV_4Mjwa0jWw2Pu3TE) when I wrote this) drew responses from 1,150 US-based full-time employees.
 
 The first substantive question asks:
 
@@ -27,6 +28,6 @@ This is a problem. To estimate cost we need the counterfactual. What would the r
 
 The AI workslop might actually be an improvement. People using AI to generate slop would likely generate slop anyway.
 
-The methodology has another gap in that it only captures poor AI work. The study measures "bad things I noticed" whilst ignoring "good things I benefited from". What about asking "Have you received AI-generated work content that is helpful and high-quality?" Or "How much time have you saved in the past month through using AI?"
+The methodology has another gap in that it only captures poor AI work. The study measures "bad things I noticed" whilst ignoring "good things I benefited from". Without both, productivity estimates are meaningless. What about asking "Have you received AI-generated work content that is helpful and high-quality?" Or "How much time have you saved in the past month through using AI?"
 
 Include both estimates and the story might flip to AI's productivity benefits. Identifying AI-generated workslop shows there's room for improvement (as does seeing human-generated workslop). But you need to measure both costs and benefits to measure whether generative AI delivers net value. Without the counterfactual, the study hasn't measured productivity destruction at all.
