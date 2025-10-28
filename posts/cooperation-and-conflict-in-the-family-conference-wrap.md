@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-02-09 01:01:16+00:00
 draft: false
-link: https://www.jasoncollins.blog/cooperation-and-conflict-in-the-family-conference-wrap/
-aliases:
-  - /cooperation-and-conflict-in-the-family-conference-wrap
 title: Cooperation and Conflict in the Family Conference wrap
-wordpress_id: 19864
 ---
 
 Over the past year I have posted several times about the Cooperation and Conflict in the Family Conference, which was held in Sydney this week. It turned out to be a great conference, and I am very pleased with how it panned out.

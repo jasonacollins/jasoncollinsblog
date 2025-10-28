@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-06-17 11:27:21+00:00
 draft: false
-link: https://www.jasoncollins.blog/evolutionary-science-as-the-new-classics/
-aliases:
-  - /evolutionary-science-as-the-new-classics
 title: Evolutionary science as the new "classics"
-wordpress_id: 3485
 ---
 
 [Carole Jahme at the Guardian reports](http://www.guardian.co.uk/science/blog/2012/jun/12/richard-dawkins-evolution-new-classics) on Richard Dawkins's proposition that evolutionary science will be the new "classics":

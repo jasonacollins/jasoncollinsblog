@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-11-22 07:28:11+00:00
 draft: false
-link: https://www.jasoncollins.blog/genoeconomics-at-the-aea-annual-meeting/
-aliases:
-  - /genoeconomics-at-the-aea-annual-meeting
 title: Genoeconomics at the AEA Annual Meeting
-wordpress_id: 4615
 ---
 
 The [preliminary program](http://www.aeaweb.org/aea/2013conference/program/preliminary.php) for January's American Economic Association annual meeting is available, with a session dedicated to genoeconomics. I've posted on [the first of the papers before](https://www.jasoncollins.blog/the-genetic-architecture-of-economic-and-political-preferences/).

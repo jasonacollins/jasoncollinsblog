@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-10-20 13:34:35+00:00
 draft: false
-link: https://www.jasoncollins.blog/two-perspectives-on-sex-differences/
-aliases:
-  - /two-perspectives-on-sex-differences
 title: Two perspectives on sex differences
-wordpress_id: 1948
 ---
 
 First, from [Rob Brooks](http://www.robbrooks.net/rob-brooks/1819):

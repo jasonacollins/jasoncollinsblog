@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-10-24 13:38:29+00:00
 draft: false
-link: https://www.jasoncollins.blog/warfare-and-the-transition-to-agriculture/
-aliases:
-  - /warfare-and-the-transition-to-agriculture
 title: Warfare and the transition to agriculture
-wordpress_id: 357
 ---
 
 As I pointed out in [my last post](https://www.jasoncollins.blog/life-expectancy-and-the-dawn-of-agriculture/), Jared Diamond called the transition to agriculture [the worst mistake in the history of the human race](http://www.scribd.com/doc/2100251/Jared-Diamond-The-Worst-Mistake-in-the-History-of-the-Human-Race). Yet despite evidence that the early adopters of agriculture were shorter and had worse nutrition and health than the hunter-gatherers that preceded them, the agricultural way of life came to dominate human society. [Health may have rebounded as humans adapted to their new lifestyles](https://www.jasoncollins.blog/height-through-the-millennia/), and the long-term benefits are now clear, but why would the early adopters of agriculture shift to what would appear to be a much a poorer way of life?

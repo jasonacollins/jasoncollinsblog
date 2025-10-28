@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-12-22 08:38:50+00:00
 draft: false
-link: https://www.jasoncollins.blog/iq-externalities/
-aliases:
-  - /iq-externalities
 title: IQ externalities
-wordpress_id: 2155
 ---
 
 Philip Zimbardo's [The Lucifer Effect: Understanding How Good People Turn Evil](https://www.jasoncollins.blog/zimbardos-the-lucifer-effect/) focuses on a message that the situation is more important than the person's disposition. Good people can do evil things if placed in the wrong situation.

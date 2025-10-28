@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-03-22 11:31:05+00:00
 draft: false
-link: https://www.jasoncollins.blog/economists-and-biology/
-aliases:
-  - /economists-and-biology
 title: Economists and biology
-wordpress_id: 629
 ---
 
 Mike the Mad Biologist has posted [this piece](http://scienceblogs.com/mikethemadbiologist/2011/03/21/when-economists-misunderstand/) on economists' understanding of biology. He pulls apart [some statements](http://cafehayek.com/2011/01/what-is-economics-good-for.html) by Russ Roberts and suggests that if economists are going to use biology as a model for the economics discipline, they should try to understand it first.

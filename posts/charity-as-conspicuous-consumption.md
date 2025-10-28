@@ -3,11 +3,7 @@ author: "Jason Collins"
 comments: false
 date: 2012-07-08 07:26:59+00:00
 draft: false
-link: https://www.jasoncollins.blog/charity-as-conspicuous-consumption/
-aliases:
-  - /charity-as-conspicuous-consumption
 title: Charity as conspicuous consumption
-wordpress_id: 441
 ---
 
 At the end of [Moav and Neeman's paper](http://doi.org/10.1111/j.1468-0297.2012.02516.x) on conspicuous consumption and poverty traps, about which [I posted yesterday](https://www.jasoncollins.blog/conspicuous-consumption-and-poverty-traps/), the authors suggest an experiment:

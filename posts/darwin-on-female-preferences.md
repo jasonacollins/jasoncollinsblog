@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-08-03 12:22:19+00:00
 draft: false
-link: https://www.jasoncollins.blog/darwin-on-female-preferences/
-aliases:
-  - /darwin-on-female-preferences
 title: Darwin on female preferences
-wordpress_id: 1433
 ---
 
 I am slowly re-reading Darwin's [The Descent of Man](http://www.gutenberg.org/ebooks/2300) and came across the following gem:

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-05-25 09:03:52+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-benefit-to-being-right/
-aliases:
-  - /the-benefit-to-being-right
 title: The benefit to being right
-wordpress_id: 1069
 ---
 
 In all the debates about human biases, I like to believe that there is some benefit to being right. There must be _some_ evolutionary benefit to knowing the true state of the world (on average). That is not to say that the benefits will always outweigh the costs, as the aim is to reproduce. Attracting a mate or surviving within a group may require holding some beliefs, such as religion. However, knowing that the snake will kill you will have fitness benefits.

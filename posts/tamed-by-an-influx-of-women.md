@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-10-02 09:43:19+00:00
 draft: false
-link: https://www.jasoncollins.blog/tamed-by-an-influx-of-women/
-aliases:
-  - /tamed-by-an-influx-of-women
 title: Tamed by an influx of women
-wordpress_id: 20198
 ---
 
 Perusing through some of my bookmarks in Steven Pinker's The Better Angels of Our Nature: Why Violence Has Declined, I was reminded of the following passage. It's worth sharing.

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-06-19 12:10:13+00:00
 draft: false
-link: https://www.jasoncollins.blog/when-your-neighbour-wins-the-lottery/
-aliases:
-  - /when-your-neighbour-wins-the-lottery
 title: When your neighbour wins the lottery
-wordpress_id: 6433
 ---
 
 I'm not sure if the format of the Dutch postcode lottery is common, but it certainly creates some interesting incentives. In this lottery, a random postcode is drawn from the 430,000 postcodes in the Netherlands, with each postcode having, on average, 19 households. Each person in that postcode who has purchased a ticket in the lottery receives €12,500 for each ticket that they hold (people can buy more than one ticket), and one ticket in the postcode is awarded a BMW.

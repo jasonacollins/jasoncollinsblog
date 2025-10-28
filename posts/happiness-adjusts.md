@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-05-17 07:51:55+00:00
 draft: false
-link: https://www.jasoncollins.blog/happiness-adjusts/
-aliases:
-  - /happiness-adjusts
 title: Happiness adjusts
-wordpress_id: 965
 ---
 
 Robert Frank has written [a piece](http://www.nytimes.com/2011/05/15/business/economy/15view.html?_r=1) for the New York Times on why worrying is good. He writes of the well-known phenomena that after large life changes, people's level of happiness tends to drift back to where it was before the event. Humans are also particularly bad at predicting this effect, placing far more importance on events before they occur than the later effect on happiness would warrant.

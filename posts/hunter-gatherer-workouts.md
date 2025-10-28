@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-08-28 09:41:18+00:00
 draft: false
-link: https://www.jasoncollins.blog/hunter-gatherer-workouts/
-aliases:
-  - /hunter-gatherer-workouts
 title: Hunter-gatherer workouts
-wordpress_id: 3919
 ---
 
 The idea that modern sedentary lifestyles are leading to obesity has come under attack in a [New York Times article](http://www.nytimes.com/2012/08/26/opinion/sunday/debunking-the-hunter-gatherer-workout.html) in which Herman Pontzer writes about a [recent PLoS ONE paper](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0040503) that he co-authored.

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-07-10 10:50:25+00:00
 draft: false
-link: https://www.jasoncollins.blog/jones-on-iq-and-productivity/
-aliases:
-  - /jones-on-iq-and-productivity
 title: Jones on IQ and productivity
-wordpress_id: 1499
 ---
 
 The June edition of the Asian Development Review has an article by Garett Jones titled [National IQ and National Productivity: The Hive Mind Across Asia](http://mason.gmu.edu/~gjonesb/JonesADR) (pdf). The abstract is as follows:

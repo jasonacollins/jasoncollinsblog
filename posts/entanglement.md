@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-05-19 12:49:26+00:00
 draft: false
-link: https://www.jasoncollins.blog/entanglement/
-aliases:
-  - /entanglement
 title: Entanglement
-wordpress_id: 2775
 ---
 
 There is an interesting podcast on Science Talk titled [The Coming Entanglement](http://www.scientificamerican.com/podcast/episode.cfm?id=the-coming-entanglement-bill-joy-an-12-02-15), with Fred Guterl interviewing Bill Joy, co-founder of Sun Microsystems, and Danny Hillis.

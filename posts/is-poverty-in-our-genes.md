@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-01-03 08:23:16+00:00
 draft: false
-link: https://www.jasoncollins.blog/is-poverty-in-our-genes/
-aliases:
-  - /is-poverty-in-our-genes
 title: Is poverty in our genes?
-wordpress_id: 4892
 ---
 
 [Is Poverty in Our Genes?](http://www.jstor.org/stable/10.1086/669034) is the title of a new extended critique of Ashraf and Galor's forthcoming American Economic Review paper on [genetic diversity and economic development](https://www.jasoncollins.blog/genetic-diversity-and-economic-development/). Published in Current Anthropology, the critique is an extension of [an earlier piece](https://www.jasoncollins.blog/harvard-academics-on-genetic-diversity-and-economic-development/) by a group of academics (mainly from Harvard) who argue that Ashraf and Galor's work is false and undesirable.

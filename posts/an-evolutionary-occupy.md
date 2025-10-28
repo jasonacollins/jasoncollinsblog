@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-12-03 02:23:11+00:00
 draft: false
-link: https://www.jasoncollins.blog/an-evolutionary-occupy/
-aliases:
-  - /an-evolutionary-occupy
 title: An evolutionary Occupy
-wordpress_id: 2055
 ---
 
 In an evolutionary sense, resource inequality affects survival and access to mates. While the current “Occupy” debates about growing inequality and the power of the 1 per cent are very much focused on the resource issue, the underlying reason people have an innate aversion to the unequal distribution of power (or, more particularly, their being at the wrong end of that distribution) comes back to these evolutionary factors. But to what extent are survival and reproduction actually affected by the inequality being protested?

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-09-01 04:38:39+00:00
 draft: false
-link: https://www.jasoncollins.blog/do-economists-satisfice/
-aliases:
-  - /do-economists-satisfice
 title: Do economists satisfice?
-wordpress_id: 1731
 ---
 
 In Herbert Simon's [1978 Swedish Bank prize lecture](http://www.nobelprize.org/nobel_prizes/economics/laureates/1978/simon-lecture.pdf) (pdf), he stated the following:

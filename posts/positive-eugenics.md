@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-12-04 09:54:49+00:00
 draft: false
-link: https://www.jasoncollins.blog/positive-eugenics/
-aliases:
-  - /positive-eugenics
 title: Positive eugenics
-wordpress_id: 4734
 ---
 
 In Forbes, [Jon Entine discusses ](http://www.forbes.com/sites/jonentine/2012/11/26/gattaca-alert-or-should-we-welcome-the-new-age-of-eugenics/)the rise of "positive eugenics":

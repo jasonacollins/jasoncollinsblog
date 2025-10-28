@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2015-03-23 10:15:50+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-gell-mann-amnesia-effect/
-aliases:
-  - /the-gell-mann-amnesia-effect
 title: The Gell-Mann amnesia effect
-wordpress_id: 20946
 ---
 
 I spotted this in [a tweet from Abe List yesterday](https://twitter.com/abelisted/status/579229171404034049), and love the idea. The original source is [a speech by Michael Crichton](http://larvatus.com/michael-crichton-why-speculate/) (which is worth reading in itself).

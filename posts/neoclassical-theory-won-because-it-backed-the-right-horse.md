@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-12-02 13:45:41+00:00
 draft: false
-link: https://www.jasoncollins.blog/neoclassical-theory-won-because-it-backed-the-right-horse/
-aliases:
-  - /neoclassical-theory-won-because-it-backed-the-right-horse
 title: Neoclassical theory won because it backed the right horse
-wordpress_id: 9489
 ---
 
 An interesting idea in [Herb Gintis's review of The Origin of Wealth](http://www.umass.edu/preferen/Class%20Material/Readings%20in%20Market%20Dynamics/Complexity%20Economics.pdf) (pdf):

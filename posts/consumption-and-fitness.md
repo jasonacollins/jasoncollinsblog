@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-04-19 06:30:46+00:00
 draft: false
-link: https://www.jasoncollins.blog/consumption-and-fitness/
-aliases:
-  - /consumption-and-fitness
 title: Consumption and fitness
-wordpress_id: 732
 ---
 
 After posting [Friday's piece](https://www.jasoncollins.blog/natural-selection-and-savings/) on Hansson and Stuart's paper on natural selection and savings, I realised I had not commented on one of the most important assumptions made by the authors. To get their result that people would save such that they maximise consumption across generations, Hansson and Stuart assumed that consumption corresponded with fitness (a relative measure of reproductive success). To maximise fitness, one would need to maximise consumption.

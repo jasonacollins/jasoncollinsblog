@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-03-19 12:41:28+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-political-implications-of-group-selection/
-aliases:
-  - /the-political-implications-of-group-selection
 title: The political implications of group selection
-wordpress_id: 2721
 ---
 
 Group selection advocates often describe how human cooperation could only have evolved through competition between groups. I have wondered how these advocates view modern day group competition, particularly in the form of tribalism and patriotism. Should we continue to engage in group competition to allow cooperation to flourish?

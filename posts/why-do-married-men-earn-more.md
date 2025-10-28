@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-02-29 12:21:39+00:00
 draft: false
-link: https://www.jasoncollins.blog/why-do-married-men-earn-more/
-aliases:
-  - /why-do-married-men-earn-more
 title: Why do married men earn more?
-wordpress_id: 2589
 ---
 
 Even after controlling for observable traits such as IQ, married men earn more. [Bryan Caplan suggests](http://econlog.econlib.org/archives/2012/02/what_is_the_mar.html) there are three economic explanations for this male marriage premium:

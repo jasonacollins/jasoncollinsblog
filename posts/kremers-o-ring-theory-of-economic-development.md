@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-01-11 07:37:53+00:00
 draft: false
-link: https://www.jasoncollins.blog/kremers-o-ring-theory-of-economic-development/
-aliases:
-  - /kremers-o-ring-theory-of-economic-development
 title: Kremer's O-ring theory of economic development
-wordpress_id: 4955
 ---
 
 The latest issue of the Journal of Economic Behavior and Organization has a [new paper by Garett Jones](http://www.sciencedirect.com/science/article/pii/S0167268112002193) (ungated [version here](http://mason.gmu.edu/~gjonesb/O%20Ring%20Foolproof.pdf)) on the  O-ring theory of economic development. Its been floating around as a working paper for a few years, so its nice to see it get a home. But before I post about that paper, I thought I'd revisit [Michael Kremer's classic 1993 paper](http://qje.oxfordjournals.org/content/108/3/551.abstract) on which Jones builds.

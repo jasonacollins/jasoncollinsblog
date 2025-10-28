@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-05-30 09:12:15+00:00
 draft: false
-link: https://www.jasoncollins.blog/coyle-on-happiness/
-aliases:
-  - /coyle-on-happiness
 title: Coyle on happiness
-wordpress_id: 1131
 ---
 
 Over the weekend I read [Diane Coyle's](http://blog.enlightenmenteconomics.com/) [The Economics of Enough](http://press.princeton.edu/titles/9402.html). I particularly enjoyed her dismantling of the concept that to increase happiness we should forget about growth. My reading list on this area has increased considerably - and it seems that I should place Amartya Sen high on that list. Coyle writes:

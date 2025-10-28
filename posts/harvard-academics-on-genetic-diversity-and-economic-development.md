@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-10-10 11:13:56+00:00
 draft: false
-link: https://www.jasoncollins.blog/harvard-academics-on-genetic-diversity-and-economic-development/
-aliases:
-  - /harvard-academics-on-genetic-diversity-and-economic-development
 title: Harvard academics on genetic diversity and economic development
-wordpress_id: 4276
 ---
 
 A group of Harvard academics [have penned a short response](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2155060) to Ashraf and Galor's forthcoming American Economic Review paper, _[The Out of Africa Hypothesis, Human Genetic Diversity and Comparative Economic Development](https://www.jasoncollins.blog/genetic-diversity-and-economic-development/)_.

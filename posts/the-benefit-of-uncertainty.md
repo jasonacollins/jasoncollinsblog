@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-06-15 13:32:47+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-benefit-of-uncertainty/
-aliases:
-  - /the-benefit-of-uncertainty
 title: The benefit of uncertainty
-wordpress_id: 19961
 ---
 
 [John Coates writes](http://www.nytimes.com/2014/06/08/opinion/sunday/the-biology-of-risk.html):

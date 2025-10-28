@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-04-13 12:28:29+00:00
 draft: false
-link: https://www.jasoncollins.blog/what-can-evolutionary-biology-offer-economics/
-aliases:
-  - /what-can-evolutionary-biology-offer-economics
 title: What can evolutionary biology offer economics?
-wordpress_id: 712
 ---
 
 This is my last post on David Sloan Wilson's series Economics and Evolution as Different Paradigms (my earlier three posts are [here](https://www.jasoncollins.blog/the-evolution-institute/), [here](https://www.jasoncollins.blog/wilson-on-economics-and-evolution/) and [here](https://www.jasoncollins.blog/evolution-and-the-invisible-hand/)). While much of Wilson's attack on economics is against a caricature of the discipline, he ties up his series with a few recommendations that are worth noting.

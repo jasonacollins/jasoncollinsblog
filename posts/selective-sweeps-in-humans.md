@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-07-24 12:52:15+00:00
 draft: false
-link: https://www.jasoncollins.blog/selective-sweeps-in-humans/
-aliases:
-  - /selective-sweeps-in-humans
 title: Selective sweeps in humans
-wordpress_id: 3714
 ---
 
 From [a new paper in PLOS Genetics](http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1002837):

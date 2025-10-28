@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-10-25 07:39:15+00:00
 draft: false
-link: https://www.jasoncollins.blog/genetics-without-genes/
-aliases:
-  - /genetics-without-genes
 title: Genetics without genes
-wordpress_id: 4371
 ---
 
 A couple of weeks ago, Razib Kahn [wrote a post](http://blogs.discovermagazine.com/gnxp/2012/10/you-dont-need-genes-for-genetics/) in which he argued that "you don’t need to know the exact gene of major effect to conclude that a trait is genetic." Where a lot of research is invested in finding the specific genes behind traits, and with a media hungry for these kinds of stories, many people have forgotten how much can be understood without knowledge of the specific genes. As Razib points out, much of genetics predates molecular biology and the discovery of the structure of DNA.

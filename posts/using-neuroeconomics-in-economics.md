@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-10-31 12:23:13+00:00
 draft: false
-link: https://www.jasoncollins.blog/using-neuroeconomics-in-economics/
-aliases:
-  - /using-neuroeconomics-in-economics
 title: Using neuroeconomics in economics
-wordpress_id: 4487
 ---
 
 An [article by Josh Fischman in the Chronicle](http://chronicle.com/article/The-Marketplace-in-Your-Brain/134524/) suggests that economists have been slow to take up the insights of neuroeconomics.

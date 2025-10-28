@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-10-23 10:17:59+00:00
 draft: false
-link: https://www.jasoncollins.blog/finding-taxis-on-rainy-days/
-aliases:
-  - /finding-taxis-on-rainy-days
 title: Finding taxis on rainy days
-wordpress_id: 20227
 ---
 
 A classic story on the play-list of many behavioural economics presentations is why you can't find taxis on rainy days. The story is based on the idea that taxi drivers work to an income target. If driver wages are high due to high demand for taxis, such as when it rains, they will reach their income target earlier and go home for the day. The result is you can't find a taxi when you need one most.

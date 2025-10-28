@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-01-21 12:46:31+00:00
 draft: false
-link: https://www.jasoncollins.blog/james-crow-on-the-quality-of-people/
-aliases:
-  - /james-crow-on-the-quality-of-people
 title: James Crow on the quality of people
-wordpress_id: 5054
 ---
 
 Working through my reading pile, I finally read this great 1966 article by [James Crow](http://en.wikipedia.org/wiki/James_F._Crow) - [The Quality of People: Human Evolutionary Changes](https://doi.org/10.2307/1293666). For those unfamiliar with Crow's work, it's worth watching [this piece](http://video.wpt2.org/video/1811393836) from Wisconsin Public Television (HT: [Steve Hsu](http://infoproc.blogspot.com.au/2012/01/jim-crow-colloquium.html)). The introduction captures some of his achievements.

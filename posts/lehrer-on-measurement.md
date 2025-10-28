@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-04-12 08:38:45+00:00
 draft: false
-link: https://www.jasoncollins.blog/lehrer-on-measurement/
-aliases:
-  - /lehrer-on-measurement
 title: Lehrer on measurement
-wordpress_id: 708
 ---
 
 Jonah Lehrer has [expanded](http://www.wired.com/wiredscience/2011/04/the-emotional-quarterback/) his recent focus on measurement and grit (on which I [recently posted](https://www.jasoncollins.blog/measurement-nihilism/)) in an article on the usefulness of the Wonderlic test, a quasi-IQ test, in predicting quarterback performance. Lehrer cites [a paper](https://doi.org/10.1007/s11123-009-0154-6) by David Berri and Rob Simmons which suggests that some metrics, including the Wonderlic test, are influencing draft position even though they are not predictive of performance. Lehrer writes:

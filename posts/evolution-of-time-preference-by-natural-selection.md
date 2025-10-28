@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-04-18 13:11:37+00:00
 draft: false
-link: https://www.jasoncollins.blog/evolution-of-time-preference-by-natural-selection/
-aliases:
-  - /evolution-of-time-preference-by-natural-selection
 title: Evolution of time preference by natural selection
-wordpress_id: 5823
 ---
 
 One of the few areas where there is active research on the link between evolutionary biology and economics is the evolution of economic preferences (some papers in this area are in my [economics and evolutionary biology reading list](https://www.jasoncollins.blog/economics-and-evolutionary-biology-reading-list/)). Economic preferences are the way an actor will rank a set of choices based on characteristics such as the amount received, the probability of certain outcomes, and the timing with which the outcomes are received.

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-05-06 12:52:44+00:00
 draft: false
-link: https://www.jasoncollins.blog/impatience-and-aggregate-risk/
-aliases:
-  - /impatience-and-aggregate-risk
 title: Impatience and aggregate risk
-wordpress_id: 6076
 ---
 
 Imagine two populations of asexually reproducing people (asexual reproduction is where each child comes from a single parent, not a couple). In the first population, each person has a 50 per cent chance of having no children, and a 50 per cent chance of having two children. If there is no relationship between the outcomes for each person (i.e. they face idiosyncratic risk) and the population is large, we would expect the population to remain relatively constant over time.

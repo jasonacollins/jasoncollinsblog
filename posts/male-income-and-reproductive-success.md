@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-03-09 09:50:58+00:00
 draft: false
-link: https://www.jasoncollins.blog/male-income-and-reproductive-success/
-aliases:
-  - /male-income-and-reproductive-success
 title: Male income and reproductive success
-wordpress_id: 2633
 ---
 
 As happens occasionally, I have just come across an article that I should have seen years ago. In an article titled [Natural Selection on Male Wealth in Humans](http://www.jstor.org/stable/10.1086/591690), Daniel Nettle and Thomas Pollet look at data from a variety of societies, ranging from subsistence groups to industrialised societies, and show that the link between male income and reproductive success is strong and ubiquitous.

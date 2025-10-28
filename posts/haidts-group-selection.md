@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-09-28 11:48:50+00:00
 draft: false
-link: https://www.jasoncollins.blog/haidts-group-selection/
-aliases:
-  - /haidts-group-selection
 title: Haidt's group selection
-wordpress_id: 4176
 ---
 
 Having given [my thoughts](https://www.jasoncollins.blog/haidts-the-righteous-mind/) on Haidt's generally excellent The Righteous Mind in my last post, I want to turn to Haidt's use of group selection in the last third of his book. The central themes of his book don't rest on group selection (in my opinion), but Haidt is at the centre of the reemergence of group selection in the social sciences and his points are worth discussing.

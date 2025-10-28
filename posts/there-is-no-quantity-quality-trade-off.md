@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-02-04 12:01:02+00:00
 draft: false
-link: https://www.jasoncollins.blog/there-is-no-quantity-quality-trade-off/
-aliases:
-  - /there-is-no-quantity-quality-trade-off
 title: There is no quantity-quality trade-off
-wordpress_id: 5178
 ---
 
 Following his disappearance from Psychology Today, Satoshi Kanazawa has reappeared in big think (with [not all happy](http://bigthink.com/daylight-atheism/big-think-responds-on-satoshi-kanazawa) with this move [Update: he's now gone again, along with the post]). In a recent post, Kanazawa asks an interesting question - Why do people with many siblings have many children? Kanazawa writes:

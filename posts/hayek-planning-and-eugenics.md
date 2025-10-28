@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-06-04 11:53:52+00:00
 draft: false
-link: https://www.jasoncollins.blog/hayek-planning-and-eugenics/
-aliases:
-  - /hayek-planning-and-eugenics
 title: Hayek, planning and eugenics
-wordpress_id: 3376
 ---
 
 In Friedrich Hayek's magnificent essay [The Use of Knowledge in Society](http://www.econlib.org/library/Essays/hykKnw1.html), Hayek writes:

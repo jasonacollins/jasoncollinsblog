@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-09-20 12:20:10+00:00
 draft: false
-link: https://www.jasoncollins.blog/week-links-2/
-aliases:
-  - /week-links-2
 title: A week of links
-wordpress_id: 7478
 ---
 
 Links this week:

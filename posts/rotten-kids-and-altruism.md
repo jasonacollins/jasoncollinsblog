@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-04-29 08:46:33+00:00
 draft: false
-link: https://www.jasoncollins.blog/rotten-kids-and-altruism/
-aliases:
-  - /rotten-kids-and-altruism
 title: Rotten kids and altruism
-wordpress_id: 802
 ---
 
 Gary Becker's 1976 article [Altruism, Egoism and Genetic Fitness: Economics and Sociobiology](http://www.jstor.org/stable/2722629) is an article that I cite often. Becker's closing paragraph has one of the earliest statements of the benefits of combining economics and sociobiology. He wrote:

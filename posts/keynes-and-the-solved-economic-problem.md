@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-08-09 13:09:12+00:00
 draft: false
-link: https://www.jasoncollins.blog/keynes-and-the-solved-economic-problem/
-aliases:
-  - /keynes-and-the-solved-economic-problem
 title: Keynes and the solved economic problem
-wordpress_id: 1608
 ---
 
 While many have dusted off Keynes during the last few years and asked "what would Keynes do", it is fair to question whether Keynes would have done anything at all. If he were here today, he might be writing a mountain of blog posts and opinion pieces, but from the perspective of 1930, it is unclear whether he would consider the developed world to have a problem. In his essay [Economic Possibilities for Our Grandchildren](http://www.econ.yale.edu/smith/econ116a/keynes1.pdf) (pdf), he figured that over the next 100 years the economic problem might be solved:

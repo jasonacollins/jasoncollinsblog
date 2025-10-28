@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-11-19 07:48:12+00:00
 draft: false
-link: https://www.jasoncollins.blog/fukuyamas-the-origins-of-political-order/
-aliases:
-  - /fukuyamas-the-origins-of-political-order
 title: Fukuyama's The Origins of Political Order
-wordpress_id: 2045
 ---
 
 I have finally finished reading Francis Fukuyama's *The Origins of Political Order: From Prehuman Times to the French Revolution*, several months after my [initial comments](https://www.jasoncollins.blog/fukuyamas-biological-approach/).

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-02-07 09:29:44+00:00
 draft: false
-link: https://www.jasoncollins.blog/trivers-on-biology-in-economics/
-aliases:
-  - /trivers-on-biology-in-economics
 title: Trivers on biology in economics
-wordpress_id: 2409
 ---
 
 In [The Folly of Fools: The Logic of Deceit and Self-Deception in Human Life](https://www.jasoncollins.blog/triverss-the-folly-of-fools/), Robert Trivers asks “Is economics a science?”  He answers:

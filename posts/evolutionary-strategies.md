@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-02-21 12:32:18+00:00
 draft: false
-link: https://www.jasoncollins.blog/evolutionary-strategies/
-aliases:
-  - /evolutionary-strategies
 title: Evolutionary strategies
-wordpress_id: 2544
 ---
 
 In Tim Harford’s discussion in [Adapt](https://www.jasoncollins.blog/harfords-adapt-why-success-always-starts-with-failure/) of the benefits to experimentation , Harford notes that experimentation by individuals is often at great potential cost. As when a species evolves, what appears to be beneficial experimentation at a societal level involves frequent failure to survive by individuals. While Harford suggests that people should consider experimenting in a manner that avoids failure that threatens survival, the reality is that many people take risks with a large downside.

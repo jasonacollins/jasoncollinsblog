@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-08-16 12:10:22+00:00
 draft: false
-link: https://www.jasoncollins.blog/low-social-mobility-equals-success/
-aliases:
-  - /low-social-mobility-equals-success
 title: Low social mobility equals success
-wordpress_id: 1653
 ---
 
 At [Gene Expression](http://blogs.discovermagazine.com/gnxp/2011/08/the-end-of-environmental-inequality-means-the-rise-of-genetic-inequality), Razib Khan writes:

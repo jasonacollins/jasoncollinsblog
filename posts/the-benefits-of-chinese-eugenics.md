@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-01-18 12:04:00+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-benefits-of-chinese-eugenics/
-aliases:
-  - /the-benefits-of-chinese-eugenics
 title: The benefits of Chinese eugenics
-wordpress_id: 5032
 ---
 
 Edge's annual question for 2013 - [What *should* we worry about?](http://edge.org/responses/q2013) - has generated a bunch of interesting responses. First in the list is Geoffrey Miller's response, [Chinese eugenics](http://edge.org/response-detail/23838). Miller writes:

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-07-15 12:44:37+00:00
 draft: false
-link: https://www.jasoncollins.blog/genetic-diversity-economic-development-and-policy/
-aliases:
-  - /genetic-diversity-economic-development-and-policy
 title: Genetic diversity, economic development and policy
-wordpress_id: 6605
 ---
 
 It has been a few months since I wrote most of my series of posts on Quamrul Ashraf and Oded Galor's paper [The ‘Out of Africa’ Hypothesis, Human Genetic Diversity, and Comparative Economic Development](https://www.jasoncollins.blog/the-out-of-africa-hypothesis-human-genetic-diversity-and-comparative-economic-development/). This last post in the series is on the implication of their argument for policy.

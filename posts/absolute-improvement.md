@@ -3,9 +3,6 @@ author: "Jason Collins"
 
 date: 2012-01-29 04:42:29+00:00
 draft: false
-link: https://www.jasoncollins.blog/absolute-improvement/
-aliases:
-  - /absolute-improvement
 title: Absolute improvement
 ---
 

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-12-17 09:05:47+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-bright-tax/
-aliases:
-  - /the-bright-tax
 title: The bright tax
-wordpress_id: 4825
 ---
 
 The [Smithsonian magazine has an interview](http://www.smithsonianmag.com/science-nature/Are-You-Smarter-Than-Your-Grandfather-Probably-Not-181842991.html?c=y&page=1) with James Flynn about his book [Are We Getting Smarter?](https://www.jasoncollins.blog/flynns-are-we-getting-smarter/) (HT: [Annie Murphy Paul](http://anniemurphypaul.com/2012/12/why-were-doing-better-on-iq-tests/)) First, Flynn on the "bright tax:

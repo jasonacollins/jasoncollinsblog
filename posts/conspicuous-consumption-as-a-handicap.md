@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-11-25 12:11:41+00:00
 draft: false
-link: https://www.jasoncollins.blog/conspicuous-consumption-as-a-handicap/
-aliases:
-  - /conspicuous-consumption-as-a-handicap
 title: Conspicuous consumption as a handicap
-wordpress_id: 480
 ---
 
 In a [recent post](https://www.jasoncollins.blog/an-evolutionary-explanation-of-consumption/), I discussed Gianni De Fraja's paper in which he proposed that sexual selection shaped the nature of conspicuous consumption by men. In his model, conspicuous consumption by men serves as a fitness indicator to women. Low and high quality men signal their differing wealth "honestly" (under certain conditions) as the consumption level of the high quality men is too large a handicap for the low quality men to copy.

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-11-04 08:31:27+00:00
 draft: false
-link: https://www.jasoncollins.blog/genome-wide-association-studies-and-socioeconomic-outcomes/
-aliases:
-  - /genome-wide-association-studies-and-socioeconomic-outcomes
 title: Genome Wide Association Studies and socioeconomic outcomes
-wordpress_id: 20406
 ---
 
 A few months back, I posted about a [Conference on Genetics and Behaviour](https://hceconomics.uchicago.edu/events/conference-genetics-and-behavior) held by the Human Capital and Economic Opportunity Global Working Group at the University of Chicago. [In that post](https://www.jasoncollins.blog/genes-and-socioeconomic-aggregates/), I linked to a series of videos from the first session on the effect of genes on socioeconomic aggregates.

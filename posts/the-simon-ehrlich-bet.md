@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-05-20 07:25:08+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-simon-ehrlich-bet/
-aliases:
-  - /the-simon-ehrlich-bet
 title: The Simon-Ehrlich bet
-wordpress_id: 997
 ---
 
 I'm back on the population bandwagon today, and I wanted to define a point where economists and ecologists often appear to be talking across each other (and where I disagree with both). The best way to delineate this is by revisiting the [Julian Simon-Paul Ehrlich bet](http://en.wikipedia.org/wiki/Simon%E2%80%93Ehrlich_wager).

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-07-01 11:56:28+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-lipstick-effect/
-aliases:
-  - /the-lipstick-effect
 title: The lipstick effect
-wordpress_id: 3552
 ---
 
 Sarah Hill has [posted at Scientific American](http://blogs.scientificamerican.com/guest-blog/2012/06/27/lipstick-the-recession-and-evolutionary-psychology/) on a new paper ([pdf](http://personal.tcu.edu/sehill/LipstickEffectMS20March2012.pdf)) that she (and colleagues) has written on the lipstick effect. The lipstick effect is a phenomena where sales of beauty products increase in times of recession, in contrast to the reduction in purchases for most other goods. The authors suggest that this reflects the desire of women to reproduce more quickly, and competition between women for access to the relatively scarcer resource-rich men. Part of the abstract reads:

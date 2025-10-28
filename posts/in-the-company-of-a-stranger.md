@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-04-21 16:16:03+00:00
 draft: false
-link: https://www.jasoncollins.blog/in-the-company-of-a-stranger/
-aliases:
-  - /in-the-company-of-a-stranger
 title: In the company of a stranger
-wordpress_id: 752
 ---
 
 I have just left the [Social Decision Making: Bridging Economics and Biology](https://www.jasoncollins.blog/social-decision-making-bridging-economics-and-biology/) conference, with one of the last speakers being Paul Seabright, author of [The Company of Strangers](http://press.princeton.edu/titles/9169.html). I will post some thoughts on Seabright’s presentation (and some of the other presentations at the conference) after Easter and once I have read the related papers.

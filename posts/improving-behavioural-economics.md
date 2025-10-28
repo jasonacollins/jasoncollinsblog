@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-10-29 09:39:44+00:00
 draft: false
-link: https://www.jasoncollins.blog/improving-behavioural-economics/
-aliases:
-  - /improving-behavioural-economics
 title: Improving behavioural economics
-wordpress_id: 20400
 ---
 
 A neat new paper has appeared on SSRN from Owen Jones - [Why Behavioral Economics Isn’t Better, and How it Could Be](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2504776) (HT: [Emanuel Derman](https://twitter.com/EmanuelDerman) via [Dennis Dittrich](https://twitter.com/davdittrich)). My favourite part is below. As I have said many times before, giving a bias a name is not theory.

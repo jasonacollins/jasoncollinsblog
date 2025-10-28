@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-09-27 07:17:04+00:00
 draft: false
-link: https://www.jasoncollins.blog/human-nature-and-property-rights/
-aliases:
-  - /human-nature-and-property-rights
 title: Human nature and property rights
-wordpress_id: 1836
 ---
 
 While the [Cato Unbound](http://www.cato-unbound.org/) discussion on Brain, Belief and Politics appears to have petered out (unfortunately, Shermer has not directly confronted most of the issues in the response essays), the site has linked to [an interesting piece](http://www.cato.org/pubs/policy_report/v27n1/cpr-27n1-1.pdf) (pdf) by Will Wilkinson from the Cato Policy Report in 2005.

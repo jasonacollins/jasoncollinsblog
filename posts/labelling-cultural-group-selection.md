@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-07-12 11:41:20+00:00
 draft: false
-link: https://www.jasoncollins.blog/labelling-cultural-group-selection/
-aliases:
-  - /labelling-cultural-group-selection
 title: Labelling cultural group selection
-wordpress_id: 3615
 ---
 
 [Steven Pinker's essay](http://edge.org/conversation/the-false-allure-of-group-selection) on group selection (my initial [post on it here](https://www.jasoncollins.blog/pinker-takes-on-group-selection/)) has now attracted [a raft of interesting responses](http://edge.org/conversation/the-false-allure-of-group-selection#rc) that are well worth reading. While it is hard to stitch together and reconcile the various arguments, in sum they confirm one part of Pinker's argument. In his essay, Pinker wrote:

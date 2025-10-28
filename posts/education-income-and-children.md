@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-03-21 12:26:39+00:00
 draft: false
-link: https://www.jasoncollins.blog/education-income-and-children/
-aliases:
-  - /education-income-and-children
 title: Education, income and children
-wordpress_id: 2685
 ---
 
 In [my recent post](https://www.jasoncollins.blog/are-children-normal-goods/) on whether children are normal goods (demand for children increasing with income), I dodged questions around the effect of education. Most recent studies into the effect of income on children control for the level of education, as did [Bryan Caplan in his analysis](http://econlog.econlib.org/archives/2011/06/kids_are_normal.html) that found a positive correlation between income and children in the United States.

@@ -3,12 +3,8 @@ author: "Jason Collins"
 
 date: 2013-02-07 13:33:43+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-out-of-africa-hypothesis-human-genetic-diversity-and-comparative-economic-development/
-aliases:
-  - /the-out-of-africa-hypothesis-human-genetic-diversity-and-comparative-economic-development
 title: The 'Out of Africa' Hypothesis, Human Genetic Diversity, and Comparative Economic
   Development
-wordpress_id: 5158
 ---
 
 Although the debate it triggered has been going for a few months (see [here](https://www.jasoncollins.blog/harvard-academics-on-genetic-diversity-and-economic-development/), [here](https://www.jasoncollins.blog/genetic-diversity-and-economic-development-ashraf-and-galor-respond/), [here](https://www.jasoncollins.blog/is-poverty-in-our-genes/) and [here](https://www.jasoncollins.blog/is-poverty-in-our-genes-from-the-comments/).), Quamrul Ashraf and Oded Galor's paper [The 'Out of Africa' Hypothesis, Human Genetic Diversity, and Comparative Economic Development](https://doi.org/10.1257/aer.103.1.1) has been published in the February edition of the American Economic Review (for the latest ungated version, go [here](http://ideas.repec.org/p/iza/izadps/dp6330.html) - although you can download the data and supplementary materials from the AER site without a subscription).

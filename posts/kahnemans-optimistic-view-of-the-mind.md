@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-09-24 11:22:56+00:00
 draft: false
-link: https://www.jasoncollins.blog/kahnemans-optimistic-view-of-the-mind/
-aliases:
-  - /kahnemans-optimistic-view-of-the-mind
 title: Kahneman's optimistic view of the mind
-wordpress_id: 20180
 ---
 
 In the [Gerd Gigerenzer versus Daniel Kahneman wars](https://www.jasoncollins.blog/gigerenzer-versus-nudge/), most of the projectiles seem to fly one way. Gigerenzer attacks directly, Kahneman expends little effort in defence.

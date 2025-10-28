@@ -3,8 +3,6 @@ title: 'Adam Alter''s Irresistible: Why We Can''t Stop Checking, Scrolling, Clic
 author: "Jason Collins"
 date: 2017-10-05 08:00:50+00:00
 draft: false
-aliases:
-  - /alters-irresistible-why-we-cant-stop-checking-scrolling-clicking-and-watching
 ---
 
 I have a lot of sympathy for Adam Alter’s case in *Irresistible: Why We Can’t Stop Checking, Scrolling, Clicking and Watching*. Despite the abundant benefits of being online, the hours I have burnt over the last 20 years through aimless internet wandering and social media engagement could easily have delivered a book or another PhD.

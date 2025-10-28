@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-10-19 06:14:58+00:00
 draft: false
-link: https://www.jasoncollins.blog/trivers-on-romneys-sons-and-obamas-daughters/
-aliases:
-  - /trivers-on-romneys-sons-and-obamas-daughters
 title: Trivers on Romney's sons and Obama's daughters
-wordpress_id: 4367
 ---
 
 In a [National Review article](https://www.nationalreview.com/nrd/articles/313504/boss) a couple of months ago, Kevin Williamson questioned Obama's status relative to Mitt Romney's because Obama's children were daughters, while Romney had sons.

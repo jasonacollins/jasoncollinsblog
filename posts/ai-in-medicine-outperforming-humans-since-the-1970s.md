@@ -3,8 +3,6 @@ title: 'AI in medicine: Outperforming humans since the 1970s'
 author: "Jason Collins"
 date: 2018-01-24 08:00:50+00:00
 draft: false
-aliases:
-  - /ai-in-medicine-outperforming-humans-since-the-1970s
 ---
 
 From an interesting a16z podcast episode [Putting AI in Medicine, in Practice](https://a16z.com/2017/11/03/ai-medicine/) (I hope I got the correct names against who is saying what):

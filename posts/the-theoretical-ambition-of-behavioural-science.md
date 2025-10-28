@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-12-11 13:54:20+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-theoretical-ambition-of-behavioural-science/
-aliases:
-  - /the-theoretical-ambition-of-behavioural-science
 title: The theoretical ambition of behavioural science
-wordpress_id: 12605
 ---
 
 [From Richard Posner](https://www.aier.org/sites/default/files/publications/EEB200208_0.pdf) (HT: [Ryan Murphy](http://increasingmu.wordpress.com/)):

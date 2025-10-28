@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-09-24 09:52:27+00:00
 draft: false
-link: https://www.jasoncollins.blog/socioeconomic-status-versus-fitness/
-aliases:
-  - /socioeconomic-status-versus-fitness
 title: Socioeconomic status versus fitness
-wordpress_id: 4137
 ---
 
 One common explanation for fertility declines over the last 200 years is that parents have shifted to investing in quality of children, rather than quantity. What is often not made clear is that this quality-quantity trade-off has two dimensions. The first trade-off relates to socioeconomic status (SES), with greater numbers of children resulting in less investment in education and resource dilution. The second trade-off relates to fitness, as a short-term increase in children may reduce fertility in future generations.

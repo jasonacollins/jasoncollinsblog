@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-04-08 11:22:08+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-evolution-of-happiness/
-aliases:
-  - /the-evolution-of-happiness
 title: The evolution of happiness
-wordpress_id: 5814
 ---
 
 When we experience positive events, we feel happy. But [happiness adjusts](https://www.jasoncollins.blog/happiness-adjusts/), with the effects of a positive event normally short-lived. Over the long-term, happiness tends to float around a stable mean. Happiness is also strongly related to our position relative to our peers. How happy we are with our income depends on everyone else's income.

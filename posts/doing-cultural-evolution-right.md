@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-01-13 13:52:32+00:00
 draft: false
-link: https://www.jasoncollins.blog/doing-cultural-evolution-right/
-aliases:
-  - /doing-cultural-evolution-right
 title: Doing cultural evolution right
-wordpress_id: 17027
 ---
 
 A sojourn into the literature on cultural evolution can be confusing. Authors use the same terms in different ways. Unique models are used to reach opposite conclusions. And each author seems to find their own way to intertwine genetic evolution into the analysis.

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-06-13 12:35:09+00:00
 draft: false
-link: https://www.jasoncollins.blog/some-perspectives-on-elinor-ostrom/
-aliases:
-  - /some-perspectives-on-elinor-ostrom
 title: Some perspectives on Elinor Ostrom
-wordpress_id: 3439
 ---
 
 Below are three passages that capture a small part of the evolutionary flavour of the now late Elinor Ostrom's work.

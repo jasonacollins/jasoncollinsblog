@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-09-07 07:17:21+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-genetic-and-social-lottery/
-aliases:
-  - /the-genetic-and-social-lottery
 title: The genetic and social lottery
-wordpress_id: 1737
 ---
 
 As opportunity is equalised, more of the variation in outcomes between people will be due to genetic factors. This may have the somewhat ironic result of [reducing social mobility](https://www.jasoncollins.blog/low-social-mobility-equals-success/).

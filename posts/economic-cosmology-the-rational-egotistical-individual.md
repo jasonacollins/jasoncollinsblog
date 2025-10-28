@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-08-20 12:14:20+00:00
 draft: false
-link: https://www.jasoncollins.blog/economic-cosmology-the-rational-egotistical-individual/
-aliases:
-  - /economic-cosmology-the-rational-egotistical-individual
 title: Economic cosmology - The rational egotistical individual
-wordpress_id: 7055
 ---
 
 The social sciences have recently become a common battleground for debates about group selection. From [Jonathan Haidt's use of group selection](https://www.jasoncollins.blog/haidts-group-selection/) to explain "groupish" traits in humans, to some of the recent rumblings about cultural group selection (as expressed in a [debate triggered by Steven Pinker](https://www.jasoncollins.blog/pinker-takes-on-group-selection/)), and even at [last years Consilience Conference](https://www.jasoncollins.blog/group-selection-and-the-social-sciences/), group selection has undergone a revival in the social sciences.

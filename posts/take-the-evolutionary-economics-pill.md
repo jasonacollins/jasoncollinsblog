@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-11-01 13:19:13+00:00
 draft: false
-link: https://www.jasoncollins.blog/take-the-evolutionary-economics-pill/
-aliases:
-  - /take-the-evolutionary-economics-pill
 title: Take the evolutionary economics pill
-wordpress_id: 1958
 ---
 
 [Frances Wooley writes](http://worthwhile.typepad.com/worthwhile_canadian_initi/2011/09/the-behavioural-economists-dilemma-induction-versus-deduction.html):

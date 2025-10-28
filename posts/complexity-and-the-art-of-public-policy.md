@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-12-29 08:00:24+00:00
 draft: false
-link: https://www.jasoncollins.blog/complexity-and-the-art-of-public-policy/
-aliases:
-  - /complexity-and-the-art-of-public-policy
 title: Complexity and the Art of Public Policy
-wordpress_id: 20535
 ---
 
 The basis of David Colander and Roland Kupers's book *Complexity and the Art of Public Policy: Solving Society's Problems from the Bottom Up* is that the economy is a complex system and it should be examined through a complexity frame.

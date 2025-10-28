@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-10-14 08:17:24+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-invisible-hand-of-jupiter/
-aliases:
-  - /the-invisible-hand-of-jupiter
 title: The invisible hand of Jupiter
-wordpress_id: 20220
 ---
 
 I'm note sure how I hadn't come across this before (one need only read the [Wikipedia entry "invisible hand"](http://en.wikipedia.org/wiki/Invisible_hand)), but Adam Smith used the phrase "invisible hand" three times. It is used once in [The Theory of Moral Sentiments](http://www.econlib.org/library/Smith/smMSCover.html) (1759) and [The Wealth of Nations](http://www.econlib.org/library/Smith/smWN.html) (1776) - both of those I knew. The third time comes from a posthumously published (1795) essay The History of Astronomy, written before The Theory of Moral Sentiments. Smith wrote:

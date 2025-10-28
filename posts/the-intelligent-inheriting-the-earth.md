@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-08-22 13:10:45+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-intelligent-inheriting-the-earth/
-aliases:
-  - /the-intelligent-inheriting-the-earth
 title: The intelligent inheriting the earth
-wordpress_id: 3873
 ---
 
 From [a working paper by Garett Jones](http://mason.gmu.edu/~gjonesb/IITE.pdf) released earlier this year:

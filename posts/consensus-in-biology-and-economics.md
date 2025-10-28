@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-01-09 11:36:48+00:00
 draft: false
-link: https://www.jasoncollins.blog/consensus-in-biology-and-economics/
-aliases:
-  - /consensus-in-biology-and-economics
 title: Consensus in economics and biology
-wordpress_id: 4929
 ---
 
 Despite the common public brawls, a [paper presented](http://dss.ucsd.edu/~gdahl/papers/views-among-economists.pdf) at the American Economic Association annual meeting by Gordon and Dahl shows high levels of consensus between economists on most economic issues. Based on questions to a 41 economist panel established by the Chicago Booth School of Business, on average only 6 per cent disagree with the "consensus" answer to a question, with around 25 per cent uncertain. This observation holds for what might be viewed as relatively controversial questions, including [the effect of stimulus](http://www.igmchicago.org/igm-economic-experts-panel/poll-results?SurveyID=SV_cw5O9LNJL1oz4Xi) on jobs (although the phrasing of the questions could be changed to increase dispute - such as asking whether the benefits of the stimulus outweighed the costs. Some of the questions seem benign). In some areas the consensus is weaker, such as on labour issues where 17 per cent oppose the consensus and 29 per cent are uncertain, leaving a 3 to 1 ratio between those in the majority and those against.

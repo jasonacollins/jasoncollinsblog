@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-06-24 07:41:34+00:00
 draft: false
-link: https://www.jasoncollins.blog/galton-trivia/
-aliases:
-  - /galton-trivia
 title: Galton trivia
-wordpress_id: 1435
 ---
 
 Every time a new Francis Galton piece is published, I look forward to the Galton trivia. This time it is in [an article](http://www.bbc.co.uk/news/magazine-13775520) by Steve Jones (HT: [John Hawks](http://johnhawks.net/weblog)):

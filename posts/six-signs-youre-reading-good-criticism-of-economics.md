@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-10-28 13:48:29+00:00
 draft: false
-link: https://www.jasoncollins.blog/six-signs-youre-reading-good-criticism-of-economics/
-aliases:
-  - /six-signs-youre-reading-good-criticism-of-economics
 title: Six signs you're reading good criticism of economics
-wordpress_id: 7776
 ---
 
 After reading Chris Auld's [18 signs you're reading bad criticism of economics](http://chrisauld.com/2013/10/23/18-signs-youre-reading-bad-criticism-of-economics/) (I agree with most, although by viewing them as "signs" with exceptions), I was thinking about what signs someone should someone look for in a decent critique. So, here are my thoughts. Some are twists on Auld's points, or could easily be turned into additional reasons that a criticism is likely bad, but they're a useful initial filter.

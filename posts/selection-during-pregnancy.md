@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-05-02 11:39:55+00:00
 draft: false
-link: https://www.jasoncollins.blog/selection-during-pregnancy/
-aliases:
-  - /selection-during-pregnancy
 title: Selection during pregnancy
-wordpress_id: 6113
 ---
 
 [Carl Zimmer writes](http://phenomena.nationalgeographic.com/2013/05/01/what-to-expect-when-youre-expecting-by-charles-darwin/) about a [new paper in Trends in Genetics](https://doi.org/10.1016/j.tig.2013.03.001) where the authors argue that natural selection during pregnancy is an important driver of recent evolutionary changes:

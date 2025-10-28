@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-01-15 13:53:19+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-interplay-of-genetic-and-cultural-evolution/
-aliases:
-  - /the-interplay-of-genetic-and-cultural-evolution
 title: The interplay of genetic and cultural evolution
-wordpress_id: 17083
 ---
 
 In [my last post](https://www.jasoncollins.blog/doing-cultural-evolution-right/), I discussed the framework for cultural evolution laid out by Claire El Mouden and colleagues in a [new article in the Journal of Evolutionary Biology](https://doi.org/10.1111/jeb.12296) (ungated [pdf](http://www.staff.ncl.ac.uk/daniel.nettle/ElMoudenJEB.pdf) and [supporting information](http://www.staff.ncl.ac.uk/daniel.nettle/ElMoudenJEBSI.pdf)). By setting out clear definitions for the analysis of cultural evolution, such as cultural relatedness and fitness, a workable framework using evolutionary biology's [Price equation](http://en.wikipedia.org/wiki/Price_equation) can be developed.

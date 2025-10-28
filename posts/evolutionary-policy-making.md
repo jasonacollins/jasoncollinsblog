@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-06-16 07:22:40+00:00
 draft: false
-link: https://www.jasoncollins.blog/evolutionary-policy-making/
-aliases:
-  - /evolutionary-policy-making
 title: Evolutionary policy making
-wordpress_id: 3445
 ---
 
 [Project Syndicate has published](http://www.project-syndicate.org/commentary/green-from-the-grassroots) one of the last pieces by Elinor Ostrom, in which she gives her views on the upcoming Rio+20 summit. The article reflects Ostrom's wariness of blanket, top-down solutions:

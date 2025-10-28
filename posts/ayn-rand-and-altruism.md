@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-10-04 13:17:33+00:00
 draft: false
-link: https://www.jasoncollins.blog/ayn-rand-and-altruism/
-aliases:
-  - /ayn-rand-and-altruism
 title: Ayn Rand and altruism
-wordpress_id: 4245
 ---
 
 While I find the occasional Ayn Rand (or Ayn Rand fan) bashing amusing, critics of Rand typically mis-characterise her writings (as many of her ardent fans also do). A [Slate article by Eric Michael Johnson](http://www.slate.com/articles/health_and_science/human_evolution/2012/10/groups_and_gossip_drove_the_evolution_of_human_nature.single.html) continues this tradition, where Johnson sets Rand up as the representative of selfish individualists against the altruists of hunter-gather tribes.

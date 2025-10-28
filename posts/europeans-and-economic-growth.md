@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-06-19 10:37:13+00:00
 draft: false
-link: https://www.jasoncollins.blog/europeans-and-economic-growth/
-aliases:
-  - /europeans-and-economic-growth
 title: Europeans and economic growth
-wordpress_id: 3497
 ---
 
 A [new NBER paper](http://papers.nber.org/papers/w18162) by Bill Easterly and Ross Levine proposes that a large proportion of global development is attributable to European settlement, even where Europeans formed a small minority of the population. The abstract:

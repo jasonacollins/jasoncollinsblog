@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-05-18 12:21:50+00:00
 draft: false
-link: https://www.jasoncollins.blog/could-this-critique-apply-to-economics/
-aliases:
-  - /could-this-critique-apply-to-economics
 title: Could this critique apply to economics?
-wordpress_id: 3248
 ---
 
 From [an excellent article](http://www.nature.com/news/replication-studies-bad-copy-1.10634) in Nature News by Ed Yong on problems with replication in psychology:

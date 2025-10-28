@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-07-19 11:20:08+00:00
 draft: false
-link: https://www.jasoncollins.blog/groups-kin-and-self-interest/
-aliases:
-  - /groups-kin-and-self-interest
 title: Groups, kin and self interest
-wordpress_id: 3663
 ---
 
 In [my last post on group selection](https://www.jasoncollins.blog/what-is-multilevel-selection/), I described how multilevel selection differed from more traditional (and popular) concepts of group selection. One difference is that the multilevel selection framework defines groups as any subset of interacting individuals, such as a cooperating pair or family unit, rather than restricting the definition to population size groups.

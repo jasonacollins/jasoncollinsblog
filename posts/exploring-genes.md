@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-12-19 10:20:37+00:00
 draft: false
-link: https://www.jasoncollins.blog/exploring-genes/
-aliases:
-  - /exploring-genes
 title: Exploring genes
-wordpress_id: 4829
 ---
 
 David Dobbs has [written a great National Geographic piece](http://ngm.nationalgeographic.com/2013/01/restless-genes/dobbs-text) on the human compulsion to explore. At the centre of the article is the question of genetic influence.

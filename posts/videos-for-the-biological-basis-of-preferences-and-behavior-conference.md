@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-09-21 10:57:16+00:00
 draft: false
-link: https://www.jasoncollins.blog/videos-for-the-biological-basis-of-preferences-and-behavior-conference/
-aliases:
-  - /videos-for-the-biological-basis-of-preferences-and-behavior-conference
 title: Videos for the Biological Basis of Preferences and Behavior Conference
-wordpress_id: 4123
 ---
 
 [Videos of the presentations](http://bfi.uchicago.edu/events/20120504_biologicalbasis/) at the Biological Basis of Preferences and Behaviour conference have been put online. Many are worth watching. I hope to write more detailed posts about a few of the presentations soon, but the three presentations I got the most out of were:

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-01-29 11:40:29+00:00
 draft: false
-link: https://www.jasoncollins.blog/spontaneous-order/
-aliases:
-  - /spontaneous-order
 title: Spontaneous order
-wordpress_id: 5101
 ---
 
 Another interesting old paper off my reading pile has been Robert Sugden's [Spontaneous Order](http://www.jstor.org/stable/1942911).

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-04-09 13:32:07+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-magic-of-commerce/
-aliases:
-  - /the-magic-of-commerce
 title: The magic of commerce
-wordpress_id: 19896
 ---
 
 A re-read of [The Malay Archipelago](http://www.gutenberg.org/ebooks/author/955) reminded me of Alfred Russel Wallace's occasional bleeding-heart libertarian leanings. From his time in remote Dobo in the Aru Islands of Eastern Indonesia:

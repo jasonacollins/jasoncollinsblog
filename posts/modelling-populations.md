@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-06-07 08:06:52+00:00
 draft: false
-link: https://www.jasoncollins.blog/modelling-populations/
-aliases:
-  - /modelling-populations
 title: Modelling populations
-wordpress_id: 1212
 ---
 
 In my previous two posts, I [described the model](https://www.jasoncollins.blog/natural-selection-and-economic-growth/) contained in Galor and Moav's paper [Natural Selection and the Origin of Economic Growth](http://qje.oxfordjournals.org/content/117/4/1133.short) and [an extension](https://www.jasoncollins.blog/natural-selection-and-the-collapse-of-economic-growth/) in which we introduced genotypes with a low preference for educating their children.

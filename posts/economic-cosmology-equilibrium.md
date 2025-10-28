@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-08-29 12:05:55+00:00
 draft: false
-link: https://www.jasoncollins.blog/economic-cosmology-equilibrium/
-aliases:
-  - /economic-cosmology-equilibrium
 title: Economic cosmology - Equilibrium
-wordpress_id: 7148
 ---
 
 Although most of my interest in integrating evolutionary biology into economics concerns treating people as evolved (or evolving) animals, economists can also learn a lot from the dynamic analysis of biological systems. This thought is shared by John Gowdy and colleagues and is the subject of their third economic cosmology, equilibrium, in their article [Economic cosmology and the evolutionary challenge](https://doi.org/10.1016/j.jebo.2012.12.009) from the Journal of Economic Behavior & Organization special issue, _Evolution as a General Theoretical Framework for Economics and Public Policy. _(The first two cosmologies, [the rational man](https://www.jasoncollins.blog/economic-cosmology-the-rational-egotistical-individual/) and [the invisible hand](https://www.jasoncollins.blog/economic-cosmology-the-invisible-hand/), are the subject of two earlier posts.)

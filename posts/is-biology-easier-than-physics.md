@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-07-05 13:03:09+00:00
 draft: false
-link: https://www.jasoncollins.blog/is-biology-easier-than-physics/
-aliases:
-  - /is-biology-easier-than-physics
 title: Is biology easier than physics?
-wordpress_id: 3569
 ---
 
 [Steve Hsu has pointed out](http://infoproc.blogspot.com.au/2012/07/chomsky-genetic-barriers-to-scientific.html) an interesting [old interview with Noam Chomsky](http://www.chomsky.info/interviews/198311--.htm). Hsu highlights Chomsky's views on the limits of human intelligence.

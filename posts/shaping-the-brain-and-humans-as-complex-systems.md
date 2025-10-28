@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-08-12 10:30:13+00:00
 draft: false
-link: https://www.jasoncollins.blog/shaping-the-brain-and-humans-as-complex-systems/
-aliases:
-  - /shaping-the-brain-and-humans-as-complex-systems
 title: Shaping the brain and humans as complex systems
-wordpress_id: 20085
 ---
 
 I linked to this [interview with Robert Sapolsky](http://nautil.us/issue/15/turbulence/ingenious-robert-sapolsky) a couple of weeks ago, but after glancing through it again, I felt it worth highlighting two paragraphs (both for your interest and so I can find them again). First, on the evolutionary purpose of the teenage brain:

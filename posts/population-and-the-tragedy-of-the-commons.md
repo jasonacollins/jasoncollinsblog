@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-05-12 09:32:08+00:00
 draft: false
-link: https://www.jasoncollins.blog/population-and-the-tragedy-of-the-commons/
-aliases:
-  - /population-and-the-tragedy-of-the-commons
 title: Population and the tragedy of the commons
-wordpress_id: 930
 ---
 
 Like all economists, I am familiar with the concept of the [tragedy of the commons](http://en.wikipedia.org/wiki/Tragedy_of_the_commons). However, possibly like most economists, I had not read Garrett Hardin's [1968 article](http://www.garretthardinsociety.org/articles/art_tragedy_of_the_commons.html) from where we derive the phrase - that is, until yesterday. As a result, I did not understand the extent to which overpopulation concerns underpinned Hardin's writing (HT: Daniel Rankin).

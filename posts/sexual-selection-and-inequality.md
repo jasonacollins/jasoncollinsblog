@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-11-19 10:59:36+00:00
 draft: false
-link: https://www.jasoncollins.blog/sexual-selection-and-inequality/
-aliases:
-  - /sexual-selection-and-inequality
 title: Sexual selection and inequality
-wordpress_id: 4646
 ---
 
 From [Matt Ridley in the Wall Street Journal](http://online.wsj.com/article/SB10001424127887323551004578116903873762428.html):

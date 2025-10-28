@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-04-22 12:09:33+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-recent-evolution-of-musical-talent/
-aliases:
-  - /the-recent-evolution-of-musical-talent
 title: The recent evolution of musical talent
-wordpress_id: 2998
 ---
 
 From a [debate between Gary Marcus and Geoffrey Miller](http://www.theatlantic.com/entertainment/archive/2012/04/did-humans-invent-music/255945/) on the biological basis for musical talent:

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-03-06 13:46:20+00:00
 draft: false
-link: https://www.jasoncollins.blog/is-genetic-diversity-a-proxy-for-phenotypic-diversity/
-aliases:
-  - /is-genetic-diversity-a-proxy-for-phenotypic-diversity
 title: Genetic diversity, phenotypic diversity and the founder effect
-wordpress_id: 5458
 ---
 
 In two recent posts I examined the causative mechanisms underlying [Ashraf and Galor's hypothesis](https://www.jasoncollins.blog/the-out-of-africa-hypothesis-human-genetic-diversity-and-comparative-economic-development/) linking genetic diversity to economic growth ([innovation](https://www.jasoncollins.blog/does-genetic-diversity-increase-innovation/) and [conflict](https://www.jasoncollins.blog/does-genetic-diversity-increase-conflict/)). In those posts, I avoided examining whether genetic diversity could be considered a proxy of phenotypic diversity unrelated to that genetic diversity (such as language).

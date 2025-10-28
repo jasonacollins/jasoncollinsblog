@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-08-27 08:37:34+00:00
 draft: false
-link: https://www.jasoncollins.blog/keeping-economists-honest/
-aliases:
-  - /keeping-economists-honest
 title: Keeping economists honest
-wordpress_id: 3907
 ---
 
 Paul Frijters has written [an interesting review](http://clubtroppo.com.au/2012/08/23/thoughts-on-thinking-fast-and-slow/) of Daniel Kahneman's [Thinking Fast and Slow](https://www.jasoncollins.blog/kahnemans-thinking-fast-and-slow/) over at Club Troppo. In the review, Frijters suggests that Kahneman's main contribution to economics is keeping economists honest:

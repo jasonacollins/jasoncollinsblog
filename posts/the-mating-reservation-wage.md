@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-01-19 12:36:00+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-mating-reservation-wage/
-aliases:
-  - /the-mating-reservation-wage
 title: The mating reservation wage
-wordpress_id: 2310
 ---
 
 Bryan Caplan [makes an excellent point](http://econlog.econlib.org/archives/2012/01/great_stagnatio_1.html):

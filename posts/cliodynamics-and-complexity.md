@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-08-06 10:14:24+00:00
 draft: false
-link: https://www.jasoncollins.blog/cliodynamics-and-complexity/
-aliases:
-  - /cliodynamics-and-complexity
 title: Cliodynamics and complexity
-wordpress_id: 3778
 ---
 
 At the [Consilience Conference](https://www.jasoncollins.blog/consilience-conference/) earlier this year, I saw Peter Turchin's presentation on [cliodynamics](http://cliodynamics.info) - the mathematical modelling of historical dynamics. I was relatively sceptical of what I saw, and a new Nature news [piece by Laura Spinney](http://www.nature.com/news/human-cycles-history-as-science-1.11078) on Turchin's work captures some of this scepticism. Spinney describes cliodynamics as follows:

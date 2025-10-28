@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-01-14 09:41:38+00:00
 draft: false
-link: https://www.jasoncollins.blog/o-ring-and-foolproof-sectors/
-aliases:
-  - /o-ring-and-foolproof-sectors
 title: O-ring and foolproof sectors
-wordpress_id: 4973
 ---
 
 In [my last post](https://www.jasoncollins.blog/kremers-o-ring-theory-of-economic-development/), I described Kremer's O-ring theory of economic development. Kremer's insight was that if production in an economy consists of many discrete tasks and failure in any one of those tasks can ruin the final output, small differences in skills can drive large differences in output between firms. This can lead to high levels of inequality as the high-skilled work together and are disproportionately more productive.

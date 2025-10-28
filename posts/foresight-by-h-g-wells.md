@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-02-24 12:46:53+00:00
 draft: false
-link: https://www.jasoncollins.blog/foresight-by-h-g-wells/
-aliases:
-  - /foresight-by-h-g-wells
 title: Foresight by H. G. Wells
-wordpress_id: 2558
 ---
 
 From [When the Sleeper Wakes](http://www.gutenberg.org/ebooks/775) (1910):

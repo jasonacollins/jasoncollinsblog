@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-08-07 12:51:37+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-love-principle/
-aliases:
-  - /the-love-principle
 title: The love principle
-wordpress_id: 6709
 ---
 
 In [my recent post](https://www.jasoncollins.blog/an-economic-theory-of-greed-love-groups-and-networks/) reviewing Paul Frijters and Gigi Foster's *An Economic Theory of Greed, Love, Groups, and Networks*, I flagged that they considered their new theoretical contribution to be "the love principle". In this post, I want to pull the idea apart. I'm not going to offer a perfect alternative to the love principle, but I hope that by giving it a good going over I can possibly understand it better.

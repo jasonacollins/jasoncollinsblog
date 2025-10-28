@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-08-26 12:05:58+00:00
 draft: false
-link: https://www.jasoncollins.blog/economic-cosmology-the-invisible-hand/
-aliases:
-  - /economic-cosmology-the-invisible-hand
 title: Economic cosmology - The invisible hand
-wordpress_id: 7106
 ---
 
 Adam Smith's concept of the invisible hand is one of the more abused ideas in economics. Mentioned only once in [The Wealth of Nations](http://www.gutenberg.org/ebooks/3300), and only then in the context of preferring domestic to foreign industry, the invisible hand has come to represent the idea that self-interest can improve the common good. The following phrase from The Wealth of Nations nicely captures the idea of the invisible hand (although it is not located with Smith's use of the term):

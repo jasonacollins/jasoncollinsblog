@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-05-18 08:39:07+00:00
 draft: false
-link: https://www.jasoncollins.blog/ultimate-population-limits/
-aliases:
-  - /ultimate-population-limits
 title: Ultimate population limits
-wordpress_id: 978
 ---
 
 Given the recent discussion on population that the release of Bryan Caplan's [Selfish Reason to Have Kids](http://havemorekidsbook.com/) has triggered (my posts [here](../2011/05/libertarians-and-fertility/), [here](../2011/05/caplans-selfish-reasons-to-have-more-kids/) and [here](../2011/05/population-and-the-tragedy-of-the-commons/)), I have been contemplating some physical limits of what the ultimate human population could be. The current global population is around 6.8 billion and is growing at around 1.2 per cent per year. Let us suppose that the population growth rate persists (as I argued before, there is a case to argue that it might increase). So, how long does it take before the physical limits are reached? (I am sure other people have done this before, but as with most things, I always like to do these exercises myself)

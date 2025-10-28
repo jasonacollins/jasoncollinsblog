@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-08-28 03:58:41+00:00
 draft: false
-link: https://www.jasoncollins.blog/elite-envy/
-aliases:
-  - /elite-envy
 title: Elite envy
-wordpress_id: 1717
 ---
 
 Robin Hanson [writes](http://www.overcomingbias.com/2011/08/bashing-billionaires.html):

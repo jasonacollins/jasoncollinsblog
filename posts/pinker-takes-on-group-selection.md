@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-06-22 13:40:33+00:00
 draft: false
-link: https://www.jasoncollins.blog/pinker-takes-on-group-selection/
-aliases:
-  - /pinker-takes-on-group-selection
 title: Pinker takes on group selection
-wordpress_id: 3521
 ---
 
 I was surprised at the easy run that group selection has recently had in social science circles, so I am pleased to see that [Steven Pinker has waded into the fray](http://edge.org/conversation/the-false-allure-of-group-selection) with an essay in [Edge](http://edge.org/). Pinker's whole essay is worth a read, but there were a couple of parts of it that I particularly liked.

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-04-27 11:46:32+00:00
 draft: false
-link: https://www.jasoncollins.blog/group-selection-and-the-social-sciences/
-aliases:
-  - /group-selection-and-the-social-sciences
 title: Group selection and the social sciences
-wordpress_id: 3021
 ---
 
 The first day of the [Consilience Conference](http://consilienceconference.com/) has strengthened [my feeling](https://www.jasoncollins.blog/the-return-of-group-selection/) that support for group selection is growing in the social sciences. While the slant of speakers such as Edward O. Wilson and Herb Gintis is no surprise, the degree of support among many conference participants that I have spoken to was. The general argument is that the evolution of "altruistic" and cooperative behaviour requires group selection.

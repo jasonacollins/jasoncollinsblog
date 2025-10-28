@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-12-16 12:15:16+00:00
 draft: false
-link: https://www.jasoncollins.blog/genoeconomics-molecular-genetics-and-economics/
-aliases:
-  - /genoeconomics-molecular-genetics-and-economics
 title: 'Genoeconomics: molecular genetics and economics'
-wordpress_id: 2113
 ---
 
 The Journal of Economic Perspectives has an excellent article by Beauchamp and colleagues titled [Molecular Genetics and Economics](http://www.aeaweb.org/articles.php?doi=10.1257/jep.25.4.57) (ungated pdf [here](http://humannaturelab.net/wp-content/themes/human-nature-lab/media/pdf/publications/articles/123.pdf)). It is a nice contrast to another article in the same issue, [Charles Manski's bashing](https://www.jasoncollins.blog/the-use-of-heritability-in-policy-development/) of the heritability straw man.

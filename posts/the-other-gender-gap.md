@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2015-03-10 08:00:01+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-other-gender-gap/
-aliases:
-  - /the-other-gender-gap
 title: The other gender gap
-wordpress_id: 20899
 ---
 
 [The Economist discusses](http://www.economist.com/news/international/21645759-boys-are-being-outclassed-girls-both-school-and-university-and-gap?fsrc=scn%2Ftw%2Fte%2Fpe%2Fed%2Ftheweakersex) a new OECD report on a growing gender gap in schools:

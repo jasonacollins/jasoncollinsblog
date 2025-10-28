@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-03-20 12:50:51+00:00
 draft: false
-link: https://www.jasoncollins.blog/cooperation-and-conflict-in-the-family-conference/
-aliases:
-  - /cooperation-and-conflict-in-the-family-conference
 title: Cooperation and Conflict in the Family Conference
-wordpress_id: 5675
 ---
 
 I'm excited that I can finally announce the Cooperation and Conflict in the Family Conference.

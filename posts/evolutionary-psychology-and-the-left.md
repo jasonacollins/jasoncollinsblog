@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-05-19 10:12:17+00:00
 draft: false
-link: https://www.jasoncollins.blog/evolutionary-psychology-and-the-left/
-aliases:
-  - /evolutionary-psychology-and-the-left
 title: Evolutionary psychology and the left
-wordpress_id: 1002
 ---
 
 Belief in evolution is often considered the domain of "the left". Apart from being true, evolutionary theory provides a ground for opposition to creationists. It is often used to argue that competition can be wasteful and that self-organising systems (such as the economy) do not always operate for the good of society. However, evolutionary psychology has not been embraced to the same extent. Ever since Gould and Lewontin led the [sociobiology](http://en.wikipedia.org/wiki/Sociobiology) wars against E O Wilson and others, the concept that evolution shaped human minds has faced much opposition, even among those who otherwise accept that evolution is true.

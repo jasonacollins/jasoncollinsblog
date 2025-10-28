@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-05-13 09:19:44+00:00
 draft: false
-link: https://www.jasoncollins.blog/heritability-of-religion-and-fertility/
-aliases:
-  - /heritability-of-religion-and-fertility
 title: Heritability of religion and fertility
-wordpress_id: 940
 ---
 
 The United States is one of the few developed countries in the world with a fertility rate close to the replacement rate - that is, the rate of fertility required to maintain existing population levels. The two reasons most often cited for this is are high levels of fertility in the Hispanic immigrant population and the high level of fertility of religious people. Even when you control for income and education, religious people have more children than non-religious people (on average).

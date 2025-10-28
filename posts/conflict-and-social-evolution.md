@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-05-26 10:12:29+00:00
 draft: false
-link: https://www.jasoncollins.blog/conflict-and-social-evolution/
-aliases:
-  - /conflict-and-social-evolution
 title: Conflict and social evolution
-wordpress_id: 3312
 ---
 
 Last week's edition of Science has an interesting [article by Sam Bowles](http://www.sciencemag.org/content/336/6083/876.abstract) on the role of conflict on human social evolution. Bowles covers some familiar ground on the debate around the role of group selection in shaping human altruistic preferences:

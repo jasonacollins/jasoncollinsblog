@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-12-07 13:59:16+00:00
 draft: false
-link: https://www.jasoncollins.blog/human-evolution-goes-on/
-aliases:
-  - /human-evolution-goes-on
 title: Human evolution goes on
-wordpress_id: 2079
 ---
 
 I missed it when it first went up, but over at [The Crux](http://blogs.discovermagazine.com/crux/), Discover's new group blog, Razib Khan has [pointed to a couple of interesting papers](http://blogs.discovermagazine.com/crux/2011/11/08/humans-are-doing-it-like-rabbits-evolving/) on the heritability of fertility. As natural selection acts strongly on fertility and the traits that affect it, you might expect that the heritability of fertility would be low as variation is eliminated. But change the environment, and heritability can increase drastically. Razib writes:

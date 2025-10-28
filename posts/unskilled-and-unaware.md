@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-03-07 13:45:04+00:00
 draft: false
-link: https://www.jasoncollins.blog/unskilled-and-unaware/
-aliases:
-  - /unskilled-and-unaware
 title: Unskilled and unaware
-wordpress_id: 609
 ---
 
 [Robin Hanson](http://www.overcomingbias.com/2008/11/all-are-unaware.html) has had another stab at the oft-quoted paper by Kruger and Dunning, [Unskilled and Unaware of It](https://doi.org/10.1037%2F0022-3514.77.6.1121). The first couple of sentences of the paper's abstract gives Kruger and Dunning's basic (and somewhat amusing) claim:

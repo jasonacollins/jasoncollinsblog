@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-07-31 08:08:51+00:00
 draft: false
-link: https://www.jasoncollins.blog/free-sterilisation/
-aliases:
-  - /free-sterilisation
 title: Free sterilisation
-wordpress_id: 1579
 ---
 
 From [Dan Ariely](http://danariely.com/2011/07/30/the-economics-of-sterilization/):

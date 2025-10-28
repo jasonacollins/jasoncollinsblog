@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-11-05 12:26:35+00:00
 draft: false
-link: https://www.jasoncollins.blog/is-loss-aversion-a-bias/
-aliases:
-  - /is-loss-aversion-a-bias
 title: Is loss aversion a bias?
-wordpress_id: 1969
 ---
 
 From the [Journal of Personality and Social Psychology](http://psycnet.apa.org/psycinfo/2011-23438-001/):

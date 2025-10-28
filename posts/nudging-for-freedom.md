@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2015-02-02 08:00:19+00:00
 draft: false
-link: https://www.jasoncollins.blog/nudging-for-freedom/
-aliases:
-  - /nudging-for-freedom
 title: Nudging for freedom
-wordpress_id: 20411
 ---
 
 "Nudges" change the decision environment so that people make "better" decisions, while retaining freedom of choice. Fitting within what [Cass Sunstein and Richard Thaler](https://www.jasoncollins.blog/thaler-and-sunsteins-nudge/) call "libertarian paternalism", nudges are often framed as alternatives to coercive measures. If you can nudge most people toward the "right" decision through the way you frame the choice, the coercive measure is not required.

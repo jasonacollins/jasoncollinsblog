@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-12-30 12:28:27+00:00
 draft: false
-link: https://www.jasoncollins.blog/not-so-irrational/
-aliases:
-  - /not-so-irrational
 title: Not so irrational
-wordpress_id: 2175
 ---
 
 In Freeman Dyson's [interesting review](http://www.nybooks.com/articles/archives/2011/dec/22/how-dispel-your-illusions/) of Daniel Kahneman's [Thinking, Fast and Slow](https://www.jasoncollins.blog/kahnemans-thinking-fast-and-slow/), Dyson describes a couple of examples of the biases identified by Kahneman. One of them is as follows:

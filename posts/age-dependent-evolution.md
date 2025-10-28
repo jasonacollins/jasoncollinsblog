@@ -4,8 +4,6 @@ author: "Jason Collins"
 date: 2012-09-10 11:54:39+00:00
 draft: false
 link: https://www.jasoncollins.blog/age-dependent-evolution/
-aliases:
-  - /age-dependent-evolution
 title: Age-dependent evolution
 ---
 

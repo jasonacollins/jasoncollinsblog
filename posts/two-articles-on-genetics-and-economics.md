@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-11-18 00:54:30+00:00
 draft: false
-link: https://www.jasoncollins.blog/two-articles-on-genetics-and-economics/
-aliases:
-  - /two-articles-on-genetics-and-economics
 title: Two articles on genetics and economics
-wordpress_id: 2041
 ---
 
 [From Charles Manski](http://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.25.4.83) in the latest Journal of Economic Perspectives (pdf):

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-11-26 05:27:02+00:00
 draft: false
-link: https://www.jasoncollins.blog/boyd-and-richersons-group-selection/
-aliases:
-  - /boyd-and-richersons-group-selection
 title: Boyd and Richerson’s group selection
-wordpress_id: 4484
 ---
 
 In my [review of Boyd and Richerson's The Origin and Evolution of Cultures](https://www.jasoncollins.blog/boyd-and-richersons-the-origin-and-evolution-of-cultures/), I noted that I was not completely happy with their treatment of group selection. This post catalogues some of my thoughts.

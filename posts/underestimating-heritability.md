@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-08-25 12:44:54+00:00
 draft: false
-link: https://www.jasoncollins.blog/underestimating-heritability/
-aliases:
-  - /underestimating-heritability
 title: Underestimating heritability
-wordpress_id: 1696
 ---
 
 It's not normally a good sign when an attempt to skewer measurement of heritability opens with a link between genetics and eugenics via Francis Galton, and Brian Palmer's [critique of twin studies](http://www.slate.com/id/2301906) is no exception (HT Razib at [Gene Expression](http://blogs.discovermagazine.com/gnxp/2011/08/twin-studies-are-not-useless/)).

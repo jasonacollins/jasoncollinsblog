@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-04-11 08:24:34+00:00
 draft: false
-link: https://www.jasoncollins.blog/evolution-and-the-invisible-hand/
-aliases:
-  - /evolution-and-the-invisible-hand
 title: Evolution and the invisible hand
-wordpress_id: 704
 ---
 
 In David Sloan Wilson's blog series [Economics and Evolution as Different Paradigms](http://scienceblogs.com/evolution/category/economics_and_evolution_as_dif/) (which I have recently posted about [here](https://www.jasoncollins.blog/the-evolution-institute/) and [here](https://www.jasoncollins.blog/wilson-on-economics-and-evolution/)), Wilson discusses the invisible hand metaphor that is used in economics.

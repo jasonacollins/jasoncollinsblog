@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-08-24 08:47:12+00:00
 draft: false
-link: https://www.jasoncollins.blog/not-quite-paleo/
-aliases:
-  - /not-quite-paleo
 title: Not quite paleo
-wordpress_id: 3885
 ---
 
 Peter Turchin, advocate of [Cliodynamics](https://www.jasoncollins.blog/cliodynamics-and-complexity/), has [posted on his recent success](http://socialevolutionforum.com/2012/08/23/an-update-on-my-so-called-paleo-diet/) in adopting the "paleo diet". The diet is based on the food presumably eaten by our evolutionary ancestors in the Paleolithic era, which is before the dawn of agriculture. Lots of meat, fruit, vegetables and nuts, but no grains.

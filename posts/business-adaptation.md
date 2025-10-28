@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-03-18 12:59:36+00:00
 draft: false
-link: https://www.jasoncollins.blog/business-adaptation/
-aliases:
-  - /business-adaptation
 title: Business adaptation
-wordpress_id: 5650
 ---
 
 [Rafe Sagarin blogs](http://blogs.hbr.org/cs/2013/03/to_become_more_adaptable_take.html) at the Harvard Business Review:

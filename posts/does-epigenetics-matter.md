@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-08-23 10:45:13+00:00
 draft: false
-link: https://www.jasoncollins.blog/does-epigenetics-matter/
-aliases:
-  - /does-epigenetics-matter
 title: Does epigenetics matter?
-wordpress_id: 1689
 ---
 
 A new book has just popped out - *The Epigenetics Revolution* by Nessa Carey - and accompanying it is the usual epigenetics-related suggestions that Darwin was wrong. Take [this](http://www.guardian.co.uk/books/2011/aug/19/epigenetics-revolution-nessa-carey-review) from Peter Forbes in the Guardian:

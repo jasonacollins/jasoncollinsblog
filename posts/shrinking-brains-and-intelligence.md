@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-06-01 12:14:52+00:00
 draft: false
-link: https://www.jasoncollins.blog/shrinking-brains-and-intelligence/
-aliases:
-  - /shrinking-brains-and-intelligence
 title: Shrinking brains and intelligence
-wordpress_id: 3357
 ---
 
 Average human brain size has declined for 20,000 years, a stark contrast to the steady increase over the preceding millions. While I would argue that translation of this reduced brain size into lower intelligence [would have a negative result](https://www.jasoncollins.blog/the-consequences-of-shrinking-brains/), I am not convinced that intelligence has dropped over that time.

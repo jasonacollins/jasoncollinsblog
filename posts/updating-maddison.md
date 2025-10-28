@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-01-23 12:44:04+00:00
 draft: false
-link: https://www.jasoncollins.blog/updating-maddison/
-aliases:
-  - /updating-maddison
 title: Updating Maddison
-wordpress_id: 5099
 ---
 
 Angus Maddison's estimates of per capita GDP - from 1 AD through to the 2000s - are one of the most commonly used data sets in the examination of long-term economic growth. While Maddison passed away in 2010, a group of his colleagues created the [Maddison Project](http://www.ggdc.net/maddison/maddison-project/home.htm), with the goal of continuing Maddison's work.

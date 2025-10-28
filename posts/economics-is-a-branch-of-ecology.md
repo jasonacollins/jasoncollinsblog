@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-08-20 10:35:30+00:00
 draft: false
-link: https://www.jasoncollins.blog/economics-is-a-branch-of-ecology/
-aliases:
-  - /economics-is-a-branch-of-ecology
 title: Economics is a branch of ecology
-wordpress_id: 1677
 ---
 
 In an [interview](http://www.skeptic.com/eskeptic/10-09-29/#feature) published in 1996, Garret Hardin stated:

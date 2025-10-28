@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-10-08 10:41:59+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-benefits-of-competition/
-aliases:
-  - /the-benefits-of-competition
 title: The benefits of competition
-wordpress_id: 4240
 ---
 
 I recently came across [a review](http://works.bepress.com/ted_bergstrom/113/) of Robert Frank's [The Darwin Economy](https://www.jasoncollins.blog/franks-the-darwin-economy/) by Ted Bergstrom. Frank's argument is largely based on the concept that a person is made worse off when they respond to someone else's consumption choices, as it often turns into a winner takes all arms race. Bergstrom makes an important point that people may wish for someone else to increase their level of conspicuous consumption or competitive output. Bergstrom writes:

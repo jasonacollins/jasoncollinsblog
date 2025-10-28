@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-02-12 12:42:40+00:00
 draft: false
-link: https://www.jasoncollins.blog/does-genetic-diversity-increase-innovation/
-aliases:
-  - /does-genetic-diversity-increase-innovation
 title: Does genetic diversity increase innovation?
-wordpress_id: 5215
 ---
 
 [Last week I presented a summary](https://www.jasoncollins.blog/the-out-of-africa-hypothesis-human-genetic-diversity-and-comparative-economic-development/) of the method and findings of Ashraf and Galor's American Economic Review paper [The ‘Out of Africa’ Hypothesis, Human Genetic Diversity, and Comparative Economic Development](https://doi.org/10.1257/aer.103.1.1) (for the latest ungated version, go [here](http://ideas.repec.org/p/iza/izadps/dp6330.html)). As discussed in that post, one limb of Ashraf and Galor's argument is that genetic diversity provides a greater range of traits for the development and implementation of new technologies (which I'll call innovation). In this post, I look at that claim in more detail.

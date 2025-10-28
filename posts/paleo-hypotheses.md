@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-06-05 12:11:52+00:00
 draft: false
-link: https://www.jasoncollins.blog/paleo-hypotheses/
-aliases:
-  - /paleo-hypotheses
 title: Paleo-hypotheses
-wordpress_id: 6265
 ---
 
 In my post on [Marlene Zuk's Paleofantasy](https://www.jasoncollins.blog/zuks-paleofantasy/), I referred to a [review by John Hawks](https://doi.org/10.1038/495172a). Hawks suggested that Zuk's fantasies should be thought of as hypotheses to be tested. I was not convinced that Zuk used this approach, but Hawks's comment triggered me to write a list of what are the most interesting questions about the paleo lifestyle that I would like to see more evidence on. The list is below.

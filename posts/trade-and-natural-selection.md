@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-02-22 13:45:08+00:00
 draft: false
-link: https://www.jasoncollins.blog/trade-and-natural-selection/
-aliases:
-  - /trade-and-natural-selection
 title: Trade and natural selection
-wordpress_id: 563
 ---
 
 Economic theory tells us that trade makes the parties involved better off. Through trade, a person can specialise in the activity in which they have a [comparative advantage](http://en.wikipedia.org/wiki/Comparative_advantage). A person is better off even if they are trading with someone who is better than them at all activities. This is because the less productive person will still have a comparative advantage in some activities. By specialising, an individual can use income from the activity in which they have a comparative advantage to buy other goods and services.

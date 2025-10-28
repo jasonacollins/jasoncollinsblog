@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-08-06 09:00:13+00:00
 draft: false
-link: https://www.jasoncollins.blog/not-the-jam-study-again/
-aliases:
-  - /not-the-jam-study-again
 title: Not the jam study again
-wordpress_id: 20067
 ---
 
 Go to any behavioural science conference, event or presentation, and there is a high probability you will hear about "the jam study". Last week's excellent [MSiX](https://www.jasoncollins.blog/an-msix-reading-list/) was no exception, with at least three references I can recall. The story is wonderfully simple and I have, at times, been mildly sympathetic to the idea. However, it is time for this story to be retired or heavily qualified with the research that has occurred in the intervening years.

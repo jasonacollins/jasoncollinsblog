@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-10-14 13:44:21+00:00
 draft: false
-link: https://www.jasoncollins.blog/in-praise-of-malcolm-gladwell/
-aliases:
-  - /in-praise-of-malcolm-gladwell
 title: In praise of Malcolm Gladwell
-wordpress_id: 7711
 ---
 
 While Malcolm Gladwell bashing season is still in full swing and before the mob burns the Gladwell effigy, I want to record a few thoughts that I feel are under-appreciated (or under-emphasised) by some of Gladwell's critics. (For those not up to speed, [Chabris opens](http://online.wsj.com/article/SB10001424052702304713704579093090254007968.html), [Gladwell responds](http://www.slate.com/articles/health_and_science/science/2013/10/malcolm_gladwell_s_david_and_goliath_he_explains_why_christopher_chabris.html), [Chabris has another go](http://blog.chabris.com/2013/10/why-malcolm-gladwell-matters-and-why.html), [Gelman comments](http://andrewgelman.com/2013/10/11/gladwell-vs-chabris-david-vs-goliath/), twitter goes nuts, and if you google, you'll find plenty of other contributions).

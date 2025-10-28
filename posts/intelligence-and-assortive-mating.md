@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-01-06 12:32:33+00:00
 draft: false
-link: https://www.jasoncollins.blog/intelligence-and-assortive-mating/
-aliases:
-  - /intelligence-and-assortive-mating
 title: Intelligence and assortive mating
-wordpress_id: 2223
 ---
 
 Arnold Kling [writes](http://econlog.econlib.org/archives/2012/01/the_bell_curve.html):

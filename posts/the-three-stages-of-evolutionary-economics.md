@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-04-09 12:46:23+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-three-stages-of-evolutionary-economics/
-aliases:
-  - /the-three-stages-of-evolutionary-economics
 title: The three stages of evolutionary economics
-wordpress_id: 2876
 ---
 
 Many of the suggested additions to my [reading list](https://www.jasoncollins.blog/economics-and-evolutionary-biology-reading-list/) in evolution and economics came from the fields of evolutionary economics and complexity theory.

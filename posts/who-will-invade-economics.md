@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-01-06 04:27:45+00:00
 draft: false
-link: https://www.jasoncollins.blog/who-will-invade-economics/
-aliases:
-  - /who-will-invade-economics
 title: Who will invade economics?
-wordpress_id: 4907
 ---
 
 [Justin Fox has asked](http://blogs.hbr.org/fox/2013/01/the-end-of-economists-imper.html) whether the age of economic imperialism is coming to an end and whether economics may be vulnerable to imperialism itself:

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-04-01 09:06:16+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-heritability-debate-again/
-aliases:
-  - /the-heritability-debate-again
 title: The heritability debate, again
-wordpress_id: 670
 ---
 
 Like the level of selection debate, the debate about what heritability means has a life of its own. The latest shot comes from [Scott Barry Kaufman](http://www.huffingtonpost.com/scott-barry-kaufman/nature-vs-nurture_b_837915.html) who argues (among other things) that:

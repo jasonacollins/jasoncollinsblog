@@ -2,8 +2,6 @@
 author: "Jason Collins"
 date: 2015-02-25 08:00:22+00:00
 draft: false
-aliases:
-  - /accepting-heritability
 title: Accepting heritability
 ---
 

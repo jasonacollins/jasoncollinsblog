@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-08-14 09:01:26+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-stigler-diet/
-aliases:
-  - /the-stigler-diet
 title: The Stigler diet
-wordpress_id: 3816
 ---
 
 In [a 1945 paper](http://www.jstor.org/stable/1231810), George Stigler, the 1982 winner of the Nobel Memorial Prize in Economic Sciences, examined what would be the cheapest way in which a 154 pound man could meet his National Research Council recommended dietary requirements of 3000 calories a day, including 70 grams of protein and a range of other vitamins and minerals.

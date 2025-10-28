@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-11-12 08:02:49+00:00
 draft: false
-link: https://www.jasoncollins.blog/ignorance-feels-so-much-like-expertise/
-aliases:
-  - /ignorance-feels-so-much-like-expertise
 title: Ignorance feels so much like expertise
-wordpress_id: 20445
 ---
 
 In the Pacific Standard, [David Dunning of the Dunning-Kruger effect writes](http://www.psmag.com/navigation/health-and-behavior/confident-idiots-92793/):

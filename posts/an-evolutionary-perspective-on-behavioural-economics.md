@@ -2,11 +2,7 @@
 author: "Jason Collins"
 date: 2015-03-25 08:00:42+00:00
 draft: false
-link: https://www.jasoncollins.blog/an-evolutionary-perspective-on-behavioural-economics/
-aliases:
-  - /an-evolutionary-perspective-on-behavioural-economics
 title: An evolutionary perspective on behavioural economics
-wordpress_id: 20936
 ---
 
 I often complain that behavioural economics (behavioural science) often appears to be no more than a loosely connected set of heuristics and biases, crying out for theoretical unification. Evolutionary biology is likely the source of that unification.

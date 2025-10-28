@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-06-08 10:19:14+00:00
 draft: false
-link: https://www.jasoncollins.blog/economists-on-autopilot/
-aliases:
-  - /economists-on-autopilot
 title: Economists on autopilot
-wordpress_id: 3406
 ---
 
 One blog in my feed is the excellent [synthesis blog](http://www.synthesisips.net/category/blog/), which brings you the musings of Greg Fisher, Paul Ormerod and others. From their [about page](http://www.synthesisips.net/about-us/our-approach/):

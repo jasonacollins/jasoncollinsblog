@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-05-09 12:19:12+00:00
 draft: false
-link: https://www.jasoncollins.blog/game-theory-and-the-peacocks-tail/
-aliases:
-  - /game-theory-and-the-peacocks-tail
 title: Game theory and the peacock's tail
-wordpress_id: 3145
 ---
 
 Over at Cheap Talk, [Jeff Ely has posted](http://cheaptalk.org/2012/05/08/the-peacocks-tail/) on a presentation by Balazs Szentes at [The Biological Basis of Preferences and Behavior](http://bfi.uchicago.edu/events/biological-basis-preferences-and-behavior) conference. Ely writes:

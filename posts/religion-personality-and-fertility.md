@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-12-10 10:05:26+00:00
 draft: false
-link: https://www.jasoncollins.blog/religion-personality-and-fertility/
-aliases:
-  - /religion-personality-and-fertility
 title: Religion, personality and fertility
-wordpress_id: 4783
 ---
 
 Tomas Rees[ points to](http://epiphenom.fieldofscience.com/2012/10/why-are-religious-people-so-fertile.html) an interesting [paper by Marcus Jokela](http://pss.sagepub.com/content/23/8/835.abstract), who examined how the fertility rates of Americans born between 1920 and 1960 were affected by their personality.

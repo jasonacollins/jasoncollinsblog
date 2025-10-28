@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-09-14 12:49:20+00:00
 draft: false
-link: https://www.jasoncollins.blog/what-economics-misses/
-aliases:
-  - /what-economics-misses
 title: What economics misses
-wordpress_id: 1783
 ---
 
 Over at the [Evolutionary Psychology Blog](http://www.epjournal.net/blog), Robert Kurzban has [posted a fairly harsh take-down](http://www.epjournal.net/blog/2011/08/new-theory-sex-is-a-resource-men-compete-and-pay-for/) of a [paper](http://psr.sagepub.com/cgi/doi/10.1207/s15327957pspr0804_2) by Roy Baumeister and Kathleen Vohs.

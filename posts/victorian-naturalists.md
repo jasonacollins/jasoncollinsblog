@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-03-04 10:31:28+00:00
 draft: false
-link: https://www.jasoncollins.blog/victorian-naturalists/
-aliases:
-  - /victorian-naturalists
 title: Victorian naturalists
-wordpress_id: 5556
 ---
 
 Being a naturalist in the Victorian era was a different exercise to today. From [Darwin's The Descent of Man](http://www.gutenberg.org/ebooks/2300):

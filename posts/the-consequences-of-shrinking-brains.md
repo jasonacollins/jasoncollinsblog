@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-05-30 13:25:24+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-consequences-of-shrinking-brains/
-aliases:
-  - /the-consequences-of-shrinking-brains
 title: The consequences of shrinking brains
-wordpress_id: 3344
 ---
 
 [Matt Ridley writes](http://www.rationaloptimist.com/blog/evolution-ain't-what-it-used-to-be.aspx) on the fossil evidence that human brains have shrunk from around 1,500 cubic centimetres to 1,350 cubic centimetres over the last 20,000 years:

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-07-18 08:48:19+00:00
 draft: false
-link: https://www.jasoncollins.blog/fukuyamas-biological-approach/
-aliases:
-  - /fukuyamas-biological-approach
 title: Fukuyama's biological approach
-wordpress_id: 1531
 ---
 
 I have started reading Francis Fukuyama's [The Origins of Political Order](https://www.jasoncollins.blog/fukuyamas-the-origins-of-political-order/) and am enjoying his starting point of human prehistory. I will write a full review when I have finished, but in the meantime, some of Fukuyama's initial observations are worth noting. In particular, he takes biology to be the foundation of our understanding of political development.

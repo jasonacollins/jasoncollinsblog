@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-05-27 09:17:12+00:00
 draft: false
-link: https://www.jasoncollins.blog/dangerous-ideas/
-aliases:
-  - /dangerous-ideas
 title: Dangerous ideas
-wordpress_id: 1109
 ---
 
 Recently, I was asked whether the idea that I was espousing - considering human evolution in economics - was dangerous. For a perspective on debating dangerous ideas, it was suggested that it was worthwhile reading [Steven Pinker's introduction](http://edge.org/conversation/preface-to-dangerous-ideas) to the book [What is Your Dangerous Idea?](http://www.edge.org/3rd_culture/dangerous08/dangerous08_index.html) (HT Erik Postma).

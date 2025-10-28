@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-10-01 09:51:29+00:00
 draft: false
-link: https://www.jasoncollins.blog/inequality-and-declining-fertility/
-aliases:
-  - /inequality-and-declining-fertility
 title: Inequality and declining fertility
-wordpress_id: 4209
 ---
 
 [The Economist notes](http://www.economist.com/node/21560247) a [new working paper](http://www.hsph.harvard.edu/pgda/WorkingPapers/2012/PGDA_WP_93.pdf) (pdf) by Bloom and colleagues of the Harvard School of Public Health, which shows that a short-term implication of reduced fertility in poor countries may be increased inequality. As fertility declines initially among the richer residents of the country, they are the first to reap the demographic dividend. From The Economist:

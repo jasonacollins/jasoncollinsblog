@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-02-14 13:56:05+00:00
 draft: false
-link: https://www.jasoncollins.blog/social-mobility-across-the-generations/
-aliases:
-  - /social-mobility-across-the-generations
 title: Social mobility across the generations
-wordpress_id: 5388
 ---
 
 [The Economist reports](http://www.economist.com/news/finance-and-economics/21571399-surnames-offer-depressing-clues-extent-social-mobility-over) on Greg Clark's work using surnames to track social mobility. I have [posted about this work](https://www.jasoncollins.blog/long-term-social-mobility-is-low/) before, but The Economist piece makes an important point. When tracking mobility across generations, you cannot simply extrapolate the results of a single generation into the future.

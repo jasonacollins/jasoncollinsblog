@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-08-12 12:58:00+00:00
 draft: false
-link: https://www.jasoncollins.blog/four-reasons-why-evolutionary-theory-might-not-add-value-to-economics/
-aliases:
-  - /four-reasons-why-evolutionary-theory-might-not-add-value-to-economics
 title: Four reasons why evolutionary theory might not add value to economics
-wordpress_id: 7026
 ---
 
 In the lead article to a recent Journal of Economic Behavior & Organization special issue, _Evolution as a General Theoretical Framework for Economics and Public Policy_, [David Sloan Wilson and John Gowdy examined](https://doi.org/10.1016/j.jebo.2012.12.008) four reasons why someone may not need to consult an evolutionary framework in examining economic and policy questions. The four arguments are riffs on the same theme, but the distinctions between them are worth making.

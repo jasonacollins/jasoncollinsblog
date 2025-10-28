@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-04-08 09:59:44+00:00
 draft: false
-link: https://www.jasoncollins.blog/wilson-on-economics-and-evolution/
-aliases:
-  - /wilson-on-economics-and-evolution
 title: Wilson on economics and evolution
-wordpress_id: 694
 ---
 
 As indicated in my [last post](https://www.jasoncollins.blog/the-evolution-institute/), between December 2009 and October 2010, evolutionary biologist David Sloan Wilson wrote a series of posts titled [Economics and Evolution as Different Paradigms](http://scienceblogs.com/evolution/category/economics_and_evolution_as_dif/). Wilson's basic line of reasoning is that evolutionary biology should play a larger role in economics, and I naturally agree with that position.

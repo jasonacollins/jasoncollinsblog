@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-06-28 14:22:33+00:00
 draft: false
-link: https://www.jasoncollins.blog/inequality-persistence-circa-5000-bce/
-aliases:
-  - /inequality-persistence-circa-5000-bce
 title: Inequality persistence circa 5000 BCE
-wordpress_id: 3544
 ---
 
 An article by Bentley and colleagues [published in PNAS](http://www.pnas.org/cgi/doi/10.1073/pnas.1113710109) last month points to some very early evidence of persistent inequality. The study headline is the uncovering of the earliest (statistically significant) evidence of status and wealth differences among the first farmers of Neolithic Europe and the existence of a [patrilocal](http://en.wikipedia.org/wiki/Patrilocal_residence) kinship system. However, the analysis also suggests that the healthiest farmers when young were also the richest when buried. Early advantage persisted until death.

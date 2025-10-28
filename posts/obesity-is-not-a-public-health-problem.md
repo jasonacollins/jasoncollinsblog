@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2015-02-05 08:00:07+00:00
 draft: false
-link: https://www.jasoncollins.blog/obesity-is-not-a-public-health-problem/
-aliases:
-  - /obesity-is-not-a-public-health-problem
 title: Obesity is not a public health problem
-wordpress_id: 20794
 ---
 
 It has taken a while for this month's Cato Unbound, "[Can Public Policy Stop Obesity?](http://www.cato-unbound.org/issues/january-2015/can-public-policy-stop-obesity)", to warm up. But [Christopher Snowdon's latest post](http://www.cato-unbound.org/2015/01/27/christopher-snowdon/slippery-slope-food-regulations) is full of good material. He takes on the question of whether obesity is a drain on the public purse, whether we consumer high sugar soda because we have no no choice, and the burden of sugar taxation.

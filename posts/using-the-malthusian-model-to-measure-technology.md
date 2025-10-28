@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-03-27 13:08:41+00:00
 draft: false
-link: https://www.jasoncollins.blog/using-the-malthusian-model-to-measure-technology/
-aliases:
-  - /using-the-malthusian-model-to-measure-technology
 title: Using the Malthusian model to measure technology
-wordpress_id: 5695
 ---
 
 Underlying much of [Ashraf and Galor's analysis of genetic diversity and economic development](https://www.jasoncollins.blog/the-out-of-africa-hypothesis-human-genetic-diversity-and-comparative-economic-development/) is a Malthusian model of the world. The Malthusian model, as the name suggests, originates in [the work of Thomas Malthus](http://www.gutenberg.org/ebooks/4239) (pictured). Malthus had the misfortune of providing an excellent description of the world across millennia, just at the point at which the model (apparently) lost much of its predictive power.

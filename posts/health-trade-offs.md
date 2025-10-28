@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-08-04 09:12:28+00:00
 draft: false
-link: https://www.jasoncollins.blog/health-trade-offs/
-aliases:
-  - /health-trade-offs
 title: Health trade-offs
-wordpress_id: 1582
 ---
 
 There are always trade-offs. From the [British Medical Journal](http://www.bmj.com/content/342/bmj.d3785.full) in June:

@@ -3,8 +3,6 @@ title: Accelerating adaptive evolution in humans
 author: "Jason Collins"
 date: 2013-06-26 12:38:26+00:00
 draft: false
-aliases:
-  - /accelerating-adaptive-evolution-in-humans
 ---
 
 In my [last post](https://www.jasoncollins.blog/more-people-means-more-ideas-and-mutations/), I noted R.A. Fisher's argument that a larger population leads to more mutations and greater potential for adaptive evolution. As human populations have undergone massive growth over recent tens of thousands of years, we would expect the evidence of this population growth to show in our genomes. In this post, I point to a couple of papers that look at this evidence.

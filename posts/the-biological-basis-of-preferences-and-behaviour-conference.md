@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-05-06 15:55:08+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-biological-basis-of-preferences-and-behaviour-conference/
-aliases:
-  - /the-biological-basis-of-preferences-and-behaviour-conference
 title: The Biological Basis of Preferences and Behaviour conference
-wordpress_id: 3087
 ---
 
 I have just attended [The Biological Basis of Preferences and Behaviour](http://bfi.uchicago.edu/events/biological-basis-preferences-and-behavior) conference at the Becker Friedman Institute at the University of Chicago. It was a good conference with some high quality presentations. I will post on some of them over the next few months once I digest the presentations and papers (or they exit embargo).

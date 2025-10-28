@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-05-13 13:23:51+00:00
 draft: false
-link: https://www.jasoncollins.blog/doubling-down/
-aliases:
-  - /doubling-down
 title: Doubling down
-wordpress_id: 19928
 ---
 
 First, [from Andrew Leigh](http://inside.org.au/the-remarkable-persistence-of-power-and-privilege/), discussing Gregory Clark's work showing that low social mobility persists across countries and policy environments:

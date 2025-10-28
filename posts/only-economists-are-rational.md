@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-07-25 09:09:47+00:00
 draft: false
-link: https://www.jasoncollins.blog/only-economists-are-rational/
-aliases:
-  - /only-economists-are-rational
 title: Only economists are rational
-wordpress_id: 1559
 ---
 
 Andrew Gelman [makes the following observation](http://andrewgelman.com/2011/07/one_of_the_easi/):

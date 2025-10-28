@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-11-27 13:09:00+00:00
 draft: false
-link: https://www.jasoncollins.blog/sexual-selection-on-the-american-frontier/
-aliases:
-  - /sexual-selection-on-the-american-frontier
 title: Sexual selection on the American frontier
-wordpress_id: 538
 ---
 
 It seems obvious that having multiple wives is a good thing for the fitness of a man. Similarly, having the women in a population monopolised by a small number of men is not good for the fitness of those men who miss out on a mate. In such a society, the large difference in fitness between the haves and the have-nots would be expected to result in strong sexual selection.

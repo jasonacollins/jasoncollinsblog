@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-04-06 10:35:37+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-evolution-institute/
-aliases:
-  - /the-evolution-institute
 title: The Evolution Institute
-wordpress_id: 687
 ---
 
 In the [first](http://scienceblogs.com/evolution/2009/12/07/economics-and-evolution-as-dif/) of a series of blog posts by David Sloan Wilson on economics and evolution (which I will blog about in the coming weeks as the posts contain some interesting ideas), Wilson introduced [The Evolution Institute](http://evolution-institute.org/), a think tank that seeks to apply evolutionary theory to modern policy problems.

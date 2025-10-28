@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-08-17 04:31:20+00:00
 draft: false
-link: https://www.jasoncollins.blog/envy-has-its-benefits/
-aliases:
-  - /envy-has-its-benefits
 title: Envy has its benefits
-wordpress_id: 1659
 ---
 
 Bryan Caplan [writes](http://econlog.econlib.org/archives/2011/08/hard-wired_envy.html):

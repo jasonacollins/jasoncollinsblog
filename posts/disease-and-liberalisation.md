@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-09-28 08:58:43+00:00
 draft: false
-link: https://www.jasoncollins.blog/disease-and-liberalisation/
-aliases:
-  - /disease-and-liberalisation
 title: Disease and liberalisation
-wordpress_id: 1841
 ---
 
 Ronald Bailey has written [an article for Reason](http://reason.com/archives/2011/09/16/does-disease-cause-autocracy) on Randy Thornhill and Corey Fincher's work linking disease and liberalisation. Bailey writes:

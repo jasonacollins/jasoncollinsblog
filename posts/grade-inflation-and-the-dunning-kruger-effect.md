@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2015-01-21 08:00:26+00:00
 draft: false
-link: https://www.jasoncollins.blog/grade-inflation-and-the-dunning-kruger-effect/
-aliases:
-  - /grade-inflation-and-the-dunning-kruger-effect
 title: Grade inflation and the Dunning-Kruger effect
-wordpress_id: 20751
 ---
 
 The famous Dunning-Kruger effect, in [the words of Dunning and Kruger](https://doi.org/10.1037%2F0022-3514.77.6.1121), is a bias where:

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-02-07 12:43:45+00:00
 draft: false
-link: https://www.jasoncollins.blog/evolutionary-economics-and-group-selection/
-aliases:
-  - /evolutionary-economics-and-group-selection
 title: Evolutionary economics and group selection
-wordpress_id: 510
 ---
 
 As my research intersects economics and evolution, I have found it inconvenient that the term "evolutionary economics" is already taken. [Evolutionary economics](http://en.wikipedia.org/wiki/Evolutionary_economics) is an area of economics inspired by biological processes, with interactions between firms, industries and institutions examined using evolutionary methods. The economics is evolutionary by analogy.

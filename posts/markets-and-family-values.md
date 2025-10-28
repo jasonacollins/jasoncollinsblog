@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-09-29 10:12:48+00:00
 draft: false
-link: https://www.jasoncollins.blog/markets-and-family-values/
-aliases:
-  - /markets-and-family-values
 title: Markets and family values
-wordpress_id: 1860
 ---
 
 Larry Arnhart’s [recent post](http://darwinianconservatism.blogspot.com/2011/09/natural-family-values-in-darwinian.html) at Darwinian Conservatism makes a couple of interesting points on family values and classical liberalism. The piece is largely a response to Geoffrey Hodgson’s claim that a market individualist cannot support family values:

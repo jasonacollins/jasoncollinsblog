@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-09-17 10:37:00+00:00
 draft: false
-link: https://www.jasoncollins.blog/human-nature-and-libertarianism/
-aliases:
-  - /human-nature-and-libertarianism
 title: Human nature and libertarianism
-wordpress_id: 1789
 ---
 
 There is another interesting topic in this month's [Cato Unbound](http://www.cato-unbound.org/), with Michael Shermer [arguing in the lead essay](http://www.cato-unbound.org/2011/09/06/michael-shermer/liberty-and-science/) that human nature is best represented by the libertarian political philosophy.

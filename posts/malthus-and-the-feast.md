@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-11-10 13:41:03+00:00
 draft: false
-link: https://www.jasoncollins.blog/malthus-and-the-feast/
-aliases:
-  - /malthus-and-the-feast
 title: Malthus and the feast
-wordpress_id: 1993
 ---
 
 I have been trying to find an electronic version of Thomas Malthus's second edition of his _An Essay on the Principle of Population_. The second edition is significantly expanded and revised from the first, while later editions through to the sixth in 1826 are essentially minor revisions of the second (the sixth [part one ](http://oll.libertyfund.org/index.php?option=com_staticxt&staticfile=show.php%3Ftitle=312&Itemid=27)and [part two](http://oll.libertyfund.org/index.php?option=com_staticxt&staticfile=show.php%3Ftitle=1944&Itemid=99999999) are here). While I have, to now, been unable to find the text of the second edition, the [Wikipedia page for the book](http://en.wikipedia.org/wiki/An_Essay_on_the_Principle_of_Population) notes an interesting paragraph that was included in the second edition, but was omitted from later editions:

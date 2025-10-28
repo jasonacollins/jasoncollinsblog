@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-05-20 12:33:03+00:00
 draft: false
-link: https://www.jasoncollins.blog/sexual-selection-and-entrepreneurship/
-aliases:
-  - /sexual-selection-and-entrepreneurship
 title: Sexual selection and entrepreneurship
-wordpress_id: 6225
 ---
 
 From Neil Niman's article [Sexual Selection and Economic Positioning](https://doi.org/10.1007/s10818-005-0493-y):

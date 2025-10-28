@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-10-21 13:17:57+00:00
 draft: false
-link: https://www.jasoncollins.blog/life-expectancy-and-the-dawn-of-agriculture/
-aliases:
-  - /life-expectancy-and-the-dawn-of-agriculture
 title: Life expectancy and the dawn of agriculture
-wordpress_id: 7750
 ---
 
 Relative to their hunter-gatherer counterparts, early Neolithic farmers were short, had poor dental health due to malnutrition, bone lesions suggestive of disease and stunted spines from the back-breaking labour. This comparison underlies Jared Diamond's claim that agriculture was [the worst mistake in the history of the human race](http://discovermagazine.com/1987/may/02-the-worst-mistake-in-the-history-of-the-human-race).

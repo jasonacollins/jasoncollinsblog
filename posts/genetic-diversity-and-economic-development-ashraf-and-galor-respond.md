@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-10-13 10:50:38+00:00
 draft: false
-link: https://www.jasoncollins.blog/genetic-diversity-and-economic-development-ashraf-and-galor-respond/
-aliases:
-  - /genetic-diversity-and-economic-development-ashraf-and-galor-respond
 title: 'Genetic diversity and economic development: Ashraf and Galor respond'
-wordpress_id: 4304
 ---
 
 As I noted in a postscript [to my last post](https://www.jasoncollins.blog/harvard-academics-on-genetic-diversity-and-economic-development/), Quamrul Ashraf and Oded Galor have prepared a response [Update: the response is no longer online] to the Harvard academic critique of their paper on [genetic diversity and economic development](https://www.jasoncollins.blog/the-out-of-africa-hypothesis-human-genetic-diversity-and-comparative-economic-development/) (I recommend having a look through the comments on [that post](https://www.jasoncollins.blog/harvard-academics-on-genetic-diversity-and-economic-development/), where Jade d'Alpoim Guedes, Nick Patterson (both authors of the critique), Henry Harpending and others continue the debate).

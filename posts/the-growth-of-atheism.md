@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-07-16 05:39:35+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-growth-of-atheism/
-aliases:
-  - /the-growth-of-atheism
 title: The growth of atheism
-wordpress_id: 1515
 ---
 
 Nigel Barber of The Daily Beast (Psychology Today) [has posted](http://www.psychologytoday.com/blog/the-human-beast/201107/why-atheism-will-replace-religion-new-evidence) on [a forthcoming article](http://doi.org/10.1177/1069397111402465) in which he shows that the level of atheism increases with the quality of life. Barber explains the trend as follows:

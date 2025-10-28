@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-06-21 08:48:14+00:00
 draft: false
-link: https://www.jasoncollins.blog/ferguson-on-malthus-again/
-aliases:
-  - /ferguson-on-malthus-again
 title: Ferguson on Malthus again
-wordpress_id: 1358
 ---
 
 Niall Ferguson has a slight Malthusian thread running through his book, [Civilization: The West and the Rest](https://www.jasoncollins.blog/fergusons-civilization-the-west-and-the-rest/). At one point, Ferguson touches on the mass emigration from England to the Americas. Ferguson writes:

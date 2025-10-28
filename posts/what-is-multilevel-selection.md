@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-07-14 08:45:29+00:00
 draft: false
-link: https://www.jasoncollins.blog/what-is-multilevel-selection/
-aliases:
-  - /what-is-multilevel-selection
 title: What is multilevel selection?
-wordpress_id: 3636
 ---
 
 The arguments in [the group selection debate at The Edge](http://edge.org/conversation/the-false-allure-of-group-selection), as kicked off by Steven Pinker, contain some useful descriptions on what is meant by multilevel selection in a modern sense and how this varies from older formulations of group selection. Some of this is worth drawing out.

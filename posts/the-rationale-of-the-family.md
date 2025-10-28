@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-12-22 12:49:45+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-rationale-of-the-family/
-aliases:
-  - /the-rationale-of-the-family
 title: The rationale of the family
-wordpress_id: 4851
 ---
 
 [John Kay writes](http://www.johnkay.com/2012/12/19/to-understand-christmas-go-to-the-pub):

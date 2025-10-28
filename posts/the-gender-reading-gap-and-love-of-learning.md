@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2015-03-30 08:00:45+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-gender-reading-gap-and-love-of-learning/
-aliases:
-  - /the-gender-reading-gap-and-love-of-learning
 title: The gender reading gap and love of learning
-wordpress_id: 20959
 ---
 
 Two interesting education snippets.

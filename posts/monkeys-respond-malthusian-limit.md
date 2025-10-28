@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-09-09 12:18:55+00:00
 draft: false
-link: https://www.jasoncollins.blog/monkeys-respond-malthusian-limit/
-aliases:
-  - /monkeys-respond-malthusian-limit
 title: Monkeys respond to the Malthusian limit
-wordpress_id: 7376
 ---
 
 From [Smithsonian magazine](http://www.smithsonianmag.com/science-nature/Humans-Would-Be-Better-Off-If-They-Monkeyed-Around-Like-the-Muriquis-220566921.html?c=y&story=fullstory#spider_monkeys_01_631x473.jpg) (HT: [John Hawks](http://johnhawks.net/weblog/topics/behavior/primates/muriqui-strier-profile-2013.html)):

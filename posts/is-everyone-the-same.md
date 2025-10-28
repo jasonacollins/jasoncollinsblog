@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-07-24 08:34:24+00:00
 draft: false
-link: https://www.jasoncollins.blog/is-everyone-the-same/
-aliases:
-  - /is-everyone-the-same
 title: Is everyone the same?
-wordpress_id: 1545
 ---
 
 A paper that is getting some attention at the moment is a critique of evolutionary psychology by Bolhuis and colleagues, titled [Darwin in Mind: New Opportunities for Evolutionary Psychology](https://doi.org/10.1371/journal.pbio.1001109). They critique a number of tenets of the "Santa Barbara school of evolutionary psychology", including the notion that human psychological mechanisms evolved in response to stable ancestral environments or that there is a universal human nature.

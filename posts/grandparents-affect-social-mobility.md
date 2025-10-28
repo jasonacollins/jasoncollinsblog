@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-07-09 12:55:53+00:00
 draft: false
-link: https://www.jasoncollins.blog/grandparents-affect-social-mobility/
-aliases:
-  - /grandparents-affect-social-mobility
 title: Grandparents affect social mobility
-wordpress_id: 6607
 ---
 
 In his research on [social mobility using surnames](https://www.jasoncollins.blog/social-mobility-across-the-generations/), Gregory Clark has found lower levels of social mobility than many other studies. Clark has defended this finding on the basis that analysis of social mobility across a single generation or using a single variable will overestimate it. [Clark writes](http://www.economist.com/blogs/freeexchange/2013/02/mobility-2):

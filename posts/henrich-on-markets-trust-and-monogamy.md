@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-09-14 08:32:14+00:00
 draft: false
-link: https://www.jasoncollins.blog/henrich-on-markets-trust-and-monogamy/
-aliases:
-  - /henrich-on-markets-trust-and-monogamy
 title: Henrich on markets, trust and monogamy
-wordpress_id: 4061
 ---
 
 The Edge has put up video and transcript [of a great interview](http://www.edge.org/conversation/how-culture-drove-human-evolution) with Joe Henrich (the Canada Research Chair in Culture, Cognition and Evolution at UBC). The whole interview is worth watching or reading.

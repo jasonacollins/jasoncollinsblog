@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-02-21 13:55:04+00:00
 draft: false
-link: https://www.jasoncollins.blog/does-genetic-diversity-increase-conflict/
-aliases:
-  - /does-genetic-diversity-increase-conflict
 title: Does genetic diversity increase conflict?
-wordpress_id: 5217
 ---
 
 [Ashraf and Galor's hypothesis](https://www.jasoncollins.blog/the-out-of-africa-hypothesis-human-genetic-diversity-and-comparative-economic-development/) linking genetic diversity to economic growth has two limbs. The first, which I [posted about last week](https://www.jasoncollins.blog/does-genetic-diversity-increase-innovation/), is that genetic diversity pushes out the production possibility frontier through increasing the range of traits in the population for developing and implementing new technologies. The second, the subject of today's post, is that genetic diversity decreases trust and cooperation between people, increasing social disorder and conflict.

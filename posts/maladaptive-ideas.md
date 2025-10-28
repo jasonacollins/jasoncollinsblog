@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-05-14 12:48:40+00:00
 draft: false
-link: https://www.jasoncollins.blog/maladaptive-ideas/
-aliases:
-  - /maladaptive-ideas
 title: Maladaptive ideas
-wordpress_id: 3225
 ---
 
 Following the [Consilience Conference](https://www.jasoncollins.blog/consilience-conference-afterthoughts/) and some suggestions for additions to [my reading list](https://www.jasoncollins.blog/economics-and-evolutionary-biology-reading-list/), I have been convinced to read some more work by Robert Boyd and Peter Richerson. I've started with [The Origin and Evolution of Cultures](https://www.jasoncollins.blog/boyd-and-richersons-the-origin-and-evolution-of-cultures/).

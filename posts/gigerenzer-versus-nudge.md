@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-07-29 13:37:32+00:00
 draft: false
-link: https://www.jasoncollins.blog/gigerenzer-versus-nudge/
-aliases:
-  - /gigerenzer-versus-nudge
 title: Gigerenzer versus nudge
-wordpress_id: 20048
 ---
 
 Since I first came across it, I have been a fan of Gerd Gigerenzer’s work. But I have always been slightly perplexed by the effort he expends framing his work in opposition to behavioural science and “nudges”. Most behavioural science aficionados who are aware of Gigerenzer’s work are fans of it, and you can appreciate behavioural science and Gigerenzer without suffering from two conflicting ideas in your mind.

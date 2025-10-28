@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-01-31 12:08:06+00:00
 draft: false
-link: https://www.jasoncollins.blog/payment-for-winning-the-genetic-lottery/
-aliases:
-  - /payment-for-winning-the-genetic-lottery
 title: Payment for winning the genetic lottery
-wordpress_id: 2381
 ---
 
 One of the more interesting issues in the inequality debate is how we should treat the genetic lottery that contributes to unequal outcomes.

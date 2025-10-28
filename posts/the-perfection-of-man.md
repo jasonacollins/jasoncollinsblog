@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-12-18 12:37:57+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-perfection-of-man/
-aliases:
-  - /the-perfection-of-man
 title: The perfection of man
-wordpress_id: 2120
 ---
 
 From 100 years ago, [Scientific American calls for more research](http://www.scientificamerican.com/article.cfm?id=eugenics-the-early-days) into human evolution:

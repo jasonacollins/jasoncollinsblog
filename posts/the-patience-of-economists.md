@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2015-03-12 08:00:28+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-patience-of-economists/
-aliases:
-  - /the-patience-of-economists
 title: The patience of economists
-wordpress_id: 20917
 ---
 
 Over four years since release of [the working paper](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1649790) (and [two and half years since I posted about it](https://www.jasoncollins.blog/the-origins-of-savings-behaviour/)), Henrik Cronqvist and Stephan Siegel's paper The Origin of Savings Behavior[ has been published in the Journal of Political Economy](http://www.jstor.org/discover/10.1086/679284?uid=3737536&uid=2&uid=4&sid=21105589290901) (follow the working paper link for an ungated copy). The abstract is as follows:

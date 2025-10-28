@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-10-06 10:54:59+00:00
 draft: false
-link: https://www.jasoncollins.blog/hunting-gathering-and-comparative-advantage/
-aliases:
-  - /hunting-gathering-and-comparative-advantage
 title: Hunting, gathering and comparative advantage
-wordpress_id: 1885
 ---
 
 From [an article](http://www.sciencedirect.com/science/article/pii/S1090513811000237) by Gijsbert Stoet in the latest issue of Evolution and Human Behaviour:

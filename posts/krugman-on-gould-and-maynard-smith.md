@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-12-14 08:24:38+00:00
 draft: false
-link: https://www.jasoncollins.blog/krugman-on-gould-and-maynard-smith/
-aliases:
-  - /krugman-on-gould-and-maynard-smith
 title: Krugman on Gould and Maynard Smith
-wordpress_id: 4821
 ---
 
 I've [posted before](https://www.jasoncollins.blog/galbraith-on-evolution-and-the-invisible-hand/) about Paul Krugman's dislike of the work of Stephen Jay Gould, but I have come across [another old essay](http://web.mit.edu/krugman/www/ricardo.htm) in which Krugman weighs in on the question of Gould's role in communicating evolutionary biology. Krugman argues that Gould was attractive to readers because he made no attempt to explain the mathematical logic of evolutionary theory. Krugman writes:

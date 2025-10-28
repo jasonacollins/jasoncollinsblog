@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-07-30 04:19:08+00:00
 draft: false
-link: https://www.jasoncollins.blog/return-to-equilibrium/
-aliases:
-  - /return-to-equilibrium
 title: Return to equilibrium
-wordpress_id: 1567
 ---
 
 A [post on Cheap Talk](http://cheaptalk.org/2011/07/20/extraordinary-sex-ratios/) reminded me about an [old paper of Bill Hamilton's](https://doi.org/10.1126/science.156.3774.477) on the potential for extraordinary sex ratios. Apart from its importance for the particular topic (Hamilton considered it to be one of his best papers), it is one of the more interesting expositions that what is good for the individual (or more specifically, the gene) may not be good for the species. It also raises the implicit question of how quickly something can return to equilibrium.

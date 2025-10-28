@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-05-28 12:46:12+00:00
 draft: false
-link: https://www.jasoncollins.blog/modelling-versus-theory/
-aliases:
-  - /modelling-versus-theory
 title: Modelling versus theory
-wordpress_id: 6255
 ---
 
 While looking for something completely unrelated, I came across this 2007 Econ Journal Watch paper [Model Building versus Theorizing: The Paucity of Theory in the Journal of Economic Theory](http://econjwatch.org/articles/model-building-versus-theorizing-the-paucity-of-theory-in-the-journal-of-economic-theory). From the abstract:

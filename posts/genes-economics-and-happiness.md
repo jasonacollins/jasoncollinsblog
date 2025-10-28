@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-11-07 12:47:28+00:00
 draft: false
-link: https://www.jasoncollins.blog/genes-economics-and-happiness/
-aliases:
-  - /genes-economics-and-happiness
 title: Genes, economics and happiness
-wordpress_id: 4543
 ---
 
 From the [Journal of Neuroscience, Psychology, and Economics](https://doi.org/10.1037/a0030292) (ungated prepublication version [here](http://jhfowler.ucsd.edu/genes_economics_and_happiness.pdf)):

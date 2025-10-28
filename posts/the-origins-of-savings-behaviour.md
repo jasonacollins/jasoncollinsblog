@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-07-10 09:53:53+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-origins-of-savings-behaviour/
-aliases:
-  - /the-origins-of-savings-behaviour
 title: The Origins of Savings Behaviour
-wordpress_id: 3604
 ---
 
 [Bryan Caplan points out](http://econlog.econlib.org/archives/2012/07/savings_and_fad.html) a [paper by  Henrik Cronqvist and Stephan Siegel](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1649790) on the genetic and parental influences on savings behaviour. The first part of the abstract reads:

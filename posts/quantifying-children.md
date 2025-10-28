@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-02-15 12:32:14+00:00
 draft: false
-link: https://www.jasoncollins.blog/quantifying-children/
-aliases:
-  - /quantifying-children
 title: Quantifying children
-wordpress_id: 2498
 ---
 
 In the [New York Times profile](http://www.nytimes.com/2012/02/12/business/economics-of-family-life-as-taught-by-a-power-couple.html) of Justin Wolfers and Betsey Stevenson, Motoko Rich writes:

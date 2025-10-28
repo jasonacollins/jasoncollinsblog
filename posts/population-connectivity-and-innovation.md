@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-06-21 13:23:10+00:00
 draft: false
-link: https://www.jasoncollins.blog/population-connectivity-and-innovation/
-aliases:
-  - /population-connectivity-and-innovation
 title: Population, connectivity and innovation
-wordpress_id: 3503
 ---
 
 Near the close of his [acceptance speech](http://blog.skepticallibertarian.com/2012/06/20/julian-simon-award-lecture-matt-ridley/) for the Competitive Enterprise Institute's Julian Simon Memorial Award, Matt Ridley suggests that the total number of people is not the major driver of technological progress:

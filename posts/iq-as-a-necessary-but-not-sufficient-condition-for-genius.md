@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-05-03 21:08:23+00:00
 draft: false
-link: https://www.jasoncollins.blog/iq-as-a-necessary-but-not-sufficient-condition-for-genius/
-aliases:
-  - /iq-as-a-necessary-but-not-sufficient-condition-for-genius
 title: IQ as a necessary but not sufficient condition for genius
-wordpress_id: 3085
 ---
 
 A quote from [Arthur Jensen](http://en.wikipedia.org/wiki/Arthur_Jensen) (From [Steve Hsu](http://infoproc.blogspot.com/2012/05/jensen-on-g-and-genius.html). A fuller version of the interview can be found [here](http://www.triplenine.org/Vidya/v200/vidya200.htm)):

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-08-27 05:44:36+00:00
 draft: false
-link: https://www.jasoncollins.blog/sports-team-ownership-as-conspicuous-consumption/
-aliases:
-  - /sports-team-ownership-as-conspicuous-consumption
 title: Sports team ownership as conspicuous consumption
-wordpress_id: 1701
 ---
 
 Most of Malcolm Gladwell's appearances in this blog involve me complaining about his various writings (such as [my review of Outliers](https://www.jasoncollins.blog/gladwells-outliers/)), but his [recent piece](http://www.grantland.com/story/_/id/6874079/psychic-benefits-nba-lockout) on the NBA lock-out is a gem (HT [Rob Brooks](http://www.robbrooks.net/)). I wish I could write like that.

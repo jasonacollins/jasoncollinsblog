@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-04-18 12:39:12+00:00
 draft: false
-link: https://www.jasoncollins.blog/selfish-herding/
-aliases:
-  - /selfish-herding
 title: Selfish herding
-wordpress_id: 2949
 ---
 
 Nicholas Gruen [writes](http://clubtroppo.com.au/2012/03/18/herding-part-one/):

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-11-15 04:29:21+00:00
 draft: false
-link: https://www.jasoncollins.blog/intelligence-changes/
-aliases:
-  - /intelligence-changes
 title: Intelligence changes
-wordpress_id: 2030
 ---
 
 Scott Haufman has [written a post](http://www.huffingtonpost.com/scott-barry-kaufman/intelligence-is-still-not_b_1078112.html) on the variation in IQ over a person's life. He writes:

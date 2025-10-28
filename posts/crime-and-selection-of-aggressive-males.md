@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-02-12 08:00:03+00:00
 draft: false
-link: https://www.jasoncollins.blog/crime-and-selection-of-aggressive-males/
-aliases:
-  - /crime-and-selection-of-aggressive-males
 title: Crime and selection of aggressive males
-wordpress_id: 522
 ---
 
 As I [posted](https://www.jasoncollins.blog/selection-for-aggression/) a couple of months ago, a higher level of violence in a society may lead women to prefer more masculine appearing men. In such an environment, picking the healthiest appearing male is more important than the level of parental care the woman expects the man to give.

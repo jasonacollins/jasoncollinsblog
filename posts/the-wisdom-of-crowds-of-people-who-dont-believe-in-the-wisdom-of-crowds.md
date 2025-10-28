@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-07-17 13:01:06+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-wisdom-of-crowds-of-people-who-dont-believe-in-the-wisdom-of-crowds/
-aliases:
-  - /the-wisdom-of-crowds-of-people-who-dont-believe-in-the-wisdom-of-crowds
 title: The wisdom of crowds of people who don't believe in the wisdom of crowds
-wordpress_id: 20004
 ---
 
 [MIT Technology reports new research](http://www.technologyreview.com/view/528941/forget-the-wisdom-of-crowds-neurobiologists-reveal-the-wisdom-of-the-confident) on the "wisdom of the confident":

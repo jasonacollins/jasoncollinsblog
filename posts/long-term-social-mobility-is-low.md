@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-10-23 08:53:29+00:00
 draft: false
-link: https://www.jasoncollins.blog/long-term-social-mobility-is-low/
-aliases:
-  - /long-term-social-mobility-is-low
 title: Long-term social mobility is low
-wordpress_id: 4387
 ---
 
 There have been [a few](http://www.npr.org/2012/10/16/162936707/movin-on-up-that-may-depend-on-your-last-name) [recent pointers](http://marginalrevolution.com/marginalrevolution/2012/10/surnames-and-the-laws-of-social-mobility.html) to Gregory Clark and Neil Cummin's work on long-term social mobility using surnames (papers [here](http://bfi.uchicago.edu/humcap/networks/mip/events/intergen_mobility/Clark_SurnamesandtheLawsofSocialMobility.pdf), [here](http://www.econ.ucdavis.edu/faculty/gclark/papers/Sweden%202012%20AUG.pdf) and [here](http://www.econ.ucdavis.edu/faculty/gclark/papers/Clark%20Cummins%201800-2011%20Revision2.pdf)). The basic method used in these studies is to examine the share of rare surnames in high or low status occupations and compare it to the overall prevalence of that surname in the population. By tracking the relative status of the rare surname through time (effectively treating those with the same surname as a large family), the change in status through the generations can be measured.

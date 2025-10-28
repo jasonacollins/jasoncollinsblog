@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2015-04-09 14:00:21+00:00
 draft: false
-link: https://www.jasoncollins.blog/predicting-replication/
-aliases:
-  - /predicting-replication
 title: Predicting replication
-wordpress_id: 20978
 ---
 
 [The Behavioural Economics Replication Project](http://sciencepredictionmarkets.com/):

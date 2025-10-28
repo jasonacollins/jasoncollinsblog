@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-02-08 12:12:59+00:00
 draft: false
-link: https://www.jasoncollins.blog/banking-as-an-ecosystem/
-aliases:
-  - /banking-as-an-ecosystem
 title: Banking as an ecosystem
-wordpress_id: 476
 ---
 
 Most of my interest in the use of biology in economics concerns humans being subject to the forces of selection like any other biological organism. With this starting point, it is natural to use many of the tools, models and methods of analysis that evolutionary biologists use.

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-01-11 12:43:39+00:00
 draft: false
-link: https://www.jasoncollins.blog/dysgenics-and-war/
-aliases:
-  - /dysgenics-and-war
 title: Dysgenics and war
-wordpress_id: 2255
 ---
 
 Bryan Caplan [has picked up](http://econlog.econlib.org/archives/2012/01/the_demented_pa.html) on an [interesting interview](http://query.nytimes.com/mem/archive-free/pdf?res=F50F11FB3C5D17738DDDAC0A94DF405B858DF1D3) of Irving Fisher in the New York Times archives. Fisher states:

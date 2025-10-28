@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-06-22 08:04:09+00:00
 draft: false
-link: https://www.jasoncollins.blog/crime-and-biology/
-aliases:
-  - /crime-and-biology
 title: Crime and biology
-wordpress_id: 1402
 ---
 
 The July/August 2011 edition of the Atlantic has a [great article](http://www.theatlantic.com/magazine/print/2011/07/the-brain-on-trial/8520/) by David Eagleman on the implications of advances in brain science on the way we approach crime (HT: [Jeffrey Horn](https://twitter.com/#!/jrhorn424)). Eagleman argues that these advances will require a reshaping of the criminal justice system to reflect the declining gap between whether actions can be attributed to biology and free will. Eagleman writes:

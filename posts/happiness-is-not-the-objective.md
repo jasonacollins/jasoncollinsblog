@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-09-12 08:16:49+00:00
 draft: false
-link: https://www.jasoncollins.blog/happiness-is-not-the-objective/
-aliases:
-  - /happiness-is-not-the-objective
 title: Happiness is not the objective
-wordpress_id: 1766
 ---
 
 David Brooks has written [an article](http://www.nytimes.com/2011/08/30/opinion/brooks-the-haimish-line.html) on some of the poor trade-offs people make when they spend. In a nutshell, "as we spend more on something, what we gain in privacy and elegance we lose in spontaneous sociability." Happiness research suggests that this trade-off does not maximise our happiness.

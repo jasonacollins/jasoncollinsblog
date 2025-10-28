@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-08-01 13:19:09+00:00
 draft: false
-link: https://www.jasoncollins.blog/the-costs-of-polygamy/
-aliases:
-  - /the-costs-of-polygamy
 title: The costs of polygamy
-wordpress_id: 1590
 ---
 
 From The Economist's [Free Exchange](http://www.economist.com/blogs/freeexchange/2011/07/marriage-markets):

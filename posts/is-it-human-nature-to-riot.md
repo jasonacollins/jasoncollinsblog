@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2011-09-30 10:26:02+00:00
 draft: false
-link: https://www.jasoncollins.blog/is-it-human-nature-to-riot/
-aliases:
-  - /is-it-human-nature-to-riot
 title: Is it human nature to riot?
-wordpress_id: 1866
 ---
 
 In a [post earlier this month](http://blogs.scientificamerican.com/primate-diaries/2011/09/06/freedom-to-riot/), Eric Johnson put together an interesting argument on the evolution of collective violence  (I recommend reading his whole post).

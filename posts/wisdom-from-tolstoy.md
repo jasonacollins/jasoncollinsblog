@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2015-02-23 08:00:03+00:00
 draft: false
-link: https://www.jasoncollins.blog/wisdom-from-tolstoy/
-aliases:
-  - /wisdom-from-tolstoy
 title: Wisdom from Tolstoy
-wordpress_id: 20871
 ---
 
 I have just finished Leo Tolstoy's [War and Peace](http://www.gutenberg.org/ebooks/2600), and along the way marked a couple of passages.

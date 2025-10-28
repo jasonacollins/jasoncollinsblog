@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-07-11 12:51:29+00:00
 draft: false
-link: https://www.jasoncollins.blog/observations-on-happiness-biases-and-preferences/
-aliases:
-  - /observations-on-happiness-biases-and-preferences
 title: Observations on happiness, biases and preferences
-wordpress_id: 6625
 ---
 
 This year's Australian Conference of Economists had a few behavioural/experimental economists among the invited speaker list. This post is a short record of some of the main things I took away from their presentations (which is not necessarily the focus of the presentation).

@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-06-10 12:17:36+00:00
 draft: false
-link: https://www.jasoncollins.blog/genetics-and-the-increase-in-obesity/
-aliases:
-  - /genetics-and-the-increase-in-obesity
 title: Genetics and the increase in obesity
-wordpress_id: 6366
 ---
 
 In a [discussion on the rise of mental health issues at Core Economics](http://economics.com.au/?p=9734), Paul Frijters touches on the increase in obesity over the last 50 years.

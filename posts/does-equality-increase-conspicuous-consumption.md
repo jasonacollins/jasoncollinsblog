@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-08-30 12:44:23+00:00
 draft: false
-link: https://www.jasoncollins.blog/does-equality-increase-conspicuous-consumption/
-aliases:
-  - /does-equality-increase-conspicuous-consumption
 title: Does equality increase conspicuous consumption?
-wordpress_id: 3905
 ---
 
 In an [interesting paper in the Journal of Consumer Research](http://www.jstor.org/stable/10.1086/658165), Nailya Ordabayeva and Pierre Chandon propose that conspicuous consumption may be higher in a more equal society as it provides an opportunity for a larger increase in relative rank.

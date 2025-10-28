@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-10-03 11:41:27+00:00
 draft: false
-link: https://www.jasoncollins.blog/cooperation-is-intuitive/
-aliases:
-  - /cooperation-is-intuitive
 title: Cooperation is intuitive
-wordpress_id: 4217
 ---
 
 From [a recent letter in Nature](http://www.nature.com/nature/journal/v489/n7416/full/nature11467.html) by Rand, Greene and Nowak:

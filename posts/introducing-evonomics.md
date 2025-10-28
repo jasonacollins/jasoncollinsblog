@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2015-03-02 08:00:19+00:00
 draft: false
-link: https://www.jasoncollins.blog/introducing-evonomics/
-aliases:
-  - /introducing-evonomics
 title: Introducing Evonomics
-wordpress_id: 20887
 ---
 
 What is [Evonomics](http://evonomics.com/)?

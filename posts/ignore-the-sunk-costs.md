@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2014-04-07 13:23:36+00:00
 draft: false
-link: https://www.jasoncollins.blog/ignore-the-sunk-costs/
-aliases:
-  - /ignore-the-sunk-costs
 title: Ignore the sunk costs
-wordpress_id: 19894
 ---
 
 Edge has [a great set of short notes](http://edge.org/conversation/on-kahneman) by various authors on how Daniel Kahneman has influenced them. It is worth flicking through them all, but excerpts from my two favourites are below.

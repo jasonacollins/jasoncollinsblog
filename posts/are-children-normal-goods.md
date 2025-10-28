@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-03-14 12:36:54+00:00
 draft: false
-link: https://www.jasoncollins.blog/are-children-normal-goods/
-aliases:
-  - /are-children-normal-goods
 title: Are children normal goods?
-wordpress_id: 2666
 ---
 
 I finished a post [last week](https://www.jasoncollins.blog/male-income-and-reproductive-success/) with the question of whether children are normal goods. Below I want to lay out some economic arguments on this, before putting in an evolutionary twist that raises the question of whether we can rely on any of the economic analysis.

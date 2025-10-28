@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2013-11-20 13:31:47+00:00
 draft: false
-link: https://www.jasoncollins.blog/does-mathematical-training-increase-our-risk-tolerance/
-aliases:
-  - /does-mathematical-training-increase-our-risk-tolerance
 title: Does mathematical training increase our risk tolerance?
-wordpress_id: 398
 ---
 
 Humans are inherently risk averse. When offered a coin toss with a reward of $10,000 for heads but a loss of $10,000 for tails, most people would decline. They would likely agree to pay a significant sum to avoid the gamble, despite the expected value of the gamble being zero.

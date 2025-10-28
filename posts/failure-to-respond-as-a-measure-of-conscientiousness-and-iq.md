@@ -3,11 +3,7 @@ author: "Jason Collins"
 
 date: 2012-12-12 10:06:27+00:00
 draft: false
-link: https://www.jasoncollins.blog/failure-to-respond-as-a-measure-of-conscientiousness-and-iq/
-aliases:
-  - /failure-to-respond-as-a-measure-of-conscientiousness-and-iq
 title: Failure to respond as a measure of conscientiousness and IQ
-wordpress_id: 4802
 ---
 
 A few weeks ago, [Bryan Caplan pointed out](http://econlog.econlib.org/archives/2012/11/hedengrens_dog.html) this [great working paper](https://dl.dropbox.com/u/6776620/Papers/The%20dog%20that%20didnt%20bark%2011-8-2012.pdf) by David Hedengren and Thomas Stratmann:
