@@ -1,10 +1,8 @@
 ---
+title: The IQ taboo
 author: "Jason Collins"
 date: 2011-11-06 10:09:29+00:00
 draft: false
-aliases:
-  - /the-iq-taboo
-title: The IQ taboo
 ---
 
 While IQ research seems to be be emerging from its taboo phase, Anneli Rufus has written an article in [Alternet](http://www.alternet.org/story/152944/iq_blackout:_why_did_studying_intelligence_become_taboo?page=entire) which asks why the study of human intelligence was off the agenda for so long.

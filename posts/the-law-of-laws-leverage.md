@@ -2,9 +2,6 @@
 title: The law of law's leverage
 author: "Jason Collins"
 date: 2015-04-02 08:00:20+00:00
-draft: false
-aliases:
-  - /the-law-of-laws-leverage
 ---
 
 [Last week I posted](https://www.jasoncollins.blog/an-evolutionary-perspective-on-behavioural-economics/) on Owen Jones's 2000 article [Time-Shifted Rationality and the Law of Law's Leverage: Behavioral Economics Meets Behavioral Biology](http://ssrn.com/abstract=249419) and his argument that behavioural economics (and law) requires the theoretical backbone of evolutionary biology.

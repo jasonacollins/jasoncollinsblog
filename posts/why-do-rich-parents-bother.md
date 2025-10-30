@@ -1,10 +1,8 @@
 ---
+title: Why do rich parents bother?
 author: "Jason Collins"
 date: 2011-01-25 14:07:05+00:00
 draft: false
-aliases:
-  - /why-do-rich-parents-bother
-title: Why do rich parents bother?
 ---
 
 For several years, I have been relatively convinced that beyond a certain threshold, parenting does not matter. This belief came from two sources. The first was Judith Rich Harris's book [The Nurture Assumption](http://judithrichharris.info/tna/index.html) in which she effectively argues that the children are socialised by other children, not their parents. The second was the concept that the variation attributable to genetic factors increases as you age (from memory I first read this in Matt Ridley's *The Agile Gene: How Nature Turns on Nurture* - called Nature via Nurture in Australia). This implies that while environmental differences might affect the speed of development, the result is more robust to environmental factors.

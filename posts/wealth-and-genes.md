@@ -1,10 +1,8 @@
 ---
+title: Wealth and genes
 author: "Jason Collins"
 date: 2018-06-21 09:00:08+00:00
 draft: false
-aliases:
-  - /wealth-and-genes
-title: Wealth and genes
 ---
 
 Go back ten years, and most published attempts to link specific genetic variants to a trait were false. These [candidate-gene studies](https://en.wikipedia.org/wiki/Candidate_gene) were your classic, yet typically rubbish, "gene for X" paper.

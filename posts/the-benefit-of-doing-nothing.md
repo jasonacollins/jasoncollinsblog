@@ -1,10 +1,8 @@
 ---
+title: The benefit of doing nothing
 author: "Jason Collins"
 date: 2017-10-09 08:00:19+00:00
 draft: false
-aliases:
-  - /the-benefit-of-doing-nothing
-title: The benefit of doing nothing
 ---
 
 [From Tim Harford](http://timharford.com/2017/09/when-doing-nothing-is-the-best-option/):

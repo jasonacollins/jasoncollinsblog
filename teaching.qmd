@@ -17,3 +17,5 @@ All are [CC-BY](https://creativecommons.org/licenses/by/4.0/), so feel free to t
 - [Consumer financial decision making](https://cfdm.jasoncollins.blog)
 
 - [Corporate decision making](https://corporate.jasoncollins.blog)
+
+- [Trial design](https://trialdesign.jasoncollins.blog)

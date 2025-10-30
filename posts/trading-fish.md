@@ -3,8 +3,6 @@ title: Trading fish
 author: "Jason Collins"
 date: 2010-12-28 04:53:13+00:00
 draft: false
-aliases:
-  - /trading-fish
 ---
 
 Alex Tabarrok [has posted on Marginal Revolution](http://www.marginalrevolution.com/marginalrevolution/2010/12/catch-shares.html) a piece on the expansion of "catch shares" as a fisheries management tool. Under catch shares (also called individual tradeable quotas or ITQs), each fisher owns a percentage of the quota set for the fishery. The fisher can trade the share and it provides flexibility to the fisher about when and how they choose to catch their quota.

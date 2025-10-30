@@ -1,10 +1,8 @@
 ---
+title: Unchanging humans
 author: "Jason Collins"
 date: 2017-11-16 08:00:56+00:00
 draft: false
-aliases:
-  - /unchanging-humans
-title: Unchanging humans
 ---
 
 One interesting thread to Don Norman’s excellent *The Design of Everyday Things* is the idea that while our tools and technologies are subject to constant change, humans stay the same. The fundamental psychology of humans is a relative constant.

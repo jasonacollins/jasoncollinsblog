@@ -3,8 +3,6 @@ title: Three podcast episodes
 author: "Jason Collins"
 date: 2016-07-20 09:00:26+00:00
 draft: false
-aliases:
-  - /three-podcasts
 ---
 
 Here are three I recently enjoyed:

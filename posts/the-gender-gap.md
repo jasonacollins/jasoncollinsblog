@@ -3,8 +3,6 @@ title: The gender gap
 author: "Jason Collins"
 date: 2011-08-11 14:51:00+00:00
 draft: false
-aliases:
-  - /the-gender-gap
 ---
 
 This month's [Cato Unbound](http://www.cato-unbound.org/) has another interesting subject, this time on the decline of men. In the [lead essay](http://www.cato-unbound.org/2011/08/08/kay-hymowitz/whats-happening-to-men/), Kay Hymowitz runs through the mass of ways men are starting to fall behind women. Many of the statistics were a surprise to me. Take the following:
