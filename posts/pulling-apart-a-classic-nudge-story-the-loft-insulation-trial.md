@@ -2,7 +2,7 @@
 title: 'Pulling apart a classic nudge story: the loft insulation trial'
 author: "Jason Collins"
 date: 2025-10-31 09:00:00+11:00
-draft: true
+draft: false
 images: [""]
 ---
 
@@ -30,7 +30,7 @@ I'll leave the discount for neighbours aside - this was from a separate trial - 
 
 The trial and its outcomes are described in a Department of Energy & Climate Change report [Removing the hassle factor associated with loft insulation: Results of a behavioural trial](https://assets.publishing.service.gov.uk/media/5a7c4f94ed915d3d0e87b850/DECC_loft_clearance_trial_report_final.pdf).
 
-The trial concerned three different Boroughs - Kingston, Merton and Sutton - so it's not a randomised trial as such. In each Borough, around 24,000 leaflets were distributed advertising either loft insulation for £ $179 (Kingston), loft insulation and clearance for £369 (Merton) or insulation and clearance for £450 (Sutton). The leaflets included a phone number and led to 8, 17 and 11 calls respectively. That's right, a response rate of around 0.05%
+The trial concerned three different Boroughs - Kingston, Merton and Sutton - so it's not a randomised trial as such. In each Borough, around 24,000 leaflets were distributed advertising either loft insulation for $179 (Kingston), loft insulation and clearance for £369 (Merton) or insulation and clearance for £450 (Sutton). The leaflets included a phone number and led to 8, 17 and 11 calls respectively. That's right, a response rate of around 0.05%
 
 From there, there was an audit to check whether the loft was suitable for insulation, which led to a total of 3, 16 and 9 loft installations. The "three-times" in Halpern's story is the difference between 3 and 9, and the "five times" the difference between 3 and 16. When Halpern said the "numbers were small", he meant it.
 
