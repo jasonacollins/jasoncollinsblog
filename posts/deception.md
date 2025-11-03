@@ -1,10 +1,15 @@
 ---
 title: 'Deception in the human-AI interaction literature'
 author: "Jason Collins"
-date: 2019-11-14 09:00:00+00:00
+date: 2025-11-14 09:00:00+11:00
 draft: true
 images: [""]
 ---
+
+Experimental economists have a strong norm against deception in experiments. Here's one statement from [have asked for Andreas deception chapter from library]
+
+That's not the norm in psychology.
+
 
 
 ## Synthetic-AI
@@ -44,6 +49,14 @@ So let's suppose you see 12 correct trials. What should you infer about the AI a
 They seek to defend the deception as follows:
 
 > this disparity between stated accuracy (85%) and true accuracy (70.8%) is realistic if there is a distribution shift between the training and the test set, which would imply that the humans’ trust in AI is misplaced.
+
+## Do participant's believe the AI is AI?
+
+With generative AI, this is coming closer to being feasible. But looking at many experiments conducted through the last decade, I suspect many participants would not believe an AI 
+
+## Do participants believe the human is human?
+
+Even more so 
 
 ## Thoughts
 
