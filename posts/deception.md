@@ -8,19 +8,30 @@ images: [""]
 
 Experimental economists have a strong norm against deception in experiments. Here's one statement from [have asked for Andreas deception chapter from library]
 
-That's not the norm in psychology.
 
 
+The Journal of XXXX bans publication of experiments with deception.
+
+That's not the norm in psychology and, as it tuns out, human-computer interaction research. Across the broad swathe of experimental literature I have traversed in the last year or two, deception 
+
+The most common form of deception concerns the nature of the AI the experimental subject is interacting with. Often, there is no actual AI, but rather a set of responses hand crafted by the experimental participants.
+
+Beyond that, it also seems common to tell the ocassional lie to generate thje desired reponse. Below are examples of each and a few questions in response.
 
 ## Synthetic-AI
+
+If you want to run an experiment in which you gauge human responses to an AI, on face value you want an AI. But that's a challenge. For one, it requires
+
+In economics, this typically means that the task is a statistical prediction task - 
+
+These tasks have been a staple of 
 
 Crafting an AI 
 
 
 Let me give one example, a pa
 
-## 
-
+Some people do go this extra yard - and full praise to them. As an example, Vivian Lai and friends developed neural architectur to classif Wikipe
 
 
 ## Straight-out porkie pies
