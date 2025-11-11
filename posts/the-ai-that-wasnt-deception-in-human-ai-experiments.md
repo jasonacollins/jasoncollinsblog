@@ -76,11 +76,11 @@ An interesting element of the most recent literature is that we are seeing much 
 
 ## Straight-out porkie pies
 
-I sympathise with the synthetic AI approach, albeit not being completely on board with it. Coming up with experimental tasks where the AI really is an AI performing the task you say it is is tough. In many cases this requires detailed model builds and software interfaces - and even then, one element is often not quite as stated.
+I sympathise with the synthetic AI approach, albeit not being completely comfortable. Coming up with experimental tasks where the AI really is an AI performing the task you say it is is tough. For many specific questions, it's beyond the technical capability of the experimenters.
 
-But the deception tends not to be limited to synthetic AI. The AI is often completely misrepresented.
+But the deception in the human-computer interaction literature tends not to be limited to synthetic AI. The AI is often completely misrepresented.
 
-Here's an example from Rastogi et al (2022), who examined whether they could de-anchor experimental participants from AI advice. I reviewed this paper and the question of whether this even involves anchoring in [a post last month](is-following-ai-advice-anchoring-bias.qmd).
+Here's an example from Rastogi et al (2022), who examined whether they could de-anchor experimental participants from AI advice. I [posted about this paper last month](is-following-ai-advice-anchoring-bias.qmd).
 
 The authors write:
 
@@ -90,9 +90,14 @@ The training set they reference is the data they trained the model on. Effective
 
 However, they go on to state:
 
-> \[T\]his disparity between stated accuracy (85%) and true accuracy (70.8%) is realistic if there is a distribution shift between the training and the test set, which would imply that the humans’ trust in AI is misplaced. In addition to stating AI accuracy  at the beginning, we informed the participants about the AI prediction for each training trial after they have attempted it so that they can learn about AI’s performance first-hand.
+> \[T\]his disparity between stated accuracy (85%) and true accuracy (70.8%) is realistic if there is a distribution shift between the training and the test set, which would imply that the humans’ trust in AI is misplaced. In addition to stating AI accuracy at the beginning, we informed the participants about the AI prediction for each training trial after they have attempted it so that they can learn about AI’s performance first-hand.
 
+As I discussed in my earlier post, deception of this nature undermines what can be drawn from the experiment. In this case, "anchoring" is justified given both the nature of the AI and what the experimenters have told them. To model whether they are anchoring, you need to account for the deception.
 
-## Thoughts
+Here's are a few more examples. @yin2024 told participants that responses came from either a human or AI, irrespective of the actual source, in their analysis of whether people "feel heard". @longoni2023 used articles on AI failures to create news stories in which either an AI or a human caused the problem. @khadpe2020 used human workers to simulate chatbots, with participants told that these "AI" workers were modelled on one of a toddler, middle schooler, young student, recent graduate or trained professional.
 
-I sense one reason people love experiments with LLMs is that it involves an actual AI! Although being a stochastic AI, one that is rather hard to control, that comes with a bunch of different costs.
+In each case you're relying on there being no AI or human "smell" to the responses that doesn't match the purported communication. You're relying on them believing your statement even when the evidence in front of them might point elsewhere (or funnily enough, claiming their reliance on your statement is an error).
+
+There is also little thought given to general contamination of the pool. The participants in most of these studies are workers from panels such as Amazon Turk, who spend their day doing studies like these. How many times do they read an experimental debrief that the wool has been pulled over their eyes? What does that do to their future interactions?
+
+I don't know the answers to these questions, but these deceptive practices introduce another layer of doubt as to whether we should trust these results (over and above that I described in a previous post on the poor experimental practices in this space).
