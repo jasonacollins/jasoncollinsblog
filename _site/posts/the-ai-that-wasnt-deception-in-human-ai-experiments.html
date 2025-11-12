@@ -9,7 +9,7 @@
 <meta name="author" content="Jason Collins">
 <meta name="dcterms.date" content="2025-11-14">
 
-<title>The AI that wasn’t: Deception in human-AI experiments – Jason Collins blog</title>
+<title>The AI that wasn’t: deception in human-AI experiments – Jason Collins blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -105,13 +105,13 @@ gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="The AI that wasn’t: Deception in human-AI experiments – Jason Collins blog">
+<meta property="og:title" content="The AI that wasn’t: deception in human-AI experiments – Jason Collins blog">
 <meta property="og:description" content="Behavioural economics, data science and artificial intelligence.">
 <meta property="og:image" content="https://www.jasoncollins.blog/posts/img/the-ai-that-wasnt-deception-in-human-ai-experiments/bucinca-et-al-2021-fig-1.png">
 <meta property="og:site_name" content="Jason Collins blog">
 <meta property="og:image:height" content="384">
 <meta property="og:image:width" content="620">
-<meta name="twitter:title" content="The AI that wasn’t: Deception in human-AI experiments – Jason Collins blog">
+<meta name="twitter:title" content="The AI that wasn’t: deception in human-AI experiments – Jason Collins blog">
 <meta name="twitter:description" content="Behavioural economics, data science and artificial intelligence.">
 <meta name="twitter:image" content="https://www.jasoncollins.blog/posts/img/the-ai-that-wasnt-deception-in-human-ai-experiments/bucinca-et-al-2021-fig-1.png">
 <meta name="twitter:image-height" content="384">
@@ -176,7 +176,7 @@ gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The AI that wasn’t: Deception in human-AI experiments</h1>
+<h1 class="title">The AI that wasn’t: deception in human-AI experiments</h1>
 </div>
 
 
@@ -213,14 +213,15 @@ gtag('config', 'G-C50MEPDMZ9', { 'anonymize_ip': true});
 <p>There are a few reasons for this norm. An important one is that if participants suspect they are being deceived or provided incorrect information, they will alter their behavioural responses and undermine the experimental results. An example of this is the famous <a href="https://en.wikipedia.org/wiki/Asch_conformity_experiments">Solomon Asch conformity experiments</a>, in which those who believed they were being deceived were less likely to conform with the group.</p>
 <p>There is also an externality from deception to other experiments. After being deceived in one experiment - as they often discover when promises aren’t delivered or in experimental debriefs - participants will be less trusting in future experiments, again changing their behaviour. Today where many experiments are run with public subject pools of people who are completing many experiments and surveys, regular deception could shift their expectations.</p>
 <p>There is no norm against deception in psychology. Deception is common and argued to be required for many experiments.</p>
-<p>There is also no such norm in human-computer interaction research, as I have discovered the last couple of years. And by deception, I am not talking about deception by omission: not telling people everything about the experiment. Rather, the deception involves acts of commission such as telling people things that are not true.</p>
-<p>One common form of deception concerns the AI the experimental subject is interacting with. Often, there is no actual AI. Rather, the participants are shown a set of hand-crafted responses. I have seen this called “synthetic AI”.</p>
-<p>It also seems common for experimenters to tell the occasional lie to generate the desired response. Below are examples of each and a few questions in response.</p>
+<p>There is also no such norm in human-computer interaction research, as I have discovered the last couple of years. I am not talking about deception by omission: not telling people everything about the experiment. Rather, I mean acts of commission, such as telling people things that are not true.</p>
+<p>One common form of deception is that there is no actual AI. Rather, the participants are shown hand-crafted responses. I have seen this called “synthetic AI”.</p>
+<p>It also seems common for experimenters to tell the occasional lie to generate the desired response.</p>
+<p>Below are examples of each and a few questions in response. I don’t have a firm view on some of this deception except for having a general queasiness and desire to reduce this, so the below is more observations than hardened views or argument.</p>
 <section id="synthetic-ai" class="level2">
 <h2 class="anchored" data-anchor-id="synthetic-ai">Synthetic-AI</h2>
-<p>To run an experiment on human responses to an AI, on face value you want an AI. But that’s a challenge. For one, you need to procure an AI, or develop an AI to train on the task or data. Depending on the nature of the AI, you might also design an interface. And apart from being a lot of work, there’s no guarantee that your AI will have the features you desire, such as a certain error rate or error boundary.</p>
-<p>In economics, this challenge has typically led to the use of statistical prediction tasks. Given a dataset about, say, student achievement, you develop a statistical model - which you call an AI - to predict achievement based on other features of the student. Apart from the easy availability of datasets to create these tasks (such as those available on <a href="https://www.kaggle.com/datasets">Kaggle</a> or in repositories such as the <a href="https://archive.ics.uci.edu/">UC Irvine Machine Learning Repository</a>), developing statistical models is a bread and butter task for an economist. You can often train a model on these relatively well-structured datasets in a few lines of code.</p>
-<p>An interesting feature of these models is that they typically outperform human judgment (by a considerable margin). The optimal interaction is that the human hands off the decision to the AI. That makes these models great for algorithm aversion studies, but provides somewhat limited scope to examine collaborative decision making.</p>
+<p>To run an experiment on human responses to an AI, you want an AI. But that’s a challenge. For one, you need to procure an AI, or develop an AI to train on the task or data. Depending on the nature of the AI, you might also design an interface. And apart from being a lot of work, there’s no guarantee that your AI will have the features you desire, such as a certain error rate or error boundary.</p>
+<p>In economics, this challenge has typically led to the use of statistical prediction tasks. Given a dataset about, say, student achievement, you develop a statistical model (called an AI) to predict achievement based on other features of the student. Apart from the easy availability of datasets to create these tasks (such as those available on <a href="https://www.kaggle.com/datasets">Kaggle</a> or in repositories such as the <a href="https://archive.ics.uci.edu/">UC Irvine Machine Learning Repository</a>), developing statistical models is a bread and butter task for an economist. You can often train a model on these relatively well-structured datasets in a few lines of code.</p>
+<p>An interesting feature of these models is that they typically outperform human judgment by a considerable margin. The optimal interaction is that the human hands off the decision to the AI. That makes these models great for algorithm aversion studies, but provides somewhat limited scope to examine collaborative decision making.</p>
 <p>If you want a weaker model you might withhold data from the model (as one done in a recent paper <a href="../posts/is-following-ai-advice-anchoring-bias.html">I posted about</a> on anchoring). This can introduce asymmetric information by giving the human something the model doesn’t have. Ultimately, however, statistical prediction is only a subset of the space in which you might want to study human-AI interaction. That moves us into more complex domains where it’s not so easy to develop a model.</p>
 <p>In experiments coming from the human-computer interaction field, you do see statistical models, but often the experiments require a richer environment. And that’s where they turn to deception via synthetic AI.</p>
 <p>One example of synthetic AI is in work by <span class="citation" data-cites="buçinca2021">Buçinca et al. (<a href="#ref-buçinca2021" role="doc-biblioref">2021</a>)</span> on whether triggering slow thinking can increase engagement with explanations of AI recommendations. They created a task where participants were shown a picture of a meal and information on the main ingredients, and asked what ingredients to substitute to make it low-carb while maintaining the original flavour.</p>
@@ -238,7 +239,7 @@ Figure&nbsp;1: <span class="citation" data-cites="buçinca2021">Buçinca et al. 
 <blockquote class="blockquote">
 <p>We designed a simulated AI for the experiment, which had 75% accuracy of correctly recognizing the ingredient with the highest carbohydrate impact in the image of the meal. Note that we did not train an actual machine learning model for this task because we wanted to have control over the type and prevalence of error the AI would make.</p>
 </blockquote>
-<p>This is one of the more direct statements that they made the AI outputs up, but even where less explicitly stated, it is common practice.</p>
+<p>This is one of the more direct statements that the AI was fabricated, but even where less explicitly stated, it is common practice.</p>
 <p>The question is then: what do participants believe of this scenario? Do they believe that an AI is actually delivering these suggestions and associated explanations? To the extent they don’t, does this affect their likelihood of following the AI recommendation?</p>
 <p>Some people in the human-computer interaction field do go the extra yard of developing a more complex model - and full praise to them. As an example, <span class="citation" data-cites="lai2022">Lai et al. (<a href="#ref-lai2022" role="doc-biblioref">2022</a>)</span> developed neural architecture to classify Wikipedia comments and Reddit hate speech. The particular architecture they used allowed identification of the rationale, communicated through highlights of the relevant words in the text. It looks like a lot of effort, but they’re not deceiving participants. It also looks like a more ecologically valid experimental setup. That would boost my confidence in the results.</p>
 <div id="fig-lai_et_al_2022_table_1" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -251,15 +252,15 @@ Figure&nbsp;2: <span class="citation" data-cites="lai2022">Lai et al. (<a href="
 </div>
 </figure>
 </div>
-<p>Sometimes to avoid deception, people come up with fairly creative ways to describe what is being provided to participants. <span class="citation" data-cites="logg2019">Logg et al. (<a href="#ref-logg2019" role="doc-biblioref">2019</a>)</span> wanted to test whether algorithm aversion was due to aversion to algorithms themselves or an aversion to external advice. As a result, they wanted to deliver identical predictions to experimental participants (to maintain experimental control) while being able to describe it as coming from either an algorithm or a human.</p>
-<p>In experiment 1, 202 participants were asked to estimate the weight of a person in a photo. Everyone received advice, described as coming from either an algorithm or a person, that the person was 163lb, based on estimated of 415 people in another experiment. (The person weighted 164lb.) The precise wording was either:</p>
+<p>Sometimes to avoid deception, people come up with creative ways to describe what is being provided to participants. <span class="citation" data-cites="logg2019">Logg et al. (<a href="#ref-logg2019" role="doc-biblioref">2019</a>)</span> wanted to test whether algorithm aversion was due to aversion to algorithms themselves or an aversion to external advice. As a result, they wanted to deliver identical predictions to experimental participants (to maintain experimental control) while being able to describe it as coming from either an algorithm or a human.</p>
+<p>In experiment 1, 202 participants were asked to estimate the weight of a person in a photo. Everyone received advice, described as coming from either an algorithm or a person, that the person was 163lb, based on estimates of 415 people in another experiment. (The person weighed 164lb.) The precise wording was either:</p>
 <blockquote class="blockquote">
 <p>An algorithm ran calculations based on estimates of participants from a past study. The output that the algorithm computed as an estimate was: 163 pounds.</p>
 </blockquote>
 <blockquote class="blockquote">
 <p>The average estimate of participants from a past experiment was: 163 pounds.</p>
 </blockquote>
-<p>Both of those statements are true, although the word “algorithm” is doing a lot of work there when the algorithm is averaging.</p>
+<p>Both statements are technically true, though calling averaging an algorithm is generous.</p>
 <p>The word “algorithm” is stretched even more in Experiment 1C, a task to estimate a person’s attractiveness from another person’s perspective based on a text description of that person. The wording in each condition was:</p>
 <blockquote class="blockquote">
 <p>An algorithm estimated this (wo)man’s attractiveness (humor/ enjoyableness) from Mike’s (Julia’s) perspective. The algorithm’s estimate was: X</p>
@@ -267,15 +268,16 @@ Figure&nbsp;2: <span class="citation" data-cites="lai2022">Lai et al. (<a href="
 <blockquote class="blockquote">
 <p>In another study, 48 people estimated this (wo)man’s attractiveness (humor/enjoyableness) from Mike’s (Julia’s) perspective. Their estimate was: X</p>
 </blockquote>
-<p><span class="citation" data-cites="logg2019">Logg et al. (<a href="#ref-logg2019" role="doc-biblioref">2019</a>)</span> described their choice of procedure as allowing them to avoid deception. For Experiment 1C, I am not convinced and I suspect experimental economists wouldn’t agree. The word algorithm is triggering is likely quite different expectations than reality. If someone told me an algorithms was being used to estimate attractiveness, I would assume much more work was going on than averaging estimates from people. I’d likely assume a text analysis mode.</p>
-<p>One ameliorating factor is that this experiment was run pre-ChatGPT in 2019, so participants might not immediately imagine some text analysis algorithm. Conversely, in 2025 I have no problem imagining a text-analysis algorithm and would be giving my preferences on that assumption. However, if participants couldn’t picture a text analysis algorithm in 2019, what were they assuming?</p>
+<p><span class="citation" data-cites="logg2019">Logg et al. (<a href="#ref-logg2019" role="doc-biblioref">2019</a>)</span> described their choice of procedure as allowing them to avoid deception. I am not convinced and I suspect experimental economists wouldn’t agree.</p>
+<p>The word “algorithm” triggers expectations that don’t match reality. If someone told me an algorithm was estimating attractiveness, I would assume something more sophisticated than averaging estimates from humans. I’d likely assume a text analysis model.</p>
+<p>One ameliorating factor is that this experiment ran pre-ChatGPT in 2019. Participants might not immediately imagine a text analysis algorithm. But in 2025 I’d assume exactly that and would respond based on that assumption. This raises the question: if participants couldn’t picture a text analysis algorithm in 2019, what were they assuming?</p>
 <p>An interesting element of the most recent literature is that we are seeing much more actual use of AI, in the form of ChatGPT and other LLM models. It’s finally easy to get an “AI” for almost any task with low effort. The deception is fading away, but that is likely coming at the cost of control. I haven’t seen many ChatGPT experiments that tell me something useful about human-AI interaction or that isn’t already out of date by the time it is released. But that’s a topic for a different post.</p>
 </section>
 <section id="straight-out-porkie-pies" class="level2">
 <h2 class="anchored" data-anchor-id="straight-out-porkie-pies">Straight-out porkie pies</h2>
-<p>I sympathise with the synthetic AI approach, albeit not being completely on board with it. Coming up with experimental tasks where the AI really is an AI performing the task you say it is is tough. In many cases this requires detailed model builds and software interfaces - and even then, one element is often not quite as stated.</p>
-<p>But the deception tends not to be limited to synthetic AI. The AI is often completely misrepresented.</p>
-<p>Here’s an example from Rastogi et al (2022), who examined whether they could de-anchor experimental participants from AI advice. I reviewed this paper and the question of whether this even involves anchoring in <a href="../posts/is-following-ai-advice-anchoring-bias.html">a post last month</a>.</p>
+<p>I sympathise with the synthetic AI approach, albeit not being completely comfortable. Coming up with experimental tasks where the AI really is an AI performing the task you say it is is tough. For many specific questions, it’s beyond the technical capability of the experimenters.</p>
+<p>But the deception in the human-computer interaction literature tends not to be limited to synthetic AI. The AI is often completely misrepresented.</p>
+<p>Here’s an example from Rastogi et al (2022), who examined whether they could de-anchor experimental participants from AI advice. I <a href="../posts/is-following-ai-advice-anchoring-bias.html">posted about this paper last month</a>.</p>
 <p>The authors write:</p>
 <blockquote class="blockquote">
 <p>To induce anchoring bias, the participant was informed at the start of the training section that the AI model was 85% accurate (we carefully chose the training trials to ensure that the AI was indeed 85% accurate over these trials), while the model’s actual accuracy is 70.8% over the entire training set and 66.5% over the test set. Since our goal is to induce anchoring bias and the training time is short, we stated a high AI accuracy.</p>
@@ -285,10 +287,17 @@ Figure&nbsp;2: <span class="citation" data-cites="lai2022">Lai et al. (<a href="
 <blockquote class="blockquote">
 <p>[T]his disparity between stated accuracy (85%) and true accuracy (70.8%) is realistic if there is a distribution shift between the training and the test set, which would imply that the humans’ trust in AI is misplaced. In addition to stating AI accuracy at the beginning, we informed the participants about the AI prediction for each training trial after they have attempted it so that they can learn about AI’s performance first-hand.</p>
 </blockquote>
+<p>Deception of this nature undermines the experiment. The “anchoring” here is justified given what they were told and observed. You can’t study anchoring bias when you’ve deliberately created the conditions for justified trust.</p>
+<p>Here are a few more examples. <span class="citation" data-cites="yin2024">Yin et al. (<a href="#ref-yin2024" role="doc-biblioref">2024</a>)</span> told participants that responses came from either a human or AI, irrespective of the actual source, in their analysis of whether people “feel heard”. <span class="citation" data-cites="longoni2023">Longoni et al. (<a href="#ref-longoni2023" role="doc-biblioref">2023</a>)</span> used articles on AI failures to create news stories in which either an AI or a human caused the problem. <span class="citation" data-cites="khadpe2020">Khadpe et al. (<a href="#ref-khadpe2020" role="doc-biblioref">2020</a>)</span> used human workers to simulate chatbots, with participants told that these “AI” workers were modelled on one of a toddler, middle schooler, young student, recent graduate or trained professional.</p>
+<p>In each case you’re relying on there being no AI or human “smell” to the responses that doesn’t match the purported communication. You’re relying on them believing your statement even when the evidence in front of them might point elsewhere (or worse, treating their trust in you as an error).</p>
+<p>There is also little thought given to contamination of the pool. The participants in most of these studies are workers from panels such as Amazon Turk, who spend their day doing studies like these. How many times do they read an experimental debrief that the wool has been pulled over their eyes? What does that do to their future interactions?</p>
+<p>I don’t know the answers to these questions, but these deceptive practices introduce another layer of doubt as to whether we should trust these results (over and above that I described in a previous post on the poor experimental practices in this space).</p>
 </section>
-<section id="thoughts" class="level2">
-<h2 class="anchored" data-anchor-id="thoughts">Thoughts</h2>
-<p>I sense one reason people love experiments with LLMs is that it involves an actual AI! Although being a stochastic AI, one that is rather hard to control, that comes with a bunch of different costs.</p>
+<section id="what-to-do" class="level2">
+<h2 class="anchored" data-anchor-id="what-to-do">What to do?</h2>
+<p>The human-computer / human-AI literature is shaky. As I noted in a <a href="../posts/why-i-dont-trust-most-human-ai-interaction-experimental-research.html">previous post</a>, experimental practices look like those in psychology circa 2005: small sample sizes, no pre-registration, no data openness. All the hallmarks of a replication crisis.</p>
+<p>At the same time, the field is flooded. I have some google alerts and AI-run literature searches that deliver to me dozens of papers in this space every week, and I’m not even catching all of them. Most are trivial, and even when they have an interesting or useful hypothesis, I typically don’t trust them.</p>
+<p>As a result, people should slow down, invest in their experimental designs and AIs, and make them as robust as possible. Most of the deception could be eliminated with a bit of thought and work and we’d get a much more valuable literature.</p>
 
 
 
@@ -298,14 +307,23 @@ Figure&nbsp;2: <span class="citation" data-cites="lai2022">Lai et al. (<a href="
 <div id="ref-buçinca2021" class="csl-entry" role="listitem">
 Buçinca, Z., Malaya, M. B., and Gajos, K. Z. (2021). To trust or to think: Cognitive forcing functions can reduce overreliance on AI in AI-assisted decision-making. <em>Proceedings of the ACM on Human-Computer Interaction</em>, <em>5</em>(CSCW1), 188:1188:21. <a href="https://doi.org/10.1145/3449287">https://doi.org/10.1145/3449287</a>
 </div>
+<div id="ref-khadpe2020" class="csl-entry" role="listitem">
+Khadpe, P., Krishna, R., Fei-Fei, L., Hancock, J. T., and Bernstein, M. S. (2020). Conceptual Metaphors Impact Perceptions of Human-AI Collaboration. <em>Proceedings of the ACM on Human-Computer Interaction</em>, <em>4</em>(CSCW2), 1–26. <a href="https://doi.org/10.1145/3415234">https://doi.org/10.1145/3415234</a>
+</div>
 <div id="ref-lai2022" class="csl-entry" role="listitem">
 Lai, V., Carton, S., Bhatnagar, R., Liao, Q. V., Zhang, Y., …. (2022). Human-AI collaboration via conditional delegation: A case study of content moderation. <em>arXiv</em>. <a href="https://doi.org/10.48550/arXiv.2204.11788">https://doi.org/10.48550/arXiv.2204.11788</a>
 </div>
 <div id="ref-logg2019" class="csl-entry" role="listitem">
 Logg, J. M., Minson, J. A., and Moore, D. A. (2019). Algorithm appreciation: People prefer algorithmic to human judgment. <em>Organizational Behavior and Human Decision Processes</em>, <em>151</em>, 90–103. <a href="https://doi.org/10.1016/j.obhdp.2018.12.005">https://doi.org/10.1016/j.obhdp.2018.12.005</a>
 </div>
+<div id="ref-longoni2023" class="csl-entry" role="listitem">
+Longoni, C., Cian, L., and Kyung, E. J. (2023). Algorithmic Transference: People Overgeneralize Failures of AI in the Government. <em>Journal of Marketing Research</em>, <em>60</em>(1), 170–188. <a href="https://doi.org/10.1177/00222437221110139">https://doi.org/10.1177/00222437221110139</a>
+</div>
 <div id="ref-ortmann2019" class="csl-entry" role="listitem">
 Ortmann, A. (2019). <em>Deception</em> (A. Schram and A. Ule, Eds.). Edward Elgar Publishing. <a href="https://china.elgaronline.com/view/edcoll/9781788110556/9781788110556.00009.xml">https://china.elgaronline.com/view/edcoll/9781788110556/9781788110556.00009.xml</a>
+</div>
+<div id="ref-yin2024" class="csl-entry" role="listitem">
+Yin, Y., Jia, N., and Wakslak, C. J. (2024). AI can help people feel heard, but an AI label diminishes this impact. <em>Proceedings of the National Academy of Sciences</em>, <em>121</em>(14), e2319112121. <a href="https://doi.org/10.1073/pnas.2319112121">https://doi.org/10.1073/pnas.2319112121</a>
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -20,8 +20,10 @@ Below is the list of books I read in 2025 (with a star if I have read them befor
 - Terrence Deacon, *The Symbolic Species: The Co-evolution of Language and the Brain*
 - Emanuel Derman, *My Life as a Quant*
 - Michael Hallsworth and Elspeth Kirkman, *Behavioral Insights*
+- Karen Hao, *Empire of AI: Inside the Reckless Race for Total Domination*
 - Walter Isaacson, *Steve Jobs*
 - John Romero, *Doom Guy: Life in First Person*
+- Stuart Russeli, *Human Compatible*
 - Ben Shneiderman, *Human-Centred AI*
 - Eric Siegel, *The AI Playbook: Mastering the Rare Art of Machine Learning Deployment*
 - Mark D. White, *The Manipulation of Choice: Ethics, Libertarianism and Paternalism*
