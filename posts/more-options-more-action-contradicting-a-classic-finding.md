@@ -1,7 +1,7 @@
 ---
 title: 'More options, more action: contradicting a classic finding'
 author: "Jason Collins"
-date: 2025-11-17 09:00:00+11:00
+date: 2025-11-18 09:00:00+11:00
 draft: false
 images: ["img/altinger-et-al-2025-visual-abstract.png"]
 bibliography: references.bib
