@@ -10,7 +10,45 @@
 <atom:link href="https://www.jasoncollins.blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Behavioural economics, data science and artificial intelligence.</description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Thu, 30 Oct 2025 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 16 Nov 2025 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>More options, more action: contradicting a classic finding</title>
+  <dc:creator>Jason Collins</dc:creator>
+  <link>https://www.jasoncollins.blog/posts/more-options-more-action-contradicting-a-classic-finding.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>From Donald Redelmeier and Eldar Shafir’s <span class="citation" data-cites="redelmeier1995">(1995)</span> classic paper in JAMA, the Journal of the American Medical Association:</p>
+<blockquote class="blockquote">
+<p><strong>Intervention:</strong> The basic version of each scenario presented a choice between two options. The expanded version presented three options: the original two plus a third. …</p>
+<p><strong>Results:</strong> In one scenario involving a patient with osteoarthritis, family physicians were less likely to prescribe a medication when deciding between two medications than when deciding about only one medication (53% vs 72%; P &lt; .005). Apparently, the difficulty in deciding between the two medications led some physicians to recommend not starting either. Similar discrepancies were found in decisions made by neurologists and neurosurgeons concerning carotid artery surgery and by legislators concerning hospital closures.</p>
+<p><strong>Conclusions:</strong> The introduction of additional options can increase decision difficulty and, hence, the tendency to choose a distinctive option or maintain the status quo.</p>
+</blockquote>
+<p>The paper has been cited 622 times as of today.</p>
+<p>From a new paper by Gemma Altinger et al. <span class="citation" data-cites="altinger2025">(2025)</span> in JAMA Network Open (I’m one of the et al.):</p>
+<blockquote class="blockquote">
+<p><strong>Question</strong> Does offering multiple appropriate treatment alternatives affect the odds of primary care physicians choosing an alternative over the current care plan?</p>
+<p><strong>Findings</strong> In this randomized clinical trial of 402 primary care physicians, offering 2 or more appropriate alternatives significantly increased the odds that physicians would choose an alternative (62%) compared with those offered only 1 alternative (44%).</p>
+<p><strong>Meaning</strong> Contrary to prior studies suggesting status-quo bias, in this trial, presenting multiple appropriate alternatives in decision support alerts increased the odds that physicians would choose an alternative; indicating that presenting multiple alternatives may improve clinical decision-making and reduce unwarranted variation in health care.</p>
+</blockquote>
+<p><a href="img/altinger-et-al-2025-visual-abstract.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/altinger-et-al-2025-visual-abstract.png" class="img-fluid"></a></p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2">
+<div id="ref-altinger2025" class="csl-entry">
+Altinger, G., Maher, C. G., Jones, C. M. P., Collins, J., Linder, J. A., … Traeger, A. C. (2025). Multiple suggested care alternatives and decision-making of primary care physicians: A randomized clinical trial. <em>JAMA Network Open</em>, <em>8</em>(11), e2542949. <a href="https://doi.org/10.1001/jamanetworkopen.2025.42949">https://doi.org/10.1001/jamanetworkopen.2025.42949</a>
+</div>
+<div id="ref-redelmeier1995" class="csl-entry">
+Redelmeier, D. A., and Shafir, E. (1995). Medical decision making in situations that offer multiple alternatives. <em>JAMA</em>, <em>273</em>(4), 302–305. <a href="https://doi.org/10.1001/jama.1995.03520280048038">https://doi.org/10.1001/jama.1995.03520280048038</a>
+</div>
+</div></section></div> ]]></description>
+  <guid>https://www.jasoncollins.blog/posts/more-options-more-action-contradicting-a-classic-finding.html</guid>
+  <pubDate>Sun, 16 Nov 2025 22:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Pulling apart a classic nudge story: the loft insulation trial</title>
   <dc:creator>Jason Collins</dc:creator>
@@ -4688,38 +4726,6 @@ Protzko, J., Krosnick, J., Nelson, L., Nosek, B. A., Axt, J., … Schooler, J. W
 </div></section></div> ]]></description>
   <guid>https://www.jasoncollins.blog/posts/the-preregistration-halo.html</guid>
   <pubDate>Fri, 26 Jan 2024 07:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>A bunch of links</title>
-  <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/a-bunch-of-links-2.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Social science a mess, journals no good, the meaningless of the label “misinformation”, Flipper Zero, and cleaning up the list of named “biases”:</p>
-<ol type="1">
-<li><a href="https://fantasticanachronism.com/2020/09/11/whats-wrong-with-social-science-and-how-to-fix-it/">Social science is a mess and it’s not getting better</a>. A few years old, but a lot of gold. A few nuggets:</li>
-</ol>
-<blockquote class="blockquote">
-<p>Economics topped the charts in terms of expectations, and it was by far the strongest field. There are certainly large improvements to be made — a 2/3 replication rate is not something to be proud of. But reading their papers you get the sense that at least they’re trying, which is more than can be said of some other fields. … A unique weakness of economics is the frequent use of absurd instrumental variables. I doubt there’s anyone (including the authors) who is convinced by that stuff, so let’s cut it out.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Going into this, my view of evolutionary psychology was shaped by people like Cosmides, Tooby, DeVore, Boehm, and so on. You know, evolutionary psychology! But the studies I skimmed from evopsych journals were mostly just weak social psychology papers with an infinitesimally thin layer of evolutionary paint on top. Few people seem to take the “evolutionary” aspect really seriously.</p>
-</blockquote>
-<ol start="2" type="1">
-<li><p><a href="https://getsyeducated.substack.com/p/pnas-is-not-a-good-journal">PNAS is Not a Good Journal</a>. The 69 Nature branded journals aren’t any good either.</p></li>
-<li><p>The misinformation label has become almost meaningless. Fact checking is often more about “vibe” than whether a claim is factual. Dan Williams <a href="https://www.conspicuouscognition.com/p/misinformation-researchers-are-wrong">makes the case</a> that any attempt to divide content into misleading and non-misleading buckets is too subjective.</p></li>
-<li><p>I’ve recently come across <a href="https://flipperzero.one">Flipper Zero</a>. I’ve spent a lot of time trying to understand the implications of generative AI and other tech while sitting in front of my laptop, but there’s something to be said about tinkering in the physical world.</p></li>
-<li><p>A step toward cleaning up the huge list of named “biases” floating around: <a href="https://doi.org/10.1177/17456916221148147">Toward Parsimony in Bias Research: A Proposed Common Framework of Belief-Consistent Information Processing for a Set of Biases</a>. Some of the clean-up probably doesn’t even need a theoretical framework, just the simple act of recognising that people have named the same phenomena multiple times.</p></li>
-</ol>
-
-
-
- ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/a-bunch-of-links-2.html</guid>
-  <pubDate>Fri, 19 Jan 2024 05:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

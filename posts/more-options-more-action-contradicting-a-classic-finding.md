@@ -2,8 +2,8 @@
 title: 'More options, more action: contradicting a classic finding'
 author: "Jason Collins"
 date: 2025-11-17 09:00:00+11:00
-draft: true
-images: [""]
+draft: false
+images: ["img/altinger-et-al-2025-visual-abstract.png"]
 bibliography: references.bib
 ---
 
@@ -24,3 +24,5 @@ From a new paper by Gemma Altinger et al. [-@altinger2025] in JAMA Network Open 
 > **Findings** In this randomized clinical trial of 402 primary care physicians, offering 2 or more appropriate alternatives significantly increased the odds that physicians would choose an alternative (62%) compared with those offered only 1 alternative (44%).
 >
 > **Meaning** Contrary to prior studies suggesting status-quo bias, in this trial, presenting multiple appropriate alternatives in decision support alerts increased the odds that physicians would choose an alternative; indicating that presenting multiple alternatives may improve clinical decision-making and reduce unwarranted variation in health care.
+
+![](img/altinger-et-al-2025-visual-abstract.png)
