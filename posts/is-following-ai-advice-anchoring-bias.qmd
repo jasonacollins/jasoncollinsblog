@@ -46,7 +46,7 @@ Participants completed 15 training examples, during which the authors deliberate
 
 After each training estimate, the workers were shown the correct answer and the estimate made by the AI.
 
-Effectively, participants are told the AI is 85% accurate and then see performance through the training set that aligns with that accuracy. This is deliberate deception about the AI's capability. The exact wording isn't provided, but the intent is clear. I'm reluctant to call behaviour "biased" when it's based on information designed to deceive. (Deception is common in human-AI experiments. I have another post on this coming.)
+Effectively, participants are told the AI is 85% accurate and then see performance through the training set that aligns with that accuracy. The exact wording isn't provided, but the intent is clear. I'm reluctant to call behaviour "biased" when it's based on information designed to deceive. (Deception is common in human-AI experiments. I have another post on this coming.)
 
 The test section had 36 trials. The AI accuracy was even lower than 66% because the experimenters deliberately "flipped" eight AI predictions, reducing task accuracy to 58%. Workers who followed these flipped predictions (called "probe trials" by the authors) would perform worse than those receiving unmanipulated AI advice.
 
@@ -62,7 +62,7 @@ Only one statistical test is reported for the pattern in the figure. No p-value 
 
 The lack of pre-registration is a concern. There are many ways to test the effect of time on anchoring. The authors used a linear regression on 5,000 bootstrapped resamples - a choice that isn’t explained. Other approaches might yield different results.
 
-The incomplete reporting is typical of human-computer interaction literature. Limited results and no public data make it impossible to test robustness or explore alternative analyses.
+Further, like much human-computer interaction literature, the paper provides limited results without public data, making it impossible to test robustness or explore alternative analyses.
 
 Finally, “adjustment” itself is hard to measure here. The only observable signal is disagreement with the AI. That leaves open whether participants are truly adjusting from an anchor or simply deferring to the AI unless they see clear reasons not to. These are two distinct processes.
 
@@ -90,7 +90,7 @@ The results are summarised in the following figures.
 
 The human only group has higher accuracy than all of the AI groups on instances where the AI is incorrect. The authors take this as evidence in support of H2.
 
-But is this really "anchoring bias"? To avoid lower accuracy when the AI errs, workers would need to ignore the AI completely on those trials, removing the anchor entirely. But that's unreasonable. The workers were told the AI has 85% accuracy, and their training experience confirmed it.
+This raises the question of whether "anchoring bias" is the right frame. To avoid lower accuracy when the AI errs, workers would need to ignore the AI completely on those trials, removing the anchor entirely. But that's unreasonable. The workers were told the AI has 85% accuracy, and their training experience confirmed it.
 
 "Anchoring" is the wrong label here and "anchoring bias" even more so. If using information degrades a decision, that doesn't make the use of that information a bias.
 
