@@ -38,7 +38,27 @@ quarto render posts/post-name.qmd
 
 ## Writing Posts
 
-Create a new `.qmd` file in the `posts/` directory:
+### Creating a New Post
+
+Use the `new-post.sh` script to quickly create a new post:
+
+```bash
+# Create a new .md post
+./new-post.sh my-new-article
+
+# Create a new .qmd post (for R computations)
+./new-post.sh my-new-article --qmd
+```
+
+This creates a post file with:
+- Title in sentence case (e.g., "My new article")
+- Current date/time in Sydney timezone
+- `draft: true` and `images: [""]` fields
+- Opens automatically in VS Code
+
+### Manual Post Creation
+
+Alternatively, create a new `.qmd` file manually in the `posts/` directory:
 
 ```yaml
 ---
