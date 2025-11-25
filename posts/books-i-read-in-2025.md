@@ -23,9 +23,10 @@ Below is the list of books I read in 2025 (with a star if I have read them befor
 - Karen Hao, *Empire of AI: Inside the Reckless Race for Total Domination*
 - Walter Isaacson, *Steve Jobs*
 - John Romero, *Doom Guy: Life in First Person*
-- Stuart Russeli, *Human Compatible*
+- Stuart Russeli, *Human Compatible*\*
 - Ben Shneiderman, *Human-Centred AI*
 - Eric Siegel, *The AI Playbook: Mastering the Rare Art of Machine Learning Deployment*
+- Toby Walsh, *Faking It: Artificial Intelligence in a Human World*
 - Mark D. White, *The Manipulation of Choice: Ethics, Libertarianism and Paternalism*
 - Eliezer Yudkowsy and Nate Soares, *If Anyone Builds It, Everyone Dies*
 
