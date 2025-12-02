@@ -15,7 +15,7 @@ From a [new article in HBR](https://hbr.org/2025/11/how-behavioral-science-can-i
 
 That claim traces back to a classic paper by Adam Alter and friends [-@alter2007].[^1] In Experiment 1, Alter and friends gave students the cognitive reflection test. Here's one question:
 
-[^1]: This wasn't the paper linked from the HBR article. The link is to a review on disfluency by Alter and Daniel M. Oppenheimer [-@alter2009] on disfluency affecting meta-cognition. Of the papers referenced in that review, the claim about hard to read fonts improving accuracy comes from the Alter et al. [-@alter2007] paper.
+[^1]: This wasn't the paper linked from the HBR article. The link is to a review by Alter and Daniel M. Oppenheimer [-@alter2009] on disfluency affecting meta-cognition. There is no statement about disfluent fonts affecting accuracy or error correction in that paper. However, of the papers referenced in that review, the claim about hard to read fonts improving accuracy comes from the Alter et al. [-@alter2007] paper.
 
 > A bat and a ball cost \$1.10 in total. The bat costs \$1.00 more than the ball.
 >
