@@ -7,11 +7,13 @@ toc: false
 images: [""]
 ---
 
-Given Gary Marcus often appears in my various feeds, I decided to grab his 2008 book [Kluge: The Haphazard Construction of the Human Mind](https://en.wikipedia.org/wiki/Kluge_(book)) from my overgrown reading pile. I'm glad I did, as it gave me insight into his worldview and context to his critique of generative AI. It didn't, however, teach me much about the human mind.
+As Gary Marcus often appears in my various feeds, I decided to grab his 2008 book [Kluge: The Haphazard Construction of the Human Mind](https://en.wikipedia.org/wiki/Kluge_(book)) from my overgrown reading pile. I'm glad I did, as it gave context to his critique of generative AI. It didn't, however, teach me much about the human mind.
 
-His basic argument is that the human mind is a 'kluge', a clumsy or inelegant yet surprisingly effective solution to a problem. Like our backward-installed retina and spine more suited to quadrupedal than upright walking, the human mind is, while impressive, flawed.
+Marcus's argument is that the human mind is a 'kluge', a clumsy or inelegant yet surprisingly effective solution to a problem. Like our backward-installed retina and spine more suited to quadrupedal than upright walking, the human mind is - while impressive - flawed. (Random aside: like me, Marcus is a big user of em-dashes. And like Marcus, I'm going to keep using them.)
 
-On one level, this is uncontroversial. Few would disagree that evolution is a path dependent process through which we can have clunky mental structures that would not be "designed". The exception to that might be creationists, who Marcus targets in the final chapter. No "intelligent designer" would have put us together that way. This does give a slightly dated feel to the book as those creationist-atheist debates of the late 'aughts' have largely withered away.
+The accumulation of kluges comes from the path dependent nature of evolution. There is no grand designer constructing an optimal human (or human mind) from scratch. Rather, humans evolved through a series of incremental tweaks, each built upon the last. If we think of the fitness landscape - fitness being a measure of relative xxx - If we consider evolution as climbing a mountain toward higher fitness, each change that spreads will be more fit in the current environment, but any peak that is found may not be the highest conceivable.
+
+On one level, this is uncontroversial. Few would disagree that evolution is a path dependent process or that we have clunky mental structures that would not be "designed". The exception to that might be creationists, who Marcus targets in the final chapter. No "intelligent designer" would have put us together that way. This does give a slightly dated feel to the book as those creationist-atheist debates of the late 'aughts' have largely withered away.
 
 However, through the body of the book, Marcus's more common foil is adaptationist streams of evolutionary thinking. Much evolutionary psychology literature has a starting point of seeking to understand the purpose of our foibles rather than labelling them as kluges. Why might men overestimate the sexual intentions of potential mates? Asymmetric errors. The genes of the man who misses true opportunities is no longer with us. It isn't a kluge but an optimal adaptation.
 
