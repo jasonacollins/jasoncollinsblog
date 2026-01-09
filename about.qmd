@@ -6,7 +6,7 @@ aliases:
   - /about/
 ---
 
-Behavioural and data science. Economics. PhD economics and evolutionary biology.
+Behavioural economics, data science and artificial intelligence. PhD economics and evolutionary biology.
 
 - [My research](/research/)
 - [My non-academic writing](/writing/)
