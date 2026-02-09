@@ -47,6 +47,15 @@ Below is the list of books I read in 2025 (with a star if I have read them befor
 - Philip Pullman, *The Golden Compass*
 - Philip Pullman, *The Subtle Knife*
 - Philip Pullman, *The Amber Spyglass*
+- JK Rowling, "Order of the Phoenix"\*
+- JK Rowling, "Half-Blood Prince"\*
+- JK Rowling, "Deathly Hallows"\*
+- Lemony Snicket, *The Bad Beginning*
+- Lemony Snicket, *The Reptile Room*
+- Lemony Snicket, *The Wide Window*
+- Lemony Snicket, *The Miserable Mill*
+- Lemony Snicket, *The Austere Academy*
+- Lemony Snicket, *The Ersatz Elevator*
 - Martha Wells, *All Systems Red*
 
 Previous annual book lists: [2010](/posts/top-10-books-in-2010.md), [2011](/posts/best-books-i-read-in-2011.md), [2012](/posts/the-best-books-i-read-in-2012.md), [2013](/posts/best-books-i-read-in-2013.md), [2014](/posts/best-books-i-read-in-2014.md), [2015](/posts/best-books-i-read-in-2015.md), [2016](/posts/best-books-i-read-in-2016.md), [2017](/posts/best-books-i-read-in-2017.md), [2018](/posts/books-i-read-in-2018.md), [2019](/posts/best-books-i-read-in-2019.md), [2020](/posts/best-books-i-read-in-2020.md), [2021](/posts/best-books-i-read-in-2021.md), [2022](/posts/books-i-read-in-2022.md), [2023](/posts/books-i-read-in-2023.md), [2024](/posts/books-i-read-in-2024.md)

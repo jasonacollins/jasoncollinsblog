@@ -12,7 +12,7 @@ The books I enjoyed the most in 2024, although all were published in different y
 - William Poundstone, *Fortune's Formula: The Untold Story of the Scientific Betting System That Beat the Casinos and Wall Street*: A good balance of technicality and colour.
 - Kurt Vonnnegut, *Player Piano*: Simply a great story.
 
-Below is the list of books I read in 2024 (with a star if I have read them before). My volume of my reading of books cover-to-cover has increased from 2023, with 49 total (26 non-fiction, 23 fiction).
+Below is the list of books I read in 2024 (with a star if I have read them before).
 
 *Non-Fiction*
 
@@ -66,6 +66,10 @@ Below is the list of books I read in 2024 (with a star if I have read them befor
 - Cormac McCarthy, *Stella Maris*
 - Cormac McCarthy, *The Passenger*
 - Richard Matheson, *I Am Legend*
+- JK Rowling, *Philosopher's Stone*
+- JK Rowling, *Chamber of Secrets*
+- JK Rowling, *Prisoner of Azkaban*
+- JK Rowling, *Goblet of Fire*
 - Walter Tevis, *The Queen's Gambit* \*
 - Kurt Vonnnegut, *Player Piano*
 
