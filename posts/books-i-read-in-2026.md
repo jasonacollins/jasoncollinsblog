@@ -15,6 +15,7 @@ Below is the list of books I read in 2026 (with a star if I have read them befor
 
 *Non-Fiction*
 
+- Emily M. Bender and Alex Hanna, *The AI Con: How to Fight Big Tech's Hype and Create the Future We Want*
 - Max Bennet, *A Brief History of Intelligence*
 - Marvin Minsky, *The Society of Mind*
 
