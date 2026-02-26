@@ -17,7 +17,9 @@ Below is the list of books I read in 2026 (with a star if I have read them befor
 
 - Emily M. Bender and Alex Hanna, *The AI Con: How to Fight Big Tech's Hype and Create the Future We Want*
 - Max Bennet, *A Brief History of Intelligence*
+- Keach Hagey, *The Optimist: Sam Altman, OpenAI, and the Race to Invent the Future*
 - Marvin Minsky, *The Society of Mind*
+- Andrew Ross Sorkin, *1929: Inside the Greatest Crash in Wall Street History*
 
 *Fiction*
 
