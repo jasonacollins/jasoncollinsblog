@@ -10,7 +10,7 @@ All are works in progress and regularly revised during teaching periods.
 
 All are [CC-BY](https://creativecommons.org/licenses/by/4.0/), so feel free to take and use with attribution as you see fit.
 
-- [Behavioural economics](https://behaviouraleconomics.jasoncollins.blog): A traditional course on the foundations of behavioural economics. Supporting videos can be found [here](https://www.youtube.com/@jasonacollins).
+- [Behavioural economics](https://be.jcx.au): A traditional course on the foundations of behavioural economics. Supporting videos can be found [here](https://www.youtube.com/@jasonacollins).
 
 - [Behavioural finance](https://behaviouralfinance.jasoncollins.blog)
 
