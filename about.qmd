@@ -2,6 +2,13 @@
 title: "About"
 about:
   template: trestles
+  links:
+    - icon: twitter-x
+      text: Twitter/X
+      href: https://x.com/jasonacollins
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jasonallancollins/
 aliases:
   - /about/
 ---
