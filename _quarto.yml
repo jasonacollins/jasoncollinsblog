@@ -8,7 +8,7 @@ project:
 
 website:
   title: "Jason Collins blog"
-  site-url: https://www.jasoncollins.blog
+  site-url: https://blog.jcx.au
   description: "Behavioural economics, data science and artificial intelligence."
   navbar:
     right:

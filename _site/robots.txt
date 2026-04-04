@@ -1,1 +1,1 @@
-Sitemap: https://www.jasoncollins.blog/sitemap.xml
+Sitemap: https://blog.jcx.au/sitemap.xml

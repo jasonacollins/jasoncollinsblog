@@ -12,13 +12,19 @@ resources:
 
 My research and writing tend to revolve around the following themes:
 
-- The intersection of economics and evolutionary biology (comprising most of the papers below)
+- The intersection of economics and evolutionary biology (my PhD research)
 - How behavioural economics could be better, be that better underlying theory, better research practices or better applied work
 - The use of algorithms to supplant human judgment, particularly using simple heuristics, and how to establish the right human-algorithm mix.
 
 Below is my academic work (largely neglected between the completion of my PhD in 2015 and my return to academia in 2022). For my non-academic writing, see [here](/writing/).
 
 ## Publications
+
+### 2026
+
+Aczel et al. (2026) "[Investigating the analytical robustness of the social and behavioural sciences](https://doi.org/10.1038/s41586-025-09844-9)", *Nature*, 652(8108), 135–142
+
+Brodeur et al. (2026) "[Reproducibility and robustness of economics and political science research](https://doi.org/10.1038/s41586-026-10251-x)", *Nature*, 652(8108), 151–156
 
 ### 2025
 
@@ -47,8 +53,6 @@ Collins, Baer and Weber (2015) "[Sexual Selection, Conspicuous Consumption and E
 Collins, Baer and Weber (2014) “[Economic Growth and Evolution: Parental Preferences for Quality and Quantity of Offspring](https://doi.org/10.1017/S1365100513000163)” (2014) Macroeconomic Dynamics 18, 1773-1796 ([pdf](pdfs/Collins_et_al_2013_Economic_growth_and_evolution_parental_preference_for_quality_and_quantity_of_offspring.pdf)) ([post](/economic-growth-and-evolution-parental-preference-for-quality-and-quantity-of-offspring/))
 
 ## Working papers (in progress)
-
-Brodeur et al. (2024) [Mass Reproducibility and Replicability: A New Hope](https://econpapers.repec.org/paper/zbwi4rdps/107.htm), I4R Discussion Paper Series #107, Institute for Replication
 
 Collins, Baer and Weber, (2013) [Population, Technological Progress and the Evolution of Innovative Potential](https://research-repository.uwa.edu.au/en/publications/population-technological-progress-and-the-evolution-of-innovative) (with Boris Baer and Juerg Weber) ([post](/population-technological-progress-and-the-evolution-of-innovative-potential/))
 
