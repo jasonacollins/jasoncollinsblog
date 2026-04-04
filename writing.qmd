@@ -6,8 +6,6 @@ resources:
   - pdfs/Collins_2013_Sex_in_the_economy.pdf
 ---
 
-# Writing
-
 Apart from this blog and my [academic publications](/research/), I have written for various other venues. Below is a selection:
 
 ### 2022

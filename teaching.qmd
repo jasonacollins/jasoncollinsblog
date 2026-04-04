@@ -12,10 +12,10 @@ All are [CC-BY](https://creativecommons.org/licenses/by/4.0/), so feel free to t
 
 - [Behavioural economics](https://be.jcx.au): A traditional course on the foundations of behavioural economics. Supporting videos can be found [here](https://www.youtube.com/@jasonacollins).
 
-- [Behavioural finance](https://behaviouralfinance.jasoncollins.blog)
+- [Behavioural finance](https://bf.jcx.au)
 
-- [Consumer financial decision making](https://cfdm.jasoncollins.blog)
+- [Consumer financial decision making](https://cfdm.jcx.au)
 
-- [Corporate decision making](https://corporate.jasoncollins.blog)
+- [Corporate decision making](https://corporate.jcx.au)
 
-- [Trial design](https://trialdesign.jasoncollins.blog)
+- [Trial design](https://td.jcx.au)
