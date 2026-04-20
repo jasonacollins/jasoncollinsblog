@@ -25,4 +25,4 @@ For direct contact, you can find me through the above links. I don't host guest 
 
 
 <p align="center"; style="margin-left: 10px; margin-right: 10px;">BE NOTIFIED OF NEW POSTS VIA EMAIL
-<iframe src="https://newsletter.jasoncollins.blog/embed" width="360" height="110" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>
+<iframe src="https://newsletter.jcx.au/embed" width="360" height="110" style="border:0px; background:white;" frameborder="0" scrolling="no"></iframe></p>

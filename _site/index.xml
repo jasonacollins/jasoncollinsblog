@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Jason Collins blog</title>
-<link>https://www.jasoncollins.blog/</link>
-<atom:link href="https://www.jasoncollins.blog/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://blog.jcx.au/</link>
+<atom:link href="https://blog.jcx.au/index.xml" rel="self" type="application/rss+xml"/>
 <description>Behavioural economics, data science and artificial intelligence.</description>
 <generator>quarto-1.8.25</generator>
 <lastBuildDate>Fri, 09 Jan 2026 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Books I read in 2025</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/books-i-read-in-2025.html</link>
+  <link>https://blog.jcx.au/posts/books-i-read-in-2025.html</link>
   <description><![CDATA[ 
 
 
@@ -77,13 +77,13 @@
 
 
  ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/books-i-read-in-2025.html</guid>
+  <guid>https://blog.jcx.au/posts/books-i-read-in-2025.html</guid>
   <pubDate>Fri, 09 Jan 2026 03:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The study that just won’t die: disfluency edition</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/the-study-that-just-wont-die-disfluency-edition.html</link>
+  <link>https://blog.jcx.au/posts/the-study-that-just-wont-die-disfluency-edition.html</link>
   <description><![CDATA[ 
 
 
@@ -109,7 +109,7 @@
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <figcaption>Meyer et al.&nbsp;(2015), Figure 2</figcaption>
-<p><a href="img/2016-05-11-bad-behavioural-science-failures-bias-and-fairy-tales/meyer-et-al-2015.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Meyer et al.&nbsp;(2015), Figure 2"><img src="https://www.jasoncollins.blog/posts/img/2016-05-11-bad-behavioural-science-failures-bias-and-fairy-tales/meyer-et-al-2015.jpg" class="img-fluid figure-img" style="width:70.0%" alt="Meyer et al.&nbsp;(2015), Figure 2"></a></p>
+<p><a href="img/2016-05-11-bad-behavioural-science-failures-bias-and-fairy-tales/meyer-et-al-2015.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Meyer et al.&nbsp;(2015), Figure 2"><img src="https://blog.jcx.au/posts/img/2016-05-11-bad-behavioural-science-failures-bias-and-fairy-tales/meyer-et-al-2015.jpg" class="img-fluid figure-img" style="width:70.0%" alt="Meyer et al.&nbsp;(2015), Figure 2"></a></p>
 </figure>
 </div>
 <p>Finally, the Many Labs II project <span class="citation" data-cites="klein2018">(Klein et al., 2018)</span> also included Experiment 4 from Alter and friends’ paper in its replications. That experiment involved syllogistic reasoning problems. Alter and friends found their 41 participants did better with disfluent fonts. The Many Labs II replication found nothing. This wasn’t unexpected: a prediction exercise in advance of the replication gave it a 42% or 32% probability (using survey or market estimations) of replicating <span class="citation" data-cites="forsell2019">(Forsell et al., 2019)</span>.</p>
@@ -154,13 +154,13 @@ Thompson, V. A., Prowse Turner, J. A., Pennycook, G., Ball, L. J., Brack, H., �
 <li id="fn2"><p>There was some back and forth between <span class="citation" data-cites="alter2013">Alter et al. (2013)</span> and <span class="citation" data-cites="thompson2013a">Thompson et al. (2013a)</span> about how to interpret the replication, but the headline of no improvement in accuracy remains.↩︎</p></li>
 </ol>
 </section></div> ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/the-study-that-just-wont-die-disfluency-edition.html</guid>
+  <guid>https://blog.jcx.au/posts/the-study-that-just-wont-die-disfluency-edition.html</guid>
   <pubDate>Fri, 28 Nov 2025 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>More options, more action: contradicting a classic finding</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/more-options-more-action-contradicting-a-classic-finding.html</link>
+  <link>https://blog.jcx.au/posts/more-options-more-action-contradicting-a-classic-finding.html</link>
   <description><![CDATA[ 
 
 
@@ -179,7 +179,7 @@ Thompson, V. A., Prowse Turner, J. A., Pennycook, G., Ball, L. J., Brack, H., �
 <p><strong>Findings</strong> In this randomized clinical trial of 402 primary care physicians, offering 2 or more appropriate alternatives significantly increased the odds that physicians would choose an alternative (62%) compared with those offered only 1 alternative (44%).</p>
 <p><strong>Meaning</strong> Contrary to prior studies suggesting status-quo bias, in this trial, presenting multiple appropriate alternatives in decision support alerts increased the odds that physicians would choose an alternative; indicating that presenting multiple alternatives may improve clinical decision-making and reduce unwarranted variation in health care.</p>
 </blockquote>
-<p><a href="img/altinger-et-al-2025-visual-abstract.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/altinger-et-al-2025-visual-abstract.png" class="img-fluid"></a></p>
+<p><a href="img/altinger-et-al-2025-visual-abstract.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://blog.jcx.au/posts/img/altinger-et-al-2025-visual-abstract.png" class="img-fluid"></a></p>
 
 
 
@@ -192,13 +192,13 @@ Altinger, G., Maher, C. G., Jones, C. M. P., Collins, J., Linder, J. A., … Tra
 Redelmeier, D. A., and Shafir, E. (1995). Medical decision making in situations that offer multiple alternatives. <em>JAMA</em>, <em>273</em>(4), 302–305. <a href="https://doi.org/10.1001/jama.1995.03520280048038">https://doi.org/10.1001/jama.1995.03520280048038</a>
 </div>
 </div></section></div> ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/more-options-more-action-contradicting-a-classic-finding.html</guid>
+  <guid>https://blog.jcx.au/posts/more-options-more-action-contradicting-a-classic-finding.html</guid>
   <pubDate>Mon, 17 Nov 2025 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Pulling apart a classic nudge story: the loft insulation trial</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/pulling-apart-a-classic-nudge-story-the-loft-insulation-trial.html</link>
+  <link>https://blog.jcx.au/posts/pulling-apart-a-classic-nudge-story-the-loft-insulation-trial.html</link>
   <description><![CDATA[ 
 
 
@@ -226,7 +226,7 @@ Redelmeier, D. A., and Shafir, E. (1995). Medical decision making in situations 
 <p>The trial concerned three different Boroughs - Kingston, Merton and Sutton - so it’s not a randomised trial as such. In each Borough, around 24,000 leaflets were distributed advertising either loft insulation for $179 (Kingston), loft insulation and clearance for £369 (Merton) or insulation and clearance for £450 (Sutton). The leaflets included a phone number and led to 8, 17 and 11 calls respectively. That’s right, a response rate of around 0.05%</p>
 <p>From there, there was an audit to check whether the loft was suitable for insulation, which led to a total of 3, 16 and 9 loft installations. The “three-times” in Halpern’s story is the difference between 3 and 9, and the “five times” the difference between 3 and 16. When Halpern said the “numbers were small”, he meant it.</p>
 <p>Here’s a screenshot of the data table:</p>
-<p><a href="img/loft-insulation.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/loft-insulation.png" class="img-fluid"></a></p>
+<p><a href="img/loft-insulation.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://blog.jcx.au/posts/img/loft-insulation.png" class="img-fluid"></a></p>
 <p>But with three to nine installations from 24,000 letters, you can’t draw any statistically sound conclusions. And that is exactly what the report states:</p>
 <blockquote class="blockquote">
 <p>On the basis of the level of uptake in this trial, the numbers are too small to provide any firm conclusions.</p>
@@ -254,13 +254,13 @@ Redelmeier, D. A., and Shafir, E. (1995). Medical decision making in situations 
 
 
  ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/pulling-apart-a-classic-nudge-story-the-loft-insulation-trial.html</guid>
+  <guid>https://blog.jcx.au/posts/pulling-apart-a-classic-nudge-story-the-loft-insulation-trial.html</guid>
   <pubDate>Thu, 30 Oct 2025 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Is there an AI workslop problem?</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/is-there-an-ai-workslop-problem.html</link>
+  <link>https://blog.jcx.au/posts/is-there-an-ai-workslop-problem.html</link>
   <description><![CDATA[ 
 
 
@@ -285,14 +285,14 @@ Redelmeier, D. A., and Shafir, E. (1995). Medical decision making in situations 
 
 
  ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/is-there-an-ai-workslop-problem.html</guid>
+  <guid>https://blog.jcx.au/posts/is-there-an-ai-workslop-problem.html</guid>
   <pubDate>Tue, 28 Oct 2025 22:00:00 GMT</pubDate>
-  <media:content url="https://www.jasoncollins.blog/posts/img/workslop.png" medium="image" type="image/png" height="144" width="144"/>
+  <media:content url="https://blog.jcx.au/posts/img/workslop.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Is following AI advice “anchoring bias”?</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/is-following-ai-advice-anchoring-bias.html</link>
+  <link>https://blog.jcx.au/posts/is-following-ai-advice-anchoring-bias.html</link>
   <description><![CDATA[ 
 
 
@@ -331,7 +331,7 @@ Redelmeier, D. A., and Shafir, E. (1995). Medical decision making in situations 
 <p>The test section had 36 trials. The AI accuracy was even lower than 66% because the experimenters deliberately “flipped” eight AI predictions, reducing task accuracy to 58%. Workers who followed these flipped predictions (called “probe trials” by the authors) would perform worse than those receiving unmanipulated AI advice.</p>
 <p>The primary hypothesis the authors tested in Experiment 1 is whether anchoring is reduced if the workers were given more time to make their prediction. Workers were given 10, 15, 20 or 25 seconds to make their prediction. If they were less likely to follow the erroneous prediction in those flipped trials, that would be evidence of reduced anchoring.</p>
 <p>The results at first glance, as presented in the following figure, support the hypothesis. Workers with 25 seconds were more likely to deviate from the incorrect recommendation. This might be thought of as being in line with <span class="citation" data-cites="griffiths2015">Griffiths et al. (2015)</span>, in that more resources enable more calculation and adjustment.</p>
-<p><a href="img/is-following-ai-advice-anchoring/rastogi-et-al-2022-fig-2a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/is-following-ai-advice-anchoring/rastogi-et-al-2022-fig-2a.png" class="img-fluid"></a></p>
+<p><a href="img/is-following-ai-advice-anchoring/rastogi-et-al-2022-fig-2a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://blog.jcx.au/posts/img/is-following-ai-advice-anchoring/rastogi-et-al-2022-fig-2a.png" class="img-fluid"></a></p>
 <p>(I also suspect there is an error in this chart. The average disagreement for the non-probe trials is unbelievably low.)</p>
 <p>Only one statistical test is reported for the pattern in the figure. No p-value is given, but the confidence intervals suggest it barely reaches significance. The authors also don’t report broader accuracy data.</p>
 <p>The lack of pre-registration is a concern. There are many ways to test the effect of time on anchoring. The authors used a linear regression on 5,000 bootstrapped resamples - a choice that isn’t explained. Other approaches might yield different results.</p>
@@ -356,7 +356,7 @@ Redelmeier, D. A., and Shafir, E. (1995). Medical decision making in situations 
 </ul>
 <p>Each of these conditions aligns with a hypothesis that they might reduce anchoring. The one I will focus on is H2: Anchoring bias has a negative effect on human-AI collaborative decision-making accuracy when AI is incorrect.</p>
 <p>The results are summarised in the following figures.</p>
-<p><a href="img/is-following-ai-advice-anchoring/rastogi-et-al-2022-fig-4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/img/is-following-ai-advice-anchoring/rastogi-et-al-2022-fig-4.png" class="img-fluid"></a></p>
+<p><a href="img/is-following-ai-advice-anchoring/rastogi-et-al-2022-fig-4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://blog.jcx.au/posts/img/is-following-ai-advice-anchoring/rastogi-et-al-2022-fig-4.png" class="img-fluid"></a></p>
 <p>The human only group has higher accuracy than all of the AI groups on instances where the AI is incorrect. The authors take this as evidence in support of H2.</p>
 <p>This raises the question of whether “anchoring bias” is the right frame. To avoid lower accuracy when the AI errs, workers would need to ignore the AI completely on those trials, removing the anchor entirely. But that’s unreasonable. The workers were told the AI has 85% accuracy, and their training experience confirmed it.</p>
 <p>“Anchoring” is the wrong label here and “anchoring bias” even more so. If using information degrades a decision, that doesn’t make the use of that information a bias.</p>
@@ -378,7 +378,7 @@ Redelmeier, D. A., and Shafir, E. (1995). Medical decision making in situations 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <figcaption><span class="citation" data-cites="dietvorst2018">Dietvorst et al. (2018)</span> Figure 2b</figcaption>
-<p><a href="img/is-following-ai-advice-anchoring/dietvorst-et-al-2018-fig-2b.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="@dietvorst2018 Figure 2b"><img src="https://www.jasoncollins.blog/posts/img/is-following-ai-advice-anchoring/dietvorst-et-al-2018-fig-2b.png" class="img-fluid figure-img" width="400" alt="Dietvorst et al. (2018) Figure 2b"></a></p>
+<p><a href="img/is-following-ai-advice-anchoring/dietvorst-et-al-2018-fig-2b.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="@dietvorst2018 Figure 2b"><img src="https://blog.jcx.au/posts/img/is-following-ai-advice-anchoring/dietvorst-et-al-2018-fig-2b.png" class="img-fluid figure-img" width="400" alt="Dietvorst et al. (2018) Figure 2b"></a></p>
 </figure>
 </div>
 <p>But how does the performance of those who selected the model compare to the model itself. Here is a chart I have generated from the experimental data provided in the <a href="https://pubsonline.informs.org/doi/suppl/10.1287/mnsc.2016.2643/suppl_file/mnsc.2016.2643-sm-data.zip">supplementary materials</a>. (Again noting that business schools <a href="../posts/why-i-dont-trust-most-human-ai-interaction-experimental-research.html">more often share data</a>.) In the “Adjust by 10” group, the participant’s adjustments were a wash, with their performance on par with the unadjusted model. But for those in the “Change 10” group, their changes increased the error. The AI alone was a stronger performer.</p>
@@ -987,13 +987,13 @@ font-style: inherit;">print</span>(p)</span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><a href="is-following-ai-advice-anchoring-bias_files/figure-html/dietvorst-error-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://www.jasoncollins.blog/posts/is-following-ai-advice-anchoring-bias_files/figure-html/dietvorst-error-1.png" class="img-fluid figure-img" width="672"></a></p>
+<p><a href="is-following-ai-advice-anchoring-bias_files/figure-html/dietvorst-error-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://blog.jcx.au/posts/is-following-ai-advice-anchoring-bias_files/figure-html/dietvorst-error-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
 </div>
 </div>
 </div>
 <p>A meta-analysis by <span class="citation" data-cites="vaccaro2024">Vaccaro et al. (2024)</span> examined 370 effect sizes from 106 studies. Human-AI combinations usually underperformed the better of the two working alone, with the exception of creative tasks where teams more often outperformed individuals.</p>
-<p><a href="img/is-following-ai-advice-anchoring/vaccaro-et-al-2024-fig-1a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://www.jasoncollins.blog/posts/img/is-following-ai-advice-anchoring/vaccaro-et-al-2024-fig-1a.png" class="img-fluid" width="600"></a></p>
+<p><a href="img/is-following-ai-advice-anchoring/vaccaro-et-al-2024-fig-1a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://blog.jcx.au/posts/img/is-following-ai-advice-anchoring/vaccaro-et-al-2024-fig-1a.png" class="img-fluid" width="600"></a></p>
 <p>Bringing this back to the anchoring experiment, if the AI actually had accuracy of 85% as the experimental participants were informed, I suspect we would be talking about a different problem: insufficient anchoring. Anchoring and overadjustment. That’s a very different problem to solve.</p>
 <p>The challenge, therefore, is not reducing “anchoring bias” but recognising when the anchor contains useful information and calibrating how much to adjust. It’s typically a problem of anchors being too weak, not too strong.</p>
 
@@ -1018,13 +1018,13 @@ Tversky, A., and Kahneman, D. (1974). Judgment under Uncertainty: Heuristics and
 Vaccaro, M., Almaatouq, A., and Malone, T. (2024). When combinations of humans and AI are useful: A systematic review and meta-analysis. <em>Nature Human Behaviour</em>, 1–11. <a href="https://doi.org/10.1038/s41562-024-02024-1">https://doi.org/10.1038/s41562-024-02024-1</a>
 </div>
 </div></section></div> ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/is-following-ai-advice-anchoring-bias.html</guid>
+  <guid>https://blog.jcx.au/posts/is-following-ai-advice-anchoring-bias.html</guid>
   <pubDate>Fri, 24 Oct 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>A week of links</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/a-week-of-links-107.html</link>
+  <link>https://blog.jcx.au/posts/a-week-of-links-107.html</link>
   <description><![CDATA[ 
 
 
@@ -1042,13 +1042,13 @@ Vaccaro, M., Almaatouq, A., and Malone, T. (2024). When combinations of humans a
 
 
  ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/a-week-of-links-107.html</guid>
+  <guid>https://blog.jcx.au/posts/a-week-of-links-107.html</guid>
   <pubDate>Fri, 05 Sep 2025 06:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Why I don’t trust most human-AI interaction experimental research</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/why-i-dont-trust-most-human-ai-interaction-experimental-research.html</link>
+  <link>https://blog.jcx.au/posts/why-i-dont-trust-most-human-ai-interaction-experimental-research.html</link>
   <description><![CDATA[ 
 
 
@@ -1090,13 +1090,13 @@ Vaccaro, M., Almaatouq, A., and Malone, T. (2024). When combinations of humans a
 
 
  ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/why-i-dont-trust-most-human-ai-interaction-experimental-research.html</guid>
+  <guid>https://blog.jcx.au/posts/why-i-dont-trust-most-human-ai-interaction-experimental-research.html</guid>
   <pubDate>Wed, 11 Jun 2025 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Economists’ Genetic Blindspot: The Data We’re Not Collecting</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/economists-genetic-blindspot-the-data-were-not-collecting.html</link>
+  <link>https://blog.jcx.au/posts/economists-genetic-blindspot-the-data-were-not-collecting.html</link>
   <description><![CDATA[ 
 
 
@@ -1192,13 +1192,13 @@ Vaccaro, M., Almaatouq, A., and Malone, T. (2024). When combinations of humans a
 </section>
 
  ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/economists-genetic-blindspot-the-data-were-not-collecting.html</guid>
+  <guid>https://blog.jcx.au/posts/economists-genetic-blindspot-the-data-were-not-collecting.html</guid>
   <pubDate>Tue, 27 May 2025 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>A critical behavioural economics and behavioural science reading list</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/a-critical-behavioural-economics-and-behavioural-science-reading-list.html</link>
+  <link>https://blog.jcx.au/posts/a-critical-behavioural-economics-and-behavioural-science-reading-list.html</link>
   <description><![CDATA[ 
 
 
@@ -1308,13 +1308,13 @@ Vaccaro, M., Almaatouq, A., and Malone, T. (2024). When combinations of humans a
 </section>
 
  ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/a-critical-behavioural-economics-and-behavioural-science-reading-list.html</guid>
+  <guid>https://blog.jcx.au/posts/a-critical-behavioural-economics-and-behavioural-science-reading-list.html</guid>
   <pubDate>Wed, 19 Feb 2025 02:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Books I read in 2024</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/books-i-read-in-2024.html</link>
+  <link>https://blog.jcx.au/posts/books-i-read-in-2024.html</link>
   <description><![CDATA[ 
 
 
@@ -1392,13 +1392,13 @@ Vaccaro, M., Almaatouq, A., and Malone, T. (2024). When combinations of humans a
 
 
  ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/books-i-read-in-2024.html</guid>
+  <guid>https://blog.jcx.au/posts/books-i-read-in-2024.html</guid>
   <pubDate>Fri, 17 Jan 2025 07:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Human-AI collaboration: is it better when the human is asleep at the wheel?</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/human-ai-collaboration-is-it-better-when-the-human-is-asleep-at-the-wheel.html</link>
+  <link>https://blog.jcx.au/posts/human-ai-collaboration-is-it-better-when-the-human-is-asleep-at-the-wheel.html</link>
   <description><![CDATA[ 
 
 
@@ -1436,14 +1436,14 @@ Vaccaro, M., Almaatouq, A., and Malone, T. (2024). When combinations of humans a
 </section>
 
  ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/human-ai-collaboration-is-it-better-when-the-human-is-asleep-at-the-wheel.html</guid>
+  <guid>https://blog.jcx.au/posts/human-ai-collaboration-is-it-better-when-the-human-is-asleep-at-the-wheel.html</guid>
   <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://www.jasoncollins.blog/posts/img/asleep-at-the-wheel.webp" medium="image" type="image/webp"/>
+  <media:content url="https://blog.jcx.au/posts/img/asleep-at-the-wheel.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>What we learn when we test everything</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/what-we-learn-when-we-test-everything.html</link>
+  <link>https://blog.jcx.au/posts/what-we-learn-when-we-test-everything.html</link>
   <description><![CDATA[ 
 
 
@@ -1457,9 +1457,9 @@ Vaccaro, M., Almaatouq, A., and Malone, T. (2024). When combinations of humans a
 <p>They offered $1 million to the team that could develop an algorithm that could predict film ratings with 10% better accuracy than Netflix’s own model. The competition began in October 2006, and by June 2007 over 20 000 teams had registered for the competition and 2000 teams had submitted predictions. The prize was <a href="https://web.archive.org/web/20090926213457/http://www.netflixprize.com/leaderboard">claimed in 2009</a>, albeit the prize algorithm was never implemented by Netflix.</p>
 <p>Competitions of this nature now underpin much progress in artificial intelligence. Many date the genesis of the current AI boom to the success of the deep convolutional neural net called AlexNet in the <a href="https://www.image-net.org/challenges/LSVRC/2012/results.html">2012 edition</a> of the <a href="https://www.image-net.org/challenges/LSVRC/index.php">ImageNet Large Scale Visual Recognition Challenge</a>.</p>
 <p><a href="https://www.kaggle.com/">Kaggle</a> has industrialised the running of these competitions for private and government entities. The organisation submits a problem and data, and competitors compete to develop the best algorithm. This <a href="https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-2">Math Olympiad competition</a> is running now. You can see that 1754 submissions had already been made by participants at the time I took this snapshot.</p>
-<p><a href="img/what-we-learn-when-we-test-everything/kaggle-math-olympiad.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/what-we-learn-when-we-test-everything/kaggle-math-olympiad.png" class="img-fluid" style="width:80.0%"></a></p>
+<p><a href="img/what-we-learn-when-we-test-everything/kaggle-math-olympiad.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://blog.jcx.au/posts/img/what-we-learn-when-we-test-everything/kaggle-math-olympiad.png" class="img-fluid" style="width:80.0%"></a></p>
 <p>We have also seen informal competitions emerge, such as the measuring of generative AI against standardised benchmarks. When a new version of Claude, ChatGPT, Gemini or Llama is released, they often release measures of their performance against these benchmarks, such as <a href="https://www.anthropic.com/news/3-5-models-and-computer-use">in this screenshot</a>.</p>
-<p><a href="img/what-we-learn-when-we-test-everything/claude-benchmarking.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://www.jasoncollins.blog/posts/img/what-we-learn-when-we-test-everything/claude-benchmarking.png" class="img-fluid" style="width:60.0%"></a></p>
+<p><a href="img/what-we-learn-when-we-test-everything/claude-benchmarking.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://blog.jcx.au/posts/img/what-we-learn-when-we-test-everything/claude-benchmarking.png" class="img-fluid" style="width:60.0%"></a></p>
 <p>The approach that underpins these competitions and comparisons is known as the common task framework. Researchers compete to solve the a problem using the same dataset, with each measured against the same scale.</p>
 <p>There are many benefits to the common task framework. We have objective measures of performance. We can see what is the state of the art. We can compare apples with apples.</p>
 <p>There are also some downsides to the common task framework that I will come to later.</p>
@@ -1476,7 +1476,7 @@ Vaccaro, M., Almaatouq, A., and Malone, T. (2024). When combinations of humans a
 <p>To illustrate, let me walk through the highest-profile megastudy, which as I hinted was published in Nature.</p>
 <p>Katherine Milkman and friends <span class="citation" data-cites="milkman2021">(2021a)</span> tested 54 interventions to increase the gym visits of 61,000 experimental participants.</p>
 <p>Members of a national gym chain were asked if they wished to enrol in a “habit-building science-based workout program”. Those who signed up formed the subject pool and were randomly assigned to the experimental conditions, including a control under which they received no further contact.</p>
-<p><a href="img/what-we-learn-when-we-test-everything/milkman_et_al_2021_signup.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://www.jasoncollins.blog/posts/img/what-we-learn-when-we-test-everything/milkman_et_al_2021_signup.png" class="img-fluid" style="width:60.0%"></a></p>
+<p><a href="img/what-we-learn-when-we-test-everything/milkman_et_al_2021_signup.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://blog.jcx.au/posts/img/what-we-learn-when-we-test-everything/milkman_et_al_2021_signup.png" class="img-fluid" style="width:60.0%"></a></p>
 <p>Over the following 28-days participants were subject to interventions involving varying mixes of incentives and messages. For example, those in the “Social norm (high and increasing)” treatment group received six text message reminders, with content such as:</p>
 <blockquote class="blockquote">
 <p>Trivia time! What percent of Americans exercised at least 3 times per week in 2016? Reply 1 for 61%, 2 for 64%, 3 for 70% or 4 for 73%.</p>
@@ -1496,7 +1496,7 @@ Vaccaro, M., Almaatouq, A., and Malone, T. (2024). When combinations of humans a
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <figcaption>Milkman et al.&nbsp;(2021a) Figure 1</figcaption>
-<p><a href="img/what-we-learn-when-we-test-everything/milkman_et_al_2021_figure_1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Milkman et al.&nbsp;(2021a) Figure 1"><img src="https://www.jasoncollins.blog/posts/img/what-we-learn-when-we-test-everything/milkman_et_al_2021_figure_1.jpeg" class="img-fluid figure-img" style="width:90.0%" alt="Milkman et al.&nbsp;(2021a) Figure 1"></a></p>
+<p><a href="img/what-we-learn-when-we-test-everything/milkman_et_al_2021_figure_1.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Milkman et al.&nbsp;(2021a) Figure 1"><img src="https://blog.jcx.au/posts/img/what-we-learn-when-we-test-everything/milkman_et_al_2021_figure_1.jpeg" class="img-fluid figure-img" style="width:90.0%" alt="Milkman et al.&nbsp;(2021a) Figure 1"></a></p>
 </figure>
 </div>
 <p>Twenty-four of the 53 interventions were found to have a statistically significant effect over the control of no messages, increasing visits by between 9% and 27%. That equates to 0.14 to 0.40 extra weekly gym visits over the control average of 1.48 visits per week.</p>
@@ -1512,7 +1512,7 @@ Vaccaro, M., Almaatouq, A., and Malone, T. (2024). When combinations of humans a
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <figcaption>Milkman et al.&nbsp;(2021) Figure 1</figcaption>
-<p><a href="img/what-we-learn-when-we-test-everything/milkman_et_al_2021a_fig_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Milkman et al.&nbsp;(2021) Figure 1"><img src="https://www.jasoncollins.blog/posts/img/what-we-learn-when-we-test-everything/milkman_et_al_2021a_fig_1.jpg" class="img-fluid figure-img" style="width:75.0%" alt="Milkman et al.&nbsp;(2021) Figure 1"></a></p>
+<p><a href="img/what-we-learn-when-we-test-everything/milkman_et_al_2021a_fig_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Milkman et al.&nbsp;(2021) Figure 1"><img src="https://blog.jcx.au/posts/img/what-we-learn-when-we-test-everything/milkman_et_al_2021a_fig_1.jpg" class="img-fluid figure-img" style="width:75.0%" alt="Milkman et al.&nbsp;(2021) Figure 1"></a></p>
 </figure>
 </div>
 <p>Beyond giving us direct comparability, there are some other nice features about megastudies. There are economies to scale: while an individual megastudy is a large exercise, the cost can be lower on a per-intervention basis.</p>
@@ -1563,7 +1563,7 @@ Vaccaro, M., Almaatouq, A., and Malone, T. (2024). When combinations of humans a
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <figcaption><a href="https://aiindex.stanford.edu/wp-content/uploads/2024/04/HAI_AI-Index-Report-2024_Chapter2.pdf">AI Index 2024</a></figcaption>
-<p><a href="img/what-we-learn-when-we-test-everything/ai-index-2024.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="AI Index 2024"><img src="https://www.jasoncollins.blog/posts/img/what-we-learn-when-we-test-everything/ai-index-2024.png" class="img-fluid figure-img" alt="AI Index 2024"></a></p>
+<p><a href="img/what-we-learn-when-we-test-everything/ai-index-2024.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="AI Index 2024"><img src="https://blog.jcx.au/posts/img/what-we-learn-when-we-test-everything/ai-index-2024.png" class="img-fluid figure-img" alt="AI Index 2024"></a></p>
 </figure>
 </div>
 <p>Can we bring the megastudy even closer to the common task approach? Common task tournaments typically create an open playing field by making the dataset generally available. Anyone can enter. People can have multiple cracks.</p>
@@ -1588,14 +1588,14 @@ Milkman, K. L., Gromet, D., Ho, H., Kay, J. S., Lee, T. W., … Duckworth, A. L.
 Milkman, K. L., Patel, M. S., Gandhi, L., Graci, H. N., Gromet, D. M., … Duckworth, A. L. (2021b). A megastudy of text-based nudges encouraging patients to get vaccinated at an upcoming doctor<span>’</span>s appointment. <em>Proceedings of the National Academy of Sciences</em>, <em>118</em>(20), e2101165118. <a href="https://doi.org/10.1073/pnas.2101165118">https://doi.org/10.1073/pnas.2101165118</a>
 </div>
 </div></section></div> ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/what-we-learn-when-we-test-everything.html</guid>
+  <guid>https://blog.jcx.au/posts/what-we-learn-when-we-test-everything.html</guid>
   <pubDate>Wed, 13 Nov 2024 06:00:00 GMT</pubDate>
-  <media:content url="https://www.jasoncollins.blog/posts/img/what-we-learn-when-we-test-everything/milkman_et_al_2021_figure_1.jpeg" medium="image" type="image/jpeg"/>
+  <media:content url="https://blog.jcx.au/posts/img/what-we-learn-when-we-test-everything/milkman_et_al_2021_figure_1.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>The human benchmark is typically unimpressive</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/the-human-benchmark-is-typically-unimpressive.html</link>
+  <link>https://blog.jcx.au/posts/the-human-benchmark-is-typically-unimpressive.html</link>
   <description><![CDATA[ 
 
 
@@ -1607,7 +1607,7 @@ Milkman, K. L., Patel, M. S., Gandhi, L., Graci, H. N., Gromet, D. M., … Duckw
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <figcaption>Distribution of Average Quality and Empathy Ratings for Chatbot and Physician Responses to Patient Questions</figcaption>
-<p><a href="img/ayers-et-al-2023-figure.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Distribution of Average Quality and Empathy Ratings for Chatbot and Physician Responses to Patient Questions"><img src="https://www.jasoncollins.blog/posts/img/ayers-et-al-2023-figure.png" class="img-fluid figure-img" alt="Distribution of Average Quality and Empathy Ratings for Chatbot and Physician Responses to Patient Questions"></a></p>
+<p><a href="img/ayers-et-al-2023-figure.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Distribution of Average Quality and Empathy Ratings for Chatbot and Physician Responses to Patient Questions"><img src="https://blog.jcx.au/posts/img/ayers-et-al-2023-figure.png" class="img-fluid figure-img" alt="Distribution of Average Quality and Empathy Ratings for Chatbot and Physician Responses to Patient Questions"></a></p>
 </figure>
 </div>
 <p>I <a href="https://doi.org/10.7910/DVN/BZARC3">downloaded the csv file</a> of the responses. The most striking feature was the brevity and curtness of the humans (52 words average compared to 211 for ChatGPT). Here are a few of the human responses.</p>
@@ -1642,14 +1642,14 @@ Milkman, K. L., Patel, M. S., Gandhi, L., Graci, H. N., Gromet, D. M., … Duckw
 Ayers, J. W., Poliak, A., Dredze, M., Leas, E. C., Zhu, Z., … Smith, D. M. (2023). Comparing physician and artificial intelligence chatbot responses to patient questions posted to a public social media forum. <em>JAMA Internal Medicine</em>, <em>183</em>(6), 589–596. <a href="https://doi.org/10.1001/jamainternmed.2023.1838">https://doi.org/10.1001/jamainternmed.2023.1838</a>
 </div>
 </div></section></div> ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/the-human-benchmark-is-typically-unimpressive.html</guid>
+  <guid>https://blog.jcx.au/posts/the-human-benchmark-is-typically-unimpressive.html</guid>
   <pubDate>Sun, 27 Oct 2024 23:00:00 GMT</pubDate>
-  <media:content url="https://www.jasoncollins.blog/posts/img/ayers-et-al-2023-figure.png" medium="image" type="image/png" height="61" width="144"/>
+  <media:content url="https://blog.jcx.au/posts/img/ayers-et-al-2023-figure.png" medium="image" type="image/png" height="61" width="144"/>
 </item>
 <item>
   <title>A comment on the manifesto for behavioural science</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/a-comment-on-the-manifesto-for-behavioural-science.html</link>
+  <link>https://blog.jcx.au/posts/a-comment-on-the-manifesto-for-behavioural-science.html</link>
   <description><![CDATA[ 
 
 
@@ -1661,7 +1661,7 @@ Ayers, J. W., Poliak, A., Dredze, M., Leas, E. C., Zhu, Z., … Smith, D. M. (20
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <figcaption>Hallsworth (2023) Figure 1</figcaption>
-<p><a href="img/manifesto-figure-1.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Hallsworth (2023) Figure 1"><img src="https://www.jasoncollins.blog/posts/img/manifesto-figure-1.webp" class="img-fluid figure-img" style="width:80.0%" alt="Hallsworth (2023) Figure 1"></a></p>
+<p><a href="img/manifesto-figure-1.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Hallsworth (2023) Figure 1"><img src="https://blog.jcx.au/posts/img/manifesto-figure-1.webp" class="img-fluid figure-img" style="width:80.0%" alt="Hallsworth (2023) Figure 1"></a></p>
 </figure>
 </div>
 <p>The Behavioural Insights Team also published a <a href="https://www.bi.team/wp-content/uploads/2023/04/BIT_Manifesto.pdf">longer version</a> of the manifesto, plus a <a href="https://www.bi.team/wp-content/uploads/2023/03/Manifesto-Summary.pdf">summary document</a>. Hallsworth gave me the opportunity to comment on a draft of the long-form manifesto, so I have a small insight into its development.</p>
@@ -1769,14 +1769,14 @@ Rogers, N. T., Cummins, S., Forde, H., Jones, C. P., Mytton, O., … Adams, J. (
 Wilkins, R., Vera-Toscano, E., Botha, F., and Dahmann, S. C. (2021). <em>The Household, Income and Labour Dynamics in Australia Survey: Selected Findings from Waves 1 to 19</em>. <a href="https://melbourneinstitute.unimelb.edu.au/__data/assets/pdf_file/0009/3963249/HILDA-Statistical-Report-2021.pdf">https://melbourneinstitute.unimelb.edu.au/__data/assets/pdf_file/0009/3963249/HILDA-Statistical-Report-2021.pdf</a>
 </div>
 </div></section></div> ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/a-comment-on-the-manifesto-for-behavioural-science.html</guid>
+  <guid>https://blog.jcx.au/posts/a-comment-on-the-manifesto-for-behavioural-science.html</guid>
   <pubDate>Thu, 24 Oct 2024 23:00:00 GMT</pubDate>
-  <media:content url="https://www.jasoncollins.blog/posts/img/manifesto-figure-1.webp" medium="image" type="image/webp"/>
+  <media:content url="https://blog.jcx.au/posts/img/manifesto-figure-1.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>Subject notes on behavioural economics</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/subject-notes-on-behavioural-economics.html</link>
+  <link>https://blog.jcx.au/posts/subject-notes-on-behavioural-economics.html</link>
   <description><![CDATA[ 
 
 
@@ -1793,14 +1793,14 @@ Wilkins, R., Vera-Toscano, E., Botha, F., and Dahmann, S. C. (2021). <em>The Hou
 
 
  ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/subject-notes-on-behavioural-economics.html</guid>
+  <guid>https://blog.jcx.au/posts/subject-notes-on-behavioural-economics.html</guid>
   <pubDate>Thu, 08 Aug 2024 06:00:00 GMT</pubDate>
-  <media:content url="https://www.jasoncollins.blog/posts/img/notes-in-be.webp" medium="image" type="image/webp"/>
+  <media:content url="https://blog.jcx.au/posts/img/notes-in-be.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>The illusion of evidence-based nudges</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/the-illusion-of-evidence-based-nudges.html</link>
+  <link>https://blog.jcx.au/posts/the-illusion-of-evidence-based-nudges.html</link>
   <description><![CDATA[ 
 
 
@@ -1815,7 +1815,7 @@ Wilkins, R., Vera-Toscano, E., Botha, F., and Dahmann, S. C. (2021). <em>The Hou
 <p>There is no difference in adoption for results with negative point estimates (25% adoption), results with positive but not statistically significant estimates (25%), and estimates that are positive and statistically significant (30%). The likelihood of adoption increases with effect size (measured in percentage points), from 17% in the bottom third to 38% in the top third, though this difference is not statistically significant at conventional levels.</p>
 </blockquote>
 <p>My cynical take is that running trials with nudge units is cool. Despite more than a decade of nudge unit stories, behavioural insights is still a “shiny new thing” and are a way to say “we’re doing science” The hard work of implementing or scaling an intervention simply isn’t as sexy.</p>
-<p><a href="img/dellavigna-et-al-2024-fig-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/img/dellavigna-et-al-2024-fig-3.png" class="img-fluid"></a></p>
+<p><a href="img/dellavigna-et-al-2024-fig-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://blog.jcx.au/posts/img/dellavigna-et-al-2024-fig-3.png" class="img-fluid"></a></p>
 
 
 
@@ -1825,14 +1825,14 @@ Wilkins, R., Vera-Toscano, E., Botha, F., and Dahmann, S. C. (2021). <em>The Hou
 DellaVigna, S., Kim, W., and Linos, E. (2024). Bottlenecks for evidence adoption. <em>Journal of Political Economy</em>, 000–000. <a href="https://doi.org/10.1086/729447">https://doi.org/10.1086/729447</a>
 </div>
 </div></section></div> ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/the-illusion-of-evidence-based-nudges.html</guid>
+  <guid>https://blog.jcx.au/posts/the-illusion-of-evidence-based-nudges.html</guid>
   <pubDate>Thu, 01 Aug 2024 09:00:00 GMT</pubDate>
-  <media:content url="https://www.jasoncollins.blog/posts/img/dellavigna-et-al-2024-fig-3.png" medium="image" type="image/png" height="123" width="144"/>
+  <media:content url="https://blog.jcx.au/posts/img/dellavigna-et-al-2024-fig-3.png" medium="image" type="image/png" height="123" width="144"/>
 </item>
 <item>
   <title>Humans 1, Chimps 0: Correcting the Record</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/humans-1-chimps-0-correcting-the-record.html</link>
+  <link>https://blog.jcx.au/posts/humans-1-chimps-0-correcting-the-record.html</link>
   <description><![CDATA[ 
 
 
@@ -1873,14 +1873,14 @@ Read, D. W., Manrique, H. M., and Walker, M. J. (2022). On the working memory of
 Silberberg, A., and Kearns, D. (2009). Memory for the order of briefly presented numerals in humans as a function of practice. <em>Animal Cognition</em>, <em>12</em>(2), 405–407. <a href="https://doi.org/10.1007/s10071-008-0206-8">https://doi.org/10.1007/s10071-008-0206-8</a>
 </div>
 </div></section></div> ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/humans-1-chimps-0-correcting-the-record.html</guid>
+  <guid>https://blog.jcx.au/posts/humans-1-chimps-0-correcting-the-record.html</guid>
   <pubDate>Wed, 24 Jul 2024 22:00:00 GMT</pubDate>
-  <media:content url="https://www.jasoncollins.blog/posts/img/ayumu.png" medium="image" type="image/png" height="98" width="144"/>
+  <media:content url="https://blog.jcx.au/posts/img/ayumu.png" medium="image" type="image/png" height="98" width="144"/>
 </item>
 <item>
   <title>Using generative AI as an academic - July 2024 edition</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/using-generative-AI-as-academic-july-2024-edition.html</link>
+  <link>https://blog.jcx.au/posts/using-generative-AI-as-academic-july-2024-edition.html</link>
   <description><![CDATA[ 
 
 
@@ -2108,7 +2108,7 @@ font-style: inherit;">"Weight"</span>)</span></code></pre></div></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><a href="using-generative-AI-as-academic-july-2024-edition_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://www.jasoncollins.blog/posts/using-generative-AI-as-academic-july-2024-edition_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></a></p>
+<p><a href="using-generative-AI-as-academic-july-2024-edition_files/figure-html/unnamed-chunk-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://blog.jcx.au/posts/using-generative-AI-as-academic-july-2024-edition_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
 </div>
 </div>
@@ -2174,14 +2174,14 @@ font-style: inherit;">"Weight"</span>)</span></code></pre></div></div>
 Prelec, D. (1998). The probability weighting function. <em>Econometrica</em>, <em>66</em>(3), 497–527. <a href="https://doi.org/10.2307/2998573">https://doi.org/10.2307/2998573</a>
 </div>
 </div></section></div> ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/using-generative-AI-as-academic-july-2024-edition.html</guid>
+  <guid>https://blog.jcx.au/posts/using-generative-AI-as-academic-july-2024-edition.html</guid>
   <pubDate>Mon, 15 Jul 2024 09:00:00 GMT</pubDate>
-  <media:content url="https://www.jasoncollins.blog/posts/img/gen-AI.webp" medium="image" type="image/webp"/>
+  <media:content url="https://blog.jcx.au/posts/img/gen-AI.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>The psychological and genes’ eye view of ergodicity economics</title>
   <dc:creator>Jason Collins</dc:creator>
-  <link>https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics.html</link>
+  <link>https://blog.jcx.au/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics.html</link>
   <description><![CDATA[ 
 
 
@@ -2778,7 +2778,7 @@ font-style: inherit;">20</span>)</span>
 Figure&nbsp;1: Plot of first 20 people against average wealth
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: Plot of first 20 people against average wealth"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-1-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-1-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: Plot of first 20 people against average wealth"><img src="https://blog.jcx.au/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-1-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -2846,7 +2846,7 @@ font-style: inherit;">"100000"</span>))</span>
 Figure&nbsp;2: Plot of first 20 people against average wealth (log scale)
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-2-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;2: Plot of first 20 people against average wealth (log scale)"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-2-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-2-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;2: Plot of first 20 people against average wealth (log scale)"><img src="https://blog.jcx.au/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-2-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -3163,7 +3163,7 @@ font-style: inherit;">20</span>)</span>
 Figure&nbsp;3: Average wealth of population and path of first 20 people
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-3-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;3: Average wealth of population and path of first 20 people"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-3-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-3-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;3: Average wealth of population and path of first 20 people"><img src="https://blog.jcx.au/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-3-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -3366,12 +3366,12 @@ font-style: inherit;">1000</span>)</span></code></pre></div></div>
 <p>The advocates of ergodicity economics have applied this claim to a range of economics problems.</p>
 <p><span class="citation" data-cites="peters2023">Peters (2023)</span> argues that we can think of insurance as a tool to make wealth grow faster rather than as protection for the risk averse. This plot shows the outcomes for agents facing a 5% probability of a loss of 95% of their wealth each period. Uninsured agents experience ruinous path over time, losing far more than would be implied by the expected value. Those who insure at a cost experience a slower decline.</p>
 <p>As an aside, I do find these numbers quite comical: 2500 periods with a 5% probability of loss, leading to an expected value of around <img src="https://latex.codecogs.com/png.latex?10%5E%7B-70%7D"> times the initial wealth even under the insured scenario. The expected-value optimisers, even if they stated with every atom in the universe, would be left with a fraction of an atom by the end.</p>
-<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/peters-2023-figure-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://www.jasoncollins.blog/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/peters-2023-figure-3.png" class="img-fluid" style="width:60.0%"></a></p>
+<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/peters-2023-figure-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://blog.jcx.au/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/peters-2023-figure-3.png" class="img-fluid" style="width:60.0%"></a></p>
 <p><span class="citation" data-cites="peters2022">Peters and Adamou (2022)</span> similarly propose a desire to maximise the growth rate as the origin of cooperative behaviour. Here, the green trajectories are the selfish agents, the blue line the cooperators. In some ways, this is just the insurance problem reframed.</p>
-<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/peters-and-adamou-2022-figure-2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://www.jasoncollins.blog/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/peters-and-adamou-2022-figure-2.png" class="img-fluid" style="width:60.0%"></a></p>
+<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/peters-and-adamou-2022-figure-2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://blog.jcx.au/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/peters-and-adamou-2022-figure-2.png" class="img-fluid" style="width:60.0%"></a></p>
 <p>One of the more interesting examples concerns time preference. <span class="citation" data-cites="adamou2021">Adamou et al. (2021)</span> use growth rate maximisation as an explanation for exponential discounting, hyperbolic discounting and preference reversals, depending on the particular wealth dynamic.</p>
 <p>I won’t cover all the scenarios, but this image captures a situation where an agent in an additive world has a choice between a smaller sooner and a larger later pay-off. This agent seeks to maximise the growth rate of their wealth. From the perspective of <img src="https://latex.codecogs.com/png.latex?t_0"> the larger later pay-off provides a higher growth rate, which is equal to the slope of the line extended to the top of that pay-off. By the third frame, as the agent moves closer to the smaller, sooner pay-off, the higher growth rate now comes from that early pay-off. They have reversed their preference.</p>
-<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/adamou-et-al-2021-figure-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://www.jasoncollins.blog/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/adamou-et-al-2021-figure-3.png" class="img-fluid"></a></p>
+<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/adamou-et-al-2021-figure-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://blog.jcx.au/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/adamou-et-al-2021-figure-3.png" class="img-fluid"></a></p>
 <p>It is when seeing ideas such as this that the suggestion that ergodicity economics is a “psychology free” seem slightly ridiculous. The agent must be myopic to be unable to see their upcoming preference reversal, or to realise the foregone larger opportunity on the other side of that smaller sooner payment.</p>
 </section>
 </section>
@@ -3381,10 +3381,10 @@ font-style: inherit;">1000</span>)</span></code></pre></div></div>
 <p>That first experiment was subject to many criticisms, including by me, so <span class="citation" data-cites="skjold">Skjold et al. (2024)</span> designed a new experiment. A pre-print describing the results from this experiment was released at the end of May. Some of the criticisms have been addressed in this new experiment, and the result is interesting.</p>
 <p>Experimental participants were randomised to an additive or multiplicative environment where they were asked to make a series of bets. After making the bets in one environment, they were crossed over to the other.</p>
 <p>At the beginning of the additive and multiplicative session, participants were trained on a set of fractal images, each of which had a specific effect on their endowment: multiplication by some fraction in the multiplicative session, or addition or subtraction of some sum in the additive session. Participants were then tested on whether they had learnt the ordering of the fractals, with the subset of participants with low learning excluded from the analysis. This image shows the training procedure, which essentially comprises exposure to the fractal and then an update to their wealth.</p>
-<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://www.jasoncollins.blog/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-1.png" class="img-fluid"></a></p>
+<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://blog.jcx.au/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-1.png" class="img-fluid"></a></p>
 <p>This use of fractals instead of numbers is one of the confounding factors that could influence the results: we have introduced ambiguity into the subsequent decisions. It was one of my critiques of the original experiment, but I clearly wasn’t very persuasive. Anyhow, let’s ignore that for now.</p>
 <p>Participants then proceeded to their decision task, where they had to choose between gambles, each of which is represented by two of the fractal images. Over a sequence of 160 decisions, they would be shown the gambles, make their choice, be shown the outcome of the gamble, then see the effect of the outcome on their wealth.</p>
-<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://www.jasoncollins.blog/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-4.png" class="img-fluid"></a></p>
+<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://blog.jcx.au/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-4.png" class="img-fluid"></a></p>
 <p>You can watch a video of the training and decision task below. (I didn’t show this video in the presentation.)</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/uLGA4Ym-OYA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <p>Participants were incentivised by being paid their relative proportion of points compared to a rolling window of 10 participants. Another exhibit of “why do we make experimental incentives so complicated” and another confound to the experimental result. By rewarding on proportional access to a pool, they have introduced diminishing gains and a cap on winnings. But again, I’ll ignore that for today.</p>
@@ -3392,7 +3392,7 @@ font-style: inherit;">1000</span>)</span></code></pre></div></div>
 <p><img src="https://latex.codecogs.com/png.latex?%0Af_%7B%5Ceta%7D(x)=%5Cbegin%7Bcases%7D%0A%5Cfrac%7Bx%5E%7B1-%5Ceta%7D%20-%201%7D%7B1-%5Ceta%7D%20&amp;%20%5Ctext%7Bif%20%7D%20%5Ceta%20%5Cneq%201%20%5C%5C%5B6pt%5D%0A%5Cln(x)%20&amp;%20%5Ctext%7Bif%20%7D%20%5Ceta%20=%201%0A%5Cend%7Bcases%7D%0A"></p>
 <p>What would we predict the value of <img src="https://latex.codecogs.com/png.latex?%5Ceta"> to be in this experiment? Expected utility theory is quiet on the precise value. The ergodicity economics approach, however, gives us a prediction. First, <img src="https://latex.codecogs.com/png.latex?%5Ceta"> will be one in the multiplicative condition, as log utility maximises the growth rate. Second, <img src="https://latex.codecogs.com/png.latex?%5Ceta"> will be zero in the additive condition. The growth rate is maximised in an additive environment by risk neutral behaviour.</p>
 <p>This chart shows the result. Thin lines represent individual participants. The thick lines represent the aggregate. For the additive scenario, participants were close to risk neutral: the aggregate estimate of <img src="https://latex.codecogs.com/png.latex?%5Ceta"> was 0.1. For the multiplicative condition, although there was a wider distribution of values, the central estimate of <img src="https://latex.codecogs.com/png.latex?%5Ceta"> was one.</p>
-<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-7c.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://www.jasoncollins.blog/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-7c.png" class="img-fluid"></a></p>
+<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-7c.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://blog.jcx.au/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/skjold-et-al-2024-figure-7c.png" class="img-fluid"></a></p>
 <p>Despite the elements of this experiment that I would do differently - I have only hinted at a couple - this is a strong result.</p>
 <p>If the ergodocity economics hypotheis is correct, it is worth thinking about what this means psychologically.</p>
 <p>When modelling the utility function, the researchers took the value of <img src="https://latex.codecogs.com/png.latex?x"> to be the participant’s experimental wealth at the time the participant makes their decision. It is the initial endowment, plus or minus the results of the previous bets. <img src="https://latex.codecogs.com/png.latex?x"> does not include outside wealth.</p>
@@ -3717,7 +3717,7 @@ font-style: inherit;">"Population"</span>)</span>
 Figure&nbsp;4: Population of accepting types
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-8-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Figure&nbsp;4: Population of accepting types"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-8-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-8-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Figure&nbsp;4: Population of accepting types"><img src="https://blog.jcx.au/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-8-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -3958,7 +3958,7 @@ font-style: inherit;">"none"</span>)</span>
 Figure&nbsp;5: Population of accepting types with mutation
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-9-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-9-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Figure&nbsp;5: Population of accepting types with mutation"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-9-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-9-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Figure&nbsp;5: Population of accepting types with mutation"><img src="https://blog.jcx.au/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-9-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -4054,7 +4054,7 @@ font-style: inherit;">"none"</span>)</span>
 Figure&nbsp;6: Population of accepting types with mutation (first 30 periods for first 10 agents)
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-10-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-10-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Figure&nbsp;6: Population of accepting types with mutation (first 30 periods for first 10 agents)"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-10-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-10-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Figure&nbsp;6: Population of accepting types with mutation (first 30 periods for first 10 agents)"><img src="https://blog.jcx.au/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-10-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -4092,7 +4092,7 @@ font-style: inherit;">20</span>)</span>
 Figure&nbsp;7: Population of accepting types over 1000 periods
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-11-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-11-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="Figure&nbsp;7: Population of accepting types over 1000 periods"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-11-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-11-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="Figure&nbsp;7: Population of accepting types over 1000 periods"><img src="https://blog.jcx.au/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-11-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -4142,7 +4142,7 @@ font-style: inherit;">"100000"</span>))</span>
 Figure&nbsp;8: Population of accepting types over 1000 periods (log scale)
 </figcaption>
 <div aria-describedby="fig-ergodicity-presentation-12-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-12-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="Figure&nbsp;8: Population of accepting types over 1000 periods (log scale)"><img src="https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-12-1.png" class="img-fluid figure-img" width="672"></a>
+<a href="the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-12-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="Figure&nbsp;8: Population of accepting types over 1000 periods (log scale)"><img src="https://blog.jcx.au/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics_files/figure-html/fig-ergodicity-presentation-12-1.png" class="img-fluid figure-img" width="672"></a>
 </div>
 </figure>
 </div>
@@ -4156,15 +4156,15 @@ Figure&nbsp;8: Population of accepting types over 1000 periods (log scale)
 <p>The particular example I am going to pick is a bit cartoonish, and comes from Andrew Lo’s <a href="ADD_LINK">Adaptive Markets</a>. This in turn draws on a more technical paper by Thomas Brennan and Lo <span class="citation" data-cites="brennan2011">(2011)</span> published in The Quarterly Journal of Finance to explain the evolution of probability matching. You can find other earlier examples in the literature, such as by <span class="citation" data-cites="cooper1982">Cooper and Kaplan (1982)</span> in The Journal of Theoretical Biology.</p>
 <p>The example concerns an animal called the tribble. For amusement, I chucked an earlier draft of this presentation into ChatGPT and asked it to illustrate it. Most of what it produced was unusable, but I’ve kept a couple of images for which I thought it did a good job.</p>
 <p>Tribbles live in a region comprising valleys and plateaus. Tribbles reproduce once in their life (producing three offspring asexually) and must choose whether to reproduce in the valley or on the plateau. This is a risky decision, however, as the valleys are affected by floods and the plateaus by drought.</p>
-<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/tribbles.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img src="https://www.jasoncollins.blog/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/tribbles.webp" class="img-fluid" width="512"></a></p>
+<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/tribbles.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img src="https://blog.jcx.au/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/tribbles.webp" class="img-fluid" width="512"></a></p>
 <p>Each generation there is a 75 per cent probability of sun. In such a case, the tribbles born on the plateau perish. The other 25 per cent of the time, it rains, leading to flood in the valleys and the death of those tribbles breeding there.</p>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/flood.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img src="https://www.jasoncollins.blog/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/flood.webp" class="img-fluid"></a></p>
+<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/flood.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img src="https://blog.jcx.au/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/flood.webp" class="img-fluid"></a></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/drought.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img src="https://www.jasoncollins.blog/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/drought.webp" class="img-fluid"></a></p>
+<p><a href="img/the-psychological-and-genes-eye-view-of-ergodicity-economics/drought.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img src="https://blog.jcx.au/posts/img/the-psychological-and-genes-eye-view-of-ergodicity-economics/drought.webp" class="img-fluid"></a></p>
 </div>
 </div>
 </div>
@@ -4235,7 +4235,7 @@ Robson, A. J., and Samuelson, L. (2011). <em>The evolutionary foundations of pre
 Skjold, B., Steinkamp, S., Connaughton, C., Hulme, O. J., and Peters, O. (2024). <em>Ergodicity transformations predict human decision-making under risk</em>. <a href="https://doi.org/10.31219/osf.io/c96yd">https://doi.org/10.31219/osf.io/c96yd</a>
 </div>
 </div></section></div> ]]></description>
-  <guid>https://www.jasoncollins.blog/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics.html</guid>
+  <guid>https://blog.jcx.au/posts/the-psychological-and-genes-eye-view-of-ergodicity-economics.html</guid>
   <pubDate>Mon, 08 Jul 2024 10:00:00 GMT</pubDate>
 </item>
 </channel>
